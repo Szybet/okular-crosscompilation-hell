@@ -1,0 +1,7 @@
+description: Plasma applet for software updates using PackageKit
+hasrepo: true
+identifier: plasma-pk-updates
+name: Plasma PackageKit Updates
+projectpath: playground/base/plasma-pk-updates
+repoactive: true
+repopath: system/plasma-pk-updates

@@ -1,0 +1,7 @@
+description: Website for Plasma
+hasrepo: true
+identifier: websites-plasma-kde-org
+name: Plasma Website
+projectpath: websites/plasma-kde-org
+repoactive: false
+repopath: websites/plasma-kde-org

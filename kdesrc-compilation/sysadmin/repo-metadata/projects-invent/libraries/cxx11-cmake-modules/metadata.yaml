@@ -1,0 +1,7 @@
+description: CMake modules for detecting C++11 features supported by the compiler
+hasrepo: true
+identifier: cxx11-cmake-modules
+name: CMake CXX11 Modules
+projectpath: playground/base/cxx11-cmake-modules
+repoactive: false
+repopath: libraries/cxx11-cmake-modules

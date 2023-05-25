@@ -1,0 +1,10 @@
+bugzilla:
+  product: korganizer
+  component: incidence editors
+description: Library that provides calendar incidence editor
+hasrepo: true
+identifier: incidenceeditor
+name: PIM IncidenceEditor
+projectpath: kde/pim/incidenceeditor
+repoactive: true
+repopath: pim/incidenceeditor

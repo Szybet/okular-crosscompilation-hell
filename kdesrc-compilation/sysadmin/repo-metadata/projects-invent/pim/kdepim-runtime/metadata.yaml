@@ -1,0 +1,9 @@
+description: Akonadi agents and resources
+hasrepo: true
+identifier: kdepim-runtime
+name: KDE PIM Runtime
+projectpath: kde/pim/kdepim-runtime
+repoactive: true
+repopath: pim/kdepim-runtime
+bugzilla:
+  product: akonadi

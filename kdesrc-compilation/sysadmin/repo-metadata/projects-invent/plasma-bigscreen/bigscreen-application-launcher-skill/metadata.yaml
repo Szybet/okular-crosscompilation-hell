@@ -1,0 +1,7 @@
+description: Voice application launcher skill for Plasma Bigscreen
+hasrepo: true
+identifier: bigscreen-application-launcher-skill
+name: Mycroft Application Launcher Skill for Plasma Bigscreen
+projectpath: playground/utils/bigscreen-application-launcher-skill
+repoactive: true
+repopath: plasma-bigscreen/bigscreen-application-launcher-skill

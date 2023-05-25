@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-ki18n
+description: Ki18n
+hasrepo: true
+identifier: ki18n
+name: Ki18n
+projectpath: frameworks/ki18n
+repoactive: true
+repopath: frameworks/ki18n

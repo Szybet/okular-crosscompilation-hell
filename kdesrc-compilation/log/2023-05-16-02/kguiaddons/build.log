@@ -1,0 +1,47 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kguiaddons
+[  2%] Automatic MOC for target kde-geo-uri-handler
+[  2%] Automatic MOC for target KF5GuiAddons
+[  3%] Automatic MOC for target kgeourihandlertest
+[  3%] Built target kde-geo-uri-handler_autogen
+[  3%] Built target kgeourihandlertest_autogen
+[  3%] Built target KF5GuiAddons_autogen
+[  7%] Built target kgeourihandlertest
+[ 12%] Built target kde-geo-uri-handler
+[ 40%] Built target KF5GuiAddons
+[ 43%] Automatic MOC for target keysequencerecordertest
+[ 43%] Automatic MOC for target kwordwraptest
+[ 43%] Automatic MOC for target kcursorsavertest
+[ 46%] Automatic MOC for target kcolorutilstest
+[ 46%] Automatic MOC for target kcolorcollectiontest
+[ 47%] Automatic MOC for target kiconutilstest
+[ 48%] Automatic MOC for target pasteclient
+[ 50%] Automatic MOC for target kurlhandlertest
+[ 50%] Built target kwordwraptest_autogen
+[ 50%] Built target kcolorcollectiontest_autogen
+[ 50%] Built target kurlhandlertest_autogen
+[ 50%] Built target pasteclient_autogen
+[ 50%] Built target kiconutilstest_autogen
+[ 50%] Built target kcursorsavertest_autogen
+[ 50%] Built target keysequencerecordertest_autogen
+[ 50%] Built target kcolorutilstest_autogen
+[ 52%] Automatic MOC for target kcursorsavergui_test
+[ 52%] Automatic MOC for target kmodifierkeyinfotest
+[ 53%] Automatic MOC for target kcolorschemewatchertest
+[ 55%] Automatic MOC for target openurltest
+[ 58%] Built target kwordwraptest
+[ 66%] Built target kiconutilstest
+[ 66%] Built target pasteclient
+[ 70%] Built target kcursorsavertest
+[ 70%] Built target kmodifierkeyinfotest_autogen
+[ 70%] Built target kcursorsavergui_test_autogen
+[ 70%] Built target openurltest_autogen
+[ 70%] Built target kcolorschemewatchertest_autogen
+[ 73%] Built target keysequencerecordertest
+[ 83%] Built target kcursorsavergui_test
+[ 85%] Built target kcolorcollectiontest
+[ 85%] Built target openurltest
+[ 88%] Built target kcolorutilstest
+[ 92%] Built target kmodifierkeyinfotest
+[ 96%] Built target kurlhandlertest
+[100%] Built target kcolorschemewatchertest

@@ -1,0 +1,232 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/sonnet/src/core/KF5SonnetCore_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/sonnet",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/sonnet/src/core",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/sonnet/src/core",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/sonnet/src/core/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/sonnet",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/sonnet/src/core/core_debug.h",
+			"Mu",
+			"EJRQKI7XPS/moc_core_debug.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/backgroundchecker.h",
+			"Mu",
+			"EWIEGA46WW/moc_backgroundchecker.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/backgroundchecker_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_backgroundchecker_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/client_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_client_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/guesslanguage.h",
+			"Mu",
+			"EWIEGA46WW/moc_guesslanguage.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/languagefilter_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_languagefilter_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/loader_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_loader_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/settings.h",
+			"Mu",
+			"EWIEGA46WW/moc_settings.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/settingsimpl_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_settingsimpl_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/speller.h",
+			"Mu",
+			"EWIEGA46WW/moc_speller.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/spellerplugin_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_spellerplugin_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/textbreaks_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_textbreaks_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/tokenizer_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_tokenizer_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/sonnet/src/core/KF5SonnetCore_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/sonnet/src/core/KF5SonnetCore_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"INSTALLATION_PLUGIN_PATH=\"/mnt/HDD/Project/Public/okulartry/okular-things/lib/plugins\"",
+		"KF5SonnetCore_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"SONNETCORE_DEPRECATED_WARNINGS_SINCE=0x0",
+		"SONNETCORE_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/sonnet/src/core",
+		"/home/szybet/kdesrc/frameworks/sonnet/src/core",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/sonnet/src/core/KF5SonnetCore_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/sonnet/src/core/CMakeFiles/KF5SonnetCore_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/sonnet/src/core/CMakeFiles/KF5SonnetCore_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/sonnet/src/core/core_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/backgroundchecker.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/client.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/guesslanguage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/languagefilter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/loader.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/settings.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/settingsimpl.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/speller.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/spellerplugin.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/textbreaks.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/sonnet/src/core/tokenizer.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

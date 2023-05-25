@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmouth
+description: Type-and-say front end for speech synthesizers
+hasrepo: true
+identifier: kmouth
+name: KMouth
+projectpath: kde/kdeaccessibility/kmouth
+repoactive: true
+repopath: accessibility/kmouth

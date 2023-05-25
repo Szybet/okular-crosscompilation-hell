@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-rbot-plugin-kde-phabricator
+name: RBot plugin resolving Phabricator items
+projectpath: sysadmin/rbot-plugin-kde-phabricator
+repoactive: false
+repopath: sysadmin/rbot-plugin-kde-phabricator

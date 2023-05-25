@@ -1,0 +1,59 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/usr/lib/cmake/KF5Pty/KF5PtyQchTargets.cmake",
+			"/usr/lib/cmake/KF5Pty/KF5PtyConfig.cmake",
+			"generators/comicbook/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 4
+			}
+		]
+	},
+	"id" : "KF5Pty_QCH::@a4fbe277662296b10178",
+	"name" : "KF5Pty_QCH",
+	"paths" : 
+	{
+		"build" : "generators/comicbook",
+		"source" : "generators/comicbook"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

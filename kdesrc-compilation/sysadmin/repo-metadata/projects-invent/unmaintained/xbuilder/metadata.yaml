@@ -1,0 +1,7 @@
+description: SDK allowing creation of packages for Plasma Mobile
+hasrepo: true
+identifier: xbuilder
+name: Crossbuilder
+projectpath: unmaintained/xbuilder
+repoactive: false
+repopath: unmaintained/xbuilder

@@ -1,0 +1,9 @@
+bugzilla:
+  product: kigo
+description: Kigo is an open-source implementation of the popular Go game
+hasrepo: true
+identifier: kigo
+name: Kigo
+projectpath: kde/kdegames/kigo
+repoactive: true
+repopath: games/kigo

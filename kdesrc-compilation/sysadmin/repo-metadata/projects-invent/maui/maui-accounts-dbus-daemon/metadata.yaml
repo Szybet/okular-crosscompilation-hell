@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: maui-accounts-dbus-daemon
+name: Maui Accounts DBus Daemon
+projectpath: playground/base/maui-accounts-dbus-daemon
+repoactive: false
+repopath: maui/maui-accounts-dbus-daemon

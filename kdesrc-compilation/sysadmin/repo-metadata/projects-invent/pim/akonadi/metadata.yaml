@@ -1,0 +1,9 @@
+bugzilla:
+  product: akonadi
+description: Cross-desktop storage service for PIM data providing concurrent access
+hasrepo: true
+identifier: akonadi
+name: Akonadi
+projectpath: kde/pim/akonadi
+repoactive: true
+repopath: pim/akonadi

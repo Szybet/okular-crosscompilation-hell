@@ -1,0 +1,7 @@
+description: KSokoban is the Japanese warehouse keeper sokoban game
+hasrepo: true
+identifier: ksokoban
+name: KSokoban
+projectpath: playground/games/ksokoban
+repoactive: true
+repopath: games/ksokoban

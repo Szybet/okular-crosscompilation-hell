@@ -1,0 +1,9 @@
+description: Easy to use, but flexible, X Window Manager and Wayland Compositor
+hasrepo: true
+identifier: kwin
+name: KWin
+projectpath: kde/workspace/kwin
+repoactive: true
+repopath: plasma/kwin
+bugzilla:
+    product: kwin

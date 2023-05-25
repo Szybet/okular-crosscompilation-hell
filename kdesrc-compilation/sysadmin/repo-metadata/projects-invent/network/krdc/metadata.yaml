@@ -1,0 +1,9 @@
+bugzilla:
+  product: krdc
+description: Remote Desktop Client
+hasrepo: true
+identifier: krdc
+name: KRDC
+projectpath: kde/kdenetwork/krdc
+repoactive: true
+repopath: network/krdc

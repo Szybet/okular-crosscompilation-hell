@@ -1,0 +1,7 @@
+description: PWA Gateway for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-pwa-gateway
+name: 'WikiToLearn Progressive Web Application Gateway'
+projectpath: playground/www/wikitolearn-pwa-gateway
+repoactive: true
+repopath: wikitolearn/wikitolearn-pwa-gateway

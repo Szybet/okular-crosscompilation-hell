@@ -1,0 +1,10 @@
+bugzilla:
+  product: frameworks-purpose
+description: Framework for providing abstractions to get the developer's purposes
+  fulfilled.
+hasrepo: true
+identifier: purpose
+name: Purpose framework
+projectpath: frameworks/purpose
+repoactive: true
+repopath: frameworks/purpose

@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: common-internals
+description: Library for KTp
+hasrepo: true
+identifier: ktp-common-internals
+name: Telepathy Common Internals
+projectpath: kde/kdenetwork/ktp-common-internals
+repoactive: true
+repopath: network/ktp-common-internals

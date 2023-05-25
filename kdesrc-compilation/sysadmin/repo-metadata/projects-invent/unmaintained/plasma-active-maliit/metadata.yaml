@@ -1,0 +1,8 @@
+description: QML plugin for the Maliit vitual keyboard using KDE Plasma components,
+  intended to be used in Plasma Active
+hasrepo: true
+identifier: plasma-active-maliit
+name: Plasma Active Maliit plugin
+projectpath: playground/base/plasma-active-maliit
+repoactive: false
+repopath: unmaintained/plasma-active-maliit

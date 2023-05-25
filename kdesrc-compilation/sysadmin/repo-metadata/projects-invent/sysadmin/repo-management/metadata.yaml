@@ -1,0 +1,7 @@
+description: This project contains the hooks and scripts that power the KDE git infrastructure.
+hasrepo: true
+identifier: repo-management
+name: Repository Management
+projectpath: repo-management
+repoactive: true
+repopath: sysadmin/repo-management

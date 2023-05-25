@@ -1,0 +1,10 @@
+description: Open source meta build system and package manager
+hasrepo: true
+identifier: craft
+name: Craft
+projectpath: kdesupport/craft
+repoactive: true
+repopath: packaging/craft
+bugzilla:
+    product: Craft
+    component: Core

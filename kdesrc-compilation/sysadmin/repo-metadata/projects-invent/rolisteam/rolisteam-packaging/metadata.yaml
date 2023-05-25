@@ -1,0 +1,8 @@
+description: Packaging resources for Rolisteam (Windows, Mac, Docker image, Snap and
+  Debian packages)
+hasrepo: true
+identifier: rolisteam-packaging
+name: Rolisteam Packaging
+projectpath: playground/games/rolisteam-packaging
+repoactive: true
+repopath: rolisteam/rolisteam-packaging

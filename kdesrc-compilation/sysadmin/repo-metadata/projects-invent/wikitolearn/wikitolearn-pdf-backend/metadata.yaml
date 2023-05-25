@@ -1,0 +1,7 @@
+description: PDF Backend for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-pdf-backend
+name: 'WikiToLearn PDF Backend'
+projectpath: playground/www/wikitolearn-pdf-backend
+repoactive: true
+repopath: wikitolearn/wikitolearn-pdf-backend

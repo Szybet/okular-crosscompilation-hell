@@ -1,0 +1,7 @@
+description: Snapcraft packaging files for some KDE Applications
+hasrepo: true
+identifier: snapcraft-kde-applications
+name: Snapcraft KDE Applications
+projectpath: playground/packaging/snapcraft-kde-applications
+repoactive: true
+repopath: packaging/snapcraft-kde-applications

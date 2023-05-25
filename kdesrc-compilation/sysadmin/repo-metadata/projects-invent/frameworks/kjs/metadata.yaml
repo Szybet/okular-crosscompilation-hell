@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kjs
+description: KJS
+hasrepo: true
+identifier: kjs
+name: KJS
+projectpath: frameworks/kjs
+repoactive: true
+repopath: frameworks/kjs

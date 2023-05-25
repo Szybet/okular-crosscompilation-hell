@@ -1,0 +1,7 @@
+description: Offline caching, synchronization and indexing system for PIM data
+hasrepo: true
+identifier: sink
+name: Sink
+projectpath: playground/pim/sink
+repoactive: true
+repopath: pim/sink

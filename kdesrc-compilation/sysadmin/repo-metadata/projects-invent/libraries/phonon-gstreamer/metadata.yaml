@@ -1,0 +1,7 @@
+description: GStreamer backend for the Phonon multimedia library
+hasrepo: true
+identifier: phonon-gstreamer
+name: Phonon GStreamer
+projectpath: kdesupport/phonon-gstreamer
+repoactive: false
+repopath: libraries/phonon-gstreamer

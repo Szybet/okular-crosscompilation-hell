@@ -1,0 +1,7 @@
+description: Library for Kubuntu platform integration
+hasrepo: true
+identifier: libkubuntu
+name: libkubuntu
+projectpath: playground/base/libkubuntu
+repoactive: false
+repopath: libraries/libkubuntu

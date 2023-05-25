@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-bugzilla-bot
+name: Bugzilla Maintenance Bot
+projectpath: sysadmin/bugzilla-bot
+repoactive: false
+repopath: sysadmin/bugzilla-bot

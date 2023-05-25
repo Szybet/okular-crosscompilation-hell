@@ -1,0 +1,7 @@
+description: Command-line client for GitLab
+hasrepo: true
+identifier: git-lab
+name: Git-Lab
+projectpath: playground/sdk/git-lab
+repoactive: true
+repopath: sdk/git-lab

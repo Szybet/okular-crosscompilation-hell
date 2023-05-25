@@ -1,0 +1,7 @@
+description: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
+hasrepo: true
+identifier: kglobalacceld
+name: KGlobalAccel Daemon
+projectpath: playground/base/kglobalacceld
+repoactive: true
+repopath: plasma/kglobalacceld

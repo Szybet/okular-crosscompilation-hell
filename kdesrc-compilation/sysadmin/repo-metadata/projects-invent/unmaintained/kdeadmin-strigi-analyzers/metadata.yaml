@@ -1,0 +1,7 @@
+description: Strigi analyzer for rpm files
+hasrepo: true
+identifier: kdeadmin-strigi-analyzers
+name: KDEAdmin Strigi Analyzers
+projectpath: unmaintained/kdeadmin-strigi-analyzers
+repoactive: false
+repopath: unmaintained/kdeadmin-strigi-analyzers

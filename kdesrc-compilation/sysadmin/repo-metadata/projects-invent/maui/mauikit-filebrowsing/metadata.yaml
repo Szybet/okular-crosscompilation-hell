@@ -1,0 +1,7 @@
+description: MauiKit File Browsing utilities and controls
+hasrepo: true
+identifier: mauikit-filebrowsing
+name: MauiKitFileBrowsing
+projectpath: playground/libs/mauikit-filebrowsing
+repoactive: true
+repopath: maui/mauikit-filebrowsing

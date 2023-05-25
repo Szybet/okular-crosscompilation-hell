@@ -1,0 +1,7 @@
+description: Fast, lightweight and standard-compliant IMAP e-mail client
+hasrepo: true
+identifier: trojita
+name: Trojitá
+projectpath: extragear/pim/trojita
+repoactive: true
+repopath: pim/trojita

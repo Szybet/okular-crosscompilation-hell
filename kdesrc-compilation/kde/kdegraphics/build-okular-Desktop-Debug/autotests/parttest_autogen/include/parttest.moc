@@ -1,0 +1,433 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'parttest.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.9)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'parttest.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.9. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_Okular__PartTest_t {
+    QByteArrayData data[52];
+    char stringdata0[1232];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Okular__PartTest_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Okular__PartTest_t qt_meta_stringdata_Okular__PartTest = {
+    {
+QT_MOC_LITERAL(0, 0, 16), // "Okular::PartTest"
+QT_MOC_LITERAL(1, 17, 10), // "urlHandler"
+QT_MOC_LITERAL(2, 28, 0), // ""
+QT_MOC_LITERAL(3, 29, 3), // "url"
+QT_MOC_LITERAL(4, 33, 4), // "init"
+QT_MOC_LITERAL(5, 38, 16), // "testZoomWithCrop"
+QT_MOC_LITERAL(6, 55, 10), // "testReload"
+QT_MOC_LITERAL(7, 66, 18), // "testCanceledReload"
+QT_MOC_LITERAL(8, 85, 13), // "testTOCReload"
+QT_MOC_LITERAL(9, 99, 14), // "testForwardPDF"
+QT_MOC_LITERAL(10, 114, 19), // "testForwardPDF_data"
+QT_MOC_LITERAL(11, 134, 24), // "testGeneratorPreferences"
+QT_MOC_LITERAL(12, 159, 14), // "testSelectText"
+QT_MOC_LITERAL(13, 174, 21), // "testClickInternalLink"
+QT_MOC_LITERAL(14, 196, 26), // "testScrollBarAndMouseWheel"
+QT_MOC_LITERAL(15, 223, 20), // "testOpenUrlArguments"
+QT_MOC_LITERAL(16, 244, 10), // "test388288"
+QT_MOC_LITERAL(17, 255, 10), // "testSaveAs"
+QT_MOC_LITERAL(18, 266, 15), // "testSaveAs_data"
+QT_MOC_LITERAL(19, 282, 27), // "testSaveAsToNonExistingPath"
+QT_MOC_LITERAL(20, 310, 19), // "testSaveAsToSymlink"
+QT_MOC_LITERAL(21, 330, 17), // "testSaveIsSymlink"
+QT_MOC_LITERAL(22, 348, 26), // "testSidebarItemAfterSaving"
+QT_MOC_LITERAL(23, 375, 25), // "testViewModeSavingPerFile"
+QT_MOC_LITERAL(24, 401, 30), // "testSaveAsUndoStackAnnotations"
+QT_MOC_LITERAL(25, 432, 35), // "testSaveAsUndoStackAnnotation..."
+QT_MOC_LITERAL(26, 468, 24), // "testSaveAsUndoStackForms"
+QT_MOC_LITERAL(27, 493, 29), // "testSaveAsUndoStackForms_data"
+QT_MOC_LITERAL(28, 523, 41), // "testMouseMoveOverLinkWhileInS..."
+QT_MOC_LITERAL(29, 565, 36), // "testClickUrlLinkWhileInSelect..."
+QT_MOC_LITERAL(30, 602, 41), // "testeTextSelectionOverAndAcro..."
+QT_MOC_LITERAL(31, 644, 36), // "testeTextSelectionOverAndAcro..."
+QT_MOC_LITERAL(32, 681, 39), // "testClickUrlLinkWhileLinkText..."
+QT_MOC_LITERAL(33, 721, 33), // "testRClickWhileLinkTextIsSele..."
+QT_MOC_LITERAL(34, 755, 41), // "testRClickOverLinkWhileLinkTe..."
+QT_MOC_LITERAL(35, 797, 51), // "testRClickOnSelectionModeShou..."
+QT_MOC_LITERAL(36, 849, 45), // "testClickAnywhereAfterSelecti..."
+QT_MOC_LITERAL(37, 895, 33), // "testeRectSelectionStartingOnL..."
+QT_MOC_LITERAL(38, 929, 20), // "testCheckBoxReadOnly"
+QT_MOC_LITERAL(39, 950, 24), // "testCrashTextEditDestroy"
+QT_MOC_LITERAL(40, 975, 15), // "testAnnotWindow"
+QT_MOC_LITERAL(41, 991, 28), // "testAdditionalActionTriggers"
+QT_MOC_LITERAL(42, 1020, 23), // "testTypewriterAnnotTool"
+QT_MOC_LITERAL(43, 1044, 14), // "testJumpToPage"
+QT_MOC_LITERAL(44, 1059, 14), // "testOpenAtPage"
+QT_MOC_LITERAL(45, 1074, 29), // "testForwardBackwardNavigation"
+QT_MOC_LITERAL(46, 1104, 27), // "testTabletProximityBehavior"
+QT_MOC_LITERAL(47, 1132, 20), // "testOpenPrintPreview"
+QT_MOC_LITERAL(48, 1153, 17), // "testMouseModeMenu"
+QT_MOC_LITERAL(49, 1171, 21), // "testFullScreenRequest"
+QT_MOC_LITERAL(50, 1193, 21), // "testZoomInFacingPages"
+QT_MOC_LITERAL(51, 1215, 16) // "testLinkWithCrop"
+
+    },
+    "Okular::PartTest\0urlHandler\0\0url\0init\0"
+    "testZoomWithCrop\0testReload\0"
+    "testCanceledReload\0testTOCReload\0"
+    "testForwardPDF\0testForwardPDF_data\0"
+    "testGeneratorPreferences\0testSelectText\0"
+    "testClickInternalLink\0testScrollBarAndMouseWheel\0"
+    "testOpenUrlArguments\0test388288\0"
+    "testSaveAs\0testSaveAs_data\0"
+    "testSaveAsToNonExistingPath\0"
+    "testSaveAsToSymlink\0testSaveIsSymlink\0"
+    "testSidebarItemAfterSaving\0"
+    "testViewModeSavingPerFile\0"
+    "testSaveAsUndoStackAnnotations\0"
+    "testSaveAsUndoStackAnnotations_data\0"
+    "testSaveAsUndoStackForms\0"
+    "testSaveAsUndoStackForms_data\0"
+    "testMouseMoveOverLinkWhileInSelectionMode\0"
+    "testClickUrlLinkWhileInSelectionMode\0"
+    "testeTextSelectionOverAndAcrossLinks_data\0"
+    "testeTextSelectionOverAndAcrossLinks\0"
+    "testClickUrlLinkWhileLinkTextIsSelected\0"
+    "testRClickWhileLinkTextIsSelected\0"
+    "testRClickOverLinkWhileLinkTextIsSelected\0"
+    "testRClickOnSelectionModeShoulShowFollowTheLinkMenu\0"
+    "testClickAnywhereAfterSelectionShouldUnselect\0"
+    "testeRectSelectionStartingOnLinks\0"
+    "testCheckBoxReadOnly\0testCrashTextEditDestroy\0"
+    "testAnnotWindow\0testAdditionalActionTriggers\0"
+    "testTypewriterAnnotTool\0testJumpToPage\0"
+    "testOpenAtPage\0testForwardBackwardNavigation\0"
+    "testTabletProximityBehavior\0"
+    "testOpenPrintPreview\0testMouseModeMenu\0"
+    "testFullScreenRequest\0testZoomInFacingPages\0"
+    "testLinkWithCrop"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Okular__PartTest[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      49,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,  259,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       4,    0,  262,    2, 0x08 /* Private */,
+       5,    0,  263,    2, 0x08 /* Private */,
+       6,    0,  264,    2, 0x08 /* Private */,
+       7,    0,  265,    2, 0x08 /* Private */,
+       8,    0,  266,    2, 0x08 /* Private */,
+       9,    0,  267,    2, 0x08 /* Private */,
+      10,    0,  268,    2, 0x08 /* Private */,
+      11,    0,  269,    2, 0x08 /* Private */,
+      12,    0,  270,    2, 0x08 /* Private */,
+      13,    0,  271,    2, 0x08 /* Private */,
+      14,    0,  272,    2, 0x08 /* Private */,
+      15,    0,  273,    2, 0x08 /* Private */,
+      16,    0,  274,    2, 0x08 /* Private */,
+      17,    0,  275,    2, 0x08 /* Private */,
+      18,    0,  276,    2, 0x08 /* Private */,
+      19,    0,  277,    2, 0x08 /* Private */,
+      20,    0,  278,    2, 0x08 /* Private */,
+      21,    0,  279,    2, 0x08 /* Private */,
+      22,    0,  280,    2, 0x08 /* Private */,
+      23,    0,  281,    2, 0x08 /* Private */,
+      24,    0,  282,    2, 0x08 /* Private */,
+      25,    0,  283,    2, 0x08 /* Private */,
+      26,    0,  284,    2, 0x08 /* Private */,
+      27,    0,  285,    2, 0x08 /* Private */,
+      28,    0,  286,    2, 0x08 /* Private */,
+      29,    0,  287,    2, 0x08 /* Private */,
+      30,    0,  288,    2, 0x08 /* Private */,
+      31,    0,  289,    2, 0x08 /* Private */,
+      32,    0,  290,    2, 0x08 /* Private */,
+      33,    0,  291,    2, 0x08 /* Private */,
+      34,    0,  292,    2, 0x08 /* Private */,
+      35,    0,  293,    2, 0x08 /* Private */,
+      36,    0,  294,    2, 0x08 /* Private */,
+      37,    0,  295,    2, 0x08 /* Private */,
+      38,    0,  296,    2, 0x08 /* Private */,
+      39,    0,  297,    2, 0x08 /* Private */,
+      40,    0,  298,    2, 0x08 /* Private */,
+      41,    0,  299,    2, 0x08 /* Private */,
+      42,    0,  300,    2, 0x08 /* Private */,
+      43,    0,  301,    2, 0x08 /* Private */,
+      44,    0,  302,    2, 0x08 /* Private */,
+      45,    0,  303,    2, 0x08 /* Private */,
+      46,    0,  304,    2, 0x08 /* Private */,
+      47,    0,  305,    2, 0x08 /* Private */,
+      48,    0,  306,    2, 0x08 /* Private */,
+      49,    0,  307,    2, 0x08 /* Private */,
+      50,    0,  308,    2, 0x08 /* Private */,
+      51,    0,  309,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QUrl,    3,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void Okular::PartTest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<PartTest *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->urlHandler((*reinterpret_cast< const QUrl(*)>(_a[1]))); break;
+        case 1: _t->init(); break;
+        case 2: _t->testZoomWithCrop(); break;
+        case 3: _t->testReload(); break;
+        case 4: _t->testCanceledReload(); break;
+        case 5: _t->testTOCReload(); break;
+        case 6: _t->testForwardPDF(); break;
+        case 7: _t->testForwardPDF_data(); break;
+        case 8: _t->testGeneratorPreferences(); break;
+        case 9: _t->testSelectText(); break;
+        case 10: _t->testClickInternalLink(); break;
+        case 11: _t->testScrollBarAndMouseWheel(); break;
+        case 12: _t->testOpenUrlArguments(); break;
+        case 13: _t->test388288(); break;
+        case 14: _t->testSaveAs(); break;
+        case 15: _t->testSaveAs_data(); break;
+        case 16: _t->testSaveAsToNonExistingPath(); break;
+        case 17: _t->testSaveAsToSymlink(); break;
+        case 18: _t->testSaveIsSymlink(); break;
+        case 19: _t->testSidebarItemAfterSaving(); break;
+        case 20: _t->testViewModeSavingPerFile(); break;
+        case 21: _t->testSaveAsUndoStackAnnotations(); break;
+        case 22: _t->testSaveAsUndoStackAnnotations_data(); break;
+        case 23: _t->testSaveAsUndoStackForms(); break;
+        case 24: _t->testSaveAsUndoStackForms_data(); break;
+        case 25: _t->testMouseMoveOverLinkWhileInSelectionMode(); break;
+        case 26: _t->testClickUrlLinkWhileInSelectionMode(); break;
+        case 27: _t->testeTextSelectionOverAndAcrossLinks_data(); break;
+        case 28: _t->testeTextSelectionOverAndAcrossLinks(); break;
+        case 29: _t->testClickUrlLinkWhileLinkTextIsSelected(); break;
+        case 30: _t->testRClickWhileLinkTextIsSelected(); break;
+        case 31: _t->testRClickOverLinkWhileLinkTextIsSelected(); break;
+        case 32: _t->testRClickOnSelectionModeShoulShowFollowTheLinkMenu(); break;
+        case 33: _t->testClickAnywhereAfterSelectionShouldUnselect(); break;
+        case 34: _t->testeRectSelectionStartingOnLinks(); break;
+        case 35: _t->testCheckBoxReadOnly(); break;
+        case 36: _t->testCrashTextEditDestroy(); break;
+        case 37: _t->testAnnotWindow(); break;
+        case 38: _t->testAdditionalActionTriggers(); break;
+        case 39: _t->testTypewriterAnnotTool(); break;
+        case 40: _t->testJumpToPage(); break;
+        case 41: _t->testOpenAtPage(); break;
+        case 42: _t->testForwardBackwardNavigation(); break;
+        case 43: _t->testTabletProximityBehavior(); break;
+        case 44: _t->testOpenPrintPreview(); break;
+        case 45: _t->testMouseModeMenu(); break;
+        case 46: _t->testFullScreenRequest(); break;
+        case 47: _t->testZoomInFacingPages(); break;
+        case 48: _t->testLinkWithCrop(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (PartTest::*)(const QUrl & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&PartTest::urlHandler)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject Okular::PartTest::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_Okular__PartTest.data,
+    qt_meta_data_Okular__PartTest,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *Okular::PartTest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Okular::PartTest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Okular__PartTest.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int Okular::PartTest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 49)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 49;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 49)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 49;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Okular::PartTest::urlHandler(const QUrl & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_Okular__PartThatHijacksQueryClose_t {
+    QByteArrayData data[1];
+    char stringdata0[34];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Okular__PartThatHijacksQueryClose_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Okular__PartThatHijacksQueryClose_t qt_meta_stringdata_Okular__PartThatHijacksQueryClose = {
+    {
+QT_MOC_LITERAL(0, 0, 33) // "Okular::PartThatHijacksQueryC..."
+
+    },
+    "Okular::PartThatHijacksQueryClose"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Okular__PartThatHijacksQueryClose[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void Okular::PartThatHijacksQueryClose::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject Okular::PartThatHijacksQueryClose::staticMetaObject = { {
+    QMetaObject::SuperData::link<Okular::Part::staticMetaObject>(),
+    qt_meta_stringdata_Okular__PartThatHijacksQueryClose.data,
+    qt_meta_data_Okular__PartThatHijacksQueryClose,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *Okular::PartThatHijacksQueryClose::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Okular::PartThatHijacksQueryClose::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Okular__PartThatHijacksQueryClose.stringdata0))
+        return static_cast<void*>(this);
+    return Okular::Part::qt_metacast(_clname);
+}
+
+int Okular::PartThatHijacksQueryClose::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = Okular::Part::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

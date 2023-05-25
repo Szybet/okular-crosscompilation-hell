@@ -1,0 +1,10 @@
+description: GRUB theme for the Breeze visual style for the Plasma Desktop
+hasrepo: true
+identifier: breeze-grub
+name: Breeze GRUB visual style
+projectpath: kde/workspace/breeze-grub
+repoactive: true
+repopath: plasma/breeze-grub
+bugzilla:
+    product: Breeze
+    component: GRUB

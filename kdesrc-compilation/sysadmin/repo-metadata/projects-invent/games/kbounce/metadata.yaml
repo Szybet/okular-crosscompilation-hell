@@ -1,0 +1,9 @@
+bugzilla:
+  product: kbounce
+description: KBounce is a single player arcade game with the elements of puzzle
+hasrepo: true
+identifier: kbounce
+name: KBounce
+projectpath: kde/kdegames/kbounce
+repoactive: true
+repopath: games/kbounce

@@ -1,0 +1,60 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/karchive
+[  1%] Built target translations_2
+[  2%] Built target translations_3
+[  3%] Built target translations_7
+[  4%] Built target translations_1
+[  5%] Built target translations_6
+[  7%] Built target translations_5
+[  8%] Built target translations_8
+[  9%] Built target translations_4
+[ 10%] Built target translations_9
+[ 12%] Built target translations_12
+[ 14%] Built target translations_11
+[ 14%] Built target translations_10
+[ 16%] Built target translations_14
+[ 16%] Built target translations_13
+[ 17%] Built target translations_15
+[ 18%] Built target translations_16
+[ 20%] Built target translations_18
+[ 21%] Built target translations_17
+[ 23%] Built target translations_19
+[ 23%] Built target translations_21
+[ 24%] Built target translations_22
+[ 25%] Built target translations_20
+[ 27%] Built target translations_23
+[ 28%] Built target translations_24
+[ 29%] Built target translations_25
+[ 30%] Automatic MOC for target KF5Archive
+[ 31%] Automatic MOC for target klimitediodevicetest
+[ 31%] Built target KF5Archive_autogen
+[ 31%] Built target klimitediodevicetest_autogen
+[ 36%] Built target klimitediodevicetest
+[ 57%] Built target KF5Archive
+[ 58%] Automatic MOC for target kfiltertest
+[ 60%] Automatic MOC for target deprecatedtest
+[ 61%] Automatic MOC for target karchivetest
+[ 63%] Automatic MOC for target kcompressiondevicetest
+[ 63%] Automatic MOC for target ktartest
+[ 64%] Automatic MOC for target kziptest
+[ 65%] Automatic MOC for target krcctest
+[ 67%] Automatic MOC for target kartest
+[ 67%] Built target kfiltertest_autogen
+[ 67%] Built target karchivetest_autogen
+[ 67%] Built target deprecatedtest_autogen
+[ 67%] Built target kziptest_autogen
+[ 67%] Built target krcctest_autogen
+[ 67%] Built target kcompressiondevicetest_autogen
+[ 67%] Built target kartest_autogen
+[ 67%] Built target ktartest_autogen
+[ 68%] Automatic MOC for target k7ziptest
+[ 71%] Built target kfiltertest
+[ 75%] Built target karchivetest
+[ 78%] Built target kartest
+[ 82%] Built target kziptest
+[ 85%] Built target deprecatedtest
+[ 85%] Built target k7ziptest_autogen
+[ 89%] Built target kcompressiondevicetest
+[ 92%] Built target ktartest
+[ 96%] Built target krcctest
+[100%] Built target k7ziptest

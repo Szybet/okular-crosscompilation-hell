@@ -1,0 +1,9 @@
+bugzilla:
+  product: AudioCD-KIO
+description: KIO worker for accessing audio CDs
+hasrepo: true
+identifier: audiocd-kio
+name: KIO AudioCD
+projectpath: kde/kdemultimedia/audiocd-kio
+repoactive: true
+repopath: multimedia/audiocd-kio

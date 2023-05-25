@@ -1,0 +1,9 @@
+description: Plasma applet for audio volume management using PulseAudio
+hasrepo: true
+identifier: plasma-pa
+name: Plasma PulseAudio Applet
+projectpath: kde/workspace/plasma-pa
+repoactive: true
+repopath: plasma/plasma-pa
+bugzilla:
+    product: plasma-pa

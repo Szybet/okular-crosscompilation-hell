@@ -1,0 +1,7 @@
+description: Qt bindings for libpulse
+hasrepo: true
+identifier: pulseaudio-qt
+name: PulseAudio-Qt
+projectpath: extragear/libs/pulseaudio-qt
+repoactive: true
+repopath: libraries/pulseaudio-qt

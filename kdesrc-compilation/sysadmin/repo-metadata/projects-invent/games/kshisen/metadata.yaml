@@ -1,0 +1,10 @@
+bugzilla:
+  product: kshisen
+description: Shisen-Sho is a solitaire-like game played using the standard set of
+  Mahjong tiles
+hasrepo: true
+identifier: kshisen
+name: KShisen
+projectpath: kde/kdegames/kshisen
+repoactive: true
+repopath: games/kshisen

@@ -1,0 +1,9 @@
+bugzilla:
+  product: partitionmanager
+description: Manage the disk devices, partitions and file systems on your computer
+hasrepo: true
+identifier: partitionmanager
+name: KDE Partition Manager
+projectpath: kde/kdeadmin/partitionmanager
+repoactive: true
+repopath: system/partitionmanager

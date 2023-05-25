@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kxmlrpcclient
+description: KXMLRPCClient - Library to assist working with XML-RPC APIs
+hasrepo: true
+identifier: kxmlrpcclient
+name: kxmlrpcclient
+projectpath: frameworks/kxmlrpcclient
+repoactive: true
+repopath: frameworks/kxmlrpcclient

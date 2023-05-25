@@ -1,0 +1,7 @@
+description: Static copy of the Kst Plot website — kst-plot.kde.org
+hasrepo: true
+identifier: websites-kst-plot-kde-org
+name: Kst Plot Website
+projectpath: websites/kst-plot-kde-org
+repoactive: true
+repopath: websites/kst-plot-kde-org

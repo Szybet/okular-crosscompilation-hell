@@ -1,0 +1,9 @@
+bugzilla:
+  product: kblackbox
+description: KBlackBox is a game of hide and seek played on a grid of boxes
+hasrepo: true
+identifier: kblackbox
+name: KBlackBox
+projectpath: kde/kdegames/kblackbox
+repoactive: true
+repopath: games/kblackbox

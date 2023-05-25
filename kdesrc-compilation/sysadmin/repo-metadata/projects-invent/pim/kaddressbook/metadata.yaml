@@ -1,0 +1,9 @@
+bugzilla:
+  product: kaddressbook
+description: Address book application to manage your contacts
+hasrepo: true
+identifier: kaddressbook
+name: KAddressBook
+projectpath: kde/pim/kaddressbook
+repoactive: true
+repopath: pim/kaddressbook

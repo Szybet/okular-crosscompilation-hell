@@ -1,0 +1,7 @@
+description: Website for the KDE Manifesto — manifesto.kde.org
+hasrepo: true
+identifier: websites-manifesto-kde-org
+name: Manifesto Website
+projectpath: websites/manifesto-kde-org
+repoactive: true
+repopath: websites/manifesto-kde-org

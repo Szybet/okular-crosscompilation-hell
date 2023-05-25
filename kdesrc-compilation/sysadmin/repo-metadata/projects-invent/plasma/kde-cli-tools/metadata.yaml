@@ -1,0 +1,9 @@
+description: Tools based on KDE Frameworks 5 to better interact with the system
+hasrepo: true
+identifier: kde-cli-tools
+name: KDE CLI tools
+projectpath: kde/workspace/kde-cli-tools
+repoactive: true
+repopath: plasma/kde-cli-tools
+bugzilla:
+    product: kde-cli-tools

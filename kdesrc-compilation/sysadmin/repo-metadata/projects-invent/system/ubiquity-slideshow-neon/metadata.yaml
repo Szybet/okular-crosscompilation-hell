@@ -1,0 +1,7 @@
+description: Neon slideshow for Ubiquity
+hasrepo: true
+identifier: ubiquity-slideshow-neon
+name: Neon Ubiquity Slideshow
+projectpath: playground/base/ubiquity-slideshow-neon
+repoactive: true
+repopath: system/ubiquity-slideshow-neon

@@ -1,0 +1,8 @@
+description: KAnalytics provides a library and a set of tools to analyze system information
+  and upload it to KDE servers.
+hasrepo: true
+identifier: kanalytics
+name: KAnalytics system info library
+projectpath: playground/utils/kanalytics
+repoactive: false
+repopath: unmaintained/kanalytics

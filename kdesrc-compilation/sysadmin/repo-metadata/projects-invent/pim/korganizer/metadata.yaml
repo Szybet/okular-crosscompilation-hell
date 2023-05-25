@@ -1,0 +1,9 @@
+description: Organizational assistant, providing calendars and other similar functionality
+hasrepo: true
+identifier: korganizer
+name: KOrganizer
+projectpath: kde/pim/korganizer
+repoactive: true
+repopath: pim/korganizer
+bugzilla:
+    product: korganizer

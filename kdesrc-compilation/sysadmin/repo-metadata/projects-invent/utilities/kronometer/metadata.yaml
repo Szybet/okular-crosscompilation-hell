@@ -1,0 +1,7 @@
+description: Stopwatch application by KDE
+hasrepo: true
+identifier: kronometer
+name: Kronometer
+projectpath: extragear/utils/kronometer
+repoactive: true
+repopath: utilities/kronometer

@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kiconthemes/src/KF5IconThemes_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kiconthemes",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kiconthemes/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kiconthemes/src",
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kiconthemes",
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kiconthemes/src/KF5IconThemes_autogen/include",
+	"INPUTS" : [ "/home/szybet/kdesrc/frameworks/kiconthemes/src/hicolor.theme" ],
+	"LOCK_FILE" : "/home/szybet/kdesrc/build/frameworks/kiconthemes/src/CMakeFiles/KF5IconThemes_autogen.dir/AutoRcc_hicolor_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "hicolor" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_hicolor.cpp",
+	"RCC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kiconthemes/src/CMakeFiles/KF5IconThemes_autogen.dir/AutoRcc_hicolor_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/szybet/kdesrc/frameworks/kiconthemes/src/hicolor.qrc",
+	"VERBOSITY" : 0
+}

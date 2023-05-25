@@ -1,0 +1,9 @@
+bugzilla:
+  product: konsole
+description: Terminal emulator by KDE
+hasrepo: true
+identifier: konsole
+name: Konsole
+projectpath: kde/applications/konsole
+repoactive: true
+repopath: utilities/konsole

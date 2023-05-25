@@ -1,0 +1,10 @@
+description: Project build blueprints for Craft — the meta build system and package manager
+hasrepo: true
+identifier: craft-blueprints-kde
+name: KDE Craft Blueprints
+projectpath: kdesupport/craft-blueprints-kde
+repoactive: true
+repopath: packaging/craft-blueprints-kde
+bugzilla:
+    product: Craft
+    component: Blueprints

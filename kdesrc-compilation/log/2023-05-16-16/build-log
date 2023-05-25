@@ -1,0 +1,40 @@
+Holding performance profile
+Building kjs from _cmdline (1/11)
+	Fetching remote changes to kjs
+	Merging kjs changes from branch kf5
+	No changes to kjs source code, but proceeding to build anyway.
+	Note: ---- 2118 ---- compile warnings
+Building kparts from _cmdline (2/11)
+	Fetching remote changes to kparts
+	Merging kparts changes from branch kf5
+	Source update complete for kparts: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kparts.
+	Running cmake targeting Unix Makefiles...
+	Note: -- 3 -- compile warnings
+Building phonon from _cmdline (3/11)
+	Fetching remote changes to phonon
+	Merging phonon changes from branch master
+	Source update complete for phonon: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for phonon.
+	Running cmake targeting Unix Makefiles...
+	Note: - 1 - compile warnings
+Building kactivities from _cmdline (4/11)
+	Fetching remote changes to kactivities
+	Merging kactivities changes from branch kf5
+	Source update complete for kactivities: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kactivities.
+	Running cmake targeting Unix Makefiles...
+
+kactivities didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kactivities - file:///home/szybet/kdesrc/log/2023-05-16-16/kactivities/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-16

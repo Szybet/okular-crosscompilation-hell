@@ -1,0 +1,7 @@
+description: Apply system colors to plasma rendered SVGs
+hasrepo: true
+identifier: svgmod
+name: Svgmod Plasma theme tool
+projectpath: playground/devtools/svgmod
+repoactive: false
+repopath: unmaintained/svgmod

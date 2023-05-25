@@ -1,0 +1,7 @@
+description: Keycloak Theme used by WikiToLearn
+hasrepo: true
+identifier: wikitolearn-keycloak-theme
+name: 'WikiToLearn Keycloak Theme'
+projectpath: playground/www/wikitolearn-keycloak-theme
+repoactive: true
+repopath: wikitolearn/wikitolearn-keycloak-theme

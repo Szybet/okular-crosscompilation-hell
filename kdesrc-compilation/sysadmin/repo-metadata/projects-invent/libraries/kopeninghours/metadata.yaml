@@ -1,0 +1,9 @@
+bugzilla:
+  product: KOpeningHours
+description: Library for parsing and evaluating OSM opening hours expressions.
+hasrepo: true
+identifier: kopeninghours
+name: KOpeningHours
+projectpath: kde/pim/kopeninghours
+repoactive: true
+repopath: libraries/kopeninghours

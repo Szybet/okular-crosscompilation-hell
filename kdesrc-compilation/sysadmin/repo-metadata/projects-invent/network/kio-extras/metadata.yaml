@@ -1,0 +1,9 @@
+bugzilla:
+  product: kio-extras
+description: Additional components to increase the functionality of KIO
+hasrepo: true
+identifier: kio-extras
+name: KIO Extras
+projectpath: kde/kdenetwork/kio-extras
+repoactive: true
+repopath: network/kio-extras

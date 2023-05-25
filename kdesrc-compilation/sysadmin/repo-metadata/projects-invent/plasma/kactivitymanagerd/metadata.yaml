@@ -1,0 +1,10 @@
+description: System service to manage user's activities, track the usage patterns
+  etc.
+hasrepo: true
+identifier: kactivitymanagerd
+name: Activity manager service
+projectpath: kde/workspace/kactivitymanagerd
+repoactive: true
+repopath: plasma/kactivitymanagerd
+bugzilla:
+    product: kactivitymanagerd

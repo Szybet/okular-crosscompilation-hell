@@ -1,0 +1,7 @@
+description: Website for Neon — neon.kde.org
+hasrepo: true
+identifier: websites-neon-kde-org
+name: Neon Website
+projectpath: websites/neon-kde-org
+repoactive: true
+repopath: websites/neon-kde-org

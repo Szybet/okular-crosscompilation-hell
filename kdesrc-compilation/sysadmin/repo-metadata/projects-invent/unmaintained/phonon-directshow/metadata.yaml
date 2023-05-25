@@ -1,0 +1,7 @@
+description: A DirectShow backend for the Phonon multimedia library.
+hasrepo: true
+identifier: phonon-directshow
+name: Phonon DirectShow
+projectpath: unmaintained/phonon-directshow
+repoactive: false
+repopath: unmaintained/phonon-directshow

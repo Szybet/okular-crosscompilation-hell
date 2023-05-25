@@ -1,0 +1,7 @@
+description: Advanced network neighborhood browser and Samba share mounting utility
+hasrepo: true
+identifier: smb4k
+name: Smb4K
+projectpath: extragear/network/smb4k
+repoactive: true
+repopath: network/smb4k

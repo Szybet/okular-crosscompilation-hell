@@ -1,0 +1,9 @@
+bugzilla:
+  product: Artikulate
+description: Pronunciation trainer to improve your skills by listening to native speakers
+hasrepo: true
+identifier: artikulate
+name: Artikulate
+projectpath: kde/kdeedu/artikulate
+repoactive: true
+repopath: education/artikulate

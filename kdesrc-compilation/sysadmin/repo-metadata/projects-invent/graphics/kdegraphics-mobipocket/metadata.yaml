@@ -1,0 +1,7 @@
+description: A collection of plugins to handle mobipocket files
+hasrepo: true
+identifier: kdegraphics-mobipocket
+name: Mobipocket
+projectpath: kde/kdegraphics/kdegraphics-mobipocket
+repoactive: true
+repopath: graphics/kdegraphics-mobipocket

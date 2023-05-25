@@ -1,0 +1,9 @@
+bugzilla:
+  product: dolphin
+description: Plugins for Dolphin
+hasrepo: true
+identifier: dolphin-plugins
+name: Dolphin Plugins
+projectpath: kde/kdesdk/dolphin-plugins
+repoactive: true
+repopath: sdk/dolphin-plugins

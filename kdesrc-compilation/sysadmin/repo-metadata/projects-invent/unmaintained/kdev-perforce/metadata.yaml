@@ -1,0 +1,7 @@
+description: A plugin for Kdevelop 4 that enables integration with Perforce
+hasrepo: true
+identifier: kdev-perforce
+name: Perforce Plugin for Kdevelop
+projectpath: unmaintained/kdev-perforce
+repoactive: false
+repopath: unmaintained/kdev-perforce

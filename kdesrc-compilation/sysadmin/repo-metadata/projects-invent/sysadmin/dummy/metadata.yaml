@@ -1,0 +1,7 @@
+description: Systems testing repository
+hasrepo: true
+identifier: dummy
+name: Dummy - For Testing
+projectpath: sysadmin/dummy
+repoactive: false
+repopath: sysadmin/dummy

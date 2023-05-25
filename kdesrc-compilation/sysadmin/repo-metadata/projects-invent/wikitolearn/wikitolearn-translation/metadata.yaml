@@ -1,0 +1,7 @@
+description: Translation Support for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-translation
+name: 'WikiToLearn Translation'
+projectpath: playground/www/wikitolearn-translation
+repoactive: true
+repopath: wikitolearn/wikitolearn-translation

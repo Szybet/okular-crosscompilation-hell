@@ -1,0 +1,7 @@
+description: Historical copy of the utility applications module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdeutils
+name: 'Historical - KDE 1 - KDEUtils'
+projectpath: historical/kde1-kdeutils
+repoactive: true
+repopath: historical/kde1-kdeutils

@@ -1,0 +1,213 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kbookmarks
+[  1%] Generating ECMPoQm/ar/kbookmarks5_qt.qm
+[  3%] Generating ECMPoQm/az/kbookmarks5_qt.qm
+[  3%] Generating ECMPoQm/be/kbookmarks5_qt.qm
+[  4%] Generating ECMPoQm/bn/kbookmarks5_qt.qm
+[  5%] Generating ECMPoQm/be@latin/kbookmarks5_qt.qm
+[  6%] Generating ECMPoQm/bg/kbookmarks5_qt.qm
+[  7%] Generating ECMPoQm/af/kbookmarks5_qt.qm
+[  8%] Generating ECMPoQm/br/kbookmarks5_qt.qm
+[  8%] Built target translations_6
+[  8%] Built target translations_2
+[  8%] Built target translations_3
+[  8%] Generating ECMPoQm/ca/kbookmarks5_qt.qm
+[  9%] Generating ECMPoQm/bs/kbookmarks5_qt.qm
+[  9%] Built target translations_7
+[  9%] Built target translations_4
+[  9%] Built target translations_1
+[  9%] Built target translations_8
+[ 10%] Generating ECMPoQm/ca@valencia/kbookmarks5_qt.qm
+[ 10%] Built target translations_5
+[ 10%] Built target translations_10
+[ 11%] Generating ECMPoQm/cs/kbookmarks5_qt.qm
+[ 12%] Generating ECMPoQm/csb/kbookmarks5_qt.qm
+[ 13%] Generating ECMPoQm/cy/kbookmarks5_qt.qm
+[ 14%] Generating ECMPoQm/da/kbookmarks5_qt.qm
+[ 14%] Built target translations_9
+[ 15%] Generating ECMPoQm/de/kbookmarks5_qt.qm
+[ 16%] Generating ECMPoQm/el/kbookmarks5_qt.qm
+[ 16%] Built target translations_11
+[ 17%] Generating ECMPoQm/en_GB/kbookmarks5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 17%] Built target translations_12
+[ 18%] Generating ECMPoQm/eo/kbookmarks5_qt.qm
+[ 18%] Built target translations_13
+[ 19%] Generating ECMPoQm/es/kbookmarks5_qt.qm
+[ 19%] Built target translations_14
+[ 19%] Generating ECMPoQm/et/kbookmarks5_qt.qm
+[ 19%] Built target translations_19
+[ 19%] Built target translations_15
+[ 19%] Built target translations_18
+[ 19%] Built target translations_17
+[ 20%] Generating ECMPoQm/eu/kbookmarks5_qt.qm
+[ 20%] Built target translations_16
+[ 21%] Generating ECMPoQm/fi/kbookmarks5_qt.qm
+[ 22%] Generating ECMPoQm/fr/kbookmarks5_qt.qm
+[ 23%] Generating ECMPoQm/fa/kbookmarks5_qt.qm
+[ 24%] Generating ECMPoQm/ga/kbookmarks5_qt.qm
+[ 24%] Built target translations_20
+[ 25%] Generating ECMPoQm/fy/kbookmarks5_qt.qm
+[ 25%] Built target translations_21
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 26%] Generating ECMPoQm/gd/kbookmarks5_qt.qm
+[ 27%] Generating ECMPoQm/gl/kbookmarks5_qt.qm
+[ 27%] Built target translations_22
+[ 27%] Built target translations_24
+[ 27%] Built target translations_25
+[ 27%] Built target translations_27
+[ 28%] Generating ECMPoQm/gu/kbookmarks5_qt.qm
+[ 28%] Built target translations_23
+[ 28%] Built target translations_28
+[ 29%] Generating ECMPoQm/he/kbookmarks5_qt.qm
+[ 29%] Built target translations_26
+[ 30%] Generating ECMPoQm/hr/kbookmarks5_qt.qm
+[ 31%] Generating ECMPoQm/hsb/kbookmarks5_qt.qm
+[ 31%] Generating ECMPoQm/hi/kbookmarks5_qt.qm
+[ 32%] Generating ECMPoQm/hu/kbookmarks5_qt.qm
+[ 32%] Built target translations_29
+[ 32%] Built target translations_31
+[ 33%] Generating ECMPoQm/ia/kbookmarks5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 34%] Generating ECMPoQm/is/kbookmarks5_qt.qm
+[ 34%] Built target translations_30
+[ 35%] Generating ECMPoQm/id/kbookmarks5_qt.qm
+[ 35%] Built target translations_34
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 36%] Generating ECMPoQm/it/kbookmarks5_qt.qm
+[ 36%] Built target translations_33
+[ 36%] Built target translations_32
+[ 37%] Generating ECMPoQm/ja/kbookmarks5_qt.qm
+[ 37%] Built target translations_37
+[ 37%] Built target translations_35
+[ 37%] Built target translations_36
+[ 38%] Generating ECMPoQm/ka/kbookmarks5_qt.qm
+[ 38%] Built target translations_38
+[ 38%] Built target translations_40
+[ 39%] Generating ECMPoQm/kk/kbookmarks5_qt.qm
+[ 39%] Generating ECMPoQm/km/kbookmarks5_qt.qm
+[ 40%] Generating ECMPoQm/ko/kbookmarks5_qt.qm
+[ 41%] Generating ECMPoQm/lt/kbookmarks5_qt.qm
+[ 41%] Built target translations_41
+[ 42%] Generating ECMPoQm/ku/kbookmarks5_qt.qm
+[ 43%] Generating ECMPoQm/lv/kbookmarks5_qt.qm
+[ 43%] Built target translations_39
+[ 44%] Generating ECMPoQm/mai/kbookmarks5_qt.qm
+[ 45%] Generating ECMPoQm/mk/kbookmarks5_qt.qm
+[ 45%] Built target translations_46
+[ 45%] Built target translations_45
+[ 45%] Built target translations_44
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 46%] Generating ECMPoQm/mr/kbookmarks5_qt.qm
+[ 47%] Generating ECMPoQm/ml/kbookmarks5_qt.qm
+[ 47%] Built target translations_48
+[ 48%] Generating ECMPoQm/ms/kbookmarks5_qt.qm
+[ 48%] Built target translations_42
+[ 48%] Built target translations_47
+[ 48%] Built target translations_49
+[ 48%] Built target translations_43
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 48%] Built target translations_50
+[ 50%] Generating ECMPoQm/nb/kbookmarks5_qt.qm
+[ 50%] Built target translations_51
+[ 50%] Built target translations_52
+[ 51%] Generating ECMPoQm/nl/kbookmarks5_qt.qm
+[ 51%] Generating ECMPoQm/nds/kbookmarks5_qt.qm
+[ 52%] Generating ECMPoQm/nn/kbookmarks5_qt.qm
+[ 52%] Built target translations_53
+[ 53%] Generating ECMPoQm/pa/kbookmarks5_qt.qm
+[ 54%] Generating ECMPoQm/ne/kbookmarks5_qt.qm
+[ 55%] Generating ECMPoQm/oc/kbookmarks5_qt.qm
+[ 56%] Generating ECMPoQm/pl/kbookmarks5_qt.qm
+[ 56%] Built target translations_57
+[ 57%] Generating ECMPoQm/pt/kbookmarks5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 58%] Generating ECMPoQm/pt_BR/kbookmarks5_qt.qm
+[ 58%] Built target translations_56
+[ 58%] Built target translations_58
+[ 58%] Built target translations_61
+[ 58%] Built target translations_55
+[ 58%] Built target translations_54
+[ 58%] Built target translations_62
+[ 59%] Generating ECMPoQm/ro/kbookmarks5_qt.qm
+[ 59%] Built target translations_59
+[ 60%] Generating ECMPoQm/ru/kbookmarks5_qt.qm
+[ 61%] Generating ECMPoQm/sl/kbookmarks5_qt.qm
+[ 61%] Generating ECMPoQm/se/kbookmarks5_qt.qm
+[ 62%] Generating ECMPoQm/sk/kbookmarks5_qt.qm
+[ 63%] Generating ECMPoQm/sq/kbookmarks5_qt.qm
+[ 64%] Generating ECMPoQm/sr/kbookmarks5_qt.qm
+[ 64%] Built target translations_60
+[ 64%] Built target translations_65
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 65%] Generating ECMPoQm/sr@ijekavian/kbookmarks5_qt.qm
+[ 66%] Generating ECMPoQm/sr@ijekavianlatin/kbookmarks5_qt.qm
+[ 66%] Built target translations_68
+[ 66%] Built target translations_69
+[ 66%] Built target translations_66
+[ 66%] Built target translations_63
+[ 67%] Generating ECMPoQm/sr@latin/kbookmarks5_qt.qm
+[ 67%] Built target translations_64
+[ 67%] Built target translations_70
+[ 67%] Built target translations_67
+[ 67%] Built target translations_71
+[ 68%] Generating ECMPoQm/tg/kbookmarks5_qt.qm
+[ 68%] Built target translations_72
+[ 69%] Generating ECMPoQm/sv/kbookmarks5_qt.qm
+[ 70%] Generating ECMPoQm/ta/kbookmarks5_qt.qm
+[ 71%] Generating ECMPoQm/tr/kbookmarks5_qt.qm
+[ 71%] Generating ECMPoQm/th/kbookmarks5_qt.qm
+[ 72%] Generating ECMPoQm/uk/kbookmarks5_qt.qm
+[ 73%] Generating ECMPoQm/ug/kbookmarks5_qt.qm
+[ 74%] Generating ECMPoQm/uz/kbookmarks5_qt.qm
+[ 74%] Built target translations_73
+[ 74%] Built target translations_77
+[ 74%] Built target translations_79
+[ 74%] Built target translations_74
+[ 75%] Generating ECMPoQm/uz@cyrillic/kbookmarks5_qt.qm
+[ 76%] Generating ECMPoQm/vi/kbookmarks5_qt.qm
+[ 76%] Built target translations_76
+[ 77%] Generating ECMPoQm/wa/kbookmarks5_qt.qm
+[ 77%] Built target translations_75
+[ 77%] Built target translations_80
+[ 78%] Generating ECMPoQm/xh/kbookmarks5_qt.qm
+[ 78%] Built target translations_78
+[ 78%] Built target translations_82
+[ 79%] Generating ECMPoQm/zh_CN/kbookmarks5_qt.qm
+[ 80%] Generating ECMPoQm/zh_TW/kbookmarks5_qt.qm
+[ 81%] Automatic MOC for target KF5Bookmarks
+[ 81%] Built target translations_81
+[ 81%] Built target translations_85
+[ 81%] Built target translations_86
+[ 81%] Built target translations_83
+[ 81%] Built target translations_84
+[ 81%] Built target KF5Bookmarks_autogen
+[ 81%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/KF5Bookmarks_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkactioninterface.cpp.o
+[ 83%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkaction.cpp.o
+[ 85%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkactionmenu.cpp.o
+[ 85%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkcontextmenu.cpp.o
+[ 86%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkdialog.cpp.o
+[ 87%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmark.cpp.o
+[ 88%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkimporter.cpp.o
+[ 89%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkimporter_ie.cpp.o
+[ 90%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkimporter_ns.cpp.o
+[ 91%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkimporter_opera.cpp.o
+[ 92%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkmanager.cpp.o
+[ 92%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkmenu.cpp.o
+[ 93%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkowner.cpp.o
+[ 94%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/konqbookmarkmenu.cpp.o
+[ 95%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkdombuilder.cpp.o
+[ 96%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/ECMQmLoader-kbookmarks5_qt.cpp.o
+[ 97%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarkmanageradaptor.cpp.o
+[ 98%] Building CXX object src/CMakeFiles/KF5Bookmarks.dir/kbookmarks_debug.cpp.o
+[100%] Linking CXX shared library ../bin/libKF5Bookmarks.so
+[100%] Built target KF5Bookmarks

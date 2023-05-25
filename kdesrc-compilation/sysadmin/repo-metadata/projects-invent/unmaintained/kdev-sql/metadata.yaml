@@ -1,0 +1,7 @@
+description: KDevelop Plugin for SQL Language Support
+hasrepo: true
+identifier: kdev-sql
+name: Sql Language Plugin
+projectpath: unmaintained/kdev-sql
+repoactive: false
+repopath: unmaintained/kdev-sql

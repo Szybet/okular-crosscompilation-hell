@@ -1,0 +1,7 @@
+description: Smoke bindings for QtScript.
+hasrepo: true
+identifier: jsmoke
+name: JSmoke
+projectpath: unmaintained/jsmoke
+repoactive: false
+repopath: unmaintained/jsmoke

@@ -1,0 +1,7 @@
+description: MauiKit utilities to handle User Accounts
+hasrepo: true
+identifier: mauikit-accounts
+name: MauiKit Accounts
+projectpath: playground/libs/mauikit-accounts
+repoactive: true
+repopath: maui/mauikit-accounts

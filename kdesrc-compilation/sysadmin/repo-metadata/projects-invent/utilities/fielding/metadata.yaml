@@ -1,0 +1,7 @@
+description: A simple REST API testing tool
+hasrepo: true
+identifier: fielding
+name: Fielding
+projectpath: playground/utils/fielding
+repoactive: true
+repopath: utilities/fielding

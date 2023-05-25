@@ -1,0 +1,7 @@
+description: Synchronize your Phabricator tasks with KOrganizer
+hasrepo: true
+identifier: akonadi-phabricator-resource
+name: Akonadi Phabricator Resource
+projectpath: playground/pim/akonadi-phabricator-resource
+repoactive: false
+repopath: pim/akonadi-phabricator-resource

@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"generators/dvi/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "okularcore::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "okularGenerator_dvi_autogen::@239122a401f324a2a715",
+	"isGeneratorProvided" : true,
+	"name" : "okularGenerator_dvi_autogen",
+	"paths" : 
+	{
+		"build" : "generators/dvi",
+		"source" : "generators/dvi"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/generators/dvi/CMakeFiles/okularGenerator_dvi_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/generators/dvi/CMakeFiles/okularGenerator_dvi_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

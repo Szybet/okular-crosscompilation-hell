@@ -1,0 +1,8 @@
+description: A collection of coding examples that provide practical demonstrations
+  of the usage of KDE libraries and app development infrastructure.
+hasrepo: true
+identifier: kdeexamples
+name: KDE Examples
+projectpath: unmaintained/kdeexamples
+repoactive: false
+repopath: unmaintained/kdeexamples

@@ -1,0 +1,9 @@
+bugzilla:
+  product: kgeography
+description: Geography Trainer
+hasrepo: true
+identifier: kgeography
+name: KGeography
+projectpath: kde/kdeedu/kgeography
+repoactive: true
+repopath: education/kgeography

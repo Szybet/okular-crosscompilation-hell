@@ -1,0 +1,9 @@
+description: Image gallery application
+hasrepo: true
+identifier: koko
+name: Koko
+projectpath: extragear/graphics/koko
+repoactive: true
+repopath: graphics/koko
+bugzilla:
+    product: koko

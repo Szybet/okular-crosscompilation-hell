@@ -1,0 +1,9 @@
+bugzilla:
+  product: Skanlite
+description: Lite image scanning application
+hasrepo: true
+identifier: skanlite
+name: Skanlite
+projectpath: kde/kdegraphics/skanlite
+repoactive: true
+repopath: graphics/skanlite

@@ -1,0 +1,7 @@
+description: Historical copy of the multimedia applications module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdemultimedia
+name: 'Historical - KDE 1 - KDEMultimedia'
+projectpath: historical/kde1-kdemultimedia
+repoactive: true
+repopath: historical/kde1-kdemultimedia

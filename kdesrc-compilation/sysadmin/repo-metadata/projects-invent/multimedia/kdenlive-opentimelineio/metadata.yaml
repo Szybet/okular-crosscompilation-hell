@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdenlive
+description: OpenTimelineIO Adapter for Kdenlive
+hasrepo: true
+identifier: kdenlive-opentimelineio
+name: Kdenlive OpenTimelineIO Adapter
+projectpath: playground/multimedia/kdenlive-opentimelineio
+repoactive: true
+repopath: multimedia/kdenlive-opentimelineio

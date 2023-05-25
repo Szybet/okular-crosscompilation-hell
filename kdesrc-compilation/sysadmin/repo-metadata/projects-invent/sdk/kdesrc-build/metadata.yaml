@@ -1,0 +1,7 @@
+description: Script to streamline setting up and maintaining KDE software development environment
+hasrepo: true
+identifier: kdesrc-build
+name: kdesrc-build
+projectpath: extragear/utils/kdesrc-build
+repoactive: true
+repopath: sdk/kdesrc-build

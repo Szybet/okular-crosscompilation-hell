@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmime
+description: Library to assist handling MIME data
+hasrepo: true
+identifier: kmime
+name: KMime
+projectpath: kde/pim/kmime
+repoactive: true
+repopath: pim/kmime

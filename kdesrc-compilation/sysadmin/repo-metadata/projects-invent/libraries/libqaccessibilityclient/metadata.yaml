@@ -1,0 +1,7 @@
+description: Accessibilty tools helper library, used e.g. by screen readers
+hasrepo: true
+identifier: libqaccessibilityclient
+name: libqaccessibilityclient
+projectpath: extragear/libs/libqaccessibilityclient
+repoactive: true
+repopath: libraries/libqaccessibilityclient

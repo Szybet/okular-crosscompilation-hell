@@ -1,0 +1,9 @@
+bugzilla:
+  product: kapman
+description: Kapman is a clone of the well known game Pac-Man
+hasrepo: true
+identifier: kapman
+name: Kapman
+projectpath: kde/kdegames/kapman
+repoactive: true
+repopath: games/kapman

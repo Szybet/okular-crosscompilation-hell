@@ -1,0 +1,587 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kde/kdegraphics/okular
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/kde/kdegraphics/okular/prefix.sh to set the environment for okular.
+-- Found KF5: success (found suitable version "5.107.0", minimum required is "5.92.0") found components: Archive Bookmarks Completion Config ConfigWidgets CoreAddons I18n KIO ThreadWeaver WindowSystem 
+-- Found KF5: success (found suitable version "5.107.0", minimum required is "5.92.0") found components: Parts Crash IconThemes TextWidgets 
+-- Found KF5: success (found suitable version "5.107.0", minimum required is "5.92.0") found components: Activities 
+-- Poppler: Qt5 requires Core
+-- Could NOT find Poppler_Core (missing: Poppler_Core_LIBRARY Poppler_Core_INCLUDE_DIR) (found version "23.05.0")
+-- Could NOT find Poppler_Qt5 (missing: Poppler_Qt5_LIBRARY Poppler_Qt5_INCLUDE_DIR Poppler_Core_FOUND) (found version "23.05.0")
+-- Could NOT find Poppler (missing: Poppler_LIBRARIES Qt5) (found suitable version "23.05.0", minimum required is "22.02.0")
+-- Could NOT find Freetype (missing: FREETYPE_LIBRARY FREETYPE_INCLUDE_DIRS) 
+-- Could NOT find TIFF (missing: TIFF_LIBRARY TIFF_INCLUDE_DIR) 
+CMake Warning (dev) at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (LibSpectre).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  cmake/modules/FindLibSpectre.cmake:16 (include)
+  CMakeLists.txt:224 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find LibSpectre (missing: LIBSPECTRE_LIBRARY) (Required is at least version "0.2")
+-- Could NOT find CHM (missing: CHM_INCLUDE_DIR CHM_LIBRARY) 
+-- Could NOT find LibZip (missing: LIBZIP_LIBRARY LIBZIP_INCLUDE_DIR) 
+-- Could NOT find DjVuLibre (missing: DJVULIBRE_INCLUDE_DIR DJVULIBRE_LIBRARY) (Required is at least version "3.5.28")
+-- Could NOT find EPub (missing: EPUB_LIBRARIES EPUB_INCLUDE_DIR) 
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/kimgio/CMakeLists.txt:6 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/dvi/CMakeLists.txt:46 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/xps/CMakeLists.txt:10 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/fictionbook/CMakeLists.txt:13 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/comicbook/CMakeLists.txt:16 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/fax/CMakeLists.txt:8 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/plucker/CMakeLists.txt:18 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/txt/CMakeLists.txt:13 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/mobipocket/CMakeLists.txt:12 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/markdown/CMakeLists.txt:12 (okular_add_generator)
+
+
+-- The following RECOMMENDED packages have been found:
+
+ * KF5Wallet (required version >= 5.92.0)
+   Required for document storing passwords in secure wallets. You can make the dependency optional adding KF5Wallet to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * JPEG, A library for reading and writing JPEG image files., <https://www.ijg.org>
+   Support for PalmDB documents in okular. You can make the dependency optional adding JPEG to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5KExiv2, Wrapper around Exiv2 library, <https://commits.kde.org/libkexiv2>
+   Support for exif rotation in image files. You can make the dependency optional adding KF5KExiv2 to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5JS (required version >= 5.106.0)
+   Required for supporting JavaScript in PDF documents You can make the dependency optional adding KF5JS to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5KHtml, HTML rendering library
+   Support CHM files in okular. You can make the dependency optional adding KF5KHtml to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * Discount, A library that gives you formatting functions suitable for marking down entire documents or lines of text, <https://www.pell.portland.or.us/~orc/Code/discount/>
+   Support for Markdown documents in Okular. You can make the dependency optional adding Discount to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.92.0)
+ * Qt5Test
+ * Qt5PrintSupport
+ * Qt5Svg
+ * KF5Archive (required version >= 5.92.0)
+ * KF5Config (required version >= 5.106.0)
+ * KF5Bookmarks (required version >= 5.106.0)
+ * KF5Completion (required version >= 5.106.0)
+ * KF5ConfigWidgets (required version >= 5.106.0)
+ * KF5ThreadWeaver (required version >= 5.92.0)
+ * KF5WindowSystem (required version >= 5.92.0)
+ * Qt5DBus
+ * Qt5 (required version >= 5.15.2)
+ * KF5KIO (required version >= 5.106.0)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * KF5Crash (required version >= 5.92.0)
+ * KF5IconThemes (required version >= 5.92.0)
+ * KF5TextWidgets (required version >= 5.92.0)
+ * KF5Purpose, A framework for services and actions integration
+   Required for enabling the share menu. You can make the dependency optional adding KF5Purpose to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5Activities (required version >= 5.92.0), Activities interface library, <https://api.kde.org/frameworks/kactivities/html/>
+   Required for Activities integration.
+ * KF5 (required version >= 5.92.0)
+ * Qt5Widgets
+ * Phonon4Qt5
+ * ZLIB
+ * KF5Parts (required version >= 5.106.0)
+ * Qt5Gui (required version >= 5.12.0)
+ * QMobipocket (required version >= 2), A library for reading Mobipocket documents, <https://commits.kde.org/kdegraphics-mobipocket>
+   Support for Mobipocket documents in Okular. You can make the dependency optional adding QMobipocket to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * PkgConfig
+ * Qt5Core (required version >= 5.15.2)
+ * KF5Pty
+
+-- The following RECOMMENDED packages have not been found:
+
+ * Poppler (required version >= 22.02.0), A PDF rendering library, <https://poppler.freedesktop.org/>
+   Support for PDF files in okular. You can make the dependency optional adding Poppler to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * Freetype, A font rendering engine, <https://www.freetype.org>
+   Provides freetype font support in the okular DVI generator. You can make the dependency optional adding Freetype to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * TIFF, A library for reading and writing TIFF formatted files,, <http://www.libtiff.org>
+   Support for TIFF files in okular. You can make the dependency optional adding TIFF to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * LibSpectre (required version >= 0.2), A PostScript rendering library, <https://libspectre.freedesktop.org>
+   Support for PS files in okular. You can make the dependency optional adding LibSpectre to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * CHM, A library for dealing with Microsoft ITSS/CHM format files, <http://www.jedrea.com/chmlib>
+   Support CHM files in okular. You can make the dependency optional adding CHM to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * LibZip, A library for reading, creating, and modifying zip archives, <https://libzip.org/>
+   Support CHM files in okular. You can make the dependency optional adding LibZip to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * DjVuLibre (required version >= 3.5.28), A library for dealing with DjVu formatted files, <https://djvulibre.djvuzone.org>
+   Support for DjVu files in okular. You can make the dependency optional adding DjVuLibre to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * EPub, A library for reading EPub documents, <http://sourceforge.net/projects/ebook-tools>
+   Support for EPub documents in Okular. You can make the dependency optional adding EPub to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+
+-- Building Desktop User Interface: ON
+-- Building Mobile Interface: OFF
+
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/szybet/kdesrc/build/kde/kdegraphics/okular
+[  2%] Automatic MOC for target okularcore
+[  2%] Automatic MOC for target okular
+[  2%] Generating mo...
+[  3%] Generating ts...
+[  3%] Built target okular_autogen
+[  3%] Built target okularcore_autogen
+[  3%] Built target tsfiles-1c55821d4c4d169d1717e2094316414c
+[  3%] Generating ui_chooseenginewidget.h
+[  3%] Generating settings_core.h, settings_core.cpp
+[  4%] Generating settings_core.moc
+[  4%] Built target pofiles-1c55821d4c4d169d1717e2094316414c
+[  4%] Building CXX object shell/CMakeFiles/okular.dir/shell.cpp.o
+[  5%] Building CXX object CMakeFiles/okularcore.dir/okularcore_autogen/mocs_compilation.cpp.o
+[  5%] Building CXX object CMakeFiles/okularcore.dir/core/action.cpp.o
+[  6%] Building CXX object CMakeFiles/okularcore.dir/core/area.cpp.o
+[  6%] Building CXX object CMakeFiles/okularcore.dir/core/annotations.cpp.o
+[  6%] Building CXX object CMakeFiles/okularcore.dir/core/audioplayer.cpp.o
+[  7%] Building CXX object CMakeFiles/okularcore.dir/core/bookmarkmanager.cpp.o
+[  7%] Building CXX object CMakeFiles/okularcore.dir/core/chooseenginedialog.cpp.o
+[  8%] Building CXX object CMakeFiles/okularcore.dir/core/document.cpp.o
+[  8%] Building CXX object CMakeFiles/okularcore.dir/core/documentcommands.cpp.o
+[  9%] Building CXX object CMakeFiles/okularcore.dir/core/fontinfo.cpp.o
+[  9%] Building CXX object CMakeFiles/okularcore.dir/core/form.cpp.o
+[  9%] Building CXX object CMakeFiles/okularcore.dir/core/generator.cpp.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:[m[K In constructor '[01m[KShell::Shell(const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:168:35:[m[K [01;35m[Kwarning: [m[K'[01m[KKPluginFactory* KPluginLoader::factory()[m[K' is deprecated: Since 5.86. Use KPluginFactory::loadFactory or KPluginFactory::instantiatePlugin instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  168 |     m_partFactory = [01;35m[Kloader.factory()[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:28[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:126:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  126 |     KPluginFactory *[01;36m[Kfactory[m[K();
+      |                     [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KI18n/KLocalizedString:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:25[m[K:
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:173:100:[m[K [01;35m[Kwarning: [m[K'[01m[KQString KPluginLoader::errorString() const[m[K' is deprecated: Since 5.86. Use QPluginLoader::errorString() instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  173 |         KMessageBox::error(this, i18n("Unable to find the Okular component: %1", [01;35m[Kloader.errorString()[m[K));
+      |                                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:28[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:191:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  191 |     QString [01;36m[KerrorString[m[K() const;
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[ 10%] Building CXX object CMakeFiles/okularcore.dir/core/generator_p.cpp.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:[m[K In member function '[01m[Kvoid Shell::tryRaise(const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:661:24:[m[K [01;31m[Kerror: [m[K'[01m[KsetCurrentXdgActivationToken[m[K' is not a member of '[01m[KKWindowSystem[m[K'
+  661 |         KWindowSystem::[01;31m[KsetCurrentXdgActivationToken[m[K(startupId);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:666:57:[m[K [01;31m[Kerror: [m[Kinvalid conversion from '[01m[KQWindow*[m[K' to '[01m[KWId[m[K' {aka '[01m[Kunsigned int[m[K'} [[01;31m[K-fpermissive[m[K]
+  666 |     KWindowSystem::activateWindow([01;31m[Kwindow()->windowHandle()[m[K);
+      |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                         [01;31m[K|[m[K
+      |                                                         [01;31m[KQWindow*[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KWindowSystem/KWindowSystem:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:36[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KWindowSystem/kwindowsystem.h:147:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of '[01m[Kstatic void KWindowSystem::activateWindow(WId, long int)[m[K'
+  147 |     static void activateWindow([01;36m[KWId win[m[K, long time = 0);
+      |                                [01;36m[K~~~~^~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/annotations.cpp:[m[K In member function '[01m[Kvirtual double Okular::GeomAnnotationPrivate::distanceSqr(double, double, double, double) const[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/annotations.cpp:1911:117:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<Okular::NormalizedPoint>[m[K' changed in GCC 7.1
+ 1911 |                                               NormalizedPoint(m_transformedBoundary.left, m_transformedBoundary.top)[01;36m[K}[m[K;
+      |                                                                                                                     [01;36m[K^[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qhash.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qshareddata.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatetime.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDateTime:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/annotations.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/annotations.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = Okular::NormalizedPoint][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<Okular::NormalizedPoint>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[ 10%] Building CXX object CMakeFiles/okularcore.dir/core/misc.cpp.o
+make[2]: *** [shell/CMakeFiles/okular.dir/build.make:122: shell/CMakeFiles/okular.dir/shell.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:635: shell/CMakeFiles/okular.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 11%] Building CXX object CMakeFiles/okularcore.dir/core/movie.cpp.o
+[ 11%] Building CXX object CMakeFiles/okularcore.dir/core/observer.cpp.o
+[ 11%] Building CXX object CMakeFiles/okularcore.dir/core/debug.cpp.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:[m[K In member function '[01m[KOkular::Generator* Okular::DocumentPrivate::loadGeneratorLibrary(const KPluginMetaData&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:820:45:[m[K [01;35m[Kwarning: [m[K'[01m[KKPluginFactory* KPluginLoader::factory()[m[K' is deprecated: Since 5.86. Use KPluginFactory::loadFactory or KPluginFactory::instantiatePlugin instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  820 |     KPluginFactory *factory = [01;35m[Kloader.factory()[m[K;
+      |                               [01;35m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kservice.h:22[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kapplicationtrader.h:13[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/KApplicationTrader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:52[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:126:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  126 |     KPluginFactory *[01;36m[Kfactory[m[K();
+      |                     [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:822:129:[m[K [01;35m[Kwarning: [m[K'[01m[KQString KPluginLoader::errorString() const[m[K' is deprecated: Since 5.86. Use QPluginLoader::errorString() instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  822 |         qCWarning(OkularCoreDebug).nospace() << "Invalid plugin factory for " << service.fileName() << ":" << [01;35m[Kloader.errorString()[m[K;
+      |                                                                                                               [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kservice.h:22[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kapplicationtrader.h:13[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/KApplicationTrader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:52[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:191:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  191 |     QString [01;36m[KerrorString[m[K() const;
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:[m[K In static member function '[01m[Kstatic QVector<KPluginMetaData> Okular::DocumentPrivate::availableGenerators()[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:2315:33:[m[K [01;35m[Kwarning: [m[K'[01m[Kstatic QVector<KPluginMetaData> KPluginLoader::findPlugins(const QString&, std::function<bool(const KPluginMetaData&)>)[m[K' is deprecated: Since 5.86. Use KPluginMetaData::findPlugins instead [[01;35m[K-Wdeprecated-declarations[m[K]
+ 2315 |         result = KPluginLoader::[01;35m[KfindPlugins[m[K(QStringLiteral("okular/generators"));
+      |                                 [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kservice.h:22[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kapplicationtrader.h:13[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/KApplicationTrader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:52[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:375:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  375 |     static QVector<KPluginMetaData> [01;36m[KfindPlugins[m[K(const QString &directory,
+      |                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:2315:44:[m[K [01;35m[Kwarning: [m[K'[01m[Kstatic QVector<KPluginMetaData> KPluginLoader::findPlugins(const QString&, std::function<bool(const KPluginMetaData&)>)[m[K' is deprecated: Since 5.86. Use KPluginMetaData::findPlugins instead [[01;35m[K-Wdeprecated-declarations[m[K]
+ 2315 |         result = [01;35m[KKPluginLoader::findPlugins(QStringLiteral("okular/generators"))[m[K;
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kservice.h:22[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kapplicationtrader.h:13[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/KApplicationTrader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:52[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:375:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  375 |     static QVector<KPluginMetaData> [01;36m[KfindPlugins[m[K(const QString &directory,
+      |                                     [01;36m[K^~~~~~~~~~~[m[K
+[ 12%] Building CXX object CMakeFiles/okularcore.dir/core/page.cpp.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:[m[K In member function '[01m[KOkular::DocumentInfo Okular::Document::documentInfo(const QSet<Okular::DocumentInfo::Key>&) const[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:2943:42:[m[K [01;35m[Kwarning: [m[K'[01m[KQMap<K, V>& QMap<K, V>::unite(const QMap<K, V>&) [with Key = QString; T = QString][m[K' is deprecated: Use QMultiMap for maps storing multiple values with the same key. [[01;35m[K-Wdeprecated-declarations[m[K]
+ 2943 |         [01;35m[Kd->m_documentInfo.d->values.unite(info.d->values)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdebug.h:47[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDebug:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmap.h:1374:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1374 | QMap<Key, T> &[01;36m[KQMap<Key, T>[m[K::unite(const QMap<Key, T> &other)
+      |               [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:2944:42:[m[K [01;35m[Kwarning: [m[K'[01m[KQMap<K, V>& QMap<K, V>::unite(const QMap<K, V>&) [with Key = QString; T = QString][m[K' is deprecated: Use QMultiMap for maps storing multiple values with the same key. [[01;35m[K-Wdeprecated-declarations[m[K]
+ 2944 |         [01;35m[Kd->m_documentInfo.d->titles.unite(info.d->titles)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdebug.h:47[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDebug:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmap.h:1374:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1374 | QMap<Key, T> &[01;36m[KQMap<Key, T>[m[K::unite(const QMap<Key, T> &other)
+      |               [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:2945:31:[m[K [01;35m[Kwarning: [m[K'[01m[KQMap<K, V>& QMap<K, V>::unite(const QMap<K, V>&) [with Key = QString; T = QString][m[K' is deprecated: Use QMultiMap for maps storing multiple values with the same key. [[01;35m[K-Wdeprecated-declarations[m[K]
+ 2945 |         [01;35m[Kresult.d->values.unite(info.d->values)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdebug.h:47[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDebug:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmap.h:1374:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1374 | QMap<Key, T> &[01;36m[KQMap<Key, T>[m[K::unite(const QMap<Key, T> &other)
+      |               [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:2946:31:[m[K [01;35m[Kwarning: [m[K'[01m[KQMap<K, V>& QMap<K, V>::unite(const QMap<K, V>&) [with Key = QString; T = QString][m[K' is deprecated: Use QMultiMap for maps storing multiple values with the same key. [[01;35m[K-Wdeprecated-declarations[m[K]
+ 2946 |         [01;35m[Kresult.d->titles.unite(info.d->titles)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdebug.h:47[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDebug:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmap.h:1374:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1374 | QMap<Key, T> &[01;36m[KQMap<Key, T>[m[K::unite(const QMap<Key, T> &other)
+      |               [01;36m[K^~~~~~~~~~~~[m[K
+[ 12%] Building CXX object CMakeFiles/okularcore.dir/core/pagecontroller.cpp.o
+[ 13%] Building CXX object CMakeFiles/okularcore.dir/core/pagesize.cpp.o
+[ 13%] Building CXX object CMakeFiles/okularcore.dir/core/pagetransition.cpp.o
+[ 14%] Building CXX object CMakeFiles/okularcore.dir/core/rotationjob.cpp.o
+[ 14%] Building CXX object CMakeFiles/okularcore.dir/core/scripter.cpp.o
+[ 14%] Building CXX object CMakeFiles/okularcore.dir/core/sound.cpp.o
+[ 15%] Building CXX object CMakeFiles/okularcore.dir/core/sourcereference.cpp.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:[m[K In member function '[01m[Kbool Okular::DocumentPrivate::loadDocumentInfo(QFile&, Okular::LoadDocumentInfoFlags)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:661:74:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+  661 |                             m_viewportIterator = [01;36m[Km_viewportHistory.insert(m_viewportHistory.end(), DocumentViewport(vpString))[m[K;
+      |                                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:668:70:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+  668 |                         m_viewportIterator = [01;36m[Km_viewportHistory.insert(m_viewportHistory.end(), DocumentViewport())[m[K;
+      |                                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 15%] Building CXX object CMakeFiles/okularcore.dir/core/textdocumentgenerator.cpp.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:[m[K In constructor '[01m[KOkular::Document::Document(QWidget*)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:2246:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+ 2246 |     d->m_viewportIterator = [01;36m[Kd->m_viewportHistory.insert(d->m_viewportHistory.end(), DocumentViewport())[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:[m[K In member function '[01m[Kvoid Okular::Document::setViewport(const Okular::DocumentViewport&, Okular::DocumentObserver*, bool, bool)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:3714:35:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+ 3714 |         [01;36m[Kd->m_viewportHistory.erase(++d->m_viewportIterator, d->m_viewportHistory.end())[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:3722:60:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+ 3722 |         d->m_viewportIterator = [01;36m[Kd->m_viewportHistory.insert(d->m_viewportHistory.end(), viewport)[m[K;
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 16%] Building CXX object CMakeFiles/okularcore.dir/core/textdocumentsettings.cpp.o
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/list:63[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:55[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qstringlist.h:41[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/qcolor.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/QColor:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kstd::__cxx11::list<_Tp, _Alloc>::iterator std::__cxx11::list<_Tp, _Alloc>::insert(std::__cxx11::list<_Tp, _Alloc>::const_iterator, std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1308:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+ 1308 |       [01;36m[Kinsert[m[K(const_iterator __position, value_type&& __x)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1309:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+ 1309 |       { return [01;36m[Kemplace(__position, std::move(__x))[m[K; }
+      |                [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 16%] Building CXX object CMakeFiles/okularcore.dir/core/textpage.cpp.o
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kstd::__cxx11::list<_Tp, _Alloc>::reference std::__cxx11::list<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {Okular::DocumentViewport}; _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1227:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_List_iterator<Okular::DocumentViewport>[m[K' changed in GCC 7.1
+ 1227 |           [01;36m[Kthis->_M_insert(end(), std::forward<_Args>(__args)...)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 16%] Building CXX object CMakeFiles/okularcore.dir/core/tilesmanager.cpp.o
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kstd::__cxx11::list<_Tp, _Alloc>::iterator std::__cxx11::list<_Tp, _Alloc>::erase(std::__cxx11::list<_Tp, _Alloc>::const_iterator, std::__cxx11::list<_Tp, _Alloc>::const_iterator) [with _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1456:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+ 1456 |       [01;36m[Kerase[m[K(const_iterator __first, const_iterator __last) noexcept
+      |       [01;36m[K^~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1456:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1462:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+ 1462 |           __first = [01;36m[Kerase(__first)[m[K;
+      |                     [01;36m[K~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kvoid std::__cxx11::list<_Tp, _Alloc>::pop_front() [with _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1198:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_List_iterator<Okular::DocumentViewport>[m[K' changed in GCC 7.1
+ 1198 |       { [01;36m[Kthis->_M_erase(begin())[m[K; }
+      |         [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/list:64[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:55[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qstringlist.h:41[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/qcolor.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/QColor:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/list.tcc:[m[K In member function '[01m[Kstd::__cxx11::list<_Tp, _Alloc>::iterator std::__cxx11::list<_Tp, _Alloc>::insert(std::__cxx11::list<_Tp, _Alloc>::const_iterator, const value_type&) [with _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/list.tcc:101:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+  101 |     [01;36m[Klist<_Tp, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[ 17%] Building CXX object CMakeFiles/okularcore.dir/core/utils.cpp.o
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/list.tcc:[m[K In member function '[01m[Kstd::__cxx11::list<_Tp, _Alloc>::iterator std::__cxx11::list<_Tp, _Alloc>::emplace(std::__cxx11::list<_Tp, _Alloc>::const_iterator, _Args&& ...) [with _Args = {Okular::DocumentViewport}; _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/list.tcc:89:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+   89 |       [01;36m[Klist<_Tp, _Alloc>[m[K::
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/list:63[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:55[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qstringlist.h:41[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/qcolor.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/QColor:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kvoid std::__cxx11::list<_Tp, _Alloc>::_M_insert(std::__cxx11::list<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {Okular::DocumentViewport}; _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1909:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::iterator[m[K' changed in GCC 7.1
+ 1909 |        [01;36m[K_M_insert[m[K(iterator __position, _Args&&... __args)
+      |        [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/list:64[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:55[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qstringlist.h:41[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/qcolor.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/QColor:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/list.tcc:[m[K In member function '[01m[Kstd::__cxx11::list<_Tp, _Alloc>::iterator std::__cxx11::list<_Tp, _Alloc>::erase(std::__cxx11::list<_Tp, _Alloc>::const_iterator) [with _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/list.tcc:150:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::const_iterator[m[K' changed in GCC 7.1
+  150 |     [01;36m[Klist<_Tp, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/list.tcc:158:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_List_iterator<Okular::DocumentViewport>[m[K' changed in GCC 7.1
+  158 |       [01;36m[K_M_erase(__position._M_const_cast())[m[K;
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/list:63[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:55[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qstringlist.h:41[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/qcolor.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/QColor:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/area.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/document.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kvoid std::__cxx11::list<_Tp, _Alloc>::_M_erase(std::__cxx11::list<_Tp, _Alloc>::iterator) [with _Tp = Okular::DocumentViewport; _Alloc = std::allocator<Okular::DocumentViewport>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1919:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<Okular::DocumentViewport>::iterator[m[K' changed in GCC 7.1
+ 1919 |       [01;36m[K_M_erase[m[K(iterator __position) _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~~~~~[m[K
+[ 17%] Building CXX object CMakeFiles/okularcore.dir/core/view.cpp.o
+[ 18%] Building CXX object CMakeFiles/okularcore.dir/core/fileprinter.cpp.o
+[ 18%] Building CXX object CMakeFiles/okularcore.dir/core/printoptionswidget.cpp.o
+[ 19%] Building CXX object CMakeFiles/okularcore.dir/core/signatureutils.cpp.o
+[ 19%] Building CXX object CMakeFiles/okularcore.dir/core/script/event.cpp.o
+[ 19%] Building C object CMakeFiles/okularcore.dir/core/synctex/synctex_parser.c.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex/synctex_parser.c:1626:61:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field '[01m[Kpage[m[K' of '[01m[Ksynctex_data_model_s[m[K' {aka '[01m[Kconst struct synctex_data_model_t[m[K'} [[01;35m[K-Wmissing-field-initializers[m[K]
+ 1626 |                                                             [01;35m[Ksynctex_data_ref_thv_max[m[K};
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex/synctex_parser.c:140:9:[m[K [01;36m[Knote: [m[K'[01m[Kpage[m[K' declared here
+  140 |     int [01;36m[Kpage[m[K;
+      |         [01;36m[K^~~~[m[K
+[ 20%] Building C object CMakeFiles/okularcore.dir/core/synctex/synctex_parser_utils.c.o
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:[m[K In static member function '[01m[Kstatic bool Okular::FilePrinter::cupsAvailable()[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:242:29:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid QPrinter::setNumCopies(int)[m[K' is deprecated: Use setCopyCount() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  242 |     [01;35m[KtestPrinter.setNumCopies(2)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:217:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  217 |     void [01;36m[KsetNumCopies[m[K(int);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:243:34:[m[K [01;35m[Kwarning: [m[K'[01m[Kint QPrinter::numCopies() const[m[K' is deprecated: Use copyCount() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  243 |     return ([01;35m[KtestPrinter.numCopies()[m[K == 1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:219:9:[m[K [01;36m[Knote: [m[Kdeclared here
+  219 |     int [01;36m[KnumCopies[m[K() const;
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:[m[K In static member function '[01m[Kstatic QSize Okular::FilePrinter::psPaperSize(QPrinter&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:282:25:[m[K [01;35m[Kwarning: [m[K'[01m[KQPagedPaintDevice::PageSize QPrinter::pageSize() const[m[K' is deprecated: Use pageLayout().pageSize().id() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  282 |     if ([01;35m[Kprinter.pageSize()[m[K == QPrinter::Custom) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:179:14:[m[K [01;36m[Knote: [m[Kdeclared here
+  179 |     PageSize [01;36m[KpageSize[m[K() const;
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:286:28:[m[K [01;35m[Kwarning: [m[K'[01m[KQPrinter::Orientation QPrinter::orientation() const[m[K' is deprecated: Use pageLayout().orientation() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  286 |     if ([01;35m[Kprinter.orientation()[m[K == QPrinter::Landscape) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:174:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  174 |     Orientation [01;36m[Korientation[m[K() const;
+      |                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex/synctex_parser.c:[m[K In function '[01m[Ksynctex_updater_new_with_output_file[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex/synctex_parser.c:8116:24:[m[K [01;35m[Kwarning: [m[Kassignment left-hand side might be a candidate for a format attribute [[01;35m[K-Wsuggest-attribute=format[m[K]
+ 8116 |         updater->print [01;35m[K=[m[K &_synctex_updater_print;
+      |                        [01;35m[K^[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex/synctex_parser.c:8122:24:[m[K [01;35m[Kwarning: [m[Kassignment left-hand side might be a candidate for a format attribute [[01;35m[K-Wsuggest-attribute=format[m[K]
+ 8122 |         updater->print [01;35m[K=[m[K &_synctex_updater_print_gz;
+      |                        [01;35m[K^[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:[m[K In member function '[01m[KQStringList Okular::FilePrinter::copies(QPrinter&, const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:350:37:[m[K [01;35m[Kwarning: [m[K'[01m[Kint QPrinter::actualNumCopies() const[m[K' is deprecated: Use copyCount() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  350 |     int cp = [01;35m[Kprinter.actualNumCopies()[m[K;
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:221:9:[m[K [01;36m[Knote: [m[Kdeclared here
+  221 |     int [01;36m[KactualNumCopies[m[K() const;
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:[m[K In member function '[01m[KQString Okular::FilePrinter::mediaPageSize(QPrinter&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:467:29:[m[K [01;35m[Kwarning: [m[K'[01m[KQPagedPaintDevice::PageSize QPrinter::pageSize() const[m[K' is deprecated: Use pageLayout().pageSize().id() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  467 |     switch ([01;35m[Kprinter.pageSize()[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:179:14:[m[K [01;36m[Knote: [m[Kdeclared here
+  179 |     PageSize [01;36m[KpageSize[m[K() const;
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:[m[K In member function '[01m[KQStringList Okular::FilePrinter::optionOrientation(QPrinter&, QPrinter::Orientation)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:577:28:[m[K [01;35m[Kwarning: [m[K'[01m[KQPrinter::Orientation QPrinter::orientation() const[m[K' is deprecated: Use pageLayout().orientation() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  577 |     if ([01;35m[Kprinter.orientation()[m[K == documentOrientation) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:174:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  174 |     Orientation [01;36m[Korientation[m[K() const;
+      |                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:[m[K In member function '[01m[KQStringList Okular::FilePrinter::optionDoubleSidedPrinting(QPrinter&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:592:32:[m[K [01;35m[Kwarning: [m[K'[01m[KQPrinter::Orientation QPrinter::orientation() const[m[K' is deprecated: Use pageLayout().orientation() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  592 |         if ([01;35m[Kprinter.orientation()[m[K == QPrinter::Landscape) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:174:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  174 |     Orientation [01;36m[Korientation[m[K() const;
+      |                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:[m[K In member function '[01m[KQStringList Okular::FilePrinter::optionPageMargins(QPrinter&, Okular::FilePrinter::ScaleMode)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:629:35:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid QPrinter::getPageMargins(qreal*, qreal*, qreal*, qreal*, QPrinter::Unit) const[m[K' is deprecated: Use pageLayout().margins() instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+  629 |             [01;35m[Kprinter.getPageMargins(&l, &t, &r, &b, QPrinter::Point)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/QPrinter:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.h:15[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/core/fileprinter.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport/qprinter.h:289:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  289 |     void [01;36m[KgetPageMargins[m[K(qreal *left, qreal *top, qreal *right, qreal *bottom, Unit unit) const;
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[ 20%] Building CXX object CMakeFiles/okularcore.dir/qrc_builtin.cpp.o
+[ 21%] Building CXX object CMakeFiles/okularcore.dir/settings_core.cpp.o
+[ 21%] Building CXX object CMakeFiles/okularcore.dir/core/script/executor_kjs.cpp.o
+[ 22%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_app.cpp.o
+[ 22%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_console.cpp.o
+[ 22%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_data.cpp.o
+[ 23%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_display.cpp.o
+[ 23%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_document.cpp.o
+[ 24%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_field.cpp.o
+[ 24%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_fullscreen.cpp.o
+[ 24%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_spell.cpp.o
+[ 25%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_util.cpp.o
+[ 25%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_event.cpp.o
+[ 26%] Building CXX object CMakeFiles/okularcore.dir/core/script/kjs_ocg.cpp.o
+[ 26%] Linking CXX shared library bin/libOkular5Core.so
+[ 27%] Built target okularcore
+make: *** [Makefile:136: all] Error 2

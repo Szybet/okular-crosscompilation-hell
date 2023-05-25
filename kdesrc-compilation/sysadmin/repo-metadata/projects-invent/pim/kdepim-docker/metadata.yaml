@@ -1,0 +1,7 @@
+description: Docker image for easy KDE PIM development
+hasrepo: true
+identifier: kdepim-docker
+name: KDE PIM Docker Container
+projectpath: playground/pim/kdepim-docker
+repoactive: true
+repopath: pim/kdepim-docker

@@ -1,0 +1,11 @@
+
+bugzilla:
+  product: akonadi
+  component: indexer
+description: Libraries and daemons to implement searching in Akonadi
+hasrepo: true
+identifier: akonadi-search
+name: Akonadi Search
+projectpath: kde/pim/akonadi-search
+repoactive: true
+repopath: pim/akonadi-search

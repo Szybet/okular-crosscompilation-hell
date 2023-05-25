@@ -1,0 +1,9 @@
+bugzilla:
+  product: kcachegrind
+description: GUI to profilers such as Valgrind
+hasrepo: true
+identifier: kcachegrind
+name: KCacheGrind
+projectpath: kde/kdesdk/kcachegrind
+repoactive: true
+repopath: sdk/kcachegrind

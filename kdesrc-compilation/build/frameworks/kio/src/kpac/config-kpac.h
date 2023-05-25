@@ -1,0 +1,11 @@
+
+#define KDE_INSTALL_FULL_LIBEXECDIR_KF "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libexec/kf5"
+
+#define HAVE_ARPA_NAMESER_COMPAT_H 1
+#define HAVE_ARPA_NAMESER8_COMPAT_H 0
+#define HAVE_NETINET_IN_H 1
+#define HAVE_SYS_PARAM_H 1
+#define HAVE___RES_INIT_IN_RESOLV_LIBRARY 1
+#define HAVE_RES_INIT_IN_RESOLV_LIBRARY 1
+#define HAVE_RESOLV_LIBRARY 1
+#define HAVE_STDINT_H 1

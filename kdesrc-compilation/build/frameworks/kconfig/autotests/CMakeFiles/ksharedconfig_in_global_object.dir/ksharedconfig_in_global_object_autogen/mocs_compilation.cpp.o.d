@@ -1,0 +1,2 @@
+autotests/CMakeFiles/ksharedconfig_in_global_object.dir/ksharedconfig_in_global_object_autogen/mocs_compilation.cpp.o: \
+ /home/szybet/kdesrc/build/frameworks/kconfig/autotests/ksharedconfig_in_global_object_autogen/mocs_compilation.cpp

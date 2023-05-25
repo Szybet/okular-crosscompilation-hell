@@ -1,0 +1,7 @@
+description: Provides interfaces and session daemon to colord
+hasrepo: true
+identifier: colord-kde
+name: colord-kde
+projectpath: playground/graphics/colord-kde
+repoactive: true
+repopath: graphics/colord-kde

@@ -1,0 +1,8 @@
+description: A command line tool, service, and desktop action to fetch information
+  about TV Shows from thetvdb.com and store it into Nepomuk.
+hasrepo: true
+identifier: nepomuktvnamer
+name: Nepomuk TV Namer
+projectpath: unmaintained/nepomuktvnamer
+repoactive: false
+repopath: unmaintained/nepomuktvnamer

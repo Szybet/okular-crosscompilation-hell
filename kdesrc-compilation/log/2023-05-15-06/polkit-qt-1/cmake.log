@@ -1,0 +1,47 @@
+# kdesrc-build running: 'cmake' '-B' '.' '-S' '/home/szybet/kdesrc/kdesupport/polkit-qt-1' '-G' 'Unix Makefiles' '-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON' '-DCMAKE_TOOLCHAIN_FILE=/mnt/HDD/Project/Public/okulartry/kobo.cmake' '-DCMAKE_CXX_FLAGS:STRING=-pipe' '-DCMAKE_INSTALL_PREFIX=/mnt/HDD/Project/Public/okulartry/okular-things' '-DCMAKE_PREFIX_PATH=/home/build/inkbox/compiled-binaries/qt-bin/'
+# from directory: /home/szybet/kdesrc/build/kdesupport/polkit-qt-1
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /sbin/pkg-config (found version "1.8.1") 
+-- Checking for module 'polkit-gobject-1'
+--   Found polkit-gobject-1, version 122
+-- Checking for module 'polkit-agent-1'
+--   Found polkit-agent-1, version 122
+-- Checking for module 'glib-2.0>=2.36'
+--   Found glib-2.0, version 2.76.2
+-- Checking for module 'gobject-2.0'
+--   Found gobject-2.0, version 2.76.2
+-- Looking for polkit_agent_listener_register
+-- Looking for polkit_agent_listener_register - found
+-- Looking for polkit_authority_get_sync
+-- Looking for polkit_authority_get_sync - found
+-- Looking for polkit_system_bus_name_get_user_sync
+-- Looking for polkit_system_bus_name_get_user_sync - found
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- The following REQUIRED packages have been found:
+
+ * Qt5Core
+ * Qt5DBus
+ * Qt5Gui (required version >= 5.15.2)
+ * Qt5Widgets
+ * Qt5 (required version >= 5.5.0)
+ * PkgConfig
+
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/kdesupport/polkit-qt-1

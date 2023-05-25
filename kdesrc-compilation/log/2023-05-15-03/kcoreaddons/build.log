@@ -1,0 +1,383 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcoreaddons
+[  0%] Generating ECMPoQm/ar/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/ast/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/af/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/be/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/as/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/az/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/bg/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/be@latin/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  1%] Built target translations_2
+[  1%] Built target translations_4
+[  1%] Built target translations_5
+[  1%] Built target translations_8
+[  1%] Generating ECMPoQm/bn/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/bn_IN/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  1%] Generating ECMPoQm/br/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/bs/kcoreaddons5_qt.qm
+[  1%] Built target translations_7
+[  1%] Built target translations_3
+[  1%] Built target translations_6
+[  1%] Built target translations_12
+[  2%] Generating ECMPoQm/ca/kcoreaddons5_qt.qm
+[  2%] Built target translations_10
+[  2%] Built target translations_1
+[  2%] Generating ECMPoQm/ca@valencia/kcoreaddons5_qt.qm
+[  2%] Generating ECMPoQm/crh/kcoreaddons5_qt.qm
+[  2%] Generating ECMPoQm/cs/kcoreaddons5_qt.qm
+[  3%] Generating ECMPoQm/csb/kcoreaddons5_qt.qm
+[  3%] Generating ECMPoQm/cy/kcoreaddons5_qt.qm
+[  3%] Built target translations_13
+[  3%] Built target translations_14
+[  3%] Built target translations_9
+[  3%] Built target translations_11
+[  3%] Built target translations_16
+[  3%] Generating ECMPoQm/da/kcoreaddons5_qt.qm
+[  4%] Generating ECMPoQm/de/kcoreaddons5_qt.qm
+[  4%] Generating ECMPoQm/el/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  4%] Generating ECMPoQm/en/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  4%] Generating ECMPoQm/en_GB/kcoreaddons5_qt.qm
+[  4%] Built target translations_15
+[  4%] Built target translations_22
+[  4%] Built target translations_17
+[  4%] Built target translations_20
+[  4%] Built target translations_18
+[  4%] Generating ECMPoQm/es/kcoreaddons5_qt.qm
+[  5%] Generating ECMPoQm/eo/kcoreaddons5_qt.qm
+[  5%] Generating ECMPoQm/et/kcoreaddons5_qt.qm
+[  5%] Built target translations_19
+[  5%] Built target translations_24
+[  6%] Generating ECMPoQm/fa/kcoreaddons5_qt.qm
+[  6%] Generating ECMPoQm/eu/kcoreaddons5_qt.qm
+[  6%] Generating ECMPoQm/fr/kcoreaddons5_qt.qm
+[  6%] Built target translations_21
+[  6%] Generating ECMPoQm/fi/kcoreaddons5_qt.qm
+[  6%] Built target translations_23
+[  7%] Generating ECMPoQm/fy/kcoreaddons5_qt.qm
+[  7%] Built target translations_25
+[  7%] Generating ECMPoQm/ga/kcoreaddons5_qt.qm
+[  7%] Generating ECMPoQm/gd/kcoreaddons5_qt.qm
+[  7%] Built target translations_27
+[  7%] Built target translations_26
+[  7%] Built target translations_30
+[  7%] Built target translations_33
+[  7%] Built target translations_28
+[  7%] Generating ECMPoQm/gl/kcoreaddons5_qt.qm
+[  7%] Generating ECMPoQm/gu/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  7%] Generating ECMPoQm/he/kcoreaddons5_qt.qm
+[  8%] Generating ECMPoQm/ha/kcoreaddons5_qt.qm
+[  8%] Built target translations_29
+[  8%] Built target translations_31
+[  8%] Generating ECMPoQm/hi/kcoreaddons5_qt.qm
+[  8%] Generating ECMPoQm/hne/kcoreaddons5_qt.qm
+[  8%] Built target translations_37
+[  8%] Generating ECMPoQm/hr/kcoreaddons5_qt.qm
+[  8%] Built target translations_36
+[  8%] Built target translations_32
+[  8%] Generating ECMPoQm/hsb/kcoreaddons5_qt.qm
+[  9%] Generating ECMPoQm/hy/kcoreaddons5_qt.qm
+[  9%] Generating ECMPoQm/hu/kcoreaddons5_qt.qm
+[  9%] Built target translations_34
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Built target translations_35
+[  9%] Generating ECMPoQm/ia/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Built target translations_38
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Generating ECMPoQm/id/kcoreaddons5_qt.qm
+[  9%] Built target translations_39
+[  9%] Generating ECMPoQm/ie/kcoreaddons5_qt.qm
+[  9%] Built target translations_40
+[ 10%] Generating ECMPoQm/is/kcoreaddons5_qt.qm
+[ 10%] Built target translations_41
+[ 10%] Built target translations_42
+[ 10%] Built target translations_46
+[ 10%] Generating ECMPoQm/it/kcoreaddons5_qt.qm
+[ 10%] Built target translations_43
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 10%] Generating ECMPoQm/ja/kcoreaddons5_qt.qm
+[ 11%] Generating ECMPoQm/ka/kcoreaddons5_qt.qm
+[ 11%] Generating ECMPoQm/kab/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 11%] Generating ECMPoQm/kk/kcoreaddons5_qt.qm
+[ 11%] Built target translations_44
+[ 11%] Built target translations_49
+[ 11%] Built target translations_50
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 11%] Generating ECMPoQm/km/kcoreaddons5_qt.qm
+[ 11%] Built target translations_45
+[ 12%] Generating ECMPoQm/kn/kcoreaddons5_qt.qm
+[ 12%] Generating ECMPoQm/ko/kcoreaddons5_qt.qm
+[ 12%] Built target translations_51
+[ 12%] Built target translations_47
+[ 12%] Generating ECMPoQm/ku/kcoreaddons5_qt.qm
+[ 12%] Generating ECMPoQm/lb/kcoreaddons5_qt.qm
+[ 12%] Built target translations_55
+[ 12%] Built target translations_48
+[ 13%] Generating ECMPoQm/lt/kcoreaddons5_qt.qm
+[ 13%] Built target translations_52
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 13%] Generating ECMPoQm/mai/kcoreaddons5_qt.qm
+[ 13%] Built target translations_58
+[ 13%] Generating ECMPoQm/lv/kcoreaddons5_qt.qm
+[ 13%] Built target translations_53
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 14%] Generating ECMPoQm/ml/kcoreaddons5_qt.qm
+[ 14%] Built target translations_54
+[ 14%] Generating ECMPoQm/mk/kcoreaddons5_qt.qm
+[ 14%] Generating ECMPoQm/mr/kcoreaddons5_qt.qm
+[ 14%] Built target translations_56
+[ 14%] Built target translations_60
+[ 14%] Built target translations_57
+[ 14%] Built target translations_59
+[ 14%] Generating ECMPoQm/ms/kcoreaddons5_qt.qm
+[ 15%] Generating ECMPoQm/my/kcoreaddons5_qt.qm
+[ 15%] Generating ECMPoQm/nds/kcoreaddons5_qt.qm
+[ 15%] Built target translations_65
+[ 15%] Generating ECMPoQm/nb/kcoreaddons5_qt.qm
+[ 15%] Generating ECMPoQm/ne/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 16%] Generating ECMPoQm/nl/kcoreaddons5_qt.qm
+[ 16%] Built target translations_62
+[ 16%] Built target translations_66
+[ 16%] Built target translations_61
+[ 16%] Built target translations_63
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 16%] Generating ECMPoQm/nn/kcoreaddons5_qt.qm
+[ 16%] Built target translations_64
+[ 16%] Generating ECMPoQm/oc/kcoreaddons5_qt.qm
+[ 16%] Generating ECMPoQm/or/kcoreaddons5_qt.qm
+[ 16%] Built target translations_70
+[ 16%] Generating ECMPoQm/pl/kcoreaddons5_qt.qm
+[ 17%] Generating ECMPoQm/pa/kcoreaddons5_qt.qm
+[ 17%] Generating ECMPoQm/ps/kcoreaddons5_qt.qm
+[ 17%] Built target translations_67
+[ 17%] Built target translations_69
+[ 17%] Built target translations_68
+[ 17%] Built target translations_71
+[ 18%] Generating ECMPoQm/pt_BR/kcoreaddons5_qt.qm
+[ 18%] Generating ECMPoQm/pt/kcoreaddons5_qt.qm
+[ 18%] Generating ECMPoQm/ro/kcoreaddons5_qt.qm
+[ 18%] Built target translations_72
+[ 18%] Generating ECMPoQm/ru/kcoreaddons5_qt.qm
+[ 18%] Built target translations_77
+[ 19%] Generating ECMPoQm/se/kcoreaddons5_qt.qm
+[ 19%] Built target translations_76
+[ 19%] Generating ECMPoQm/si/kcoreaddons5_qt.qm
+[ 19%] Built target translations_73
+[ 19%] Built target translations_75
+[ 19%] Built target translations_74
+[ 19%] Generating ECMPoQm/sk/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 19%] Built target translations_80
+[ 19%] Generating ECMPoQm/sl/kcoreaddons5_qt.qm
+[ 20%] Generating ECMPoQm/sq/kcoreaddons5_qt.qm
+[ 20%] Generating ECMPoQm/sr/kcoreaddons5_qt.qm
+[ 20%] Generating ECMPoQm/sr@ijekavian/kcoreaddons5_qt.qm
+[ 20%] Built target translations_83
+[ 20%] Built target translations_78
+[ 20%] Built target translations_85
+[ 20%] Built target translations_79
+[ 20%] Generating ECMPoQm/sr@ijekavianlatin/kcoreaddons5_qt.qm
+[ 20%] Built target translations_86
+[ 20%] Generating ECMPoQm/sv/kcoreaddons5_qt.qm
+[ 20%] Built target translations_87
+[ 20%] Generating ECMPoQm/ta/kcoreaddons5_qt.qm
+[ 20%] Built target translations_82
+[ 21%] Generating ECMPoQm/sr@latin/kcoreaddons5_qt.qm
+[ 21%] Built target translations_81
+[ 22%] Generating ECMPoQm/te/kcoreaddons5_qt.qm
+[ 22%] Generating ECMPoQm/tg/kcoreaddons5_qt.qm
+[ 22%] Built target translations_88
+[ 22%] Generating ECMPoQm/tok/kcoreaddons5_qt.qm
+[ 22%] Generating ECMPoQm/th/kcoreaddons5_qt.qm
+[ 22%] Built target translations_89
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 22%] Built target translations_84
+[ 23%] Generating ECMPoQm/tr/kcoreaddons5_qt.qm
+[ 23%] Built target translations_94
+[ 23%] Generating ECMPoQm/tt/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 23%] Generating ECMPoQm/uk/kcoreaddons5_qt.qm
+[ 23%] Generating ECMPoQm/ug/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 23%] Built target translations_95
+[ 23%] Built target translations_90
+[ 23%] Built target translations_98
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 24%] Generating ECMPoQm/uz/kcoreaddons5_qt.qm
+[ 24%] Generating ECMPoQm/uz@cyrillic/kcoreaddons5_qt.qm
+[ 25%] Generating ECMPoQm/vi/kcoreaddons5_qt.qm
+[ 25%] Built target translations_92
+[ 25%] Built target translations_91
+[ 25%] Built target translations_93
+[ 25%] Built target translations_96
+[ 25%] Built target translations_101
+[ 25%] Generating ECMPoQm/xh/kcoreaddons5_qt.qm
+[ 25%] Generating ECMPoQm/zh_CN/kcoreaddons5_qt.qm
+[ 25%] Generating ECMPoQm/wa/kcoreaddons5_qt.qm
+[ 26%] Generating ECMPoQm/zh_HK/kcoreaddons5_qt.qm
+[ 26%] Built target translations_97
+[ 26%] Built target translations_104
+[ 26%] Generating ECMPoQm/zh_TW/kcoreaddons5_qt.qm
+[ 26%] Automatic MOC for target KF5CoreAddons
+[ 26%] Automatic MOC for target desktoptojson
+[ 26%] Built target translations_106
+[ 26%] Built target translations_100
+[ 26%] Built target translations_99
+[ 26%] Automatic MOC for target autotests_static
+[ 26%] Built target desktoptojson_autogen
+[ 26%] Built target translations_102
+[ 26%] Built target autotests_static_autogen
+[ 27%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/desktoptojson_autogen/mocs_compilation.cpp.o
+[ 27%] Built target translations_103
+[ 27%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/desktoptojson_debug.cpp.o
+[ 27%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/main.cpp.o
+[ 27%] Built target translations_105
+[ 27%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/desktoptojson.cpp.o
+[ 28%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/__/lib/plugin/desktopfileparser.cpp.o
+[ 29%] Building CXX object autotests/CMakeFiles/autotests_static.dir/autotests_static_autogen/mocs_compilation.cpp.o
+[ 29%] Building CXX object autotests/CMakeFiles/autotests_static.dir/kcoreaddons_debug.cpp.o
+[ 29%] Built target KF5CoreAddons_autogen
+[ 29%] Generating io/org.kde.KIOFuse.VFS.cpp, io/org.kde.KIOFuse.VFS.h
+[ 29%] Generating io/org.freedesktop.portal.FileTransfer.cpp, io/org.freedesktop.portal.FileTransfer.h
+dbus.parser: Invalid D-BUS object path '//' found while parsing introspection
+[ 29%] Generating io/org.kde.KIOFuse.VFS.moc
+[ 29%] Generating io/org.freedesktop.portal.FileTransfer.moc
+[ 29%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/KF5CoreAddons_autogen/mocs_compilation.cpp.o
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/ECMQmLoader-kcoreaddons5_qt.cpp.o
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kmacroexpander_unix.cpp.o
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/klistopenfilesjob_unix.cpp.o
+[ 31%] Linking CXX static library ../lib/libautotests_static.a
+[ 31%] Built target autotests_static
+[ 31%] Automatic MOC for target ktexttohtmlteststatic
+[ 31%] Built target ktexttohtmlteststatic_autogen
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kuser_unix.cpp.o
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kshell_unix.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache.cpp:[m[K In function '[01m[Kunsigned int MurmurHashAligned(const void*, int, unsigned int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache.cpp:99:18:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst unsigned char*[m[K' to '[01m[Kconst unsigned int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+   99 |             d = *[01;35m[Kreinterpret_cast<const unsigned int *>(data)[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache.cpp:136:19:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst unsigned char*[m[K' to '[01m[Kconst unsigned int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  136 |             h += *[01;35m[Kreinterpret_cast<const unsigned int *>(data)[m[K;
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 31%] Linking CXX executable ../../bin/desktoptojson
+[ 31%] Building CXX object autotests/CMakeFiles/ktexttohtmlteststatic.dir/ktexttohtmlteststatic_autogen/mocs_compilation.cpp.o
+[ 31%] Building CXX object autotests/CMakeFiles/ktexttohtmlteststatic.dir/__/src/lib/text/ktexttohtml.cpp.o
+[ 31%] Built target desktoptojson
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kprocesslist_unix.cpp.o
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/org.freedesktop.portal.FileTransfer.cpp.o
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/org.kde.KIOFuse.VFS.cpp.o
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/kaboutdata.cpp.o
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/kcoreaddons.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kautosavefile.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kdirwatch.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kfilesystemtype.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kmessage.cpp.o
+[ 34%] Linking CXX static library ../lib/libktexttohtmlteststatic.a
+[ 34%] Built target ktexttohtmlteststatic
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kprocess.cpp.o
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kbackup.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/io/kdirwatch.cpp:[m[K In member function '[01m[Kvoid KDirWatchPrivate::inotifyEventReceived()[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/io/kdirwatch.cpp:283:55:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kinotify_event*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  283 |             const struct inotify_event *const event = [01;35m[Kreinterpret_cast<inotify_event *>(&buf[offsetCurrent])[m[K;
+      |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 35%] Automatic MOC for target ktexttohtmltest
+[ 35%] Automatic MOC for target ktexttohtmlbenchmarktest
+[ 35%] Built target ktexttohtmltest_autogen
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kurlmimedata.cpp.o
+[ 35%] Building CXX object autotests/CMakeFiles/ktexttohtmltest.dir/ktexttohtmltest_autogen/mocs_compilation.cpp.o
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kfileutils.cpp.o
+[ 35%] Built target ktexttohtmlbenchmarktest_autogen
+[ 35%] Building CXX object autotests/CMakeFiles/ktexttohtmltest.dir/ktexttohtmltest.cpp.o
+[ 35%] Building CXX object autotests/CMakeFiles/ktexttohtmlbenchmarktest.dir/ktexttohtmlbenchmarktest_autogen/mocs_compilation.cpp.o
+[ 35%] Building CXX object autotests/CMakeFiles/ktexttohtmlbenchmarktest.dir/ktexttohtmlbenchmarktest.cpp.o
+[ 36%] Building CXX object autotests/CMakeFiles/ktexttohtmlbenchmarktest.dir/__/src/lib/text/ktexttohtml.cpp.o
+[ 37%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/knetworkmounts.cpp.o
+[ 37%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kcompositejob.cpp.o
+[ 37%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kjob.cpp.o
+[ 37%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kjobtrackerinterface.cpp.o
+[ 38%] Linking CXX executable ../bin/ktexttohtmltest
+[ 39%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kjobuidelegate.cpp.o
+[ 39%] Built target ktexttohtmltest
+[ 39%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kpluginfactory.cpp.o
+[ 39%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kpluginloader.cpp.o
+[ 39%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kpluginmetadata.cpp.o
+[ 40%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kstaticpluginhelpers.cpp.o
+[ 40%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/desktopfileparser.cpp.o
+[ 40%] Linking CXX executable ../bin/ktexttohtmlbenchmarktest
+[ 40%] Built target ktexttohtmlbenchmarktest
+[ 40%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/randomness/krandom.cpp.o
+[ 40%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/randomness/krandomsequence.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kjsonutils.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kfuzzymatcher.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kmacroexpander.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kstringhandler.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/ktexttohtml.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kdelibs4migration.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kdelibs4configmigrator.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kformat.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kformatprivate.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kosrelease.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kprocesslist.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kshell.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/klibexec.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/ksignalhandler.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kmemoryinfo.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/ksandbox.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kruntimeplatform.cpp.o
+[ 45%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/desktopfileparser_debug.cpp.o
+[ 45%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/kcoreaddons_debug.cpp.o
+[ 45%] Linking CXX shared library ../../bin/libKF5CoreAddons.so
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o: in function `pthreadLock::initialize(bool&)':
+/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:198: undefined reference to `pthread_mutexattr_init'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:199: undefined reference to `pthread_mutexattr_setpshared'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:202: undefined reference to `pthread_mutexattr_destroy'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o: in function `pthreadTimedLock::lock()':
+/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:247: undefined reference to `pthread_mutex_timedlock'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o: in function `semaphoreLock::initialize(bool&)':
+/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:269: undefined reference to `sem_init'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:273: undefined reference to `sem_init'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o: in function `semaphoreLock::lock()':
+/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:282: undefined reference to `sem_wait'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o: in function `semaphoreLock::unlock()':
+/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:287: undefined reference to `sem_post'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o: in function `semaphoreTimedLock::lock()':
+/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache_p.h:314: undefined reference to `sem_timedwait'
+collect2: error: ld returned 1 exit status
+make[2]: *** [src/lib/CMakeFiles/KF5CoreAddons.dir/build.make:922: bin/libKF5CoreAddons.so.5.107.0] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3555: src/lib/CMakeFiles/KF5CoreAddons.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

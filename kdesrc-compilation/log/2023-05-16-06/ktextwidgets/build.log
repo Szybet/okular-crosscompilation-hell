@@ -1,0 +1,21 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/ktextwidgets
+[ 13%] Generating mo...
+[ 13%] Generating ts...
+[ 20%] Automatic MOC for target KF5TextWidgets
+[ 20%] Built target tsfiles-4ec42fc8356ea28b76f6febeac3e38fb
+[ 20%] Built target KF5TextWidgets_autogen
+[ 26%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/KF5TextWidgets_autogen/mocs_compilation.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/dialogs/klinkdialog.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/findreplace/kfind.cpp.o
+[ 46%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/findreplace/kfinddialog.cpp.o
+[ 53%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/findreplace/kreplace.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/findreplace/kreplacedialog.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/widgets/kpluralhandlingspinbox.cpp.o
+[ 66%] Built target pofiles-4ec42fc8356ea28b76f6febeac3e38fb
+[ 73%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/widgets/krichtextedit.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/widgets/krichtextwidget.cpp.o
+[ 86%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/widgets/ktextedit.cpp.o
+[ 93%] Building CXX object src/CMakeFiles/KF5TextWidgets.dir/widgets/nestedlisthelper.cpp.o
+[100%] Linking CXX shared library ../bin/libKF5TextWidgets.so
+[100%] Built target KF5TextWidgets

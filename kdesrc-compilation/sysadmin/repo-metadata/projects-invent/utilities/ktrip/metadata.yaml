@@ -1,0 +1,9 @@
+bugzilla:
+  product: ktrip
+description: Public Transport Assistance for Mobile Devices
+hasrepo: true
+identifier: ktrip
+name: KTrip
+projectpath: extragear/utils/ktrip
+repoactive: true
+repopath: utilities/ktrip

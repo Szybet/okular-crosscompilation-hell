@@ -1,0 +1,42 @@
+Holding performance profile
+Building kio from _cmdline (1/14)
+	Fetching remote changes to kio
+	Merging kio changes from branch kf5
+	No changes to kio source code, but proceeding to build anyway.
+	Note: -- 4 -- compile warnings
+Building kinit from _cmdline (2/14)
+	Fetching remote changes to kinit
+	Merging kinit changes from branch kf5
+	No changes to kinit source code, but proceeding to build anyway.
+	Note: --- 25 --- compile warnings
+Building kirigami from _cmdline (3/14)
+	Fetching remote changes to kirigami
+	Merging kirigami changes from branch kf5
+	Source update complete for kirigami: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kirigami.
+	Running cmake targeting Unix Makefiles...
+	Note: - 2 - compile warnings
+Building kjs from _cmdline (4/14)
+	Fetching remote changes to kjs
+	Merging kjs changes from branch kf5
+	Source update complete for kjs: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kjs.
+	Running cmake targeting Unix Makefiles...
+
+kjs didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kjs - file:///home/szybet/kdesrc/log/2023-05-16-14/kjs/cmake.log
+
+Possible solution: Install the build dependencies for the modules:
+kjs
+You can use 'sudo apt build-dep <source_package>', 'sudo dnf builddep <package>', 'sudo zypper source-install --build-deps-only <source_package>' or a similar command for your distro of choice.
+See https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source/Install_the_dependencies
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-14

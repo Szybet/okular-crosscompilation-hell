@@ -1,0 +1,7 @@
+description: A Qt wrapper library/APT implementation around the libapt-pkg library
+hasrepo: true
+identifier: libqapt
+name: LibQApt
+projectpath: extragear/sysadmin/libqapt
+repoactive: false
+repopath: system/libqapt

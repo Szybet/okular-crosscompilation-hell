@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-knewstuff
+description: KNewStuff
+hasrepo: true
+identifier: knewstuff
+name: KNewStuff
+projectpath: frameworks/knewstuff
+repoactive: true
+repopath: frameworks/knewstuff

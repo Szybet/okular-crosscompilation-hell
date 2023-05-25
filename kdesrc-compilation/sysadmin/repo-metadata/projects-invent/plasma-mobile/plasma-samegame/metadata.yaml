@@ -1,0 +1,7 @@
+description: Samegame clone suitable for mobile devices
+hasrepo: true
+identifier: plasma-samegame
+name: Plasma Samegame
+projectpath: extragear/base/plasma-samegame
+repoactive: false
+repopath: plasma-mobile/plasma-samegame

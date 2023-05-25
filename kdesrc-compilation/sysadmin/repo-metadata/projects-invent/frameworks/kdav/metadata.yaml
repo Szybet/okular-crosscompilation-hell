@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdav
+description: DAV protocol implementation with KJobs
+hasrepo: true
+identifier: kdav
+name: KDav
+projectpath: frameworks/kdav
+repoactive: true
+repopath: frameworks/kdav

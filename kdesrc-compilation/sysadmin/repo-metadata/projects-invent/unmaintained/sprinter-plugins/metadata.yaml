@@ -1,0 +1,7 @@
+description: Plugins for Sprinter
+hasrepo: true
+identifier: sprinter-plugins
+name: Sprinter Plugins
+projectpath: playground/libs/sprinter-plugins
+repoactive: false
+repopath: unmaintained/sprinter-plugins

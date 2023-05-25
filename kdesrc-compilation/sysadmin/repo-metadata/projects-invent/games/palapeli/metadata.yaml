@@ -1,0 +1,9 @@
+bugzilla:
+  product: palapeli
+description: Palapeli is a single-player jigsaw puzzle game
+hasrepo: true
+identifier: palapeli
+name: Palapeli
+projectpath: kde/kdegames/palapeli
+repoactive: true
+repopath: games/palapeli

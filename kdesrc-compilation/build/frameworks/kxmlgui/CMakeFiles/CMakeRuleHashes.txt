@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+4f48f507b7747a0c09f720baed4d461e CMakeFiles/pofiles-c6090ddd75a8ae84c3fd16dc0511905e
+3f509b1f1d997e5a3114d76aef198271 CMakeFiles/tsfiles-c6090ddd75a8ae84c3fd16dc0511905e
+3e953085001785209e1c1baf99a35090 CMakeFiles/uninstall
+bcd959cc324c58401ec98a449c95738b src/CMakeFiles/KF5XmlGui_autogen
+30baa607b121ffc7df4bd04ea9cabb35 src/KF5XmlGui_autogen/EWIEGA46WW/qrc_kxmlgui.cpp
+1d1f545fbaecd6dc84e621841544cb20 src/ksendbugmail/CMakeFiles/ksendbugmail_autogen
+aa58e914297a6afee417a72aa0d11ea3 src/ui_kshortcutsdialog.h
+caeebd7c56d5d7f5500eb61e5911d9b3 src/ui_kshortcutwidget.h

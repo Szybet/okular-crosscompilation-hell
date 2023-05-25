@@ -1,0 +1,9 @@
+bugzilla:
+  product: kontrast
+description: Tool to check contrast for colors that allows verifying that your colors are correctly accessible
+hasrepo: true
+identifier: kontrast
+name: Kontrast
+projectpath: kde/kdeaccessibility/kontrast
+repoactive: true
+repopath: accessibility/kontrast

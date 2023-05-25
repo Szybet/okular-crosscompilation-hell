@@ -1,0 +1,2 @@
+autotests/CMakeFiles/kdelibs4configmigratortest.dir/kdelibs4configmigratortest_autogen/mocs_compilation.cpp.o: \
+ /home/szybet/kdesrc/build/frameworks/kcoreaddons/autotests/kdelibs4configmigratortest_autogen/mocs_compilation.cpp

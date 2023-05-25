@@ -1,0 +1,7 @@
+description: Tooling to help translate Hugo generated websites with gettext
+hasrepo: true
+identifier: websites-hugo-i18n
+name: Internationalization Support for Hugo
+projectpath: websites/hugo-i18n
+repoactive: true
+repopath: websites/hugo-i18n

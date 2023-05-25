@@ -1,0 +1,7 @@
+description: KDE Specific Extensions for MediaWiki
+hasrepo: true
+identifier: websites-mediawiki-kde-extensions
+name: MediaWiki Extensions for KDE Plugin
+projectpath: websites/mediawiki-kde-extensions
+repoactive: true
+repopath: websites/mediawiki-kde-extensions

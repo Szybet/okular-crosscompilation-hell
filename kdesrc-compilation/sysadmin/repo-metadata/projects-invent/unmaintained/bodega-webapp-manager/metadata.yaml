@@ -1,0 +1,7 @@
+description: Web application to manage an instance of Bodega Server
+hasrepo: true
+identifier: bodega-webapp-manager
+name: Manager interface for Bodega
+projectpath: unmaintained/bodega-webapp-manager
+repoactive: false
+repopath: unmaintained/bodega-webapp-manager

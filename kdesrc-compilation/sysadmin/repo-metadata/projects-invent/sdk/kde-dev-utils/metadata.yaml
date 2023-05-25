@@ -1,0 +1,7 @@
+description: Small utilities for developers using KDE/Qt libs/frameworks
+hasrepo: true
+identifier: kde-dev-utils
+name: KDE Development Utilities
+projectpath: kde/kdesdk/kde-dev-utils
+repoactive: true
+repopath: sdk/kde-dev-utils

@@ -1,0 +1,7 @@
+description: Stibium is a version of KDE developed as a web application, using personal cloud services to store data.
+hasrepo: true
+identifier: stibium
+name: 'Stibium - KDE on the cloud'
+projectpath: playground/www/stibium
+repoactive: false
+repopath: unmaintained/stibium

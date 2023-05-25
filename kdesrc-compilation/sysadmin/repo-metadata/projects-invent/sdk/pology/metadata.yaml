@@ -1,0 +1,7 @@
+description: Library and collection of tools for in-depth processing of PO files
+hasrepo: true
+identifier: pology
+name: Pology
+projectpath: playground/sdk/pology
+repoactive: true
+repopath: sdk/pology

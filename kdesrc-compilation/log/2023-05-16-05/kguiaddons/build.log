@@ -1,0 +1,81 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kguiaddons
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kguiaddons/prefix.sh to set the environment for KGuiAddons.
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Gui (required version >= 5.15.2)
+ * Qt5Test
+ * Qt5Widgets
+ * Qt5 (required version >= 5.15.2)
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+ * WAYLAND, KeySequenceEditor inhibiting shortcuts on Wayland
+ * X11, KeySequenceEditor inhibiting shortcuts on X11
+
+-- Configuring done (0.2s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kguiaddons
+[  2%] Automatic MOC for target kgeourihandlertest
+[  2%] Automatic MOC for target kde-geo-uri-handler
+[  3%] Automatic MOC for target KF5GuiAddons
+[  3%] Built target kde-geo-uri-handler_autogen
+[  3%] Built target kgeourihandlertest_autogen
+[  3%] Built target KF5GuiAddons_autogen
+[  5%] Linking CXX executable ../../bin/kde-geo-uri-handler
+[  6%] Linking CXX executable ../bin/kgeourihandlertest
+[ 33%] Built target KF5GuiAddons
+[ 35%] Automatic MOC for target kcolorutilstest
+[ 36%] Automatic MOC for target kwordwraptest
+[ 37%] Automatic MOC for target pasteclient
+[ 38%] Automatic MOC for target keysequencerecordertest
+[ 40%] Automatic MOC for target kiconutilstest
+[ 41%] Automatic MOC for target kcursorsavertest
+[ 41%] Built target kcolorutilstest_autogen
+[ 41%] Built target pasteclient_autogen
+[ 41%] Built target kwordwraptest_autogen
+[ 41%] Built target keysequencerecordertest_autogen
+[ 41%] Built target kcursorsavertest_autogen
+[ 41%] Built target kiconutilstest_autogen
+[ 42%] Automatic MOC for target kcolorcollectiontest
+[ 43%] Automatic MOC for target kurlhandlertest
+[ 45%] Automatic MOC for target kcolorschemewatchertest
+[ 46%] Automatic MOC for target kmodifierkeyinfotest
+[ 47%] Automatic MOC for target openurltest
+[ 48%] Automatic MOC for target kcursorsavergui_test
+[ 51%] Built target kgeourihandlertest
+[ 51%] Built target kcolorcollectiontest_autogen
+[ 51%] Built target openurltest_autogen
+[ 51%] Built target kmodifierkeyinfotest_autogen
+[ 51%] Built target kurlhandlertest_autogen
+[ 51%] Built target kcursorsavergui_test_autogen
+[ 51%] Built target kcolorschemewatchertest_autogen
+[ 52%] Linking CXX executable ../bin/pasteclient
+[ 53%] Linking CXX executable ../bin/kwordwraptest
+[ 55%] Linking CXX executable ../bin/kiconutilstest
+[ 56%] Linking CXX executable ../bin/kcursorsavertest
+[ 60%] Built target kde-geo-uri-handler
+[ 61%] Linking CXX executable ../bin/kurlhandlertest
+[ 62%] Linking CXX executable ../bin/kcolorutilstest
+[ 63%] Linking CXX executable ../bin/keysequencerecordertest
+[ 65%] Linking CXX executable ../bin/kcolorcollectiontest
+[ 67%] Built target kiconutilstest
+[ 70%] Built target kcursorsavertest
+[ 72%] Built target kcolorutilstest
+[ 75%] Built target pasteclient
+[ 77%] Built target kurlhandlertest
+[ 80%] Built target kwordwraptest
+[ 81%] Linking CXX executable ../bin/kmodifierkeyinfotest
+[ 82%] Linking CXX executable ../bin/kcursorsavergui_test
+[ 85%] Built target keysequencerecordertest
+[ 86%] Linking CXX executable ../bin/openurltest
+[ 87%] Linking CXX executable ../bin/kcolorschemewatchertest
+[ 90%] Built target kcolorcollectiontest
+[ 92%] Built target kcolorschemewatchertest
+[ 95%] Built target openurltest
+[ 97%] Built target kcursorsavergui_test
+[100%] Built target kmodifierkeyinfotest

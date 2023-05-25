@@ -1,0 +1,7 @@
+description: Ruby bindings for libraries created by the KDE community.
+hasrepo: true
+identifier: korundum
+name: Korundum
+projectpath: kde/kdebindings/ruby/korundum
+repoactive: false
+repopath: unmaintained/korundum

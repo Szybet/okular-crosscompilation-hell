@@ -1,0 +1,7 @@
+description: An editor for bibliographies used with LaTeX
+hasrepo: true
+identifier: kbibtex
+name: KBibTeX
+projectpath: extragear/office/kbibtex
+repoactive: true
+repopath: office/kbibtex

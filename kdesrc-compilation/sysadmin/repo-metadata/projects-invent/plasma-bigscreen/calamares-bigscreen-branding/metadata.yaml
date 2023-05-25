@@ -1,0 +1,7 @@
+description: Plasma Bigscreen branding and customization for Calamares
+hasrepo: true
+identifier: calamares-bigscreen-branding
+name: Calamares Branding for Plasma BigScreen
+projectpath: playground/utils/calamares-bigscreen-branding
+repoactive: true
+repopath: plasma-bigscreen/calamares-bigscreen-branding

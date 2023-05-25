@@ -1,0 +1,2 @@
+tests/CMakeFiles/kpixmapregionselectordialogtest.dir/kpixmapregionselectordialogtest_autogen/mocs_compilation.cpp.o: \
+ /home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kpixmapregionselectordialogtest_autogen/mocs_compilation.cpp

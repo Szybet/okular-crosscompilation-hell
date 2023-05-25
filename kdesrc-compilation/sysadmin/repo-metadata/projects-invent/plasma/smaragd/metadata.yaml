@@ -1,0 +1,7 @@
+description: KWin plugin to support Emerald themes in KDE
+hasrepo: true
+identifier: smaragd
+name: Smaragd
+projectpath: playground/artwork/smaragd
+repoactive: true
+repopath: plasma/smaragd

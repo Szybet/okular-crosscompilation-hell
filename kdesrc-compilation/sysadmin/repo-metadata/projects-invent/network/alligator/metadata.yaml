@@ -1,0 +1,9 @@
+description: Kirigami-based RSS reader
+hasrepo: true
+identifier: alligator
+name: Alligator
+projectpath: extragear/mobile/alligator
+repoactive: true
+repopath: network/alligator
+bugzilla:
+    product: alligator

@@ -1,0 +1,7 @@
+description: Static archive of the QtCon Conference Organization system — conf.qtcon.org
+hasrepo: true
+identifier: websites-conf-qtcon-org
+name: QtCon Organization Website
+projectpath: websites/conf-qtcon-org
+repoactive: true
+repopath: websites/conf-qtcon-org

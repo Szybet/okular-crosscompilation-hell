@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-gear
+name: Gear - component of Zuul and Gerrit system
+projectpath: sysadmin/gerrit-gear
+repoactive: false
+repopath: sysadmin/gerrit-gear

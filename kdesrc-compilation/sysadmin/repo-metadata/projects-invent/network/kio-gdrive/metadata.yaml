@@ -1,0 +1,9 @@
+bugzilla:
+  product: kio-gdrive
+description: KIO Slave to access Google Drive
+hasrepo: true
+identifier: kio-gdrive
+name: KIO GDrive
+projectpath: kde/kdenetwork/kio-gdrive
+repoactive: true
+repopath: network/kio-gdrive

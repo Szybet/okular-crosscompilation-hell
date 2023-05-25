@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kwallet
+description: 'KWallet: Credential Storage'
+hasrepo: true
+identifier: kwallet
+name: KWallet Framework
+projectpath: frameworks/kwallet
+repoactive: true
+repopath: frameworks/kwallet

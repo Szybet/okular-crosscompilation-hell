@@ -1,0 +1,7 @@
+description: Homebrew formulas for building KDE software on macOS
+hasrepo: true
+identifier: homebrew-kde
+name: Homebrew Formulas for KDE
+projectpath: playground/devtools/homebrew-kde
+repoactive: false
+repopath: packaging/homebrew-kde

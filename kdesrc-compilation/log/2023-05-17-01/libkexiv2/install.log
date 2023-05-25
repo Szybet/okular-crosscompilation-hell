@@ -1,0 +1,23 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5KExiv2.so.5.0.0
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5KExiv2.so.15.0.0
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5KExiv2.so.5.0.0" to "/mnt/HDD/Project/Public/okulartry/okular-things/lib:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5KExiv2.so
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/KExiv2/KExiv2Data
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/KExiv2/KExiv2
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/KExiv2/KExiv2Previews
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/KExiv2/RotationMatrix
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/kexiv2/kexiv2data.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/kexiv2/kexiv2.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/kexiv2/kexiv2previews.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/kexiv2/rotationmatrix.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/kexiv2/libkexiv2_export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KExiv2/libkexiv2_version.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/libkexiv2.categories
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5KExiv2/KF5KExiv2Config.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5KExiv2/KF5KExiv2ConfigVersion.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5KExiv2/KF5KExiv2Targets.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5KExiv2/KF5KExiv2Targets-debug.cmake

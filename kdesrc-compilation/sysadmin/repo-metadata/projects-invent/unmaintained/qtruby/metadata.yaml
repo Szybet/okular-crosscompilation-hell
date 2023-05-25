@@ -1,0 +1,7 @@
+description: Ruby bindings for the Qt libraries.
+hasrepo: true
+identifier: qtruby
+name: QtRuby
+projectpath: kde/kdebindings/ruby/qtruby
+repoactive: false
+repopath: unmaintained/qtruby

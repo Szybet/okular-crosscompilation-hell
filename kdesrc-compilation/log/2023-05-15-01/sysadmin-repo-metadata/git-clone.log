@@ -1,0 +1,4 @@
+# kdesrc-build running: 'git' 'clone' '--recursive' '-b' 'master' '--' 'kde:sysadmin/repo-metadata' '/home/szybet/kdesrc/sysadmin/repo-metadata'
+# from directory: /home/szybet/kdesrc
+Cloning into '/home/szybet/kdesrc/sysadmin/repo-metadata'...
+warning: redirecting to https://invent.kde.org/sysadmin/repo-metadata.git/

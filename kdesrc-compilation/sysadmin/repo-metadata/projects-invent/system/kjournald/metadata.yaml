@@ -1,0 +1,7 @@
+description: Framework for interacting with systemd-journald
+hasrepo: true
+identifier: kjournald
+name: KJournald
+projectpath: extragear/system/kjournald
+repoactive: true
+repopath: system/kjournald

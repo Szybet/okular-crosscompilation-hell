@@ -1,0 +1,19 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcrash
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Crash.so.5.107.0
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Crash.so.5
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Crash.so.5.107.0" to "/mnt/HDD/Project/Public/okulartry/okular-things/lib:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Crash.so
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/kcrash_export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/KCrash
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/kcrash.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/kcrash.categories
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/kcrash.renamecategories
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/modules/qt_KCrash.pri
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashConfig.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashConfigVersion.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashTargets.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashTargets-debug.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/kcrash_version.h

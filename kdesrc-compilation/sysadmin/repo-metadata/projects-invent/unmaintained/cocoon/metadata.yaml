@@ -1,0 +1,7 @@
+description: A GUI for Git.
+hasrepo: true
+identifier: cocoon
+name: Cocoon
+projectpath: playground/sdk/cocoon
+repoactive: false
+repopath: unmaintained/cocoon

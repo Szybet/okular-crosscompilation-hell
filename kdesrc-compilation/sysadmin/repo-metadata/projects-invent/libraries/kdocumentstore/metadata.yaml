@@ -1,0 +1,7 @@
+description: Library to store QVariants and QVariantMaps
+hasrepo: true
+identifier: kdocumentstore
+name: KDocumentStore
+projectpath: playground/libs/kdocumentstore
+repoactive: false
+repopath: libraries/kdocumentstore

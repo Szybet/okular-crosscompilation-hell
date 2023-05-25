@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"autotests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "shelltest_autogen_timestamp_deps::@0bffdf5d83a4a8ad06a4"
+		}
+	],
+	"id" : "shelltest_autogen::@0bffdf5d83a4a8ad06a4",
+	"isGeneratorProvided" : true,
+	"name" : "shelltest_autogen",
+	"paths" : 
+	{
+		"build" : "autotests",
+		"source" : "autotests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/autotests/CMakeFiles/shelltest_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/autotests/CMakeFiles/shelltest_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/autotests/shelltest_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

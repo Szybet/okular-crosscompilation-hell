@@ -1,0 +1,11 @@
+description: Colour schemes, avatars and other additional visual assets for KDE Software
+  created by the KDE VDG
+hasrepo: true
+identifier: kde-vdg-extras
+name: VDG Extras for KDE Software
+projectpath: playground/artwork/kde-xdg-extras
+repoactive: true
+repopath: plasma/kde-vdg-extras
+bugzilla:
+    product: plasmashell
+    component: Theme - Breeze

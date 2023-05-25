@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-kde-ci-enforced-projects
+name: KDE CI pass enforced projects for Gerrit instance
+projectpath: sysadmin/gerrit-kde-ci-enforced-projects
+repoactive: false
+repopath: sysadmin/gerrit-kde-ci-enforced-projects

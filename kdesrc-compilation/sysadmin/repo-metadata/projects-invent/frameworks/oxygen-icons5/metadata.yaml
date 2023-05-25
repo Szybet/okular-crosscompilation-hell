@@ -1,0 +1,10 @@
+bugzilla:
+  component: icons
+  product: oxygen
+description: Oxygen icon theme
+hasrepo: true
+identifier: oxygen-icons5
+name: Oxygen Icons
+projectpath: frameworks/oxygen-icons5
+repoactive: true
+repopath: frameworks/oxygen-icons5

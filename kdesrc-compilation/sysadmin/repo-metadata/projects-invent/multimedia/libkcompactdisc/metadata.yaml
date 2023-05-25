@@ -1,0 +1,10 @@
+bugzilla:
+  product: kdemultimedia
+  component: libkcompactdisc
+description: Library for interfacing with CDs
+hasrepo: true
+identifier: libkcompactdisc
+name: libkcompactdisc
+projectpath: kde/kdemultimedia/libkcompactdisc
+repoactive: true
+repopath: multimedia/libkcompactdisc

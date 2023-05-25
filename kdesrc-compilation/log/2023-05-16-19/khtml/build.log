@@ -1,0 +1,57 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/khtml
+[  0%] Automatic MOC for target khtmladaptorpart
+[  0%] Generating mo...
+[  0%] Automatic MOC for target kmultipart
+[  1%] Generating ts...
+[  1%] Automatic MOC for target KF5KHtml
+[  1%] Built target khtmladaptorpart_autogen
+[  1%] Built target tsfiles-256ae3ae65e7e7717dcd3e6a47735e82
+[  1%] Built target pofiles-256ae3ae65e7e7717dcd3e6a47735e82
+[  1%] Built target kmultipart_autogen
+[  2%] Built target khtmladaptorpart
+[  2%] Built target KF5KHtml_autogen
+[  4%] Built target kmultipart
+[ 98%] Built target KF5KHtml
+[ 98%] Generating khtml.json
+[ 98%] Generating khtmlimage.json
+About to parse service type file "//mnt/HDD/Project/Public/okulartry/okular-things/share/kservicetypes5/kparts-readonlypart.desktop"
+About to parse service type file "//mnt/HDD/Project/Public/okulartry/okular-things/share/kservicetypes5/browserview.desktop"
+Found property definition "X-KDE-BrowserView-Args" with type "QString"
+Found property definition "X-KDE-BrowserView-AllowAsDefault" with type "bool"
+Found property definition "X-KDE-BrowserView-HideFromMenus" with type "bool"
+Found property definition "X-KDE-BrowserView-LinkedView" with type "bool"
+Found property definition "X-KDE-BrowserView-HierarchicalView" with type "bool"
+Found property definition "X-KDE-BrowserView-PassiveMode" with type "bool"
+Found property definition "X-KDE-BrowserView-Toggable" with type "bool"
+Found property definition "X-KDE-BrowserView-ToggableView-Orientation" with type "QString"
+Found property definition "X-KDE-BrowserView-FollowActive" with type "bool"
+Found property definition "X-KDE-BrowserView-Built-Into" with type "QString"
+Found property definition "X-KDE-BrowserView-PluginsInfo" with type "QString"
+Generated  "/home/szybet/kdesrc/build/frameworks/khtml/src/khtmlimage.json"
+About to parse service type file "//mnt/HDD/Project/Public/okulartry/okular-things/share/kservicetypes5/kparts-readonlypart.desktop"
+About to parse service type file "//mnt/HDD/Project/Public/okulartry/okular-things/share/kservicetypes5/browserview.desktop"
+Found property definition "X-KDE-BrowserView-Args" with type "QString"
+Found property definition "X-KDE-BrowserView-AllowAsDefault" with type "bool"
+Found property definition "X-KDE-BrowserView-HideFromMenus" with type "bool"
+Found property definition "X-KDE-BrowserView-LinkedView" with type "bool"
+Found property definition "X-KDE-BrowserView-HierarchicalView" with type "bool"
+Found property definition "X-KDE-BrowserView-PassiveMode" with type "bool"
+Found property definition "X-KDE-BrowserView-Toggable" with type "bool"
+Found property definition "X-KDE-BrowserView-ToggableView-Orientation" with type "QString"
+Found property definition "X-KDE-BrowserView-FollowActive" with type "bool"
+Found property definition "X-KDE-BrowserView-Built-Into" with type "QString"
+Found property definition "X-KDE-BrowserView-PluginsInfo" with type "QString"
+Generated  "/home/szybet/kdesrc/build/frameworks/khtml/src/khtml.json"
+[ 98%] Automatic MOC for target khtmlimagepart
+[ 98%] Automatic MOC for target khtmlpart
+[ 98%] Built target khtmlpart_autogen
+[ 99%] Building CXX object src/CMakeFiles/khtmlpart.dir/khtml_factory.cpp.o
+[ 99%] Building CXX object src/CMakeFiles/khtmlpart.dir/khtmlpart_autogen/mocs_compilation.cpp.o
+[ 99%] Built target khtmlimagepart_autogen
+[ 99%] Building CXX object src/CMakeFiles/khtmlimagepart.dir/khtmlimage_init.cpp.o
+[ 99%] Building CXX object src/CMakeFiles/khtmlimagepart.dir/khtmlimagepart_autogen/mocs_compilation.cpp.o
+[100%] Linking CXX shared module ../bin/khtmlimagepart.so
+[100%] Linking CXX shared module ../bin/khtmlpart.so
+[100%] Built target khtmlimagepart
+[100%] Built target khtmlpart

@@ -1,0 +1,12 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kservice
+[  3%] Generating mo...
+[  3%] Generating ts...
+[  5%] Automatic MOC for target KF5Service
+[  5%] Built target tsfiles-622b0764d20220ef25b947453016719b
+[  5%] Built target KF5Service_autogen
+[  5%] Built target pofiles-622b0764d20220ef25b947453016719b
+[ 92%] Built target KF5Service
+[ 94%] Automatic MOC for target kbuildsycoca5
+[ 94%] Built target kbuildsycoca5_autogen
+[100%] Built target kbuildsycoca5

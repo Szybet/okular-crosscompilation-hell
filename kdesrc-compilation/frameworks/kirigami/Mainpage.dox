@@ -1,0 +1,220 @@
+/*
+ *  This file is part of Kirigami
+ *  SPDX-FileCopyrightText: 2016 Marco Martin <mart@kde.org>
+ *
+ *  SPDX-License-Identifier: LGPL-2.0-or-later
+ */
+
+
+/** \mainpage kirigami
+
+
+\subsection overview Introduction
+Kirigami is a set of <a href="https://doc.qt.io/qt-5/qtquick-index.html">QtQuick</a> components for building adaptable UIs based on <a href="https://doc.qt.io/qt-5/qtquickcontrols-index.html">QtQuick Controls 2</a>.
+
+Its goal is to enable creation of convergent applications that look and feel great on mobile as well as desktop devices and follow the <a href="https://develop.kde.org/hig">KDE Human Interface Guidelines</a> while being easy to use and not adding many dependencies.
+
+Kirigami works on a variety of platforms, such as <a href="https://plasma-mobile.org/">Plasma Mobile</a>, Desktop Linux, Android, MacOS, and Windows.
+
+It was introduced in <a href="https://kde.org/announcements/frameworks/5/5.37.0/">KDE Frameworks 5.37</a> as a <a href="https://api.kde.org/frameworks/#sg-tier_1">Tier-1 KDE Framework</a>.
+
+\subsection tutorial Tutorial
+A tutorial for Kirigami is available on <a href="https://develop.kde.org/docs/getting-started/kirigami/">our developer platform</a>.
+
+It is possible to make short mockups using QtQuick and Kirigami in the <a href="https://qmlonline.kde.org/">QML Online website</a> and briefly test individual QML files using <a href="https://doc.qt.io/qt-5/qtquick-qmlscene.html">qmlscene</a> or the <a href="https://doc.qt.io/qt-5/qtquick-qml-runtime.html">qml tool</a>.
+
+A list of additional QML learning resources is available in the <a href="https://community.kde.org/Get_Involved/development/Learn#QtQuick/QML">Community Wiki</a>. If you are not familiar with QML at all, the <a href="https://www.qt.io/product/qt6/qml-book">QML book</a> should be a good head start.
+
+If you have any questions about Kirigami, feel free to drop by the <a href="https://go.kde.org/matrix/#/#kirigami:kde.org">Kirigami group on Matrix</a>.
+
+\subsection components Main Window Components
+- \link org::kde::kirigami::ApplicationWindow  ApplicationWindow \endlink
+- \link org::kde::kirigami::Action Action  \endlink
+- \link org::kde::kirigami::GlobalDrawer GlobalDrawer  \endlink
+- \link org::kde::kirigami::ContextDrawer ContextDrawer  \endlink
+- \link org::kde::kirigami::OverlayDrawer OverlayDrawer  \endlink
+- \link org::kde::kirigami::Page Page  \endlink
+- \link org::kde::kirigami::ScrollablePage ScrollablePage  \endlink
+- \link org::kde::kirigami::AboutPage AboutPage \endlink
+- \link org::kde::kirigami::PageRow PageRow \endlink
+- \link org::kde::kirigami::FormLayout FormLayout \endlink
+- \link org::kde::kirigami::CardsLayout CardsLayout \endlink
+- \link SizeGroup SizeGroup \endlink
+- \link Kirigami::PlatformTheme Theme  \endlink
+- \link Kirigami::Units  Units \endlink
+
+\subsection controls Common Kirigami Controls
+
+- \link org::kde::kirigami::Card Card \endlink
+- \link org::kde::kirigami::templates::OverlaySheet  OverlaySheet \endlink
+- \link org::kde::kirigami::BasicListItem BasicListItem  \endlink
+- \link org::kde::kirigami::SwipeListItem  SwipeListItem \endlink
+- \link org::kde::kirigami::Heading Heading  \endlink
+- \link org::kde::kirigami::PlaceholderMessage PlaceholderMessage  \endlink
+- \link org::kde::kirigami::SearchField SearchField \endlink
+- \link org::kde::kirigami::Dialog Dialog \endlink
+- \link org::kde::kirigami::NavigationTabBar NavigationTabBar \endlink
+- \link Icon Icon  \endlink
+
+\subsection example Minimal Example
+
+@code
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as Controls
+import org.kde.kirigami 2.20 as Kirigami
+
+Kirigami.ApplicationWindow {
+    id: root
+
+    width: 500
+    height: 400
+
+    globalDrawer: Kirigami.GlobalDrawer {
+        title: "Hello App"
+        titleIcon: "applications-graphics"
+        actions: [
+            Kirigami.Action {
+                text: "View"
+                icon.name: "view-list-icons"
+                Kirigami.Action {
+                    text: "action 1"
+                }
+                Kirigami.Action {
+                    text: "action 2"
+                }
+                Kirigami.Action {
+                    text: "action 3"
+                }
+            },
+            Kirigami.Action {
+                text: "action 3"
+            },
+            Kirigami.Action {
+                text: "action 4"
+            }
+        ]
+    }
+    contextDrawer: Kirigami.ContextDrawer {
+        id: contextDrawer
+    }
+    pageStack.initialPage: mainPageComponent
+    Component {
+        id: mainPageComponent
+        Kirigami.ScrollablePage {
+            id: page
+            title: "Hello"
+            actions {
+                main: Kirigami.Action {
+                    icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+                    onTriggered: {
+                        print("Action button in buttons page clicked");
+                        sheet.sheetOpen = !sheet.sheetOpen
+                    }
+                }
+                left: Kirigami.Action {
+                    icon.name: "go-previous"
+                    onTriggered: {
+                        print("Left action triggered")
+                    }
+                }
+                right: Kirigami.Action {
+                    icon.name: "go-next"
+                    onTriggered: {
+                        print("Right action triggered")
+                    }
+                }
+                contextualActions: [
+                    Kirigami.Action {
+                        text:"Action for buttons"
+                        icon.name: "bookmarks"
+                        onTriggered: print("Action 1 clicked")
+                    },
+                    Kirigami.Action {
+                        text:"Action 2"
+                        icon.name: "folder"
+                        enabled: false
+                    },
+                    Kirigami.Action {
+                        text: "Action for Sheet"
+                        visible: sheet.sheetOpen
+                    }
+                ]
+            }
+            Kirigami.OverlaySheet {
+                id: sheet
+                onSheetOpenChanged: page.actions.main.checked = sheetOpen
+                Controls.Label {
+                    wrapMode: Text.WordWrap
+                    text: "Lorem ipsum dolor sit amet"
+                }
+            }
+            //Page contents...
+            Rectangle {
+                anchors.fill: parent
+                color: "lightblue"
+            }
+        }
+    }
+}
+@endcode
+
+@image html MinimalExample.webp
+
+\subsection deployment Deployment
+CMake is used for both building Kirigami and projects using it, allowing for several configurations depending on how the deployment needs to be done.
+
+Kirigami can be built in two ways: both as a module or statically linked to the application, leading to four combinations:
+
+- Kirigami built as a module with CMake
+- Kirigami statically built with CMake (needed to link statically from applications built with CMake)
+
+The simplest and recommended way to use Kirigami is to just use the packages provided by your Linux distribution, or build it as a module and deploy it together with the main application.
+
+For example, when building an application on Android with CMake, if Kirigami for Android is built and installed in the same temporary directory before the application, the create-apk step of the application will include the Kirigami files as well in the APK.
+
+Statically linked Kirigami will be used only on Android, while on desktop systems it will use the version provided by the distribution. Which platforms use the static version and which use the dynamic one can be freely adjusted.
+
+The application needs to have a folder called "3rdparty" containing clones of two KDE repositories: kirigami and breeze-icons (available at git://anongit.kde.org/kirigami.git and git://anongit.kde.org/breeze-icons.git).
+
+The main.cpp file should then have something like:
+
+@code
+#include <QGuiApplication>
+#include <QQmlApplicationEngine>
+#ifdef Q_OS_ANDROID
+#include "./3rdparty/kirigami/src/kirigamiplugin.h"
+#endif
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QGuiApplication app(argc, argv);
+
+    QQmlApplicationEngine engine;
+
+#ifdef Q_OS_ANDROID
+    KirigamiPlugin::getInstance().registerTypes(&engine);
+#endif
+    ...
+}
+@endcode
+
+@authors
+Marco Martin \<notmart@gmail.com\><br>
+Sebastian Kuegler \<sebas@kde.org\><br>
+Aleix Pol Gonzalez \<aleixpol@kde.org\><br>
+Dirk Hohndel \<dirk@hohndel.org\><br>
+
+@maintainers
+Marco Martin \<notmart@gmail.com\>
+
+@licenses
+@lgpl
+
+*/
+
+
+// DOXYGEN_SET_RECURSIVE = YES
+// DOXYGEN_SET_EXCLUDE_PATTERNS += *_p.h */private/* */examples/* */doc/* */styles/*
+// DOXYGEN_SET_PROJECT_NAME = Kirigami
+// vim:ts=4:sw=4:expandtab:filetype=doxygen

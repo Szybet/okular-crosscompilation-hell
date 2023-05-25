@@ -1,0 +1,7 @@
+description: Voice applications and mycroft skills installer for plasma bigscreen
+hasrepo: true
+identifier: mycroft-skill-installer
+name: Mycroft Skill Installer for Plasma Bigscreen
+projectpath: playground/utils/mycroft-skill-installer
+repoactive: true
+repopath: plasma-bigscreen/mycroft-skill-installer

@@ -1,0 +1,150 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/sonnet
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/sonnet/prefix.sh to set the environment for Sonnet.
+-- Could NOT find ASPELL (missing: ASPELL_LIBRARIES ASPELL_INCLUDE_DIR ASPELL_EXECUTABLE) 
+-- Could NOT find HSPELL (missing: HSPELL_LIBRARIES HSPELL_INCLUDE_DIR) 
+-- Could NOT find HUNSPELL (missing: HUNSPELL_LIBRARIES HUNSPELL_INCLUDE_DIRS) (found version "1.7.2")
+-- Could NOT find VOIKKO (missing: VOIKKO_LIBRARIES VOIKKO_INCLUDE_DIR) 
+-- The following OPTIONAL packages have been found:
+
+ * PkgConfig
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Gui (required version >= 5.15.2)
+ * Qt5Widgets
+ * Qt5Network (required version >= 5.15.2)
+ * Qt5Qml (required version >= 5.15.2)
+ * Qt5QmlModels (required version >= 5.15.2)
+ * Qt5Quick
+ * Qt5Core
+ * Qt5 (required version >= 5.15.2)
+ * Qt5LinguistTools
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+ * DESIGNERPLUGIN, Build plugin for Qt Designer
+
+-- The following OPTIONAL packages have not been found:
+
+ * ASPELL, Spell checking support via Aspell, <http://aspell.net/>
+ * HSPELL, Spell checking support for Hebrew, <http://ivrix.org.il/projects/spell-checker/>
+ * HUNSPELL, Spell checking support via Hunspell, <https://hunspell.github.io/>
+ * VOIKKO, Spell checking support via Voikko, <https://voikko.puimula.org/>
+
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/sonnet
+[  0%] Built target translations_1
+[  2%] Built target translations_2
+[  2%] Built target translations_3
+[  3%] Built target translations_4
+[  4%] Built target translations_5
+[  5%] Built target translations_6
+[  6%] Built target translations_7
+[  7%] Built target translations_8
+[  8%] Built target translations_9
+[  8%] Built target translations_11
+[  9%] Built target translations_12
+[ 10%] Built target translations_10
+[ 11%] Built target translations_14
+[ 12%] Built target translations_13
+[ 12%] Built target translations_15
+[ 13%] Built target translations_17
+[ 13%] Built target translations_19
+[ 14%] Built target translations_16
+[ 15%] Built target translations_18
+[ 16%] Built target translations_20
+[ 17%] Built target translations_22
+[ 18%] Built target translations_23
+[ 18%] Built target translations_21
+[ 18%] Built target translations_25
+[ 19%] Built target translations_27
+[ 20%] Built target translations_24
+[ 21%] Built target translations_26
+[ 22%] Built target translations_28
+[ 23%] Built target translations_30
+[ 23%] Built target translations_29
+[ 23%] Built target translations_31
+[ 24%] Built target translations_33
+[ 25%] Built target translations_32
+[ 26%] Built target translations_34
+[ 27%] Built target translations_36
+[ 26%] Built target translations_35
+[ 28%] Built target translations_37
+[ 29%] Built target translations_38
+[ 30%] Built target translations_40
+[ 30%] Built target translations_39
+[ 31%] Built target translations_41
+[ 31%] Built target translations_42
+[ 32%] Built target translations_44
+[ 33%] Built target translations_43
+[ 33%] Built target translations_45
+[ 34%] Built target translations_46
+[ 34%] Built target translations_49
+[ 35%] Built target translations_51
+[ 36%] Built target translations_48
+[ 37%] Built target translations_47
+[ 38%] Built target translations_50
+[ 38%] Built target translations_52
+[ 39%] Built target translations_53
+[ 40%] Built target translations_54
+[ 39%] Built target translations_55
+[ 41%] Built target translations_57
+[ 42%] Built target translations_56
+[ 43%] Built target translations_60
+[ 44%] Built target translations_61
+[ 45%] Built target translations_58
+[ 45%] Built target translations_59
+[ 45%] Built target translations_62
+[ 46%] Built target translations_63
+[ 47%] Built target translations_66
+[ 48%] Built target translations_64
+[ 50%] Built target translations_67
+[ 50%] Built target translations_68
+[ 50%] Built target translations_65
+[ 51%] Built target translations_70
+[ 51%] Built target translations_69
+[ 52%] Built target translations_71
+[ 52%] Built target translations_72
+[ 53%] Built target translations_73
+[ 54%] Built target translations_74
+[ 55%] Built target translations_75
+[ 55%] Built target translations_76
+[ 56%] Built target translations_78
+[ 56%] Built target translations_79
+[ 57%] Built target translations_80
+[ 58%] Built target translations_81
+[ 59%] Built target translations_77
+[ 59%] Built target translations_82
+[ 60%] Built target translations_83
+[ 61%] Built target translations_84
+[ 62%] Built target translations_85
+[ 62%] Built target translations_86
+[ 62%] Built target translations_89
+[ 63%] Built target translations_90
+[ 64%] Built target translations_88
+[ 66%] Built target translations_87
+[ 66%] Built target translations_91
+[ 66%] Built target translations_92
+[ 67%] Built target translations_93
+[ 68%] Built target translations_94
+[ 67%] Built target translations_96
+[ 69%] Built target translations_95
+[ 70%] Built target translations_97
+[ 71%] Built target translations_98
+[ 72%] Built target translations_99
+[ 73%] Built target translations_100
+[ 73%] Automatic MOC for target KF5SonnetCore
+[ 73%] Built target KF5SonnetCore_autogen
+[ 83%] Built target KF5SonnetCore
+[ 84%] Automatic MOC for target KF5SonnetUi
+[ 85%] Automatic MOC for target sonnetquickplugin
+[ 85%] Built target sonnetquickplugin_autogen
+[ 85%] Built target KF5SonnetUi_autogen
+[ 89%] Built target sonnetquickplugin
+[100%] Built target KF5SonnetUi

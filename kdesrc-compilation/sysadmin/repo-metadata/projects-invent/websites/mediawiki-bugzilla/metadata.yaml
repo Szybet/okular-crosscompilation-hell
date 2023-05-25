@@ -1,0 +1,7 @@
+description: Bugzilla plugin for MediaWiki
+hasrepo: true
+identifier: websites-mediawiki-bugzilla
+name: MediaWiki Bugzilla Plugin
+projectpath: websites/mediawiki-bugzilla
+repoactive: true
+repopath: websites/mediawiki-bugzilla

@@ -1,0 +1,7 @@
+description: Wrapper around different world-map components to browse and arrange photos over a map
+hasrepo: true
+identifier: libkgeomap
+name: libkgeomap
+projectpath: kde/kdegraphics/libs/libkgeomap
+repoactive: false
+repopath: graphics/libkgeomap

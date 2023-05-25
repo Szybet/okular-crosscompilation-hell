@@ -1,0 +1,2 @@
+autotests/helper/CMakeFiles/kwindowsystem_platform_wayland_helper.dir/kwindowsystem_platform_wayland_helper_autogen/mocs_compilation.cpp.o: \
+ /home/szybet/kdesrc/build/frameworks/kwindowsystem/autotests/helper/kwindowsystem_platform_wayland_helper_autogen/mocs_compilation.cpp

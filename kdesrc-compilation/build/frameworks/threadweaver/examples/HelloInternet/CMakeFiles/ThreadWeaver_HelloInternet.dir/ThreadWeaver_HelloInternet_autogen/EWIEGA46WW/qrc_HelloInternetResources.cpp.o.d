@@ -1,0 +1,2 @@
+examples/HelloInternet/CMakeFiles/ThreadWeaver_HelloInternet.dir/ThreadWeaver_HelloInternet_autogen/EWIEGA46WW/qrc_HelloInternetResources.cpp.o: \
+ /home/szybet/kdesrc/build/frameworks/threadweaver/examples/HelloInternet/ThreadWeaver_HelloInternet_autogen/EWIEGA46WW/qrc_HelloInternetResources.cpp

@@ -1,0 +1,7 @@
+description: Plugin for previewing content using the KTextEditor Framework
+hasrepo: true
+identifier: ktexteditorpreviewplugin
+name: KTextEditor Preview Plugin
+projectpath: unmaintained/ktexteditorpreviewplugin
+repoactive: false
+repopath: unmaintained/ktexteditorpreviewplugin

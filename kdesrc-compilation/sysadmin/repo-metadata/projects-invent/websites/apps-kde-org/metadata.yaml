@@ -1,0 +1,7 @@
+description: KDE application catalog — apps.kde.org
+hasrepo: true
+identifier: websites-apps-kde-org
+name: KDE.org Applications Subsite
+projectpath: websites/apps-kde-org
+repoactive: true
+repopath: websites/apps-kde-org

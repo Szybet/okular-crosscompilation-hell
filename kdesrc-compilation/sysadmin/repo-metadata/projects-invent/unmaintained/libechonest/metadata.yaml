@@ -1,0 +1,7 @@
+description: 'Qt library for communicating with The Echo Nest.'
+hasrepo: true
+identifier: libechonest
+name: libechonest
+projectpath: unmaintained/libechonest
+repoactive: false
+repopath: unmaintained/libechonest

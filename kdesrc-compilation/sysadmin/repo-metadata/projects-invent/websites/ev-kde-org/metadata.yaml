@@ -1,0 +1,7 @@
+description: Website for KDE e.V. — ev.kde.org
+hasrepo: true
+identifier: websites-ev-kde-org
+name: KDE e.V. Website
+projectpath: websites/ev-kde-org
+repoactive: true
+repopath: websites/ev-kde-org

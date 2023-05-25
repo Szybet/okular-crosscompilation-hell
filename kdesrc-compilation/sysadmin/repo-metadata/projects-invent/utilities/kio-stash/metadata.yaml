@@ -1,0 +1,7 @@
+description: Virtual folder to simplify file selection in non-contiguous folder trees
+hasrepo: true
+identifier: kio-stash
+name: KIO Stash
+projectpath: extragear/utils/kio-stash
+repoactive: true
+repopath: utilities/kio-stash

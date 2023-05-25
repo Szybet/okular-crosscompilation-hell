@@ -1,0 +1,240 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'jobviewiface.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include "jobviewiface.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'jobviewiface.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_OrgKdeJobViewV2Interface_t {
+    QByteArrayData data[31];
+    char stringdata0[378];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_OrgKdeJobViewV2Interface_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_OrgKdeJobViewV2Interface_t qt_meta_stringdata_OrgKdeJobViewV2Interface = {
+    {
+QT_MOC_LITERAL(0, 0, 24), // "OrgKdeJobViewV2Interface"
+QT_MOC_LITERAL(1, 25, 15), // "cancelRequested"
+QT_MOC_LITERAL(2, 41, 0), // ""
+QT_MOC_LITERAL(3, 42, 15), // "resumeRequested"
+QT_MOC_LITERAL(4, 58, 16), // "suspendRequested"
+QT_MOC_LITERAL(5, 75, 21), // "clearDescriptionField"
+QT_MOC_LITERAL(6, 97, 9), // "Q_NOREPLY"
+QT_MOC_LITERAL(7, 107, 6), // "number"
+QT_MOC_LITERAL(8, 114, 19), // "setDescriptionField"
+QT_MOC_LITERAL(9, 134, 23), // "QDBusPendingReply<bool>"
+QT_MOC_LITERAL(10, 158, 4), // "name"
+QT_MOC_LITERAL(11, 163, 5), // "value"
+QT_MOC_LITERAL(12, 169, 10), // "setDestUrl"
+QT_MOC_LITERAL(13, 180, 12), // "QDBusVariant"
+QT_MOC_LITERAL(14, 193, 7), // "destUrl"
+QT_MOC_LITERAL(15, 201, 8), // "setError"
+QT_MOC_LITERAL(16, 210, 9), // "errorCode"
+QT_MOC_LITERAL(17, 220, 14), // "setInfoMessage"
+QT_MOC_LITERAL(18, 235, 7), // "message"
+QT_MOC_LITERAL(19, 243, 10), // "setPercent"
+QT_MOC_LITERAL(20, 254, 7), // "percent"
+QT_MOC_LITERAL(21, 262, 18), // "setProcessedAmount"
+QT_MOC_LITERAL(22, 281, 6), // "amount"
+QT_MOC_LITERAL(23, 288, 4), // "unit"
+QT_MOC_LITERAL(24, 293, 8), // "setSpeed"
+QT_MOC_LITERAL(25, 302, 14), // "bytesPerSecond"
+QT_MOC_LITERAL(26, 317, 12), // "setSuspended"
+QT_MOC_LITERAL(27, 330, 9), // "suspended"
+QT_MOC_LITERAL(28, 340, 14), // "setTotalAmount"
+QT_MOC_LITERAL(29, 355, 9), // "terminate"
+QT_MOC_LITERAL(30, 365, 12) // "errorMessage"
+
+    },
+    "OrgKdeJobViewV2Interface\0cancelRequested\0"
+    "\0resumeRequested\0suspendRequested\0"
+    "clearDescriptionField\0Q_NOREPLY\0number\0"
+    "setDescriptionField\0QDBusPendingReply<bool>\0"
+    "name\0value\0setDestUrl\0QDBusVariant\0"
+    "destUrl\0setError\0errorCode\0setInfoMessage\0"
+    "message\0setPercent\0percent\0"
+    "setProcessedAmount\0amount\0unit\0setSpeed\0"
+    "bytesPerSecond\0setSuspended\0suspended\0"
+    "setTotalAmount\0terminate\0errorMessage"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_OrgKdeJobViewV2Interface[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      14,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       3,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   84,    2, 0x06 /* Public */,
+       3,    0,   85,    2, 0x06 /* Public */,
+       4,    0,   86,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       5,    1,   87,    6, 0x0a /* Public */,
+       8,    3,   90,    2, 0x0a /* Public */,
+      12,    1,   97,    6, 0x0a /* Public */,
+      15,    1,  100,    6, 0x0a /* Public */,
+      17,    1,  103,    6, 0x0a /* Public */,
+      19,    1,  106,    6, 0x0a /* Public */,
+      21,    2,  109,    6, 0x0a /* Public */,
+      24,    1,  114,    6, 0x0a /* Public */,
+      26,    1,  117,    6, 0x0a /* Public */,
+      28,    2,  120,    6, 0x0a /* Public */,
+      29,    1,  125,    6, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::UInt,    7,
+    0x80000000 | 9, QMetaType::UInt, QMetaType::QString, QMetaType::QString,    7,   10,   11,
+    QMetaType::Void, 0x80000000 | 13,   14,
+    QMetaType::Void, QMetaType::UInt,   16,
+    QMetaType::Void, QMetaType::QString,   18,
+    QMetaType::Void, QMetaType::UInt,   20,
+    QMetaType::Void, QMetaType::ULongLong, QMetaType::QString,   22,   23,
+    QMetaType::Void, QMetaType::ULongLong,   25,
+    QMetaType::Void, QMetaType::Bool,   27,
+    QMetaType::Void, QMetaType::ULongLong, QMetaType::QString,   22,   23,
+    QMetaType::Void, QMetaType::QString,   30,
+
+       0        // eod
+};
+
+void OrgKdeJobViewV2Interface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<OrgKdeJobViewV2Interface *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->cancelRequested(); break;
+        case 1: _t->resumeRequested(); break;
+        case 2: _t->suspendRequested(); break;
+        case 3: _t->clearDescriptionField((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 4: { QDBusPendingReply<bool> _r = _t->setDescriptionField((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<bool>*>(_a[0]) = std::move(_r); }  break;
+        case 5: _t->setDestUrl((*reinterpret_cast< const QDBusVariant(*)>(_a[1]))); break;
+        case 6: _t->setError((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 7: _t->setInfoMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 8: _t->setPercent((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 9: _t->setProcessedAmount((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 10: _t->setSpeed((*reinterpret_cast< qulonglong(*)>(_a[1]))); break;
+        case 11: _t->setSuspended((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 12: _t->setTotalAmount((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 13: _t->terminate((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (OrgKdeJobViewV2Interface::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgKdeJobViewV2Interface::cancelRequested)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgKdeJobViewV2Interface::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgKdeJobViewV2Interface::resumeRequested)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgKdeJobViewV2Interface::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgKdeJobViewV2Interface::suspendRequested)) {
+                *result = 2;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject OrgKdeJobViewV2Interface::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDBusAbstractInterface::staticMetaObject>(),
+    qt_meta_stringdata_OrgKdeJobViewV2Interface.data,
+    qt_meta_data_OrgKdeJobViewV2Interface,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *OrgKdeJobViewV2Interface::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *OrgKdeJobViewV2Interface::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_OrgKdeJobViewV2Interface.stringdata0))
+        return static_cast<void*>(this);
+    return QDBusAbstractInterface::qt_metacast(_clname);
+}
+
+int OrgKdeJobViewV2Interface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractInterface::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 14)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 14;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 14)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 14;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void OrgKdeJobViewV2Interface::cancelRequested()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void OrgKdeJobViewV2Interface::resumeRequested()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void OrgKdeJobViewV2Interface::suspendRequested()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,7 @@
+description: Static copy of the Amarok website — amarok.kde.org
+hasrepo: true
+identifier: websites-amarok-kde-org
+name: Amarok Website
+projectpath: websites/amarok-kde-org
+repoactive: true
+repopath: websites/amarok-kde-org

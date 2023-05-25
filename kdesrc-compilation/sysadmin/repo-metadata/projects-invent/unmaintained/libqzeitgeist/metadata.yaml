@@ -1,0 +1,7 @@
+description: A Qt interface to the Zeitgeist event tracking system
+hasrepo: true
+identifier: libqzeitgeist
+name: Qt Zeitgeist library
+projectpath: kdesupport/libqzeitgeist
+repoactive: false
+repopath: unmaintained/libqzeitgeist

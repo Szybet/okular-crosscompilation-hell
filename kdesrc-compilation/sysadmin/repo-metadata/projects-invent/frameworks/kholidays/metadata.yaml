@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kholidays
+description: 'KHolidays: Library to assist determining when holidays occur'
+hasrepo: true
+identifier: kholidays
+name: kholidays
+projectpath: frameworks/kholidays
+repoactive: true
+repopath: frameworks/kholidays

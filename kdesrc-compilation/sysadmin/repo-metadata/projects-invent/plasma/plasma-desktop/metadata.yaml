@@ -1,0 +1,9 @@
+description: Plasma for the Desktop
+hasrepo: true
+identifier: plasma-desktop
+name: Plasma Desktop
+projectpath: kde/workspace/plasma-desktop
+repoactive: true
+repopath: plasma/plasma-desktop
+bugzilla:
+    product: plasmashell

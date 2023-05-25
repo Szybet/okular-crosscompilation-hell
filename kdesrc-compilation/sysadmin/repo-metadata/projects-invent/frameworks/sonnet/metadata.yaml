@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-sonnet
+description: 'Spelling framework for Qt.'
+hasrepo: true
+identifier: sonnet
+name: Sonnet
+projectpath: frameworks/sonnet
+repoactive: true
+repopath: frameworks/sonnet

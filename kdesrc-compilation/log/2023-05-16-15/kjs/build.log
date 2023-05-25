@@ -1,0 +1,128 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kjs
+[  1%] Automatic MOC for target icemaker
+[  2%] Automatic MOC for target KF5JS
+[  2%] Built target icemaker_autogen
+[  7%] Building CXX object src/kjs/CMakeFiles/icemaker.dir/bytecode/generator/codeprinter.cpp.o
+[  7%] Building CXX object src/kjs/CMakeFiles/icemaker.dir/bytecode/generator/tablebuilder.cpp.o
+[  7%] Building CXX object src/kjs/CMakeFiles/icemaker.dir/icemaker_autogen/mocs_compilation.cpp.o
+[  8%] Building CXX object src/kjs/CMakeFiles/icemaker.dir/bytecode/generator/driver.cpp.o
+[  8%] Building CXX object src/kjs/CMakeFiles/icemaker.dir/bytecode/generator/types.cpp.o
+[  9%] Building CXX object src/kjs/CMakeFiles/icemaker.dir/bytecode/generator/parser.cpp.o
+[ 10%] Building CXX object src/kjs/CMakeFiles/icemaker.dir/bytecode/generator/lexer.cpp.o
+[ 10%] Built target KF5JS_autogen
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/ASCIICType.h:32[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/bytecode/generator/codeprinter.cpp:29[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:194:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  194 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KDE[m[K) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KD[m[KE) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:212:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  212 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:216:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  216 | [01;35m[K#if PLATFORM(WIN[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:220:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  220 | [01;35m[K#if PLATFORM(GDK[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/ASCIICType.h:32[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/bytecode/generator/lexer.cpp:31[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:194:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  194 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KDE[m[K) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KD[m[KE) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:212:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  212 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:216:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  216 | [01;35m[K#if PLATFORM(WIN[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:220:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  220 | [01;35m[K#if PLATFORM(GDK[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/ASCIICType.h:32[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/bytecode/generator/types.cpp:30[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:194:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  194 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KDE[m[K) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KD[m[KE) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:212:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  212 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:216:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  216 | [01;35m[K#if PLATFORM(WIN[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:220:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  220 | [01;35m[K#if PLATFORM(GDK[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/ASCIICType.h:32[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/bytecode/generator/parser.cpp:26[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:194:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  194 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KDE[m[K) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KD[m[KE) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:212:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  212 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:216:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  216 | [01;35m[K#if PLATFORM(WIN[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:220:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  220 | [01;35m[K#if PLATFORM(GDK[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/ASCIICType.h:32[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/bytecode/generator/tablebuilder.cpp:29[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:194:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  194 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KDE[m[K) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:204:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  204 | [01;35m[K#if PLATFORM(KD[m[KE) || PLATFORM(QT)
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:212:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  212 | [01;35m[K#if PLATFORM(MAC[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:216:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  216 | [01;35m[K#if PLATFORM(WIN[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kjs/src/kjs/../wtf/Platform.h:220:1:[m[K [01;35m[Kwarning: [m[Kthis use of "defined" may not be portable [[01;35m[K-Wexpansion-to-defined[m[K]
+  220 | [01;35m[K#if PLATFORM(GDK[m[K)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[ 12%] Linking CXX executable ../../bin/icemaker
+[ 12%] Built target icemaker
+[ 15%] Generating lexer.lut.h
+[ 15%] Generating date_object.lut.h
+[ 15%] Generating json_object.lut.h
+[ 16%] Generating string_object.lut.h
+[ 18%] Generating array_object.lut.h
+[ 20%] Generating math_object.lut.h
+[ 20%] Generating number_object.lut.h
+[ 21%] Generating opcodes.h, opcodes.cpp, machine.cpp
+/bin/sh: line 1: icemaker: command not found
+make[2]: *** [src/kjs/CMakeFiles/KF5JS.dir/build.make:110: src/kjs/opcodes.h] Error 127
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:236: src/kjs/CMakeFiles/KF5JS.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

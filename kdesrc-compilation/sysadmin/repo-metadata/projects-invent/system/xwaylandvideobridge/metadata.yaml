@@ -1,0 +1,9 @@
+description: Utility to allow streaming Wayland windows to X applications
+hasrepo: true
+identifier: xwaylandvideobridge
+name: XWayland Video Bridge
+projectpath: playground/system/xwaylandvideobridge
+repoactive: true
+repopath: system/xwaylandvideobridge
+bugzilla:
+    product: XWaylandVideoBridge

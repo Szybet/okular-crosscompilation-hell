@@ -1,0 +1,7 @@
+description: Command line metronome
+hasrepo: true
+identifier: cmetronome
+name: cmetronome
+projectpath: playground/utils/cmetronome
+repoactive: false
+repopath: unmaintained/cmetronome

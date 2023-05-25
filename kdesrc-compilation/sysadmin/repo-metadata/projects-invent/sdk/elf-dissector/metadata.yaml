@@ -1,0 +1,7 @@
+description: Tools for inspecting, analyzing and optimizing ELF files
+hasrepo: true
+identifier: elf-dissector
+name: ELF Dissector
+projectpath: extragear/sdk/elf-dissector
+repoactive: true
+repopath: sdk/elf-dissector

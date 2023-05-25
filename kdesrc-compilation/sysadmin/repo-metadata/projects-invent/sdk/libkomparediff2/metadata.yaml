@@ -1,0 +1,7 @@
+description: Library to compare files and strings, used in Kompare and KDevelop
+hasrepo: true
+identifier: libkomparediff2
+name: libkomparediff2
+projectpath: kde/kdesdk/libkomparediff2
+repoactive: true
+repopath: sdk/libkomparediff2

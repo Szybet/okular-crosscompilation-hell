@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kservice/src/KF5Service_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kservice",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kservice/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kservice/src",
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kservice",
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kservice/src/KF5Service_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kservice/src/services/application.desktop"
+	],
+	"LOCK_FILE" : "/home/szybet/kdesrc/build/frameworks/kservice/src/CMakeFiles/KF5Service_autogen.dir/AutoRcc_kservice_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "kservice" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_kservice.cpp",
+	"RCC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kservice/src/CMakeFiles/KF5Service_autogen.dir/AutoRcc_kservice_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/szybet/kdesrc/frameworks/kservice/src/kservice.qrc",
+	"VERBOSITY" : 0
+}

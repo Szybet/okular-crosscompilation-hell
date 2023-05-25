@@ -1,0 +1,7 @@
+description: Cookbook creator
+hasrepo: true
+identifier: kookbook
+name: Kookbook
+projectpath: playground/base/kookbook
+repoactive: true
+repopath: utilities/kookbook

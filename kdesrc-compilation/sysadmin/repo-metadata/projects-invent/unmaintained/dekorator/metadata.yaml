@@ -1,0 +1,7 @@
+description: KWin plugin to support pixmap decorations in KDE
+hasrepo: true
+identifier: dekorator
+name: deKorator
+projectpath: unmaintained/dekorator
+repoactive: false
+repopath: unmaintained/dekorator

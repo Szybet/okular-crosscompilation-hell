@@ -1,0 +1,7 @@
+description: ImageComplete fills in holes in your image with the gradient of the surround
+hasrepo: true
+identifier: krita-imagecomplete
+name: Image Complete
+projectpath: extragear/graphics/krita-extensions/krita-imagecomplete
+repoactive: false
+repopath: unmaintained/krita-imagecomplete

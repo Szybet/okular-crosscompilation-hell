@@ -1,0 +1,7 @@
+description: Amarok history
+hasrepo: true
+identifier: amarok-history
+name: Amarok History
+projectpath: extragear/multimedia/amarok/amarok-history
+repoactive: false
+repopath: historical/amarok-history

@@ -1,0 +1,7 @@
+description: KDevelop plugin which provides Ruby language support
+hasrepo: true
+identifier: kdev-ruby
+name: KDevelop Ruby Support
+projectpath: playground/devtools/plugins/kdev-ruby
+repoactive: true
+repopath: kdevelop/kdev-ruby

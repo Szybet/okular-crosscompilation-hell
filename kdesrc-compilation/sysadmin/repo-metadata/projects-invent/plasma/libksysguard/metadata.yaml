@@ -1,0 +1,10 @@
+description: Library to retrieve information on the current status of computer hardware
+hasrepo: true
+identifier: libksysguard
+name: libksysguard
+projectpath: kde/workspace/libksysguard
+repoactive: true
+repopath: plasma/libksysguard
+bugzilla:
+    product: ksysguard
+    component: libksysguard

@@ -1,0 +1,7 @@
+description: Control panel and widget network connections.
+hasrepo: true
+identifier: networkmanagement
+name: Network Management
+projectpath: unmaintained/networkmanagement
+repoactive: false
+repopath: unmaintained/networkmanagement

@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kquickcharts
+description: A QtQuick plugin providing high-performance charts.
+hasrepo: true
+identifier: kquickcharts
+name: Quick Charts
+projectpath: frameworks/kquickcharts
+repoactive: true
+repopath: frameworks/kquickcharts

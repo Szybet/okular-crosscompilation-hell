@@ -1,0 +1,9 @@
+bugzilla:
+  product: kalarm
+description: Application to manage alarms and other timer-based alerts on the desktop
+hasrepo: true
+identifier: kalarm
+name: KAlarm
+projectpath: kde/pim/kalarm
+repoactive: true
+repopath: pim/kalarm

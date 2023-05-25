@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdialog
+description: Tool to show nice dialog boxes from shell scripts
+hasrepo: true
+identifier: kdialog
+name: KDialog
+projectpath: kde/applications/kdialog
+repoactive: true
+repopath: utilities/kdialog

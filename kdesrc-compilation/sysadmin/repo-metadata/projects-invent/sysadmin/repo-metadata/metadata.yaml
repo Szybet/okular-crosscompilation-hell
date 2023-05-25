@@ -1,0 +1,7 @@
+description: Metadata concerning repositories on Gitlab (invent.kde.org)
+hasrepo: true
+identifier: sysadmin-repo-metadata
+name: Git Repository Metadata
+projectpath: sysadmin/repo-metadata
+repoactive: false
+repopath: sysadmin/repo-metadata

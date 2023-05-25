@@ -1,0 +1,9 @@
+bugzilla:
+  product: lokalize
+description: Computer-aided translation
+hasrepo: true
+identifier: lokalize
+name: Lokalize
+projectpath: kde/kdesdk/lokalize
+repoactive: true
+repopath: sdk/lokalize

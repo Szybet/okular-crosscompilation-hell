@@ -1,0 +1,7 @@
+description: A plugin for KDevelop to perform Krazy2 analysis
+hasrepo: true
+identifier: kdev-krazy2
+name: KDevelop Krazy2 Support
+projectpath: playground/devtools/plugins/kdev-krazy2
+repoactive: true
+repopath: kdevelop/kdev-krazy2

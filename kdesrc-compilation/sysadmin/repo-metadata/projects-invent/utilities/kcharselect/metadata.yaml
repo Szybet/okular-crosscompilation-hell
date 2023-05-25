@@ -1,0 +1,9 @@
+bugzilla:
+  product: kcharselect
+description: Tool to select and copy special characters from all installed fonts
+hasrepo: true
+identifier: kcharselect
+name: KCharSelect
+projectpath: kde/kdeutils/kcharselect
+repoactive: true
+repopath: utilities/kcharselect

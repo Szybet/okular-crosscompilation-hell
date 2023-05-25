@@ -1,0 +1,7 @@
+description: Historical copy of the base applications module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdebase
+name: 'Historical - KDE 1 - KDEBase'
+projectpath: historical/kde1-kdebase
+repoactive: true
+repopath: historical/kde1-kdebase

@@ -1,0 +1,58 @@
+Holding performance profile
+Building extra-cmake-modules from _cmdline (1/44)
+	Fetching remote changes to extra-cmake-modules
+	Merging extra-cmake-modules changes from branch kf5
+	No changes to extra-cmake-modules source code, but proceeding to build anyway.
+Building kcoreaddons from _cmdline (2/44)
+	Fetching remote changes to kcoreaddons
+	Merging kcoreaddons changes from branch kf5
+	No changes to kcoreaddons source code, but proceeding to build anyway.
+Building kconfig from _cmdline (3/44)
+	Fetching remote changes to kconfig
+	Merging kconfig changes from branch kf5
+	No changes to kconfig source code, but proceeding to build anyway.
+Building ki18n from _cmdline (4/44)
+	Fetching remote changes to ki18n
+	Merging ki18n changes from branch kf5
+	No changes to ki18n source code, but proceeding to build anyway.
+Building karchive from _cmdline (5/44)
+	Fetching remote changes to karchive
+	Merging karchive changes from branch kf5
+	No changes to karchive source code, but proceeding to build anyway.
+Building kdoctools from _cmdline (6/44)
+	Fetching remote changes to kdoctools
+	Merging kdoctools changes from branch kf5
+	No changes to kdoctools source code, but proceeding to build anyway.
+Building kwidgetsaddons from _cmdline (7/44)
+	Fetching remote changes to kwidgetsaddons
+	Merging kwidgetsaddons changes from branch kf5
+	Source update complete for kwidgetsaddons: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kwidgetsaddons.
+	Running cmake targeting Unix Makefiles...
+	Note: - 2 - compile warnings
+Building plasma-wayland-protocols from _cmdline (8/44)
+	Fetching remote changes to plasma-wayland-protocols
+	Merging plasma-wayland-protocols changes from branch master
+	Source update complete for plasma-wayland-protocols: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for plasma-wayland-protocols.
+	Running cmake targeting Unix Makefiles...
+Building polkit-qt-1 from _cmdline (9/44)
+	Fetching remote changes to polkit-qt-1
+	Merging polkit-qt-1 changes from branch master
+	Source update complete for polkit-qt-1: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for polkit-qt-1.
+	Running cmake targeting Unix Makefiles...
+
+polkit-qt-1 didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+polkit-qt-1 - file:///home/szybet/kdesrc/log/2023-05-15-06/polkit-qt-1/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-15-06

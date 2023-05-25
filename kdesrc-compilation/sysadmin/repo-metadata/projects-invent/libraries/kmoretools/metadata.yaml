@@ -1,0 +1,7 @@
+description: Support for downloading application assets from the network
+hasrepo: true
+identifier: kmoretools
+name: KMoreTools
+projectpath: playground/libs/kmoretools
+repoactive: true
+repopath: libraries/kmoretools

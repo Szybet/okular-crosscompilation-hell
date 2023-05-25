@@ -1,0 +1,17 @@
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/clang-format.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/uninstall.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/fetch-translations.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/CMakeFiles/install/strip.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/KF5Crash.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/install/strip.dir
+/home/szybet/kdesrc/build/frameworks/kcrash/src/CMakeFiles/KF5Crash_autogen.dir

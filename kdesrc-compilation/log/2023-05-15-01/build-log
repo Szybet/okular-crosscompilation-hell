@@ -1,0 +1,26 @@
+Holding performance profile
+Building extra-cmake-modules from _cmdline (1/44)
+	Cloning extra-cmake-modules
+	Source update complete for extra-cmake-modules: 553 files affected.
+	Preparing build system for extra-cmake-modules.
+	Running cmake targeting Unix Makefiles...
+Building kcoreaddons from _cmdline (2/44)
+	Cloning kcoreaddons
+	Source update complete for kcoreaddons: 376 files affected.
+	Preparing build system for kcoreaddons.
+	Running cmake targeting Unix Makefiles...
+	Note: -- 3 -- compile warnings
+
+kcoreaddons didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kcoreaddons - file:///home/szybet/kdesrc/log/2023-05-15-01/kcoreaddons/build.log
+
+Important notification for kcoreaddons:
+    kcoreaddons has failed to build 6 times.
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-15-01

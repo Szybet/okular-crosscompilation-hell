@@ -1,0 +1,9 @@
+bugzilla:
+  product: kamoso
+description: Application to take pictures and videos with your webcam
+hasrepo: true
+identifier: kamoso
+name: Kamoso
+projectpath: kde/kdemultimedia/kamoso
+repoactive: true
+repopath: multimedia/kamoso

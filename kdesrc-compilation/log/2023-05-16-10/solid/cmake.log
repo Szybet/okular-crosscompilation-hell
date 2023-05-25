@@ -1,0 +1,112 @@
+# kdesrc-build running: 'cmake' '-B' '.' '-S' '/home/szybet/kdesrc/frameworks/solid' '-G' 'Unix Makefiles' '-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON' '-DCMAKE_TOOLCHAIN_FILE=/mnt/HDD/Project/Public/okulartry/kobo.cmake' '-DCMAKE_CXX_FLAGS:STRING=-pipe' '-DCMAKE_INSTALL_PREFIX=/mnt/HDD/Project/Public/okulartry/okular-things' '-DCMAKE_PREFIX_PATH=/home/build/inkbox/compiled-binaries/qt-bin/'
+# from directory: /home/szybet/kdesrc/build/frameworks/solid
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/solid/prefix.sh to set the environment for Solid.
+-- Setting build type to 'Debug' as none was specified.
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+-- Performing Test _OFFT_IS_64BIT - Failed
+-- Performing Test HAVE_DATE_TIME
+-- Performing Test HAVE_DATE_TIME - Success
+-- Performing Test BSYMBOLICFUNCTIONS_AVAILABLE
+-- Performing Test BSYMBOLICFUNCTIONS_AVAILABLE - Success
+-- Found FLEX: /sbin/flex (found version "2.6.4") 
+-- Found BISON: /sbin/bison (found suitable version "3.8.2", minimum required is "3.0") 
+-- Could NOT find IMobileDevice (missing: IMobileDevice_INCLUDE_DIRS IMobileDevice_LIBRARIES) (found version "1.3.0")
+-- Could NOT find PList (missing: PList_INCLUDE_DIRS PList_LIBRARIES) (found version "2.3.0")
+-- Found LibMount: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include (found version "2.38.1") 
+-- Found UDev: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include (found version "253") 
+-- Performing Test HAVE_X86_MMX
+-- Performing Test HAVE_X86_MMX - Failed
+-- Performing Test HAVE_X86_SSE
+-- Performing Test HAVE_X86_SSE - Failed
+-- Performing Test HAVE_X86_SSE2
+-- Performing Test HAVE_X86_SSE2 - Failed
+-- Performing Test HAVE_X86_3DNOW
+-- Performing Test HAVE_X86_3DNOW - Failed
+-- Performing Test HAVE_PPC_ALTIVEC
+-- Performing Test HAVE_PPC_ALTIVEC - Failed
+-- Looking for include file mntent.h
+-- Looking for include file mntent.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/param.h
+-- Looking for include file sys/param.h - found
+-- Looking for include files stdio.h, sys/mnttab.h
+-- Looking for include files stdio.h, sys/mnttab.h - not found
+-- Looking for include files sys/param.h, sys/mount.h
+-- Looking for include files sys/param.h, sys/mount.h - found
+-- Looking for setmntent
+-- Looking for setmntent - found
+-- Performing Test GETMNTINFO_USES_STATVFS
+-- Performing Test GETMNTINFO_USES_STATVFS - Failed
+-- Warning: environment variable XDG_DATA_DIRS not set, falling back to /usr/share
+-- Could NOT find MediaPlayerInfo (missing: MEDIAPLAYERINFO_PATH) 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- The following features have been enabled:
+
+ * fakehw, Solid device 'fakehw' backend.
+ * udev, Solid device 'udev' backend.
+ * udisks2, Solid device 'udisks2' backend.
+ * fstab, Solid device 'fstab' backend.
+ * upower, Solid device 'upower' backend.
+
+-- The following OPTIONAL packages have been found:
+
+ * LibMount, API for getting info about mounted filesystems (part of util-linux), <https://www.kernel.org/pub/linux/utils/util-linux/>
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Xml
+ * Qt5Gui
+ * Qt5DBus
+ * Qt5 (required version >= 5.15.2)
+ * FLEX, Fast Lexical Analyzer, <http://flex.sourceforge.net>
+   Required for the Predicate parser
+ * BISON (required version >= 3.0), general-purpose parser generator, <http://www.gnu.org/software/bison>
+   Required for the Predicate parser
+ * Qt5LinguistTools
+ * UDev, API for enumerating and introspecting local devices (part of systemd), <https://www.freedesktop.org/wiki/Software/systemd/>
+   Allows Solid to use UDev to provide information about devices on Linux
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+ * Solid::Job, WIP: Base class for Solid Asynchronous apis
+ * Solid::PowerManagement, WIP: Freedesktop backend for the asynchronous api
+
+-- The following RUNTIME packages have not been found:
+
+ * MediaPlayerInfo, Enables identification and querying of portable media players, <http://www.freedesktop.org/wiki/Software/media-player-info>
+   Runtime-only dependency of the udev solid backend. Support for m-p-i is included even if not found during build
+
+-- The following OPTIONAL packages have not been found:
+
+ * IMobileDevice, library to communicate with iOS devices, <https://www.libimobiledevice.org/>
+   Needed to build the iOS device support backend
+ * PList, library to handle Apple property list format, <https://www.libimobiledevice.org/>
+   Needed to build the iOS device support backend
+
+-- Configuring done (1.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/solid

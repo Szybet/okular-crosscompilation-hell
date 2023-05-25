@@ -1,0 +1,7 @@
+description: Qt binding to use the Jolie service-oriented framework
+hasrepo: true
+identifier: qtjolie
+name: QtJolie
+projectpath: playground/libs/qtjolie
+repoactive: false
+repopath: libraries/qtjolie

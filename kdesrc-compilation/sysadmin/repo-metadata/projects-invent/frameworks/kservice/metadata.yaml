@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kservice
+description: KService
+hasrepo: true
+identifier: kservice
+name: KService
+projectpath: frameworks/kservice
+repoactive: true
+repopath: frameworks/kservice

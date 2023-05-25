@@ -1,0 +1,8 @@
+description: 'Collection of nepomuk development tools(mostly command line): working
+  with nepomuk server, services and so on'
+hasrepo: true
+identifier: nepomuk-tools
+name: Collection of nepomuk development tools
+projectpath: unmaintained/nepomuk-tools
+repoactive: false
+repopath: unmaintained/nepomuk-tools

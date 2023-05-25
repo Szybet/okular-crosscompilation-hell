@@ -1,0 +1,7 @@
+description: Support for Qt's qmake build system.
+hasrepo: true
+identifier: kdev-qmake
+name: QMake
+projectpath: unmaintained/kdev-qmake
+repoactive: false
+repopath: unmaintained/kdev-qmake

@@ -1,0 +1,7 @@
+description: Youtube video player voice application and mycroft skill for Plasma Bigscreen
+hasrepo: true
+identifier: youtube-voice-application
+name: YouTube for Plasma Bigscreen
+projectpath: playground/utils/youtube-voice-application
+repoactive: true
+repopath: plasma-bigscreen/youtube-voice-application

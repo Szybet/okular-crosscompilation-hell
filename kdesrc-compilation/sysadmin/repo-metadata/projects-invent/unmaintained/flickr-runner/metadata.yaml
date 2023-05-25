@@ -1,0 +1,7 @@
+description: Flickr
+hasrepo: true
+identifier: flickr-runner
+name: Flickr Runner Plugin
+projectpath: unmaintained/flickr-runner
+repoactive: false
+repopath: unmaintained/flickr-runner

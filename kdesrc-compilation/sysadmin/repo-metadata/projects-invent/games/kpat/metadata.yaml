@@ -1,0 +1,9 @@
+bugzilla:
+  product: kpat
+description: KPatience offers a selection of solitaire card games
+hasrepo: true
+identifier: kpat
+name: KPat
+projectpath: kde/kdegames/kpat
+repoactive: true
+repopath: games/kpat

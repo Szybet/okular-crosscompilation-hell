@@ -1,0 +1,7 @@
+description: svn2git rules files and support scripts for KDE's SVN-to-Git migration
+hasrepo: true
+identifier: kde-ruleset
+name: KDE Ruleset
+projectpath: playground/sdk/kde-ruleset
+repoactive: true
+repopath: sdk/kde-ruleset

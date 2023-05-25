@@ -1,0 +1,7 @@
+description: A program for memorizing the Bible and other works. Uses the Sword library.
+hasrepo: true
+identifier: totalreqall
+name: TotalReqall
+projectpath: playground/utilities/totalreqall
+repoactive: false
+repopath: utilities/totalreqall

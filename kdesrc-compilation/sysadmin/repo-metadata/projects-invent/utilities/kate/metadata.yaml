@@ -1,0 +1,9 @@
+bugzilla:
+  product: kate
+description: Modern text editor built on the KDE Frameworks and Qt
+hasrepo: true
+identifier: kate
+name: Kate
+projectpath: kde/applications/kate
+repoactive: true
+repopath: utilities/kate

@@ -1,0 +1,7 @@
+description: Utility to scan images and multi-page documents
+hasrepo: true
+identifier: skanpage
+name: Skanpage
+projectpath: kde/kdeutils/skanpage
+repoactive: true
+repopath: utilities/skanpage

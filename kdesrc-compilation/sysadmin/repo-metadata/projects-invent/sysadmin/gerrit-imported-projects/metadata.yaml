@@ -1,0 +1,7 @@
+description: Read-only imports from KDE git to Gerrit
+hasrepo: true
+identifier: sysadmin-gerrit-imported-projects
+name: Gerrit Read-Only Imported Projects
+projectpath: sysadmin/gerrit-imported-projects
+repoactive: false
+repopath: sysadmin/gerrit-imported-projects

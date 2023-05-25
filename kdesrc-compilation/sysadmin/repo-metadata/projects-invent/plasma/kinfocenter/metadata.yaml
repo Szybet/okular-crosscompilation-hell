@@ -1,0 +1,9 @@
+description: View information about your computer's hardware
+hasrepo: true
+identifier: kinfocenter
+name: KInfoCenter
+projectpath: kde/workspace/kinfocenter
+repoactive: true
+repopath: plasma/kinfocenter
+bugzilla:
+    product: kinfocenter

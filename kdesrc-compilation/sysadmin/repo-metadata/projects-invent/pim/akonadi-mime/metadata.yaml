@@ -1,0 +1,9 @@
+description: Helpers to make working with emails through Akonadi easier
+hasrepo: true
+identifier: akonadi-mime
+name: Akonadi Mime
+projectpath: kde/pim/akonadi-mime
+repoactive: true
+repopath: pim/akonadi-mime
+bugzilla:
+  product: akonadi

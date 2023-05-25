@@ -1,0 +1,7 @@
+description: Code generator that produces code to read Microsoft Office files
+hasrepo: true
+identifier: binschema
+name: MSOScheme
+projectpath: playground/libs/binschema
+repoactive: true
+repopath: libraries/binschema

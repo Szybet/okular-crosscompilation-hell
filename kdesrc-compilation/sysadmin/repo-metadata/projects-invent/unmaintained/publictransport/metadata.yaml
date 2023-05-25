@@ -1,0 +1,7 @@
+description: 'PublicTransport Applets, Runner, Data Engine & Tools.'
+hasrepo: true
+identifier: publictransport
+name: Plasma PublicTransport
+projectpath: playground/base/publictransport
+repoactive: false
+repopath: unmaintained/publictransport

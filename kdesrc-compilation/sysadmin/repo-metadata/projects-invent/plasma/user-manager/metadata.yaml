@@ -1,0 +1,7 @@
+description: A simple system settings module to manage the users of your system
+hasrepo: true
+identifier: user-manager
+name: user-manager
+projectpath: unmaintained/user-manager
+repoactive: false
+repopath: plasma/user-manager

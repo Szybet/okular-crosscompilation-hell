@@ -1,0 +1,9 @@
+bugzilla:
+  product: analitza
+description: Library that lets you add mathematical features to your program
+hasrepo: true
+identifier: analitza
+name: Analitza
+projectpath: kde/kdeedu/analitza
+repoactive: true
+repopath: education/analitza

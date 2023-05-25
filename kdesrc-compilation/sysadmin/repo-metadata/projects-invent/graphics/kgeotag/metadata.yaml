@@ -1,0 +1,7 @@
+description: Photo geotagging program
+hasrepo: true
+identifier: kgeotag
+name: KGeoTag
+projectpath: extragear/graphics/kgeotag
+repoactive: true
+repopath: graphics/kgeotag

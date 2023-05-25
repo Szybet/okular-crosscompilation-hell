@@ -1,0 +1,7 @@
+description: Website for KDE's educational software — edu.kde.org
+hasrepo: true
+identifier: websites-edu-kde-org
+name: KDE Edu Website
+projectpath: websites/edu-kde-org
+repoactive: false
+repopath: websites/edu-kde-org

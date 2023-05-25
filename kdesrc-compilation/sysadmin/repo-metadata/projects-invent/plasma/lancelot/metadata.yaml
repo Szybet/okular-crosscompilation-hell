@@ -1,0 +1,8 @@
+description: Alternative launcher for Plasma with a more complete set of features
+  compared to the default
+hasrepo: true
+identifier: lancelot
+name: Lancelot
+projectpath: playground/base/lancelot
+repoactive: true
+repopath: plasma/lancelot

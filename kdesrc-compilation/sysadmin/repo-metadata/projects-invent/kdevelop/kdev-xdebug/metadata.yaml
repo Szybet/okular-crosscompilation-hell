@@ -1,0 +1,7 @@
+description: KDevelop debugger plugin for PHP using XDebug
+hasrepo: true
+identifier: kdev-xdebug
+name: KDevelop XDebug Support
+projectpath: playground/devtools/plugins/kdev-xdebug
+repoactive: true
+repopath: kdevelop/kdev-xdebug

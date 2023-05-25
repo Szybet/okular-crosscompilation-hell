@@ -1,0 +1,221 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/kimgiotest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/okular/generators/kimgio",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/kimgio/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/okular",
+	"DEP_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/kimgiotest_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "kimgiotest_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/gui/debug_ui.h",
+			"Mu",
+			"FNKB36652H/moc_debug_ui.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/gui/guiutils.h",
+			"Mu",
+			"FNKB36652H/moc_guiutils.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/gui/pagepainter.h",
+			"Mu",
+			"FNKB36652H/moc_pagepainter.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/kimgiotest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/kimgiotest_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"GENERATOR_PATH=\"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/bin/plugins/okular/okularGenerator_kimgio.so\"",
+		"HAVE_SPEECH",
+		"KCOREADDONS_LIB",
+		"KDESRCDIR=\"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/kimgio/\"",
+		"KF_DEPRECATED_WARNINGS_SINCE=0x055C00",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x050F02",
+		"QT_FORCE_ASSERTS",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_STRICT_ITERATORS",
+		"QT_SVG_LIB",
+		"QT_TESTCASE_BUILDDIR=\"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo\"",
+		"QT_TESTLIB_LIB",
+		"QT_TEXTTOSPEECH_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"TRANSLATION_DOMAIN=\"okular_kimgio\"",
+		"WITH_KJS=1",
+		"WITH_KWALLET=1",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"OKULAR_EXPORT_PLUGIN",
+			"[\n^][ \t]*OKULAR_EXPORT_PLUGIN[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/kimgio",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/core",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo",
+		"/usr/include/phonon4qt5/KDE",
+		"/usr/include/phonon4qt5",
+		"/usr/include/KF5/KCoreAddons",
+		"/usr/include/KF5",
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/KF5/KXmlGui",
+		"/usr/include/qt/QtXml",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/qt/QtGui",
+		"/usr/include/KF5/KConfig",
+		"/usr/include/KF5/KConfigCore",
+		"/usr/include/KF5/KConfigWidgets",
+		"/usr/include/KF5/KWidgetsAddons",
+		"/usr/include/KF5/KConfigGui",
+		"/usr/include/KF5/KCodecs",
+		"/usr/include/KF5/KAuthWidgets",
+		"/usr/include/KF5/KAuthCore",
+		"/usr/include/KF5/KAuth",
+		"/usr/include/qt/QtDBus",
+		"/usr/include/qt/QtPrintSupport",
+		"/usr/include/qt/QtCore/5.15.9",
+		"/usr/include/qt/QtCore/5.15.9/QtCore",
+		"/usr/include/qt/QtSvg",
+		"/usr/include/KF5/KArchive",
+		"/usr/include/KF5/KBookmarks",
+		"/usr/include/KF5/KI18n",
+		"/usr/include/KF5/KIconThemes",
+		"/usr/include/KF5/KItemViews",
+		"/usr/include/KF5/KIOCore",
+		"/usr/include/KF5/KIO",
+		"/usr/include/KF5/KService",
+		"/usr/include/qt/QtNetwork",
+		"/usr/include/qt/QtConcurrent",
+		"/usr/include/KF5/KIOFileWidgets",
+		"/usr/include/KF5/KIOWidgets",
+		"/usr/include/KF5/KIOGui",
+		"/usr/include/KF5/KWindowSystem",
+		"/usr/include/KF5/KJobWidgets",
+		"/usr/include/KF5/Solid",
+		"/usr/include/KF5/KCompletion",
+		"/usr/include/KF5/KParts",
+		"/usr/include/KF5/KTextWidgets",
+		"/usr/include/KF5/SonnetUi",
+		"/usr/include/KF5/Sonnet",
+		"/usr/include/KF5/KWallet",
+		"/usr/include/KF5/purposewidgets",
+		"/usr/include/KF5/purpose",
+		"/usr/include/qt/QtTextToSpeech",
+		"/usr/include/qt/QtTest",
+		"/usr/include",
+		"/usr/include/c++/13.1.1",
+		"/usr/include/c++/13.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/13.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"OKULAR_EXPORT_PLUGIN",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/kimgiotest_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/okularGenerator_kimgio_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/CMakeFiles/kimgiotest_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/generators/kimgio/CMakeFiles/kimgiotest_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/kimgio/tests/kimgiotest.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/gui/debug_ui.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/gui/guiutils.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/gui/pagepainter.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,70 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/extra-cmake-modules
+-- Could NOT find Qt5LinguistTools (missing: Qt5LinguistTools_DIR)
+CMake Warning at tests/CMakeLists.txt:15 (find_package):
+  Found package configuration file:
+
+    /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5/Qt5Config.cmake
+
+  but it set Qt5_FOUND to FALSE so package "Qt5" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  Failed to find Qt5 component "LinguistTools" config file at
+  "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake"
+
+
+
+
+
+
+-- Could NOT find ReuseTool (missing: REUSETOOL_EXECUTABLE) 
+CMake Warning at modules/ECMCheckOutboundLicense.cmake:86 (message):
+  Reuse tool not found, skipping test generation
+Call Stack (most recent call first):
+  tests/ECMCheckOutboundLicenseTest/CMakeLists.txt:7 (include)
+
+
+-- Skipping execution of outbound license tests.
+-- WARNING: skipping tests that require PyQt
+-- The following features have been enabled:
+
+ * BUILD_HTML_DOCS, Generate HTML documentation for installed modules.
+ * BUILD_MAN_DOCS, Generate man page documentation for installed modules.
+ * BUILD_TESTING, Build automated tests.
+
+-- The following OPTIONAL packages have been found:
+
+ * Sphinx (required version >= 1.2), Tool to generate documentation., <https://www.sphinx-doc.org/>
+   Required to build documentation for Extra CMake Modules.
+ * QCollectionGenerator, Qt help collection generator., <https://www.qt.io/>
+   Required to build Extra CMake Modules documentation in Qt Help format.
+ * Qt5Core, Qt core library., <https://www.qt.io/>
+   Required to run tests for the ECMQtDeclareLoggingCategory module, and for some tests of the KDEInstallDirs module.
+ * Qt5Gui (required version >= 5.15.2)
+ * Qt5Network (required version >= 5.15.2)
+ * Qt5Qml (required version >= 5.15.2)
+ * Qt5QmlModels (required version >= 5.15.2)
+ * Qt5Quick, Qt Quick library., <https://www.qt.io/>
+   Required to run tests for the ECMQMLModules module.
+ * Python3
+   Required to run tests of module ECMCheckOutboundLicense
+
+-- The following features have been disabled:
+
+ * BUILD_QTHELP_DOCS, Generate QtHelp documentation for installed modules.
+ * SPDX_LICENSE_TESTING, Automatic license testing based on SPDX definitions (requires reuse tool)
+
+-- The following OPTIONAL packages have not been found:
+
+ * Qt5LinguistTools, Qt linguist tools., <https://www.qt.io/>
+   Required to run tests for the ECMPoQmTools module.
+ * Qt5
+ * ReuseTool
+   Required to run tests of module ECMCheckOutboundLicense
+
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/extra-cmake-modules
+[ 50%] sphinx-build html: see /home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/build-html.log
+[100%] sphinx-build man: see /home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/build-man.log
+[100%] Built target documentation

@@ -1,0 +1,8 @@
+description: A widget that can be used as search widget, or alternative file-open
+  mechanism
+hasrepo: true
+identifier: plasma-crystal
+name: Plasma Desktop Search Widget
+projectpath: unmaintained/plasma-crystal
+repoactive: false
+repopath: unmaintained/plasma-crystal

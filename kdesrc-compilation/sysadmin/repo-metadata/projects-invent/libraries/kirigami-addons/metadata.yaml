@@ -1,0 +1,7 @@
+description: Add-ons for the Kirigami framework
+hasrepo: true
+identifier: kirigami-addons
+name: Kirigami Add-ons
+projectpath: libraries/libs/kirigami-addons
+repoactive: true
+repopath: libraries/kirigami-addons

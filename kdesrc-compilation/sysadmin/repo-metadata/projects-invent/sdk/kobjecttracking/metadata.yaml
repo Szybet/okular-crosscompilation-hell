@@ -1,0 +1,7 @@
+description: Library for tracking changes in QObject-based objects
+hasrepo: true
+identifier: kobjecttracking
+name: KObject Tracking
+projectpath: playground/sdk/kobjecttracking
+repoactive: true
+repopath: sdk/kobjecttracking

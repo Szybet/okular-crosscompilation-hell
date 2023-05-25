@@ -1,0 +1,7 @@
+description: Next-generation IMAP library
+hasrepo: true
+identifier: kimap2
+name: kimap2
+projectpath: playground/pim/kimap2
+repoactive: true
+repopath: pim/kimap2

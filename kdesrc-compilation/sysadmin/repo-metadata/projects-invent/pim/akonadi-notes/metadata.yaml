@@ -1,0 +1,9 @@
+description: Libraries and daemons to implement note management in Akonadi
+hasrepo: true
+identifier: akonadi-notes
+name: Akonadi Notes
+projectpath: kde/pim/akonadi-notes
+repoactive: true
+repopath: pim/akonadi-notes
+bugzilla:
+  product: akonadi

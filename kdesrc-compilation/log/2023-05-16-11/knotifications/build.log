@@ -1,0 +1,161 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/knotifications
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/knotifications/prefix.sh to set the environment for KNotifications.
+-- Could NOT find X11 (missing: X11_X11_INCLUDE_PATH X11_X11_LIB) 
+-- Could NOT find Canberra (missing: Canberra_LIBRARIES Canberra_INCLUDE_DIRS) (found version "0.30")
+CMake Warning at CMakeLists.txt:129 (find_package):
+  Could not find a configuration file for package "dbusmenu-qt5" that is
+  compatible with requested version "".
+
+  The following configuration files were considered but not accepted:
+
+    /lib/cmake/dbusmenu-qt5/dbusmenu-qt5-config.cmake, version: 0.9.2 (64bit)
+    /usr/lib/cmake/dbusmenu-qt5/dbusmenu-qt5-config.cmake, version: 0.9.2 (64bit)
+
+
+
+-- The following OPTIONAL packages have been found:
+
+ * Qt5Network (required version >= 5.15.2)
+ * Qt5Qml
+ * PkgConfig
+ * Phonon4Qt5Experimental (required version == 4.11.1)
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Gui (required version >= 5.15.2)
+ * KF5WindowSystem (required version >= 5.106.0)
+ * KF5Config (required version >= 5.106.0)
+ * KF5CoreAddons (required version >= 5.106.0)
+ * Qt5DBus
+ * Qt5 (required version >= 5.15.2)
+ * Qt5Core
+ * Qt5Widgets
+ * Phonon4Qt5 (required version >= 4.6.60), Qt-based audio library
+   Needed to build audio notification support when Canberra isn't available
+ * Qt5LinguistTools
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+
+-- The following OPTIONAL packages have not been found:
+
+ * X11
+ * Canberra, Event sound library, <https://0pointer.de/lennart/projects/libcanberra>
+   Needed to build audio notification support
+ * dbusmenu-qt5, DBusMenuQt, <https://launchpad.net/libdbusmenu-qt>
+   Support for notification area menus via the DBusMenu protocol
+
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/knotifications
+[  1%] Built target translations_2
+[  3%] Built target translations_4
+[  3%] Built target translations_3
+[  3%] Built target translations_1
+[  4%] Built target translations_5
+[  5%] Built target translations_7
+[  6%] Built target translations_6
+[  7%] Built target translations_8
+[  8%] Built target translations_10
+[  9%] Built target translations_9
+[ 10%] Built target translations_12
+[ 10%] Built target translations_11
+[ 10%] Built target translations_15
+[ 11%] Built target translations_14
+[ 12%] Built target translations_16
+[ 13%] Built target translations_13
+[ 14%] Built target translations_17
+[ 15%] Built target translations_18
+[ 15%] Built target translations_19
+[ 16%] Built target translations_20
+[ 16%] Built target translations_21
+[ 17%] Built target translations_22
+[ 18%] Built target translations_23
+[ 19%] Built target translations_24
+[ 19%] Built target translations_25
+[ 20%] Built target translations_26
+[ 22%] Built target translations_27
+[ 22%] Built target translations_28
+[ 22%] Built target translations_29
+[ 23%] Built target translations_30
+[ 23%] Built target translations_31
+[ 24%] Built target translations_32
+[ 25%] Built target translations_33
+[ 25%] Built target translations_35
+[ 26%] Built target translations_37
+[ 27%] Built target translations_34
+[ 28%] Built target translations_36
+[ 29%] Built target translations_38
+[ 29%] Built target translations_39
+[ 29%] Built target translations_42
+[ 30%] Built target translations_44
+[ 31%] Built target translations_41
+[ 32%] Built target translations_43
+[ 33%] Built target translations_40
+[ 33%] Built target translations_45
+[ 34%] Built target translations_46
+[ 35%] Built target translations_47
+[ 36%] Built target translations_48
+[ 37%] Built target translations_50
+[ 37%] Built target translations_52
+[ 37%] Built target translations_49
+[ 38%] Built target translations_51
+[ 39%] Built target translations_53
+[ 40%] Built target translations_54
+[ 41%] Built target translations_56
+[ 42%] Built target translations_57
+[ 42%] Built target translations_55
+[ 43%] Built target translations_58
+[ 45%] Built target translations_60
+[ 45%] Built target translations_61
+[ 45%] Built target translations_59
+[ 45%] Built target translations_62
+[ 46%] Built target translations_63
+[ 47%] Built target translations_64
+[ 48%] Built target translations_66
+[ 50%] Built target translations_67
+[ 50%] Built target translations_65
+[ 51%] Built target translations_68
+[ 51%] Built target translations_69
+[ 52%] Built target translations_70
+[ 52%] Built target translations_72
+[ 53%] Built target translations_71
+[ 54%] Built target translations_73
+[ 55%] Built target translations_75
+[ 56%] Built target translations_74
+[ 56%] Built target translations_76
+[ 57%] Built target translations_77
+[ 57%] Built target translations_79
+[ 58%] Built target translations_80
+[ 59%] Built target translations_78
+[ 61%] Built target translations_81
+[ 61%] Built target translations_83
+[ 61%] Built target translations_82
+[ 62%] Built target translations_84
+[ 63%] Built target translations_85
+[ 63%] Built target translations_89
+[ 64%] Built target translations_88
+[ 64%] Built target translations_86
+[ 65%] Built target translations_87
+[ 66%] Built target translations_91
+[ 67%] Built target translations_90
+[ 67%] Built target translations_92
+[ 68%] Built target translations_93
+[ 69%] Built target translations_96
+[ 69%] Built target translations_94
+[ 70%] Built target translations_95
+[ 71%] Built target translations_97
+[ 72%] Built target translations_98
+[ 74%] Built target translations_100
+[ 74%] Automatic MOC for target KF5Notifications
+[ 75%] Built target translations_99
+[ 75%] Built target KF5Notifications_autogen
+[ 96%] Built target KF5Notifications
+[ 97%] Automatic MOC for target knotificationqmlplugin
+[ 97%] Built target knotificationqmlplugin_autogen
+[100%] Built target knotificationqmlplugin

@@ -1,0 +1,9 @@
+description: Calendar for Plasma Mobile
+hasrepo: true
+identifier: calindori
+name: Calindori
+projectpath: extragear/pim/calindori
+repoactive: true
+repopath: plasma-mobile/calindori
+bugzilla:
+    product: calindori

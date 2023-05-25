@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-threadweaver
+description: ThreadWeaver
+hasrepo: true
+identifier: threadweaver
+name: ThreadWeaver
+projectpath: frameworks/threadweaver
+repoactive: true
+repopath: frameworks/threadweaver

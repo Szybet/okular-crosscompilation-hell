@@ -1,0 +1,7 @@
+description: Backend for the Frontend System of WIkiToLearn
+hasrepo: true
+identifier: wikitolearn-backend-for-frontend
+name: 'WikiToLearn Backend for Frontend'
+projectpath: playground/www/wikitolearn-backend-for-frontend
+repoactive: true
+repopath: wikitolearn/wikitolearn-backend-for-frontend

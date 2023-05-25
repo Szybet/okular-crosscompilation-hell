@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-qqc2-desktop-style
+description: 'Qt Quick Controls 2: Desktop Style'
+hasrepo: true
+identifier: qqc2-desktop-style
+name: QQC2 Desktop Style
+projectpath: frameworks/qqc2-desktop-style
+repoactive: true
+repopath: frameworks/qqc2-desktop-style

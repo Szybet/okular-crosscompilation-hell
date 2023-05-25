@@ -1,0 +1,7 @@
+description: Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control
+hasrepo: true
+identifier: plank-player
+name: Plank Player
+projectpath: kde/workspace/plank-player
+repoactive: true
+repopath: plasma-bigscreen/plank-player

@@ -1,0 +1,7 @@
+description: Library for common KDE PIM applications
+hasrepo: true
+identifier: libkdepim
+name: libkdepim
+projectpath: kde/pim/libkdepim
+repoactive: true
+repopath: pim/libkdepim

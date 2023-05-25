@@ -1,0 +1,7 @@
+description: Python KDE bindings using PyQt4 SIP technology.
+hasrepo: true
+identifier: pykde4
+name: PyKDE 4
+projectpath: kde/kdebindings/python/pykde4
+repoactive: false
+repopath: unmaintained/pykde4

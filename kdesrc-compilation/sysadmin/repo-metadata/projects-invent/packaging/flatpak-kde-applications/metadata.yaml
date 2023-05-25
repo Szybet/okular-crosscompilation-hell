@@ -1,0 +1,7 @@
+description: Flatpak packaging files for some KDE Applications
+hasrepo: true
+identifier: flatpak-kde-applications
+name: Flatpak KDE Applications
+projectpath: playground/packaging/flatpak-kde-applications
+repoactive: true
+repopath: packaging/flatpak-kde-applications

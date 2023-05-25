@@ -1,0 +1,9 @@
+bugzilla:
+  product: print-manager
+description: A tool for managing print jobs and printers
+hasrepo: true
+identifier: print-manager
+name: Print Manager
+projectpath: kde/kdeutils/print-manager
+repoactive: true
+repopath: utilities/print-manager

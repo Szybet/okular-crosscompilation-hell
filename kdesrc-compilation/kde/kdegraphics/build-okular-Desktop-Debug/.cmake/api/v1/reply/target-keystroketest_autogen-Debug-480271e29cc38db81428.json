@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"autotests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "keystroketest_autogen_timestamp_deps::@0bffdf5d83a4a8ad06a4"
+		}
+	],
+	"id" : "keystroketest_autogen::@0bffdf5d83a4a8ad06a4",
+	"isGeneratorProvided" : true,
+	"name" : "keystroketest_autogen",
+	"paths" : 
+	{
+		"build" : "autotests",
+		"source" : "autotests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/autotests/CMakeFiles/keystroketest_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/autotests/CMakeFiles/keystroketest_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/autotests/keystroketest_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

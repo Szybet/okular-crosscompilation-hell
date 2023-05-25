@@ -1,0 +1,7 @@
+description: Qt wrapper around TpLogger client library
+hasrepo: true
+identifier: telepathy-logger-qt
+name: Telepathy Logger Qt Bindings
+projectpath: extragear/network/telepathy/telepathy-logger-qt
+repoactive: true
+repopath: network/telepathy-logger-qt

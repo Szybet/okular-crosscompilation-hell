@@ -1,0 +1,7 @@
+description: Various text handling addons
+hasrepo: true
+identifier: ktextaddons
+name: KTextAddons
+projectpath: playground/libs/ktextaddons
+repoactive: true
+repopath: libraries/ktextaddons

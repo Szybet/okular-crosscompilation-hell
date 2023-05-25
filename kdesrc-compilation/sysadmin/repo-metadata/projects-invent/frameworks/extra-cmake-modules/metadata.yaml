@@ -1,0 +1,9 @@
+bugzilla:
+  product: extra-cmake-modules
+description: 'Extra modules and scripts for CMake.'
+hasrepo: true
+identifier: extra-cmake-modules
+name: Extra CMake Modules
+projectpath: frameworks/extra-cmake-modules
+repoactive: true
+repopath: frameworks/extra-cmake-modules

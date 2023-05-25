@@ -1,0 +1,7 @@
+description: Kor is a simple desktop shell leveraging KDE technologies.
+hasrepo: true
+identifier: kor
+name: Kor Desktop Shell
+projectpath: unmaintained/kor
+repoactive: false
+repopath: unmaintained/kor

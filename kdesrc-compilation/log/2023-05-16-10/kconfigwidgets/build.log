@@ -1,0 +1,9 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kconfigwidgets
+[  3%] Automatic MOC for target KF5ConfigWidgets
+[  6%] Generating ts...
+[ 10%] Generating mo...
+[ 10%] Built target tsfiles-8d8c3442b1b958997ffe00e56a4b21e3
+[ 10%] Built target KF5ConfigWidgets_autogen
+[ 10%] Built target pofiles-8d8c3442b1b958997ffe00e56a4b21e3
+[100%] Built target KF5ConfigWidgets

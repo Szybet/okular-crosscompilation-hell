@@ -1,0 +1,16 @@
+# Hashes of file build rules.
+526ab7197bd8b6306b86e718e0f664d2 CMakeFiles/fetch-translations
+f6d3b84a6637528d214177891b110930 CMakeFiles/uninstall
+73f63702843764d43b04c652e39d9522 releaseme
+40a287bce4506eca0897cce8a82cd2d6 src/cli/CMakeFiles/kactivities-cli_autogen
+a02da51b3563c6d1f1c6073ebff96938 src/lib/CMakeFiles/KF5Activities_autogen
+32833ec902d1e8e97aa032bd6d101899 src/lib/activities_interface.cpp
+041828d92c0a9522ca84c6e0e4d528bc src/lib/activities_interface.moc
+29b068dd96a834078bab712956d76fad src/lib/application_interface.cpp
+161d870864aa86ad63fdf5342486a432 src/lib/application_interface.moc
+2f18834d92b90088e18bad22bd38d0d8 src/lib/features_interface.cpp
+2c2df6012d87093b84de4d57b058ef2a src/lib/features_interface.moc
+2e1efd4e810cc1cb8443531f9a3258e7 src/lib/resources_interface.cpp
+c199bceeac8d5845f936aeeb79eef88e src/lib/resources_interface.moc
+bd4be846fc01d1fd9279dcb43e3e1441 src/lib/resources_linking_interface.cpp
+7ede5d2e908857a559acbd6c6b6bbf4a src/lib/resources_linking_interface.moc

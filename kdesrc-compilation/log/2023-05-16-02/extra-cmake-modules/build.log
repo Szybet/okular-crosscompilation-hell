@@ -1,0 +1,5 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/extra-cmake-modules
+[ 50%] sphinx-build html: see /home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/build-html.log
+[100%] sphinx-build man: see /home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/build-man.log
+[100%] Built target documentation

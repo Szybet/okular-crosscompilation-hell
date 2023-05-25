@@ -1,0 +1,9 @@
+bugzilla:
+  product: libkipi
+description: Qt/C++ interface to use kipi-plugins from KDE image management programs
+hasrepo: true
+identifier: libkipi
+name: libkipi
+projectpath: kde/kdegraphics/libs/libkipi
+repoactive: true
+repopath: graphics/libkipi

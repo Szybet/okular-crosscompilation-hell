@@ -1,0 +1,7 @@
+description: Python bindings SIP updater that processes C++ header files into Riverbank SIP
+hasrepo: true
+identifier: twine2
+name: twine2
+projectpath: playground/bindings/twine2
+repoactive: true
+repopath: libraries/twine2

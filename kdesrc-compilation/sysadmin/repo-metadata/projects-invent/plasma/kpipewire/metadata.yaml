@@ -1,0 +1,9 @@
+description: Components relating to Flatpak 'pipewire' use in Plasma.
+hasrepo: true
+identifier: kpipewire
+name: KPipeWire
+projectpath: kde/workspace/kpipewire
+repoactive: true
+repopath: plasma/kpipewire
+bugzilla:
+    product: KPipeWire

@@ -1,0 +1,9 @@
+bugzilla:
+  product: libksane
+description: Library providing logic to interface scanners
+hasrepo: true
+identifier: ksanecore
+name: KSANECore
+projectpath: libraries/ksanecore
+repoactive: true
+repopath: libraries/ksanecore

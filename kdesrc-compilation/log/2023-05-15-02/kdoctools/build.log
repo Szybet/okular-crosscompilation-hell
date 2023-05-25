@@ -1,0 +1,43 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kdoctools
+[  1%] Automatic MOC for target checkXML5
+[  2%] Generating mo...
+[  4%] Automatic MOC for target KF5DocTools
+[  5%] Automatic MOC for target docbookl10nhelper
+[  6%] Generating ts...
+[  8%] Automatic MOC for target meinproc5
+[  8%] Built target tsfiles-e8d1c5a8b5fc22dc2970adf2bd6198a5
+[  8%] Built target checkXML5_autogen
+[  8%] Built target docbookl10nhelper_autogen
+[  8%] Built target KF5DocTools_autogen
+[  8%] Built target meinproc5_autogen
+[  9%] Building CXX object src/CMakeFiles/checkXML5.dir/checkXML5_autogen/mocs_compilation.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/checkXML5.dir/loggingcategory.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/docbookl10nhelper.dir/docbookl10nhelper_autogen/mocs_compilation.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/checkXML5.dir/checkXML5.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/meinproc5.dir/meinproc5_autogen/mocs_compilation.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/KF5DocTools.dir/KF5DocTools_autogen/mocs_compilation.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/docbookl10nhelper.dir/docbookl10nhelper.cpp.o
+[ 19%] Building CXX object src/CMakeFiles/meinproc5.dir/meinproc.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KF5DocTools.dir/xslt.cpp.o
+[ 21%] Building CXX object src/CMakeFiles/docbookl10nhelper.dir/loggingcategory.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/meinproc5.dir/meinproc_common.cpp.o
+[ 23%] Built target pofiles-e8d1c5a8b5fc22dc2970adf2bd6198a5
+[ 24%] Building CXX object src/CMakeFiles/KF5DocTools.dir/xslt_kde.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5DocTools.dir/loggingcategory.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/meinproc5.dir/xslt.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/meinproc5.dir/xslt_kde.cpp.o
+[ 30%] Linking CXX executable ../bin/checkXML5
+[ 31%] Building CXX object src/CMakeFiles/meinproc5.dir/loggingcategory.cpp.o
+[ 32%] Linking CXX executable ../bin/docbookl10nhelper
+[ 32%] Built target checkXML5
+/bin/sh: line 1: ../bin/docbookl10nhelper: cannot execute binary file: Exec format error
+make[2]: *** [src/CMakeFiles/docbookl10nhelper.dir/build.make:130: bin/docbookl10nhelper] Error 126
+make[2]: *** Deleting file 'bin/docbookl10nhelper'
+make[1]: *** [CMakeFiles/Makefile2:1802: src/CMakeFiles/docbookl10nhelper.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 34%] Linking CXX shared library ../bin/libKF5DocTools.so
+[ 34%] Built target KF5DocTools
+[ 35%] Linking CXX executable ../bin/meinproc5
+[ 35%] Built target meinproc5
+make: *** [Makefile:146: all] Error 2

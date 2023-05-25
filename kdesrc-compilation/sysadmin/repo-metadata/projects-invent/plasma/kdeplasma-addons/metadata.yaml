@@ -1,0 +1,9 @@
+description: All kind of add-ons to improve your Plasma experience
+hasrepo: true
+identifier: kdeplasma-addons
+name: Plasma Add-ons
+projectpath: kde/workspace/kdeplasma-addons
+repoactive: true
+repopath: plasma/kdeplasma-addons
+bugzilla:
+    product: kdeplasma-addons

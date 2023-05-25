@@ -1,0 +1,7 @@
+description: Automatic configuration metadata for KDE.org services for external applications
+hasrepo: true
+identifier: websites-autoconfig-kde-org
+name: Autoconfiguration Metadata
+projectpath: websites/autoconfig-kde-org
+repoactive: true
+repopath: websites/autoconfig-kde-org

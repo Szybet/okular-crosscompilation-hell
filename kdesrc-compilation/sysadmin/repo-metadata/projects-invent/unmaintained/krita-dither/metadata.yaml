@@ -1,0 +1,7 @@
+description: A dithering plugin for Krita.
+hasrepo: true
+identifier: krita-dither
+name: Dither
+projectpath: extragear/graphics/krita-extensions/krita-dither
+repoactive: false
+repopath: unmaintained/krita-dither

@@ -1,0 +1,8 @@
+description: Kopete protocol plugin for Telepathy. This provides the ability to add
+  accounts using any Telepathy-supported protocol to Kopete.
+hasrepo: true
+identifier: kopete-protocol-telepathy
+name: Kopete Protocol Telepathy
+projectpath: unmaintained/kopete-protocol-telepathy
+repoactive: false
+repopath: unmaintained/kopete-protocol-telepathy

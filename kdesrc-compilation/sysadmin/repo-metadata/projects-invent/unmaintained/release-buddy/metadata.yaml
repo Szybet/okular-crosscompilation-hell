@@ -1,0 +1,7 @@
+description: KDE Release and Packaging System
+hasrepo: true
+identifier: release-buddy
+name: Release Buddy
+projectpath: playground/utils/release-buddy
+repoactive: false
+repopath: unmaintained/release-buddy

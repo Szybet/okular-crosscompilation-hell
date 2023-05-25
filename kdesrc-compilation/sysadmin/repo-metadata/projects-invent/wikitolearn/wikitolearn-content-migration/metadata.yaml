@@ -1,0 +1,7 @@
+description: Content Migration Assistants for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-content-migration
+name: 'WikiToLearn Content Migration'
+projectpath: playground/www/wikitolearn-content-migration
+repoactive: true
+repopath: wikitolearn/wikitolearn-content-migration

@@ -1,0 +1,7 @@
+description: Configuration files for Plasma Mobile deployments
+hasrepo: true
+identifier: plasma-phone-settings
+name: Plasma Phone Settings
+projectpath: playground/mobile/plasma-phone-settings
+repoactive: true
+repopath: plasma-mobile/plasma-phone-settings

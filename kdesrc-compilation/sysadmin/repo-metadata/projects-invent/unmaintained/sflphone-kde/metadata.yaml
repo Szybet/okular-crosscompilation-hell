@@ -1,0 +1,8 @@
+description: SFLPhone KDE is an enterprise class soft phone with integration with
+  various KDE technologies such as Akonadi
+hasrepo: true
+identifier: sflphone-kde
+name: SFLPhone KDE telephony client
+projectpath: unmaintained/sflphone-kde
+repoactive: false
+repopath: unmaintained/sflphone-kde

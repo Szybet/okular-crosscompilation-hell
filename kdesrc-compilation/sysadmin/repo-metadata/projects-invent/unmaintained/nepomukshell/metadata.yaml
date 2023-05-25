@@ -1,0 +1,9 @@
+description: "NepSaK - The Nepomuk Swiss Army Knife aka. NepomukShell is a maintenance\
+  \ and debugging tool intended for developers. \n\nIt allows to browse, query, and\
+  \ edit Nepomuk resources."
+hasrepo: true
+identifier: nepomukshell
+name: Nepomuk Shell
+projectpath: unmaintained/nepomukshell
+repoactive: false
+repopath: unmaintained/nepomukshell

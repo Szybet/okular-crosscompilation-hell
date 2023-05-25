@@ -1,0 +1,7 @@
+description: command-line tool to paste to https://paste.kde.org
+hasrepo: true
+identifier: kpaste
+name: KPaste
+projectpath: playground/utils/kpaste
+repoactive: false
+repopath: unmaintained/kpaste

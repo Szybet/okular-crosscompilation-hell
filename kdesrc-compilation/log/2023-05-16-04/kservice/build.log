@@ -1,0 +1,289 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kservice
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kservice/prefix.sh to set the environment for KService.
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5 (required version >= 5.15.2)
+ * Qt5Xml (required version >= 5.15.2)
+ * Qt5DBus (required version >= 5.15.2)
+ * KF5Config (required version >= 5.106.0)
+ * Qt5Core (required version >= 5.15.2)
+ * KF5CoreAddons (required version >= 5.106.0)
+ * KF5DBusAddons (required version >= 5.106.0)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * FLEX, Fast Lexical Analyzer, <http://flex.sourceforge.net>
+   Required for the Trader parser
+ * BISON (required version >= 3.0), general-purpose parser generator, <http://www.gnu.org/software/bison>
+   Required for the Trader parser
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kservice
+[  3%] Automatic MOC for target KF5Service
+[  3%] Generating mo...
+[  5%] Generating ts...
+[  5%] Built target KF5Service_autogen
+[  5%] Built target tsfiles-622b0764d20220ef25b947453016719b
+[  5%] Built target pofiles-622b0764d20220ef25b947453016719b
+[  7%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kautostart.cpp.o
+[  9%] Building CXX object src/CMakeFiles/KF5Service.dir/KF5Service_autogen/mocs_compilation.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kmimetypetrader.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kapplicationtrader.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kmimetypefactory.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kserviceaction.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservicefactory.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservice.cpp.o
+[ 21%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservicegroup.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservicegroupfactory.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kserviceoffer.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservicetype.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservicetypefactory.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservicetypeprofile.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kservicetypetrader.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/sycoca/ksycocaentry.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservice.h:17[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservice.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:[m[K In function '[01m[KQDataStream& QtPrivate::writeAssociativeContainer(QDataStream&, const Container&) [with Container = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:351:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  351 |         const qint64 last = [01;36m[Kstd::distance(rangeStart, it)[m[K - 1;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qshareddata.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QSharedDataPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kserviceaction.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservice.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservice.cpp:10[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 34%] Building CXX object src/CMakeFiles/KF5Service.dir/services/ktraderparse.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/KF5Service.dir/services/ktraderparsetree.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/KF5Service.dir/services/kplugininfo.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/ksycoca.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/ksycocadevices.cpp.o
+[ 43%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/ksycocadict.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/sycoca/ksycocaentry.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservicetype.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservicetype.cpp:9[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:[m[K In function '[01m[KQDataStream& QtPrivate::writeAssociativeContainer(QDataStream&, const Container&) [with Container = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:351:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  351 |         const qint64 last = [01;36m[Kstd::distance(rangeStart, it)[m[K - 1;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qscopedpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/sycoca/ksycocaentry.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservicetype.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/services/kservicetype.cpp:9[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 45%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/ksycocaentry.cpp.o
+[ 47%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/ksycocafactory.cpp.o
+[ 49%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kmemfile.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kbuildmimetypefactory.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kbuildservicetypefactory.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kbuildservicefactory.cpp.o
+[ 56%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kbuildservicegroupfactory.cpp.o
+[ 58%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kbuildsycoca.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/sycoca/kmemfile.cpp:[m[K In member function '[01m[Kvirtual bool KMemFile::open(QIODevice::OpenMode)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/sycoca/kmemfile.cpp:168:15:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid* memset(void*, int, size_t)[m[K' clearing an object of non-trivial type '[01m[Kstruct KMemFile::Private::sharedInfoData[m[K'; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+  168 |         [01;35m[Kmemset(infoPtr, 0, sizeof(Private::sharedInfoData))[m[K;
+      |         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/sycoca/kmemfile.cpp:21:12:[m[K [01;36m[Knote: [m[K'[01m[Kstruct KMemFile::Private::sharedInfoData[m[K' declared here
+   21 |     struct [01;36m[KsharedInfoData[m[K {
+      |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[ 60%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kctimefactory.cpp.o
+[ 61%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/kmimeassociations.cpp.o
+[ 63%] Building CXX object src/CMakeFiles/KF5Service.dir/sycoca/vfolder_menu.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/KF5Service.dir/plugin/kplugintrader.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/KF5Service.dir/kdeinit/ktoolinvocation.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5Service.dir/kdeinit/ktoolinvocation_x11.cpp.o
+[ 70%] Building CXX object src/CMakeFiles/KF5Service.dir/plugin/kdbusservicestarter.cpp.o
+[ 72%] Building CXX object src/CMakeFiles/KF5Service.dir/servicesdebug.cpp.o
+[ 74%] Building CXX object src/CMakeFiles/KF5Service.dir/sycocadebug.cpp.o
+[ 76%] Building C object src/CMakeFiles/KF5Service.dir/yacc.c.o
+[ 78%] Building C object src/CMakeFiles/KF5Service.dir/lex.c.o
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:[m[K In static member function '[01m[Kstatic void KToolInvocation::invokeMailer(const QString&, const QString&, const QString&, const QString&, const QString&, const QString&, const QStringList&, const QByteArray&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:233:19:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  233 |         KMessage::[01;35m[Kmessage[m[K(KMessage::Error, //
+      |                   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:233:26:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  233 |         [01;35m[KKMessage::message(KMessage::Error, //[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+  234 | [01;35m[K                          i18n("Could not launch the mail client:\n\n%1", error),[m[K
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  235 | [01;35m[K                          i18n("Could not launch Mail Client"))[m[K;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:[m[K In static member function '[01m[Kstatic void KToolInvocation::invokeBrowser(const QString&, const QByteArray&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:282:35:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  282 |                         KMessage::[01;35m[Kmessage[m[K(KMessage::Error,
+      |                                   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:282:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  282 |                         [01;35m[KKMessage::message(KMessage::Error,[m[K
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  283 | [01;35m[K                                          // TODO: i18n("Could not launch %1:\n\n%2", exe, error),[m[K
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  284 | [01;35m[K                                          i18n("Could not launch the browser:\n\n%1", error),[m[K
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  285 | [01;35m[K                                          i18n("Could not launch Browser"))[m[K;
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:307:31:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  307 |                     KMessage::[01;35m[Kmessage[m[K(KMessage::Error,
+      |                               [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:307:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  307 |                     [01;35m[KKMessage::message(KMessage::Error,[m[K
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  308 | [01;35m[K                                      // TODO: i18n("Could not launch %1:\n\n%2", htmlApp->exec(), error),[m[K
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  309 | [01;35m[K                                      i18n("Could not launch the browser:\n\n%1", error),[m[K
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  310 | [01;35m[K                                      i18n("Could not launch Browser"))[m[K;
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:326:19:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  326 |         KMessage::[01;35m[Kmessage[m[K(KMessage::Error,
+      |                   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:326:26:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  326 |         [01;35m[KKMessage::message(KMessage::Error,[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  327 | [01;35m[K                          // TODO: i18n("Could not launch %1:\n\n%2", exe, error),[m[K
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  328 | [01;35m[K                          i18n("Could not launch the browser:\n\n%1", error),[m[K
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  329 | [01;35m[K                          i18n("Could not launch Browser"))[m[K;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:[m[K In static member function '[01m[Kstatic void KToolInvocation::invokeTerminal(const QString&, const QStringList&, const QString&, const QByteArray&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:342:19:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  342 |         KMessage::[01;35m[Kmessage[m[K(KMessage::Error, i18n("Unable to determine the default terminal"));
+      |                   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:342:26:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  342 |         [01;35m[KKMessage::message(KMessage::Error, i18n("Unable to determine the default terminal"))[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:353:19:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  353 |         KMessage::[01;35m[Kmessage[m[K(KMessage::Error,
+      |                   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:353:26:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid KMessage::message(KMessage::MessageType, const QString&, const QString&)[m[K' is deprecated: Since 5.97. Use Qt logging or custom message handling. [[01;35m[K-Wdeprecated-declarations[m[K]
+  353 |         [01;35m[KKMessage::message(KMessage::Error,[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  354 | [01;35m[K                          i18n("Could not launch the terminal client:\n\n%1", error),[m[K
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  355 | [01;35m[K                          i18n("Could not launch Terminal Client"))[m[K;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KMessage:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kservice/src/kdeinit/ktoolinvocation_x11.cpp:23[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kmessage.h:82:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 | void [01;36m[Kmessage[m[K(KMessage::MessageType messageType, const QString &text, const QString &caption = QString());
+      |      [01;36m[K^~~~~~~[m[K
+[ 80%] Building CXX object src/CMakeFiles/KF5Service.dir/klauncher_iface.cpp.o
+[01m[K/home/szybet/kdesrc/build/frameworks/kservice/src/lex.c:1615:16:[m[K [01;35m[Kwarning: [m[K'[01m[Kinput[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+ 1615 | #else
+      |                [01;35m[K^[m[K    
+[ 81%] Building CXX object src/CMakeFiles/KF5Service.dir/KF5Service_autogen/EWIEGA46WW/qrc_kservice.cpp.o
+[ 83%] Linking CXX shared library ../bin/libKF5Service.so
+[ 92%] Built target KF5Service
+[ 94%] Automatic MOC for target kbuildsycoca5
+[ 94%] Built target kbuildsycoca5_autogen
+[ 96%] Linking CXX executable ../../bin/kbuildsycoca5
+[100%] Built target kbuildsycoca5

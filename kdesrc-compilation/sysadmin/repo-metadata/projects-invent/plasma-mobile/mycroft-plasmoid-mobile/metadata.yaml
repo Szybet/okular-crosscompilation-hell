@@ -1,0 +1,7 @@
+description: Plasma Mobile integration of different Mycroft AI services
+hasrepo: true
+identifier: plasma-mycroft-mobile
+name: Mycroft Plasma Mobile Applet
+projectpath: playground/utils/mycroft-plasmoid-mobile
+repoactive: true
+repopath: plasma-mobile/mycroft-plasmoid-mobile

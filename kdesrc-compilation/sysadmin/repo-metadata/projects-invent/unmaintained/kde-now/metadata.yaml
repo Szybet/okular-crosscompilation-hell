@@ -1,0 +1,7 @@
+description: Google Now alternative for the Plasma Desktop
+hasrepo: true
+identifier: kde-now
+name: KDE Now
+projectpath: playground/base/kde-now
+repoactive: false
+repopath: unmaintained/kde-now

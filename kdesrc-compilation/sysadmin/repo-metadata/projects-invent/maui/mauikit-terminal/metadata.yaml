@@ -1,0 +1,7 @@
+description: Terminal support components for Maui applications
+hasrepo: true
+identifier: mauikit-terminal
+name: MauiKit Terminal
+projectpath: playground/base/mauikit-terminal
+repoactive: true
+repopath: maui/mauikit-terminal

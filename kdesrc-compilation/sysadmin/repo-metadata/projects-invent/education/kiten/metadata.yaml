@@ -1,0 +1,9 @@
+bugzilla:
+  product: kiten
+description: Japanese Reference/Study Tool
+hasrepo: true
+identifier: kiten
+name: Kiten
+projectpath: kde/kdeedu/kiten
+repoactive: true
+repopath: education/kiten

@@ -1,0 +1,8 @@
+description: "Login screen using the LightDM framework.\n \n* \"LightDM project\"\
+  :https://launchpad.net/lightdm\n* \"Bug Tracker\":https://bugs.kde.org/describecomponents.cgi?product=lightdm"
+hasrepo: true
+identifier: lightdm
+name: LightDM Greeter by KDE
+projectpath: playground/base/lightdm
+repoactive: false
+repopath: unmaintained/lightdm

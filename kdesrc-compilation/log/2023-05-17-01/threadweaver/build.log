@@ -1,0 +1,79 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/threadweaver
+[  1%] Automatic MOC for target KF5ThreadWeaver
+[  1%] Built target KF5ThreadWeaver_autogen
+[  5%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/collection_p.cpp.o
+[  5%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/collection.cpp.o
+[  5%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/debuggingaids.cpp.o
+[  7%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/KF5ThreadWeaver_autogen/mocs_compilation.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/dependency.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/dependencypolicy.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/destructedstate.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/exception.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/executewrapper.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/executor.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/iddecorator.cpp.o
+[ 19%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/inconstructionstate.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/job.cpp.o
+[ 22%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/job_p.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/qobjectdecorator.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/queueapi.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/queue.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/queuesignals.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/queuesignals_p.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/queuestream.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/resourcerestrictionpolicy.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/sequence.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/sequence_p.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/shuttingdownstate.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/state.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/suspendedstate.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/suspendingstate.cpp.o
+[ 43%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/thread.cpp.o
+[ 44%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/threadweaver.cpp.o
+[ 46%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/weaver.cpp.o
+[ 47%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/weaverimplstate.cpp.o
+[ 49%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/weaver_p.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/KF5ThreadWeaver.dir/workinghardstate.cpp.o
+[ 52%] Linking CXX shared library ../bin/libKF5ThreadWeaver.so
+[ 52%] Built target KF5ThreadWeaver
+[ 56%] Automatic MOC for target ThreadWeaver_HelloWorld
+[ 55%] Automatic MOC for target ThreadWeaver_HelloInternet
+[ 56%] Automatic MOC for target ThreadWeaver_ThumbNailer
+[ 58%] Automatic MOC for target ThreadWeaver_HelloWorldRaw
+[ 58%] Built target ThreadWeaver_HelloWorldRaw_autogen
+[ 58%] Built target ThreadWeaver_HelloWorld_autogen
+[ 61%] Building CXX object examples/HelloWorldRaw/CMakeFiles/ThreadWeaver_HelloWorldRaw.dir/HelloWorldRaw.cpp.o
+[ 61%] Building CXX object examples/HelloWorldRaw/CMakeFiles/ThreadWeaver_HelloWorldRaw.dir/ThreadWeaver_HelloWorldRaw_autogen/mocs_compilation.cpp.o
+[ 62%] Building CXX object examples/HelloWorld/CMakeFiles/ThreadWeaver_HelloWorld.dir/ThreadWeaver_HelloWorld_autogen/mocs_compilation.cpp.o
+[ 64%] Building CXX object examples/HelloWorld/CMakeFiles/ThreadWeaver_HelloWorld.dir/HelloWorld.cpp.o
+[ 64%] Built target ThreadWeaver_HelloInternet_autogen
+[ 65%] Automatic RCC for HelloInternetResources.qrc
+[ 68%] Building CXX object examples/HelloInternet/CMakeFiles/ThreadWeaver_HelloInternet.dir/ThreadWeaver_HelloInternet_autogen/mocs_compilation.cpp.o
+[ 68%] Building CXX object examples/HelloInternet/CMakeFiles/ThreadWeaver_HelloInternet.dir/MainWidget.cpp.o
+[ 70%] Building CXX object examples/HelloInternet/CMakeFiles/ThreadWeaver_HelloInternet.dir/ViewController.cpp.o
+[ 71%] Building CXX object examples/HelloInternet/CMakeFiles/ThreadWeaver_HelloInternet.dir/main.cpp.o
+[ 73%] Building CXX object examples/HelloInternet/CMakeFiles/ThreadWeaver_HelloInternet.dir/ThreadWeaver_HelloInternet_autogen/EWIEGA46WW/qrc_HelloInternetResources.cpp.o
+[ 73%] Built target ThreadWeaver_ThumbNailer_autogen
+[ 74%] Generating ui_MainWindow.h
+[ 76%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/ThreadWeaver_ThumbNailer_autogen/mocs_compilation.cpp.o
+[ 77%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/ThumbNailer.cpp.o
+[ 79%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/Image.cpp.o
+[ 80%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/Model.cpp.o
+[ 82%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/MainWindow.cpp.o
+[ 83%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/Benchmark.cpp.o
+[ 85%] Linking CXX executable ../../bin/ThreadWeaver_HelloInternet
+[ 86%] Linking CXX executable ../../bin/ThreadWeaver_HelloWorld
+[ 88%] Linking CXX executable ../../bin/ThreadWeaver_HelloWorldRaw
+[ 88%] Built target ThreadWeaver_HelloWorld
+[ 89%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/PriorityDecorator.cpp.o
+[ 89%] Built target ThreadWeaver_HelloWorldRaw
+[ 91%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/ItemDelegate.cpp.o
+[ 91%] Built target ThreadWeaver_HelloInternet
+[ 92%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/ImageListFilter.cpp.o
+[ 94%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/FileLoaderJob.cpp.o
+[ 95%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/ImageLoaderJob.cpp.o
+[ 97%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/ComputeThumbNailJob.cpp.o
+[ 98%] Building CXX object examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer.dir/AverageLoadManager.cpp.o
+[100%] Linking CXX executable ../../bin/ThreadWeaver_ThumbNailer
+[100%] Built target ThreadWeaver_ThumbNailer

@@ -1,0 +1,7 @@
+description: Mercurial support plugin for KDevelop
+hasrepo: true
+identifier: kdev-mercurial
+name: KDevelop Mercurial Support
+projectpath: playground/devtools/plugins/kdev-mercurial
+repoactive: true
+repopath: kdevelop/kdev-mercurial

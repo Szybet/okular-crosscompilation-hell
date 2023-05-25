@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kfilemetadata
+description: A library for extracting file metadata
+hasrepo: true
+identifier: kfilemetadata
+name: KFileMetaData
+projectpath: frameworks/kfilemetadata
+repoactive: true
+repopath: frameworks/kfilemetadata

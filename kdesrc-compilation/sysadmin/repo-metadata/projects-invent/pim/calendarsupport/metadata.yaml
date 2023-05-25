@@ -1,0 +1,7 @@
+description: Library that provides calendar support for PIM
+hasrepo: true
+identifier: calendarsupport
+name: PIM Calendar Support
+projectpath: kde/pim/calendarsupport
+repoactive: true
+repopath: pim/calendarsupport

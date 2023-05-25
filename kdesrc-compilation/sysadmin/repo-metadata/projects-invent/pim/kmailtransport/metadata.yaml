@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmailtransport
+description: Library, KCM and KDED module to manage mail transport
+hasrepo: true
+identifier: kmailtransport
+name: KMailTransport
+projectpath: kde/pim/kmailtransport
+repoactive: true
+repopath: pim/kmailtransport

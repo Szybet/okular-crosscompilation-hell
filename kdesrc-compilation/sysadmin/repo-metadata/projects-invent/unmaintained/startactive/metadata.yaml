@@ -1,0 +1,7 @@
+description: A dependency-based init system for KDE workspace.
+hasrepo: true
+identifier: startactive
+name: Plasma Active session starter
+projectpath: unmaintained/startactive
+repoactive: false
+repopath: unmaintained/startactive

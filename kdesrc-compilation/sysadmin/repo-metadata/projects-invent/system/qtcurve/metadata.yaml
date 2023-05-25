@@ -1,0 +1,7 @@
+description: Style engine for Qt and other toolkits
+hasrepo: true
+identifier: qtcurve
+name: QtCurve
+projectpath: extragear/base/qtcurve
+repoactive: true
+repopath: system/qtcurve

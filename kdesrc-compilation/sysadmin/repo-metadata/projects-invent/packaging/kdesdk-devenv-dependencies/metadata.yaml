@@ -1,0 +1,7 @@
+description: Describes modules useful for development of KDE applications and Plasma
+hasrepo: true
+identifier: kdesdk-devenv-dependencies
+name: KDE SDK Dependencies
+projectpath: playground/packaging/kdesdk-devenv-dependencies
+repoactive: true
+repopath: packaging/kdesdk-devenv-dependencies

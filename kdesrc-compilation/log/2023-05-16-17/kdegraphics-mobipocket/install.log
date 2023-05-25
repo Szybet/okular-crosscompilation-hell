@@ -1,0 +1,16 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket/mobipocket.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket/qfilestream.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket/qmobipocket_export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket_version.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqmobipocket.so.2.1.0
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqmobipocket.so.2
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libqmobipocket.so.2.1.0" to "/mnt/HDD/Project/Public/okulartry/okular-things/lib:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqmobipocket.so
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketTargets.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketTargets-debug.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketConfig.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketConfigVersion.cmake

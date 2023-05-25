@@ -1,0 +1,7 @@
+description: Utility for comparing and merging files and directories
+hasrepo: true
+identifier: kdiff3
+name: KDiff3
+projectpath: extragear/utils/kdiff3
+repoactive: true
+repopath: sdk/kdiff3

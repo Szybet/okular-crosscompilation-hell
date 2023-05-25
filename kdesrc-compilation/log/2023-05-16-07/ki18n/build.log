@@ -1,0 +1,66 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/ki18n
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/ki18n/prefix.sh to set the environment for KI18n.
+-- libintl is part of libc, no extra library is required.
+-- The following RUNTIME packages have been found:
+
+ * IsoCodes, Data about various ISO standards (e.g. country, language, language scripts, and currency names), <https://salsa.debian.org/iso-codes-team/iso-codes>
+   Translation catalogs for countries, country subdivisions, languages and currencies
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Core
+ * Qt5 (required version >= 5.15.2)
+ * Qt5Network (required version >= 5.15.2)
+ * Qt5Qml (required version >= 5.15.2)
+ * LibIntl, <http://gnuwin32.sourceforge.net/packages/libintl.htm>
+   Needed for building KI18n unless glibc is the system libc implementation
+ * PythonInterp
+ * Gettext
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/ki18n
+[  2%] Generating ts...
+[  5%] Automatic MOC for target KF5I18n
+[  8%] Automatic MOC for target ktranscript
+[ 11%] Generating mo...
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ca/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ca/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ca@valencia/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ca@valencia/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/fi/scripts/ki18n5/general.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/fi/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/fi/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/fi/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/gd/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/gd/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ja/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ja/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ko/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ko/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/nb/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/nb/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/nn/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/nn/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/nn/scripts/ki18n5/skjermelement.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/nn/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ru/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ru/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavian/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavian/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavian/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavian/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavianlatin/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavianlatin/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@latin/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@latin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@latin/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@latin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/uk/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/uk/LC_SCRIPTS/ki18n5
+[ 11%] Built target KF5I18n_autogen
+[ 11%] Built target ktranscript_autogen
+[ 11%] Built target tsfiles-cfa32f4b8ec2d9b64b08c8957696e9b3
+[ 11%] Built target pofiles-cfa32f4b8ec2d9b64b08c8957696e9b3
+[ 22%] Built target ktranscript
+[ 52%] Built target KF5I18n
+[ 55%] Automatic MOC for target KF5I18nLocaleData
+[ 55%] Built target KF5I18nLocaleData_autogen
+[ 88%] Built target KF5I18nLocaleData
+[ 91%] Automatic MOC for target ki18nlocaledataqmlplugin
+[ 91%] Built target ki18nlocaledataqmlplugin_autogen
+[100%] Built target ki18nlocaledataqmlplugin

@@ -1,0 +1,9 @@
+bugzilla:
+  product: kwalletmanager
+description: Tool to manage the passwords on your system
+hasrepo: true
+identifier: kwalletmanager
+name: KWalletManager
+projectpath: kde/kdeutils/kwalletmanager
+repoactive: true
+repopath: utilities/kwalletmanager

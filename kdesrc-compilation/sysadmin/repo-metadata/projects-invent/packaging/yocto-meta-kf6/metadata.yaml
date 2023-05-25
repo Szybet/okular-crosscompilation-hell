@@ -1,0 +1,7 @@
+description: Yocto packaging metadata for KDE Frameworks 6
+hasrepo: true
+identifier: yocto-meta-kf6
+name: Yocto KF6 Packaging
+projectpath: playground/packaging/yocto-meta-kf6
+repoactive: true
+repopath: packaging/yocto-meta-kf6

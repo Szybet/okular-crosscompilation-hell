@@ -1,0 +1,9 @@
+description: Application to assist you with backing up and archiving of PIM data
+hasrepo: true
+identifier: pim-data-exporter
+name: PIM Data Exporter
+projectpath: kde/pim/pim-data-exporter
+repoactive: true
+repopath: pim/pim-data-exporter
+bugzilla:
+  product: pimsettingexporter

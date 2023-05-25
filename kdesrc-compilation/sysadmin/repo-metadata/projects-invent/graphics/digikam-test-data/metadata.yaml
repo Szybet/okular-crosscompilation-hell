@@ -1,0 +1,7 @@
+description: Data required to support running unit tests for digiKam 
+hasrepo: true
+identifier: digikam-test-data
+name: digiKam Test Data
+projectpath: extragear/graphics/digikam-test-data
+repoactive: true
+repopath: graphics/digikam-test-data

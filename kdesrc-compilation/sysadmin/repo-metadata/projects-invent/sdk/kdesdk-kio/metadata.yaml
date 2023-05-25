@@ -1,0 +1,7 @@
+description: KIO workers useful for software development
+hasrepo: true
+identifier: kdesdk-kio
+name: SDK KIO Workers
+projectpath: kde/kdesdk/kdesdk-kio
+repoactive: true
+repopath: sdk/kdesdk-kio

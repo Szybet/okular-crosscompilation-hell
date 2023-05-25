@@ -1,0 +1,7 @@
+description: Configuration for the Activity Filter service
+hasrepo: true
+identifier: sysadmin-activityfilter
+name: Activity Filter
+projectpath: sysadmin/activityfilter
+repoactive: true
+repopath: sysadmin/activityfilter

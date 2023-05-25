@@ -1,0 +1,54 @@
+Holding performance profile
+Building extra-cmake-modules from _cmdline (1/44)
+	Fetching remote changes to extra-cmake-modules
+	Merging extra-cmake-modules changes from branch kf5
+	Source update complete for extra-cmake-modules: no files affected
+	  Rebuilding because the option refresh-build was set
+	Preparing build system for extra-cmake-modules.
+	Removing files in build directory for extra-cmake-modules
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+Building kcoreaddons from _cmdline (2/44)
+	Fetching remote changes to kcoreaddons
+	Merging kcoreaddons changes from branch kf5
+	Source update complete for kcoreaddons: no files affected
+	  Rebuilding because the option refresh-build was set
+	Preparing build system for kcoreaddons.
+	Removing files in build directory for kcoreaddons
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: -- 3 -- compile warnings
+Building kconfig from _cmdline (3/44)
+	Fetching remote changes to kconfig
+	Merging kconfig changes from branch kf5
+	Source update complete for kconfig: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kconfig.
+	Running cmake targeting Unix Makefiles...
+	Note: - 1 - compile warnings
+Building ki18n from _cmdline (4/44)
+	Fetching remote changes to ki18n
+	Merging ki18n changes from branch kf5
+	Source update complete for ki18n: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for ki18n.
+	Running cmake targeting Unix Makefiles...
+	Note: -- 8 -- compile warnings
+Building karchive from _cmdline (5/44)
+	Fetching remote changes to karchive
+	Merging karchive changes from branch kf5
+	Source update complete for karchive: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for karchive.
+	Running cmake targeting Unix Makefiles...
+
+karchive didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+karchive - file:///home/szybet/kdesrc/log/2023-05-15-04/karchive/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-15-04

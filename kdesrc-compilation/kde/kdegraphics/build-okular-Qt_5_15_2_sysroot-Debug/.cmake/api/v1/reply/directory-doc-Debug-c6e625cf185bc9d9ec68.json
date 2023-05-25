@@ -1,0 +1,117 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"kdoctools_create_handbook",
+			"kdoctools_create_manpage"
+		],
+		"files" : 
+		[
+			"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5DocTools/KF5DocToolsMacros.cmake",
+			"doc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/en/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Qt_5_15_2_sysroot-Debug/doc//index.cache.bz2",
+				"doc/./index.docbook",
+				"doc/./annotation-properties.png",
+				"doc/./annotations.png",
+				"doc/./bookmark-management.png",
+				"doc/./bookmarks.png",
+				"doc/./config-pdf-digital-signatures.png",
+				"doc/./configure-annotations.png",
+				"doc/./configure-backends.png",
+				"doc/./configure-editor.png",
+				"doc/./configure.png",
+				"doc/./embedded-files-bar.png",
+				"doc/./enhance-lowcontrast.png",
+				"doc/./enhance-shape.png",
+				"doc/./enhance-solid.png",
+				"doc/./enhance-thinline.png",
+				"doc/./forms-bar.png",
+				"doc/./mainwindow.png",
+				"doc/./presentation.png",
+				"doc/./signatures-bar.png",
+				"doc/./signatures-panel.png",
+				"doc/./tool-draw-arrow.png",
+				"doc/./tool-draw-ellipse.png",
+				"doc/./tool-draw-freehand.png",
+				"doc/./tool-draw-highlight.png",
+				"doc/./tool-draw-line.png",
+				"doc/./tool-draw-polyline.png",
+				"doc/./tool-draw-rectangle.png",
+				"doc/./tool-edit-comment.png",
+				"doc/./tool-edit-line-width.png",
+				"doc/./tool-edit-opacity.png",
+				"doc/./tool-favorite.png",
+				"doc/./tool-fill-color.png",
+				"doc/./tool-font-face.png",
+				"doc/./tool-format-text-color.png",
+				"doc/./tool-format-text-strikethrough.png",
+				"doc/./tool-format-text-underline-squiggle.png",
+				"doc/./tool-format-text-underline.png",
+				"doc/./tool-note.png",
+				"doc/./tool-pin.png",
+				"doc/./tool-settings-configure.png",
+				"doc/./tool-tag.png",
+				"doc/./tool-tool-text.png",
+				"doc/./tool-window-pin.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Qt_5_15_2_sysroot-Debug/doc//okular.1"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "doc",
+		"source" : "doc"
+	}
+}

@@ -1,0 +1,7 @@
+description: DAV protocol implementation with KJobs
+hasrepo: true
+identifier: kdav2
+name: KDav2
+projectpath: playground/pim/kdav2
+repoactive: true
+repopath: pim/kdav2

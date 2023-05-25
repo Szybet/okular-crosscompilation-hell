@@ -1,0 +1,10 @@
+description: 'A handy utility primarily designed for taking screenshots
+
+
+  Get KIPI plugins for "more features":https://www.elpauer.org/?p=509'
+hasrepo: true
+identifier: ksnapshot
+name: KSnapshot
+projectpath: unmaintained/ksnapshot
+repoactive: false
+repopath: unmaintained/ksnapshot

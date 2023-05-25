@@ -1,0 +1,7 @@
+description: Custom IRC Response bot for Krita
+hasrepo: true
+identifier: sysadmin-kikibot
+name: Kikibot
+projectpath: sysadmin/kikibot
+repoactive: true
+repopath: sysadmin/kikibot

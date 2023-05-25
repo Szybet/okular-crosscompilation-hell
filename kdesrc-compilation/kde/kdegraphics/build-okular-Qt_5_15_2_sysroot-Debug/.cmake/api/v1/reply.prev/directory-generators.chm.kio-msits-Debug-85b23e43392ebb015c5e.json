@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"kcoreaddons_add_plugin"
+		],
+		"files" : 
+		[
+			"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake",
+			"generators/chm/kio-msits/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "okular",
+			"destination" : "plugins/kf5/kio",
+			"paths" : 
+			[
+				"bin/kf5/kio/kio_msits.so"
+			],
+			"targetId" : "kio_msits::@ef2c2c2dc40e664cceea",
+			"targetIndex" : 32,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/chm/kio-msits",
+		"source" : "generators/chm/kio-msits"
+	}
+}

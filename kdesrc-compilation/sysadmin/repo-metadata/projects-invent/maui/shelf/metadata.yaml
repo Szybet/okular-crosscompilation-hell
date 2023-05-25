@@ -1,0 +1,7 @@
+description: Document and EBook collection manager
+hasrepo: true
+identifier: maui-shelf
+name: Shelf
+projectpath: playground/base/maui-shelf
+repoactive: true
+repopath: maui/shelf

@@ -1,0 +1,10 @@
+description: Plymouth theme for the Breeze visual style for the Plasma Desktop
+hasrepo: true
+identifier: breeze-plymouth
+name: Breeze Plymouth visual style
+projectpath: kde/workspace/breeze-plymouth
+repoactive: true
+repopath: plasma/breeze-plymouth
+bugzilla:
+    product: Breeze
+    component: Plymouth

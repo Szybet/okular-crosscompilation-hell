@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"generators/kimgio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "okularcore::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "okularGenerator_kimgio_autogen::@2e853a6336d43fe4c2a3",
+	"isGeneratorProvided" : true,
+	"name" : "okularGenerator_kimgio_autogen",
+	"paths" : 
+	{
+		"build" : "generators/kimgio",
+		"source" : "generators/kimgio"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug/generators/kimgio/CMakeFiles/okularGenerator_kimgio_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug/generators/kimgio/CMakeFiles/okularGenerator_kimgio_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

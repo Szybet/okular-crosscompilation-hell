@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdevelop
+description: Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP
+hasrepo: true
+identifier: kdevelop
+name: KDevelop
+projectpath: extragear/kdevelop/kdevelop
+repoactive: true
+repopath: kdevelop/kdevelop

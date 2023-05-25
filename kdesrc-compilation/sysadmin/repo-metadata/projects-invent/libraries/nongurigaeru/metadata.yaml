@@ -1,0 +1,7 @@
+description: The missing Foundation library for Qt GUI apps.
+hasrepo: true
+identifier: nongurigaeru
+name: Nongurigaeru
+projectpath: kdereview/nongurigaeru
+repoactive: false
+repopath: libraries/nongurigaeru

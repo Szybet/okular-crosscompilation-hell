@@ -1,0 +1,7 @@
+description: A heap memory profiler for Linux
+hasrepo: true
+identifier: heaptrack
+name: Heaptrack
+projectpath: extragear/sdk/heaptrack
+repoactive: true
+repopath: sdk/heaptrack

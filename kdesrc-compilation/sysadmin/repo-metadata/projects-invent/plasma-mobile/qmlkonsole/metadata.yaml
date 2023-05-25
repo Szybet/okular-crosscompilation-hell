@@ -1,0 +1,9 @@
+description: Terminal app for Plasma Mobile
+hasrepo: true
+identifier: qmlkonsole
+name: QMLKonsole
+projectpath: playground/mobile/qmlkonsole
+repoactive: true
+repopath: plasma-mobile/qmlkonsole
+bugzilla:
+    product: qmlkonsole

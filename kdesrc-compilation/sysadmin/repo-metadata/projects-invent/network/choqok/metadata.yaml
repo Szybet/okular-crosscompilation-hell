@@ -1,0 +1,7 @@
+description: Microblogging client by KDE
+hasrepo: true
+identifier: choqok
+name: Choqok
+projectpath: extragear/network/choqok
+repoactive: true
+repopath: network/choqok

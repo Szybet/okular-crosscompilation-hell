@@ -1,0 +1,7 @@
+description: Akonadi Git Resource allows you to see your commits in kmail.
+hasrepo: true
+identifier: akonadi-git-resource
+name: Akonadi Git Resource
+projectpath: unmaintained/akonadi-git-resource
+repoactive: false
+repopath: unmaintained/akonadi-git-resource

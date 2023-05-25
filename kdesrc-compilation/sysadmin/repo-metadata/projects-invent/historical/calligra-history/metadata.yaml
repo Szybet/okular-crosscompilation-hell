@@ -1,0 +1,7 @@
+description: The home of inactive branches for Calligra Suite.
+hasrepo: true
+identifier: calligra-history
+name: Calligra History
+projectpath: calligra/calligra-history
+repoactive: false
+repopath: historical/calligra-history

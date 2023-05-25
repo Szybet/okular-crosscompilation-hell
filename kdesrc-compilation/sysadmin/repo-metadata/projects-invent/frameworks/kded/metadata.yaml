@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kded
+description: KDE Daemon
+hasrepo: true
+identifier: kded
+name: KDE Daemon
+projectpath: frameworks/kded
+repoactive: true
+repopath: frameworks/kded

@@ -1,0 +1,7 @@
+description: Library that provides Grantlee theme support
+hasrepo: true
+identifier: grantleetheme
+name: PIM GrantleeTheme
+projectpath: kde/pim/grantleetheme
+repoactive: true
+repopath: pim/grantleetheme

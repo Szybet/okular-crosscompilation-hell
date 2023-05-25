@@ -1,0 +1,227 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer/ThreadWeaver_ThumbNailer_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/threadweaver",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/threadweaver",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/AverageLoadManager.h",
+			"Mu",
+			"EWIEGA46WW/moc_AverageLoadManager.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/Benchmark.h",
+			"Mu",
+			"EWIEGA46WW/moc_Benchmark.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ComputeThumbNailJob.h",
+			"Mu",
+			"EWIEGA46WW/moc_ComputeThumbNailJob.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/FileLoaderJob.h",
+			"Mu",
+			"EWIEGA46WW/moc_FileLoaderJob.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/Image.h",
+			"Mu",
+			"EWIEGA46WW/moc_Image.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ImageListFilter.h",
+			"Mu",
+			"EWIEGA46WW/moc_ImageListFilter.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ImageLoaderJob.h",
+			"Mu",
+			"EWIEGA46WW/moc_ImageLoaderJob.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ItemDelegate.h",
+			"Mu",
+			"EWIEGA46WW/moc_ItemDelegate.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/MainWindow.h",
+			"Mu",
+			"EWIEGA46WW/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/Model.h",
+			"Mu",
+			"EWIEGA46WW/moc_Model.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/PriorityDecorator.h",
+			"Mu",
+			"EWIEGA46WW/moc_PriorityDecorator.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer/ThreadWeaver_ThumbNailer_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer/ThreadWeaver_ThumbNailer_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_TESTCASE_BUILDDIR=\"/home/szybet/kdesrc/build/frameworks/threadweaver\"",
+		"QT_TESTLIB_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"THREADWEAVER_DEPRECATED_WARNINGS_SINCE=0x0",
+		"THREADWEAVER_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer",
+		"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer",
+		"/home/szybet/kdesrc/frameworks/threadweaver",
+		"/home/szybet/kdesrc/build/frameworks/threadweaver/src",
+		"/home/szybet/kdesrc/frameworks/threadweaver/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtTest",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer/ThreadWeaver_ThumbNailer_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer/ui_MainWindow.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/threadweaver/examples/ThumbNailer/CMakeFiles/ThreadWeaver_ThumbNailer_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/AverageLoadManager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/Benchmark.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ComputeThumbNailJob.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/FileLoaderJob.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/Image.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ImageListFilter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ImageLoaderJob.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ItemDelegate.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/MainWindow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/Model.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/PriorityDecorator.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/threadweaver/examples/ThumbNailer/ThumbNailer.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

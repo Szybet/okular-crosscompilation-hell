@@ -1,0 +1,9 @@
+description: KDE and Plasma resources management GUI
+hasrepo: true
+identifier: discover
+name: Discover
+projectpath: kde/workspace/discover
+repoactive: true
+repopath: plasma/discover
+bugzilla:
+    product: Discover

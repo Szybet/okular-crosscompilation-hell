@@ -1,0 +1,7 @@
+description: Data files for GCompris
+hasrepo: true
+identifier: gcompris-data
+name: GCompris Data
+projectpath: extragear/edu/gcompris-data
+repoactive: true
+repopath: education/gcompris-data

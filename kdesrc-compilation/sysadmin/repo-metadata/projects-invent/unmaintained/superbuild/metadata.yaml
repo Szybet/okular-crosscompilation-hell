@@ -1,0 +1,7 @@
+description: 'Automates building separate (KDE) repositories in one go using plain CMake, similar to kdesrc-build.'
+hasrepo: true
+identifier: superbuild
+name: KDE SuperBuild
+projectpath: unmaintained/superbuild
+repoactive: false
+repopath: unmaintained/superbuild

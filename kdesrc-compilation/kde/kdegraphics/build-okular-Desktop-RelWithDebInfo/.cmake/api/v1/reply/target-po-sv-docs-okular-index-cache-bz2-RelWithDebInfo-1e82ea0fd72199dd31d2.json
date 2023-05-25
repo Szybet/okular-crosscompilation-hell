@@ -1,0 +1,88 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"kdoctools_create_handbook",
+			"kdoctools_install"
+		],
+		"files" : 
+		[
+			"/usr/lib/cmake/KF5DocTools/KF5DocToolsMacros.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 612,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "po-sv-docs-okular-index-cache-bz2::@6890427a1f51a3e7e1df",
+	"name" : "po-sv-docs-okular-index-cache-bz2",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/CMakeFiles/po-sv-docs-okular-index-cache-bz2",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/CMakeFiles/po-sv-docs-okular-index-cache-bz2.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/sv/docs/okular/index.cache.bz2.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,7 @@
+description: Plugin for KDevelop to support the development of embedded systems
+hasrepo: true
+identifier: kdev-embedded
+name: KDevelop Embedded Support
+projectpath: playground/devtools/plugins/kdev-embedded
+repoactive: true
+repopath: kdevelop/kdev-embedded

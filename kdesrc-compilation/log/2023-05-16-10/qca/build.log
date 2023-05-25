@@ -1,0 +1,5 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kdesupport/qca
+[  2%] Automatic MOC for target qca-qt5
+[  2%] Built target qca-qt5_autogen
+[100%] Built target qca-qt5

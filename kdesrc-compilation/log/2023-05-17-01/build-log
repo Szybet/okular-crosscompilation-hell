@@ -1,0 +1,42 @@
+Holding performance profile
+Building libkexiv2 from _cmdline (1/4)
+	Fetching remote changes to libkexiv2
+	Merging libkexiv2 changes from branch master
+	No changes to libkexiv2 source code, but proceeding to build anyway.
+Building purpose from _cmdline (2/4)
+	Fetching remote changes to purpose
+	Merging purpose changes from branch kf5
+	Source update complete for purpose: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for purpose.
+	Running cmake targeting Unix Makefiles...
+	Note: - 2 - compile warnings
+Building threadweaver from _cmdline (3/4)
+	Fetching remote changes to threadweaver
+	Merging threadweaver changes from branch kf5
+	Source update complete for threadweaver: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for threadweaver.
+	Running cmake targeting Unix Makefiles...
+Building okular from guessed_from_cmdline (4/4)
+	Fetching remote changes to okular
+	Merging okular changes from branch master
+	Source update complete for okular: 1 file affected.
+	Preparing build system for okular.
+	Running cmake targeting Unix Makefiles...
+
+okular didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+okular - file:///home/szybet/kdesrc/log/2023-05-17-01/okular/cmake.log
+
+Possible solution: Install the build dependencies for the modules:
+okular
+You can use 'sudo apt build-dep <source_package>', 'sudo dnf builddep <package>', 'sudo zypper source-install --build-deps-only <source_package>' or a similar command for your distro of choice.
+See https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source/Install_the_dependencies
+
+Important notification for okular:
+    okular has failed to build 6 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-17-01

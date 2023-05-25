@@ -1,0 +1,9 @@
+description: BitTorrent protocol implementation
+hasrepo: true
+identifier: libktorrent
+name: libktorrent
+projectpath: kde/kdenetwork/libktorrent
+repoactive: true
+repopath: network/libktorrent
+bugzilla:
+    product: ktorrent

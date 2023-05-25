@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: call-ui
+description: Voice/video call UI for Telepathy
+hasrepo: true
+identifier: ktp-call-ui
+name: Telepathy Call UI
+projectpath: kde/kdenetwork/ktp-call-ui
+repoactive: true
+repopath: network/ktp-call-ui

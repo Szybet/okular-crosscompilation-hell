@@ -1,0 +1,7 @@
+description: "Documentation for Kdenlive"
+hasrepo: true
+identifier: documentation-docs-kdenlive-org
+name: Kdenlive.org Documentation Website
+projectpath: documentation/docs-kdenlive-org
+repoactive: true
+repopath: documentation/docs-kdenlive-org

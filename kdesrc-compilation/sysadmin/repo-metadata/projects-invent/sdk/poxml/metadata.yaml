@@ -1,0 +1,7 @@
+description: Translate DocBook XML files using gettext PO files
+hasrepo: true
+identifier: poxml
+name: poxml
+projectpath: kde/kdesdk/poxml
+repoactive: true
+repopath: sdk/poxml

@@ -1,0 +1,7 @@
+description: A Post Installation Configuration Wizard for Linux OSes
+hasrepo: true
+identifier: pico-wizard
+name: Pico Wizard
+projectpath: playground/base/pico-wizard
+repoactive: true
+repopath: plasma/pico-wizard

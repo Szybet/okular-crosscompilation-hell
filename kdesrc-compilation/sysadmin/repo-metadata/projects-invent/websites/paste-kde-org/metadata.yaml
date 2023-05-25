@@ -1,0 +1,7 @@
+description: KDE Paste, powered by the Sticky Notes pastebin engine
+hasrepo: true
+identifier: websites-paste-kde-org
+name: Paste Website
+projectpath: websites/paste-kde-org
+repoactive: false
+repopath: websites/paste-kde-org

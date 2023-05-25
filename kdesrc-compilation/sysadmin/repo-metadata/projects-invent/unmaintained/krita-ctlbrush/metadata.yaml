@@ -1,0 +1,7 @@
+description: Brush written using the Color Transformation Language.
+hasrepo: true
+identifier: krita-ctlbrush
+name: CTL Brush
+projectpath: extragear/graphics/krita-extensions/krita-ctlbrush
+repoactive: false
+repopath: unmaintained/krita-ctlbrush

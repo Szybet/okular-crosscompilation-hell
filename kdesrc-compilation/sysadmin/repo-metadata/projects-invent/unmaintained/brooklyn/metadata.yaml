@@ -1,0 +1,8 @@
+description: Protocol independent software which forwards messages between various
+  chat services.
+hasrepo: true
+identifier: brooklyn
+name: Brooklyn Chat Bridge
+projectpath: playground/utils/brookyln
+repoactive: false
+repopath: unmaintained/brooklyn

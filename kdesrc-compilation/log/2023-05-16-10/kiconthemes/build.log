@@ -1,0 +1,15 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kiconthemes
+[  4%] Generating ts...
+[  8%] Generating mo...
+[ 12%] Automatic MOC for target KF5IconThemes
+[ 12%] Built target tsfiles-33ac1e47cbedcba175c94ecd50d59314
+[ 12%] Built target KF5IconThemes_autogen
+[ 12%] Built target pofiles-33ac1e47cbedcba175c94ecd50d59314
+[ 68%] Built target KF5IconThemes
+[ 72%] Automatic MOC for target KIconEnginePlugin
+[ 76%] Automatic MOC for target kiconfinder5
+[ 76%] Built target kiconfinder5_autogen
+[ 76%] Built target KIconEnginePlugin_autogen
+[100%] Built target KIconEnginePlugin
+[100%] Built target kiconfinder5

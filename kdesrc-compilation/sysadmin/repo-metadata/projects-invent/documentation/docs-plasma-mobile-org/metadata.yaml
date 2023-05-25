@@ -1,0 +1,7 @@
+description: Plasma Mobile documentation based on Sphinx
+hasrepo: true
+identifier: websites-docs-plasma-mobile-org
+name: Plasma Mobile Documentation Website
+projectpath: websites/docs-plasma-mobile-org
+repoactive: false
+repopath: documentation/docs-plasma-mobile-org

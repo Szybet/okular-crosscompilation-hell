@@ -1,0 +1,7 @@
+description: Recipes and other materials needed to create application AppImages
+hasrepo: true
+identifier: appimage-packaging
+name: AppImage Packaging
+projectpath: playground/packaging/appimage-packaging
+repoactive: false
+repopath: packaging/appimage-packaging

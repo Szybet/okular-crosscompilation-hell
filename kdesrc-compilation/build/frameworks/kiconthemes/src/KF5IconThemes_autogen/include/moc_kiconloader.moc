@@ -1,0 +1,276 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kiconloader.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include "../../../../../../frameworks/kiconthemes/src/kiconloader.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kiconloader.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_KIconLoader_t {
+    QByteArrayData data[53];
+    char stringdata0[515];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_KIconLoader_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_KIconLoader_t qt_meta_stringdata_KIconLoader = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "KIconLoader"
+QT_MOC_LITERAL(1, 12, 25), // "iconLoaderSettingsChanged"
+QT_MOC_LITERAL(2, 38, 0), // ""
+QT_MOC_LITERAL(3, 39, 11), // "iconChanged"
+QT_MOC_LITERAL(4, 51, 5), // "group"
+QT_MOC_LITERAL(5, 57, 13), // "newIconLoader"
+QT_MOC_LITERAL(6, 71, 10), // "emitChange"
+QT_MOC_LITERAL(7, 82, 5), // "Group"
+QT_MOC_LITERAL(8, 88, 15), // "_k_refreshIcons"
+QT_MOC_LITERAL(9, 104, 7), // "Context"
+QT_MOC_LITERAL(10, 112, 3), // "Any"
+QT_MOC_LITERAL(11, 116, 6), // "Action"
+QT_MOC_LITERAL(12, 123, 11), // "Application"
+QT_MOC_LITERAL(13, 135, 6), // "Device"
+QT_MOC_LITERAL(14, 142, 10), // "FileSystem"
+QT_MOC_LITERAL(15, 153, 8), // "MimeType"
+QT_MOC_LITERAL(16, 162, 9), // "Animation"
+QT_MOC_LITERAL(17, 172, 8), // "Category"
+QT_MOC_LITERAL(18, 181, 6), // "Emblem"
+QT_MOC_LITERAL(19, 188, 5), // "Emote"
+QT_MOC_LITERAL(20, 194, 13), // "International"
+QT_MOC_LITERAL(21, 208, 5), // "Place"
+QT_MOC_LITERAL(22, 214, 10), // "StatusIcon"
+QT_MOC_LITERAL(23, 225, 4), // "Type"
+QT_MOC_LITERAL(24, 230, 5), // "Fixed"
+QT_MOC_LITERAL(25, 236, 8), // "Scalable"
+QT_MOC_LITERAL(26, 245, 9), // "Threshold"
+QT_MOC_LITERAL(27, 255, 9), // "MatchType"
+QT_MOC_LITERAL(28, 265, 10), // "MatchExact"
+QT_MOC_LITERAL(29, 276, 9), // "MatchBest"
+QT_MOC_LITERAL(30, 286, 7), // "NoGroup"
+QT_MOC_LITERAL(31, 294, 7), // "Desktop"
+QT_MOC_LITERAL(32, 302, 10), // "FirstGroup"
+QT_MOC_LITERAL(33, 313, 7), // "Toolbar"
+QT_MOC_LITERAL(34, 321, 11), // "MainToolbar"
+QT_MOC_LITERAL(35, 333, 5), // "Small"
+QT_MOC_LITERAL(36, 339, 5), // "Panel"
+QT_MOC_LITERAL(37, 345, 6), // "Dialog"
+QT_MOC_LITERAL(38, 352, 9), // "LastGroup"
+QT_MOC_LITERAL(39, 362, 4), // "User"
+QT_MOC_LITERAL(40, 367, 8), // "StdSizes"
+QT_MOC_LITERAL(41, 376, 9), // "SizeSmall"
+QT_MOC_LITERAL(42, 386, 15), // "SizeSmallMedium"
+QT_MOC_LITERAL(43, 402, 10), // "SizeMedium"
+QT_MOC_LITERAL(44, 413, 9), // "SizeLarge"
+QT_MOC_LITERAL(45, 423, 8), // "SizeHuge"
+QT_MOC_LITERAL(46, 432, 12), // "SizeEnormous"
+QT_MOC_LITERAL(47, 445, 6), // "States"
+QT_MOC_LITERAL(48, 452, 12), // "DefaultState"
+QT_MOC_LITERAL(49, 465, 11), // "ActiveState"
+QT_MOC_LITERAL(50, 477, 13), // "DisabledState"
+QT_MOC_LITERAL(51, 491, 13), // "SelectedState"
+QT_MOC_LITERAL(52, 505, 9) // "LastState"
+
+    },
+    "KIconLoader\0iconLoaderSettingsChanged\0"
+    "\0iconChanged\0group\0newIconLoader\0"
+    "emitChange\0Group\0_k_refreshIcons\0"
+    "Context\0Any\0Action\0Application\0Device\0"
+    "FileSystem\0MimeType\0Animation\0Category\0"
+    "Emblem\0Emote\0International\0Place\0"
+    "StatusIcon\0Type\0Fixed\0Scalable\0Threshold\0"
+    "MatchType\0MatchExact\0MatchBest\0NoGroup\0"
+    "Desktop\0FirstGroup\0Toolbar\0MainToolbar\0"
+    "Small\0Panel\0Dialog\0LastGroup\0User\0"
+    "StdSizes\0SizeSmall\0SizeSmallMedium\0"
+    "SizeMedium\0SizeLarge\0SizeHuge\0"
+    "SizeEnormous\0States\0DefaultState\0"
+    "ActiveState\0DisabledState\0SelectedState\0"
+    "LastState"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_KIconLoader[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       6,   50, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   39,    2, 0x06 /* Public */,
+       3,    1,   40,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       5,    0,   43,    2, 0x0a /* Public */,
+       6,    1,   44,    2, 0x0a /* Public */,
+       8,    1,   47,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    4,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 7,    4,
+    QMetaType::Void, QMetaType::Int,    4,
+
+ // enums: name, alias, flags, count, data
+       9,    9, 0x0,   13,   80,
+      23,   23, 0x0,    3,  106,
+      27,   27, 0x0,    2,  112,
+       7,    7, 0x0,   10,  116,
+      40,   40, 0x0,    6,  136,
+      47,   47, 0x0,    5,  148,
+
+ // enum data: key, value
+      10, uint(KIconLoader::Any),
+      11, uint(KIconLoader::Action),
+      12, uint(KIconLoader::Application),
+      13, uint(KIconLoader::Device),
+      14, uint(KIconLoader::FileSystem),
+      15, uint(KIconLoader::MimeType),
+      16, uint(KIconLoader::Animation),
+      17, uint(KIconLoader::Category),
+      18, uint(KIconLoader::Emblem),
+      19, uint(KIconLoader::Emote),
+      20, uint(KIconLoader::International),
+      21, uint(KIconLoader::Place),
+      22, uint(KIconLoader::StatusIcon),
+      24, uint(KIconLoader::Fixed),
+      25, uint(KIconLoader::Scalable),
+      26, uint(KIconLoader::Threshold),
+      28, uint(KIconLoader::MatchExact),
+      29, uint(KIconLoader::MatchBest),
+      30, uint(KIconLoader::NoGroup),
+      31, uint(KIconLoader::Desktop),
+      32, uint(KIconLoader::FirstGroup),
+      33, uint(KIconLoader::Toolbar),
+      34, uint(KIconLoader::MainToolbar),
+      35, uint(KIconLoader::Small),
+      36, uint(KIconLoader::Panel),
+      37, uint(KIconLoader::Dialog),
+      38, uint(KIconLoader::LastGroup),
+      39, uint(KIconLoader::User),
+      41, uint(KIconLoader::SizeSmall),
+      42, uint(KIconLoader::SizeSmallMedium),
+      43, uint(KIconLoader::SizeMedium),
+      44, uint(KIconLoader::SizeLarge),
+      45, uint(KIconLoader::SizeHuge),
+      46, uint(KIconLoader::SizeEnormous),
+      48, uint(KIconLoader::DefaultState),
+      49, uint(KIconLoader::ActiveState),
+      50, uint(KIconLoader::DisabledState),
+      51, uint(KIconLoader::SelectedState),
+      52, uint(KIconLoader::LastState),
+
+       0        // eod
+};
+
+void KIconLoader::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<KIconLoader *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->iconLoaderSettingsChanged(); break;
+        case 1: _t->iconChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 2: _t->newIconLoader(); break;
+        case 3: _t->emitChange((*reinterpret_cast< Group(*)>(_a[1]))); break;
+        case 4: _t->d->_k_refreshIcons((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (KIconLoader::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KIconLoader::iconLoaderSettingsChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (KIconLoader::*)(int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KIconLoader::iconChanged)) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject KIconLoader::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_KIconLoader.data,
+    qt_meta_data_KIconLoader,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *KIconLoader::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KIconLoader::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_KIconLoader.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int KIconLoader::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 5)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 5;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void KIconLoader::iconLoaderSettingsChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void KIconLoader::iconChanged(int _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

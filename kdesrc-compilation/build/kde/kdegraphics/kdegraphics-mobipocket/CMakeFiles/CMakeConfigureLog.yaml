@@ -1,0 +1,613 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Linux -  - 
+      The host system is: Linux - 6.1.28-1-lts - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc 
+      Build flags: ;--sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot;--sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ 
+      Build flags: ;-pthread;;--sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_ce933/fast && /sbin/make  -f CMakeFiles/cmTC_ce933.dir/build.make CMakeFiles/cmTC_ce933.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG'
+        Building C object CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc   --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot    -v -o CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc
+        Target: arm-kobo-linux-gnueabihf
+        Configured with: /home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_ce933.dir/'
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1 -quiet -v -iprefix /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ce933.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/ccji4w5E.s
+        GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"
+        ignoring nonexistent directory "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include
+         /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include
+        End of search list.
+        GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 72ec81721de42acb2296657b226f1cce
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_ce933.dir/'
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o /tmp/ccji4w5E.s
+        GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+        COMPILER_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+        LIBRARY_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_ce933.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_ce933.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce933.dir/link.txt --verbose=1
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_ce933.a CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_ce933.a
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+          add: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include]
+        collapse include dir [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include] ==> [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+        implicit include dirs: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include;/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed;/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-kobo-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_ce933/fast && /sbin/make  -f CMakeFiles/cmTC_ce933.dir/build.make CMakeFiles/cmTC_ce933.dir/build]
+        ignore line: [make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG']
+        ignore line: [Building C object CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc   --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot    -v -o CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc]
+        ignore line: [Target: arm-kobo-linux-gnueabihf]
+        ignore line: [Configured with: /home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_ce933.dir/']
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1 -quiet -v -iprefix /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ce933.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/ccji4w5E.s]
+        ignore line: [GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+        ignore line: [ /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 72ec81721de42acb2296657b226f1cce]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_ce933.dir/']
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o /tmp/ccji4w5E.s]
+        ignore line: [GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37]
+        ignore line: [COMPILER_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+        ignore line: [LIBRARY_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_ce933.a]
+        ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_ce933.dir/cmake_clean_target.cmake]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce933.dir/link.txt --verbose=1]
+        ignore line: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_ce933.a CMakeFiles/cmTC_ce933.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_ce933.a]
+        ignore line: [make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-BUQANG']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_6f2f2/fast && /sbin/make  -f CMakeFiles/cmTC_6f2f2.dir/build.make CMakeFiles/cmTC_6f2f2.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa'
+        Building CXX object CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++   -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot    -v -o CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++
+        Target: arm-kobo-linux-gnueabihf
+        Configured with: /home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+        COLLECT_GCC_OPTIONS='-pthread' '-v' '-o' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_6f2f2.dir/'
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1plus -quiet -v -iprefix /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6f2f2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/ccZNs7yF.s
+        GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0"
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf"
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward"
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"
+        ignoring nonexistent directory "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"
+        ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include
+         /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include
+        End of search list.
+        GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: ce89a8d73a7effc57632584a586afef7
+        COLLECT_GCC_OPTIONS='-pthread' '-v' '-o' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_6f2f2.dir/'
+         /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZNs7yF.s
+        GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+        COMPILER_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+        LIBRARY_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-pthread' '-v' '-o' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_6f2f2.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_6f2f2.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f2f2.dir/link.txt --verbose=1
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_6f2f2.a CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_6f2f2.a
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+          add: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+          add: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+        collapse include dir [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include] ==> [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include]
+        collapse include dir [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include] ==> [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+        implicit include dirs: [/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0;/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf;/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward;/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include;/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed;/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-kobo-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_6f2f2/fast && /sbin/make  -f CMakeFiles/cmTC_6f2f2.dir/build.make CMakeFiles/cmTC_6f2f2.dir/build]
+        ignore line: [make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++   -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot    -v -o CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++]
+        ignore line: [Target: arm-kobo-linux-gnueabihf]
+        ignore line: [Configured with: /home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/home/nicolas/Development/kox/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-v' '-o' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_6f2f2.dir/']
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1plus -quiet -v -iprefix /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6f2f2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/ccZNs7yF.s]
+        ignore line: [GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf"]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+        ignore line: [ /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: ce89a8d73a7effc57632584a586afef7]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-v' '-o' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_6f2f2.dir/']
+        ignore line: [ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZNs7yF.s]
+        ignore line: [GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37]
+        ignore line: [COMPILER_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+        ignore line: [LIBRARY_PATH=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-v' '-o' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_6f2f2.a]
+        ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_6f2f2.dir/cmake_clean_target.cmake]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f2f2.dir/link.txt --verbose=1]
+        ignore line: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_6f2f2.a CMakeFiles/cmTC_6f2f2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_6f2f2.a]
+        ignore line: [make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-VH7Dwa']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/KDECompilerSettings.cmake:300 (check_symbol_exists)"
+      - "CMakeLists.txt:10 (include)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-ypxC5Y"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-ypxC5Y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/find-modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-ypxC5Y
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_9f1f6/fast && /sbin/make  -f CMakeFiles/cmTC_9f1f6.dir/build.make CMakeFiles/cmTC_9f1f6.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-ypxC5Y'
+        Building C object CMakeFiles/cmTC_9f1f6.dir/CheckSymbolExists.c.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc   --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot  -o CMakeFiles/cmTC_9f1f6.dir/CheckSymbolExists.c.o -c /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-ypxC5Y/CheckSymbolExists.c
+        Linking C static library libcmTC_9f1f6.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_9f1f6.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f1f6.dir/link.txt --verbose=1
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_9f1f6.a CMakeFiles/cmTC_9f1f6.dir/CheckSymbolExists.c.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_9f1f6.a
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-ypxC5Y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/KDECompilerSettings.cmake:324 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:10 (include)"
+    checks:
+      - "Performing Test _OFFT_IS_64BIT"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/find-modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/"
+    buildResult:
+      variable: "_OFFT_IS_64BIT"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_75fe4/fast && /sbin/make  -f CMakeFiles/cmTC_75fe4.dir/build.make CMakeFiles/cmTC_75fe4.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh'
+        Building CXX object CMakeFiles/cmTC_75fe4.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -D_OFFT_IS_64BIT  -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot  -o CMakeFiles/cmTC_75fe4.dir/src.cxx.o -c /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh/src.cxx
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh/src.cxx:7:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft shift count >= width of type [\x1b[01;35m\x1b[K-Wshift-count-overflow\x1b[m\x1b[K]
+            7 | #define LARGE_OFF_T ((\x1b[01;35m\x1b[K(off_t) 1 << 62\x1b[m\x1b[K) - 1 + ((off_t) 1 << 62))
+              |                       \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh/src.cxx:8:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro '\x1b[01m\x1b[KLARGE_OFF_T\x1b[m\x1b[K'
+            8 |   int off_t_is_large[(\x1b[01;36m\x1b[KLARGE_OFF_T\x1b[m\x1b[K % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+              |                       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh/src.cxx:7:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft shift count >= width of type [\x1b[01;35m\x1b[K-Wshift-count-overflow\x1b[m\x1b[K]
+            7 | #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + (\x1b[01;35m\x1b[K(off_t) 1 << 62\x1b[m\x1b[K))
+              |                                               \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh/src.cxx:8:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro '\x1b[01m\x1b[KLARGE_OFF_T\x1b[m\x1b[K'
+            8 |   int off_t_is_large[(\x1b[01;36m\x1b[KLARGE_OFF_T\x1b[m\x1b[K % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+              |                       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh/src.cxx:8:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ksize '\x1b[01m\x1b[K-1\x1b[m\x1b[K' of array '\x1b[01m\x1b[Koff_t_is_large\x1b[m\x1b[K' is negative
+            8 |   int off_t_is_large[\x1b[01;31m\x1b[K(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1\x1b[m\x1b[K];
+              |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_75fe4.dir/build.make:78: CMakeFiles/cmTC_75fe4.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-QChhlh'
+        make: *** [Makefile:127: cmTC_75fe4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/KDECompilerSettings.cmake:579 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:10 (include)"
+    checks:
+      - "Performing Test HAVE_DATE_TIME"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-mQAp9q"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-mQAp9q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-new-dtags "
+      CMAKE_MODULE_PATH: "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/find-modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/"
+    buildResult:
+      variable: "HAVE_DATE_TIME"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-mQAp9q
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_0bc29/fast && /sbin/make  -f CMakeFiles/cmTC_0bc29.dir/build.make CMakeFiles/cmTC_0bc29.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-mQAp9q'
+        Building CXX object CMakeFiles/cmTC_0bc29.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ -DHAVE_DATE_TIME  -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla  -std=c++17   -Wdate-time -o CMakeFiles/cmTC_0bc29.dir/src.cxx.o -c /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-mQAp9q/src.cxx
+        Linking CXX static library libcmTC_0bc29.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_0bc29.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc29.dir/link.txt --verbose=1
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_0bc29.a CMakeFiles/cmTC_0bc29.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_0bc29.a
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-mQAp9q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:238 (check_cxx_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGenerateExportHeader.cmake:826 (generate_export_header)"
+      - "lib/CMakeLists.txt:37 (ecm_generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-RlebXC"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-RlebXC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-new-dtags "
+      CMAKE_MODULE_PATH: "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/find-modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-RlebXC
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_6f6ed/fast && /sbin/make  -f CMakeFiles/cmTC_6f6ed.dir/build.make CMakeFiles/cmTC_6f6ed.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-RlebXC'
+        Building CXX object CMakeFiles/cmTC_6f6ed.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs  -std=c++17   -fvisibility=hidden -o CMakeFiles/cmTC_6f6ed.dir/src.cxx.o -c /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-RlebXC/src.cxx
+        Linking CXX static library libcmTC_6f6ed.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_6f6ed.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f6ed.dir/link.txt --verbose=1
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_6f6ed.a CMakeFiles/cmTC_6f6ed.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_6f6ed.a
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-RlebXC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:239 (check_cxx_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGenerateExportHeader.cmake:826 (generate_export_header)"
+      - "lib/CMakeLists.txt:37 (ecm_generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-tLVhID"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-tLVhID"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-new-dtags "
+      CMAKE_MODULE_PATH: "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/find-modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-tLVhID
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_b6a92/fast && /sbin/make  -f CMakeFiles/cmTC_b6a92.dir/build.make CMakeFiles/cmTC_b6a92.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-tLVhID'
+        Building CXX object CMakeFiles/cmTC_b6a92.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs  -std=c++17   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b6a92.dir/src.cxx.o -c /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-tLVhID/src.cxx
+        Linking CXX static library libcmTC_b6a92.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_b6a92.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a92.dir/link.txt --verbose=1
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_b6a92.a CMakeFiles/cmTC_b6a92.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_b6a92.a
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-tLVhID'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:206 (check_cxx_source_compiles)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGenerateExportHeader.cmake:826 (generate_export_header)"
+      - "lib/CMakeLists.txt:37 (ecm_generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN"
+      binary: "/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-new-dtags "
+      CMAKE_MODULE_PATH: "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/find-modules/;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/kde-modules/"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_bd383/fast && /sbin/make  -f CMakeFiles/cmTC_bd383.dir/build.make CMakeFiles/cmTC_bd383.dir/build
+        make[1]: Entering directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN'
+        Building CXX object CMakeFiles/cmTC_bd383.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ -DCOMPILER_HAS_DEPRECATED_ATTR -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pthread  --sysroot=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs  -std=c++17 -o CMakeFiles/cmTC_bd383.dir/src.cxx.o -c /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN/src.cxx
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN/src.cxx:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kint main()\x1b[m\x1b[K':
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN/src.cxx:2:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K'\x1b[01m\x1b[Kint somefunc()\x1b[m\x1b[K' is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]
+            2 |     int main() { return \x1b[01;35m\x1b[Ksomefunc()\x1b[m\x1b[K;}
+              |                         \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K
+        \x1b[01m\x1b[K/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN/src.cxx:1:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here
+            1 | __attribute__((__deprecated__)) int \x1b[01;36m\x1b[Ksomefunc\x1b[m\x1b[K() { return 0; }
+              |                                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K
+        Linking CXX static library libcmTC_bd383.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_bd383.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd383.dir/link.txt --verbose=1
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_bd383.a CMakeFiles/cmTC_bd383.dir/src.cxx.o
+        /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_bd383.a
+        make[1]: Leaving directory '/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/CMakeScratch/TryCompile-uGpqiN'
+        
+      exitCode: 0
+...

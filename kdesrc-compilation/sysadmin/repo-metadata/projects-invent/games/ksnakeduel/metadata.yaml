@@ -1,0 +1,7 @@
+description: KSnakeDuel is a simple snake duel game
+hasrepo: true
+identifier: ksnakeduel
+name: KSnakeDuel
+projectpath: kde/kdegames/ksnakeduel
+repoactive: true
+repopath: games/ksnakeduel

@@ -1,0 +1,10 @@
+description: A dedicated search application built on top of Baloo
+hasrepo: true
+identifier: milou
+name: Milou
+projectpath: kde/workspace/milou
+repoactive: true
+repopath: plasma/milou
+bugzilla:
+    product: plasmashell
+    component: Milou

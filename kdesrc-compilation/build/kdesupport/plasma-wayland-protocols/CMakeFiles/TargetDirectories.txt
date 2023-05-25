@@ -1,0 +1,12 @@
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/CMakeFiles/install/strip.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/src/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/src/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/src/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/src/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/src/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols/src/CMakeFiles/install/strip.dir

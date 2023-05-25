@@ -1,0 +1,7 @@
+description: MauiKit QtQuick plugins for text editing
+hasrepo: true
+identifier: mauikit-documents
+name: Mauikit Documents
+projectpath: playground/base/mauikit-documents
+repoactive: true
+repopath: maui/mauikit-documents

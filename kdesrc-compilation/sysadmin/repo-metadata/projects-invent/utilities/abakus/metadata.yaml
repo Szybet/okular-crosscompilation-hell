@@ -1,0 +1,7 @@
+description: Simple, keyboard-driven calculator
+hasrepo: true
+identifier: abakus
+name: Abakus
+projectpath: playground/utils/abakus
+repoactive: false
+repopath: utilities/abakus

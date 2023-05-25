@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdenetwork-filesharing
+description: Samba file sharing plugin for file properties
+hasrepo: true
+identifier: kdenetwork-filesharing
+name: Network File Sharing
+projectpath: kde/kdenetwork/kdenetwork-filesharing
+repoactive: true
+repopath: network/kdenetwork-filesharing

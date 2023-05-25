@@ -1,0 +1,7 @@
+description: Scripts that were used to power extensions.krita.org
+hasrepo: true
+identifier: websites-extensions-krita-org
+name: Krita Extensions Website
+projectpath: websites/extensions-krita-org
+repoactive: false
+repopath: websites/extensions-krita-org

@@ -1,0 +1,7 @@
+description: PIM Presence Plugin for Kopete
+hasrepo: true
+identifier: kopete-pimpresence
+name: Kopete PIM Presence Plugin
+projectpath: playground/network/kopete-pimpresence
+repoactive: false
+repopath: unmaintained/kopete-pimpresence

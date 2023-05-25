@@ -1,0 +1,12 @@
+# CMake generated Testfile for 
+# Source directory: /home/szybet/kdesrc/frameworks/kdbusaddons/autotests
+# Build directory: /home/szybet/kdesrc/build/frameworks/kdbusaddons/autotests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(deadservicetest "/home/szybet/kdesrc/build/frameworks/kdbusaddons/bin/deadservicetest")
+set_tests_properties(deadservicetest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kdbusaddons/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;131;ecm_add_test;/home/szybet/kdesrc/frameworks/kdbusaddons/autotests/CMakeLists.txt;12;ecm_add_tests;/home/szybet/kdesrc/frameworks/kdbusaddons/autotests/CMakeLists.txt;0;")
+add_test(kdbusinterprocesslocktest "/home/szybet/kdesrc/build/frameworks/kdbusaddons/bin/kdbusinterprocesslocktest")
+set_tests_properties(kdbusinterprocesslocktest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kdbusaddons/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;131;ecm_add_test;/home/szybet/kdesrc/frameworks/kdbusaddons/autotests/CMakeLists.txt;20;ecm_add_tests;/home/szybet/kdesrc/frameworks/kdbusaddons/autotests/CMakeLists.txt;0;")
+add_test(kdbusservicetest "/home/szybet/kdesrc/build/frameworks/kdbusaddons/bin/kdbusservicetest")
+set_tests_properties(kdbusservicetest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kdbusaddons/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;131;ecm_add_test;/home/szybet/kdesrc/frameworks/kdbusaddons/autotests/CMakeLists.txt;20;ecm_add_tests;/home/szybet/kdesrc/frameworks/kdbusaddons/autotests/CMakeLists.txt;0;")

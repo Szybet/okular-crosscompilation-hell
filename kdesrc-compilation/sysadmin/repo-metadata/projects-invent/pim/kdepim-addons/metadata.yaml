@@ -1,0 +1,7 @@
+description: Add-ons for KDE PIM apps (KMail, KAddressBook etc.)
+hasrepo: true
+identifier: kdepim-addons
+name: KDE PIM Add-ons
+projectpath: kde/pim/kdepim-addons
+repoactive: true
+repopath: pim/kdepim-addons

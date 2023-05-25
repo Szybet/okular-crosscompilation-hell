@@ -1,0 +1,8 @@
+description: Implements the interface from the Veritas library for unit testing with
+  QTestLib.
+hasrepo: true
+identifier: kdev-xtest
+name: QTest
+projectpath: unmaintained/kdev-xtest
+repoactive: false
+repopath: unmaintained/kdev-xtest

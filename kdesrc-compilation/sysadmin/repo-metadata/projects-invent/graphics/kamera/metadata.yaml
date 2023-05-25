@@ -1,0 +1,7 @@
+description: KDE integration for gphoto2 cameras
+hasrepo: true
+identifier: kamera
+name: Kamera
+projectpath: kde/kdegraphics/kamera
+repoactive: true
+repopath: graphics/kamera

@@ -1,0 +1,7 @@
+description: Disks management utilities
+hasrepo: true
+identifier: kdisksutilities
+name: KDisksUtilities
+projectpath: playground/sysadmin/kdisksutilities
+repoactive: false
+repopath: system/kdisksutilities

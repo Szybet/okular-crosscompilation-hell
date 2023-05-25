@@ -1,0 +1,8 @@
+description: Kolena is a KDE wrapper around the Olena image library which extracts
+  text from images.
+hasrepo: true
+identifier: kolena
+name: Kolena Image Text Extraction
+projectpath: unmaintained/kolena
+repoactive: false
+repopath: unmaintained/kolena

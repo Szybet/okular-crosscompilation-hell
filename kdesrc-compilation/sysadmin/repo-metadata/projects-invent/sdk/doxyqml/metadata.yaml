@@ -1,0 +1,7 @@
+description: Doxygen filter to allow generation of API Documentation for QML
+hasrepo: true
+identifier: doxyqml
+name: Doxyqml
+projectpath: playground/sdk/doxyqml
+repoactive: true
+repopath: sdk/doxyqml

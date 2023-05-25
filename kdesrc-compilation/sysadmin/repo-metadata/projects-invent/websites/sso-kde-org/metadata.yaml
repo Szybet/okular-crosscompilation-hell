@@ -1,0 +1,7 @@
+description: Managed user identities for all KDE websites
+hasrepo: true
+identifier: websites-sso-kde-org
+name: KDE SSO provider - Keychain
+projectpath: websites/sso-kde-org
+repoactive: false
+repopath: websites/sso-kde-org

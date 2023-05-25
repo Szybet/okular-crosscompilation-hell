@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'clone' '--recursive' '-b' 'kf5' '--' 'kde:frameworks/kauth.git' '/home/szybet/kdesrc/frameworks/kauth'
+# from directory: /home/szybet/kdesrc
+Cloning into '/home/szybet/kdesrc/frameworks/kauth'...

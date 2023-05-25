@@ -1,0 +1,7 @@
+description: "Finds additional metadata on the internet (via Python plugins) and adds it to Nepomuk."
+hasrepo: true
+identifier: nepomuk-webminer
+name: Nepomuk Webminer
+projectpath: unmaintained/nepomuk-webminer
+repoactive: false
+repopath: unmaintained/nepomuk-webminer

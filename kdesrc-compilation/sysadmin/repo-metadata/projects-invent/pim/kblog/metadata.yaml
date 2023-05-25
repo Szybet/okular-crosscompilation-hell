@@ -1,0 +1,9 @@
+bugzilla:
+  product: kblog
+description: Support for reading various blog feeds
+hasrepo: true
+identifier: kblog
+name: KBlog
+projectpath: kde/pim/kblog
+repoactive: false
+repopath: pim/kblog

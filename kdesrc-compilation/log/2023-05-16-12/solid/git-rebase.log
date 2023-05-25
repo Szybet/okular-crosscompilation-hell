@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'reset' '--hard' 'origin/kf5'
+# from directory: /home/szybet/kdesrc/frameworks/solid
+HEAD is now at e7ba72e GIT_SILENT Upgrade KF version to 5.107.0.

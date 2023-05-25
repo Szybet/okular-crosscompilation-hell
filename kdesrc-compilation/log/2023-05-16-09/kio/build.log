@@ -1,0 +1,1271 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kio
+[  1%] Generating ts...
+[  1%] Generating mo...
+[  1%] Automatic MOC for target KF5KIONTLM
+[  1%] Automatic MOC for target protocoltojson
+[  1%] Generating moc_predefs.h
+[  1%] Automatic MOC for target kcookiejar5
+[  1%] Automatic MOC for target kded_kcookiejar
+[  1%] Built target kcm_webshortcuts_link
+[  2%] Automatic MOC for target KF5KIOCore
+[  2%] Built target tsfiles-583fb853a6311f5cf12fd043f323004c
+[  2%] Built target kcookiejar5_autogen
+[  2%] Built target protocoltojson_autogen
+[  3%] Generating smb.json
+Warning: Unable to find service type for service "KCModule" listed in "/home/szybet/kdesrc/frameworks/kio/src/kcms/smb/smb.desktop" - service type search directories were ("//mnt/HDD/Project/Public/okulartry/okular-things/share") (:0, )
+Unknown property type for key "X-DocPath" -> falling back to string
+Unknown property type for key "X-KDE-System-Settings-Parent-Category" -> falling back to string
+Unknown property type for key "X-KDE-ParentApp" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Generated  "/home/szybet/kdesrc/build/frameworks/kio/src/kcms/smb/smb.json"
+[  3%] Built target KF5KIONTLM_autogen
+[  3%] Automatic MOC for target kcm_smb
+[  3%] Built target kcm_proxy_link
+[  3%] Generating kioworker.tar.bz2
+[  3%] Automatic MOC for target kpac_dhcp_helper
+[  3%] Building CXX object src/protocoltojson/CMakeFiles/protocoltojson.dir/protocoltojson_autogen/mocs_compilation.cpp.o
+[  3%] Building CXX object src/kntlm/CMakeFiles/KF5KIONTLM.dir/KF5KIONTLM_autogen/mocs_compilation.cpp.o
+[  3%] Built target kioworker_kapptemplate
+[  3%] Building CXX object src/protocoltojson/CMakeFiles/protocoltojson.dir/main.cpp.o
+[  3%] Generating org.kde.KCookieServer.xml
+[  3%] Building CXX object src/kntlm/CMakeFiles/KF5KIONTLM.dir/kntlm.cpp.o
+[  3%] Built target kpac_dhcp_helper_autogen
+[  4%] Generating kcookieserverinterface.cpp, kcookieserverinterface.h
+[  5%] Building CXX object src/kntlm/CMakeFiles/KF5KIONTLM.dir/des.cpp.o
+[  5%] Generating kcookieserverinterface.moc
+[  5%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kcookiejar5.dir/kcookiejar5_autogen/mocs_compilation.cpp.o
+[  5%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kcookiejar5.dir/kcookieserverinterface.cpp.o
+[  5%] Built target kded_kcookiejar_autogen
+[  5%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kcookiejar5.dir/main.cpp.o
+[  5%] Built target kcm_smb_autogen
+[  5%] Building CXX object src/kpac/CMakeFiles/kpac_dhcp_helper.dir/kpac_dhcp_helper_autogen/mocs_compilation.cpp.o
+[  5%] Building C object src/kpac/CMakeFiles/kpac_dhcp_helper.dir/kpac_dhcp_helper.c.o
+[  6%] Linking CXX executable ../../bin/kpac_dhcp_helper
+[  6%] Built target kpac_dhcp_helper
+[  6%] Generating kcookieserveradaptor.cpp, kcookieserveradaptor.h
+[  6%] Generating kcookieserveradaptor.moc
+[  6%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kded_kcookiejar.dir/kded_kcookiejar_autogen/mocs_compilation.cpp.o
+[  6%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kded_kcookiejar.dir/kcookieserveradaptor.cpp.o
+[  6%] Built target pofiles-583fb853a6311f5cf12fd043f323004c
+[  6%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kded_kcookiejar.dir/kcookiejar.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:[m[K In function '[01m[KQByteArray QString2UnicodeLE(const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:32:10:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kquint16*[m[K' {aka '[01m[Kshort unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+   32 |         ([01;35m[K(quint16 *)unicode.data()[m[K)[i] = qToLittleEndian(target[i].unicode());
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:[m[K In function '[01m[KQString getString(const QByteArray&, const KNTLM::SecBuf&, bool)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:88:34:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst char*[m[K' to '[01m[KQChar*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+   88 |         return UnicodeLE2QString([01;35m[K(QChar *)c[m[K, len >> 1);
+      |                                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:[m[K In function '[01m[KQByteArray createBlob(const QByteArray&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:139:23:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Blob*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  139 |     KNTLM::Blob *bl = [01;35m[K(KNTLM::Blob *)blob.data()[m[K;
+      |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:[m[K In static member function '[01m[Kstatic bool KNTLM::getNegotiate(QByteArray&, const QString&, const QString&, quint32)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:185:6:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Negotiate*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  185 |     ([01;35m[K(Negotiate *)rbuf.data()[m[K)->msgType = qToLittleEndian((quint32)1);
+      |      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:189:26:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Negotiate*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  189 |         addString(rbuf, ([01;35m[K(Negotiate *)rbuf.data()[m[K)->domain, domain);
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:194:26:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Negotiate*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  194 |         addString(rbuf, ([01;35m[K(Negotiate *)rbuf.data()[m[K)->workstation, workstation);
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:197:6:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Negotiate*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  197 |     ([01;35m[K(Negotiate *)rbuf.data()[m[K)->flags = qToLittleEndian(flags);
+      |      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:[m[K In static member function '[01m[Kstatic bool KNTLM::getAuth(QByteArray&, const QByteArray&, const QString&, const QString&, const QString&, const QString&, KNTLM::AuthFlags)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:211:21:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst char*[m[K' to '[01m[KKNTLM::Challenge*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  211 |     Challenge *ch = [01;35m[K(Challenge *)challenge.data()[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:233:6:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  233 |     ([01;35m[K(Auth *)rbuf.data()[m[K)->msgType = qToLittleEndian((quint32)3);
+      |      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:234:6:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  234 |     ([01;35m[K(Auth *)rbuf.data()[m[K)->flags = ch->flags;
+      |      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:251:27:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  251 |             addBuf(rbuf, ([01;35m[K(Auth *)rbuf.data()[m[K)->ntResponse, response);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:257:27:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  257 |             addBuf(rbuf, ([01;35m[K(Auth *)rbuf.data()[m[K)->lmResponse, response);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:269:27:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  269 |             addBuf(rbuf, ([01;35m[K(Auth *)rbuf.data()[m[K)->ntResponse, response);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:275:27:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  275 |             addBuf(rbuf, ([01;35m[K(Auth *)rbuf.data()[m[K)->lmResponse, response);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:285:26:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  285 |         addString(rbuf, ([01;35m[K(Auth *)rbuf.data()[m[K)->domain, dom, unicode);
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:288:22:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  288 |     addString(rbuf, ([01;35m[K(Auth *)rbuf.data()[m[K)->user, user, unicode);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/kntlm/kntlm.cpp:291:26:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[KKNTLM::Auth*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  291 |         addString(rbuf, ([01;35m[K(Auth *)rbuf.data()[m[K)->workstation, workstation, unicode);
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[  6%] Linking CXX shared library ../../bin/libKF5KIONTLM.so
+[  6%] Built target KF5KIONTLM
+[  7%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kded_kcookiejar.dir/kcookieserver.cpp.o
+[  8%] Linking CXX executable ../../bin/protocoltojson
+[  8%] Built target KF5KIOCore_autogen
+[  8%] Building CXX object src/kioworkers/http/kcookiejar/CMakeFiles/kded_kcookiejar.dir/kcookiewin.cpp.o
+[  8%] Built target protocoltojson
+[  8%] Building CXX object src/kcms/smb/CMakeFiles/kcm_smb.dir/kcm_smb_autogen/mocs_compilation.cpp.o
+[  8%] Building CXX object src/kcms/smb/CMakeFiles/kcm_smb.dir/smbrodlg.cpp.o
+[  8%] Generating kpasswdserver_interface.cpp, kpasswdserver_interface.h
+[  8%] Generating kiofuse_interface.cpp, kiofuse_interface.h
+[  9%] Linking CXX executable ../../../../bin/kcookiejar5
+[  9%] Generating kpasswdserver_interface.moc
+[  9%] Generating kiofuse_interface.moc
+[ 10%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/KF5KIOCore_autogen/mocs_compilation.cpp.o
+[ 10%] Built target kcookiejar5
+[ 10%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/idleslave.cpp.o
+[ 10%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/connectionbackend.cpp.o
+[ 10%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/connection.cpp.o
+[ 11%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/connectionserver.cpp.o
+[ 11%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/krecentdocument.cpp.o
+[ 11%] Linking CXX shared module ../../../bin/kcm_smb.so
+[ 11%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kfileitemlistproperties.cpp.o
+[ 11%] Built target kcm_smb
+[ 11%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/directorysizejob.cpp.o
+[ 11%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/chmodjob.cpp.o
+[ 11%] Linking CXX shared module ../../../../bin/kf5/kded/kcookiejar.so
+[ 12%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kdiskfreespaceinfo.cpp.o
+[ 12%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/usernotificationhandler.cpp.o
+[ 12%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/ksambasharedata.cpp.o
+[ 13%] Built target kded_kcookiejar
+[ 13%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/ksambashare.cpp.o
+[ 14%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/knfsshare.cpp.o
+[ 14%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kfileitem.cpp.o
+[ 14%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/davjob.cpp.o
+[ 14%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/deletejob.cpp.o
+[ 14%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/copyjob.cpp.o
+[ 15%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/filejob.cpp.o
+[ 15%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/mkdirjob.cpp.o
+[ 15%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/mkpathjob.cpp.o
+[ 15%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kremoteencoding.cpp.o
+[ 16%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/sessiondata.cpp.o
+[ 16%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/slavebase.cpp.o
+[ 16%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/workerbase.cpp.o
+[ 16%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/dataworker.cpp.o
+[ 17%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/dataprotocol.cpp.o
+[ 17%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/desktopexecparser.cpp.o
+[ 17%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/emptytrashjob.cpp.o
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/list:63[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:55[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/copyjob.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/copyjob.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kvoid std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = KIO::CopyInfo; _Alloc = std::allocator<KIO::CopyInfo>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1212:24:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_List_iterator<KIO::CopyInfo>[m[K' changed in GCC 7.1
+ 1212 |       { [01;36m[Kthis->_M_insert(end(), __x)[m[K; }
+      |         [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:[m[K In member function '[01m[Kvoid std::__cxx11::list<_Tp, _Alloc>::_M_insert(std::__cxx11::list<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const KIO::CopyInfo&}; _Tp = KIO::CopyInfo; _Alloc = std::allocator<KIO::CopyInfo>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_list.h:1909:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::__cxx11::list<KIO::CopyInfo>::iterator[m[K' changed in GCC 7.1
+ 1909 |        [01;36m[K_M_insert[m[K(iterator __position, _Args&&... __args)
+      |        [01;36m[K^~~~~~~~~[m[K
+[ 17%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/authinfo.cpp.o
+[ 17%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/slaveinterface.cpp.o
+[ 18%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/slave.cpp.o
+[ 18%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/job_error.cpp.o
+[ 18%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/job.cpp.o
+[ 18%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/filecopyjob.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/desktopexecparser.cpp:[m[K In static member function '[01m[Kstatic QStringList KIO::DesktopExecParser::supportedProtocols(const KService&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/desktopexecparser.cpp:206:52:[m[K [01;35m[Kwarning: [m[K'[01m[KQStringList KService::serviceTypes() const[m[K' is deprecated: Since 5.104. Service Types are deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  206 |     const auto servicesTypes = [01;35m[Kservice.serviceTypes()[m[K;
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kapplicationtrader.h:13[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/KApplicationTrader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/desktopexecparser.cpp:15[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kservice.h:291:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  291 |     QStringList [01;36m[KserviceTypes[m[K() const;
+      |                 [01;36m[K^~~~~~~~~~~~[m[K
+[ 19%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/listjob.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/authinfo.cpp:14[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:[m[K In function '[01m[KQDataStream& QtPrivate::writeAssociativeContainer(QDataStream&, const Container&) [with Container = QMap<QString, ExtraField>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:351:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, ExtraField>::const_iterator[m[K' changed in GCC 7.1
+  351 |         const qint64 last = [01;36m[Kstd::distance(rangeStart, it)[m[K - 1;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/authinfo.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/authinfo.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, ExtraField>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, ExtraField>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, ExtraField>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, ExtraField>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = QMap<QString, ExtraField>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, ExtraField>::const_iterator[m[K' changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, ExtraField>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, ExtraField>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, ExtraField>::const_iterator[m[K' changed in GCC 7.1
+[ 19%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/mimetypejob.cpp.o
+[ 19%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/mimetypefinderjob.cpp.o
+[ 19%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/multigetjob.cpp.o
+[ 19%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/restorejob.cpp.o
+[ 20%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/simplejob.cpp.o
+[ 20%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/specialjob.cpp.o
+[ 20%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/statjob.cpp.o
+[ 20%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/namefinderjob.cpp.o
+[ 21%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/storedtransferjob.cpp.o
+[ 21%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/transferjob.cpp.o
+[ 21%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/filesystemfreespacejob.cpp.o
+[ 21%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/scheduler.cpp.o
+[ 21%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/slaveconfig.cpp.o
+[ 22%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kprotocolmanager.cpp.o
+[ 22%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/hostinfo.cpp.o
+[ 22%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kurlauthorized.cpp.o
+[ 22%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kacl.cpp.o
+[ 23%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/udsentry.cpp.o
+[ 23%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/global.cpp.o
+[ 23%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/metadata.cpp.o
+[ 23%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kprotocolinfo.cpp.o
+[ 24%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kprotocolinfofactory.cpp.o
+[ 24%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/jobtracker.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:[m[K In member function '[01m[Kvoid KIO::UDSEntryPrivate::insert(uint, const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:84:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+   84 |     Q_ASSERT([01;36m[Kstd::find_if(storage.cbegin(),[m[K
+      |              [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+   85 | [01;36m[K                          storage.cend(),[m[K
+      |                           [01;36m[K~~~~~~~~~~~~~~~[m[K
+   86 | [01;36m[K                          [udsField](const Field &entry) {[m[K
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   87 | [01;36m[K                              return entry.m_index == udsField;[m[K
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   88 | [01;36m[K                          })[m[K
+      |                           [01;36m[K~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:[m[K In member function '[01m[Kvoid KIO::UDSEntryPrivate::replace(uint, const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:96:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+   96 |     auto it = [01;36m[Kstd::find_if(storage.begin(), storage.end(), [udsField](const Field &entry) {[m[K
+      |               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   97 | [01;36m[K        return entry.m_index == udsField;[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   98 | [01;36m[K    })[m[K;
+      |     [01;36m[K~~[m[K                     
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:[m[K In member function '[01m[Kvoid KIO::UDSEntryPrivate::insert(uint, long long int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:109:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  109 |     Q_ASSERT([01;36m[Kstd::find_if(storage.cbegin(),[m[K
+      |              [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+  110 | [01;36m[K                          storage.cend(),[m[K
+      |                           [01;36m[K~~~~~~~~~~~~~~~[m[K
+  111 | [01;36m[K                          [udsField](const Field &entry) {[m[K
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  112 | [01;36m[K                              return entry.m_index == udsField;[m[K
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  113 | [01;36m[K                          })[m[K
+      |                           [01;36m[K~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:[m[K In member function '[01m[Kvoid KIO::UDSEntryPrivate::replace(uint, long long int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:121:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  121 |     auto it = [01;36m[Kstd::find_if(storage.begin(), storage.end(), [udsField](const Field &entry) {[m[K
+      |               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  122 | [01;36m[K        return entry.m_index == udsField;[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  123 | [01;36m[K    })[m[K;
+      |     [01;36m[K~~[m[K                     
+[ 24%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/jobuidelegateextension.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:[m[K In member function '[01m[KQString KIO::UDSEntryPrivate::stringValue(uint) const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:138:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  138 |     auto it = [01;36m[Kstd::find_if(storage.cbegin(), storage.cend(), [udsField](const Field &entry) {[m[K
+      |               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  139 | [01;36m[K        return entry.m_index == udsField;[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  140 | [01;36m[K    })[m[K;
+      |     [01;36m[K~~[m[K                     
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:[m[K In member function '[01m[Klong long int KIO::UDSEntryPrivate::numberValue(uint, long long int) const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:149:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  149 |     auto it = [01;36m[Kstd::find_if(storage.cbegin(), storage.cend(), [udsField](const Field &entry) {[m[K
+      |               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K        return entry.m_index == udsField;[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  151 | [01;36m[K    })[m[K;
+      |     [01;36m[K~~[m[K                     
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:[m[K In member function '[01m[Kbool KIO::UDSEntryPrivate::contains(uint) const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:182:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  182 |     auto it = [01;36m[Kstd::find_if(storage.cbegin(), storage.cend(), [udsField](const Field &entry) {[m[K
+      |               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  183 | [01;36m[K        return entry.m_index == udsField;[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  184 | [01;36m[K    })[m[K;
+      |     [01;36m[K~~[m[K                     
+[ 24%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/jobuidelegatefactory.cpp.o
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::insert(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3901 |     [01;36m[Kfind_if[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3910:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3910 |       return [01;36m[Kstd::__find_if(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 3911 | [01;36m[K                            __gnu_cxx::__ops::__pred_iter(__pred))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:72[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:[m[K In member function '[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {unsigned int&, const QString&}; _Tp = KIO::UDSEntryPrivate::Field; _Alloc = std::allocator<KIO::UDSEntryPrivate::Field>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:121:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  121 |           [01;36m[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::replace(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3901 |     [01;36m[Kfind_if[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3910:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3910 |       return [01;36m[Kstd::__find_if(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 3911 | [01;36m[K                            __gnu_cxx::__ops::__pred_iter(__pred))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 24%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/askuseractioninterface.cpp.o
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::insert(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3901 |     [01;36m[Kfind_if[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3910:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3910 |       return [01;36m[Kstd::__find_if(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 3911 | [01;36m[K                            __gnu_cxx::__ops::__pred_iter(__pred))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:72[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:[m[K In member function '[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {unsigned int&, long long int&}; _Tp = KIO::UDSEntryPrivate::Field; _Alloc = std::allocator<KIO::UDSEntryPrivate::Field>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:121:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  121 |           [01;36m[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::replace(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3901 |     [01;36m[Kfind_if[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3910:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3910 |       return [01;36m[Kstd::__find_if(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 3911 | [01;36m[K                            __gnu_cxx::__ops::__pred_iter(__pred))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::stringValue(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3901 |     [01;36m[Kfind_if[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3910:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3910 |       return [01;36m[Kstd::__find_if(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 3911 | [01;36m[K                            __gnu_cxx::__ops::__pred_iter(__pred))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::numberValue(uint, long long int) const::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3901 |     [01;36m[Kfind_if[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3910:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3910 |       return [01;36m[Kstd::__find_if(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 3911 | [01;36m[K                            __gnu_cxx::__ops::__pred_iter(__pred))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::contains(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3901 |     [01;36m[Kfind_if[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3901:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:3910:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 3910 |       return [01;36m[Kstd::__find_if(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 3911 | [01;36m[K                            __gnu_cxx::__ops::__pred_iter(__pred))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::insert(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2112 |     [01;36m[K__find_if[m[K(_Iterator __first, _Iterator __last, _Predicate __pred)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2114:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2114 |       return [01;36m[K__find_if(__first, __last, __pred,[m[K
+      |              [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2115 | [01;36m[K                       std::__iterator_category(__first))[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:72[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {unsigned int&, const QString&}; _Tp = KIO::UDSEntryPrivate::Field; _Alloc = std::allocator<KIO::UDSEntryPrivate::Field>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:426:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<KIO::UDSEntryPrivate::Field>::iterator[m[K' changed in GCC 7.1
+  426 |       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::replace(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2112 |     [01;36m[K__find_if[m[K(_Iterator __first, _Iterator __last, _Predicate __pred)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2114:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2114 |       return [01;36m[K__find_if(__first, __last, __pred,[m[K
+      |              [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2115 | [01;36m[K                       std::__iterator_category(__first))[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::insert(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2112 |     [01;36m[K__find_if[m[K(_Iterator __first, _Iterator __last, _Predicate __pred)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2114:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2114 |       return [01;36m[K__find_if(__first, __last, __pred,[m[K
+      |              [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2115 | [01;36m[K                       std::__iterator_category(__first))[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:72[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {unsigned int&, long long int&}; _Tp = KIO::UDSEntryPrivate::Field; _Alloc = std::allocator<KIO::UDSEntryPrivate::Field>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:426:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<KIO::UDSEntryPrivate::Field>::iterator[m[K' changed in GCC 7.1
+  426 |       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::replace(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2112 |     [01;36m[K__find_if[m[K(_Iterator __first, _Iterator __last, _Predicate __pred)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2114:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2114 |       return [01;36m[K__find_if(__first, __last, __pred,[m[K
+      |              [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2115 | [01;36m[K                       std::__iterator_category(__first))[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::stringValue(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2112 |     [01;36m[K__find_if[m[K(_Iterator __first, _Iterator __last, _Predicate __pred)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2114:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2114 |       return [01;36m[K__find_if(__first, __last, __pred,[m[K
+      |              [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2115 | [01;36m[K                       std::__iterator_category(__first))[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::numberValue(uint, long long int) const::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2112 |     [01;36m[K__find_if[m[K(_Iterator __first, _Iterator __last, _Predicate __pred)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2114:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2114 |       return [01;36m[K__find_if(__first, __last, __pred,[m[K
+      |              [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2115 | [01;36m[K                       std::__iterator_category(__first))[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::contains(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2112 |     [01;36m[K__find_if[m[K(_Iterator __first, _Iterator __last, _Predicate __pred)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2112:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2114:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2114 |       return [01;36m[K__find_if(__first, __last, __pred,[m[K
+      |              [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2115 | [01;36m[K                       std::__iterator_category(__first))[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::insert(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2061 |     [01;36m[K__find_if[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2069:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2069 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2073:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2073 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2077:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2077 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2081:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2081 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2089:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2089 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2094:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2094 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2099:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2099 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::replace(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2061 |     [01;36m[K__find_if[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2069:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2069 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2073:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2073 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2077:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2077 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2081:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2081 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2089:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2089 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2094:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2094 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2099:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2099 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::insert(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2061 |     [01;36m[K__find_if[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2069:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2069 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2073:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2073 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2077:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2077 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2081:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2081 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2089:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2089 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2094:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2094 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2099:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2099 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::replace(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2061 |     [01;36m[K__find_if[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2069:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2069 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2073:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2073 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2077:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2077 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2081:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2081 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2089:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2089 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2094:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2094 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2099:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2099 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::stringValue(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2061 |     [01;36m[K__find_if[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2069:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2069 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2073:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2073 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2077:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2077 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2081:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2081 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2089:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2089 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2094:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2094 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2099:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2099 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::numberValue(uint, long long int) const::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2061 |     [01;36m[K__find_if[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2069:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2069 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2073:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2073 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2077:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2077 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2081:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2081 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2089:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2089 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2094:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2094 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2099:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2099 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<KIO::UDSEntryPrivate::contains(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2061 |     [01;36m[K__find_if[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2061:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2069:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2069 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2073:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2073 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2077:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2077 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2081:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2081 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2089:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2089 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2094:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2094 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:2099:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+ 2099 |           if ([01;36m[K__pred(__first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::insert(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:317:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  317 |         [01;36m[Koperator[m[K()(_Iterator __it)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::replace(uint, const QString&)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:317:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::insert(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:317:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::replace(uint, long long int)::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:317:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::stringValue(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:317:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::numberValue(uint, long long int) const::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:317:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _Predicate = KIO::UDSEntryPrivate::contains(uint) const::<lambda(const KIO::UDSEntryPrivate::Field&)>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:317:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:67[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_vector.h:[m[K In copy constructor '[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = KIO::UDSEntryPrivate::Field; _Alloc = std::allocator<KIO::UDSEntryPrivate::Field>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_vector.h:558:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  558 |           [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 | [01;36m[K                                      this->_M_impl._M_start,[m[K
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  560 | [01;36m[K                                      _M_get_Tp_allocator())[m[K;
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qalgorithms.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/udsentry.cpp:11[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:[m[K In function '[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _ForwardIterator = KIO::UDSEntryPrivate::Field*; _Tp = KIO::UDSEntryPrivate::Field][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:331:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  331 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:331:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:333:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  333 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:[m[K In function '[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _ForwardIterator = KIO::UDSEntryPrivate::Field*][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:126:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  126 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:126:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:151:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+  148 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K                                       && __is_trivial(_ValueType2)[m[K
+      |                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K                                       && __assignable>::[m[K
+      |                                        [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  151 | [01;36m[K        __uninit_copy(__first, __last, __result)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:[m[K In static member function '[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >; _ForwardIterator = KIO::UDSEntryPrivate::Field*; bool _TrivialValueTypes = false][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:85:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+   85 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_uninitialized.h:85:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<const KIO::UDSEntryPrivate::Field*, std::vector<KIO::UDSEntryPrivate::Field> >[m[K' changed in GCC 7.1
+[ 25%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kmountpoint.cpp.o
+[ 25%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kcoredirlister.cpp.o
+[ 25%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/faviconscache.cpp.o
+[ 25%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/untrustedprogramhandlerinterface.cpp.o
+[ 26%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kioglobal_p.cpp.o
+[ 26%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/batchrenamejob.cpp.o
+[ 26%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/workerconfig.cpp.o
+[ 26%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/workerfactory.cpp.o
+[ 26%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/workerthread.cpp.o
+[ 27%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kfilefilter.cpp.o
+[ 27%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/tcpslavebase.cpp.o
+[ 27%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/tcpworkerbase.cpp.o
+[ 27%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/forwardingslavebase.cpp.o
+[ 28%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kpasswdserverloop.cpp.o
+[ 28%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kpasswdserverclient.cpp.o
+[ 28%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kdirnotify.cpp.o
+[ 28%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/forwardingworkerbase.cpp.o
+[ 29%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/ksslcertificatemanager.cpp.o
+[ 29%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/ksslerroruidata.cpp.o
+[ 29%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/ktcpsocket.cpp.o
+[ 29%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kssl/ksslsettings.cpp.o
+[ 29%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kiocoredebug.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitFileRenamed(const QUrl&, const QUrl&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:34:47:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   34 |     emitSignal(QStringLiteral("FileRenamed"), [01;36m[KQVariantList{src.toString(), dst.toString()}[m[K);
+      |                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:35:60:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   35 |     emitSignal(QStringLiteral("FileRenamedWithLocalPath"), [01;36m[KQVariantList{src.toString(), dst.toString(), QString()}[m[K);
+      |                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitFileRenamedWithLocalPath(const QUrl&, const QUrl&, const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:40:47:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   40 |     emitSignal(QStringLiteral("FileRenamed"), [01;36m[KQVariantList{src.toString(), dst.toString()}[m[K);
+      |                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:41:60:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   41 |     emitSignal(QStringLiteral("FileRenamedWithLocalPath"), [01;36m[KQVariantList{src.toString(), dst.toString(), dstPath}[m[K);
+      |                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitFileMoved(const QUrl&, const QUrl&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:46:45:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   46 |     emitSignal(QStringLiteral("FileMoved"), [01;36m[KQVariantList{src.toString(), dst.toString()}[m[K);
+      |                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitFilesAdded(const QUrl&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:51:46:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   51 |     emitSignal(QStringLiteral("FilesAdded"), [01;36m[KQVariantList{QVariant(directory.toString())}[m[K);
+      |                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitFilesChanged(const QList<QUrl>&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:56:48:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   56 |     emitSignal(QStringLiteral("FilesChanged"), [01;36m[KQVariantList{QVariant(QUrl::toStringList(fileList))}[m[K);
+      |                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitFilesRemoved(const QList<QUrl>&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:61:48:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   61 |     emitSignal(QStringLiteral("FilesRemoved"), [01;36m[KQVariantList{QVariant(QUrl::toStringList(fileList))}[m[K);
+      |                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitEnteredDirectory(const QUrl&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:66:52:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   66 |     emitSignal(QStringLiteral("enteredDirectory"), [01;36m[KQVariantList{QVariant(url.toString())}[m[K);
+      |                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:[m[K In static member function '[01m[Kstatic void OrgKdeKDirNotifyInterface::emitLeftDirectory(const QUrl&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:71:49:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   71 |     emitSignal(QStringLiteral("leftDirectory"), [01;36m[KQVariantList{QVariant(url.toString())}[m[K);
+      |                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qvariant.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusabstractinterface.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusAbstractInterface:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.h:16[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/kdirnotify.cpp:9[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[ 30%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kioglobal_p_unix.cpp.o
+[ 30%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kiofuse_interface.cpp.o
+[ 30%] Building CXX object src/core/CMakeFiles/KF5KIOCore.dir/kpasswdserver_interface.cpp.o
+[ 30%] Linking CXX shared library ../../bin/libKF5KIOCore.so
+[ 30%] Built target KF5KIOCore
+[ 31%] Automatic MOC for target file_helper
+[ 31%] Automatic MOC for target kio_trash
+[ 31%] Automatic MOC for target kio_file
+[ 31%] Generating kcmtrash.json
+[ 31%] Automatic MOC for target ktrash5
+[ 31%] Automatic MOC for target kio_ftp
+[ 31%] Automatic MOC for target kio_http
+[ 31%] Automatic MOC for target kio_http_cache_cleaner
+Warning: Unable to find service type for service "KCModule" listed in "/home/szybet/kdesrc/frameworks/kio/src/ioslaves/trash/kcmtrash.desktop" - service type search directories were ("//mnt/HDD/Project/Public/okulartry/okular-things/share") (:0, )
+Unknown property type for key "X-KDE-ParentApp" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-DocPath" -> falling back to string
+Generated  "/home/szybet/kdesrc/build/frameworks/kio/src/ioslaves/trash/kcmtrash.json"
+[ 31%] Automatic MOC for target kcm_trash
+[ 31%] Built target kio_http_cache_cleaner_autogen
+[ 31%] Built target ktrash5_autogen
+[ 31%] Automatic MOC for target kio_remote
+[ 31%] Automatic MOC for target remotedirnotify
+[ 31%] Built target file_helper_autogen
+[ 31%] Automatic MOC for target kiod5
+[ 31%] Built target kio_file_autogen
+[ 32%] Automatic MOC for target kssld
+[ 32%] Built target kio_http_autogen
+[ 32%] Built target kio_trash_autogen
+[ 32%] Built target kio_ftp_autogen
+[ 32%] Built target kcm_trash_autogen
+[ 32%] Automatic MOC for target KF5KIOGui
+[ 33%] Automatic MOC for target kioslave5
+[ 33%] Automatic MOC for target kiod_kpasswdserver
+[ 34%] Automatic MOC for target kioexecd
+[ 34%] Built target remotedirnotify_autogen
+[ 34%] Built target kio_remote_autogen
+[ 34%] Built target kioslave5_autogen
+[ 35%] Generating cookies.json
+[ 35%] Generating netpref.json
+Warning: Unable to find service type for service "KCModule" listed in "/home/szybet/kdesrc/frameworks/kio/src/kcms/cookies/cookies.desktop" - service type search directories were ("//mnt/HDD/Project/Public/okulartry/okular-things/share") (:0, )
+Unknown property type for key "X-DocPath" -> falling back to string
+Unknown property type for key "X-KDE-ParentApp" -> falling back to string
+Unknown property type for key "X-KDE-System-Settings-Parent-Category" -> falling back to string
+Unknown property type for key "X-KDE-Weight" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Generated  "/home/szybet/kdesrc/build/frameworks/kio/src/kcms/cookies/cookies.json"
+Warning: Unable to find service type for service "KCModule" listed in "/home/szybet/kdesrc/frameworks/kio/src/kcms/netpref/netpref.desktop" - service type search directories were ("//mnt/HDD/Project/Public/okulartry/okular-things/share") (:0, )
+Unknown property type for key "X-DocPath" -> falling back to string
+Unknown property type for key "X-KDE-ParentApp" -> falling back to string
+Unknown property type for key "X-KDE-System-Settings-Parent-Category" -> falling back to string
+Unknown property type for key "X-KDE-Weight" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Unknown property type for key "X-KDE-Keywords" -> falling back to string
+Generated  "/home/szybet/kdesrc/build/frameworks/kio/src/kcms/netpref/netpref.json"
+[ 35%] Automatic MOC for target kcm_cookies
+[ 35%] Automatic MOC for target kded_proxyscout
+[ 35%] Automatic MOC for target kcm_netpref
+[ 35%] Built target kiod5_autogen
+[ 35%] Built target kiod_kpasswdserver_autogen
+[ 35%] Building CXX object src/ioslaves/file/CMakeFiles/kio_file.dir/kio_file_autogen/mocs_compilation.cpp.o
+[ 35%] Building CXX object src/ioslaves/file/CMakeFiles/kio_file.dir/file.cpp.o
+[ 35%] Built target kssld_autogen
+[ 36%] Building CXX object src/ioslaves/file/CMakeFiles/kio_file.dir/file_unix.cpp.o
+[ 36%] Built target kioexecd_autogen
+[ 36%] Building CXX object src/ioslaves/file/CMakeFiles/kio_file.dir/fdreceiver.cpp.o
+[ 36%] Built target kcm_netpref_autogen
+[ 36%] Building CXX object src/ioslaves/file/CMakeFiles/kio_file.dir/legacycodec.cpp.o
+[ 36%] Built target kcm_cookies_autogen
+[ 36%] Built target kded_proxyscout_autogen
+[ 36%] Building CXX object src/ioslaves/file/kauth/CMakeFiles/file_helper.dir/file_helper_autogen/mocs_compilation.cpp.o
+[ 36%] Building CXX object src/ioslaves/trash/CMakeFiles/kio_trash.dir/kio_trash_autogen/mocs_compilation.cpp.o
+[ 36%] Built target KF5KIOGui_autogen
+[ 37%] Building CXX object src/ioslaves/trash/CMakeFiles/kio_trash.dir/kio_trash.cpp.o
+[ 37%] Building CXX object src/ioslaves/trash/CMakeFiles/kio_trash.dir/trashimpl.cpp.o
+[ 37%] Building CXX object src/ioslaves/trash/CMakeFiles/kio_trash.dir/discspaceutil.cpp.o
+[ 37%] Building CXX object src/ioslaves/trash/CMakeFiles/kio_trash.dir/trashsizecache.cpp.o
+[ 37%] Building CXX object src/ioslaves/file/kauth/CMakeFiles/file_helper.dir/filehelper.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file_unix.cpp:[m[K In member function '[01m[Kvirtual void FileProtocol::copy(const QUrl&, const QUrl&, int, KIO::JobFlags)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file_unix.cpp:822:39:[m[K [01;31m[Kerror: [m[K'[01m[K::copy_file_range[m[K' has not been declared; did you mean '[01m[Ksync_file_range[m[K'?
+  822 |         const ssize_t copiedBytes = ::[01;31m[Kcopy_file_range[m[K(srcFile.handle(), nullptr, destFile.handle(), nullptr, s_maxIPCSize, 0);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                       [32m[Ksync_file_range[m[K
+[ 38%] Building CXX object src/ioslaves/file/kauth/CMakeFiles/file_helper.dir/fdsender.cpp.o
+make[2]: *** [src/ioslaves/file/CMakeFiles/kio_file.dir/build.make:104: src/ioslaves/file/CMakeFiles/kio_file.dir/file_unix.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 38%] Building CXX object src/ioslaves/trash/CMakeFiles/kio_trash.dir/kinterprocesslock.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:[m[K In member function '[01m[Kvirtual void FileProtocol::chmod(const QUrl&, int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:162:49:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  162 |         if (auto err = [01;36m[KexecWithElevatedPrivilege(CHMOD, {_path, permissions}, errno)[m[K) {
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:[m[K In member function '[01m[Kvirtual void FileProtocol::setModificationTime(const QUrl&, const QDateTime&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:197:53:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  197 |             if (auto err = [01;36m[KexecWithElevatedPrivilege(UTIME, {path, qint64(utbuf.actime), qint64(utbuf.modtime)}, errno)[m[K) {
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:[m[K In member function '[01m[Kvirtual void FileProtocol::mkdir(const QUrl&, int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:220:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  220 |             [01;36m[KexecWithElevatedPrivilege(DEL, {path}, errno)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:228:53:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  228 |             if (auto err = [01;36m[KexecWithElevatedPrivilege(MKDIR, {path}, errno)[m[K) {
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:[m[K In member function '[01m[Kvirtual void FileProtocol::put(const QUrl&, int, KIO::JobFlags)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:636:54:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  636 |                             [01;36m[KexecWithElevatedPrivilege(CHOWN, {dest, getuid(), getgid()}, errno)[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:697:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  697 |                 [01;36m[KexecWithElevatedPrivilege(DEL, {dest_orig}, errno)[m[K;
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:702:53:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  702 |             if (auto err = [01;36m[KexecWithElevatedPrivilege(RENAME, {dest, dest_orig}, errno)[m[K) {
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:719:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  719 |                 if ([01;36m[KtryChangeFileAttr(CHMOD, {dest_orig, _mode}, errno)[m[K) {
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:[m[K In member function '[01m[Kbool FileProtocol::deleteRecursive(const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:965:57:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  965 |                 if (auto err = [01;36m[KexecWithElevatedPrivilege(DEL, {itemPath}, errno)[m[K) {
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:978:53:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  978 |             if (auto err = [01;36m[KexecWithElevatedPrivilege(RMDIR, {itemPath}, errno)[m[K) {
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qiodevice.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qfiledevice.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qfile.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QFile:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/core/global.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/build/frameworks/kio/src/core/kio/global.h:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kio/src/ioslaves/file/file.cpp:11[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[ 39%] Building CXX object src/ioslaves/trash/CMakeFiles/kio_trash.dir/kiotrashdebug.cpp.o
+make[1]: *** [CMakeFiles/Makefile2:1181: src/ioslaves/file/CMakeFiles/kio_file.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 39%] Linking CXX executable ../../../../bin/file_helper
+[ 39%] Built target file_helper
+[ 39%] Linking CXX shared module ../../../bin/kf5/kio/kio_trash.so
+[ 39%] Built target kio_trash
+make: *** [Makefile:136: all] Error 2

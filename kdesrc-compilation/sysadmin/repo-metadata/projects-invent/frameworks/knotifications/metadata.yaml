@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-knotifications
+description: KNotifications
+hasrepo: true
+identifier: knotifications
+name: KNotifications
+projectpath: frameworks/knotifications
+repoactive: true
+repopath: frameworks/knotifications

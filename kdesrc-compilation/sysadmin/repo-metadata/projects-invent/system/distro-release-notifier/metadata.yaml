@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: distro-release-notifier
+name: Distribution Release Notifier
+projectpath: playground/base/distro-release-notifier
+repoactive: true
+repopath: system/distro-release-notifier

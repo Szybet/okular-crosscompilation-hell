@@ -1,0 +1,7 @@
+description: Simple Qt systemd interface library
+hasrepo: true
+identifier: libqsystemd
+name: libqsystemd
+projectpath: playground/libs/libqsystemd
+repoactive: false
+repopath: libraries/libqsystemd

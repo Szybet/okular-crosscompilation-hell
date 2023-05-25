@@ -1,0 +1,7 @@
+description: Verapp support plugin for KDevelop
+hasrepo: true
+identifier: kdev-verapp
+name: KDevelop Verapp Support
+projectpath: playground/devtools/plugins/kdev-verapp
+repoactive: true
+repopath: kdevelop/kdev-verapp

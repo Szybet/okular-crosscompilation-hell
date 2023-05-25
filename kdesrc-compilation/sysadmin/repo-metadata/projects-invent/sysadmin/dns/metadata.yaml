@@ -1,0 +1,7 @@
+description: DNS Zone files for Sysadmin managed domains
+hasrepo: true
+identifier: sysadmin-dns
+name: DNS
+projectpath: sysadmin/dns
+repoactive: false
+repopath: sysadmin/dns

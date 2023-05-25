@@ -1,0 +1,7 @@
+description: Static copy of the KDE Commit Digest — commit-digest.kde.org
+hasrepo: true
+identifier: websites-commit-digest-kde-org
+name: KDE Commit Digest
+projectpath: websites/commit-digest-kde-org
+repoactive: true
+repopath: websites/commit-digest-kde-org

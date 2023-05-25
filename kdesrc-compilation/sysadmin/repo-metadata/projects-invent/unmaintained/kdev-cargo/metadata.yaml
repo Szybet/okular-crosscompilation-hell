@@ -1,0 +1,7 @@
+description: Cargo language support for KDevelop
+hasrepo: true
+identifier: kdev-cargo
+name: KDevelop Cargo Plugin
+projectpath: unmaintained/kdev-cargo
+repoactive: false
+repopath: unmaintained/kdev-cargo

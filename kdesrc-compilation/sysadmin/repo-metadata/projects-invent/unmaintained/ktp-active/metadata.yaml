@@ -1,0 +1,7 @@
+description: Plasma Active Client for KDE Telepathy
+hasrepo: true
+identifier: ktp-active
+name: Active Client for KDE Telepathy
+projectpath: unmaintained/ktp-active
+repoactive: false
+repopath: unmaintained/ktp-active

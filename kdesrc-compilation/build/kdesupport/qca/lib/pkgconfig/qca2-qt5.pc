@@ -1,0 +1,11 @@
+prefix=/mnt/HDD/Project/Public/okulartry/okular-things
+exec_prefix=/mnt/HDD/Project/Public/okulartry/okular-things
+libdir=/mnt/HDD/Project/Public/okulartry/okular-things/lib
+includedir=/mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto
+
+Name: QCA
+Description: Qt Cryptographic Architecture library
+Version: 2.3.6
+Requires: Qt5Core
+Libs: -L${libdir} -lqca-qt5
+Cflags: -I${includedir}

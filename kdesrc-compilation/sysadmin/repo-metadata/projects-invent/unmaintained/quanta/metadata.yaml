@@ -1,0 +1,7 @@
+description: Quanta, an IDE for Web Development based on the KDevelop Platform.
+hasrepo: true
+identifier: quanta
+name: Quanta
+projectpath: playground/devtools/quanta
+repoactive: false
+repopath: unmaintained/quanta

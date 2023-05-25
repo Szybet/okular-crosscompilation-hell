@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmbox
+description: Library for working with MBox format files
+hasrepo: true
+identifier: kmbox
+name: KMbox
+projectpath: kde/pim/kmbox
+repoactive: true
+repopath: pim/kmbox

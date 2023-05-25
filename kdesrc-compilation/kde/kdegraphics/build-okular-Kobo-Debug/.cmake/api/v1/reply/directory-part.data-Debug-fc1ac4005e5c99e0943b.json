@@ -1,0 +1,106 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"part/data/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "okular",
+			"destination" : "share/okular",
+			"paths" : 
+			[
+				"part/data/tools.xml",
+				"part/data/toolsQuick.xml",
+				"part/data/drawingtools.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "okular",
+			"destination" : "share/okular/pics",
+			"paths" : 
+			[
+				"part/data/tool-base-okular.png",
+				"part/data/tool-base-okular@2x.png",
+				"part/data/tool-highlighter-okular-colorizable.png",
+				"part/data/tool-highlighter-okular-colorizable@2x.png",
+				"part/data/tool-ink-okular-colorizable.png",
+				"part/data/tool-ink-okular-colorizable@2x.png",
+				"part/data/tool-note.png",
+				"part/data/tool-note-okular-colorizable.png",
+				"part/data/tool-note-okular-colorizable@2x.png",
+				"part/data/tool-note-inline.png",
+				"part/data/tool-note-inline-okular-colorizable.png",
+				"part/data/tool-note-inline-okular-colorizable@2x.png",
+				"part/data/tool-typewriter-okular-colorizable.png",
+				"part/data/tool-typewriter-okular-colorizable@2x.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "share/okular/pics",
+			"paths" : 
+			[
+				"part/data/checkmark.png",
+				"part/data/circle.png",
+				"part/data/comment.png",
+				"part/data/cross.png",
+				"part/data/help.png",
+				"part/data/insert.png",
+				"part/data/key.png",
+				"part/data/newparagraph.png",
+				"part/data/note.png",
+				"part/data/paperclip.png",
+				"part/data/paragraph.png",
+				"part/data/pushpin.png",
+				"part/data/rightarrow.png",
+				"part/data/rightpointer.png",
+				"part/data/star.png",
+				"part/data/uparrow.png",
+				"part/data/upleftarrow.png"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "part/data",
+		"source" : "part/data"
+	}
+}

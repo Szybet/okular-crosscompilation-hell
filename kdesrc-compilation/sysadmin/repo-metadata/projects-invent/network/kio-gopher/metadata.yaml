@@ -1,0 +1,7 @@
+description: Gopher KIO Slave
+hasrepo: true
+identifier: kio-gopher
+name: KIO Gopher
+projectpath: extragear/network/kio-gopher
+repoactive: true
+repopath: network/kio-gopher

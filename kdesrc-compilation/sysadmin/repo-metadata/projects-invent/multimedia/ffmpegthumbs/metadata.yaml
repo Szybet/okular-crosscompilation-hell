@@ -1,0 +1,9 @@
+description: FFmpeg-based thumbnail creator for video files
+hasrepo: true
+identifier: ffmpegthumbs
+name: FFmpeg Thumbnailer
+projectpath: kde/kdemultimedia/ffmpegthumbs
+repoactive: true
+repopath: multimedia/ffmpegthumbs
+bugzilla:
+  product: kdemultimedia

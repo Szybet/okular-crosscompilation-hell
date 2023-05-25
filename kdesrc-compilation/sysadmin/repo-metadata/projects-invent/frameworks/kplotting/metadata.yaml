@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kplotting
+description: KPlotting
+hasrepo: true
+identifier: kplotting
+name: KPlotting
+projectpath: frameworks/kplotting
+repoactive: true
+repopath: frameworks/kplotting

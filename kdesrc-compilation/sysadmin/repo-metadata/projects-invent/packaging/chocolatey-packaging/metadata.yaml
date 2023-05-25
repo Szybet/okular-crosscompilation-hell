@@ -1,0 +1,7 @@
+description: Packaging information necessary to generate Chocolatey.org packages
+hasrepo: true
+identifier: chocolatey-packaging
+name: Chocolatey Packaging
+projectpath: playground/devtools/chocolatey-packaging
+repoactive: false
+repopath: packaging/chocolatey-packaging

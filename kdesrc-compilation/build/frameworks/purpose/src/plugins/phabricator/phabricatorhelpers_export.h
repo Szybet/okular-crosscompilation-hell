@@ -1,0 +1,42 @@
+
+#ifndef PHABRICATORHELPERS_EXPORT_H
+#define PHABRICATORHELPERS_EXPORT_H
+
+#ifdef PHABRICATORHELPERS_STATIC_DEFINE
+#  define PHABRICATORHELPERS_EXPORT
+#  define PHABRICATORHELPERS_NO_EXPORT
+#else
+#  ifndef PHABRICATORHELPERS_EXPORT
+#    ifdef PhabricatorHelpers_EXPORTS
+        /* We are building this library */
+#      define PHABRICATORHELPERS_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define PHABRICATORHELPERS_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef PHABRICATORHELPERS_NO_EXPORT
+#    define PHABRICATORHELPERS_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef PHABRICATORHELPERS_DEPRECATED
+#  define PHABRICATORHELPERS_DEPRECATED __attribute__ ((__deprecated__))
+#endif
+
+#ifndef PHABRICATORHELPERS_DEPRECATED_EXPORT
+#  define PHABRICATORHELPERS_DEPRECATED_EXPORT PHABRICATORHELPERS_EXPORT PHABRICATORHELPERS_DEPRECATED
+#endif
+
+#ifndef PHABRICATORHELPERS_DEPRECATED_NO_EXPORT
+#  define PHABRICATORHELPERS_DEPRECATED_NO_EXPORT PHABRICATORHELPERS_NO_EXPORT PHABRICATORHELPERS_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef PHABRICATORHELPERS_NO_DEPRECATED
+#    define PHABRICATORHELPERS_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* PHABRICATORHELPERS_EXPORT_H */

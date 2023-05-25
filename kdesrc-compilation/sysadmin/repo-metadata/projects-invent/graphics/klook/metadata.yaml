@@ -1,0 +1,7 @@
+description: Quick file content preview application with Dolphin integration
+hasrepo: true
+identifier: klook
+name: Klook
+projectpath: playground/base/klook
+repoactive: false
+repopath: graphics/klook

@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: approver
+description: KDE channel approver for Telepathy
+hasrepo: true
+identifier: ktp-approver
+name: Telepathy Approver
+projectpath: kde/kdenetwork/ktp-approver
+repoactive: true
+repopath: network/ktp-approver

@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdnssd
+description: KDNSSD Framework
+hasrepo: true
+identifier: kdnssd
+name: KDNSSD Framework
+projectpath: frameworks/kdnssd
+repoactive: true
+repopath: frameworks/kdnssd

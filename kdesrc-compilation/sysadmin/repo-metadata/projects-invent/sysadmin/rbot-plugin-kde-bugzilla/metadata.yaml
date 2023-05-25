@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-rbot-plugin-kde-bugzilla
+name: RBot plugin resolving Bugzilla items
+projectpath: sysadmin/rbot-plugin-kde-bugzilla
+repoactive: false
+repopath: sysadmin/rbot-plugin-kde-bugzilla

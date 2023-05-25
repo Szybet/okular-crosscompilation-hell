@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kirigami
+description: A QtQuick based components set
+hasrepo: true
+identifier: kirigami
+name: Kirigami
+projectpath: frameworks/kirigami
+repoactive: true
+repopath: frameworks/kirigami

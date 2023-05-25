@@ -1,0 +1,7 @@
+description: KPart-based video player plugin
+hasrepo: true
+identifier: kmplayer
+name: KMPlayer
+projectpath: extragear/multimedia/kmplayer
+repoactive: true
+repopath: multimedia/kmplayer

@@ -1,0 +1,7 @@
+description: Repository for the development of the KDE Frameworks Cookbook
+hasrepo: true
+identifier: kf5book
+name: KDE Frameworks Cookbook
+projectpath: books/kf5book
+repoactive: false
+repopath: documentation/kf5book

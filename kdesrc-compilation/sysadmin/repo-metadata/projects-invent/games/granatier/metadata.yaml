@@ -1,0 +1,9 @@
+bugzilla:
+  product: Granatier
+description: Granatier is a clone of the classic Bomberman game
+hasrepo: true
+identifier: granatier
+name: Granatier
+projectpath: kde/kdegames/granatier
+repoactive: true
+repopath: games/granatier

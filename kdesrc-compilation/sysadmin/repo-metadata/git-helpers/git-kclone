@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+import os
+import sys
+import yaml
+import fnmatch
+import subprocess
+
+# Settings
+gitClonePattern = "https://invent.kde.org/{0}.git"
+gitPushPattern  = "git@invent.kde.org:{0}.git"
+
+# First we need to make sure we have at least one argument
+if len(sys.argv) < 2:
+    print("Error: Missing name of repository to clone")
+    print("Usage: git kclone <repository-name> <other git clone parameters>")
+    sys.exit(10)
+
+# Determine where the repository metadata tree lives
+# We are at git-helpers/ while the metadata is at projects-invent/
+# So first we locate ourselves and then adjust the location accordingly
+fileLocation = os.path.dirname( os.path.realpath(__file__) )
+relativeChange = '../projects-invent/'
+repositoryMetadataPrefix = os.path.realpath( os.path.join(fileLocation, relativeChange) )
+
+# Prepare to load the metadata
+knownProjects = []
+
+# Start going over all the known repositories...
+for currentPath, subdirectories, filesInFolder in os.walk( repositoryMetadataPrefix, topdown=False, followlinks=False ):
+    # Do we have a metadata.yaml file?
+    if 'metadata.yaml' not in filesInFolder:
+        # We're not interested then....
+        continue
+
+    # Now that we know we have something to work with....
+    # Lets load the current metadata up
+    metadataPath = os.path.join( currentPath, 'metadata.yaml' )
+    metadataFile = open( metadataPath, 'r' )
+    metadata = yaml.safe_load( metadataFile )
+
+    # Have we found a repository?
+    # If it is a repository, is it active?
+    if not metadata['hasrepo'] or not metadata['repoactive']:
+        # Then we should skip it as well...
+        continue
+
+    # We have something we can work with!
+    # Grab the identifier and path...
+    identifier = metadata['identifier']
+    repoPath   = metadata['repopath']
+
+    # Add it to our list of known repositories
+    knownProjects.append( metadata )
+
+# Now that we know about everything, we can start determining what to clone...
+reposToClone = []
+
+# Go over all the projects we discovered to search for our match
+for project in knownProjects:
+    # Do we have an exact match by identifier?
+    if project['identifier'] == sys.argv[1]:
+        # Then add it to the list
+        reposToClone.append( project )
+        continue
+
+    # Otherwise, do we have an exact match by path?
+    if project['repopath'] == sys.argv[1]:
+        # Add it to the list!
+        reposToClone.append( project )
+        continue
+
+    # Next we check whether the argument we have been passed could potentially be a shell glob pattern
+    # If it doesn't, then there is nothing further for us to do
+    if "*" not in sys.argv[1]:
+        continue
+
+    # First we check against identifiers (which cannot contain a slash)
+    if '/' not in sys.argv[1] and fnmatch.fnmatch( project['identifier'], sys.argv[1] ):
+        reposToClone.append( project )
+        continue
+
+    # Then we check against paths (which cannot contain a slash)
+    if '/' in sys.argv[1] and fnmatch.fnmatch( project['repopath'], sys.argv[1] ):
+        reposToClone.append( project )
+        continue
+
+# Just in case, did we find nothing to clone?
+# If we failed to find something, then before we bail out, check to see if we were passed a path with a slash in it
+# If the path has a slash in it, then as a final fallback assume that it could be a personal repository....
+if len(reposToClone) == 0 and '/' in sys.argv[1] and '*' not in sys.argv[1]:
+    # Note that we are making this assumption
+    print("WARNING: Unable to find any project matching the path specified - assuming this is a personal repository")
+
+    # Mock up the metadata
+    project = {
+        'description': '',
+        'hasrepo': True,
+        'name': sys.argv[1],
+        'projectpath': sys.argv[1],
+        'repopath': sys.argv[1],
+        'identifier': sys.argv[1].replace('/', '-')
+    }
+
+    # Add it to the list of projects to clone
+    reposToClone.append( project )
+
+# Finally, check to see if we have nothing to do
+if len(reposToClone) == 0:
+    # Looks like it is time to bail
+    print("KClone could not locate the project you specified")
+    sys.exit(10)
+
+# Now it is time to start cloning repositories!
+for repository in reposToClone:
+    # Check to see if we already have something on disk....
+    if os.path.exists( repository['identifier'] ):
+        print("WARNING: The repository '{0}' already exists - skipping".format( repository['identifier'] ))
+        continue
+
+    # Assemble our clone command
+    # We ignore the first item in argv (our script name) along with the second (which is the pattern we processed earlier) and assume everything else is a parameter to pass to git
+    cloneParameters = ' '.join( sys.argv[2:] )
+
+    # Now perform the clone!
+    gitCloneCommand = 'git clone {cloneParameters} "{repositoryUrl}" {pathOnDisk}'
+    commandToRun = gitCloneCommand.format(
+        cloneParameters=cloneParameters,
+        repositoryUrl=gitClonePattern.format( repository['repopath'] ),
+        pathOnDisk=repository['identifier']
+    )
+    subprocess.check_call( commandToRun, stdout=sys.stdout, stderr=sys.stderr, shell=True, cwd=os.getcwd() )
+
+    # With that having succeeded, we now override the push url
+    gitPushUrlCommand = 'git remote set-url --push origin "{repositoryUrl}"'
+    commandToRun = gitPushUrlCommand.format(
+        repositoryUrl=gitPushPattern.format( repository['repopath'] )
+    )
+    subprocess.check_call( commandToRun, stdout=sys.stdout, stderr=sys.stderr, shell=True, cwd=os.path.join( os.getcwd(), repository['identifier'] ) )
+
+# Finally we are done!
+sys.exit(0)

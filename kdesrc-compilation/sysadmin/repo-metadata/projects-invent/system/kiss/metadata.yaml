@@ -1,0 +1,7 @@
+description: KDE Initial System Setup
+hasrepo: true
+identifier: kiss
+name: Kiss
+projectpath: playground/system/kiss
+repoactive: false
+repopath: system/kiss

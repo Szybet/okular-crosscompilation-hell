@@ -1,0 +1,9 @@
+bugzilla:
+  product: libkexiv2
+description: Wrapper around Exiv2 library to manipulate picture metadata as EXIF and XMP
+hasrepo: true
+identifier: libkexiv2
+name: libkexiv2
+projectpath: kde/kdegraphics/libs/libkexiv2
+repoactive: true
+repopath: graphics/libkexiv2

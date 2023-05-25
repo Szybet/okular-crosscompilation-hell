@@ -1,0 +1,448 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'ktranscript.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'ktranscript.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_Scriptface_t {
+    QByteArrayData data[41];
+    char stringdata0[325];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Scriptface_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Scriptface_t qt_meta_stringdata_Scriptface = {
+    {
+QT_MOC_LITERAL(0, 0, 10), // "Scriptface"
+QT_MOC_LITERAL(1, 11, 4), // "load"
+QT_MOC_LITERAL(2, 16, 8), // "QJSValue"
+QT_MOC_LITERAL(3, 25, 0), // ""
+QT_MOC_LITERAL(4, 26, 4), // "name"
+QT_MOC_LITERAL(5, 31, 7), // "setcall"
+QT_MOC_LITERAL(6, 39, 4), // "func"
+QT_MOC_LITERAL(7, 44, 4), // "fval"
+QT_MOC_LITERAL(8, 49, 7), // "hascall"
+QT_MOC_LITERAL(9, 57, 13), // "acallInternal"
+QT_MOC_LITERAL(10, 71, 4), // "args"
+QT_MOC_LITERAL(11, 76, 13), // "setcallForall"
+QT_MOC_LITERAL(12, 90, 8), // "fallback"
+QT_MOC_LITERAL(13, 99, 5), // "nsubs"
+QT_MOC_LITERAL(14, 105, 4), // "subs"
+QT_MOC_LITERAL(15, 110, 5), // "index"
+QT_MOC_LITERAL(16, 116, 4), // "vals"
+QT_MOC_LITERAL(17, 121, 7), // "msgctxt"
+QT_MOC_LITERAL(18, 129, 7), // "dynctxt"
+QT_MOC_LITERAL(19, 137, 3), // "key"
+QT_MOC_LITERAL(20, 141, 5), // "msgid"
+QT_MOC_LITERAL(21, 147, 6), // "msgkey"
+QT_MOC_LITERAL(22, 154, 7), // "msgstrf"
+QT_MOC_LITERAL(23, 162, 7), // "dbgputs"
+QT_MOC_LITERAL(24, 170, 3), // "str"
+QT_MOC_LITERAL(25, 174, 8), // "warnputs"
+QT_MOC_LITERAL(26, 183, 13), // "localeCountry"
+QT_MOC_LITERAL(27, 197, 7), // "normKey"
+QT_MOC_LITERAL(28, 205, 6), // "phrase"
+QT_MOC_LITERAL(29, 212, 9), // "loadProps"
+QT_MOC_LITERAL(30, 222, 7), // "getProp"
+QT_MOC_LITERAL(31, 230, 4), // "prop"
+QT_MOC_LITERAL(32, 235, 7), // "setProp"
+QT_MOC_LITERAL(33, 243, 5), // "value"
+QT_MOC_LITERAL(34, 249, 12), // "toUpperFirst"
+QT_MOC_LITERAL(35, 262, 4), // "nalt"
+QT_MOC_LITERAL(36, 267, 12), // "toLowerFirst"
+QT_MOC_LITERAL(37, 280, 13), // "getConfString"
+QT_MOC_LITERAL(38, 294, 4), // "dval"
+QT_MOC_LITERAL(39, 299, 11), // "getConfBool"
+QT_MOC_LITERAL(40, 311, 13) // "getConfNumber"
+
+    },
+    "Scriptface\0load\0QJSValue\0\0name\0setcall\0"
+    "func\0fval\0hascall\0acallInternal\0args\0"
+    "setcallForall\0fallback\0nsubs\0subs\0"
+    "index\0vals\0msgctxt\0dynctxt\0key\0msgid\0"
+    "msgkey\0msgstrf\0dbgputs\0str\0warnputs\0"
+    "localeCountry\0normKey\0phrase\0loadProps\0"
+    "getProp\0prop\0setProp\0value\0toUpperFirst\0"
+    "nalt\0toLowerFirst\0getConfString\0dval\0"
+    "getConfBool\0getConfNumber"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Scriptface[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      33,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // methods: name, argc, parameters, tag, flags
+       1,    1,  179,    3, 0x02 /* Public */,
+       5,    3,  182,    3, 0x02 /* Public */,
+       5,    2,  189,    3, 0x22 /* Public | MethodCloned */,
+       8,    1,  194,    3, 0x02 /* Public */,
+       9,    1,  197,    3, 0x02 /* Public */,
+      11,    3,  200,    3, 0x02 /* Public */,
+      11,    2,  207,    3, 0x22 /* Public | MethodCloned */,
+      12,    0,  212,    3, 0x02 /* Public */,
+      13,    0,  213,    3, 0x02 /* Public */,
+      14,    1,  214,    3, 0x02 /* Public */,
+      16,    1,  217,    3, 0x02 /* Public */,
+      17,    0,  220,    3, 0x02 /* Public */,
+      18,    1,  221,    3, 0x02 /* Public */,
+      20,    0,  224,    3, 0x02 /* Public */,
+      21,    0,  225,    3, 0x02 /* Public */,
+      22,    0,  226,    3, 0x02 /* Public */,
+      23,    1,  227,    3, 0x02 /* Public */,
+      25,    1,  230,    3, 0x02 /* Public */,
+      26,    0,  233,    3, 0x02 /* Public */,
+      27,    1,  234,    3, 0x02 /* Public */,
+      29,    1,  237,    3, 0x02 /* Public */,
+      30,    2,  240,    3, 0x02 /* Public */,
+      32,    3,  245,    3, 0x02 /* Public */,
+      34,    2,  252,    3, 0x02 /* Public */,
+      34,    1,  257,    3, 0x22 /* Public | MethodCloned */,
+      36,    2,  260,    3, 0x02 /* Public */,
+      36,    1,  265,    3, 0x22 /* Public | MethodCloned */,
+      37,    2,  268,    3, 0x02 /* Public */,
+      37,    1,  273,    3, 0x22 /* Public | MethodCloned */,
+      39,    2,  276,    3, 0x02 /* Public */,
+      39,    1,  281,    3, 0x22 /* Public | MethodCloned */,
+      40,    2,  284,    3, 0x02 /* Public */,
+      40,    1,  289,    3, 0x22 /* Public | MethodCloned */,
+
+ // methods: parameters
+    0x80000000 | 2, QMetaType::QString,    4,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,    4,    6,    7,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,    4,    6,
+    0x80000000 | 2, QMetaType::QString,    4,
+    0x80000000 | 2, 0x80000000 | 2,   10,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,    4,    6,    7,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,    4,    6,
+    0x80000000 | 2,
+    0x80000000 | 2,
+    0x80000000 | 2, 0x80000000 | 2,   15,
+    0x80000000 | 2, 0x80000000 | 2,   15,
+    0x80000000 | 2,
+    0x80000000 | 2, QMetaType::QString,   19,
+    0x80000000 | 2,
+    0x80000000 | 2,
+    0x80000000 | 2,
+    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void, QMetaType::QString,   24,
+    0x80000000 | 2,
+    0x80000000 | 2, 0x80000000 | 2,   28,
+    0x80000000 | 2, QMetaType::QString,    4,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,   28,   31,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,   28,   31,   33,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,   24,   35,
+    0x80000000 | 2, 0x80000000 | 2,   24,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,   24,   35,
+    0x80000000 | 2, 0x80000000 | 2,   24,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,   19,   38,
+    0x80000000 | 2, 0x80000000 | 2,   19,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,   19,   38,
+    0x80000000 | 2, 0x80000000 | 2,   19,
+    0x80000000 | 2, 0x80000000 | 2, 0x80000000 | 2,   19,   38,
+    0x80000000 | 2, 0x80000000 | 2,   19,
+
+       0        // eod
+};
+
+void Scriptface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<Scriptface *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: { QJSValue _r = _t->load((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 1: { QJSValue _r = _t->setcall((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])),(*reinterpret_cast< const QJSValue(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 2: { QJSValue _r = _t->setcall((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 3: { QJSValue _r = _t->hascall((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 4: { QJSValue _r = _t->acallInternal((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 5: { QJSValue _r = _t->setcallForall((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])),(*reinterpret_cast< const QJSValue(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 6: { QJSValue _r = _t->setcallForall((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 7: { QJSValue _r = _t->fallback();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 8: { QJSValue _r = _t->nsubs();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 9: { QJSValue _r = _t->subs((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 10: { QJSValue _r = _t->vals((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 11: { QJSValue _r = _t->msgctxt();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 12: { QJSValue _r = _t->dynctxt((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 13: { QJSValue _r = _t->msgid();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 14: { QJSValue _r = _t->msgkey();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 15: { QJSValue _r = _t->msgstrf();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 16: _t->dbgputs((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 17: _t->warnputs((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 18: { QJSValue _r = _t->localeCountry();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 19: { QJSValue _r = _t->normKey((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 20: { QJSValue _r = _t->loadProps((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 21: { QJSValue _r = _t->getProp((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 22: { QJSValue _r = _t->setProp((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])),(*reinterpret_cast< const QJSValue(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 23: { QJSValue _r = _t->toUpperFirst((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 24: { QJSValue _r = _t->toUpperFirst((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 25: { QJSValue _r = _t->toLowerFirst((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 26: { QJSValue _r = _t->toLowerFirst((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 27: { QJSValue _r = _t->getConfString((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 28: { QJSValue _r = _t->getConfString((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 29: { QJSValue _r = _t->getConfBool((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 30: { QJSValue _r = _t->getConfBool((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 31: { QJSValue _r = _t->getConfNumber((*reinterpret_cast< const QJSValue(*)>(_a[1])),(*reinterpret_cast< const QJSValue(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 32: { QJSValue _r = _t->getConfNumber((*reinterpret_cast< const QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 1:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 2:
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 2:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 4:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 5:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 2:
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 6:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 9:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 10:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 19:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 21:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 22:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 2:
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 23:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 24:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 25:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 26:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 27:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 28:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 29:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 30:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 31:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        case 32:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject Scriptface::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_Scriptface.data,
+    qt_meta_data_Scriptface,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *Scriptface::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Scriptface::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Scriptface.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int Scriptface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 33)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 33;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 33)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 33;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

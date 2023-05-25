@@ -1,0 +1,7 @@
+description: Multi-platform file manager
+hasrepo: true
+identifier: index-fm
+name: Index
+projectpath: playground/base/index-fm
+repoactive: true
+repopath: maui/index-fm

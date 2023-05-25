@@ -1,0 +1,65 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kdoctools
+[  1%] Generating mo...
+[  2%] Automatic MOC for target checkXML5
+[  4%] Automatic MOC for target meinproc5
+[  5%] Generating ts...
+[  6%] Automatic MOC for target docbookl10nhelper
+[  8%] Automatic MOC for target KF5DocTools
+[  8%] Built target checkXML5_autogen
+[  8%] Built target meinproc5_autogen
+[  8%] Built target tsfiles-e8d1c5a8b5fc22dc2970adf2bd6198a5
+[  8%] Built target KF5DocTools_autogen
+[  8%] Built target docbookl10nhelper_autogen
+[  8%] Built target pofiles-e8d1c5a8b5fc22dc2970adf2bd6198a5
+[ 13%] Built target checkXML5
+[ 19%] Built target docbookl10nhelper
+[ 28%] Built target meinproc5
+[ 35%] Built target KF5DocTools
+[ 38%] Built target po-ca-docs-meinproc5-meinproc5-1
+[ 38%] Built target po-ca-docs-checkXML5-checkXML5-1
+[ 39%] Built target po-ca-valencia-docs-checkXML5-checkXML5-1
+[ 41%] Built target po-ca-valencia-docs-kf5options-kf5options-7
+[ 42%] Built target po-ca-valencia-docs-meinproc5-meinproc5-1
+[ 43%] Built target po-ca-docs-kf5options-kf5options-7
+[ 45%] Built target po-ca-docs-qt5options-qt5options-7
+[ 46%] Built target po-ca-valencia-docs-qt5options-qt5options-7
+[ 47%] Built target po-de-docs-checkXML5-checkXML5-1
+[ 49%] Built target po-es-docs-checkXML5-checkXML5-1
+[ 50%] Built target po-de-docs-kf5options-kf5options-7
+[ 53%] Built target po-es-docs-kf5options-kf5options-7
+[ 53%] Built target po-de-docs-meinproc5-meinproc5-1
+[ 54%] Built target po-de-docs-qt5options-qt5options-7
+[ 56%] Built target po-es-docs-meinproc5-meinproc5-1
+[ 57%] Built target po-es-docs-qt5options-qt5options-7
+[ 60%] Built target po-it-docs-checkXML5-checkXML5-1
+[ 60%] Built target po-id-docs-checkXML5-checkXML5-1
+[ 61%] Built target po-it-docs-kf5options-kf5options-7
+[ 63%] Built target po-it-docs-qt5options-qt5options-7
+[ 65%] Built target po-it-docs-meinproc5-meinproc5-1
+[ 64%] Built target po-nl-docs-checkXML5-checkXML5-1
+[ 67%] Built target po-nl-docs-meinproc5-meinproc5-1
+[ 68%] Built target po-nl-docs-kf5options-kf5options-7
+[ 69%] Built target po-nl-docs-qt5options-qt5options-7
+[ 71%] Built target po-pt-docs-checkXML5-checkXML5-1
+[ 72%] Built target po-pt-docs-kf5options-kf5options-7
+[ 73%] Built target po-pt-docs-meinproc5-meinproc5-1
+[ 76%] Built target po-pt-docs-qt5options-qt5options-7
+[ 76%] Built target po-pt-BR-docs-checkXML5-checkXML5-1
+[ 78%] Built target po-pt-BR-docs-kf5options-kf5options-7
+[ 79%] Built target po-pt-BR-docs-meinproc5-meinproc5-1
+[ 80%] Built target po-pt-BR-docs-qt5options-qt5options-7
+[ 82%] Built target po-ru-docs-checkXML5-checkXML5-1
+[ 83%] Built target po-ru-docs-qt5options-qt5options-7
+[ 84%] Built target po-sv-docs-checkXML5-checkXML5-1
+[ 89%] Built target po-sv-docs-kf5options-kf5options-7
+[ 89%] Built target po-sv-docs-qt5options-qt5options-7
+[ 89%] Built target po-sv-docs-meinproc5-meinproc5-1
+[ 90%] Built target po-uk-docs-checkXML5-checkXML5-1
+[ 91%] Built target po-uk-docs-kf5options-kf5options-7
+[ 93%] Built target po-uk-docs-qt5options-qt5options-7
+[ 94%] Built target po-uk-docs-meinproc5-meinproc5-1
+[ 95%] Built target docs-checkXML5-checkXML5-1
+[ 97%] Built target docs-meinproc5-meinproc5-1
+[ 98%] Built target docs-kf5options-kf5options-7
+[100%] Built target docs-qt5options-qt5options-7

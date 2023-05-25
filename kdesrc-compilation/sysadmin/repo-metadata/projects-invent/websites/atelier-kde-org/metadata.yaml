@@ -1,0 +1,7 @@
+description: Application that serves atelier.kde.org
+hasrepo: true
+identifier: websites-atelier-kde-org
+name: Atelier Website
+projectpath: websites/atelier-kde-org
+repoactive: true
+repopath: websites/atelier-kde-org

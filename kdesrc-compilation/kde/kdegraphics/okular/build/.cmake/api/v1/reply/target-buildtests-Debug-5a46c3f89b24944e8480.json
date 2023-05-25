@@ -1,0 +1,116 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_dependencies",
+			"ecm_mark_as_test",
+			"ecm_add_test"
+		],
+		"files" : 
+		[
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMMarkAsTest.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake",
+			"CMakeLists.txt",
+			"generators/comicbook/CMakeLists.txt",
+			"generators/epub/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 31,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 99,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 99,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 12
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "comicbooktest::@a4fbe277662296b10178"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "epubgeneratortest::@c31ea92de04bb1838c22"
+		}
+	],
+	"id" : "buildtests::@6890427a1f51a3e7e1df",
+	"name" : "buildtests",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

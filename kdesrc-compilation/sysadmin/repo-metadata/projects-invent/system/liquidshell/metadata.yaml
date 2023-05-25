@@ -1,0 +1,7 @@
+description: Basic desktop shell using QtWidgets
+hasrepo: true
+identifier: liquidshell
+name: Liquidshell
+projectpath: extragear/base/liquidshell
+repoactive: true
+repopath: system/liquidshell

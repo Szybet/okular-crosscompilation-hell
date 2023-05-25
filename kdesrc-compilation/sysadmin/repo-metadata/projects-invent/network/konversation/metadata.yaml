@@ -1,0 +1,9 @@
+bugzilla:
+  product: konversation
+description: User-friendly and fully-featured IRC client
+hasrepo: true
+identifier: konversation
+name: Konversation
+projectpath: kde/kdenetwork/konversation
+repoactive: true
+repopath: network/konversation

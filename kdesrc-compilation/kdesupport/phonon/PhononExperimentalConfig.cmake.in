@@ -1,0 +1,16 @@
+# config file for phonon experimental library
+# This config can not be used directly. Instead find Phonon or Phonon4Qt@QT_MAJOR_VERSION@.
+# If the experimental config is present it will be automatically included.
+# If you want to make sure it is present you can specify Experimental as a
+# COMPONENT in find_package.
+
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/PhononExperimentalTargets.cmake")
+set(PHONON_EXPERIMENTAL_LIBRARY Phonon::@PHONON_LIB_SONAME@experimental)
+set(PHONON_FOUND_EXPERIMENTAL true)
+
+# Make sure phonon itself was imported. Experimental strictly depends on Phonon!
+if(NOT TARGET Phonon::@PHONON_LIB_SONAME@)
+    message(FATAL_ERROR "PhononExperimental library was found but there is no target for the primary library.")
+endif()

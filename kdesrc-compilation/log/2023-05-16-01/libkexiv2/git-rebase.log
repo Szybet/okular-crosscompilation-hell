@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'reset' '--hard' 'origin/master'
+# from directory: /home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2
+HEAD is now at a7e8d31 Have export macros header include version header (Qt6-only)

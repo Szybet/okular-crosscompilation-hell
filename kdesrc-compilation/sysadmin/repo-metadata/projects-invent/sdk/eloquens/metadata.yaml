@@ -1,0 +1,7 @@
+identifier: eloquens
+name: Eloquens
+description: Generate the lorem ipsum text
+hasrepo: true
+repoactive: true
+repopath: sdk/eloquens
+projectpath: kdereview/eloquens

@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kimageformats
+description: KImageFormats
+hasrepo: true
+identifier: kimageformats
+name: KImageFormats
+projectpath: frameworks/kimageformats
+repoactive: true
+repopath: frameworks/kimageformats

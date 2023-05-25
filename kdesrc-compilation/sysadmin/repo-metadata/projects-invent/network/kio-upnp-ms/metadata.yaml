@@ -1,0 +1,7 @@
+description: KIO Slave for UPnP MediaServer devices
+hasrepo: true
+identifier: kio-upnp-ms
+name: KIO UPnP MediaServer
+projectpath: playground/base/kio-upnp-ms
+repoactive: false
+repopath: network/kio-upnp-ms

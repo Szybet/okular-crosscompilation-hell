@@ -1,0 +1,8 @@
+description: Application to create libraries of QPainterPath objects with rendering
+  hints
+hasrepo: true
+identifier: symboleditor
+name: SymbolEditor
+projectpath: extragear/graphics/symboleditor
+repoactive: true
+repopath: graphics/symboleditor

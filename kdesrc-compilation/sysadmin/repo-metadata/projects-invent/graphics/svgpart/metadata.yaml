@@ -1,0 +1,7 @@
+description: A KPart for SVG support
+hasrepo: true
+identifier: svgpart
+name: SVG KPart
+projectpath: kde/kdegraphics/svgpart
+repoactive: true
+repopath: graphics/svgpart

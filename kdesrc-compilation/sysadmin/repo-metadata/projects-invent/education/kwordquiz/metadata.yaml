@@ -1,0 +1,9 @@
+bugzilla:
+  product: kwordquiz
+description: Flash Card Trainer
+hasrepo: true
+identifier: kwordquiz
+name: KWordQuiz
+projectpath: kde/kdeedu/kwordquiz
+repoactive: true
+repopath: education/kwordquiz

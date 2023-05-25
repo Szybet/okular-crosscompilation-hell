@@ -1,0 +1,776 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/comicbooktest"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ecm_add_test",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"set_property",
+			"_populate_Test_target_properties",
+			"add_definitions",
+			"remove_definitions",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake",
+			"generators/comicbook/CMakeLists.txt",
+			"CMakeLists.txt",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5XmlGui/KF5XmlGuiTargets.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5XmlGui/KF5XmlGuiConfig.cmake",
+			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5KIO/KF5KIOConfig.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/find-modules/FindKF5.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsTargets.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsConfig.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Auth/KF5AuthTargets.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Auth/KF5AuthConfig.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Config/KF5ConfigTargets.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Config/KF5ConfigConfig.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5Test/Qt5TestConfig.cmake",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5/Qt5Config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 429,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 118,
+				"parent" : 4
+			},
+			{
+				"file" : 7,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 52,
+				"parent" : 7
+			},
+			{
+				"file" : 6,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 43,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 10
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 55,
+				"parent" : 12
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 52,
+				"parent" : 7
+			},
+			{
+				"file" : 9,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 54,
+				"parent" : 17
+			},
+			{
+				"file" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 61,
+				"parent" : 19
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 29,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 21
+			},
+			{
+				"file" : 11,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 55,
+				"parent" : 23
+			},
+			{
+				"file" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 69,
+				"parent" : 25
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 52,
+				"parent" : 7
+			},
+			{
+				"file" : 13,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 29,
+				"parent" : 28
+			},
+			{
+				"file" : 12,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 69,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 4
+			},
+			{
+				"file" : 15,
+				"parent" : 34
+			},
+			{
+				"command" : 5,
+				"file" : 15,
+				"line" : 28,
+				"parent" : 35
+			},
+			{
+				"file" : 14,
+				"parent" : 36
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 201,
+				"parent" : 37
+			},
+			{
+				"command" : 7,
+				"file" : 14,
+				"line" : 45,
+				"parent" : 38
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 281,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "KCOREADDONS_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "KDESRCDIR=\"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/comicbook/\""
+				},
+				{
+					"backtrace" : 41,
+					"define" : "KF_DEPRECATED_WARNINGS_SINCE=0x055C00"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_DBUS_LIB"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_DEPRECATED_WARNINGS_SINCE=0x050F02"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_FORCE_ASSERTS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_CAST_FROM_BYTEARRAY"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_KEYWORDS"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_URL_CAST_FROM_STRING"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_STRICT_ITERATORS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTCASE_BUILDDIR=\"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "TRANSLATION_DOMAIN=\"okular_comicbook\""
+				},
+				{
+					"backtrace" : 41,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "_LARGEFILE64_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug/generators/comicbook"
+				},
+				{
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/okular/generators/comicbook"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug/generators/comicbook/comicbooktest_autogen/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/okular"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/phonon4qt5"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/phonon4qt5/KDE"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtTest"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/./mkspecs/linux-kobo-gnueabihf-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KXmlGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtXml"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KConfig"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KConfigCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KConfigWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KWidgetsAddons"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KConfigGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCodecs"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KAuthWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KAuthCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KAuth"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/5.15.2"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/5.15.2/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KI18n"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KArchive"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KPty"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "okularcore::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "okular_comicbook::@a4fbe277662296b10178"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "comicbooktest_autogen::@a4fbe277662296b10178"
+		}
+	],
+	"id" : "comicbooktest::@a4fbe277662296b10178",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug/bin",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libQt5Test.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../lib/libokular_comicbook.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../bin/libOkular5Core.so.10.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5XmlGui.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libQt5PrintSupport.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5ConfigWidgets.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5ConfigGui.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libQt5Xml.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5ConfigCore.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5Auth.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5AuthCore.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5WidgetsAddons.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5Codecs.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libQt5Widgets.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libQt5Gui.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5Archive.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5Pty.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5CoreAddons.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libQt5DBus.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libKF5I18n.so.5.107.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libQt5Core.so.5.15.2",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
+		}
+	},
+	"name" : "comicbooktest",
+	"nameOnDisk" : "comicbooktest",
+	"paths" : 
+	{
+		"build" : "generators/comicbook",
+		"source" : "generators/comicbook"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug/generators/comicbook/comicbooktest_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "generators/comicbook/autotests/comicbooktest.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

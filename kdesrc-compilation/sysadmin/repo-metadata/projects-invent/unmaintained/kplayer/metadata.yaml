@@ -1,0 +1,7 @@
+description: KPlayer is a rich multimedia player that uses the mplayer backend.
+hasrepo: true
+identifier: kplayer
+name: KPlayer
+projectpath: unmaintained/kplayer
+repoactive: false
+repopath: unmaintained/kplayer

@@ -1,0 +1,427 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kdoctools
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kdoctools/prefix.sh to set the environment for KDocTools.
+CMake Warning (dev) at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PerlModules_URI::Escape) does not match the name of the calling package
+  (PerlModules).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  cmake/FindPerlModules.cmake:46 (find_package_handle_standard_args)
+  cmake/uriencode.cmake:12 (find_package)
+  src/CMakeLists.txt:4 (kdoctools_encode_uri)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The following OPTIONAL packages have been found:
+
+ * KF5I18n (required version >= 5.106.0)
+   Required to build the KDocTools translations
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * KF5Archive (required version >= 5.106.0)
+ * Qt5Core (required version >= 5.15.2)
+ * Gettext
+ * LibXslt, <http://xmlsoft.org/XSLT>
+   Required by the KDE help system to process DocBook XML
+ * LibXml2, <http://xmlsoft.org>
+   Required by the KDE help system to process DocBook XML
+ * DocBookXML4 (required version >= 4.5), DocBook XML 4, <http://www.oasis-open.org/docbook/xml/4.5>
+   Required by the KDE help system to process DocBook XML
+ * DocBookXSL, DocBook XSL, <http://docbook.sourceforge.net/release/xsl/current/>
+   Required by the KDE help system to process DocBook XML
+ * Perl
+ * PerlModules, <https://www.cpan.org>
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kdoctools
+[  1%] Automatic MOC for target KF5DocTools
+[  4%] Automatic MOC for target meinproc5
+[  4%] Generating ts...
+[  5%] Automatic MOC for target checkXML5
+[  6%] Generating mo...
+[  8%] Automatic MOC for target docbookl10nhelper
+[  8%] Built target meinproc5_autogen
+[  8%] Built target checkXML5_autogen
+[  8%] Built target KF5DocTools_autogen
+[  8%] Built target tsfiles-e8d1c5a8b5fc22dc2970adf2bd6198a5
+[  8%] Built target docbookl10nhelper_autogen
+[  8%] Built target pofiles-e8d1c5a8b5fc22dc2970adf2bd6198a5
+[  9%] Linking CXX executable ../bin/checkXML5
+[ 10%] Linking CXX executable ../bin/docbookl10nhelper
+[ 17%] Built target KF5DocTools
+[ 19%] Linking CXX executable ../bin/meinproc5
+[ 23%] Built target checkXML5
+[ 27%] Built target docbookl10nhelper
+[ 35%] Built target meinproc5
+[ 36%] Generating po/ca/docs/qt5options/qt5options.7
+[ 38%] Generating po/ca@valencia/docs/checkXML5/checkXML5.1
+[ 39%] Generating po/ca/docs/kf5options/kf5options.7
+[ 41%] Generating po/ca/docs/meinproc5/meinproc5.1
+[ 42%] Generating po/ca@valencia/docs/meinproc5/meinproc5.1
+[ 43%] Generating po/ca@valencia/docs/kf5options/kf5options.7
+[ 45%] Generating po/ca/docs/checkXML5/checkXML5.1
+[ 46%] Generating po/ca@valencia/docs/qt5options/qt5options.7
+Note: namesp. add : added namespace before processing              Manual d'usuari de checkXML5
+Warn: AUTHOR sect.: no personblurb|contrib for Watts, Lauri        checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: namesp. add : added namespace before processing              Documentació de la línia d'ordres de les Qt
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              Manual d'usuari del checkXML5
+Note: namesp. add : added namespace before processing              Documentació de la línia d'ordres dels Frameworks
+Warn: AUTHOR sect.: no personblurb|contrib for Watts, Lauri        checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: namesp. add : added namespace before processing              Documentació de la línia d'ordres de Frameworks
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              Manual d'usuari del meinproc5
+Warn: AUTHOR sect.: no personblurb|contrib for Watts, Lauri        qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Watts, Lauri        kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Warn: AUTHOR sect.: no personblurb|contrib for Lück, Burkhard      qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Warn: AUTHOR sect.: no personblurb|contrib for Watts, Lauri        kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Note: Writing kf5options.7
+Note: Writing kf5options.7
+Note: Writing qt5options.7
+Note: namesp. add : added namespace before processing              Manual d'usuari de meinproc5
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Note: Writing meinproc5.1
+Note: namesp. add : added namespace before processing              Documentació de la línia d'ordres de les Qt
+Note: Writing meinproc5.1
+Warn: AUTHOR sect.: no personblurb|contrib for Watts, Lauri        qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Lück, Burkhard      qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: Writing qt5options.7
+[ 46%] Built target po-ca-valencia-docs-checkXML5-checkXML5-1
+[ 46%] Built target po-ca-docs-checkXML5-checkXML5-1
+[ 46%] Built target po-ca-valencia-docs-kf5options-kf5options-7
+[ 46%] Built target po-ca-docs-kf5options-kf5options-7
+[ 46%] Built target po-ca-docs-qt5options-qt5options-7
+[ 47%] Generating po/de/docs/checkXML5/checkXML5.1
+[ 47%] Built target po-ca-docs-meinproc5-meinproc5-1
+[ 49%] Built target po-ca-valencia-docs-meinproc5-meinproc5-1
+[ 49%] Generating po/de/docs/kf5options/kf5options.7
+[ 50%] Generating po/de/docs/meinproc5/meinproc5.1
+[ 52%] Generating po/es/docs/checkXML5/checkXML5.1
+[ 53%] Generating po/es/docs/kf5options/kf5options.7
+[ 54%] Generating po/de/docs/qt5options/qt5options.7
+[ 54%] Built target po-ca-valencia-docs-qt5options-qt5options-7
+[ 56%] Generating po/es/docs/meinproc5/meinproc5.1
+[ 57%] Generating po/es/docs/qt5options/qt5options.7
+Note: namesp. add : added namespace before processing              checkXML5-Benutzerhandbuch
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: namesp. add : added namespace before processing              meinproc5-Benutzerhandbuch
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Note: Writing checkXML5.1
+Note: Writing meinproc5.1
+Note: namesp. add : added namespace before processing              Qt-Befehlszeilendokumentation
+Note: namesp. add : added namespace before processing              Documentación de la línea de órdenes de Frameworks
+Note: namesp. add : added namespace before processing              Manual del usuario de meinproc5
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: namesp. add : added namespace before processing              Manual del usuario de checkXML5
+Note: Writing kf5options.7
+Note: Writing qt5options.7
+Note: namesp. add : added namespace before processing              Frameworks-Befehlszeilendokumentation
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+[ 57%] Built target po-de-docs-checkXML5-checkXML5-1
+Note: Writing meinproc5.1
+Note: Writing checkXML5.1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Note: Writing kf5options.7
+[ 57%] Built target po-de-docs-meinproc5-meinproc5-1
+Note: namesp. add : added namespace before processing              Documentación de Qt para la línea de órdenes
+[ 58%] Generating po/id/docs/checkXML5/checkXML5.1
+[ 60%] Generating po/it/docs/checkXML5/checkXML5.1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+[ 60%] Built target po-es-docs-kf5options-kf5options-7
+[ 60%] Built target po-de-docs-qt5options-qt5options-7
+Note: Writing qt5options.7
+[ 60%] Built target po-es-docs-meinproc5-meinproc5-1
+[ 60%] Built target po-es-docs-checkXML5-checkXML5-1
+[ 60%] Built target po-de-docs-kf5options-kf5options-7
+[ 61%] Generating po/it/docs/kf5options/kf5options.7
+[ 63%] Generating po/it/docs/meinproc5/meinproc5.1
+[ 65%] Generating po/nl/docs/kf5options/kf5options.7
+[ 65%] Generating po/nl/docs/checkXML5/checkXML5.1
+[ 67%] Generating po/it/docs/qt5options/qt5options.7
+[ 67%] Built target po-es-docs-qt5options-qt5options-7
+[ 68%] Generating po/nl/docs/meinproc5/meinproc5.1
+Note: namesp. add : added namespace before processing              Manual Penggunaan checkXML5
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              Manuale utente di checkXML5
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              Manuale dell'utente di meinproc5
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+[ 68%] Built target po-id-docs-checkXML5-checkXML5-1
+Note: namesp. add : added namespace before processing              Documentazione riga di comando di Frameworks
+Note: Writing meinproc5.1
+Note: namesp. add : added namespace before processing              Documentatie voor commandoregels van Frameworks
+[ 68%] Built target po-it-docs-checkXML5-checkXML5-1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Note: Writing kf5options.7
+Note: namesp. add : added namespace before processing              Documentazione riga di comando di Qt
+Note: Writing kf5options.7
+[ 69%] Generating po/nl/docs/qt5options/qt5options.7
+[ 71%] Generating po/pt/docs/checkXML5/checkXML5.1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: Writing qt5options.7
+[ 71%] Built target po-it-docs-meinproc5-meinproc5-1
+Note: namesp. add : added namespace before processing              Gebruikershandleiding van checkXML5
+[ 71%] Built target po-it-docs-kf5options-kf5options-7
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+[ 71%] Built target po-nl-docs-kf5options-kf5options-7
+[ 72%] Generating po/pt/docs/kf5options/kf5options.7
+[ 73%] Generating po/pt/docs/meinproc5/meinproc5.1
+[ 73%] Built target po-it-docs-qt5options-qt5options-7
+[ 75%] Generating po/pt/docs/qt5options/qt5options.7
+Note: namesp. add : added namespace before processing              Gebruikershandleiding van meinproc5
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+[ 75%] Built target po-nl-docs-checkXML5-checkXML5-1
+Note: Writing meinproc5.1
+[ 76%] Generating po/pt_BR/docs/checkXML5/checkXML5.1
+[ 78%] Generating po/pt_BR/docs/kf5options/kf5options.7
+[ 78%] Built target po-nl-docs-meinproc5-meinproc5-1
+[ 79%] Generating po/pt_BR/docs/meinproc5/meinproc5.1
+Note: namesp. add : added namespace before processing              Manual do Utilizador do 'checkXML5'
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              Documentatie voor commandoregels van Qt
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: Writing qt5options.7
+[ 79%] Built target po-pt-docs-checkXML5-checkXML5-1
+Note: namesp. add : added namespace before processing              Manual do Utilizador do 'meinproc5'
+[ 80%] Generating po/pt_BR/docs/qt5options/qt5options.7
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+[ 80%] Built target po-nl-docs-qt5options-qt5options-7
+Note: namesp. add : added namespace before processing              Documentação da Linha de Comandos do Qt
+Note: Writing meinproc5.1
+Note: namesp. add : added namespace before processing              Manual do Usuário do checkXML5
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+[ 82%] Generating po/ru/docs/checkXML5/checkXML5.1
+Note: Writing qt5options.7
+Note: namesp. add : added namespace before processing              Documentação da Linha de Comandos das Plataformas
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Note: Writing kf5options.7
+Note: namesp. add : added namespace before processing              Documentação da linha de comandos do Frameworks
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+[ 82%] Built target po-pt-docs-meinproc5-meinproc5-1
+Note: Writing kf5options.7
+[ 82%] Built target po-pt-BR-docs-checkXML5-checkXML5-1
+[ 82%] Built target po-pt-docs-qt5options-qt5options-7
+[ 82%] Built target po-pt-docs-kf5options-kf5options-7
+[ 83%] Generating po/ru/docs/qt5options/qt5options.7
+[ 84%] Generating po/sv/docs/checkXML5/checkXML5.1
+[ 84%] Built target po-pt-BR-docs-kf5options-kf5options-7
+[ 86%] Generating po/sv/docs/kf5options/kf5options.7
+[ 87%] Generating po/sv/docs/meinproc5/meinproc5.1
+[ 89%] Generating po/sv/docs/qt5options/qt5options.7
+Note: namesp. add : added namespace before processing              Manual do Usuário do meinproc5
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Note: Writing meinproc5.1
+[ 89%] Built target po-pt-BR-docs-meinproc5-meinproc5-1
+[ 90%] Generating po/uk/docs/checkXML5/checkXML5.1
+Note: namesp. add : added namespace before processing              Руководство пользователя KDE
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              Documentação da linha de comandos do Qt
+[ 90%] Built target po-ru-docs-checkXML5-checkXML5-1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: Writing qt5options.7
+[ 91%] Generating po/uk/docs/kf5options/kf5options.7
+Note: namesp. add : added namespace before processing              Руководство пользователя KDE
+Note: namesp. add : added namespace before processing              Kommandoradsdokumentation för Ramverk
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: namesp. add : added namespace before processing              checkXML5 användarhandbok
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: Writing kf5options.7
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing qt5options.7
+[ 91%] Built target po-pt-BR-docs-qt5options-qt5options-7
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              meinproc5 användarhandbok
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Note: namesp. add : added namespace before processing              Kommandoradsdokumentation för Qt
+[ 93%] Generating po/uk/docs/meinproc5/meinproc5.1
+Note: Writing meinproc5.1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+[ 93%] Built target po-sv-docs-kf5options-kf5options-7
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+[ 93%] Built target po-ru-docs-qt5options-qt5options-7
+Note: Writing qt5options.7
+[ 93%] Built target po-sv-docs-checkXML5-checkXML5-1
+[ 94%] Generating checkXML5.1
+[ 94%] Built target po-sv-docs-meinproc5-meinproc5-1
+[ 95%] Generating po/uk/docs/qt5options/qt5options.7
+[ 97%] Generating meinproc5.1
+[ 97%] Built target po-sv-docs-qt5options-qt5options-7
+[ 98%] Generating kf5options.7
+[100%] Generating qt5options.7
+Note: namesp. add : added namespace before processing              Підручник користувача checkXML5
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+Note: namesp. add : added namespace before processing              Документація до програм командного рядка Frameworks
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Note: Writing kf5options.7
+[100%] Built target po-uk-docs-checkXML5-checkXML5-1
+[100%] Built target po-uk-docs-kf5options-kf5options-7
+Note: namesp. add : added namespace before processing              Інструкція користувача meinproc5
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Note: Writing meinproc5.1
+Note: namesp. add : added namespace before processing              checkXML5 User's Manual
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  checkXML5
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  checkXML5
+Note: Writing checkXML5.1
+[100%] Built target po-uk-docs-meinproc5-meinproc5-1
+[100%] Built target docs-checkXML5-checkXML5-1
+Note: namesp. add : added namespace before processing              Qt Command Line Documentation
+Note: namesp. add : added namespace before processing              Frameworks Command Line Documentation
+Note: namesp. add : added namespace before processing              meinproc5 User's Manual
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: meta author : no refentry/info/author                        meinproc5
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  meinproc5
+Warn: meta author : no author data, so inserted a fixme            meinproc5
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  kf5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  kf5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: Writing kf5options.7
+Note: Writing qt5options.7
+Note: namesp. add : added namespace before processing              Документація до програм командного рядка Qt
+Note: Writing meinproc5.1
+Warn: AUTHOR sect.: no personblurb|contrib for Lauri Watts         qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Warn: AUTHOR sect.: no personblurb|contrib for Burkhard Lück       qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/contr  qt5options
+Note: AUTHOR sect.: see http://www.docbook.org/tdg5/en/html/perso  qt5options
+Note: Writing qt5options.7
+[100%] Built target docs-meinproc5-meinproc5-1
+[100%] Built target docs-qt5options-qt5options-7
+[100%] Built target docs-kf5options-kf5options-7
+[100%] Built target po-uk-docs-qt5options-qt5options-7

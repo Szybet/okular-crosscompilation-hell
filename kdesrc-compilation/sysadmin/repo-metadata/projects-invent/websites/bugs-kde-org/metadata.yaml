@@ -1,0 +1,7 @@
+description: Modified sources for the KDE Bugtracking System — bugs.kde.org
+hasrepo: true
+identifier: websites-bugs-kde-org
+name: KDE Bugtracking System
+projectpath: websites/bugs-kde-org
+repoactive: true
+repopath: websites/bugs-kde-org

@@ -1,0 +1,7 @@
+description: Website for the KDE India Conference — conf.kde.in
+hasrepo: true
+identifier: websites-conf-kde-in
+name: KDE.in Conference Website
+projectpath: websites/conf-kde-in
+repoactive: true
+repopath: websites/conf-kde-in

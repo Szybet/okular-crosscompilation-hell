@@ -1,0 +1,9 @@
+bugzilla:
+  product: kpimtextedit
+description: Library that provides extended text editor for PIM applications
+hasrepo: true
+identifier: kpimtextedit
+name: KPimTextEdit
+projectpath: kde/pim/kpimtextedit
+repoactive: true
+repopath: pim/kpimtextedit

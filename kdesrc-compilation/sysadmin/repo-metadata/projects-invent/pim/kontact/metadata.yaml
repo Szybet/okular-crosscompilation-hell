@@ -1,0 +1,9 @@
+bugzilla:
+  product: kontact
+description: Container application to unify several major PIM applications
+hasrepo: true
+identifier: kontact
+name: Kontact
+projectpath: kde/pim/kontact
+repoactive: true
+repopath: pim/kontact

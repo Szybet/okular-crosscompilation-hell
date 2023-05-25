@@ -1,0 +1,7 @@
+description: Framework for creation and generation of reports in multiple formats
+hasrepo: true
+identifier: kreport
+name: KReport
+projectpath: extragear/libs/kreport
+repoactive: true
+repopath: libraries/kreport

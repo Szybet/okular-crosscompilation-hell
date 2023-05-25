@@ -1,0 +1,7 @@
+description: 'Qt/C++ library for KDE applications to perform face recognition and detection over pictures.'
+hasrepo: true
+identifier: libkface
+name: libkface
+projectpath: unmaintained/libkface
+repoactive: false
+repopath: unmaintained/libkface

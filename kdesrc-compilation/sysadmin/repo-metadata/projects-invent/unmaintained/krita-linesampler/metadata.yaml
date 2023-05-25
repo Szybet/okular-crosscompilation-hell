@@ -1,0 +1,7 @@
+description: "LineSampler \u201Csamples\u201D the image with randomly placed lines."
+hasrepo: true
+identifier: krita-linesampler
+name: Line Sampler
+projectpath: extragear/graphics/krita-extensions/krita-linesampler
+repoactive: false
+repopath: unmaintained/krita-linesampler

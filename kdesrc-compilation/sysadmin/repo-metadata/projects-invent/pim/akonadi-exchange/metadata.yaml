@@ -1,0 +1,7 @@
+description: Akonadi plugin for Exchange groupware functionality
+hasrepo: true
+identifier: akonadi-exchange
+name: Akonadi Exchange Resource
+projectpath: playground/pim/akonadi-exchange
+repoactive: false
+repopath: pim/akonadi-exchange

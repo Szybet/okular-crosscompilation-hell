@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdeconnect
+description: Multi-platform app that allows your devices to communicate
+hasrepo: true
+identifier: kdeconnect-kde
+name: KDE Connect
+projectpath: kde/kdenetwork/kdeconnect-kde
+repoactive: true
+repopath: network/kdeconnect-kde

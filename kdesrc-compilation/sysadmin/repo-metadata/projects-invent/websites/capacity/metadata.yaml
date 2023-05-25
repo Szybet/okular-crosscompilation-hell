@@ -1,0 +1,7 @@
+description: PHP application used as back end to display some of KDE's websites
+hasrepo: true
+identifier: websites-capacity
+name: Capacity Web App
+projectpath: websites/capacity
+repoactive: true
+repopath: websites/capacity

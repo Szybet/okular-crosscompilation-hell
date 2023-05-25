@@ -1,0 +1,7 @@
+description: C++ interface for MediaWiki-based web services such as Wikipedia
+hasrepo: true
+identifier: libmediawiki
+name: libmediawiki
+projectpath: extragear/libs/libmediawiki
+repoactive: true
+repopath: libraries/libmediawiki

@@ -1,0 +1,9 @@
+bugzilla:
+  product: kimagemapeditor
+description: Generator of HTML image maps
+hasrepo: true
+identifier: kimagemapeditor
+name: KImageMap Editor
+projectpath: kde/kdewebdev/kimagemapeditor
+repoactive: true
+repopath: graphics/kimagemapeditor

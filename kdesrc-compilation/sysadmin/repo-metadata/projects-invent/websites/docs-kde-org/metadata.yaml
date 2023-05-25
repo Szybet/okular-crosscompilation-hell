@@ -1,0 +1,7 @@
+description: Scripts and other materials needed to support and operate docs.kde.org
+hasrepo: true
+identifier: websites-docs-kde-org
+name: Documentation Website
+projectpath: websites/docs-kde-org
+repoactive: true
+repopath: websites/docs-kde-org

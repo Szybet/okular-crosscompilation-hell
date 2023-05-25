@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdf
+description: Displays available storage devices and information about their usage
+hasrepo: true
+identifier: kdf
+name: KDiskFree
+projectpath: kde/kdeutils/kdf
+repoactive: true
+repopath: utilities/kdf

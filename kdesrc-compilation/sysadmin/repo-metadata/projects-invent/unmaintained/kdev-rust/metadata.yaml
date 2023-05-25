@@ -1,0 +1,7 @@
+description: KDevelop plugin which provides Rust language support.
+hasrepo: true
+identifier: kdev-rust
+name: KDevelop Rust Support
+projectpath: unmaintained/kdev-rust
+repoactive: false
+repopath: unmaintained/kdev-rust

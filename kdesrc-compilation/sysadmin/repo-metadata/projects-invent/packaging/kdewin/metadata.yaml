@@ -1,0 +1,7 @@
+description: Library that provides supplementary tools to compile KDE applications on Windows - open merge requests to submit changes
+hasrepo: true
+identifier: kdewin
+name: KDEWin
+projectpath: kdesupport/kdewin
+repoactive: true
+repopath: packaging/kdewin

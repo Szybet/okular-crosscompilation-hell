@@ -1,0 +1,155 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'ftp.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'ftp.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_KIOPluginForMetaData_t {
+    QByteArrayData data[1];
+    char stringdata0[21];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_KIOPluginForMetaData_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_KIOPluginForMetaData_t qt_meta_stringdata_KIOPluginForMetaData = {
+    {
+QT_MOC_LITERAL(0, 0, 20) // "KIOPluginForMetaData"
+
+    },
+    "KIOPluginForMetaData"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_KIOPluginForMetaData[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void KIOPluginForMetaData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject KIOPluginForMetaData::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_KIOPluginForMetaData.data,
+    qt_meta_data_KIOPluginForMetaData,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *KIOPluginForMetaData::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KIOPluginForMetaData::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_KIOPluginForMetaData.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int KIOPluginForMetaData::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+QT_PLUGIN_METADATA_SECTION
+static constexpr unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x76,  'o',  'r',  'g',  '.',  'k',  'd', 
+    'e',  '.',  'k',  'i',  'o',  '.',  'w',  'o', 
+    'r',  'k',  'e',  'r',  '.',  'f',  't',  'p', 
+    // "className"
+    0x03,  0x74,  'K',  'I',  'O',  'P',  'l',  'u', 
+    'g',  'i',  'n',  'F',  'o',  'r',  'M',  'e', 
+    't',  'a',  'D',  'a',  't',  'a', 
+    // "MetaData"
+    0x04,  0xa1,  0x71,  'K',  'D',  'E',  '-',  'K', 
+    'I',  'O',  '-',  'P',  'r',  'o',  't',  'o', 
+    'c',  'o',  'l',  's',  0xa1,  0x63,  'f',  't', 
+    'p',  0xb1,  0x65,  'C',  'l',  'a',  's',  's', 
+    0x69,  ':',  'i',  'n',  't',  'e',  'r',  'n', 
+    'e',  't',  0x64,  'I',  'c',  'o',  'n',  0x6d, 
+    'f',  'o',  'l',  'd',  'e',  'r',  '-',  'r', 
+    'e',  'm',  'o',  't',  'e',  0x69,  'P',  'r', 
+    'o',  'x',  'i',  'e',  'd',  'B',  'y',  0x64, 
+    'h',  't',  't',  'p',  0x69,  'X',  '-',  'D', 
+    'o',  'c',  'P',  'a',  't',  'h',  0x78,  0x18, 
+    'k',  'i',  'o',  's',  'l',  'a',  'v',  'e', 
+    '5',  '/',  'f',  't',  'p',  '/',  'i',  'n', 
+    'd',  'e',  'x',  '.',  'h',  't',  'm',  'l', 
+    0x6c,  'c',  'o',  'p',  'y',  'F',  'r',  'o', 
+    'm',  'F',  'i',  'l',  'e',  0xf5,  0x6a,  'c', 
+    'o',  'p',  'y',  'T',  'o',  'F',  'i',  'l', 
+    'e',  0xf5,  0x68,  'd',  'e',  'l',  'e',  't', 
+    'i',  'n',  'g',  0xf5,  0x65,  'i',  'n',  'p', 
+    'u',  't',  0x64,  'n',  'o',  'n',  'e',  0x67, 
+    'l',  'i',  's',  't',  'i',  'n',  'g',  0x89, 
+    0x64,  'N',  'a',  'm',  'e',  0x64,  'T',  'y', 
+    'p',  'e',  0x64,  'S',  'i',  'z',  'e',  0x64, 
+    'D',  'a',  't',  'e',  0x66,  'A',  'c',  'c', 
+    'e',  's',  's',  0x65,  'O',  'w',  'n',  'e', 
+    'r',  0x65,  'G',  'r',  'o',  'u',  'p',  0x64, 
+    'L',  'i',  'n',  'k',  0x60,  0x67,  'm',  'a', 
+    'k',  'e',  'd',  'i',  'r',  0xf5,  0x6c,  'm', 
+    'a',  'x',  'I',  'n',  's',  't',  'a',  'n', 
+    'c',  'e',  's',  0x14,  0x73,  'm',  'a',  'x', 
+    'I',  'n',  's',  't',  'a',  'n',  'c',  'e', 
+    's',  'P',  'e',  'r',  'H',  'o',  's',  't', 
+    0x05,  0x66,  'm',  'o',  'v',  'i',  'n',  'g', 
+    0xf5,  0x66,  'o',  'u',  't',  'p',  'u',  't', 
+    0x6a,  'f',  'i',  'l',  'e',  's',  'y',  's', 
+    't',  'e',  'm',  0x68,  'p',  'r',  'o',  't', 
+    'o',  'c',  'o',  'l',  0x63,  'f',  't',  'p', 
+    0x67,  'r',  'e',  'a',  'd',  'i',  'n',  'g', 
+    0xf5,  0x67,  'w',  'r',  'i',  't',  'i',  'n', 
+    'g',  0xf5, 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(KIOPluginForMetaData, KIOPluginForMetaData)
+
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

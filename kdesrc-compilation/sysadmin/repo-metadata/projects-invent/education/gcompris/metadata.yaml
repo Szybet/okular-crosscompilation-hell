@@ -1,0 +1,13 @@
+description: High-quality educational software suite for children aged 2 to 10
+hasrepo: true
+identifier: gcompris
+name: GCompris
+projectpath: extragear/edu/gcompris
+repoactive: true
+repopath: education/gcompris
+topics:
+- 'education'
+- 'qt'
+- 'qml'
+- 'teaching-materials'
+- 'children'

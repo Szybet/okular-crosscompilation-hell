@@ -1,0 +1,186 @@
+'\" t
+.\"     Title: \fBokular\fR
+.\"    Author: Юрий Чорноиван <yurchor@ukr.net>
+.\" Generator: DocBook XSL Stylesheets v1.79.2 <http://docbook.sf.net/>
+.\"      Date: 19 февраля 2022 г.
+.\"    Manual: Руководство пользователя Okular
+.\"    Source: KDE Gear Okular 22.04
+.\"  Language: Russian
+.\"
+.TH "\fBokular\fR" "1" "19 февраля 2022 г\&." "KDE Gear Okular 22.04" "Руководство пользователя Okula"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+
+
+
+
+.SH "ИМЯ"
+okular \- универсальное средство просмотра документов
+
+.SH "СИНОПСИС"
+.HP \w'\fBokular\fR\ 'u
+\fBokular\fR  [\fIпараметры\ Okular\fR]  [\fIURL\fR] 
+
+
+
+.SH "ОПИСАНИЕ"
+.PP
+\fBokular\fR
+предназначен для показа документов различных форматов\&.
+
+
+
+.SH "КЛЮЧИ Okular"
+
+
+
+.PP
+\fB\-p, \-\-page \fR\fB\fIномер_страницы\fR\fR
+.RS 4
+
+
+
+Открыть указанную страницу документа\&.
+
+.RE
+.PP
+\fB\-\-presentation\fR
+.RS 4
+
+
+
+Открыть документ в режиме презентации\&.
+
+.RE
+.PP
+\fB\-\-print\fR
+.RS 4
+
+
+
+Запустить с открытым диалогом печати\&.
+
+.RE
+.PP
+\fB\-\-print\-and\-exit\fR
+.RS 4
+
+
+
+Сразу открыть диалог печати и выйти из приложения после печати\&.
+
+.RE
+.PP
+\fB\-\-unique\fR
+.RS 4
+
+
+
+Контроль запуска уникального экземпляра приложения\&.
+
+.RE
+.PP
+\fB\-\-noraise\fR
+.RS 4
+
+
+
+Позволяет предотвращать вывод Okular на передний план сразу после запуска\&.
+
+.RE
+.PP
+\fB\-\-find \fR\fB\fIстрока\fR\fR
+.RS 4
+
+
+
+Запустить поиск заданной строки\&.
+
+.RE
+.PP
+\fB\-\-editor\-cmd \fR\fB\fIстрока\fR\fR
+.RS 4
+
+
+
+Указывает команду внешнего редактора\&. Команду редактора нельзя указать в уже запущенном экземпляре Okular\&. Обратите внимание, что опция
+\fB\-\-unique\fR
+не поддерживается при указании команды редактора в командной строке\&.
+
+.RE
+
+
+.SH "ПАРАМЕТРЫ"
+
+
+.PP
+\fBURL\fR
+.RS 4
+
+
+
+Адрес URL документа, который будет открыт\&. Для документов PDF, можно указывать адрес в следующем виде:
+\fIимя_документа\fR#\fIссылка\fR, где
+\fIссылка\fR
+\(em это именованная метка, встроенная в документ\&.
+
+.RE
+
+
+.SH "ОБРАТНАЯ СВЯЗЬ"
+.PP
+Оставить отзыв можно с помощью IRC: irc\&.libera\&.chat #okular, либо по электронной почте: okular\-devel@kde\&.org, либо на веб\-сайте: <\m[blue]\fBhttps://okular\&.kde\&.org/\fR\m[]>\&.
+
+
+.SH "СМОТРИТЕ ТАКЖЕ"
+
+.RS 4
+Более подробная документация доступна по адресу \m[blue]\fBhelp:/okular\fR\m[] (введите данный адрес URL в адресную строку Konqueror или выполните команду \fB\fBkhelpcenter\fR\fR\fB \fR\fB\fIhelp:/okular\fR\fR)\&.
+.RE
+.RS 4
+kf5options(7)
+.RE
+.RS 4
+qt5options(7)
+.RE
+.RS 4
+Дополнительная информация находится на веб\-сайте \m[blue]\fBhttps://okular\&.kde\&.org/\fR\m[]\&.
+.RE
+
+.SH "АВТОРСКИЕ ПРАВА"
+.PP
+(c) Wilco Greven, Christophe Devriese, 2002
+.PP
+(c) Enrico Ros, 2004\-2005
+.PP
+(c) Piotr Szymanski, 2005
+.PP
+(c) Albert Astals Cid, 2004\-2012
+.PP
+(c) Pino Toscano, 2006\-2009
+.PP
+Лицензия: GNU General Public License, версия 2 <\m[blue]\fBhttps://www\&.gnu\&.org/licenses/gpl\-2\&.0\&.html\fR\m[]>
+
+.SH "АВТОР"
+.PP
+\fBЮрий Чорноиван\fR <\&yurchor@ukr\&.net\&>
+.RS 4
+Страница руководства UNIX для Okular
+.RE

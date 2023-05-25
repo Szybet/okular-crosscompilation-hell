@@ -1,0 +1,63 @@
+# kdesrc-build running: 'cmake' '-B' '.' '-S' '/home/szybet/kdesrc/frameworks/kxmlgui' '-G' 'Unix Makefiles' '-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON' '-DCMAKE_TOOLCHAIN_FILE=/mnt/HDD/Project/Public/okulartry/kobo.cmake' '-DCMAKE_CXX_FLAGS:STRING=-pipe' '-DCMAKE_INSTALL_PREFIX=/mnt/HDD/Project/Public/okulartry/okular-things' '-DCMAKE_PREFIX_PATH=/home/build/inkbox/compiled-binaries/qt-bin/'
+# from directory: /home/szybet/kdesrc/build/frameworks/kxmlgui
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kxmlgui/prefix.sh to set the environment for KXmlGui.
+-- Setting build type to 'Debug' as none was specified.
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+-- Performing Test _OFFT_IS_64BIT - Failed
+-- Performing Test HAVE_DATE_TIME
+-- Performing Test HAVE_DATE_TIME - Success
+-- Performing Test BSYMBOLICFUNCTIONS_AVAILABLE
+-- Performing Test BSYMBOLICFUNCTIONS_AVAILABLE - Success
+-- Found Gettext: /sbin/msgmerge (found version "0.21.1") 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Network
+ * Qt5PrintSupport
+ * Qt5 (required version >= 5.15.2)
+ * Qt5Core (required version >= 5.15.2)
+ * Qt5Widgets (required version >= 5.15.2)
+ * KF5ItemViews (required version >= 5.106.0)
+ * Qt5Xml (required version >= 5.15.2)
+ * Qt5DBus (required version >= 5.15.2)
+ * KF5CoreAddons (required version >= 5.106.0)
+ * KF5Config (required version >= 5.106.0)
+ * KF5ConfigWidgets (required version >= 5.106.0)
+ * Qt5Gui (required version >= 5.15.2)
+ * KF5GuiAddons (required version >= 5.106.0)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * KF5IconThemes (required version >= 5.106.0)
+ * KF5WidgetsAddons (required version >= 5.106.0)
+ * KF5GlobalAccel (required version >= 5.106.0)
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+ * DESIGNERPLUGIN, Build plugin for Qt Designer
+
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kxmlgui

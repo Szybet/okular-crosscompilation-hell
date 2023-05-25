@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../bin/libKF5ItemViews.pdb"
+  "../bin/libKF5ItemViews.so"
+  "../bin/libKF5ItemViews.so.5"
+  "../bin/libKF5ItemViews.so.5.107.0"
+  "CMakeFiles/KF5ItemViews_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/KF5ItemViews_autogen.dir/ParseCache.txt"
+  "KF5ItemViews_autogen"
+  "CMakeFiles/KF5ItemViews.dir/ECMQmLoader-kitemviews5_qt.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/ECMQmLoader-kitemviews5_qt.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/KF5ItemViews_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/KF5ItemViews_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kcategorizedsortfilterproxymodel.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kcategorizedsortfilterproxymodel.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kcategorizedview.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kcategorizedview.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kcategorydrawer.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kcategorydrawer.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kextendableitemdelegate.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kextendableitemdelegate.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kfilterproxysearchline.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kfilterproxysearchline.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kitemviews_debug.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kitemviews_debug.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/klistwidgetsearchline.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/klistwidgetsearchline.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/ktreewidgetsearchline.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/ktreewidgetsearchline.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/ktreewidgetsearchlinewidget.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/ktreewidgetsearchlinewidget.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kwidgetitemdelegate.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kwidgetitemdelegate.cpp.o.d"
+  "CMakeFiles/KF5ItemViews.dir/kwidgetitemdelegatepool.cpp.o"
+  "CMakeFiles/KF5ItemViews.dir/kwidgetitemdelegatepool.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/KF5ItemViews.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

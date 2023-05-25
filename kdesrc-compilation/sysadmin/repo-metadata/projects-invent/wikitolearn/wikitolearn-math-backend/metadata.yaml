@@ -1,0 +1,7 @@
+description: Math Backend for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-math-backend
+name: 'WikiToLearn Math Backend'
+projectpath: playground/www/wikitolearn-math-backend
+repoactive: true
+repopath: wikitolearn/wikitolearn-math-backend

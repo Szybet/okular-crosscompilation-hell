@@ -1,0 +1,9 @@
+bugzilla:
+  product: krfb
+description: Desktop Sharing
+hasrepo: true
+identifier: krfb
+name: Krfb
+projectpath: kde/kdenetwork/krfb
+repoactive: true
+repopath: network/krfb

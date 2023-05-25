@@ -1,0 +1,7 @@
+description: plugins for koffice, a free software office suite
+hasrepo: true
+identifier: koffice-plugins
+name: KOffice Plugins
+projectpath: unmaintained/koffice-plugins
+repoactive: false
+repopath: unmaintained/koffice-plugins

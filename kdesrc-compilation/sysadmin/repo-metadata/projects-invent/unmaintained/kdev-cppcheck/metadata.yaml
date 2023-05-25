@@ -1,0 +1,7 @@
+description: cppcheck support for kdevelop
+hasrepo: true
+identifier: kdev-cppcheck
+name: Kdevelop Cppcheck support plugin
+projectpath: unmaintained/kdev-cppcheck
+repoactive: false
+repopath: unmaintained/kdev-cppcheck

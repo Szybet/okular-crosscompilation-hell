@@ -1,0 +1,7 @@
+description: Infrastructure for the Krita Fund website
+hasrepo: true
+identifier: websites-fund-krita-org
+name: Krita Fund Website
+projectpath: websites/fund-krita-org
+repoactive: true
+repopath: websites/fund-krita-org

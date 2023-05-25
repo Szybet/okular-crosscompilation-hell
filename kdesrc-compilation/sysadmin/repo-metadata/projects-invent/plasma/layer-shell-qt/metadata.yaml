@@ -1,0 +1,9 @@
+description: Qt component to allow applications to make use of the Wayland wl-layer-shell protocol.
+hasrepo: true
+identifier: layer-shell-qt
+name: Layer Shell Qt
+projectpath: kde/workspace/layer-shell-qt
+repoactive: true
+repopath: plasma/layer-shell-qt
+bugzilla:
+    product: layer-shell-qt

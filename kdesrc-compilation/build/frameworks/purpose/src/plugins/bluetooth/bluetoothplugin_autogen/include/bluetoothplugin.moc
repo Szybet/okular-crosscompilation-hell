@@ -1,0 +1,1146 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'bluetoothplugin.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'bluetoothplugin.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_BluetoothJob_t {
+    QByteArrayData data[1];
+    char stringdata0[13];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_BluetoothJob_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_BluetoothJob_t qt_meta_stringdata_BluetoothJob = {
+    {
+QT_MOC_LITERAL(0, 0, 12) // "BluetoothJob"
+
+    },
+    "BluetoothJob"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_BluetoothJob[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void BluetoothJob::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject BluetoothJob::staticMetaObject = { {
+    QMetaObject::SuperData::link<Purpose::Job::staticMetaObject>(),
+    qt_meta_stringdata_BluetoothJob.data,
+    qt_meta_data_BluetoothJob,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *BluetoothJob::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *BluetoothJob::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_BluetoothJob.stringdata0))
+        return static_cast<void*>(this);
+    return Purpose::Job::qt_metacast(_clname);
+}
+
+int BluetoothJob::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = Purpose::Job::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_BluetoothPlugin_t {
+    QByteArrayData data[1];
+    char stringdata0[16];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_BluetoothPlugin_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_BluetoothPlugin_t qt_meta_stringdata_BluetoothPlugin = {
+    {
+QT_MOC_LITERAL(0, 0, 15) // "BluetoothPlugin"
+
+    },
+    "BluetoothPlugin"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_BluetoothPlugin[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void BluetoothPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject BluetoothPlugin::staticMetaObject = { {
+    QMetaObject::SuperData::link<Purpose::PluginBase::staticMetaObject>(),
+    qt_meta_stringdata_BluetoothPlugin.data,
+    qt_meta_data_BluetoothPlugin,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *BluetoothPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *BluetoothPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_BluetoothPlugin.stringdata0))
+        return static_cast<void*>(this);
+    return Purpose::PluginBase::qt_metacast(_clname);
+}
+
+int BluetoothPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = Purpose::PluginBase::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_bluetoothplugin_factory_t {
+    QByteArrayData data[1];
+    char stringdata0[24];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_bluetoothplugin_factory_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_bluetoothplugin_factory_t qt_meta_stringdata_bluetoothplugin_factory = {
+    {
+QT_MOC_LITERAL(0, 0, 23) // "bluetoothplugin_factory"
+
+    },
+    "bluetoothplugin_factory"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_bluetoothplugin_factory[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void bluetoothplugin_factory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject bluetoothplugin_factory::staticMetaObject = { {
+    QMetaObject::SuperData::link<KPluginFactory::staticMetaObject>(),
+    qt_meta_stringdata_bluetoothplugin_factory.data,
+    qt_meta_data_bluetoothplugin_factory,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *bluetoothplugin_factory::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *bluetoothplugin_factory::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_bluetoothplugin_factory.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.kde.KPluginFactory"))
+        return static_cast< KPluginFactory*>(this);
+    return KPluginFactory::qt_metacast(_clname);
+}
+
+int bluetoothplugin_factory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KPluginFactory::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+QT_PLUGIN_METADATA_SECTION
+static constexpr unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x76,  'o',  'r',  'g',  '.',  'k',  'd', 
+    'e',  '.',  'K',  'P',  'l',  'u',  'g',  'i', 
+    'n',  'F',  'a',  'c',  't',  'o',  'r',  'y', 
+    // "className"
+    0x03,  0x77,  'b',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  'p',  'l',  'u',  'g',  'i', 
+    'n',  '_',  'f',  'a',  'c',  't',  'o',  'r', 
+    'y', 
+    // "MetaData"
+    0x04,  0xa4,  0x67,  'K',  'P',  'l',  'u',  'g', 
+    'i',  'n',  0xb8,  0x82,  0x67,  'A',  'u',  't', 
+    'h',  'o',  'r',  's',  0x81,  0xb8,  0x28,  0x64, 
+    'N',  'a',  'm',  'e',  0x6d,  'N',  'i',  'c', 
+    'o',  'l',  'a',  's',  ' ',  'F',  'e',  'l', 
+    'l',  'a',  0x68,  'N',  'a',  'm',  'e',  '[', 
+    'a',  'r',  ']',  0x6d,  'N',  'i',  'c',  'o', 
+    'l',  'a',  's',  ' ',  'F',  'e',  'l',  'l', 
+    'a',  0x68,  'N',  'a',  'm',  'e',  '[',  'a', 
+    'z',  ']',  0x6d,  'N',  'i',  'c',  'o',  'l', 
+    'a',  's',  ' ',  'F',  'e',  'l',  'l',  'a', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'b',  'g', 
+    ']',  0x6d,  'N',  'i',  'c',  'o',  'l',  'a', 
+    's',  ' ',  'F',  'e',  'l',  'l',  'a',  0x71, 
+    'N',  'a',  'm',  'e',  '[',  'c',  'a',  '@', 
+    'v',  'a',  'l',  'e',  'n',  'c',  'i',  'a', 
+    ']',  0x6d,  'N',  'i',  'c',  'o',  'l',  'a', 
+    's',  ' ',  'F',  'e',  'l',  'l',  'a',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'c',  'a',  ']', 
+    0x6d,  'N',  'i',  'c',  'o',  'l',  'a',  's', 
+    ' ',  'F',  'e',  'l',  'l',  'a',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  'c',  's',  ']',  0x6d, 
+    'N',  'i',  'c',  'o',  'l',  'a',  's',  ' ', 
+    'F',  'e',  'l',  'l',  'a',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'd',  'a',  ']',  0x6d,  'N', 
+    'i',  'c',  'o',  'l',  'a',  's',  ' ',  'F', 
+    'e',  'l',  'l',  'a',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'd',  'e',  ']',  0x6d,  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  'e',  'l',  ']',  0x6d,  'N',  'i',  'c', 
+    'o',  'l',  'a',  's',  ' ',  'F',  'e',  'l', 
+    'l',  'a',  0x6b,  'N',  'a',  'm',  'e',  '[', 
+    'e',  'n',  '_',  'G',  'B',  ']',  0x6d,  'N', 
+    'i',  'c',  'o',  'l',  'a',  's',  ' ',  'F', 
+    'e',  'l',  'l',  'a',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'e',  's',  ']',  0x6d,  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  'e',  't',  ']',  0x6d,  'N',  'i',  'c', 
+    'o',  'l',  'a',  's',  ' ',  'F',  'e',  'l', 
+    'l',  'a',  0x68,  'N',  'a',  'm',  'e',  '[', 
+    'e',  'u',  ']',  0x6d,  'N',  'i',  'c',  'o', 
+    'l',  'a',  's',  ' ',  'F',  'e',  'l',  'l', 
+    'a',  0x68,  'N',  'a',  'm',  'e',  '[',  'f', 
+    'i',  ']',  0x6d,  'N',  'i',  'c',  'o',  'l', 
+    'a',  's',  ' ',  'F',  'e',  'l',  'l',  'a', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'f',  'r', 
+    ']',  0x6d,  'N',  'i',  'c',  'o',  'l',  'a', 
+    's',  ' ',  'F',  'e',  'l',  'l',  'a',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'g',  'l',  ']', 
+    0x6d,  'N',  'i',  'c',  'o',  'l',  'a',  's', 
+    ' ',  'F',  'e',  'l',  'l',  'a',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  'h',  'u',  ']',  0x6d, 
+    'N',  'i',  'c',  'o',  'l',  'a',  's',  ' ', 
+    'F',  'e',  'l',  'l',  'a',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'i',  'a',  ']',  0x6d,  'N', 
+    'i',  'c',  'o',  'l',  'a',  's',  ' ',  'F', 
+    'e',  'l',  'l',  'a',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'i',  'd',  ']',  0x6d,  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  'i',  't',  ']',  0x6d,  'N',  'i',  'c', 
+    'o',  'l',  'a',  's',  ' ',  'F',  'e',  'l', 
+    'l',  'a',  0x68,  'N',  'a',  'm',  'e',  '[', 
+    'k',  'a',  ']',  0x6d,  'N',  'i',  'c',  'o', 
+    'l',  'a',  's',  ' ',  'F',  'e',  'l',  'l', 
+    'a',  0x68,  'N',  'a',  'm',  'e',  '[',  'k', 
+    'o',  ']',  0x6d,  'N',  'i',  'c',  'o',  'l', 
+    'a',  's',  ' ',  'F',  'e',  'l',  'l',  'a', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'l',  't', 
+    ']',  0x6d,  'N',  'i',  'c',  'o',  'l',  'a', 
+    's',  ' ',  'F',  'e',  'l',  'l',  'a',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'n',  'l',  ']', 
+    0x6d,  'N',  'i',  'c',  'o',  'l',  'a',  's', 
+    ' ',  'F',  'e',  'l',  'l',  'a',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  'n',  'n',  ']',  0x6d, 
+    'N',  'i',  'c',  'o',  'l',  'a',  's',  ' ', 
+    'F',  'e',  'l',  'l',  'a',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'p',  'l',  ']',  0x6d,  'N', 
+    'i',  'c',  'o',  'l',  'a',  's',  ' ',  'F', 
+    'e',  'l',  'l',  'a',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'p',  't',  ']',  0x6d,  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  0x6b,  'N',  'a',  'm',  'e', 
+    '[',  'p',  't',  '_',  'B',  'R',  ']',  0x6d, 
+    'N',  'i',  'c',  'o',  'l',  'a',  's',  ' ', 
+    'F',  'e',  'l',  'l',  'a',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'r',  'o',  ']',  0x6d,  'N', 
+    'i',  'c',  'o',  'l',  'a',  's',  ' ',  'F', 
+    'e',  'l',  'l',  'a',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'r',  'u',  ']',  0x6d,  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  's',  'k',  ']',  0x6d,  'N',  'i',  'c', 
+    'o',  'l',  'a',  's',  ' ',  'F',  'e',  'l', 
+    'l',  'a',  0x68,  'N',  'a',  'm',  'e',  '[', 
+    's',  'l',  ']',  0x6d,  'N',  'i',  'c',  'o', 
+    'l',  'a',  's',  ' ',  'F',  'e',  'l',  'l', 
+    'a',  0x68,  'N',  'a',  'm',  'e',  '[',  's', 
+    'v',  ']',  0x6d,  'N',  'i',  'c',  'o',  'l', 
+    'a',  's',  ' ',  'F',  'e',  'l',  'l',  'a', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  't',  'g', 
+    ']',  0x78,  0x29,  uchar('\xd0'), uchar('\x9d'), uchar('\xd0'), uchar('\xb8'), uchar('\xd0'),
+    uchar('\xba'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xbb'), uchar('\xd0'), uchar('\xb0'), uchar('\xd1'),
+    uchar('\x81'), ' ',  uchar('\xd0'), uchar('\xa4'), uchar('\xd0'), uchar('\xb5'), uchar('\xd0'), uchar('\xbb'),
+    uchar('\xd0'), uchar('\xbb'), uchar('\xd0'), uchar('\xb0'), ' ',  '(',  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  ')',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  't',  'r',  ']',  0x6d,  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  'u',  'k',  ']',  0x6d,  'N',  'i',  'c', 
+    'o',  'l',  'a',  's',  ' ',  'F',  'e',  'l', 
+    'l',  'a',  0x6c,  'N',  'a',  'm',  'e',  '[', 
+    'x',  '-',  't',  'e',  's',  't',  ']',  0x71, 
+    'x',  'x',  'N',  'i',  'c',  'o',  'l',  'a', 
+    's',  ' ',  'F',  'e',  'l',  'l',  'a',  'x', 
+    'x',  0x6b,  'N',  'a',  'm',  'e',  '[',  'z', 
+    'h',  '_',  'C',  'N',  ']',  0x6d,  'N',  'i', 
+    'c',  'o',  'l',  'a',  's',  ' ',  'F',  'e', 
+    'l',  'l',  'a',  0x6b,  'N',  'a',  'm',  'e', 
+    '[',  'z',  'h',  '_',  'T',  'W',  ']',  0x6d, 
+    'N',  'i',  'c',  'o',  'l',  'a',  's',  ' ', 
+    'F',  'e',  'l',  'l',  'a',  0x68,  'C',  'a', 
+    't',  'e',  'g',  'o',  'r',  'y',  0x69,  'U', 
+    't',  'i',  'l',  'i',  't',  'i',  'e',  's', 
+    0x6b,  'D',  'e',  's',  'c',  'r',  'i',  'p', 
+    't',  'i',  'o',  'n',  0x72,  'S',  'e',  'n', 
+    'd',  ' ',  'v',  'i',  'a',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  0x6f, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'a',  'r',  ']',  0x78, 
+    0x1e,  uchar('\xd8'), uchar('\xa3'), uchar('\xd8'), uchar('\xb1'), uchar('\xd8'), uchar('\xb3'), uchar('\xd9'),
+    uchar('\x90'), uchar('\xd9'), uchar('\x84'), ' ',  uchar('\xd8'), uchar('\xb9'), uchar('\xd8'), uchar('\xa8'),
+    uchar('\xd8'), uchar('\xb1'), ' ',  uchar('\xd8'), uchar('\xa8'), uchar('\xd9'), uchar('\x84'), uchar('\xd9'),
+    uchar('\x88'), uchar('\xd8'), uchar('\xaa'), uchar('\xd9'), uchar('\x88'), uchar('\xd8'), uchar('\xab'), 0x6f, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'a',  'z',  ']',  0x78, 
+    0x1b,  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  ' ',  'i',  'l',  uchar('\xc9'), uchar('\x99'), ' ', 
+    'g',  uchar('\xc3'), uchar('\xb6'), 'n',  'd',  uchar('\xc9'), uchar('\x99'), 'r', 
+    'm',  uchar('\xc9'), uchar('\x99'), 'k',  0x6f,  'D',  'e',  's', 
+    'c',  'r',  'i',  'p',  't',  'i',  'o',  'n', 
+    '[',  'b',  'g',  ']',  0x78,  0x25,  uchar('\xd0'), uchar('\x98'),
+    uchar('\xd0'), uchar('\xb7'), uchar('\xd0'), uchar('\xbf'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb0'),
+    uchar('\xd1'), uchar('\x89'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xbd'), uchar('\xd0'), uchar('\xb5'),
+    ' ',  uchar('\xd1'), uchar('\x87'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb5'), uchar('\xd0'),
+    uchar('\xb7'), ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x78,  0x18,  'D',  'e',  's', 
+    'c',  'r',  'i',  'p',  't',  'i',  'o',  'n', 
+    '[',  'c',  'a',  '@',  'v',  'a',  'l',  'e', 
+    'n',  'c',  'i',  'a',  ']',  0x73,  'E',  'n', 
+    'v',  'i',  'a',  ' ',  'p',  'e',  'r',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  'c',  'a', 
+    ']',  0x73,  'E',  'n',  'v',  'i',  'a',  ' ', 
+    'p',  'e',  'r',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  'c',  's',  ']',  0x76,  'P',  'o', 
+    's',  'l',  'a',  't',  ' ',  'p',  uchar('\xc5'), uchar('\x99'),
+    'e',  's',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  0x6f,  'D',  'e',  's', 
+    'c',  'r',  'i',  'p',  't',  'i',  'o',  'n', 
+    '[',  'd',  'a',  ']',  0x72,  'S',  'e',  'n', 
+    'd',  ' ',  'v',  'i',  'a',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  0x6f, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'd',  'e',  ']',  0x78, 
+    0x19,  uchar('\xc3'), uchar('\x9c'), 'b',  'e',  'r',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    ' ',  'v',  'e',  'r',  's',  'e',  'n',  'd', 
+    'e',  'n',  0x6f,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  '[',  'e', 
+    'l',  ']',  0x78,  0x23,  uchar('\xce'), uchar('\x91'), uchar('\xcf'), uchar('\x80'),
+    uchar('\xce'), uchar('\xbf'), uchar('\xcf'), uchar('\x83'), uchar('\xcf'), uchar('\x84'), uchar('\xce'), uchar('\xbf'),
+    uchar('\xce'), uchar('\xbb'), uchar('\xce'), uchar('\xae'), ' ',  uchar('\xce'), uchar('\xbc'), uchar('\xce'),
+    uchar('\xad'), uchar('\xcf'), uchar('\x83'), uchar('\xcf'), uchar('\x89'), ' ',  'b',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  0x72, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'e',  'n',  '_',  'G', 
+    'B',  ']',  0x72,  'S',  'e',  'n',  'd',  ' ', 
+    'v',  'i',  'a',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  'e',  's',  ']',  0x74,  'E',  'n', 
+    'v',  'i',  'a',  'r',  ' ',  'p',  'o',  'r', 
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  0x6f,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  '[',  'e', 
+    't',  ']',  0x78,  0x19,  'S',  'a',  'a',  't', 
+    'm',  'i',  'n',  'e',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  'i',  ' ', 
+    'k',  'a',  'u',  'd',  'u',  0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  'e',  'u',  ']',  0x76,  'B',  'i', 
+    'd',  'a',  'l',  'i',  ' ',  'b',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  ' ',  'b', 
+    'i',  'd',  'e',  'z',  0x6f,  'D',  'e',  's', 
+    'c',  'r',  'i',  'p',  't',  'i',  'o',  'n', 
+    '[',  'f',  'i',  ']',  0x76,  'L',  uchar('\xc3'), uchar('\xa4'),
+    'h',  'e',  't',  uchar('\xc3'), uchar('\xa4'), ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  'i', 
+    'l',  'l',  'a',  0x6f,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    'f',  'r',  ']',  0x75,  'E',  'n',  'v',  'o', 
+    'y',  'e',  'r',  ' ',  'v',  'i',  'a',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  'g',  'l', 
+    ']',  0x77,  'E',  'n',  'v',  'i',  'a',  'r', 
+    ' ',  'p',  'o',  'r',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  uchar('\xe2'), uchar('\x80'),
+    uchar('\xa6'), 0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  'h',  'u', 
+    ']',  0x74,  'K',  uchar('\xc3'), uchar('\xbc'), 'l',  'd',  uchar('\xc3'),
+    uchar('\xa9'), 's',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  'o',  'n',  0x6f,  'D', 
+    'e',  's',  'c',  'r',  'i',  'p',  't',  'i', 
+    'o',  'n',  '[',  'i',  'a',  ']',  0x73,  'I', 
+    'n',  'v',  'i',  'a',  ' ',  'v',  'i',  'a', 
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  0x6f,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  '[',  'i', 
+    'd',  ']',  0x76,  'K',  'i',  'r',  'i',  'm', 
+    'k',  'a',  'n',  ' ',  'v',  'i',  'a',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  'i',  't', 
+    ']',  0x77,  'I',  'n',  'v',  'i',  'a',  ' ', 
+    't',  'r',  'a',  'm',  'i',  't',  'e',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  'k',  'a', 
+    ']',  0x78,  0x31,  uchar('\xe1'), uchar('\x83'), uchar('\x91'), uchar('\xe1'), uchar('\x83'),
+    uchar('\x9a'), uchar('\xe1'), uchar('\x83'), uchar('\xa3'), uchar('\xe1'), uchar('\x83'), uchar('\x97'), uchar('\xe1'),
+    uchar('\x83'), uchar('\xa3'), uchar('\xe1'), uchar('\x83'), uchar('\x96'), uchar('\xe1'), uchar('\x83'), uchar('\x98'),
+    uchar('\xe1'), uchar('\x83'), uchar('\x97'), ' ',  uchar('\xe1'), uchar('\x83'), uchar('\x92'), uchar('\xe1'),
+    uchar('\x83'), uchar('\x90'), uchar('\xe1'), uchar('\x83'), uchar('\x92'), uchar('\xe1'), uchar('\x83'), uchar('\x96'),
+    uchar('\xe1'), uchar('\x83'), uchar('\x90'), uchar('\xe1'), uchar('\x83'), uchar('\x95'), uchar('\xe1'), uchar('\x83'),
+    uchar('\x9c'), uchar('\xe1'), uchar('\x83'), uchar('\x90'), 0x6f,  'D',  'e',  's', 
+    'c',  'r',  'i',  'p',  't',  'i',  'o',  'n', 
+    '[',  'k',  'o',  ']',  0x78,  0x19,  uchar('\xeb'), uchar('\xb8'),
+    uchar('\x94'), uchar('\xeb'), uchar('\xa3'), uchar('\xa8'), uchar('\xed'), uchar('\x88'), uchar('\xac'), uchar('\xec'),
+    uchar('\x8a'), uchar('\xa4'), uchar('\xeb'), uchar('\xa1'), uchar('\x9c'), ' ',  uchar('\xeb'), uchar('\xb3'),
+    uchar('\xb4'), uchar('\xeb'), uchar('\x82'), uchar('\xb4'), uchar('\xea'), uchar('\xb8'), uchar('\xb0'), 0x6f, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'l',  't',  ']',  0x75, 
+    'S',  'i',  uchar('\xc5'), uchar('\xb3'), 's',  't',  'i',  ' ', 
+    'p',  'e',  'r',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  'm',  'l',  ']',  0x78,  0x3e,  uchar('\xe0'),
+    uchar('\xb4'), uchar('\xac'), uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), uchar('\xe0'), uchar('\xb4'), uchar('\xb2'),
+    uchar('\xe0'), uchar('\xb5'), uchar('\x82'), uchar('\xe0'), uchar('\xb4'), uchar('\x9f'), uchar('\xe0'), uchar('\xb5'),
+    uchar('\x82'), uchar('\xe0'), uchar('\xb4'), uchar('\xa4'), uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), uchar('\xe0'),
+    uchar('\xb4'), uchar('\xa4'), uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), ' ',  uchar('\xe0'), uchar('\xb4'),
+    uchar('\xb5'), uchar('\xe0'), uchar('\xb4'), uchar('\xb4'), uchar('\xe0'), uchar('\xb4'), uchar('\xbf'), ' ', 
+    uchar('\xe0'), uchar('\xb4'), uchar('\x85'), uchar('\xe0'), uchar('\xb4'), uchar('\xaf'), uchar('\xe0'), uchar('\xb4'),
+    uchar('\x95'), uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), uchar('\xe0'), uchar('\xb4'), uchar('\x95'), uchar('\xe0'),
+    uchar('\xb5'), uchar('\x81'), uchar('\xe0'), uchar('\xb4'), uchar('\x95'), 0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  'n',  'l',  ']',  0x78,  0x18,  'V', 
+    'e',  'r',  'z',  'e',  'n',  'd',  'e',  'n', 
+    ' ',  'o',  'v',  'e',  'r',  ' ',  'b',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  0x6f, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'n',  'n',  ']',  0x73, 
+    'S',  'e',  'n',  'd',  ' ',  'o',  'v',  'e', 
+    'r',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x6f,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    'p',  'l',  ']',  0x78,  0x19,  'P',  'r',  'z', 
+    'e',  uchar('\xc5'), uchar('\x9b'), 'l',  'i',  'j',  ' ',  'p', 
+    'r',  'z',  'e',  'z',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  0x6f,  'D', 
+    'e',  's',  'c',  'r',  'i',  'p',  't',  'i', 
+    'o',  'n',  '[',  'p',  't',  ']',  0x74,  'E', 
+    'n',  'v',  'i',  'a',  'r',  ' ',  'p',  'o', 
+    'r',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x72,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    'p',  't',  '_',  'B',  'R',  ']',  0x74,  'E', 
+    'n',  'v',  'i',  'a',  'r',  ' ',  'p',  'o', 
+    'r',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x6f,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    'r',  'o',  ']',  0x76,  'T',  'r',  'i',  'm', 
+    'i',  't',  'e',  ' ',  'p',  'r',  'i',  'n', 
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  0x6f,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  '[',  'r', 
+    'u',  ']',  0x78,  0x1f,  uchar('\xd0'), uchar('\x9e'), uchar('\xd1'), uchar('\x82'),
+    uchar('\xd0'), uchar('\xbf'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xb2'),
+    uchar('\xd0'), uchar('\xba'), uchar('\xd0'), uchar('\xb0'), ' ',  uchar('\xd0'), uchar('\xbf'), uchar('\xd0'),
+    uchar('\xbe'), ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x6f,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    's',  'k',  ']',  0x75,  'P',  'o',  's',  'l', 
+    'a',  uchar('\xc5'), uchar('\xa5'), ' ',  'c',  'e',  'z',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  's',  'l', 
+    ']',  0x77,  'P',  'o',  uchar('\xc5'), uchar('\xa1'), 'l',  'j', 
+    'i',  ' ',  'p',  'r',  'e',  'k',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    'a',  0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  's',  'v', 
+    ']',  0x73,  'S',  'k',  'i',  'c',  'k',  'a', 
+    ' ',  'v',  'i',  'a',  ' ',  'B',  'l',  uchar('\xc3'),
+    uchar('\xa5'), 't',  'a',  'n',  'd',  0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  't',  'a',  ']',  0x78,  0x2f,  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    ' ',  uchar('\xe0'), uchar('\xae'), uchar('\xae'), uchar('\xe0'), uchar('\xaf'), uchar('\x82'), uchar('\xe0'),
+    uchar('\xae'), uchar('\xb2'), uchar('\xe0'), uchar('\xae'), uchar('\xae'), uchar('\xe0'), uchar('\xaf'), uchar('\x8d'),
+    ' ',  uchar('\xe0'), uchar('\xae'), uchar('\x85'), uchar('\xe0'), uchar('\xae'), uchar('\xa9'), uchar('\xe0'),
+    uchar('\xaf'), uchar('\x81'), uchar('\xe0'), uchar('\xae'), uchar('\xaa'), uchar('\xe0'), uchar('\xaf'), uchar('\x8d'),
+    uchar('\xe0'), uchar('\xae'), uchar('\xaa'), uchar('\xe0'), uchar('\xaf'), uchar('\x81'), 0x6f,  'D', 
+    'e',  's',  'c',  'r',  'i',  'p',  't',  'i', 
+    'o',  'n',  '[',  't',  'g',  ']',  0x78,  0x32, 
+    uchar('\xd0'), uchar('\xa4'), uchar('\xd0'), uchar('\xb8'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb8'),
+    uchar('\xd1'), uchar('\x81'), uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xb4'),
+    uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xbd'), ' ',  uchar('\xd0'), uchar('\xb1'), uchar('\xd0'),
+    uchar('\xb0'), ' ',  uchar('\xd0'), uchar('\xb2'), uchar('\xd0'), uchar('\xbe'), uchar('\xd1'), uchar('\x81'),
+    uchar('\xd0'), uchar('\xb8'), uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xb8'),
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  0x6f,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  '[',  't', 
+    'r',  ']',  0x75,  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  ' ',  'i',  'l',  'e', 
+    ' ',  'g',  uchar('\xc3'), uchar('\xb6'), 'n',  'd',  'e',  'r', 
+    0x6f,  'D',  'e',  's',  'c',  'r',  'i',  'p', 
+    't',  'i',  'o',  'n',  '[',  'u',  'k',  ']', 
+    0x78,  0x36,  uchar('\xd0'), uchar('\x9d'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xb4'),
+    uchar('\xd1'), uchar('\x81'), uchar('\xd0'), uchar('\xb8'), uchar('\xd0'), uchar('\xbb'), uchar('\xd0'), uchar('\xb0'),
+    uchar('\xd0'), uchar('\xbd'), uchar('\xd0'), uchar('\xbd'), uchar('\xd1'), uchar('\x8f'), ' ',  uchar('\xd0'),
+    uchar('\xb7'), uchar('\xd0'), uchar('\xb0'), ' ',  uchar('\xd0'), uchar('\xb4'), uchar('\xd0'), uchar('\xbe'),
+    uchar('\xd0'), uchar('\xbf'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xbc'), uchar('\xd0'), uchar('\xbe'),
+    uchar('\xd0'), uchar('\xb3'), uchar('\xd0'), uchar('\xbe'), uchar('\xd1'), uchar('\x8e'), ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    0x73,  'D',  'e',  's',  'c',  'r',  'i',  'p', 
+    't',  'i',  'o',  'n',  '[',  'x',  '-',  't', 
+    'e',  's',  't',  ']',  0x76,  'x',  'x',  'S', 
+    'e',  'n',  'd',  ' ',  'v',  'i',  'a',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  'x',  'x',  0x72,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    'z',  'h',  '_',  'C',  'N',  ']',  0x72,  uchar('\xe9'),
+    uchar('\x80'), uchar('\x9a'), uchar('\xe8'), uchar('\xbf'), uchar('\x87'), uchar('\xe8'), uchar('\x93'), uchar('\x9d'),
+    uchar('\xe7'), uchar('\x89'), uchar('\x99'), uchar('\xe5'), uchar('\x8f'), uchar('\x91'), uchar('\xe9'), uchar('\x80'),
+    uchar('\x81'), 0x72,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  'z',  'h', 
+    '_',  'T',  'W',  ']',  0x72,  uchar('\xe9'), uchar('\x80'), uchar('\x8f'),
+    uchar('\xe9'), uchar('\x81'), uchar('\x8e'), uchar('\xe8'), uchar('\x97'), uchar('\x8d'), uchar('\xe7'), uchar('\x89'),
+    uchar('\x99'), uchar('\xe5'), uchar('\x82'), uchar('\xb3'), uchar('\xe9'), uchar('\x80'), uchar('\x81'), 0x64, 
+    'I',  'c',  'o',  'n',  0x78,  0x1c,  'p',  'r', 
+    'e',  'f',  'e',  'r',  'e',  'n',  'c',  'e', 
+    's',  '-',  's',  'y',  's',  't',  'e',  'm', 
+    '-',  'b',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  0x67,  'L',  'i',  'c',  'e',  'n', 
+    's',  'e',  0x63,  'G',  'P',  'L',  0x64,  'N', 
+    'a',  'm',  'e',  0x72,  'S',  'e',  'n',  'd', 
+    ' ',  'v',  'i',  'a',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  'a',  'r',  ']',  0x78, 
+    0x1e,  uchar('\xd8'), uchar('\xa3'), uchar('\xd8'), uchar('\xb1'), uchar('\xd8'), uchar('\xb3'), uchar('\xd9'),
+    uchar('\x90'), uchar('\xd9'), uchar('\x84'), ' ',  uchar('\xd8'), uchar('\xb9'), uchar('\xd8'), uchar('\xa8'),
+    uchar('\xd8'), uchar('\xb1'), ' ',  uchar('\xd8'), uchar('\xa8'), uchar('\xd9'), uchar('\x84'), uchar('\xd9'),
+    uchar('\x88'), uchar('\xd8'), uchar('\xaa'), uchar('\xd9'), uchar('\x88'), uchar('\xd8'), uchar('\xab'), 0x68, 
+    'N',  'a',  'm',  'e',  '[',  'a',  'z',  ']', 
+    0x78,  0x1b,  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  ' ',  'i',  'l',  uchar('\xc9'), uchar('\x99'),
+    ' ',  'g',  uchar('\xc3'), uchar('\xb6'), 'n',  'd',  uchar('\xc9'), uchar('\x99'),
+    'r',  'm',  uchar('\xc9'), uchar('\x99'), 'k',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'b',  'g',  ']',  0x78,  0x25, 
+    uchar('\xd0'), uchar('\x98'), uchar('\xd0'), uchar('\xb7'), uchar('\xd0'), uchar('\xbf'), uchar('\xd1'), uchar('\x80'),
+    uchar('\xd0'), uchar('\xb0'), uchar('\xd1'), uchar('\x89'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xbd'),
+    uchar('\xd0'), uchar('\xb5'), ' ',  uchar('\xd1'), uchar('\x87'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'),
+    uchar('\xb5'), uchar('\xd0'), uchar('\xb7'), ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  0x71,  'N',  'a', 
+    'm',  'e',  '[',  'c',  'a',  '@',  'v',  'a', 
+    'l',  'e',  'n',  'c',  'i',  'a',  ']',  0x73, 
+    'E',  'n',  'v',  'i',  'a',  ' ',  'p',  'e', 
+    'r',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  'c',  'a',  ']',  0x73,  'E',  'n',  'v', 
+    'i',  'a',  ' ',  'p',  'e',  'r',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'c',  's', 
+    ']',  0x76,  'P',  'o',  's',  'l',  'a',  't', 
+    ' ',  'p',  uchar('\xc5'), uchar('\x99'), 'e',  's',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'd',  'a', 
+    ']',  0x72,  'S',  'e',  'n',  'd',  ' ',  'v', 
+    'i',  'a',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'd',  'e',  ']',  0x78,  0x19,  uchar('\xc3'),
+    uchar('\x9c'), 'b',  'e',  'r',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  ' ',  'v', 
+    'e',  'r',  's',  'e',  'n',  'd',  'e',  'n', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'e',  'l', 
+    ']',  0x78,  0x23,  uchar('\xce'), uchar('\x91'), uchar('\xcf'), uchar('\x80'), uchar('\xce'),
+    uchar('\xbf'), uchar('\xcf'), uchar('\x83'), uchar('\xcf'), uchar('\x84'), uchar('\xce'), uchar('\xbf'), uchar('\xce'),
+    uchar('\xbb'), uchar('\xce'), uchar('\xae'), ' ',  uchar('\xce'), uchar('\xbc'), uchar('\xce'), uchar('\xad'),
+    uchar('\xcf'), uchar('\x83'), uchar('\xcf'), uchar('\x89'), ' ',  'b',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  0x6b,  'N', 
+    'a',  'm',  'e',  '[',  'e',  'n',  '_',  'G', 
+    'B',  ']',  0x72,  'S',  'e',  'n',  'd',  ' ', 
+    'v',  'i',  'a',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'e',  's',  ']',  0x74,  'E', 
+    'n',  'v',  'i',  'a',  'r',  ' ',  'p',  'o', 
+    'r',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  'e',  't',  ']',  0x78,  0x19,  'S',  'a', 
+    'a',  't',  'm',  'i',  'n',  'e',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    'i',  ' ',  'k',  'a',  'u',  'd',  'u',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'e',  'u',  ']', 
+    0x76,  'B',  'i',  'd',  'a',  'l',  'i',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  ' ',  'b',  'i',  'd',  'e',  'z',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'f',  'i',  ']', 
+    0x76,  'L',  uchar('\xc3'), uchar('\xa4'), 'h',  'e',  't',  uchar('\xc3'),
+    uchar('\xa4'), ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  'i',  'l',  'l',  'a',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'f',  'r',  ']', 
+    0x75,  'E',  'n',  'v',  'o',  'y',  'e',  'r', 
+    ' ',  'v',  'i',  'a',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  'g',  'l',  ']',  0x74, 
+    'E',  'n',  'v',  'i',  'a',  'r',  ' ',  'p', 
+    'o',  'r',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'h',  'u',  ']',  0x74,  'K',  uchar('\xc3'),
+    uchar('\xbc'), 'l',  'd',  uchar('\xc3'), uchar('\xa9'), 's',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    'o',  'n',  0x68,  'N',  'a',  'm',  'e',  '[', 
+    'i',  'a',  ']',  0x73,  'I',  'n',  'v',  'i', 
+    'a',  ' ',  'v',  'i',  'a',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'i',  'd',  ']', 
+    0x76,  'K',  'i',  'r',  'i',  'm',  'k',  'a', 
+    'n',  ' ',  'v',  'i',  'a',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'i',  't',  ']', 
+    0x77,  'I',  'n',  'v',  'i',  'a',  ' ',  't', 
+    'r',  'a',  'm',  'i',  't',  'e',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'k',  'a', 
+    ']',  0x78,  0x4a,  uchar('\xe1'), uchar('\x83'), uchar('\xa4'), uchar('\xe1'), uchar('\x83'),
+    uchar('\x90'), uchar('\xe1'), uchar('\x83'), uchar('\x98'), uchar('\xe1'), uchar('\x83'), uchar('\x9a'), uchar('\xe1'),
+    uchar('\x83'), uchar('\x94'), uchar('\xe1'), uchar('\x83'), uchar('\x91'), uchar('\xe1'), uchar('\x83'), uchar('\x98'),
+    uchar('\xe1'), uchar('\x83'), uchar('\xa1'), ' ',  uchar('\xe1'), uchar('\x83'), uchar('\x91'), uchar('\xe1'),
+    uchar('\x83'), uchar('\x9a'), uchar('\xe1'), uchar('\x83'), uchar('\xa3'), uchar('\xe1'), uchar('\x83'), uchar('\x97'),
+    uchar('\xe1'), uchar('\x83'), uchar('\xa3'), uchar('\xe1'), uchar('\x83'), uchar('\x96'), uchar('\xe1'), uchar('\x83'),
+    uchar('\x98'), uchar('\xe1'), uchar('\x83'), uchar('\x97'), ' ',  uchar('\xe1'), uchar('\x83'), uchar('\x92'),
+    uchar('\xe1'), uchar('\x83'), uchar('\x90'), uchar('\xe1'), uchar('\x83'), uchar('\x92'), uchar('\xe1'), uchar('\x83'),
+    uchar('\x96'), uchar('\xe1'), uchar('\x83'), uchar('\x90'), uchar('\xe1'), uchar('\x83'), uchar('\x95'), uchar('\xe1'),
+    uchar('\x83'), uchar('\x9c'), uchar('\xe1'), uchar('\x83'), uchar('\x90'), 0x68,  'N',  'a', 
+    'm',  'e',  '[',  'k',  'o',  ']',  0x78,  0x19, 
+    uchar('\xeb'), uchar('\xb8'), uchar('\x94'), uchar('\xeb'), uchar('\xa3'), uchar('\xa8'), uchar('\xed'), uchar('\x88'),
+    uchar('\xac'), uchar('\xec'), uchar('\x8a'), uchar('\xa4'), uchar('\xeb'), uchar('\xa1'), uchar('\x9c'), ' ', 
+    uchar('\xeb'), uchar('\xb3'), uchar('\xb4'), uchar('\xeb'), uchar('\x82'), uchar('\xb4'), uchar('\xea'), uchar('\xb8'),
+    uchar('\xb0'), 0x68,  'N',  'a',  'm',  'e',  '[',  'l', 
+    't',  ']',  0x75,  'S',  'i',  uchar('\xc5'), uchar('\xb3'), 's', 
+    't',  'i',  ' ',  'p',  'e',  'r',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'm',  'l', 
+    ']',  0x78,  0x3e,  uchar('\xe0'), uchar('\xb4'), uchar('\xac'), uchar('\xe0'), uchar('\xb5'),
+    uchar('\x8d'), uchar('\xe0'), uchar('\xb4'), uchar('\xb2'), uchar('\xe0'), uchar('\xb5'), uchar('\x82'), uchar('\xe0'),
+    uchar('\xb4'), uchar('\x9f'), uchar('\xe0'), uchar('\xb5'), uchar('\x81'), uchar('\xe0'), uchar('\xb4'), uchar('\xa4'),
+    uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), uchar('\xe0'), uchar('\xb4'), uchar('\xa4'), uchar('\xe0'), uchar('\xb5'),
+    uchar('\x8d'), ' ',  uchar('\xe0'), uchar('\xb4'), uchar('\xb5'), uchar('\xe0'), uchar('\xb4'), uchar('\xb4'),
+    uchar('\xe0'), uchar('\xb4'), uchar('\xbf'), ' ',  uchar('\xe0'), uchar('\xb4'), uchar('\x85'), uchar('\xe0'),
+    uchar('\xb4'), uchar('\xaf'), uchar('\xe0'), uchar('\xb4'), uchar('\x95'), uchar('\xe0'), uchar('\xb5'), uchar('\x8d'),
+    uchar('\xe0'), uchar('\xb4'), uchar('\x95'), uchar('\xe0'), uchar('\xb5'), uchar('\x81'), uchar('\xe0'), uchar('\xb4'),
+    uchar('\x95'), 0x68,  'N',  'a',  'm',  'e',  '[',  'n', 
+    'l',  ']',  0x78,  0x18,  'V',  'e',  'r',  'z', 
+    'e',  'n',  'd',  'e',  'n',  ' ',  'o',  'v', 
+    'e',  'r',  ' ',  'b',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'n',  'n',  ']',  0x73,  'S',  'e', 
+    'n',  'd',  ' ',  'o',  'v',  'e',  'r',  ' ', 
+    'B',  'l',  'u',  'e',  't',  'o',  'o',  't', 
+    'h',  0x68,  'N',  'a',  'm',  'e',  '[',  'p', 
+    'l',  ']',  0x78,  0x19,  'P',  'r',  'z',  'e', 
+    uchar('\xc5'), uchar('\x9b'), 'l',  'i',  'j',  ' ',  'p',  'r', 
+    'z',  'e',  'z',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'p',  't',  ']',  0x74,  'E', 
+    'n',  'v',  'i',  'a',  'r',  ' ',  'p',  'o', 
+    'r',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  0x6b,  'N',  'a',  'm',  'e', 
+    '[',  'p',  't',  '_',  'B',  'R',  ']',  0x74, 
+    'E',  'n',  'v',  'i',  'a',  'r',  ' ',  'p', 
+    'o',  'r',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'r',  'o',  ']',  0x76,  'T',  'r', 
+    'i',  'm',  'i',  't',  'e',  ' ',  'p',  'r', 
+    'i',  'n',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  0x68,  'N',  'a',  'm', 
+    'e',  '[',  'r',  'u',  ']',  0x78,  0x1f,  uchar('\xd0'),
+    uchar('\x9e'), uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xbf'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'),
+    uchar('\xb0'), uchar('\xd0'), uchar('\xb2'), uchar('\xd0'), uchar('\xba'), uchar('\xd0'), uchar('\xb0'), ' ', 
+    uchar('\xd0'), uchar('\xbf'), uchar('\xd0'), uchar('\xbe'), ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  's',  'k',  ']',  0x75, 
+    'P',  'o',  's',  'l',  'a',  uchar('\xc5'), uchar('\xa5'), ' ', 
+    'c',  'e',  'z',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  's',  'l',  ']',  0x77,  'P', 
+    'o',  uchar('\xc5'), uchar('\xa1'), 'l',  'j',  'i',  ' ',  'p', 
+    'r',  'e',  'k',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  'a',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  's',  'v',  ']',  0x73, 
+    'S',  'k',  'i',  'c',  'k',  'a',  ' ',  'v', 
+    'i',  'a',  ' ',  'B',  'l',  uchar('\xc3'), uchar('\xa5'), 't', 
+    'a',  'n',  'd',  0x68,  'N',  'a',  'm',  'e', 
+    '[',  't',  'a',  ']',  0x78,  0x2f,  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  ' ', 
+    uchar('\xe0'), uchar('\xae'), uchar('\xae'), uchar('\xe0'), uchar('\xaf'), uchar('\x82'), uchar('\xe0'), uchar('\xae'),
+    uchar('\xb2'), uchar('\xe0'), uchar('\xae'), uchar('\xae'), uchar('\xe0'), uchar('\xaf'), uchar('\x8d'), ' ', 
+    uchar('\xe0'), uchar('\xae'), uchar('\x85'), uchar('\xe0'), uchar('\xae'), uchar('\xa9'), uchar('\xe0'), uchar('\xaf'),
+    uchar('\x81'), uchar('\xe0'), uchar('\xae'), uchar('\xaa'), uchar('\xe0'), uchar('\xaf'), uchar('\x8d'), uchar('\xe0'),
+    uchar('\xae'), uchar('\xaa'), uchar('\xe0'), uchar('\xaf'), uchar('\x81'), 0x68,  'N',  'a', 
+    'm',  'e',  '[',  't',  'g',  ']',  0x78,  0x32, 
+    uchar('\xd0'), uchar('\xa4'), uchar('\xd0'), uchar('\xb8'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb8'),
+    uchar('\xd1'), uchar('\x81'), uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xb4'),
+    uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xbd'), ' ',  uchar('\xd0'), uchar('\xb1'), uchar('\xd0'),
+    uchar('\xb0'), ' ',  uchar('\xd0'), uchar('\xb2'), uchar('\xd0'), uchar('\xbe'), uchar('\xd1'), uchar('\x81'),
+    uchar('\xd0'), uchar('\xb8'), uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xb8'),
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  0x68,  'N',  'a',  'm',  'e',  '[', 
+    't',  'r',  ']',  0x75,  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  ' ',  'i',  'l', 
+    'e',  ' ',  'G',  uchar('\xc3'), uchar('\xb6'), 'n',  'd',  'e', 
+    'r',  0x68,  'N',  'a',  'm',  'e',  '[',  'u', 
+    'k',  ']',  0x78,  0x36,  uchar('\xd0'), uchar('\x9d'), uchar('\xd0'), uchar('\xb0'),
+    uchar('\xd0'), uchar('\xb4'), uchar('\xd1'), uchar('\x81'), uchar('\xd0'), uchar('\xb8'), uchar('\xd0'), uchar('\xbb'),
+    uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xbd'), uchar('\xd0'), uchar('\xbd'), uchar('\xd1'), uchar('\x8f'),
+    ' ',  uchar('\xd0'), uchar('\xb7'), uchar('\xd0'), uchar('\xb0'), ' ',  uchar('\xd0'), uchar('\xb4'),
+    uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xbf'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xbc'),
+    uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xb3'), uchar('\xd0'), uchar('\xbe'), uchar('\xd1'), uchar('\x8e'),
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  0x6c,  'N',  'a',  'm',  'e',  '[', 
+    'x',  '-',  't',  'e',  's',  't',  ']',  0x76, 
+    'x',  'x',  'S',  'e',  'n',  'd',  ' ',  'v', 
+    'i',  'a',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  'x',  'x',  0x6b,  'N', 
+    'a',  'm',  'e',  '[',  'z',  'h',  '_',  'C', 
+    'N',  ']',  0x72,  uchar('\xe9'), uchar('\x80'), uchar('\x9a'), uchar('\xe8'), uchar('\xbf'),
+    uchar('\x87'), uchar('\xe8'), uchar('\x93'), uchar('\x9d'), uchar('\xe7'), uchar('\x89'), uchar('\x99'), uchar('\xe5'),
+    uchar('\x8f'), uchar('\x91'), uchar('\xe9'), uchar('\x80'), uchar('\x81'), 0x6b,  'N',  'a', 
+    'm',  'e',  '[',  'z',  'h',  '_',  'T',  'W', 
+    ']',  0x72,  uchar('\xe9'), uchar('\x80'), uchar('\x8f'), uchar('\xe9'), uchar('\x81'), uchar('\x8e'),
+    uchar('\xe8'), uchar('\x97'), uchar('\x8d'), uchar('\xe7'), uchar('\x89'), uchar('\x99'), uchar('\xe5'), uchar('\x82'),
+    uchar('\xb3'), uchar('\xe9'), uchar('\x80'), uchar('\x81'), 0x77,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  0x75,  'S',  'e',  'n', 
+    'd',  ' ',  'v',  'i',  'a',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'a',  'r',  ']',  0x78, 
+    0x21,  uchar('\xd8'), uchar('\xa3'), uchar('\xd8'), uchar('\xb1'), uchar('\xd8'), uchar('\xb3'), uchar('\xd9'),
+    uchar('\x90'), uchar('\xd9'), uchar('\x84'), ' ',  uchar('\xd8'), uchar('\xb9'), uchar('\xd8'), uchar('\xa8'),
+    uchar('\xd8'), uchar('\xb1'), ' ',  uchar('\xd8'), uchar('\xa8'), uchar('\xd9'), uchar('\x84'), uchar('\xd9'),
+    uchar('\x88'), uchar('\xd8'), uchar('\xaa'), uchar('\xd9'), uchar('\x88'), uchar('\xd8'), uchar('\xab'), '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'a',  'z',  ']',  0x78, 
+    0x1a,  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  ' ',  'i',  'l',  uchar('\xc9'), uchar('\x99'), ' ', 
+    'g',  uchar('\xc3'), uchar('\xb6'), 'n',  'd',  uchar('\xc9'), uchar('\x99'), 'r', 
+    '.',  '.',  '.',  0x78,  0x1b,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  '[',  'b',  'g',  ']', 
+    0x78,  0x28,  uchar('\xd0'), uchar('\x98'), uchar('\xd0'), uchar('\xb7'), uchar('\xd0'), uchar('\xbf'),
+    uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb0'), uchar('\xd1'), uchar('\x89'), uchar('\xd0'), uchar('\xb0'),
+    uchar('\xd0'), uchar('\xbd'), uchar('\xd0'), uchar('\xb5'), ' ',  uchar('\xd1'), uchar('\x87'), uchar('\xd1'),
+    uchar('\x80'), uchar('\xd0'), uchar('\xb5'), uchar('\xd0'), uchar('\xb7'), ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  '.', 
+    '.',  '.',  0x78,  0x24,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'c',  'a',  '@',  'v', 
+    'a',  'l',  'e',  'n',  'c',  'i',  'a',  ']', 
+    0x76,  'E',  'n',  'v',  'i',  'a',  ' ',  'p', 
+    'e',  'r',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  '.',  '.',  '.',  0x78, 
+    0x1b,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'c',  'a',  ']',  0x76,  'E',  'n',  'v', 
+    'i',  'a',  ' ',  'p',  'e',  'r',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    '.',  '.',  '.',  0x78,  0x1b,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  '[',  'c',  's',  ']', 
+    0x78,  0x19,  'P',  'o',  's',  'l',  'a',  't', 
+    ' ',  'p',  uchar('\xc5'), uchar('\x99'), 'e',  's',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    '.',  '.',  '.',  0x78,  0x1b,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  '[',  'd',  'a',  ']', 
+    0x75,  'S',  'e',  'n',  'd',  ' ',  'v',  'i', 
+    'a',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  '.',  '.',  '.',  0x78,  0x1b, 
+    'X',  '-',  'P',  'u',  'r',  'p',  'o',  's', 
+    'e',  '-',  'A',  'c',  't',  'i',  'o',  'n', 
+    'D',  'i',  's',  'p',  'l',  'a',  'y',  '[', 
+    'd',  'e',  ']',  0x78,  0x1d,  uchar('\xc3'), uchar('\x9c'), 'b', 
+    'e',  'r',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  ' ',  'v',  'e',  'r', 
+    's',  'e',  'n',  'd',  'e',  'n',  ' ',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'e',  'l',  ']',  0x78, 
+    0x26,  uchar('\xce'), uchar('\x91'), uchar('\xcf'), uchar('\x80'), uchar('\xce'), uchar('\xbf'), uchar('\xcf'),
+    uchar('\x83'), uchar('\xcf'), uchar('\x84'), uchar('\xce'), uchar('\xbf'), uchar('\xce'), uchar('\xbb'), uchar('\xce'),
+    uchar('\xae'), ' ',  uchar('\xce'), uchar('\xbc'), uchar('\xce'), uchar('\xad'), uchar('\xcf'), uchar('\x83'),
+    uchar('\xcf'), uchar('\x89'), ' ',  'b',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  '.',  '.',  '.',  0x78, 
+    0x1e,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'e',  'n',  '_',  'G',  'B',  ']',  0x75, 
+    'S',  'e',  'n',  'd',  ' ',  'v',  'i',  'a', 
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  '.',  '.',  '.',  0x78,  0x1b,  'X', 
+    '-',  'P',  'u',  'r',  'p',  'o',  's',  'e', 
+    '-',  'A',  'c',  't',  'i',  'o',  'n',  'D', 
+    'i',  's',  'p',  'l',  'a',  'y',  '[',  'e', 
+    's',  ']',  0x77,  'E',  'n',  'v',  'i',  'a', 
+    'r',  ' ',  'p',  'o',  'r',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'e',  't',  ']',  0x78, 
+    0x1a,  'S',  'a',  'a',  'd',  'a',  ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    'i',  ' ',  'k',  'a',  'u',  'd',  'u',  ' ', 
+    '.',  '.',  '.',  0x78,  0x1b,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  '[',  'e',  'u',  ']', 
+    0x78,  0x19,  'B',  'i',  'd',  'a',  'l',  'i', 
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  ' ',  'b',  'i',  'd',  'e',  'z', 
+    '.',  '.',  '.',  0x78,  0x1b,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  '[',  'f',  'i',  ']', 
+    0x78,  0x19,  'L',  uchar('\xc3'), uchar('\xa4'), 'h',  'e',  't', 
+    uchar('\xc3'), uchar('\xa4'), ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  'i',  'l',  'l',  'a', 
+    uchar('\xe2'), uchar('\x80'), uchar('\xa6'), 0x78,  0x1b,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  '[',  'f',  'r',  ']', 
+    0x78,  0x18,  'E',  'n',  'v',  'o',  'y',  'e', 
+    'r',  ' ',  'v',  'i',  'a',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'g',  'l',  ']',  0x77, 
+    'E',  'n',  'v',  'i',  'a',  'r',  ' ',  'p', 
+    'o',  'r',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  uchar('\xe2'), uchar('\x80'), uchar('\xa6'), 0x78, 
+    0x1b,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'h',  'u',  ']',  0x77,  'K',  uchar('\xc3'), uchar('\xbc'),
+    'l',  'd',  uchar('\xc3'), uchar('\xa9'), 's',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  'o', 
+    'n',  uchar('\xe2'), uchar('\x80'), uchar('\xa6'), 0x78,  0x1b,  'X',  '-', 
+    'P',  'u',  'r',  'p',  'o',  's',  'e',  '-', 
+    'A',  'c',  't',  'i',  'o',  'n',  'D',  'i', 
+    's',  'p',  'l',  'a',  'y',  '[',  'i',  'a', 
+    ']',  0x76,  'I',  'n',  'v',  'i',  'a',  ' ', 
+    'v',  'i',  'a',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  '.',  '.',  '.', 
+    0x78,  0x1b,  'X',  '-',  'P',  'u',  'r',  'p', 
+    'o',  's',  'e',  '-',  'A',  'c',  't',  'i', 
+    'o',  'n',  'D',  'i',  's',  'p',  'l',  'a', 
+    'y',  '[',  'i',  'd',  ']',  0x78,  0x19,  'K', 
+    'i',  'r',  'i',  'm',  'k',  'a',  'n',  ' ', 
+    'v',  'i',  'a',  ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  '.',  '.',  '.', 
+    0x78,  0x1b,  'X',  '-',  'P',  'u',  'r',  'p', 
+    'o',  's',  'e',  '-',  'A',  'c',  't',  'i', 
+    'o',  'n',  'D',  'i',  's',  'p',  'l',  'a', 
+    'y',  '[',  'i',  't',  ']',  0x78,  0x1a,  'I', 
+    'n',  'v',  'i',  'a',  ' ',  't',  'r',  'a', 
+    'm',  'i',  't',  'e',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  '.',  '.', 
+    '.',  0x78,  0x1b,  'X',  '-',  'P',  'u',  'r', 
+    'p',  'o',  's',  'e',  '-',  'A',  'c',  't', 
+    'i',  'o',  'n',  'D',  'i',  's',  'p',  'l', 
+    'a',  'y',  '[',  'k',  'a',  ']',  0x78,  0x34, 
+    uchar('\xe1'), uchar('\x83'), uchar('\x91'), uchar('\xe1'), uchar('\x83'), uchar('\x9a'), uchar('\xe1'), uchar('\x83'),
+    uchar('\xa3'), uchar('\xe1'), uchar('\x83'), uchar('\x97'), uchar('\xe1'), uchar('\x83'), uchar('\xa3'), uchar('\xe1'),
+    uchar('\x83'), uchar('\x96'), uchar('\xe1'), uchar('\x83'), uchar('\x98'), uchar('\xe1'), uchar('\x83'), uchar('\x97'),
+    ' ',  uchar('\xe1'), uchar('\x83'), uchar('\x92'), uchar('\xe1'), uchar('\x83'), uchar('\x90'), uchar('\xe1'),
+    uchar('\x83'), uchar('\x92'), uchar('\xe1'), uchar('\x83'), uchar('\x96'), uchar('\xe1'), uchar('\x83'), uchar('\x90'),
+    uchar('\xe1'), uchar('\x83'), uchar('\x95'), uchar('\xe1'), uchar('\x83'), uchar('\x9c'), uchar('\xe1'), uchar('\x83'),
+    uchar('\x90'), '.',  '.',  '.',  0x78,  0x1b,  'X',  '-', 
+    'P',  'u',  'r',  'p',  'o',  's',  'e',  '-', 
+    'A',  'c',  't',  'i',  'o',  'n',  'D',  'i', 
+    's',  'p',  'l',  'a',  'y',  '[',  'k',  'o', 
+    ']',  0x78,  0x1c,  uchar('\xeb'), uchar('\xb8'), uchar('\x94'), uchar('\xeb'), uchar('\xa3'),
+    uchar('\xa8'), uchar('\xed'), uchar('\x88'), uchar('\xac'), uchar('\xec'), uchar('\x8a'), uchar('\xa4'), uchar('\xeb'),
+    uchar('\xa1'), uchar('\x9c'), ' ',  uchar('\xeb'), uchar('\xb3'), uchar('\xb4'), uchar('\xeb'), uchar('\x82'),
+    uchar('\xb4'), uchar('\xea'), uchar('\xb8'), uchar('\xb0'), '.',  '.',  '.',  0x78, 
+    0x1b,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'l',  't',  ']',  0x78,  0x18,  'S',  'i', 
+    uchar('\xc5'), uchar('\xb3'), 's',  't',  'i',  ' ',  'p',  'e', 
+    'r',  ' ',  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  '.',  '.',  '.',  0x78,  0x1b, 
+    'X',  '-',  'P',  'u',  'r',  'p',  'o',  's', 
+    'e',  '-',  'A',  'c',  't',  'i',  'o',  'n', 
+    'D',  'i',  's',  'p',  'l',  'a',  'y',  '[', 
+    'm',  'l',  ']',  0x78,  0x41,  uchar('\xe0'), uchar('\xb4'), uchar('\xac'),
+    uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), uchar('\xe0'), uchar('\xb4'), uchar('\xb2'), uchar('\xe0'), uchar('\xb5'),
+    uchar('\x82'), uchar('\xe0'), uchar('\xb4'), uchar('\x9f'), uchar('\xe0'), uchar('\xb5'), uchar('\x81'), uchar('\xe0'),
+    uchar('\xb4'), uchar('\xa4'), uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), uchar('\xe0'), uchar('\xb4'), uchar('\xa4'),
+    uchar('\xe0'), uchar('\xb5'), uchar('\x8d'), ' ',  uchar('\xe0'), uchar('\xb4'), uchar('\xb5'), uchar('\xe0'),
+    uchar('\xb4'), uchar('\xb4'), uchar('\xe0'), uchar('\xb4'), uchar('\xbf'), ' ',  uchar('\xe0'), uchar('\xb4'),
+    uchar('\x85'), uchar('\xe0'), uchar('\xb4'), uchar('\xaf'), uchar('\xe0'), uchar('\xb4'), uchar('\x95'), uchar('\xe0'),
+    uchar('\xb5'), uchar('\x8d'), uchar('\xe0'), uchar('\xb4'), uchar('\x95'), uchar('\xe0'), uchar('\xb5'), uchar('\x81'),
+    uchar('\xe0'), uchar('\xb4'), uchar('\x95'), '.',  '.',  '.',  0x78,  0x1b, 
+    'X',  '-',  'P',  'u',  'r',  'p',  'o',  's', 
+    'e',  '-',  'A',  'c',  't',  'i',  'o',  'n', 
+    'D',  'i',  's',  'p',  'l',  'a',  'y',  '[', 
+    'n',  'l',  ']',  0x78,  0x1b,  'V',  'e',  'r', 
+    'z',  'e',  'n',  'd',  'e',  'n',  ' ',  'o', 
+    'v',  'e',  'r',  ' ',  'b',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  '.',  '.',  '.', 
+    0x78,  0x1b,  'X',  '-',  'P',  'u',  'r',  'p', 
+    'o',  's',  'e',  '-',  'A',  'c',  't',  'i', 
+    'o',  'n',  'D',  'i',  's',  'p',  'l',  'a', 
+    'y',  '[',  'n',  'n',  ']',  0x78,  0x18,  'S', 
+    'e',  'n',  'd',  ' ',  'o',  'v',  'e',  'r', 
+    ' ',  'B',  'l',  'u',  'e',  't',  'o',  'o', 
+    't',  'h',  uchar('\xc2'), uchar('\xa0'), uchar('\xe2'), uchar('\x80'), uchar('\xa6'), 0x78, 
+    0x1b,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'p',  'l',  ']',  0x78,  0x1c,  'P',  'r', 
+    'z',  'e',  uchar('\xc5'), uchar('\x9b'), 'l',  'i',  'j',  ' ', 
+    'p',  'r',  'z',  'e',  'z',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'p',  't',  ']',  0x77, 
+    'E',  'n',  'v',  'i',  'a',  'r',  ' ',  'p', 
+    'o',  'r',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  '.',  '.',  '.',  0x78, 
+    0x1e,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'p',  't',  '_',  'B',  'R',  ']',  0x77, 
+    'E',  'n',  'v',  'i',  'a',  'r',  ' ',  'p', 
+    'o',  'r',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  '.',  '.',  '.',  0x78, 
+    0x1b,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'r',  'o',  ']',  0x78,  0x19,  'T',  'r', 
+    'i',  'm',  'i',  't',  'e',  ' ',  'p',  'r', 
+    'i',  'n',  ' ',  'B',  'l',  'u',  'e',  't', 
+    'o',  'o',  't',  'h',  '.',  '.',  '.',  0x78, 
+    0x1b,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  'r',  'u',  ']',  0x78,  0x24,  uchar('\xd0'), uchar('\x9e'),
+    uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xbf'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb0'),
+    uchar('\xd0'), uchar('\xb2'), uchar('\xd0'), uchar('\xb8'), uchar('\xd1'), uchar('\x82'), uchar('\xd1'), uchar('\x8c'),
+    ' ',  uchar('\xd0'), uchar('\xbf'), uchar('\xd0'), uchar('\xbe'), ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  's',  'k',  ']',  0x78, 
+    0x18,  'P',  'o',  's',  'l',  'a',  uchar('\xc5'), uchar('\xa5'),
+    ' ',  'c',  'e',  'z',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  '.',  '.', 
+    '.',  0x78,  0x1b,  'X',  '-',  'P',  'u',  'r', 
+    'p',  'o',  's',  'e',  '-',  'A',  'c',  't', 
+    'i',  'o',  'n',  'D',  'i',  's',  'p',  'l', 
+    'a',  'y',  '[',  's',  'l',  ']',  0x78,  0x1a, 
+    'P',  'o',  uchar('\xc5'), uchar('\xa1'), 'l',  'j',  'i',  ' ', 
+    'p',  'r',  'e',  'k',  ' ',  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  'a',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  's',  'v',  ']',  0x76, 
+    'S',  'k',  'i',  'c',  'k',  'a',  ' ',  'v', 
+    'i',  'a',  ' ',  'B',  'l',  uchar('\xc3'), uchar('\xa5'), 't', 
+    'a',  'n',  'd',  '.',  '.',  '.',  0x78,  0x1b, 
+    'X',  '-',  'P',  'u',  'r',  'p',  'o',  's', 
+    'e',  '-',  'A',  'c',  't',  'i',  'o',  'n', 
+    'D',  'i',  's',  'p',  'l',  'a',  'y',  '[', 
+    't',  'a',  ']',  0x78,  0x32,  'B',  'l',  'u', 
+    'e',  't',  'o',  'o',  't',  'h',  ' ',  uchar('\xe0'),
+    uchar('\xae'), uchar('\xae'), uchar('\xe0'), uchar('\xaf'), uchar('\x82'), uchar('\xe0'), uchar('\xae'), uchar('\xb2'),
+    uchar('\xe0'), uchar('\xae'), uchar('\xae'), uchar('\xe0'), uchar('\xaf'), uchar('\x8d'), ' ',  uchar('\xe0'),
+    uchar('\xae'), uchar('\x85'), uchar('\xe0'), uchar('\xae'), uchar('\xa9'), uchar('\xe0'), uchar('\xaf'), uchar('\x81'),
+    uchar('\xe0'), uchar('\xae'), uchar('\xaa'), uchar('\xe0'), uchar('\xaf'), uchar('\x8d'), uchar('\xe0'), uchar('\xae'),
+    uchar('\xaa'), uchar('\xe0'), uchar('\xaf'), uchar('\x81'), '.',  '.',  '.',  0x78, 
+    0x1b,  'X',  '-',  'P',  'u',  'r',  'p',  'o', 
+    's',  'e',  '-',  'A',  'c',  't',  'i',  'o', 
+    'n',  'D',  'i',  's',  'p',  'l',  'a',  'y', 
+    '[',  't',  'g',  ']',  0x78,  0x35,  uchar('\xd0'), uchar('\xa4'),
+    uchar('\xd0'), uchar('\xb8'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb8'), uchar('\xd1'), uchar('\x81'),
+    uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xb4'), uchar('\xd0'), uchar('\xb0'),
+    uchar('\xd0'), uchar('\xbd'), ' ',  uchar('\xd0'), uchar('\xb1'), uchar('\xd0'), uchar('\xb0'), ' ', 
+    uchar('\xd0'), uchar('\xb2'), uchar('\xd0'), uchar('\xbe'), uchar('\xd1'), uchar('\x81'), uchar('\xd0'), uchar('\xb8'),
+    uchar('\xd1'), uchar('\x82'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xb8'), ' ',  'B', 
+    'l',  'u',  'e',  't',  'o',  'o',  't',  'h', 
+    '.',  '.',  '.',  0x78,  0x1b,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'A', 
+    'c',  't',  'i',  'o',  'n',  'D',  'i',  's', 
+    'p',  'l',  'a',  'y',  '[',  't',  'r',  ']', 
+    0x78,  0x18,  'B',  'l',  'u',  'e',  't',  'o', 
+    'o',  't',  'h',  ' ',  'i',  'l',  'e',  ' ', 
+    'G',  uchar('\xc3'), uchar('\xb6'), 'n',  'd',  'e',  'r',  '.', 
+    '.',  '.',  0x78,  0x1b,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'u',  'k',  ']',  0x78, 
+    0x37,  uchar('\xd0'), uchar('\x9d'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'), uchar('\xb4'), uchar('\xd1'),
+    uchar('\x96'), uchar('\xd1'), uchar('\x81'), uchar('\xd0'), uchar('\xbb'), uchar('\xd0'), uchar('\xb0'), uchar('\xd1'),
+    uchar('\x82'), uchar('\xd0'), uchar('\xb8'), ' ',  uchar('\xd0'), uchar('\xb7'), uchar('\xd0'), uchar('\xb0'),
+    ' ',  uchar('\xd0'), uchar('\xb4'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xbf'), uchar('\xd0'),
+    uchar('\xbe'), uchar('\xd0'), uchar('\xbc'), uchar('\xd0'), uchar('\xbe'), uchar('\xd0'), uchar('\xb3'), uchar('\xd0'),
+    uchar('\xbe'), uchar('\xd1'), uchar('\x8e'), ' ',  'B',  'l',  'u',  'e', 
+    't',  'o',  'o',  't',  'h',  uchar('\xe2'), uchar('\x80'), uchar('\xa6'),
+    0x78,  0x1f,  'X',  '-',  'P',  'u',  'r',  'p', 
+    'o',  's',  'e',  '-',  'A',  'c',  't',  'i', 
+    'o',  'n',  'D',  'i',  's',  'p',  'l',  'a', 
+    'y',  '[',  'x',  '-',  't',  'e',  's',  't', 
+    ']',  0x78,  0x19,  'x',  'x',  'S',  'e',  'n', 
+    'd',  ' ',  'v',  'i',  'a',  ' ',  'B',  'l', 
+    'u',  'e',  't',  'o',  'o',  't',  'h',  '.', 
+    '.',  '.',  'x',  'x',  0x78,  0x1e,  'X',  '-', 
+    'P',  'u',  'r',  'p',  'o',  's',  'e',  '-', 
+    'A',  'c',  't',  'i',  'o',  'n',  'D',  'i', 
+    's',  'p',  'l',  'a',  'y',  '[',  'z',  'h', 
+    '_',  'C',  'N',  ']',  0x75,  uchar('\xe9'), uchar('\x80'), uchar('\x9a'),
+    uchar('\xe8'), uchar('\xbf'), uchar('\x87'), uchar('\xe8'), uchar('\x93'), uchar('\x9d'), uchar('\xe7'), uchar('\x89'),
+    uchar('\x99'), uchar('\xe5'), uchar('\x8f'), uchar('\x91'), uchar('\xe9'), uchar('\x80'), uchar('\x81'), '.', 
+    '.',  '.',  0x78,  0x1e,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'A',  'c', 
+    't',  'i',  'o',  'n',  'D',  'i',  's',  'p', 
+    'l',  'a',  'y',  '[',  'z',  'h',  '_',  'T', 
+    'W',  ']',  0x78,  0x18,  uchar('\xe9'), uchar('\x80'), uchar('\x8f'), uchar('\xe9'),
+    uchar('\x81'), uchar('\x8e'), uchar('\xe8'), uchar('\x97'), uchar('\x8d'), uchar('\xe7'), uchar('\x89'), uchar('\x99'),
+    uchar('\xe5'), uchar('\x82'), uchar('\xb3'), uchar('\xe9'), uchar('\x80'), uchar('\x81'), uchar('\xe2'), uchar('\x80'),
+    uchar('\xa6'), uchar('\xe2'), uchar('\x80'), uchar('\xa6'), 0x77,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'C', 
+    'o',  'n',  'f',  'i',  'g',  'u',  'r',  'a', 
+    't',  'i',  'o',  'n',  0x81,  0x66,  'd',  'e', 
+    'v',  'i',  'c',  'e',  0x75,  'X',  '-',  'P', 
+    'u',  'r',  'p',  'o',  's',  'e',  '-',  'C', 
+    'o',  'n',  's',  't',  'r',  'a',  'i',  'n', 
+    't',  's',  0x80,  0x75,  'X',  '-',  'P',  'u', 
+    'r',  'p',  'o',  's',  'e',  '-',  'P',  'l', 
+    'u',  'g',  'i',  'n',  'T',  'y',  'p',  'e', 
+    's',  0x81,  0x66,  'E',  'x',  'p',  'o',  'r', 
+    't', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(bluetoothplugin_factory, bluetoothplugin_factory)
+
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

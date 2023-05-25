@@ -1,0 +1,7 @@
+description: Fixes for KDE problems that occur on Apple OS X
+hasrepo: true
+identifier: osx-patches
+name: KDE fixes for Apple OS X
+projectpath: playground/base/osx-patches
+repoactive: false
+repopath: unmaintained/osx-patches

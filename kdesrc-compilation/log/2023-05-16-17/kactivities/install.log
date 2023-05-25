@@ -1,0 +1,32 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/frameworks/kactivities
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/KActivities/Consumer
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/KActivities/Controller
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/KActivities/Info
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/KActivities/ResourceInstance
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/KActivities/ActivitiesModel
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/KActivities/Version
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities/consumer.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities/controller.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities/info.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities/resourceinstance.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities/activitiesmodel.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities/version.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities/kactivities_export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Activities.so.5.107.0
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Activities.so.5
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Activities.so.5.107.0" to "/mnt/HDD/Project/Public/okulartry/okular-things/lib:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Activities.so
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/libKActivities.pc
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/modules/qt_KActivities.pri
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/bin/kactivities-cli
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/bin/kactivities-cli" to "/mnt/HDD/Project/Public/okulartry/okular-things/lib:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib"
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/kactivities.categories
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/kactivities.renamecategories
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Activities/KF5ActivitiesLibraryTargets.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Activities/KF5ActivitiesLibraryTargets-debug.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Activities/KF5ActivitiesConfig.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Activities/KF5ActivitiesConfigVersion.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KActivities/kactivities_version.h

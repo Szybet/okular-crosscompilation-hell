@@ -1,0 +1,9 @@
+description: Dialer for Plasma Mobile
+hasrepo: true
+identifier: plasma-dialer
+name: Plasma Mobile Dialer
+projectpath: extragear/mobile/plasma-dialer
+repoactive: true
+repopath: plasma-mobile/plasma-dialer
+bugzilla:
+    product: plasma-dialer

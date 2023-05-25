@@ -1,0 +1,9 @@
+description: Libraries and daemons to implement Contact Management in Akonadi
+hasrepo: true
+identifier: akonadi-contacts
+name: Akonadi Contacts
+projectpath: kde/pim/akonadi-contacts
+repoactive: true
+repopath: pim/akonadi-contacts
+bugzilla:
+  product: akonadi

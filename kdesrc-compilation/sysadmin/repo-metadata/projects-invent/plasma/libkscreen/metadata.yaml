@@ -1,0 +1,10 @@
+description: KDE's screen management software
+hasrepo: true
+identifier: libkscreen
+name: libkscreen
+projectpath: kde/workspace/libkscreen
+repoactive: true
+repopath: plasma/libkscreen
+bugzilla:
+    product: kscreen
+    component: libkscreen

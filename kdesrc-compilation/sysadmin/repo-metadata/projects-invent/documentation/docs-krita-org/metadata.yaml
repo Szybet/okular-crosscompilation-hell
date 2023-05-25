@@ -1,0 +1,9 @@
+description: "The Krita Manual. Built with Sphinx by Jenkins, available online at\
+  \ https://docs.krita.org\r\n\r\nCheck the krita_manual_readme.rst on how to help\
+  \ us!"
+hasrepo: true
+identifier: websites-docs-krita-org
+name: Krita.org Documentation Website
+projectpath: websites/docs-krita-org
+repoactive: true
+repopath: documentation/docs-krita-org

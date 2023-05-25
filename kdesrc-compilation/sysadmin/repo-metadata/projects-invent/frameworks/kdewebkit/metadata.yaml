@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdewebkit
+description: KDE Webkit
+hasrepo: true
+identifier: kdewebkit
+name: KDE Webkit
+projectpath: frameworks/kdewebkit
+repoactive: true
+repopath: frameworks/kdewebkit

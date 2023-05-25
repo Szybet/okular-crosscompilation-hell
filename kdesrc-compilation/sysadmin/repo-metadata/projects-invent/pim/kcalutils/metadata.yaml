@@ -1,0 +1,9 @@
+bugzilla:
+  product: kcalutils
+description: Library to assist working with calendars
+hasrepo: true
+identifier: kcalutils
+name: KCalUtils
+projectpath: kde/pim/kcalutils
+repoactive: true
+repopath: pim/kcalutils

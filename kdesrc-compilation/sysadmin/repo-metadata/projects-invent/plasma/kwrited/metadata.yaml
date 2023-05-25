@@ -1,0 +1,9 @@
+description: Listen to traditional system notifications
+hasrepo: true
+identifier: kwrited
+name: KWriteD
+projectpath: kde/workspace/kwrited
+repoactive: true
+repopath: plasma/kwrited
+bugzilla:
+    product: kwrited

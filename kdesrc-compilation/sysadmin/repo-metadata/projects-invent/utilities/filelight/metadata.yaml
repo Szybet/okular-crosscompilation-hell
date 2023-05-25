@@ -1,0 +1,9 @@
+bugzilla:
+  product: filelight
+description: Quickly visualize your disk space usage
+hasrepo: true
+identifier: filelight
+name: Filelight
+projectpath: kde/kdeutils/filelight
+repoactive: true
+repopath: utilities/filelight

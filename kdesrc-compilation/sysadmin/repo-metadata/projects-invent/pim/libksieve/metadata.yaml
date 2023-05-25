@@ -1,0 +1,10 @@
+bugzilla:
+  product: kmail2
+  component: sieve
+description: Library which manages Sieve support
+hasrepo: true
+identifier: libksieve
+name: libksieve
+projectpath: kde/pim/libksieve
+repoactive: true
+repopath: pim/libksieve

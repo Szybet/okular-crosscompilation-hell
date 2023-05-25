@@ -1,0 +1,9 @@
+description: Settings application for Plasma Mobile
+hasrepo: true
+identifier: plasma-settings
+name: Plasma Mobile Settings
+projectpath: extragear/base/plasma-settings
+repoactive: true
+repopath: plasma-mobile/plasma-settings
+bugzilla:
+    product: plasma-settings

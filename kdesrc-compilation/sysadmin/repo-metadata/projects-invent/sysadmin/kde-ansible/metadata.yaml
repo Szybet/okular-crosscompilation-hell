@@ -1,0 +1,7 @@
+description: Ansible playbooks for KDE infrastructure
+hasrepo: true
+identifier: sysadmin-kde-ansible
+name: kde-ansible
+projectpath: sysadmin/kde-ansible
+repoactive: false
+repopath: sysadmin/kde-ansible

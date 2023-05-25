@@ -1,0 +1,10 @@
+description: Trigger actions when certain keys are pressed
+hasrepo: true
+identifier: khotkeys
+name: KHotkeys
+projectpath: kde/workspace/khotkeys
+repoactive: true
+repopath: plasma/khotkeys
+bugzilla:
+    product: systemsettings
+    component: kcm_khotkeys

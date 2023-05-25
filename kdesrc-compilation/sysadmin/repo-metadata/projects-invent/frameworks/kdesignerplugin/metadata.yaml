@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdesignerplugin
+description: KDesignerPlugin
+hasrepo: true
+identifier: kdesignerplugin
+name: KDesignerPlugin
+projectpath: frameworks/kdesignerplugin
+repoactive: true
+repopath: frameworks/kdesignerplugin

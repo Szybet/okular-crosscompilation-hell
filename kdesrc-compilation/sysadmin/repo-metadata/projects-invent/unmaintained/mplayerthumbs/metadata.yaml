@@ -1,0 +1,7 @@
+description: MPlayer based thumbnail generator for video files.
+hasrepo: true
+identifier: mplayerthumbs
+name: MPlayer Thumbnailer
+projectpath: unmaintained/mplayerthumbs
+repoactive: false
+repopath: unmaintained/mplayerthumbs

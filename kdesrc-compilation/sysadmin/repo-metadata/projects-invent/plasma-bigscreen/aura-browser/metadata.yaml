@@ -1,0 +1,7 @@
+description: Browser for a fully immersed Big Screen experience allowing you to navigate the world wide web using just your remote control
+hasrepo: true
+identifier: aura-browser
+name: Aura Browser
+projectpath: kde/workspace/aura-browser
+repoactive: true
+repopath: plasma-bigscreen/aura-browser

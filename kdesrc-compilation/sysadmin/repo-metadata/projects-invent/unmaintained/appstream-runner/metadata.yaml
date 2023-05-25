@@ -1,0 +1,8 @@
+description: KRunner plugin for looking up the search into the software database to
+  suggest software that wasn't found.
+hasrepo: true
+identifier: appstream-runner
+name: Appstream KRunner Plugin
+projectpath: unmaintained/appstream-runner
+repoactive: false
+repopath: unmaintained/appstream-runner

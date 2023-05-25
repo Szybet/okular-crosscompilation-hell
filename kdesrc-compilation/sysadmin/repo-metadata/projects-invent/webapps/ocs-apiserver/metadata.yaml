@@ -1,0 +1,7 @@
+description: Backend API server for the software store
+hasrepo: true
+identifier: ocs-apiserver
+name: OCS API Server
+projectpath: playground/www/ocs-apiserver
+repoactive: true
+repopath: webapps/ocs-apiserver

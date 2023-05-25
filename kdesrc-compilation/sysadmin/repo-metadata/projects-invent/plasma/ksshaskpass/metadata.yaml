@@ -1,0 +1,9 @@
+description: ssh-add helper that uses KWallet and KPasswordDialog
+hasrepo: true
+identifier: ksshaskpass
+name: KSSHAskPass
+projectpath: kde/workspace/ksshaskpass
+repoactive: true
+repopath: plasma/ksshaskpass
+bugzilla:
+    product: ksshaskpass

@@ -1,0 +1,18 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2
+[  6%] Automatic MOC for target KExiv2
+[  6%] Built target KExiv2_autogen
+[ 20%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2_p.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2data.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2image.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2comments.cpp.o
+[ 46%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2exif.cpp.o
+[ 53%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2iptc.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2gps.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2xmp.cpp.o
+[ 73%] Building CXX object src/CMakeFiles/KExiv2.dir/kexiv2previews.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/KExiv2.dir/rotationmatrix.cpp.o
+[ 86%] Building CXX object src/CMakeFiles/KExiv2.dir/libkexiv2_debug.cpp.o
+[ 93%] Linking CXX shared library ../bin/libKF5KExiv2.so
+[100%] Built target KExiv2

@@ -1,0 +1,7 @@
+description: Command-line interface to Akonadi
+hasrepo: true
+identifier: akonadiclient
+name: Akonadi Command-line Client
+projectpath: playground/pim/akonadiclient
+repoactive: true
+repopath: pim/akonadiclient

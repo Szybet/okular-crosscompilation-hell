@@ -1,0 +1,9 @@
+bugzilla:
+  product: kruler
+description: A pixel measuring tool by KDE
+hasrepo: true
+identifier: kruler
+name: KRuler
+projectpath: kde/kdegraphics/kruler
+repoactive: true
+repopath: graphics/kruler

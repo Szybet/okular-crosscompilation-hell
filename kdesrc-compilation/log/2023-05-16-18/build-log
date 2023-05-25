@@ -1,0 +1,22 @@
+Holding performance profile
+Building khtml from _cmdline (1/6)
+	Fetching remote changes to khtml
+	Merging khtml changes from branch kf5
+	Source update complete for khtml: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for khtml.
+	Removing files in build directory for khtml
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: ---- 2466 ---- compile warnings
+
+khtml didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+khtml - file:///home/szybet/kdesrc/log/2023-05-16-18/khtml/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-18

@@ -1,0 +1,7 @@
+description: Multi-platform media player
+hasrepo: true
+identifier: vvave
+name: Vvave
+projectpath: playground/multimedia/vvave
+repoactive: true
+repopath: maui/vvave

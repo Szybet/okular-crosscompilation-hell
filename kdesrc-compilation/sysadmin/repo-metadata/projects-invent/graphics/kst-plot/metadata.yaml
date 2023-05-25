@@ -1,0 +1,7 @@
+description: Fast real-time plotting program with light data analysis capabilities
+hasrepo: true
+identifier: kst-plot
+name: kst realtime data viewing
+projectpath: extragear/graphics/kst-plot
+repoactive: true
+repopath: graphics/kst-plot

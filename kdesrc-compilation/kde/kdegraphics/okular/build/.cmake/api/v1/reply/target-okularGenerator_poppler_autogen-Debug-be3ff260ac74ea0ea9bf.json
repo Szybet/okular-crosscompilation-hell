@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"generators/poppler/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "okularcore::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "okularGenerator_poppler_autogen::@a168c0fbecba3f43be2a",
+	"isGeneratorProvided" : true,
+	"name" : "okularGenerator_poppler_autogen",
+	"paths" : 
+	{
+		"build" : "generators/poppler",
+		"source" : "generators/poppler"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/generators/poppler/CMakeFiles/okularGenerator_poppler_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/generators/poppler/CMakeFiles/okularGenerator_poppler_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

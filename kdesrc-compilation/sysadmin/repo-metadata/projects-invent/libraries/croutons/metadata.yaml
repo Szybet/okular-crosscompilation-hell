@@ -1,0 +1,7 @@
+description: Library for asynchronous Qt, including QML-friendly futures and C++20 coroutine integration
+hasrepo: true
+identifier: croutons
+name: Croutons
+projectpath: extragear/libs/croutons
+repoactive: true
+repopath: libraries/croutons

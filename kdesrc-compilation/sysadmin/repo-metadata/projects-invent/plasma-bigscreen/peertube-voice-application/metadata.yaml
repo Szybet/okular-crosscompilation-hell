@@ -1,0 +1,7 @@
+description: Peertube video player voice application and mycroft skill for Plasma Bigscreen
+hasrepo: true
+identifier: peertube-voice-application
+name: PeerTube for Plasma Bigscreen
+projectpath: playground/utils/peertube-voice-application
+repoactive: true
+repopath: plasma-bigscreen/peertube-voice-application

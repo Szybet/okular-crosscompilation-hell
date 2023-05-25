@@ -1,0 +1,7 @@
+description: Server and content importers for the Bodega content system.
+hasrepo: true
+identifier: bodega-server
+name: Bodega Content Server
+projectpath: unmaintained/bodega-server
+repoactive: false
+repopath: unmaintained/bodega-server

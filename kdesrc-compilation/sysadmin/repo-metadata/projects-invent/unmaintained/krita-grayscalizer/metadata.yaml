@@ -1,0 +1,7 @@
+description: "Simulate the use of \u201Clens filter\u201D for creating grayscale images."
+hasrepo: true
+identifier: krita-grayscalizer
+name: Grayscalizer
+projectpath: extragear/graphics/krita-extensions/krita-grayscalizer
+repoactive: false
+repopath: unmaintained/krita-grayscalizer

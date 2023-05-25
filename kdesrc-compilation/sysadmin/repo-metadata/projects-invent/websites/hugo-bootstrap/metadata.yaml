@@ -1,0 +1,7 @@
+description: Tooling to provide the Bootstrap CSS/JS framework for Hugo
+hasrepo: true
+identifier: websites-hugo-bootstrap
+name: Bootstrap Framework Support for Hugo
+projectpath: websites/hugo-bootstrap
+repoactive: true
+repopath: websites/hugo-bootstrap

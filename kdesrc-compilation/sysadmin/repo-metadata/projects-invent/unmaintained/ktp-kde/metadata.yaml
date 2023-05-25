@@ -1,0 +1,7 @@
+description: Telepathy KDE integration library
+hasrepo: true
+identifier: ktp-kde
+name: Telepathy KDE
+projectpath: unmaintained/ktp-kde
+repoactive: false
+repopath: unmaintained/ktp-kde

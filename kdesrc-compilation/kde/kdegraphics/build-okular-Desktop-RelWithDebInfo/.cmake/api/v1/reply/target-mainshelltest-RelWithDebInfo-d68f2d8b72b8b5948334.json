@@ -1,0 +1,1386 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/mainshelltest"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ecm_add_test",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"set_property",
+			"_populate_Svg_target_properties",
+			"_populate_Test_target_properties",
+			"add_definitions",
+			"target_compile_definitions",
+			"_kde_add_platform_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/usr/share/ECM/modules/ECMAddTests.cmake",
+			"autotests/CMakeLists.txt",
+			"CMakeLists.txt",
+			"/usr/lib/cmake/KF5KIO/KF5KIOTargets.cmake",
+			"/usr/lib/cmake/KF5KIO/KF5KIOConfig.cmake",
+			"/usr/share/ECM/find-modules/FindKF5.cmake",
+			"/usr/lib/cmake/KF5TextWidgets/KF5TextWidgetsTargets.cmake",
+			"/usr/lib/cmake/KF5TextWidgets/KF5TextWidgetsConfig.cmake",
+			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib/cmake/KF5Parts/KF5PartsConfig.cmake",
+			"/usr/lib/cmake/KF5XmlGui/KF5XmlGuiTargets.cmake",
+			"/usr/lib/cmake/KF5XmlGui/KF5XmlGuiConfig.cmake",
+			"/usr/lib/cmake/KF5Bookmarks/KF5BookmarksTargets.cmake",
+			"/usr/lib/cmake/KF5Bookmarks/KF5BookmarksConfig.cmake",
+			"/usr/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsTargets.cmake",
+			"/usr/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsConfig.cmake",
+			"/usr/lib/cmake/KF5Auth/KF5AuthTargets.cmake",
+			"/usr/lib/cmake/KF5Auth/KF5AuthConfig.cmake",
+			"/usr/lib/cmake/KF5WindowSystem/KF5WindowSystemTargets.cmake",
+			"/usr/lib/cmake/KF5WindowSystem/KF5WindowSystemConfig.cmake",
+			"/usr/lib/cmake/KF5Purpose/KF5PurposeTargets.cmake",
+			"/usr/lib/cmake/KF5Purpose/KF5PurposeConfig.cmake",
+			"/usr/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake",
+			"/usr/lib/cmake/Qt5/Qt5Config.cmake",
+			"/usr/lib/cmake/Qt5Test/Qt5TestConfig.cmake",
+			"/usr/share/ECM/kde-modules/KDECompilerSettings.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 566,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 118,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 52,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 85,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 94,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 70,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 429,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 52,
+				"parent" : 16
+			},
+			{
+				"file" : 9,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 39,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 19
+			},
+			{
+				"file" : 7,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 42,
+				"parent" : 21
+			},
+			{
+				"file" : 6,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 53,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 25
+			},
+			{
+				"file" : 11,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 65,
+				"parent" : 27
+			},
+			{
+				"file" : 10,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 70,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 52,
+				"parent" : 7
+			},
+			{
+				"file" : 13,
+				"parent" : 31
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 55,
+				"parent" : 32
+			},
+			{
+				"file" : 12,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 70,
+				"parent" : 34
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 52,
+				"parent" : 7
+			},
+			{
+				"file" : 15,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 15,
+				"line" : 64,
+				"parent" : 37
+			},
+			{
+				"file" : 14,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 70,
+				"parent" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 39,
+				"parent" : 37
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 41
+			},
+			{
+				"file" : 17,
+				"parent" : 42
+			},
+			{
+				"command" : 4,
+				"file" : 17,
+				"line" : 65,
+				"parent" : 43
+			},
+			{
+				"file" : 16,
+				"parent" : 44
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 78,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 585,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 55,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 48
+			},
+			{
+				"file" : 19,
+				"parent" : 49
+			},
+			{
+				"command" : 4,
+				"file" : 19,
+				"line" : 63,
+				"parent" : 50
+			},
+			{
+				"file" : 18,
+				"parent" : 51
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 70,
+				"parent" : 52
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 589,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 153,
+				"parent" : 4
+			},
+			{
+				"file" : 21,
+				"parent" : 55
+			},
+			{
+				"command" : 4,
+				"file" : 21,
+				"line" : 41,
+				"parent" : 56
+			},
+			{
+				"file" : 20,
+				"parent" : 57
+			},
+			{
+				"command" : 3,
+				"file" : 20,
+				"line" : 78,
+				"parent" : 58
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 4
+			},
+			{
+				"file" : 23,
+				"parent" : 60
+			},
+			{
+				"command" : 5,
+				"file" : 23,
+				"line" : 28,
+				"parent" : 61
+			},
+			{
+				"file" : 22,
+				"parent" : 62
+			},
+			{
+				"command" : 8,
+				"file" : 22,
+				"line" : 213,
+				"parent" : 63
+			},
+			{
+				"command" : 7,
+				"file" : 22,
+				"line" : 57,
+				"parent" : 64
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 595,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 23,
+				"line" : 28,
+				"parent" : 61
+			},
+			{
+				"file" : 24,
+				"parent" : 67
+			},
+			{
+				"command" : 9,
+				"file" : 24,
+				"line" : 213,
+				"parent" : 68
+			},
+			{
+				"command" : 7,
+				"file" : 24,
+				"line" : 57,
+				"parent" : 69
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 167,
+				"parent" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 279,
+				"parent" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 278,
+				"parent" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 4
+			},
+			{
+				"file" : 25,
+				"parent" : 77
+			},
+			{
+				"command" : 10,
+				"file" : 25,
+				"line" : 677,
+				"parent" : 78
+			},
+			{
+				"command" : 10,
+				"file" : 25,
+				"line" : 692,
+				"parent" : 78
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 277,
+				"parent" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 146,
+				"parent" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 135,
+				"parent" : 4
+			},
+			{
+				"command" : 12,
+				"file" : 25,
+				"line" : 310,
+				"parent" : 78
+			},
+			{
+				"command" : 10,
+				"file" : 25,
+				"line" : 295,
+				"parent" : 84
+			},
+			{
+				"command" : 12,
+				"file" : 25,
+				"line" : 317,
+				"parent" : 78
+			},
+			{
+				"command" : 10,
+				"file" : 25,
+				"line" : 295,
+				"parent" : 86
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 281,
+				"parent" : 4
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs -fdiagnostics-color=always -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 71,
+					"define" : "HAVE_SPEECH"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "KCOREADDONS_LIB"
+				},
+				{
+					"backtrace" : 72,
+					"define" : "KDESRCDIR=\"/home/szybet/kdesrc/kde/kdegraphics/okular/autotests/\""
+				},
+				{
+					"backtrace" : 73,
+					"define" : "KF_DEPRECATED_WARNINGS_SINCE=0x055C00"
+				},
+				{
+					"backtrace" : 74,
+					"define" : "OKULAR_BINARY=\"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/bin/okular\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_DBUS_LIB"
+				},
+				{
+					"backtrace" : 75,
+					"define" : "QT_DEPRECATED_WARNINGS_SINCE=0x050F02"
+				},
+				{
+					"backtrace" : 76,
+					"define" : "QT_FORCE_ASSERTS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_CAST_FROM_BYTEARRAY"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_KEYWORDS"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_URL_CAST_FROM_STRING"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 80,
+					"define" : "QT_STRICT_ITERATORS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTCASE_BUILDDIR=\"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TEXTTOSPEECH_LIB"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "TRANSLATION_DOMAIN=\"okular\""
+				},
+				{
+					"backtrace" : 82,
+					"define" : "WITH_KJS=1"
+				},
+				{
+					"backtrace" : 83,
+					"define" : "WITH_KWALLET=1"
+				},
+				{
+					"backtrace" : 85,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 87,
+					"define" : "_LARGEFILE64_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests"
+				},
+				{
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/okular/autotests"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/mainshelltest_autogen/include"
+				},
+				{
+					"backtrace" : 88,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/okular"
+				},
+				{
+					"backtrace" : 88,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex"
+				},
+				{
+					"backtrace" : 88,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/core"
+				},
+				{
+					"backtrace" : 89,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo"
+				},
+				{
+					"backtrace" : 88,
+					"path" : "/usr/include/phonon4qt5/KDE"
+				},
+				{
+					"backtrace" : 88,
+					"isSystem" : true,
+					"path" : "/usr/include/phonon4qt5"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtTest"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/lib/qt/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KActivities"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KCoreAddons"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KXmlGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtXml"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KConfig"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KConfigCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KConfigWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KWidgetsAddons"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KConfigGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KCodecs"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KAuthWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KAuthCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KAuth"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtDBus"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtPrintSupport"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtCore/5.15.9"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtCore/5.15.9/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtSvg"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KArchive"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KBookmarks"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KI18n"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KIconThemes"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KItemViews"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KIOCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KIO"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KService"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtNetwork"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtConcurrent"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KIOFileWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KIOWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KIOGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KWindowSystem"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KJobWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/Solid"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KCompletion"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KParts"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KTextWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/SonnetUi"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/Sonnet"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/KWallet"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/purposewidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/KF5/purpose"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtTextToSpeech"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "okularcore::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "okularpart::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "mainshelltest_autogen_timestamp_deps::@0bffdf5d83a4a8ad06a4"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "mainshelltest_autogen::@0bffdf5d83a4a8ad06a4"
+		}
+	],
+	"id" : "mainshelltest::@0bffdf5d83a4a8ad06a4",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Werror=init-self -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -pedantic -Wzero-as-null-pointer-constant -Wmissing-include-dirs -fdiagnostics-color=always -O2 -g -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/bin",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/libQt5Test.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/libKF5Activities.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "bin/okularpart.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "bin/libOkular5Core.so.10.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libphonon4qt5.so.4.11.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5KIOFileWidgets.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5Bookmarks.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5Parts.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5KIOWidgets.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/usr/lib/libKF5KIOGui.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5KIOCore.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/libQt5Concurrent.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/libKF5Service.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/usr/lib/libKF5JobWidgets.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/libKF5XmlGui.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5IconThemes.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libQt5Svg.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5Archive.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5ItemViews.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/libQt5PrintSupport.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5Solid.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5TextWidgets.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/usr/lib/libKF5Completion.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/usr/lib/libKF5SonnetUi.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/usr/lib/libKF5ConfigWidgets.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/libKF5ConfigGui.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "/usr/lib/libQt5Xml.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "/usr/lib/libKF5WidgetsAddons.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "/usr/lib/libKF5Codecs.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "/usr/lib/libKF5Auth.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 46,
+				"fragment" : "/usr/lib/libKF5AuthCore.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/usr/lib/libKF5Wallet.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5WindowSystem.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "/usr/lib/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/usr/lib/libKF5PurposeWidgets.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libKF5I18n.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/libQt5Widgets.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "/usr/lib/libKF5Purpose.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/libKF5CoreAddons.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "/usr/lib/libQt5Gui.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/libQt5Network.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/usr/lib/libKF5ConfigCore.so.5.106.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/libQt5DBus.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 66,
+				"fragment" : "/usr/lib/libQt5TextToSpeech.so.5.15.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "/usr/lib/libQt5Core.so.5.15.9",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mainshelltest",
+	"nameOnDisk" : "mainshelltest",
+	"paths" : 
+	{
+		"build" : "autotests",
+		"source" : "autotests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/mainshelltest_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "autotests/mainshelltest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "shell/okular_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "shell/shellutils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "shell/shell.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "shell/welcomescreen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "shell/recentitemsmodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "autotests/closedialoghelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/mainshelltest_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/mainshelltest_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

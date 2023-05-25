@@ -1,0 +1,752 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kwidgetsaddons
+[  1%] Generating ECMPoQm/ar/kwidgetsaddons5_qt.qm
+[  1%] Generating ECMPoQm/az/kwidgetsaddons5_qt.qm
+[  1%] Generating ECMPoQm/af/kwidgetsaddons5_qt.qm
+[  1%] Generating ECMPoQm/as/kwidgetsaddons5_qt.qm
+[  1%] Generating ECMPoQm/be/kwidgetsaddons5_qt.qm
+[  1%] Generating ECMPoQm/be@latin/kwidgetsaddons5_qt.qm
+[  2%] Generating ECMPoQm/bn/kwidgetsaddons5_qt.qm
+[  2%] Generating ECMPoQm/bg/kwidgetsaddons5_qt.qm
+[  2%] Built target translations_2
+[  2%] Built target translations_4
+[  2%] Built target translations_7
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  2%] Generating ECMPoQm/bs/kwidgetsaddons5_qt.qm
+[  2%] Generating ECMPoQm/bn_IN/kwidgetsaddons5_qt.qm
+[  3%] Generating ECMPoQm/br/kwidgetsaddons5_qt.qm
+[  3%] Built target translations_6
+[  3%] Built target translations_11
+[  3%] Built target translations_3
+[  3%] Built target translations_1
+[  3%] Built target translations_8
+[  3%] Generating ECMPoQm/ca/kwidgetsaddons5_qt.qm
+[  3%] Generating ECMPoQm/ca@valencia/kwidgetsaddons5_qt.qm
+[  3%] Built target translations_5
+[  4%] Generating ECMPoQm/crh/kwidgetsaddons5_qt.qm
+[  4%] Generating ECMPoQm/cs/kwidgetsaddons5_qt.qm
+[  4%] Generating ECMPoQm/csb/kwidgetsaddons5_qt.qm
+[  4%] Generating ECMPoQm/cy/kwidgetsaddons5_qt.qm
+[  4%] Built target translations_10
+[  4%] Built target translations_13
+[  4%] Built target translations_12
+[  4%] Built target translations_9
+[  4%] Built target translations_15
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  4%] Generating ECMPoQm/da/kwidgetsaddons5_qt.qm
+[  4%] Generating ECMPoQm/el/kwidgetsaddons5_qt.qm
+[  5%] Generating ECMPoQm/de/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  6%] Generating ECMPoQm/en_GB/kwidgetsaddons5_qt.qm
+[  6%] Generating ECMPoQm/en/kwidgetsaddons5_qt.qm
+[  6%] Built target translations_21
+[  6%] Built target translations_14
+[  6%] Generating ECMPoQm/eo/kwidgetsaddons5_qt.qm
+[  6%] Built target translations_16
+[  6%] Generating ECMPoQm/es/kwidgetsaddons5_qt.qm
+[  6%] Built target translations_17
+[  6%] Generating ECMPoQm/et/kwidgetsaddons5_qt.qm
+[  6%] Built target translations_23
+[  6%] Generating ECMPoQm/eu/kwidgetsaddons5_qt.qm
+[  7%] Generating ECMPoQm/fa/kwidgetsaddons5_qt.qm
+[  7%] Built target translations_19
+[  7%] Built target translations_18
+[  7%] Built target translations_20
+[  7%] Generating ECMPoQm/fi/kwidgetsaddons5_qt.qm
+[  7%] Generating ECMPoQm/fr/kwidgetsaddons5_qt.qm
+[  7%] Built target translations_22
+[  7%] Generating ECMPoQm/fy/kwidgetsaddons5_qt.qm
+[  8%] Generating ECMPoQm/ga/kwidgetsaddons5_qt.qm
+[  8%] Built target translations_24
+[  8%] Generating ECMPoQm/gl/kwidgetsaddons5_qt.qm
+[  8%] Built target translations_26
+[  8%] Built target translations_27
+[  8%] Generating ECMPoQm/gu/kwidgetsaddons5_qt.qm
+[  8%] Built target translations_30
+[  8%] Built target translations_25
+[  8%] Generating ECMPoQm/ha/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  8%] Built target translations_29
+[  8%] Built target translations_28
+[  9%] Generating ECMPoQm/he/kwidgetsaddons5_qt.qm
+[  9%] Generating ECMPoQm/hi/kwidgetsaddons5_qt.qm
+[  9%] Generating ECMPoQm/hne/kwidgetsaddons5_qt.qm
+[  9%] Generating ECMPoQm/hr/kwidgetsaddons5_qt.qm
+[  9%] Built target translations_34
+[  9%] Built target translations_31
+[  9%] Built target translations_32
+[  9%] Generating ECMPoQm/hsb/kwidgetsaddons5_qt.qm
+[  9%] Built target translations_35
+[  9%] Generating ECMPoQm/hu/kwidgetsaddons5_qt.qm
+[  9%] Generating ECMPoQm/hy/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Generating ECMPoQm/ia/kwidgetsaddons5_qt.qm
+[  9%] Built target translations_33
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Built target translations_38
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Built target translations_36
+[  9%] Generating ECMPoQm/id/kwidgetsaddons5_qt.qm
+[  9%] Built target translations_37
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Generating ECMPoQm/it/kwidgetsaddons5_qt.qm
+[ 10%] Generating ECMPoQm/is/kwidgetsaddons5_qt.qm
+[ 10%] Generating ECMPoQm/ja/kwidgetsaddons5_qt.qm
+[ 10%] Built target translations_39
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 10%] Built target translations_40
+[ 10%] Generating ECMPoQm/ka/kwidgetsaddons5_qt.qm
+[ 10%] Built target translations_42
+[ 11%] Generating ECMPoQm/kk/kwidgetsaddons5_qt.qm
+[ 11%] Built target translations_41
+[ 11%] Built target translations_46
+[ 11%] Generating ECMPoQm/km/kwidgetsaddons5_qt.qm
+[ 11%] Generating ECMPoQm/kn/kwidgetsaddons5_qt.qm
+[ 11%] Generating ECMPoQm/ko/kwidgetsaddons5_qt.qm
+[ 11%] Built target translations_47
+[ 11%] Built target translations_43
+[ 12%] Generating ECMPoQm/ku/kwidgetsaddons5_qt.qm
+[ 12%] Generating ECMPoQm/lb/kwidgetsaddons5_qt.qm
+[ 12%] Built target translations_44
+[ 12%] Built target translations_51
+[ 12%] Built target translations_45
+[ 12%] Generating ECMPoQm/lt/kwidgetsaddons5_qt.qm
+[ 12%] Generating ECMPoQm/lv/kwidgetsaddons5_qt.qm
+[ 12%] Generating ECMPoQm/mai/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 12%] Built target translations_49
+[ 12%] Built target translations_48
+[ 12%] Built target translations_54
+[ 12%] Built target translations_50
+[ 13%] Generating ECMPoQm/mk/kwidgetsaddons5_qt.qm
+[ 13%] Generating ECMPoQm/ml/kwidgetsaddons5_qt.qm
+[ 13%] Generating ECMPoQm/mr/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 13%] Built target translations_52
+[ 14%] Generating ECMPoQm/ms/kwidgetsaddons5_qt.qm
+[ 14%] Generating ECMPoQm/nb/kwidgetsaddons5_qt.qm
+[ 14%] Built target translations_53
+[ 14%] Built target translations_55
+[ 14%] Built target translations_56
+[ 14%] Generating ECMPoQm/nds/kwidgetsaddons5_qt.qm
+[ 14%] Generating ECMPoQm/ne/kwidgetsaddons5_qt.qm
+[ 14%] Generating ECMPoQm/nl/kwidgetsaddons5_qt.qm
+[ 14%] Built target translations_61
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 14%] Built target translations_58
+[ 14%] Built target translations_57
+[ 15%] Generating ECMPoQm/nn/kwidgetsaddons5_qt.qm
+[ 15%] Generating ECMPoQm/oc/kwidgetsaddons5_qt.qm
+[ 15%] Built target translations_59
+[ 15%] Generating ECMPoQm/or/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 15%] Built target translations_65
+[ 15%] Generating ECMPoQm/pa/kwidgetsaddons5_qt.qm
+[ 15%] Built target translations_60
+[ 15%] Generating ECMPoQm/pl/kwidgetsaddons5_qt.qm
+[ 15%] Generating ECMPoQm/ps/kwidgetsaddons5_qt.qm
+[ 15%] Built target translations_63
+[ 15%] Built target translations_64
+[ 15%] Built target translations_66
+[ 15%] Built target translations_62
+[ 15%] Generating ECMPoQm/pt_BR/kwidgetsaddons5_qt.qm
+[ 15%] Generating ECMPoQm/pt/kwidgetsaddons5_qt.qm
+[ 16%] Generating ECMPoQm/ro/kwidgetsaddons5_qt.qm
+[ 16%] Generating ECMPoQm/ru/kwidgetsaddons5_qt.qm
+[ 16%] Built target translations_67
+[ 16%] Built target translations_71
+[ 16%] Generating ECMPoQm/se/kwidgetsaddons5_qt.qm
+[ 16%] Built target translations_72
+[ 16%] Generating ECMPoQm/si/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 16%] Built target translations_68
+[ 16%] Generating ECMPoQm/sk/kwidgetsaddons5_qt.qm
+[ 16%] Built target translations_69
+[ 16%] Built target translations_70
+[ 16%] Built target translations_75
+[ 17%] Generating ECMPoQm/sl/kwidgetsaddons5_qt.qm
+[ 17%] Generating ECMPoQm/sq/kwidgetsaddons5_qt.qm
+[ 17%] Generating ECMPoQm/sr/kwidgetsaddons5_qt.qm
+[ 17%] Generating ECMPoQm/sr@ijekavian/kwidgetsaddons5_qt.qm
+[ 17%] Built target translations_73
+[ 17%] Built target translations_74
+[ 17%] Built target translations_81
+[ 17%] Built target translations_80
+[ 17%] Generating ECMPoQm/sr@latin/kwidgetsaddons5_qt.qm
+[ 18%] Generating ECMPoQm/sr@ijekavianlatin/kwidgetsaddons5_qt.qm
+[ 18%] Generating ECMPoQm/sv/kwidgetsaddons5_qt.qm
+[ 18%] Generating ECMPoQm/ta/kwidgetsaddons5_qt.qm
+[ 18%] Built target translations_76
+[ 18%] Built target translations_77
+[ 18%] Built target translations_79
+[ 19%] Generating ECMPoQm/te/kwidgetsaddons5_qt.qm
+[ 19%] Generating ECMPoQm/tg/kwidgetsaddons5_qt.qm
+[ 19%] Built target translations_82
+[ 19%] Built target translations_84
+[ 19%] Generating ECMPoQm/th/kwidgetsaddons5_qt.qm
+[ 19%] Built target translations_78
+[ 19%] Built target translations_83
+[ 20%] Generating ECMPoQm/tt/kwidgetsaddons5_qt.qm
+[ 20%] Generating ECMPoQm/tr/kwidgetsaddons5_qt.qm
+[ 20%] Generating ECMPoQm/uk/kwidgetsaddons5_qt.qm
+[ 20%] Generating ECMPoQm/ug/kwidgetsaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 20%] Built target translations_92
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 20%] Built target translations_85
+[ 20%] Generating ECMPoQm/uz/kwidgetsaddons5_qt.qm
+[ 20%] Built target translations_89
+[ 20%] Generating ECMPoQm/uz@cyrillic/kwidgetsaddons5_qt.qm
+[ 20%] Built target translations_86
+[ 20%] Built target translations_87
+[ 21%] Generating ECMPoQm/vi/kwidgetsaddons5_qt.qm
+[ 21%] Built target translations_90
+[ 21%] Generating ECMPoQm/wa/kwidgetsaddons5_qt.qm
+[ 21%] Built target translations_88
+[ 21%] Generating ECMPoQm/xh/kwidgetsaddons5_qt.qm
+[ 21%] Built target translations_91
+[ 21%] Generating ECMPoQm/zh_CN/kwidgetsaddons5_qt.qm
+[ 22%] Generating ECMPoQm/zh_HK/kwidgetsaddons5_qt.qm
+[ 22%] Built target translations_95
+[ 22%] Generating ECMPoQm/zh_TW/kwidgetsaddons5_qt.qm
+[ 22%] Automatic MOC for target KF5WidgetsAddons
+[ 22%] Built target translations_98
+[ 22%] Automatic MOC for target kdatetabletest
+[ 22%] Built target translations_100
+[ 22%] Built target translations_93
+[ 22%] Built target translations_94
+[ 22%] Built target translations_97
+[ 22%] Built target translations_96
+[ 22%] Built target translations_99
+[ 22%] Built target kdatetabletest_autogen
+[ 22%] Building CXX object tests/CMakeFiles/kdatetabletest.dir/kdatetabletest_autogen/mocs_compilation.cpp.o
+[ 23%] Building CXX object tests/CMakeFiles/kdatetabletest.dir/__/src/kdatetable.cpp.o
+[ 23%] Building CXX object tests/CMakeFiles/kdatetabletest.dir/kdatetabletest.cpp.o
+[ 23%] Linking CXX executable ../bin/kdatetabletest
+[ 23%] Built target KF5WidgetsAddons_autogen
+[ 23%] Generating ui_kpassworddialog.h
+[ 23%] Generating ui_kdatetimeedit.h
+[ 23%] Automatic RCC for icons.qrc
+[ 23%] Generating ui_knewpasswordwidget.h
+[ 23%] Generating ui_knewpassworddialog.h
+[ 24%] Generating ui_kfontchooserwidget.h
+[ 24%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kactionmenu.cpp.o
+[ 24%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/common_helpers.cpp.o
+[ 24%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ECMQmLoader-kwidgetsaddons5_qt.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kacceleratormanager.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kactionselector.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/KF5WidgetsAddons_autogen/mocs_compilation.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kanimatedbutton.cpp.o
+[ 25%] Built target kdatetabletest
+[ 25%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kassistantdialog.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kbusyindicatorwidget.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcapacitybar.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcharselect.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcharselectdata.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcollapsiblegroupbox.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcolorbutton.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcolorcombo.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcolumnresizer.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kcursor.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdatecombobox.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdatepicker.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdatepickerpopup.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdaterangecontrol.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdatetable.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdatetimeedit.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdragwidgetdecorator.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kdualaction.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/keditlistwidget.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kfontaction.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kfontchooser.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kfontchooserdialog.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kfontrequester.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kfontsizeaction.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kguiitem.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kled.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kmessagebox.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kmessagebox_p.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kmessagedialog.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kmessagewidget.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kmimetypechooser.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kmimetypeeditor.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kmultitabbar.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/knewpassworddialog.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/knewpasswordwidget.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpagedialog.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpagemodel.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpageview.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpageview_p.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpagewidget.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpagewidgetmodel.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpassworddialog.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpasswordlineedit.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpixmapregionselectordialog.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpixmapregionselectorwidget.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpixmapsequence.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpixmapsequenceoverlaypainter.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpixmapsequencewidget.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kpopupframe.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kratingpainter.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kratingwidget.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/krecentfilesmenu.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kruler.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kselectaction.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kwidgetsaddons/src/kratingpainter.cpp:[m[K In function '[01m[Kvoid imageToGrayScale(QImage&, float)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kwidgetsaddons/src/kratingpainter.cpp:151:18:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kuchar*[m[K' {aka '[01m[Kunsigned char*[m[K'} to '[01m[KQRgb*[m[K' {aka '[01m[Kunsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  151 |     QRgb *data = [01;35m[K(QRgb *)img.bits()[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kwidgetsaddons/src/kratingpainter.cpp:[m[K In function '[01m[Kvoid imageToSemiTransparent(QImage&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kwidgetsaddons/src/kratingpainter.cpp:168:18:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kuchar*[m[K' {aka '[01m[Kunsigned char*[m[K'} to '[01m[KQRgb*[m[K' {aka '[01m[Kunsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  168 |     QRgb *data = [01;35m[K(QRgb *)img.bits()[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[ 37%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kselector.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kseparator.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ksplittercollapserbutton.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ksqueezedtextlabel.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kstandardguiitem.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kstyleextensions.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktimecombobox.cpp.o
+[ 39%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktitlewidget.cpp.o
+[ 39%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktoggleaction.cpp.o
+[ 39%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktogglefullscreenaction.cpp.o
+[ 39%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktoolbarlabelaction.cpp.o
+[ 39%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktoolbarpopupaction.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktoolbarspaceraction.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktooltipwidget.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktwofingerswipe.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/ktwofingertap.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kurllabel.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kviewstatemaintainerbase.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kviewstateserializer.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/kxyselector.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/lineediturldropeventfilter.cpp.o
+[ 42%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/loggingcategory.cpp.o
+[ 42%] Building CXX object src/CMakeFiles/KF5WidgetsAddons.dir/KF5WidgetsAddons_autogen/EWIEGA46WW/qrc_icons.cpp.o
+[ 42%] Linking CXX shared library ../bin/libKF5WidgetsAddons.so
+[ 42%] Built target KF5WidgetsAddons
+[ 42%] Automatic MOC for target kcollapsiblegroupbox_test
+[ 42%] Automatic MOC for target kactionmenutest
+[ 42%] Automatic MOC for target kcolorbuttontest
+[ 42%] Automatic MOC for target kacceleratormanagertest
+[ 43%] Automatic MOC for target kcharselect_unittest
+[ 43%] Automatic MOC for target kdatepickerpopupautotest
+[ 43%] Automatic MOC for target kdatepickerautotest
+[ 44%] Automatic MOC for target kdatecomboboxtest
+[ 44%] Built target kcolorbuttontest_autogen
+[ 44%] Built target kcollapsiblegroupbox_test_autogen
+[ 44%] Built target kdatecomboboxtest_autogen
+[ 44%] Automatic MOC for target kdatetimeedittest
+[ 45%] Automatic MOC for target kdualactiontest
+[ 45%] Built target kacceleratormanagertest_autogen
+[ 45%] Automatic MOC for target kpixmapsequencewidgettest
+[ 45%] Built target kdatepickerautotest_autogen
+[ 45%] Built target kdatepickerpopupautotest_autogen
+[ 45%] Automatic MOC for target knewpasswordwidgettest
+[ 45%] Built target kactionmenutest_autogen
+[ 46%] Automatic MOC for target kselectaction_unittest
+[ 46%] Built target kcharselect_unittest_autogen
+[ 46%] Automatic MOC for target ksqueezedtextlabelautotest
+[ 47%] Automatic MOC for target ktimecomboboxtest
+[ 47%] Automatic MOC for target ktoolbarpopupactiontest
+[ 47%] Built target kdatetimeedittest_autogen
+[ 47%] Built target ksqueezedtextlabelautotest_autogen
+[ 47%] Built target knewpasswordwidgettest_autogen
+[ 47%] Automatic MOC for target ktooltipwidgettest
+[ 47%] Built target kdualactiontest_autogen
+[ 47%] Built target kpixmapsequencewidgettest_autogen
+[ 47%] Built target kselectaction_unittest_autogen
+[ 47%] Automatic MOC for target kpagedialogautotest
+[ 47%] Automatic MOC for target kmessagewidgetautotest
+[ 47%] Automatic MOC for target kpasswordlineedittest
+[ 47%] Automatic MOC for target kpassworddialogautotest
+[ 47%] Automatic MOC for target ksplittercollapserbuttontest
+[ 47%] Built target ktimecomboboxtest_autogen
+[ 47%] Automatic MOC for target kmultitabbartest
+[ 47%] Built target ktoolbarpopupactiontest_autogen
+[ 47%] Automatic MOC for target ktwofingertaptest
+[ 47%] Built target kpagedialogautotest_autogen
+[ 47%] Built target kpasswordlineedittest_autogen
+[ 48%] Automatic MOC for target ktwofingerswipetest
+[ 48%] Built target kpassworddialogautotest_autogen
+[ 49%] Automatic MOC and UIC for target kcolumnresizertest
+[ 49%] Built target kmessagewidgetautotest_autogen
+[ 49%] Built target ksplittercollapserbuttontest_autogen
+[ 49%] Built target kmultitabbartest_autogen
+[ 49%] Automatic MOC for target kanimatedbuttontest
+[ 49%] Automatic MOC for target kbusyindicatorwidgettest
+[ 49%] Built target ktooltipwidgettest_autogen
+[ 49%] Automatic MOC for target kcharselecttest
+[ 49%] Automatic MOC for target kcollapsiblegroupboxtest
+[ 49%] Automatic MOC for target kdatecomboboxtestapp
+[ 49%] Built target kbusyindicatorwidgettest_autogen
+[ 49%] Built target kcharselecttest_autogen
+[ 49%] Built target ktwofingertaptest_autogen
+[ 49%] Built target kcollapsiblegroupboxtest_autogen
+[ 49%] Built target kdatecomboboxtestapp_autogen
+[ 49%] Automatic MOC for target kdatepicktest
+[ 49%] Automatic MOC for target kdatepickerpopuptest
+[ 50%] Automatic MOC for target kdatetimeedittestapp
+[ 50%] Automatic MOC for target kgradientselectortest
+[ 50%] Automatic MOC for target kledtest
+[ 50%] Built target kdatepickerpopuptest_autogen
+[ 50%] Built target kgradientselectortest_autogen
+[ 50%] Built target kcolumnresizertest_autogen
+[ 50%] Built target kdatetimeedittestapp_autogen
+[ 50%] Automatic MOC for target kselectactiontest
+[ 50%] Automatic MOC for target kseparatortest
+[ 51%] Automatic MOC for target kmessageboxtest
+[ 52%] Automatic MOC for target kmessageboxwidtest
+[ 52%] Built target kanimatedbuttontest_autogen
+[ 52%] Built target ktwofingerswipetest_autogen
+[ 52%] Built target kmessageboxtest_autogen
+[ 52%] Built target kseparatortest_autogen
+[ 52%] Automatic MOC for target ksqueezedtextlabeltest
+[ 52%] Automatic MOC for target ktitlewidgettest
+[ 52%] Built target kmessageboxwidtest_autogen
+[ 52%] Automatic MOC for target kfontchooserdialogtest
+[ 52%] Automatic MOC for target kfontrequestertest
+[ 53%] Automatic MOC for target kpassworddialogtest
+[ 53%] Built target ksqueezedtextlabeltest_autogen
+[ 53%] Built target ktitlewidgettest_autogen
+[ 53%] Built target kfontchooserdialogtest_autogen
+[ 53%] Automatic MOC for target keditlistwidgettest
+[ 53%] Automatic MOC for target kratingwidgettest
+[ 53%] Built target kdatepicktest_autogen
+[ 53%] Built target kpassworddialogtest_autogen
+[ 53%] Built target kfontrequestertest_autogen
+[ 53%] Automatic MOC for target kactionselectortest
+[ 53%] Built target kledtest_autogen
+[ 53%] Automatic MOC for target kcolorcombotest
+[ 53%] Built target keditlistwidgettest_autogen
+[ 53%] Automatic MOC for target kpixmapregionselectordialogtest
+[ 53%] Automatic MOC for target ktoolbarlabelactiontest
+[ 53%] Built target kratingwidgettest_autogen
+[ 53%] Automatic MOC for target kpagedialogtest
+[ 53%] Built target kactionselectortest_autogen
+[ 53%] Automatic MOC for target kpagewidgettest
+[ 53%] Automatic MOC for target kassistantdialogtest
+[ 53%] Automatic MOC for target kmessagewidgettest
+[ 53%] Built target kpixmapregionselectordialogtest_autogen
+[ 53%] Built target kselectactiontest_autogen
+[ 53%] Built target kassistantdialogtest_autogen
+[ 53%] Automatic MOC for target kmessagedialogtest
+[ 54%] Automatic MOC for target knewpassworddialogtest
+[ 54%] Automatic MOC for target knewpasswordwidget_test
+[ 54%] Built target knewpassworddialogtest_autogen
+[ 54%] Built target kmessagedialogtest_autogen
+[ 54%] Automatic MOC for target kpixmapsequenceoverlaypaintertest
+[ 54%] Automatic MOC for target kmimetypechoosertest
+[ 54%] Built target kcolorcombotest_autogen
+[ 54%] Built target kpagedialogtest_autogen
+[ 54%] Built target ktoolbarlabelactiontest_autogen
+[ 54%] Built target kmimetypechoosertest_autogen
+[ 54%] Automatic MOC for target ktooltipwidget_test
+[ 54%] Automatic MOC for target ksplittercollapserbuttongui_test
+[ 54%] Built target kpagewidgettest_autogen
+[ 54%] Built target kmessagewidgettest_autogen
+[ 54%] Automatic MOC for target kpasswordlineedit_test
+[ 54%] Automatic MOC for target ktwofingertap_test
+[ 54%] Automatic MOC for target ktwofingerswipe_test
+[ 54%] Automatic MOC for target kcolumnresizertestapp
+[ 54%] Built target kpasswordlineedit_test_autogen
+[ 54%] Automatic MOC for target kwidgetaddons-example-kmessagebox
+[ 54%] Built target knewpasswordwidget_test_autogen
+[ 54%] Building CXX object autotests/CMakeFiles/kacceleratormanagertest.dir/kacceleratormanagertest_autogen/mocs_compilation.cpp.o
+[ 54%] Built target kpixmapsequenceoverlaypaintertest_autogen
+[ 54%] Building CXX object autotests/CMakeFiles/kacceleratormanagertest.dir/kacceleratormanagertest.cpp.o
+[ 54%] Built target kwidgetaddons-example-kmessagebox_autogen
+[ 54%] Built target ksplittercollapserbuttongui_test_autogen
+[ 54%] Building CXX object autotests/CMakeFiles/kcharselect_unittest.dir/kcharselect_unittest_autogen/mocs_compilation.cpp.o
+[ 55%] Building CXX object autotests/CMakeFiles/kactionmenutest.dir/kactionmenutest_autogen/mocs_compilation.cpp.o
+[ 55%] Building CXX object autotests/CMakeFiles/kactionmenutest.dir/kactionmenutest.cpp.o
+[ 55%] Built target ktwofingertap_test_autogen
+[ 55%] Built target ktooltipwidget_test_autogen
+[ 55%] Building CXX object autotests/CMakeFiles/kcharselect_unittest.dir/kcharselect_unittest.cpp.o
+[ 55%] Built target kcolumnresizertestapp_autogen
+[ 55%] Built target ktwofingerswipe_test_autogen
+[ 56%] Building CXX object autotests/CMakeFiles/kcollapsiblegroupbox_test.dir/kcollapsiblegroupbox_test_autogen/mocs_compilation.cpp.o
+[ 56%] Building CXX object autotests/CMakeFiles/kdatecomboboxtest.dir/kdatecomboboxtest_autogen/mocs_compilation.cpp.o
+[ 56%] Building CXX object autotests/CMakeFiles/kcollapsiblegroupbox_test.dir/kcollapsiblegroupbox_test.cpp.o
+[ 56%] Building CXX object autotests/CMakeFiles/kcolorbuttontest.dir/kcolorbuttontest_autogen/mocs_compilation.cpp.o
+[ 57%] Building CXX object autotests/CMakeFiles/kdatepickerautotest.dir/kdatepickerautotest_autogen/mocs_compilation.cpp.o
+[ 57%] Building CXX object autotests/CMakeFiles/kdatepickerautotest.dir/kdatepickerautotest.cpp.o
+[ 58%] Building CXX object autotests/CMakeFiles/kcolorbuttontest.dir/kcolorbuttontest.cpp.o
+[ 58%] Building CXX object autotests/CMakeFiles/kdatecomboboxtest.dir/kdatecomboboxtest.cpp.o
+[ 59%] Building CXX object autotests/CMakeFiles/kdatepickerpopupautotest.dir/kdatepickerpopupautotest_autogen/mocs_compilation.cpp.o
+[ 59%] Building CXX object autotests/CMakeFiles/kdatepickerpopupautotest.dir/kdatepickerpopupautotest.cpp.o
+[ 59%] Linking CXX executable ../bin/kacceleratormanagertest
+[ 59%] Linking CXX executable ../bin/kcharselect_unittest
+[ 59%] Built target kacceleratormanagertest
+[ 59%] Linking CXX executable ../bin/kactionmenutest
+[ 59%] Building CXX object autotests/CMakeFiles/kdatetimeedittest.dir/kdatetimeedittest_autogen/mocs_compilation.cpp.o
+[ 59%] Linking CXX executable ../bin/kcollapsiblegroupbox_test
+[ 59%] Built target kcharselect_unittest
+[ 59%] Building CXX object autotests/CMakeFiles/kdatetimeedittest.dir/kdatetimeedittest.cpp.o
+[ 59%] Built target kactionmenutest
+[ 59%] Building CXX object autotests/CMakeFiles/kdualactiontest.dir/kdualactiontest_autogen/mocs_compilation.cpp.o
+[ 59%] Building CXX object autotests/CMakeFiles/kdualactiontest.dir/kdualactiontest.cpp.o
+[ 59%] Linking CXX executable ../bin/kdatepickerautotest
+[ 59%] Built target kcollapsiblegroupbox_test
+[ 59%] Building CXX object autotests/CMakeFiles/kpixmapsequencewidgettest.dir/kpixmapsequencewidgettest_autogen/mocs_compilation.cpp.o
+[ 59%] Building CXX object autotests/CMakeFiles/kpixmapsequencewidgettest.dir/kpixmapsequencewidgettest.cpp.o
+[ 59%] Built target kdatepickerautotest
+[ 60%] Building CXX object autotests/CMakeFiles/knewpasswordwidgettest.dir/knewpasswordwidgettest_autogen/mocs_compilation.cpp.o
+[ 60%] Linking CXX executable ../bin/kcolorbuttontest
+[ 60%] Building CXX object autotests/CMakeFiles/knewpasswordwidgettest.dir/knewpasswordwidgettest.cpp.o
+[ 60%] Built target kcolorbuttontest
+[ 60%] Building CXX object autotests/CMakeFiles/kselectaction_unittest.dir/kselectaction_unittest_autogen/mocs_compilation.cpp.o
+[ 60%] Linking CXX executable ../bin/kdatepickerpopupautotest
+[ 60%] Building CXX object autotests/CMakeFiles/kselectaction_unittest.dir/kselectaction_unittest.cpp.o
+[ 60%] Linking CXX executable ../bin/kdatecomboboxtest
+[ 60%] Built target kdatepickerpopupautotest
+[ 60%] Building CXX object autotests/CMakeFiles/ksqueezedtextlabelautotest.dir/ksqueezedtextlabelautotest_autogen/mocs_compilation.cpp.o
+[ 60%] Built target kdatecomboboxtest
+[ 60%] Building CXX object autotests/CMakeFiles/ktimecomboboxtest.dir/ktimecomboboxtest_autogen/mocs_compilation.cpp.o
+[ 61%] Linking CXX executable ../bin/kdatetimeedittest
+[ 61%] Built target kdatetimeedittest
+[ 61%] Building CXX object autotests/CMakeFiles/ksqueezedtextlabelautotest.dir/ksqueezedtextlabelautotest.cpp.o
+[ 62%] Linking CXX executable ../bin/kpixmapsequencewidgettest
+[ 63%] Building CXX object autotests/CMakeFiles/ktoolbarpopupactiontest.dir/ktoolbarpopupactiontest_autogen/mocs_compilation.cpp.o
+[ 63%] Linking CXX executable ../bin/kdualactiontest
+[ 63%] Building CXX object autotests/CMakeFiles/ktoolbarpopupactiontest.dir/ktoolbarpopupactiontest.cpp.o
+[ 63%] Built target kpixmapsequencewidgettest
+[ 63%] Building CXX object autotests/CMakeFiles/ktimecomboboxtest.dir/ktimecomboboxtest.cpp.o
+[ 63%] Built target kdualactiontest
+[ 63%] Building CXX object autotests/CMakeFiles/ktooltipwidgettest.dir/ktooltipwidgettest_autogen/mocs_compilation.cpp.o
+[ 63%] Building CXX object autotests/CMakeFiles/ktooltipwidgettest.dir/ktooltipwidgettest.cpp.o
+[ 64%] Building CXX object autotests/CMakeFiles/kmessagewidgetautotest.dir/kmessagewidgetautotest_autogen/mocs_compilation.cpp.o
+[ 64%] Linking CXX executable ../bin/knewpasswordwidgettest
+[ 64%] Building CXX object autotests/CMakeFiles/kmessagewidgetautotest.dir/kmessagewidgetautotest.cpp.o
+[ 64%] Built target knewpasswordwidgettest
+[ 65%] Building CXX object autotests/CMakeFiles/kpagedialogautotest.dir/kpagedialogautotest_autogen/mocs_compilation.cpp.o
+[ 65%] Linking CXX executable ../bin/kselectaction_unittest
+[ 65%] Building CXX object autotests/CMakeFiles/kpagedialogautotest.dir/kpagedialogautotest.cpp.o
+[ 65%] Built target kselectaction_unittest
+[ 65%] Building CXX object autotests/CMakeFiles/kpassworddialogautotest.dir/kpassworddialogautotest_autogen/mocs_compilation.cpp.o
+[ 65%] Linking CXX executable ../bin/ktoolbarpopupactiontest
+[ 65%] Linking CXX executable ../bin/ktimecomboboxtest
+[ 66%] Linking CXX executable ../bin/ksqueezedtextlabelautotest
+[ 66%] Built target ktimecomboboxtest
+[ 66%] Building CXX object autotests/CMakeFiles/kpassworddialogautotest.dir/kpassworddialogautotest.cpp.o
+[ 66%] Built target ktoolbarpopupactiontest
+[ 66%] Built target ksqueezedtextlabelautotest
+[ 66%] Building CXX object autotests/CMakeFiles/ksplittercollapserbuttontest.dir/ksplittercollapserbuttontest_autogen/mocs_compilation.cpp.o
+[ 67%] Building CXX object autotests/CMakeFiles/kpasswordlineedittest.dir/kpasswordlineedittest_autogen/mocs_compilation.cpp.o
+[ 67%] Building CXX object autotests/CMakeFiles/kpasswordlineedittest.dir/kpasswordlineedittest.cpp.o
+[ 68%] Linking CXX executable ../bin/ktooltipwidgettest
+[ 69%] Building CXX object autotests/CMakeFiles/ksplittercollapserbuttontest.dir/ksplittercollapserbuttontest.cpp.o
+[ 69%] Built target ktooltipwidgettest
+[ 69%] Building CXX object autotests/CMakeFiles/kmultitabbartest.dir/kmultitabbartest_autogen/mocs_compilation.cpp.o
+[ 69%] Linking CXX executable ../bin/kmessagewidgetautotest
+[ 69%] Building CXX object autotests/CMakeFiles/kmultitabbartest.dir/kmultitabbartest.cpp.o
+[ 69%] Linking CXX executable ../bin/kpagedialogautotest
+[ 69%] Built target kmessagewidgetautotest
+[ 70%] Building CXX object autotests/CMakeFiles/ktwofingertaptest.dir/ktwofingertaptest_autogen/mocs_compilation.cpp.o
+[ 70%] Building CXX object autotests/CMakeFiles/ktwofingertaptest.dir/ktwofingertaptest.cpp.o
+[ 70%] Building CXX object autotests/CMakeFiles/ktwofingerswipetest.dir/ktwofingerswipetest_autogen/mocs_compilation.cpp.o
+[ 70%] Built target kpagedialogautotest
+[ 70%] Building CXX object autotests/CMakeFiles/ktwofingerswipetest.dir/ktwofingerswipetest.cpp.o
+[ 70%] Building CXX object autotests/CMakeFiles/kcolumnresizertest.dir/kcolumnresizertest_autogen/mocs_compilation.cpp.o
+[ 70%] Building CXX object autotests/CMakeFiles/kcolumnresizertest.dir/kcolumnresizertest.cpp.o
+[ 71%] Linking CXX executable ../bin/kpassworddialogautotest
+[ 71%] Linking CXX executable ../bin/kpasswordlineedittest
+[ 71%] Built target kpassworddialogautotest
+[ 71%] Building CXX object tests/CMakeFiles/kanimatedbuttontest.dir/kanimatedbuttontest_autogen/mocs_compilation.cpp.o
+[ 71%] Built target kpasswordlineedittest
+[ 71%] Building CXX object tests/CMakeFiles/kbusyindicatorwidgettest.dir/kbusyindicatorwidgettest_autogen/mocs_compilation.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/kbusyindicatorwidgettest.dir/kbusyindicatorwidgettest.cpp.o
+[ 72%] Building CXX object tests/CMakeFiles/kanimatedbuttontest.dir/kanimatedbuttontest.cpp.o
+[ 72%] Linking CXX executable ../bin/ksplittercollapserbuttontest
+[ 72%] Built target ksplittercollapserbuttontest
+[ 72%] Building CXX object tests/CMakeFiles/kcharselecttest.dir/kcharselecttest_autogen/mocs_compilation.cpp.o
+[ 73%] Linking CXX executable ../bin/kmultitabbartest
+[ 73%] Building CXX object tests/CMakeFiles/kcharselecttest.dir/kcharselecttest.cpp.o
+[ 73%] Built target kmultitabbartest
+[ 73%] Building CXX object tests/CMakeFiles/kcollapsiblegroupboxtest.dir/kcollapsiblegroupboxtest_autogen/mocs_compilation.cpp.o
+[ 74%] Building CXX object tests/CMakeFiles/kcollapsiblegroupboxtest.dir/kcollapsiblegroupboxtest.cpp.o
+[ 74%] Linking CXX executable ../bin/kcolumnresizertest
+[ 74%] Building CXX object tests/CMakeFiles/kdatecomboboxtestapp.dir/kdatecomboboxtestapp_autogen/mocs_compilation.cpp.o
+[ 74%] Linking CXX executable ../bin/ktwofingerswipetest
+[ 74%] Building CXX object tests/CMakeFiles/kdatecomboboxtestapp.dir/kdatecomboboxtestapp.cpp.o
+[ 74%] Built target kcolumnresizertest
+[ 74%] Building CXX object tests/CMakeFiles/kdatepicktest.dir/kdatepicktest_autogen/mocs_compilation.cpp.o
+[ 74%] Building CXX object tests/CMakeFiles/kdatepicktest.dir/kdatepicktest.cpp.o
+[ 74%] Linking CXX executable ../bin/ktwofingertaptest
+[ 74%] Built target ktwofingerswipetest
+[ 74%] Building CXX object tests/CMakeFiles/kdatepickerpopuptest.dir/kdatepickerpopuptest_autogen/mocs_compilation.cpp.o
+[ 75%] Building CXX object tests/CMakeFiles/kdatepickerpopuptest.dir/kdatepickerpopuptest.cpp.o
+[ 76%] Linking CXX executable ../bin/kbusyindicatorwidgettest
+[ 76%] Built target ktwofingertaptest
+[ 76%] Building CXX object tests/CMakeFiles/kdatetimeedittestapp.dir/kdatetimeedittestapp_autogen/mocs_compilation.cpp.o
+[ 76%] Building CXX object tests/CMakeFiles/kdatetimeedittestapp.dir/kdatetimeedittestapp.cpp.o
+[ 76%] Built target kbusyindicatorwidgettest
+[ 76%] Building CXX object tests/CMakeFiles/kgradientselectortest.dir/kgradientselectortest_autogen/mocs_compilation.cpp.o
+[ 77%] Building CXX object tests/CMakeFiles/kgradientselectortest.dir/kgradientselectortest.cpp.o
+[ 77%] Linking CXX executable ../bin/kanimatedbuttontest
+[ 77%] Built target kanimatedbuttontest
+[ 77%] Building CXX object tests/CMakeFiles/kledtest.dir/kledtest_autogen/mocs_compilation.cpp.o
+[ 77%] Linking CXX executable ../bin/kcharselecttest
+[ 77%] Built target kcharselecttest
+[ 77%] Building CXX object tests/CMakeFiles/kledtest.dir/kledtest.cpp.o
+[ 77%] Linking CXX executable ../bin/kcollapsiblegroupboxtest
+[ 77%] Built target kcollapsiblegroupboxtest
+[ 77%] Building CXX object tests/CMakeFiles/kmessageboxtest.dir/kmessageboxtest_autogen/mocs_compilation.cpp.o
+[ 77%] Building CXX object tests/CMakeFiles/kmessageboxtest.dir/kmessageboxtest.cpp.o
+[ 78%] Linking CXX executable ../bin/kdatepicktest
+[ 78%] Linking CXX executable ../bin/kdatecomboboxtestapp
+[ 78%] Built target kdatepicktest
+[ 78%] Building CXX object tests/CMakeFiles/kmessageboxwidtest.dir/kmessageboxwidtest_autogen/mocs_compilation.cpp.o
+[ 78%] Linking CXX executable ../bin/kdatepickerpopuptest
+[ 78%] Building CXX object tests/CMakeFiles/kmessageboxwidtest.dir/kmessageboxwidtest.cpp.o
+[ 78%] Built target kdatecomboboxtestapp
+[ 78%] Building CXX object tests/CMakeFiles/kselectactiontest.dir/kselectactiontest_autogen/mocs_compilation.cpp.o
+[ 78%] Linking CXX executable ../bin/kgradientselectortest
+[ 78%] Built target kdatepickerpopuptest
+[ 78%] Building CXX object tests/CMakeFiles/kselectactiontest.dir/kselectactiontest.cpp.o
+[ 78%] Linking CXX executable ../bin/kdatetimeedittestapp
+[ 79%] Building CXX object tests/CMakeFiles/kseparatortest.dir/kseparatortest_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object tests/CMakeFiles/kseparatortest.dir/kseparatortest.cpp.o
+[ 79%] Built target kgradientselectortest
+[ 79%] Built target kdatetimeedittestapp
+[ 79%] Building CXX object tests/CMakeFiles/ksqueezedtextlabeltest.dir/ksqueezedtextlabeltest_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object tests/CMakeFiles/ktitlewidgettest.dir/ktitlewidgettest_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object tests/CMakeFiles/ksqueezedtextlabeltest.dir/ksqueezedtextlabeltest.cpp.o
+[ 79%] Building CXX object tests/CMakeFiles/ktitlewidgettest.dir/ktitlewidgettest.cpp.o
+[ 80%] Linking CXX executable ../bin/kledtest
+[ 80%] Built target kledtest
+[ 81%] Building CXX object tests/CMakeFiles/kfontchooserdialogtest.dir/kfontchooserdialogtest_autogen/mocs_compilation.cpp.o
+[ 81%] Building CXX object tests/CMakeFiles/kfontchooserdialogtest.dir/kfontchooserdialogtest.cpp.o
+[ 81%] Linking CXX executable ../bin/kmessageboxtest
+[ 81%] Building CXX object tests/CMakeFiles/kfontrequestertest.dir/kfontrequestertest_autogen/mocs_compilation.cpp.o
+[ 81%] Built target kmessageboxtest
+[ 82%] Building CXX object tests/CMakeFiles/kfontrequestertest.dir/kfontrequestertest.cpp.o
+[ 82%] Building CXX object tests/CMakeFiles/kpassworddialogtest.dir/kpassworddialogtest_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object tests/CMakeFiles/kpassworddialogtest.dir/kpassworddialogtest.cpp.o
+[ 82%] Linking CXX executable ../bin/kmessageboxwidtest
+[ 82%] Linking CXX executable ../bin/kseparatortest
+[ 82%] Built target kmessageboxwidtest
+[ 82%] Linking CXX executable ../bin/kselectactiontest
+[ 82%] Building CXX object tests/CMakeFiles/keditlistwidgettest.dir/keditlistwidgettest_autogen/mocs_compilation.cpp.o
+[ 82%] Built target kseparatortest
+[ 82%] Building CXX object tests/CMakeFiles/keditlistwidgettest.dir/keditlistwidgettest.cpp.o
+[ 82%] Building CXX object tests/CMakeFiles/kratingwidgettest.dir/kratingwidgettest_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object tests/CMakeFiles/kratingwidgettest.dir/kratingwidgettest.cpp.o
+[ 82%] Linking CXX executable ../bin/ktitlewidgettest
+[ 82%] Built target kselectactiontest
+[ 83%] Building CXX object tests/CMakeFiles/kactionselectortest.dir/kactionselectortest_autogen/mocs_compilation.cpp.o
+[ 83%] Building CXX object tests/CMakeFiles/kactionselectortest.dir/kactionselectortest.cpp.o
+[ 84%] Linking CXX executable ../bin/ksqueezedtextlabeltest
+[ 84%] Built target ktitlewidgettest
+[ 84%] Building CXX object tests/CMakeFiles/kcolorcombotest.dir/kcolorcombotest_autogen/mocs_compilation.cpp.o
+[ 84%] Built target ksqueezedtextlabeltest
+[ 84%] Building CXX object tests/CMakeFiles/kcolorcombotest.dir/kcolorcombotest.cpp.o
+[ 84%] Linking CXX executable ../bin/kfontchooserdialogtest
+[ 84%] Built target kfontchooserdialogtest
+[ 85%] Building CXX object tests/CMakeFiles/kpixmapregionselectordialogtest.dir/kpixmapregionselectordialogtest_autogen/mocs_compilation.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/kpixmapregionselectordialogtest.dir/kpixmapregionselectordialogtest.cpp.o
+[ 85%] Linking CXX executable ../bin/kfontrequestertest
+[ 85%] Linking CXX executable ../bin/kpassworddialogtest
+[ 85%] Built target kfontrequestertest
+[ 86%] Building CXX object tests/CMakeFiles/ktoolbarlabelactiontest.dir/ktoolbarlabelactiontest_autogen/mocs_compilation.cpp.o
+[ 86%] Building CXX object tests/CMakeFiles/ktoolbarlabelactiontest.dir/ktoolbarlabelactiontest.cpp.o
+[ 86%] Built target kpassworddialogtest
+[ 86%] Building CXX object tests/CMakeFiles/kpagedialogtest.dir/kpagedialogtest_autogen/mocs_compilation.cpp.o
+[ 87%] Linking CXX executable ../bin/kratingwidgettest
+[ 87%] Linking CXX executable ../bin/keditlistwidgettest
+[ 88%] Building CXX object tests/CMakeFiles/kpagedialogtest.dir/kpagedialogtest.cpp.o
+[ 88%] Built target kratingwidgettest
+[ 88%] Building CXX object tests/CMakeFiles/kpagewidgettest.dir/kpagewidgettest_autogen/mocs_compilation.cpp.o
+[ 88%] Built target keditlistwidgettest
+[ 88%] Building CXX object tests/CMakeFiles/kpagewidgettest.dir/kpagewidgettest.cpp.o
+[ 88%] Linking CXX executable ../bin/kactionselectortest
+[ 88%] Built target kactionselectortest
+[ 88%] Building CXX object tests/CMakeFiles/kassistantdialogtest.dir/kassistantdialogtest_autogen/mocs_compilation.cpp.o
+[ 88%] Building CXX object tests/CMakeFiles/kassistantdialogtest.dir/kassistantdialogtest.cpp.o
+[ 89%] Linking CXX executable ../bin/kcolorcombotest
+[ 89%] Built target kcolorcombotest
+[ 89%] Building CXX object tests/CMakeFiles/kmessagewidgettest.dir/kmessagewidgettest_autogen/mocs_compilation.cpp.o
+[ 90%] Building CXX object tests/CMakeFiles/kmessagewidgettest.dir/kmessagewidgettest.cpp.o
+[ 90%] Linking CXX executable ../bin/kpixmapregionselectordialogtest
+[ 90%] Built target kpixmapregionselectordialogtest
+[ 90%] Building CXX object tests/CMakeFiles/kmessagedialogtest.dir/kmessagedialogtest_autogen/mocs_compilation.cpp.o
+[ 90%] Building CXX object tests/CMakeFiles/kmessagedialogtest.dir/kmessagedialogtest.cpp.o
+[ 90%] Linking CXX executable ../bin/ktoolbarlabelactiontest
+[ 90%] Building CXX object tests/CMakeFiles/knewpassworddialogtest.dir/knewpassworddialogtest_autogen/mocs_compilation.cpp.o
+[ 90%] Building CXX object tests/CMakeFiles/knewpassworddialogtest.dir/knewpassworddialogtest.cpp.o
+[ 90%] Linking CXX executable ../bin/kpagedialogtest
+[ 90%] Building CXX object tests/CMakeFiles/knewpasswordwidget_test.dir/knewpasswordwidget_test_autogen/mocs_compilation.cpp.o
+[ 90%] Built target ktoolbarlabelactiontest
+[ 90%] Building CXX object tests/CMakeFiles/knewpasswordwidget_test.dir/knewpasswordwidget_test.cpp.o
+[ 90%] Built target kpagedialogtest
+[ 90%] Building CXX object tests/CMakeFiles/kpixmapsequenceoverlaypaintertest.dir/kpixmapsequenceoverlaypaintertest_autogen/mocs_compilation.cpp.o
+[ 91%] Linking CXX executable ../bin/kpagewidgettest
+[ 92%] Linking CXX executable ../bin/kassistantdialogtest
+[ 92%] Built target kpagewidgettest
+[ 93%] Building CXX object tests/CMakeFiles/kpixmapsequenceoverlaypaintertest.dir/kpixmapsequenceoverlaypaintertest.cpp.o
+[ 93%] Built target kassistantdialogtest
+[ 93%] Building CXX object tests/CMakeFiles/kmimetypechoosertest.dir/kmimetypechoosertest_autogen/mocs_compilation.cpp.o
+[ 94%] Building CXX object tests/CMakeFiles/kmimetypechoosertest.dir/kmimetypechoosertest.cpp.o
+[ 94%] Linking CXX executable ../bin/kmessagewidgettest
+[ 94%] Built target kmessagewidgettest
+[ 95%] Building CXX object tests/CMakeFiles/ksplittercollapserbuttongui_test.dir/ksplittercollapserbuttongui_test_autogen/mocs_compilation.cpp.o
+[ 95%] Linking CXX executable ../bin/kmessagedialogtest
+[ 95%] Linking CXX executable ../bin/knewpassworddialogtest
+[ 95%] Building CXX object tests/CMakeFiles/ksplittercollapserbuttongui_test.dir/ksplittercollapserbuttongui_test.cpp.o
+[ 95%] Building CXX object tests/CMakeFiles/ktooltipwidget_test.dir/ktooltipwidget_test_autogen/mocs_compilation.cpp.o
+[ 95%] Built target kmessagedialogtest
+[ 95%] Built target knewpassworddialogtest
+[ 96%] Building CXX object tests/CMakeFiles/ktooltipwidget_test.dir/ktooltipwidget_test.cpp.o
+[ 96%] Building CXX object tests/CMakeFiles/kpasswordlineedit_test.dir/kpasswordlineedit_test_autogen/mocs_compilation.cpp.o
+[ 96%] Building CXX object tests/CMakeFiles/kpasswordlineedit_test.dir/kpasswordlineedit_test.cpp.o
+[ 96%] Linking CXX executable ../bin/knewpasswordwidget_test
+[ 96%] Built target knewpasswordwidget_test
+[ 96%] Building CXX object tests/CMakeFiles/ktwofingertap_test.dir/ktwofingertap_test_autogen/mocs_compilation.cpp.o
+[ 96%] Linking CXX executable ../bin/kmimetypechoosertest
+[ 96%] Building CXX object tests/CMakeFiles/ktwofingertap_test.dir/ktwofingertap_test.cpp.o
+[ 96%] Built target kmimetypechoosertest
+[ 96%] Linking CXX executable ../bin/kpixmapsequenceoverlaypaintertest
+[ 96%] Building CXX object tests/CMakeFiles/ktwofingerswipe_test.dir/ktwofingerswipe_test_autogen/mocs_compilation.cpp.o
+[ 96%] Built target kpixmapsequenceoverlaypaintertest
+[ 96%] Generating ui_kcolumnresizertestapp.h
+[ 96%] Building CXX object tests/CMakeFiles/kcolumnresizertestapp.dir/kcolumnresizertestapp_autogen/mocs_compilation.cpp.o
+[ 96%] Linking CXX executable ../bin/ksplittercollapserbuttongui_test
+[ 96%] Building CXX object tests/CMakeFiles/ktwofingerswipe_test.dir/ktwofingerswipe_test.cpp.o
+[ 96%] Linking CXX executable ../bin/kpasswordlineedit_test
+[ 96%] Building CXX object tests/CMakeFiles/kcolumnresizertestapp.dir/kcolumnresizertestapp.cpp.o
+[ 96%] Built target ksplittercollapserbuttongui_test
+[ 96%] Building CXX object examples/kmessagebox/CMakeFiles/kwidgetaddons-example-kmessagebox.dir/kwidgetaddons-example-kmessagebox_autogen/mocs_compilation.cpp.o
+[ 97%] Building CXX object examples/kmessagebox/CMakeFiles/kwidgetaddons-example-kmessagebox.dir/main.cpp.o
+[ 97%] Built target kpasswordlineedit_test
+[ 97%] Linking CXX executable ../bin/ktooltipwidget_test
+[ 97%] Built target ktooltipwidget_test
+[ 97%] Linking CXX executable ../bin/ktwofingertap_test
+[ 97%] Built target ktwofingertap_test
+[ 98%] Linking CXX executable ../bin/kcolumnresizertestapp
+[ 98%] Built target kcolumnresizertestapp
+[ 98%] Linking CXX executable ../../bin/kwidgetaddons-example-kmessagebox
+[100%] Linking CXX executable ../bin/ktwofingerswipe_test
+[100%] Built target kwidgetaddons-example-kmessagebox
+[100%] Built target ktwofingerswipe_test

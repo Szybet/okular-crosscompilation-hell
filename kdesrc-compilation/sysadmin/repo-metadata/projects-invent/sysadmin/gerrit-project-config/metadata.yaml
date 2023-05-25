@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-project-config
+name: Configuration for various Gerrit CI components
+projectpath: sysadmin/gerrit-project-config
+repoactive: false
+repopath: sysadmin/gerrit-project-config

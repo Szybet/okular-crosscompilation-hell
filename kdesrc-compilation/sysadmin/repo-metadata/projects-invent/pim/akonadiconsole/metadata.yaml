@@ -1,0 +1,10 @@
+bugzilla:
+  product: akonadi
+  component: akonadiconsole
+description: Application for debugging Akonadi Resources
+hasrepo: true
+identifier: akonadiconsole
+name: Akonadi Console
+projectpath: kde/pim/akonadiconsole
+repoactive: true
+repopath: pim/akonadiconsole

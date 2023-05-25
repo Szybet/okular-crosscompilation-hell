@@ -1,0 +1,162 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kdbusaddons
+[  1%] Generating ECMPoQm/ar/kdbusaddons5_qt.qm
+[  3%] Generating ECMPoQm/bs/kdbusaddons5_qt.qm
+[  3%] Generating ECMPoQm/az/kdbusaddons5_qt.qm
+[  4%] Generating ECMPoQm/da/kdbusaddons5_qt.qm
+[  5%] Generating ECMPoQm/ca@valencia/kdbusaddons5_qt.qm
+[  7%] Generating ECMPoQm/cs/kdbusaddons5_qt.qm
+[  7%] Generating ECMPoQm/ca/kdbusaddons5_qt.qm
+[  8%] Generating ECMPoQm/bg/kdbusaddons5_qt.qm
+[  8%] Built target translations_1
+[  8%] Built target translations_2
+[  8%] Built target translations_4
+[  8%] Built target translations_6
+[  8%] Built target translations_3
+[  8%] Built target translations_8
+[  8%] Built target translations_7
+[  8%] Built target translations_5
+[  9%] Generating ECMPoQm/de/kdbusaddons5_qt.qm
+[ 10%] Generating ECMPoQm/en_GB/kdbusaddons5_qt.qm
+[ 11%] Generating ECMPoQm/el/kdbusaddons5_qt.qm
+[ 12%] Generating ECMPoQm/et/kdbusaddons5_qt.qm
+[ 13%] Generating ECMPoQm/es/kdbusaddons5_qt.qm
+[ 14%] Generating ECMPoQm/fr/kdbusaddons5_qt.qm
+[ 15%] Generating ECMPoQm/eu/kdbusaddons5_qt.qm
+[ 16%] Generating ECMPoQm/fi/kdbusaddons5_qt.qm
+[ 16%] Built target translations_9
+[ 16%] Built target translations_10
+[ 16%] Built target translations_13
+[ 16%] Built target translations_16
+[ 16%] Built target translations_11
+[ 16%] Built target translations_12
+[ 16%] Built target translations_14
+[ 16%] Built target translations_15
+[ 17%] Generating ECMPoQm/gd/kdbusaddons5_qt.qm
+[ 18%] Generating ECMPoQm/gl/kdbusaddons5_qt.qm
+[ 18%] Generating ECMPoQm/hi/kdbusaddons5_qt.qm
+[ 19%] Generating ECMPoQm/hu/kdbusaddons5_qt.qm
+[ 20%] Generating ECMPoQm/ia/kdbusaddons5_qt.qm
+[ 21%] Generating ECMPoQm/is/kdbusaddons5_qt.qm
+[ 22%] Generating ECMPoQm/id/kdbusaddons5_qt.qm
+[ 23%] Generating ECMPoQm/it/kdbusaddons5_qt.qm
+[ 23%] Built target translations_17
+[ 23%] Built target translations_18
+[ 23%] Built target translations_19
+[ 23%] Built target translations_20
+[ 23%] Built target translations_21
+[ 23%] Built target translations_23
+[ 23%] Built target translations_22
+[ 23%] Built target translations_24
+[ 24%] Generating ECMPoQm/ja/kdbusaddons5_qt.qm
+[ 25%] Generating ECMPoQm/ka/kdbusaddons5_qt.qm
+[ 26%] Generating ECMPoQm/ko/kdbusaddons5_qt.qm
+[ 27%] Generating ECMPoQm/lt/kdbusaddons5_qt.qm
+[ 28%] Generating ECMPoQm/ml/kdbusaddons5_qt.qm
+[ 29%] Generating ECMPoQm/nds/kdbusaddons5_qt.qm
+[ 30%] Generating ECMPoQm/nb/kdbusaddons5_qt.qm
+[ 31%] Generating ECMPoQm/nl/kdbusaddons5_qt.qm
+[ 31%] Built target translations_26
+[ 31%] Built target translations_25
+[ 31%] Built target translations_27
+[ 31%] Built target translations_28
+[ 31%] Built target translations_29
+[ 31%] Built target translations_30
+[ 31%] Built target translations_31
+[ 31%] Built target translations_32
+[ 32%] Generating ECMPoQm/pa/kdbusaddons5_qt.qm
+[ 33%] Generating ECMPoQm/nn/kdbusaddons5_qt.qm
+[ 34%] Generating ECMPoQm/pl/kdbusaddons5_qt.qm
+[ 35%] Generating ECMPoQm/pt_BR/kdbusaddons5_qt.qm
+[ 35%] Generating ECMPoQm/ro/kdbusaddons5_qt.qm
+[ 36%] Generating ECMPoQm/ru/kdbusaddons5_qt.qm
+[ 37%] Generating ECMPoQm/pt/kdbusaddons5_qt.qm
+[ 37%] Built target translations_33
+[ 38%] Generating ECMPoQm/se/kdbusaddons5_qt.qm
+[ 38%] Built target translations_34
+[ 38%] Built target translations_35
+[ 38%] Built target translations_37
+[ 38%] Built target translations_38
+[ 38%] Built target translations_39
+[ 38%] Built target translations_36
+[ 38%] Built target translations_40
+[ 39%] Generating ECMPoQm/sk/kdbusaddons5_qt.qm
+[ 40%] Generating ECMPoQm/sl/kdbusaddons5_qt.qm
+[ 41%] Generating ECMPoQm/sr/kdbusaddons5_qt.qm
+[ 42%] Generating ECMPoQm/sr@ijekavianlatin/kdbusaddons5_qt.qm
+[ 43%] Generating ECMPoQm/sr@ijekavian/kdbusaddons5_qt.qm
+[ 44%] Generating ECMPoQm/sr@latin/kdbusaddons5_qt.qm
+[ 45%] Generating ECMPoQm/sv/kdbusaddons5_qt.qm
+[ 46%] Generating ECMPoQm/tg/kdbusaddons5_qt.qm
+[ 46%] Built target translations_41
+[ 46%] Built target translations_42
+[ 46%] Built target translations_45
+[ 46%] Built target translations_46
+[ 46%] Built target translations_43
+[ 46%] Built target translations_44
+[ 46%] Built target translations_47
+[ 46%] Built target translations_48
+[ 47%] Generating ECMPoQm/tr/kdbusaddons5_qt.qm
+[ 50%] Generating ECMPoQm/zh_CN/kdbusaddons5_qt.qm
+[ 50%] Generating ECMPoQm/uk/kdbusaddons5_qt.qm
+[ 51%] Generating ECMPoQm/zh_TW/kdbusaddons5_qt.qm
+[ 52%] Automatic MOC for target KF5DBusAddons
+[ 53%] Automatic MOC for target kquitapp5
+[ 53%] Built target translations_49
+[ 53%] Built target translations_51
+[ 53%] Built target translations_52
+[ 53%] Built target translations_50
+[ 53%] Built target kquitapp5_autogen
+[ 54%] Building CXX object src/tools/kquitapp/CMakeFiles/kquitapp5.dir/kquitapp5_autogen/mocs_compilation.cpp.o
+[ 55%] Building CXX object src/tools/kquitapp/CMakeFiles/kquitapp5.dir/kquitapp.cpp.o
+[ 55%] Built target KF5DBusAddons_autogen
+[ 58%] Generating KDBusServiceIface.cpp, KDBusServiceIface.h
+[ 58%] Generating FreeDesktopApplpicationIface.cpp, FreeDesktopApplpicationIface.h
+[ 58%] Generating kdbusserviceextensions_adaptor.cpp, kdbusserviceextensions_adaptor.h
+[ 59%] Generating kdbusservice_adaptor.cpp, kdbusservice_adaptor.h
+[ 59%] Generating FreeDesktopApplpicationIface.moc
+[ 60%] Generating kdbusserviceextensions_adaptor.moc
+[ 61%] Generating KDBusServiceIface.moc
+[ 62%] Generating kdbusservice_adaptor.moc
+[ 66%] Building CXX object src/CMakeFiles/KF5DBusAddons.dir/ECMQmLoader-kdbusaddons5_qt.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/KF5DBusAddons.dir/KF5DBusAddons_autogen/mocs_compilation.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5DBusAddons.dir/kdbusinterprocesslock.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5DBusAddons.dir/kdedmodule.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5DBusAddons.dir/updatelaunchenvironmentjob.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5DBusAddons.dir/kdbusservice.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5DBusAddons.dir/kdeinitinterface.cpp.o
+In file included from [01m[K/usr/include/qt/QtX11Extras/QX11Info:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/kdbusservice.cpp:29[m[K:
+[01m[K/usr/include/qt/QtX11Extras/qx11info_x11.h:46:10:[m[K [01;31m[Kfatal error: [m[Kxcb/xcb.h: No such file or directory
+   46 | #include [01;31m[K<xcb/xcb.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [src/CMakeFiles/KF5DBusAddons.dir/build.make:162: src/CMakeFiles/KF5DBusAddons.dir/kdbusservice.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 70%] Linking CXX executable ../../../bin/kquitapp5
+[ 70%] Built target kquitapp5
+[01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/updatelaunchenvironmentjob.cpp:[m[K In member function '[01m[Kvoid UpdateLaunchEnvironmentJob::start()[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/updatelaunchenvironmentjob.cpp:82:34:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   82 |         [01;36m[KklauncherMsg.setArguments({QVariant::fromValue(varName), QVariant::fromValue(value)})[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/updatelaunchenvironmentjob.cpp:91:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   91 |         [01;36m[KplasmaSessionMsg.setArguments({QVariant::fromValue(varName), QVariant::fromValue(value)})[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/updatelaunchenvironmentjob.cpp:115:35:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  115 |     [01;36m[KdbusActivationMsg.setArguments({QVariant::fromValue(dbusActivationEnv)})[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/updatelaunchenvironmentjob.cpp:125:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  125 |     [01;36m[KsystemdActivationMsg.setArguments({systemdUpdates})[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qiodevice.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qprocess.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QProcessEnvironment:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/updatelaunchenvironmentjob.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kdbusaddons/src/updatelaunchenvironmentjob.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+make[1]: *** [CMakeFiles/Makefile2:1782: src/CMakeFiles/KF5DBusAddons.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

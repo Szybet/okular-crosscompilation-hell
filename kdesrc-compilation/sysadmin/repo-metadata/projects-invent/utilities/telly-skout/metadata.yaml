@@ -1,0 +1,9 @@
+bugzilla:
+  product: Telly Skout
+description: Convergent TV guide based on Kirigami.
+hasrepo: true
+identifier: telly-skout
+name: Telly Skout
+projectpath: extragear/utilities/telly-skout
+repoactive: true
+repopath: utilities/telly-skout

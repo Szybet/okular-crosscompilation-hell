@@ -1,0 +1,7 @@
+description: Distribution alternatives configuration
+hasrepo: true
+identifier: kalternatives
+name: KAlternatives
+projectpath: playground/sysadmin/kalternatives
+repoactive: true
+repopath: system/kalternatives

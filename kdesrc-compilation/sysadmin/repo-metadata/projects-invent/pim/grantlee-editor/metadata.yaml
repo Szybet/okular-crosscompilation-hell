@@ -1,0 +1,7 @@
+description: Utilities and tools to manage themes in KDE PIM applications
+hasrepo: true
+identifier: grantlee-editor
+name: Grantlee Editor
+projectpath: kde/pim/grantlee-editor
+repoactive: true
+repopath: pim/grantlee-editor

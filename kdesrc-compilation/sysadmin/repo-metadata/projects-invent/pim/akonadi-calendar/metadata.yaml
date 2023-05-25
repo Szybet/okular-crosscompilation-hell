@@ -1,0 +1,9 @@
+description: Akonadi calendar integration
+hasrepo: true
+identifier: akonadi-calendar
+name: Akonadi Calendar
+projectpath: kde/pim/akonadi-calendar
+repoactive: true
+repopath: pim/akonadi-calendar
+bugzilla:
+  product: Reminder Daemon

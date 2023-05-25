@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdbusaddons
+description: KDBusAddons
+hasrepo: true
+identifier: kdbusaddons
+name: KDBusAddons
+projectpath: frameworks/kdbusaddons
+repoactive: true
+repopath: frameworks/kdbusaddons

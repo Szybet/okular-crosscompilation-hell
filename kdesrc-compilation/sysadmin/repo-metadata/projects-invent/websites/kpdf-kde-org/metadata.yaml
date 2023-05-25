@@ -1,0 +1,7 @@
+description: Static copy of the KPDF website — kpdf.kde.org
+hasrepo: true
+identifier: websites-kpdf-kde-org
+name: KPDF Website
+projectpath: websites/kpdf-kde-org
+repoactive: true
+repopath: websites/kpdf-kde-org

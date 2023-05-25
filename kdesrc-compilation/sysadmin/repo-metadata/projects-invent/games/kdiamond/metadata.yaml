@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdiamond
+description: KDiamond is a single player puzzle game
+hasrepo: true
+identifier: kdiamond
+name: KDiamond
+projectpath: kde/kdegames/kdiamond
+repoactive: true
+repopath: games/kdiamond

@@ -1,0 +1,7 @@
+description: The marketing site for Krita.org, migrated to use the Hugo static site generator
+hasrepo: true
+identifier: websites-krita-org
+name: Krita.org website
+projectpath: websites/krita-org
+repoactive: true
+repopath: websites/krita-org

@@ -1,0 +1,7 @@
+description: Custom KDE application, code-named Solena, which runs identity.kde.org
+hasrepo: true
+identifier: websites-identity-kde-org
+name: Identity - Solena
+projectpath: websites/identity-kde-org
+repoactive: true
+repopath: websites/identity-kde-org

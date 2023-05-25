@@ -1,0 +1,8 @@
+description: KWhiteboard is a shared whiteboard application built with Telepathy.
+  It allows you to run a shared whiteboard session with Instant Messaging contacts.
+hasrepo: true
+identifier: kwhiteboard
+name: KWhiteboard
+projectpath: unmaintained/kwhiteboard
+repoactive: false
+repopath: unmaintained/kwhiteboard

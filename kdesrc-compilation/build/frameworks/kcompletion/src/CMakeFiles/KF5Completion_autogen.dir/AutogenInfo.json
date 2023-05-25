@@ -1,0 +1,246 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kcompletion/src/KF5Completion_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kcompletion",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kcompletion/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kcompletion/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kcompletion/src/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQmLoader.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kcompletion",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kcompletion/src/kcompletion_debug.h",
+			"Mu",
+			"EJRQKI7XPS/moc_kcompletion_debug.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcombobox.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcombobox.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcombobox_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcombobox_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletion.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcompletion.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletion_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcompletion_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletionbase.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcompletionbase.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletionbox.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcompletionbox.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletionmatches.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcompletionmatches.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/khistorycombobox.h",
+			"Mu",
+			"EWIEGA46WW/moc_khistorycombobox.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/klineedit.h",
+			"Mu",
+			"EWIEGA46WW/moc_klineedit.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/klineedit_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_klineedit_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kpixmapprovider.h",
+			"Mu",
+			"EWIEGA46WW/moc_kpixmapprovider.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/ksortablelist.h",
+			"Mu",
+			"EWIEGA46WW/moc_ksortablelist.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kzoneallocator_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kzoneallocator_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kcompletion/src/KF5Completion_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/kcompletion/src/KF5Completion_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCOMPLETION_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KCOMPLETION_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"KF5Completion_EXPORTS",
+		"KF_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"KF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x55f00",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kcompletion/src",
+		"/home/szybet/kdesrc/frameworks/kcompletion/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KConfig",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KConfigCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KConfigGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtXml",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KWidgetsAddons",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/kcompletion/src/KF5Completion_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/kcompletion/src/CMakeFiles/KF5Completion_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kcompletion/src/CMakeFiles/KF5Completion_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kcompletion/src/ECMQmLoader-kcompletion5_qt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/build/frameworks/kcompletion/src/kcompletion_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcombobox.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletion.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletionbase.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletionbox.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kcompletionmatches.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/khistorycombobox.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/klineedit.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kpixmapprovider.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kcompletion/src/kzoneallocator.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

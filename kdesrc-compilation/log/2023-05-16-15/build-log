@@ -1,0 +1,34 @@
+Holding performance profile
+Building kio from _cmdline (1/14)
+	Fetching remote changes to kio
+	Merging kio changes from branch kf5
+	No changes to kio source code, but proceeding to build anyway.
+Building kinit from _cmdline (2/14)
+	Fetching remote changes to kinit
+	Merging kinit changes from branch kf5
+	No changes to kinit source code, but proceeding to build anyway.
+Building kirigami from _cmdline (3/14)
+	Fetching remote changes to kirigami
+	Merging kirigami changes from branch kf5
+	No changes to kirigami source code, but proceeding to build anyway.
+Building kjs from _cmdline (4/14)
+	Fetching remote changes to kjs
+	Merging kjs changes from branch kf5
+	Source update complete for kjs: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for kjs.
+	Removing files in build directory for kjs
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: ---- 30 ---- compile warnings
+
+kjs didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kjs - file:///home/szybet/kdesrc/log/2023-05-16-15/kjs/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-15

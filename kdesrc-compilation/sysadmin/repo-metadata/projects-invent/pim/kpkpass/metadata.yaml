@@ -1,0 +1,9 @@
+description: Apple Wallet Pass reader
+hasrepo: true
+identifier: kpkpass
+name: KPkPass
+projectpath: kde/pim/kpkpass
+repoactive: true
+repopath: pim/kpkpass
+bugzilla:
+  product: kpkpass

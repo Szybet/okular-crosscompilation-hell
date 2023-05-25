@@ -1,0 +1,8 @@
+description: SMOKE bindings for libraries created by the KDE community. Used by language
+  bindings.
+hasrepo: true
+identifier: smokekde
+name: smokekde
+projectpath: kde/kdebindings/smoke/smokekde
+repoactive: false
+repopath: unmaintained/smokekde

@@ -1,0 +1,34 @@
+Holding performance profile
+Building extra-cmake-modules from _cmdline (1/44)
+	Fetching remote changes to extra-cmake-modules
+	Merging extra-cmake-modules changes from branch kf5
+	No changes to extra-cmake-modules source code, but proceeding to build anyway.
+Building kcoreaddons from _cmdline (2/44)
+	Fetching remote changes to kcoreaddons
+	Merging kcoreaddons changes from branch kf5
+	No changes to kcoreaddons source code, but proceeding to build anyway.
+Building kconfig from _cmdline (3/44)
+	Fetching remote changes to kconfig
+	Merging kconfig changes from branch kf5
+	No changes to kconfig source code, but proceeding to build anyway.
+Building ki18n from _cmdline (4/44)
+	Fetching remote changes to ki18n
+	Merging ki18n changes from branch kf5
+	No changes to ki18n source code, but proceeding to build anyway.
+Building karchive from _cmdline (5/44)
+	Fetching remote changes to karchive
+	Merging karchive changes from branch kf5
+	No changes to karchive source code, but proceeding to build anyway.
+Building kdoctools from _cmdline (6/44)
+	Fetching remote changes to kdoctools
+	Merging kdoctools changes from branch kf5
+	Source update complete for kdoctools: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for kdoctools.
+	Removing files in build directory for kdoctools
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+
+kdoctools didn't build, stopping here.
+Signal received, terminating.
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-15-02

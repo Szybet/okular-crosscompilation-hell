@@ -1,0 +1,10 @@
+description: The Oxygen Sound Theme
+hasrepo: true
+identifier: oxygen-sounds
+name: Oxygen Sounds
+projectpath: kde/workspace/oxygen-sounds
+repoactive: true
+repopath: plasma/oxygen-sounds
+bugzilla:
+    product: Oxygen
+    component: sound

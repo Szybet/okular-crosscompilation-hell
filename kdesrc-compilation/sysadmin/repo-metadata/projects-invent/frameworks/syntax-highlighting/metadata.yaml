@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-syntax-highlighting
+description: Syntax highlighting Engine for Structured Text and Code.
+hasrepo: true
+identifier: syntax-highlighting
+name: Syntax Highlighting Engine
+projectpath: frameworks/syntax-highlighting
+repoactive: true
+repopath: frameworks/syntax-highlighting

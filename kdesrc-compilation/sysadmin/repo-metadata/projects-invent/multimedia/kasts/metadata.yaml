@@ -1,0 +1,9 @@
+description: Kirigami-based podcast player
+hasrepo: true
+identifier: kasts
+name: Kasts
+projectpath: extragear/mobile/kasts
+repoactive: true
+repopath: multimedia/kasts
+bugzilla:
+    product: kasts

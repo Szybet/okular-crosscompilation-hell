@@ -1,0 +1,7 @@
+description: Support components for porting from KF5/Qt5 to KF6/Qt6
+hasrepo: true
+identifier: plasma5support
+name: Plasma5Support
+projectpath: kde/workspace/plasma5support
+repoactive: true
+repopath: plasma/plasma5support

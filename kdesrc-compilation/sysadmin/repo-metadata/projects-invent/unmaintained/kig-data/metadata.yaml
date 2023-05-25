@@ -1,0 +1,7 @@
+description: Course data for Kig, provided by KDE Edu.
+hasrepo: true
+identifier: others-kig-data
+name: Kig Course Data
+projectpath: others/kde-edu-courses/kig-data
+repoactive: false
+repopath: unmaintained/kig-data

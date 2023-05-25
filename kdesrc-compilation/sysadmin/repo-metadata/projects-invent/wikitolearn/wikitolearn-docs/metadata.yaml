@@ -1,0 +1,7 @@
+description: Documentation for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-docs
+name: 'WikiToLearn Docs'
+projectpath: playground/www/wikitolearn-docs
+repoactive: true
+repopath: wikitolearn/wikitolearn-docs

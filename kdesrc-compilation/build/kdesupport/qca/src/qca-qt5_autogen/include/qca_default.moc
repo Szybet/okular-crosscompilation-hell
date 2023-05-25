@@ -1,0 +1,374 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qca_default.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qca_default.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_QCA__DefaultRandomContext_t {
+    QByteArrayData data[1];
+    char stringdata0[26];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QCA__DefaultRandomContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QCA__DefaultRandomContext_t qt_meta_stringdata_QCA__DefaultRandomContext = {
+    {
+QT_MOC_LITERAL(0, 0, 25) // "QCA::DefaultRandomContext"
+
+    },
+    "QCA::DefaultRandomContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QCA__DefaultRandomContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void QCA::DefaultRandomContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject QCA::DefaultRandomContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<RandomContext::staticMetaObject>(),
+    qt_meta_stringdata_QCA__DefaultRandomContext.data,
+    qt_meta_data_QCA__DefaultRandomContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *QCA::DefaultRandomContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QCA::DefaultRandomContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QCA__DefaultRandomContext.stringdata0))
+        return static_cast<void*>(this);
+    return RandomContext::qt_metacast(_clname);
+}
+
+int QCA::DefaultRandomContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = RandomContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_QCA__DefaultMD5Context_t {
+    QByteArrayData data[1];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QCA__DefaultMD5Context_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QCA__DefaultMD5Context_t qt_meta_stringdata_QCA__DefaultMD5Context = {
+    {
+QT_MOC_LITERAL(0, 0, 22) // "QCA::DefaultMD5Context"
+
+    },
+    "QCA::DefaultMD5Context"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QCA__DefaultMD5Context[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void QCA::DefaultMD5Context::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject QCA::DefaultMD5Context::staticMetaObject = { {
+    QMetaObject::SuperData::link<HashContext::staticMetaObject>(),
+    qt_meta_stringdata_QCA__DefaultMD5Context.data,
+    qt_meta_data_QCA__DefaultMD5Context,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *QCA::DefaultMD5Context::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QCA::DefaultMD5Context::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QCA__DefaultMD5Context.stringdata0))
+        return static_cast<void*>(this);
+    return HashContext::qt_metacast(_clname);
+}
+
+int QCA::DefaultMD5Context::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = HashContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_QCA__DefaultSHA1Context_t {
+    QByteArrayData data[1];
+    char stringdata0[24];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QCA__DefaultSHA1Context_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QCA__DefaultSHA1Context_t qt_meta_stringdata_QCA__DefaultSHA1Context = {
+    {
+QT_MOC_LITERAL(0, 0, 23) // "QCA::DefaultSHA1Context"
+
+    },
+    "QCA::DefaultSHA1Context"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QCA__DefaultSHA1Context[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void QCA::DefaultSHA1Context::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject QCA::DefaultSHA1Context::staticMetaObject = { {
+    QMetaObject::SuperData::link<HashContext::staticMetaObject>(),
+    qt_meta_stringdata_QCA__DefaultSHA1Context.data,
+    qt_meta_data_QCA__DefaultSHA1Context,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *QCA::DefaultSHA1Context::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QCA::DefaultSHA1Context::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QCA__DefaultSHA1Context.stringdata0))
+        return static_cast<void*>(this);
+    return HashContext::qt_metacast(_clname);
+}
+
+int QCA::DefaultSHA1Context::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = HashContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_QCA__DefaultKeyStoreEntry_t {
+    QByteArrayData data[1];
+    char stringdata0[26];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QCA__DefaultKeyStoreEntry_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QCA__DefaultKeyStoreEntry_t qt_meta_stringdata_QCA__DefaultKeyStoreEntry = {
+    {
+QT_MOC_LITERAL(0, 0, 25) // "QCA::DefaultKeyStoreEntry"
+
+    },
+    "QCA::DefaultKeyStoreEntry"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QCA__DefaultKeyStoreEntry[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void QCA::DefaultKeyStoreEntry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject QCA::DefaultKeyStoreEntry::staticMetaObject = { {
+    QMetaObject::SuperData::link<KeyStoreEntryContext::staticMetaObject>(),
+    qt_meta_stringdata_QCA__DefaultKeyStoreEntry.data,
+    qt_meta_data_QCA__DefaultKeyStoreEntry,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *QCA::DefaultKeyStoreEntry::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QCA::DefaultKeyStoreEntry::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QCA__DefaultKeyStoreEntry.stringdata0))
+        return static_cast<void*>(this);
+    return KeyStoreEntryContext::qt_metacast(_clname);
+}
+
+int QCA::DefaultKeyStoreEntry::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KeyStoreEntryContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_QCA__DefaultKeyStoreList_t {
+    QByteArrayData data[1];
+    char stringdata0[25];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QCA__DefaultKeyStoreList_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QCA__DefaultKeyStoreList_t qt_meta_stringdata_QCA__DefaultKeyStoreList = {
+    {
+QT_MOC_LITERAL(0, 0, 24) // "QCA::DefaultKeyStoreList"
+
+    },
+    "QCA::DefaultKeyStoreList"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QCA__DefaultKeyStoreList[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void QCA::DefaultKeyStoreList::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject QCA::DefaultKeyStoreList::staticMetaObject = { {
+    QMetaObject::SuperData::link<KeyStoreListContext::staticMetaObject>(),
+    qt_meta_stringdata_QCA__DefaultKeyStoreList.data,
+    qt_meta_data_QCA__DefaultKeyStoreList,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *QCA::DefaultKeyStoreList::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QCA::DefaultKeyStoreList::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QCA__DefaultKeyStoreList.stringdata0))
+        return static_cast<void*>(this);
+    return KeyStoreListContext::qt_metacast(_clname);
+}
+
+int QCA::DefaultKeyStoreList::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KeyStoreListContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

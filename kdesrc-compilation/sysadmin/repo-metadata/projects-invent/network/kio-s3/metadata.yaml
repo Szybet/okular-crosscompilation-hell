@@ -1,0 +1,7 @@
+description: KIO interface for Amazon Web Services S3 storage
+hasrepo: true
+identifier: kio-s3
+name: KIO S3
+projectpath: extragear/network/kio-s3
+repoactive: true
+repopath: network/kio-s3

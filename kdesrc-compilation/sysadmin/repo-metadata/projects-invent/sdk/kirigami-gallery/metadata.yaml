@@ -1,0 +1,9 @@
+bugzilla:
+  product: kirigami gallery
+description: Kirigami component gallery application
+hasrepo: true
+identifier: kirigami-gallery
+name: Kirigami Gallery
+projectpath: kde/kdesdk/kirigami-gallery
+repoactive: true
+repopath: sdk/kirigami-gallery

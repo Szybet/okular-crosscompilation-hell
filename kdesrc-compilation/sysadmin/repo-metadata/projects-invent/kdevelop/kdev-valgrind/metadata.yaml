@@ -1,0 +1,7 @@
+description: Plugin offering a full integration of the Valgrind suite into KDevelop
+hasrepo: true
+identifier: kdev-valgrind
+name: KDevelop Valgrind Support
+projectpath: playground/devtools/plugins/kdev-valgrind
+repoactive: true
+repopath: kdevelop/kdev-valgrind

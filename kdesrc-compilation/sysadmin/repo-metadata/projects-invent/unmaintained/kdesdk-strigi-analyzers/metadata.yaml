@@ -1,0 +1,7 @@
+description: Analyzer plugins for strigi
+hasrepo: true
+identifier: kdesdk-strigi-analyzers
+name: Analyzers for strigi
+projectpath: unmaintained/kdesdk-strigi-analyzers
+repoactive: false
+repopath: unmaintained/kdesdk-strigi-analyzers

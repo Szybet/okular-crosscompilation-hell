@@ -1,0 +1,10 @@
+bugzilla:
+  __do_not_use-legacy-product: kdesu
+  product: frameworks-kdesu
+description: KDE Su
+hasrepo: true
+identifier: kdesu
+name: KDE Su
+projectpath: frameworks/kdesu
+repoactive: true
+repopath: frameworks/kdesu

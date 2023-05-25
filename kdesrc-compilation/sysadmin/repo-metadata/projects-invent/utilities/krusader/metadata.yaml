@@ -1,0 +1,7 @@
+description: Advanced twin panel (commander style) file manager
+hasrepo: true
+identifier: krusader
+name: Krusader
+projectpath: extragear/utils/krusader
+repoactive: true
+repopath: utilities/krusader

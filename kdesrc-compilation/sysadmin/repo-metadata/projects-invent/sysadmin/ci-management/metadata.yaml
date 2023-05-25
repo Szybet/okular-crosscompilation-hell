@@ -1,0 +1,7 @@
+description: Contains all management jobs and other data needed to run our Gitlab CI infrastructure.
+hasrepo: true
+identifier: sysadmin-ci-management
+name: CI Management
+projectpath: sysadmin/ci-management
+repoactive: false
+repopath: sysadmin/ci-management

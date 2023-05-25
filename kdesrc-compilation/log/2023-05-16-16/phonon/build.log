@@ -1,0 +1,389 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kdesupport/phonon
+[  0%] Generating ECMPoQm/az/libphonon_qt.qm
+[  1%] Generating ECMPoQm/ar/phononsettings_qt.qm
+[  1%] Generating ECMPoQm/ar/libphonon_qt.qm
+[  1%] Generating ECMPoQm/az/phononsettings_qt.qm
+[  1%] Generating ECMPoQm/be@latin/phononsettings_qt.qm
+[  1%] Generating ECMPoQm/be/phononsettings_qt.qm
+[  1%] Generating ECMPoQm/be/libphonon_qt.qm
+[  1%] Generating ECMPoQm/bg/libphonon_qt.qm
+[  1%] Built target translations_3
+[  1%] Built target translations_7
+[  1%] Built target translations_4
+[  1%] Built target translations_1
+[  1%] Built target translations_6
+[  1%] Built target translations_5
+[  1%] Built target translations_8
+[  1%] Built target translations_2
+[  1%] Generating ECMPoQm/bn/phononsettings_qt.qm
+[  1%] Generating ECMPoQm/bg/phononsettings_qt.qm
+[  1%] Generating ECMPoQm/bn_IN/phononsettings_qt.qm
+[  1%] Generating ECMPoQm/bs/libphonon_qt.qm
+[  4%] Generating ECMPoQm/ca/phononsettings_qt.qm
+[  4%] Generating ECMPoQm/bs/phononsettings_qt.qm
+[  4%] Generating ECMPoQm/ca@valencia/libphonon_qt.qm
+[  5%] Generating ECMPoQm/ca/libphonon_qt.qm
+[  5%] Built target translations_9
+[  5%] Built target translations_10
+[  5%] Built target translations_12
+[  5%] Built target translations_15
+[  5%] Built target translations_14
+[  5%] Built target translations_16
+[  5%] Built target translations_11
+[  5%] Built target translations_13
+[  6%] Generating ECMPoQm/ca@valencia/phononsettings_qt.qm
+[  7%] Generating ECMPoQm/csb/libphonon_qt.qm
+[  7%] Generating ECMPoQm/cs/libphonon_qt.qm
+[  7%] Generating ECMPoQm/da/libphonon_qt.qm
+[  7%] Generating ECMPoQm/csb/phononsettings_qt.qm
+[  8%] Generating ECMPoQm/da/phononsettings_qt.qm
+[  9%] Generating ECMPoQm/cs/phononsettings_qt.qm
+[  9%] Generating ECMPoQm/de/libphonon_qt.qm
+[  9%] Built target translations_17
+[  9%] Built target translations_20
+[  9%] Built target translations_18
+[  9%] Built target translations_21
+[  9%] Built target translations_23
+[  9%] Built target translations_22
+[  9%] Built target translations_19
+[  9%] Built target translations_24
+[ 10%] Generating ECMPoQm/de/phononsettings_qt.qm
+[ 10%] Generating ECMPoQm/el/libphonon_qt.qm
+[ 12%] Generating ECMPoQm/eo/libphonon_qt.qm
+[ 12%] Generating ECMPoQm/el/phononsettings_qt.qm
+[ 13%] Generating ECMPoQm/en_GB/phononsettings_qt.qm
+[ 13%] Generating ECMPoQm/eo/phononsettings_qt.qm
+[ 13%] Generating ECMPoQm/en_GB/libphonon_qt.qm
+[ 13%] Generating ECMPoQm/es/libphonon_qt.qm
+[ 13%] Built target translations_25
+[ 13%] Built target translations_30
+[ 13%] Built target translations_26
+[ 13%] Built target translations_28
+[ 13%] Built target translations_31
+[ 13%] Built target translations_29
+[ 13%] Built target translations_27
+[ 13%] Built target translations_32
+[ 13%] Generating ECMPoQm/et/libphonon_qt.qm
+[ 14%] Generating ECMPoQm/eu/libphonon_qt.qm
+[ 14%] Generating ECMPoQm/es/phononsettings_qt.qm
+[ 15%] Generating ECMPoQm/et/phononsettings_qt.qm
+[ 15%] Generating ECMPoQm/fa/libphonon_qt.qm
+[ 16%] Generating ECMPoQm/fi/libphonon_qt.qm
+[ 17%] Generating ECMPoQm/eu/phononsettings_qt.qm
+[ 18%] Generating ECMPoQm/fa/phononsettings_qt.qm
+[ 18%] Built target translations_34
+[ 18%] Built target translations_36
+[ 18%] Built target translations_35
+[ 18%] Built target translations_38
+[ 18%] Built target translations_40
+[ 18%] Built target translations_33
+[ 18%] Built target translations_37
+[ 18%] Built target translations_39
+[ 18%] Generating ECMPoQm/fi/phononsettings_qt.qm
+[ 19%] Generating ECMPoQm/ga/libphonon_qt.qm
+[ 19%] Generating ECMPoQm/fy/phononsettings_qt.qm
+[ 20%] Generating ECMPoQm/fr/phononsettings_qt.qm
+[ 20%] Generating ECMPoQm/ga/phononsettings_qt.qm
+[ 21%] Generating ECMPoQm/gl/libphonon_qt.qm
+[ 21%] Generating ECMPoQm/fr/libphonon_qt.qm
+[ 21%] Generating ECMPoQm/gl/phononsettings_qt.qm
+[ 21%] Built target translations_41
+[ 21%] Built target translations_44
+[ 21%] Built target translations_45
+[ 21%] Built target translations_47
+[ 21%] Built target translations_43
+[ 21%] Built target translations_46
+[ 21%] Built target translations_42
+[ 21%] Built target translations_48
+[ 22%] Generating ECMPoQm/gu/phononsettings_qt.qm
+[ 23%] Generating ECMPoQm/gu/libphonon_qt.qm
+[ 23%] Generating ECMPoQm/he/phononsettings_qt.qm
+[ 23%] Generating ECMPoQm/he/libphonon_qt.qm
+[ 24%] Generating ECMPoQm/hi/libphonon_qt.qm
+[ 24%] Generating ECMPoQm/hi/phononsettings_qt.qm
+[ 25%] Generating ECMPoQm/hne/libphonon_qt.qm
+[ 25%] Generating ECMPoQm/hne/phononsettings_qt.qm
+[ 25%] Built target translations_51
+[ 25%] Built target translations_52
+[ 25%] Built target translations_49
+[ 25%] Built target translations_50
+[ 25%] Built target translations_53
+[ 25%] Built target translations_54
+[ 25%] Built target translations_56
+[ 25%] Built target translations_55
+[ 25%] Generating ECMPoQm/hsb/phononsettings_qt.qm
+[ 26%] Generating ECMPoQm/hr/libphonon_qt.qm
+[ 26%] Generating ECMPoQm/hr/phononsettings_qt.qm
+[ 27%] Generating ECMPoQm/hu/libphonon_qt.qm
+[ 27%] Generating ECMPoQm/hu/phononsettings_qt.qm
+[ 28%] Generating ECMPoQm/hsb/libphonon_qt.qm
+[ 29%] Generating ECMPoQm/ia/libphonon_qt.qm
+[ 29%] Generating ECMPoQm/ia/phononsettings_qt.qm
+[ 29%] Built target translations_60
+[ 29%] Built target translations_57
+[ 29%] Built target translations_59
+[ 29%] Built target translations_58
+[ 29%] Built target translations_61
+[ 29%] Built target translations_62
+[ 29%] Built target translations_63
+[ 29%] Built target translations_64
+[ 29%] Generating ECMPoQm/id/phononsettings_qt.qm
+[ 30%] Generating ECMPoQm/id/libphonon_qt.qm
+[ 31%] Generating ECMPoQm/is/libphonon_qt.qm
+[ 31%] Generating ECMPoQm/is/phononsettings_qt.qm
+[ 32%] Generating ECMPoQm/it/libphonon_qt.qm
+[ 32%] Generating ECMPoQm/it/phononsettings_qt.qm
+[ 33%] Generating ECMPoQm/ja/libphonon_qt.qm
+[ 33%] Generating ECMPoQm/ja/phononsettings_qt.qm
+[ 33%] Built target translations_67
+[ 33%] Built target translations_69
+[ 33%] Built target translations_65
+[ 33%] Built target translations_66
+[ 33%] Built target translations_70
+[ 33%] Built target translations_68
+[ 33%] Built target translations_71
+[ 33%] Built target translations_72
+[ 34%] Generating ECMPoQm/ka/libphonon_qt.qm
+[ 35%] Generating ECMPoQm/kk/phononsettings_qt.qm
+[ 35%] Generating ECMPoQm/kk/libphonon_qt.qm
+[ 35%] Generating ECMPoQm/ka/phononsettings_qt.qm
+[ 35%] Generating ECMPoQm/km/phononsettings_qt.qm
+[ 36%] Generating ECMPoQm/km/libphonon_qt.qm
+[ 36%] Generating ECMPoQm/ko/libphonon_qt.qm
+[ 37%] Generating ECMPoQm/kn/phononsettings_qt.qm
+[ 37%] Built target translations_75
+[ 37%] Built target translations_74
+[ 37%] Built target translations_73
+[ 37%] Built target translations_76
+[ 37%] Built target translations_77
+[ 37%] Built target translations_80
+[ 37%] Built target translations_79
+[ 37%] Built target translations_78
+[ 39%] Generating ECMPoQm/ku/phononsettings_qt.qm
+[ 39%] Generating ECMPoQm/ko/phononsettings_qt.qm
+[ 39%] Generating ECMPoQm/ku/libphonon_qt.qm
+[ 39%] Generating ECMPoQm/lt/libphonon_qt.qm
+[ 40%] Generating ECMPoQm/lt/phononsettings_qt.qm
+[ 40%] Generating ECMPoQm/lv/libphonon_qt.qm
+[ 40%] Generating ECMPoQm/mai/libphonon_qt.qm
+[ 41%] Generating ECMPoQm/lv/phononsettings_qt.qm
+[ 41%] Built target translations_84
+[ 41%] Built target translations_82
+[ 41%] Built target translations_83
+[ 41%] Built target translations_81
+[ 41%] Built target translations_86
+[ 41%] Built target translations_85
+[ 41%] Built target translations_88
+[ 41%] Built target translations_87
+[ 41%] Generating ECMPoQm/mk/libphonon_qt.qm
+[ 42%] Generating ECMPoQm/mai/phononsettings_qt.qm
+[ 43%] Generating ECMPoQm/mk/phononsettings_qt.qm
+[ 43%] Generating ECMPoQm/ml/libphonon_qt.qm
+[ 44%] Generating ECMPoQm/mr/libphonon_qt.qm
+[ 44%] Generating ECMPoQm/ml/phononsettings_qt.qm
+[ 45%] Generating ECMPoQm/mr/phononsettings_qt.qm
+[ 45%] Generating ECMPoQm/ms/phononsettings_qt.qm
+[ 45%] Built target translations_90
+[ 45%] Built target translations_92
+[ 45%] Built target translations_89
+[ 45%] Built target translations_91
+[ 45%] Built target translations_94
+[ 45%] Built target translations_93
+[ 45%] Built target translations_95
+[ 45%] Built target translations_96
+[ 46%] Generating ECMPoQm/nb/libphonon_qt.qm
+[ 47%] Generating ECMPoQm/nds/libphonon_qt.qm
+[ 47%] Generating ECMPoQm/nb/phononsettings_qt.qm
+[ 47%] Generating ECMPoQm/nds/phononsettings_qt.qm
+[ 48%] Generating ECMPoQm/ne/libphonon_qt.qm
+[ 48%] Generating ECMPoQm/ne/phononsettings_qt.qm
+[ 49%] Generating ECMPoQm/nl/libphonon_qt.qm
+[ 49%] Generating ECMPoQm/nl/phononsettings_qt.qm
+[ 49%] Built target translations_97
+[ 49%] Built target translations_98
+[ 49%] Built target translations_99
+[ 49%] Built target translations_101
+[ 49%] Built target translations_100
+[ 49%] Built target translations_102
+[ 49%] Built target translations_103
+[ 49%] Built target translations_104
+[ 50%] Generating ECMPoQm/nn/libphonon_qt.qm
+[ 51%] Generating ECMPoQm/oc/libphonon_qt.qm
+[ 51%] Generating ECMPoQm/nn/phononsettings_qt.qm
+[ 52%] Generating ECMPoQm/or/phononsettings_qt.qm
+[ 52%] Generating ECMPoQm/oc/phononsettings_qt.qm
+[ 52%] Generating ECMPoQm/pa/libphonon_qt.qm
+[ 53%] Generating ECMPoQm/pa/phononsettings_qt.qm
+[ 53%] Generating ECMPoQm/pl/libphonon_qt.qm
+[ 53%] Built target translations_105
+[ 53%] Built target translations_107
+[ 53%] Built target translations_106
+[ 53%] Built target translations_110
+[ 53%] Built target translations_108
+[ 53%] Built target translations_109
+[ 53%] Built target translations_111
+[ 54%] Generating ECMPoQm/pl/phononsettings_qt.qm
+[ 54%] Built target translations_112
+[ 54%] Generating ECMPoQm/pt/libphonon_qt.qm
+[ 54%] Generating ECMPoQm/pt_BR/libphonon_qt.qm
+[ 55%] Generating ECMPoQm/pt/phononsettings_qt.qm
+[ 55%] Generating ECMPoQm/ro/libphonon_qt.qm
+[ 56%] Generating ECMPoQm/pt_BR/phononsettings_qt.qm
+[ 57%] Generating ECMPoQm/ro/phononsettings_qt.qm
+[ 57%] Built target translations_113
+[ 57%] Generating ECMPoQm/ru/libphonon_qt.qm
+[ 57%] Built target translations_114
+[ 57%] Built target translations_116
+[ 57%] Built target translations_115
+[ 57%] Built target translations_117
+[ 57%] Built target translations_118
+[ 57%] Built target translations_119
+[ 57%] Built target translations_120
+[ 58%] Generating ECMPoQm/ru/phononsettings_qt.qm
+[ 59%] Generating ECMPoQm/sk/phononsettings_qt.qm
+[ 59%] Generating ECMPoQm/sk/libphonon_qt.qm
+[ 59%] Generating ECMPoQm/si/phononsettings_qt.qm
+[ 59%] Generating ECMPoQm/se/libphonon_qt.qm
+[ 60%] Generating ECMPoQm/se/phononsettings_qt.qm
+[ 61%] Generating ECMPoQm/sl/libphonon_qt.qm
+[ 61%] Generating ECMPoQm/sl/phononsettings_qt.qm
+[ 61%] Built target translations_121
+[ 61%] Built target translations_124
+[ 61%] Built target translations_125
+[ 61%] Built target translations_122
+[ 61%] Built target translations_123
+[ 61%] Built target translations_126
+[ 61%] Built target translations_127
+[ 61%] Built target translations_128
+[ 61%] Generating ECMPoQm/sq/libphonon_qt.qm
+[ 61%] Generating ECMPoQm/sq/phononsettings_qt.qm
+[ 61%] Generating ECMPoQm/sr/phononsettings_qt.qm
+[ 62%] Generating ECMPoQm/sr/libphonon_qt.qm
+[ 63%] Generating ECMPoQm/sr@ijekavian/libphonon_qt.qm
+[ 63%] Generating ECMPoQm/sr@ijekavian/phononsettings_qt.qm
+[ 64%] Generating ECMPoQm/sr@ijekavianlatin/libphonon_qt.qm
+[ 64%] Generating ECMPoQm/sr@ijekavianlatin/phononsettings_qt.qm
+[ 64%] Built target translations_133
+[ 64%] Built target translations_130
+[ 64%] Built target translations_129
+[ 64%] Built target translations_132
+[ 64%] Built target translations_131
+[ 64%] Built target translations_134
+[ 64%] Built target translations_135
+[ 64%] Built target translations_136
+[ 64%] Generating ECMPoQm/sr@latin/phononsettings_qt.qm
+[ 65%] Generating ECMPoQm/sr@latin/libphonon_qt.qm
+[ 65%] Generating ECMPoQm/sv/phononsettings_qt.qm
+[ 65%] Generating ECMPoQm/ta/phononsettings_qt.qm
+[ 66%] Generating ECMPoQm/ta/libphonon_qt.qm
+[ 66%] Generating ECMPoQm/sv/libphonon_qt.qm
+[ 67%] Generating ECMPoQm/te/phononsettings_qt.qm
+[ 67%] Generating ECMPoQm/tg/phononsettings_qt.qm
+[ 67%] Built target translations_137
+[ 67%] Built target translations_138
+[ 67%] Built target translations_142
+[ 67%] Built target translations_140
+[ 67%] Built target translations_141
+[ 67%] Built target translations_139
+[ 67%] Built target translations_143
+[ 67%] Built target translations_144
+[ 68%] Generating ECMPoQm/th/libphonon_qt.qm
+[ 68%] Generating ECMPoQm/th/phononsettings_qt.qm
+[ 69%] Generating ECMPoQm/tr/libphonon_qt.qm
+[ 69%] Generating ECMPoQm/ug/libphonon_qt.qm
+[ 69%] Generating ECMPoQm/tr/phononsettings_qt.qm
+[ 69%] Generating ECMPoQm/ug/phononsettings_qt.qm
+[ 70%] Generating ECMPoQm/uk/libphonon_qt.qm
+[ 70%] Generating ECMPoQm/uk/phononsettings_qt.qm
+[ 70%] Built target translations_145
+[ 70%] Built target translations_147
+[ 70%] Built target translations_146
+[ 70%] Built target translations_149
+[ 70%] Built target translations_148
+[ 70%] Built target translations_150
+[ 70%] Built target translations_151
+[ 70%] Built target translations_152
+[ 70%] Generating ECMPoQm/vi/phononsettings_qt.qm
+[ 71%] Generating ECMPoQm/vi/libphonon_qt.qm
+[ 72%] Generating ECMPoQm/wa/libphonon_qt.qm
+[ 72%] Generating ECMPoQm/wa/phononsettings_qt.qm
+[ 73%] Generating ECMPoQm/zh_CN/libphonon_qt.qm
+[ 73%] Generating ECMPoQm/zh_TW/libphonon_qt.qm
+[ 73%] Generating ECMPoQm/zh_CN/phononsettings_qt.qm
+[ 73%] Built target translations_154
+[ 73%] Generating ECMPoQm/zh_TW/phononsettings_qt.qm
+[ 73%] Built target translations_153
+[ 73%] Built target translations_155
+[ 73%] Built target translations_156
+[ 73%] Built target translations_157
+[ 73%] Built target translations_159
+[ 73%] Built target translations_158
+[ 73%] Built target translations_160
+[ 74%] Automatic MOC and UIC for target phonon4qt5
+[ 74%] Built target phonon4qt5_autogen
+[ 75%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/phonon4qt5_autogen/mocs_compilation.cpp.o
+[ 75%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/abstractaudiooutput.cpp.o
+[ 76%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/abstractmediastream.cpp.o
+[ 76%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/abstractaudiooutput_p.cpp.o
+[ 77%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/abstractvideooutput.cpp.o
+[ 77%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/abstractvideooutput_p.cpp.o
+[ 77%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/audiooutput.cpp.o
+[ 78%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/audiodataoutput.cpp.o
+[ 78%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/audiooutputinterface.cpp.o
+[ 79%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/backendcapabilities.cpp.o
+[ 79%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/effect.cpp.o
+[ 80%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/effectparameter.cpp.o
+[ 80%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/effectwidget.cpp.o
+[ 81%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/factory.cpp.o
+[ 81%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/globalconfig.cpp.o
+[ 82%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/iodevicestream.cpp.o
+[ 82%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/mediacontroller.cpp.o
+[ 83%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/mediaobject.cpp.o
+[ 83%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/medianode.cpp.o
+[ 83%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/mediasource.cpp.o
+[ 84%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/mrl.cpp.o
+[ 84%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/objectdescription.cpp.o
+[ 85%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/objectdescriptionmodel.cpp.o
+[ 85%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/path.cpp.o
+[ 86%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/phononnamespace.cpp.o
+[ 86%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/platform.cpp.o
+[ 87%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/pulsesupport.cpp.o
+[ 87%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/seekslider.cpp.o
+[ 88%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/statesvalidator.cpp.o
+[ 88%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/streaminterface.cpp.o
+[ 88%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/swiftslider.cpp.o
+[01m[K/home/szybet/kdesrc/kdesupport/phonon/phonon/pulsesupport.cpp:[m[K In member function '[01m[KQHash<QString, QString> Phonon::PulseSupport::streamProperties(QString) const[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/phonon/phonon/pulsesupport.cpp:1240:64:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[KstreamUuid[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ 1240 | QHash<QString, QString> PulseSupport::streamProperties([01;35m[KQString streamUuid[m[K) const
+      |                                                        [01;35m[K~~~~~~~~^~~~~~~~~~[m[K
+[ 89%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/volumefadereffect.cpp.o
+[ 89%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/volumeslider.cpp.o
+[ 90%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/videoplayer.cpp.o
+[ 90%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/videowidget.cpp.o
+[ 91%] Building CXX object phonon/CMakeFiles/phonon4qt5.dir/ECMQmLoader-libphonon_qt.cpp.o
+[ 91%] Linking CXX shared library ../bin/libphonon4qt5.so
+[ 91%] Built target phonon4qt5
+[ 91%] Automatic MOC and UIC for target phonon4qt5experimental
+[ 91%] Built target phonon4qt5experimental_autogen
+[ 91%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/phonon4qt5experimental_autogen/mocs_compilation.cpp.o
+[ 91%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/abstractvideodataoutput.cpp.o
+[ 92%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/abstractaudiodataoutput.cpp.o
+[ 92%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/avcapture.cpp.o
+[ 93%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/audioformat.cpp.o
+[ 93%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/audiodataoutput.cpp.o
+[ 94%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/backendcapabilities.cpp.o
+[ 94%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/factory.cpp.o
+[ 95%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/globalconfig.cpp.o
+[ 95%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/mediasource.cpp.o
+[ 96%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/objectdescription.cpp.o
+[ 96%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/packet.cpp.o
+[ 96%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/packetpool.cpp.o
+[ 97%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/videodataoutput.cpp.o
+[ 97%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/videodataoutput2.cpp.o
+[ 98%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/videowidget.cpp.o
+[ 98%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/visualization.cpp.o
+[ 99%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/__/abstractaudiooutput_p.cpp.o
+[ 99%] Building CXX object phonon/experimental/CMakeFiles/phonon4qt5experimental.dir/__/abstractvideooutput_p.cpp.o
+[100%] Linking CXX shared library ../../bin/libphonon4qt5experimental.so
+[100%] Built target phonon4qt5experimental

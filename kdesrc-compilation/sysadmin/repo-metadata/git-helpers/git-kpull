@@ -1,0 +1,107 @@
+#!/usr/bin/env python3
+import os
+import re
+import sys
+import yaml
+import subprocess
+
+# Urls to update what we have currently to
+newPullPattern = "https://invent.kde.org/{0}.git"
+newPushPattern = "git@invent.kde.org:{0}.git"
+
+# Old Url to match on when checking to see if we need to update something....
+# writing an expression to optionally drop .git suffix not easy, so removed manually below before
+oldPushUrlRegex = ".*git@git.kde.org[/:](.*)"
+
+# Determine where the repository metadata tree lives
+# We are at git-helpers/ while the metadata is at projects-invent/
+# So first we locate ourselves and then adjust the location accordingly
+fileLocation = os.path.dirname( os.path.realpath(__file__) )
+relativeChange = '../projects-invent/'
+repositoryMetadataPrefix = os.path.realpath( os.path.join(fileLocation, relativeChange) )
+
+# Prepare to load the metadata
+knownProjects = {}
+
+# Start going over all the known repositories...
+for currentPath, subdirectories, filesInFolder in os.walk( repositoryMetadataPrefix, topdown=False, followlinks=False ):
+    # Do we have a metadata.yaml file?
+    if 'metadata.yaml' not in filesInFolder:
+        # We're not interested then....
+        continue
+
+    # Now that we know we have something to work with....
+    # Lets load the current metadata up
+    metadataPath = os.path.join( currentPath, 'metadata.yaml' )
+    metadataFile = open( metadataPath, 'r' )
+    metadata = yaml.safe_load( metadataFile )
+
+    # Have we found a repository?
+    # If it is a repository, is it active?
+    if not metadata['hasrepo'] or not metadata['repoactive']:
+        # Then we should skip it as well...
+        continue
+
+    # We have something we can work with!
+    identifier = metadata['identifier']
+    # Add it to our list of known repositories
+    knownProjects[ identifier ] = metadata
+
+# Now that we know about everything, we can try to determine which repository we are in here...
+# Get the current url in use
+gitGetPushUrlCommand = 'git remote get-url --push origin'
+process = subprocess.Popen( gitGetPushUrlCommand, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, cwd=os.getcwd() )
+currentPushUrl = process.stdout.readline().decode('utf-8').strip()
+currentPushUrl = re.sub(r'\.git$', '', currentPushUrl) # remove any existing .git suffix, added anyway again
+
+# Pull the repository identifier out of that
+currentPushMatch = re.match( oldPushUrlRegex, currentPushUrl )
+
+# If that failed then we can't help the user
+if currentPushMatch is None:
+    print("Sorry, we were unable to determine the name of the repository as it is not configured to push to the old server (git.kde.org)")
+    sys.exit(5)
+
+# Extract the repository identifier
+repositoryIdentifier = currentPushMatch.group(1)
+# Setup storage for the updated repository path
+newRepositoryPath = None
+
+# Is this a repository known to us via the metadata?
+if repositoryIdentifier in knownProjects:
+    # THen use the metadata to determine the new path
+    newRepositoryPath = knownProjects[ repositoryIdentifier ]['repopath']
+
+# Otherwise, is this a website or sysadmin repository?
+elif repositoryIdentifier.startswith( 'sysadmin/' ) or repositoryIdentifier.startswith( 'websites/' ):
+    # For these, it is a straight swap of git.kde.org to invent.kde.org
+    newRepositoryPath = repositoryIdentifier
+
+# Maybe it is a scratch repository?
+elif repositoryIdentifier.startswith( 'scratch/' ):
+    # We have to do some additional work here....
+    # Scratch repositories are moving from scratch/username/repo to username/repo so chop off the scratch/...
+    newRepositoryPath = repositoryIdentifier[8:]
+
+# If it was none of these then we failed!
+else:
+    print("Sorry we were unable to determine where this repository may now live")
+    sys.exit(10)
+
+# Now that we know where the repository lives on invent.kde.org, we can update this repository
+# Start by replacing the pull (fetch) url
+gitPullUrlCommand = 'git remote set-url origin "{repositoryUrl}"'
+commandToRun = gitPullUrlCommand.format(
+    repositoryUrl=newPullPattern.format( newRepositoryPath )
+)
+subprocess.check_call( commandToRun, stdout=sys.stdout, stderr=sys.stderr, shell=True, cwd=os.getcwd() )
+
+# Then do the push url
+gitPushUrlCommand = 'git remote set-url --push origin "{repositoryUrl}"'
+commandToRun = gitPushUrlCommand.format(
+    repositoryUrl=newPushPattern.format( newRepositoryPath )
+)
+subprocess.check_call( commandToRun, stdout=sys.stdout, stderr=sys.stderr, shell=True, cwd=os.getcwd() )
+
+# All done!
+sys.exit(0)

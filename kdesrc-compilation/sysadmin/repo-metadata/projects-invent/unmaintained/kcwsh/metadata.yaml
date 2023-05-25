@@ -1,0 +1,8 @@
+description: This project provides a terminal wrapper, both abstracted and using a
+  Qt based sample backend. It is used to make a windows port of konsole possible.
+hasrepo: true
+identifier: kcwsh
+name: KCW Shell
+projectpath: playground/base/kcwsh
+repoactive: false
+repopath: unmaintained/kcwsh

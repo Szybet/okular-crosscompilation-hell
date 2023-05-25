@@ -1,0 +1,7 @@
+description: Application to help you practice sport exercises with a description and duration
+hasrepo: true
+identifier: trainer
+name: Trainer
+projectpath: playground/mobile/trainer
+repoactive: false
+repopath: plasma-mobile/trainer

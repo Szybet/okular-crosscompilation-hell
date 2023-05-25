@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: kded-module
+description: KDED module for KDE Telepathy that takes care of system integration
+hasrepo: true
+identifier: ktp-kded-module
+name: Telepathy KDED Module
+projectpath: kde/kdenetwork/ktp-kded-module
+repoactive: true
+repopath: network/ktp-kded-module

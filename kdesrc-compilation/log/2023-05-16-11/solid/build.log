@@ -1,0 +1,621 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/solid
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/solid/prefix.sh to set the environment for Solid.
+-- Could NOT find IMobileDevice (missing: IMobileDevice_INCLUDE_DIRS IMobileDevice_LIBRARIES) (found version "1.3.0")
+-- Could NOT find PList (missing: PList_INCLUDE_DIRS PList_LIBRARIES) (found version "2.3.0")
+-- Warning: environment variable XDG_DATA_DIRS not set, falling back to /usr/share
+-- Could NOT find MediaPlayerInfo (missing: MEDIAPLAYERINFO_PATH) 
+-- The following features have been enabled:
+
+ * fakehw, Solid device 'fakehw' backend.
+ * udev, Solid device 'udev' backend.
+ * udisks2, Solid device 'udisks2' backend.
+ * fstab, Solid device 'fstab' backend.
+ * upower, Solid device 'upower' backend.
+
+-- The following OPTIONAL packages have been found:
+
+ * LibMount, API for getting info about mounted filesystems (part of util-linux), <https://www.kernel.org/pub/linux/utils/util-linux/>
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Xml
+ * Qt5Gui
+ * Qt5DBus
+ * Qt5 (required version >= 5.15.2)
+ * FLEX, Fast Lexical Analyzer, <http://flex.sourceforge.net>
+   Required for the Predicate parser
+ * BISON (required version >= 3.0), general-purpose parser generator, <http://www.gnu.org/software/bison>
+   Required for the Predicate parser
+ * Qt5LinguistTools
+ * UDev, API for enumerating and introspecting local devices (part of systemd), <https://www.freedesktop.org/wiki/Software/systemd/>
+   Allows Solid to use UDev to provide information about devices on Linux
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+ * Solid::Job, WIP: Base class for Solid Asynchronous apis
+ * Solid::PowerManagement, WIP: Freedesktop backend for the asynchronous api
+
+-- The following RUNTIME packages have not been found:
+
+ * MediaPlayerInfo, Enables identification and querying of portable media players, <http://www.freedesktop.org/wiki/Software/media-player-info>
+   Runtime-only dependency of the udev solid backend. Support for m-p-i is included even if not found during build
+
+-- The following OPTIONAL packages have not been found:
+
+ * IMobileDevice, library to communicate with iOS devices, <https://www.libimobiledevice.org/>
+   Needed to build the iOS device support backend
+ * PList, library to handle Apple property list format, <https://www.libimobiledevice.org/>
+   Needed to build the iOS device support backend
+
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/solid
+[  2%] Built target translations_3
+[  1%] Built target translations_4
+[  2%] Built target translations_7
+[  2%] Built target translations_5
+[  2%] Built target translations_6
+[  3%] Built target translations_1
+[  3%] Built target translations_2
+[  4%] Built target translations_8
+[  5%] Built target translations_9
+[  5%] Built target translations_13
+[  5%] Built target translations_10
+[  6%] Built target translations_14
+[  7%] Built target translations_11
+[  8%] Built target translations_12
+[  9%] Built target translations_16
+[  9%] Built target translations_15
+[  9%] Built target translations_17
+[ 10%] Built target translations_18
+[ 10%] Built target translations_21
+[ 11%] Built target translations_19
+[ 11%] Built target translations_23
+[ 12%] Built target translations_20
+[ 13%] Built target translations_24
+[ 14%] Built target translations_22
+[ 15%] Built target translations_25
+[ 16%] Built target translations_27
+[ 16%] Built target translations_28
+[ 16%] Built target translations_26
+[ 16%] Built target translations_30
+[ 18%] Built target translations_31
+[ 18%] Built target translations_29
+[ 18%] Built target translations_32
+[ 19%] Built target translations_33
+[ 19%] Built target translations_34
+[ 20%] Built target translations_40
+[ 20%] Built target translations_36
+[ 21%] Built target translations_38
+[ 21%] Built target translations_37
+[ 22%] Built target translations_35
+[ 22%] Built target translations_39
+[ 23%] Built target translations_42
+[ 24%] Built target translations_41
+[ 24%] Built target translations_43
+[ 25%] Built target translations_44
+[ 26%] Built target translations_46
+[ 26%] Built target translations_45
+[ 26%] Built target translations_47
+[ 27%] Built target translations_48
+[ 28%] Built target translations_49
+[ 29%] Built target translations_50
+[ 30%] Built target translations_52
+[ 30%] Built target translations_51
+[ 31%] Built target translations_54
+[ 31%] Built target translations_53
+[ 32%] Built target translations_55
+[ 32%] Built target translations_56
+[ 33%] Built target translations_57
+[ 33%] Built target translations_58
+[ 34%] Built target translations_59
+[ 35%] Built target translations_60
+[ 35%] Built target translations_62
+[ 36%] Built target translations_61
+[ 37%] Built target translations_63
+[ 38%] Automatic MOC for target KF5Solid
+[ 39%] Built target KF5Solid_autogen
+[ 39%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/KF5Solid_autogen/mocs_compilation.cpp.o
+[ 40%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/managerbase.cpp.o
+[ 40%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/solidnamespace.cpp.o
+[ 41%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/device.cpp.o
+[ 42%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/predicateparse.cpp.o
+[ 42%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/devicemanager.cpp.o
+[ 43%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/deviceinterface.cpp.o
+[ 43%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/genericinterface.cpp.o
+[ 44%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/processor.cpp.o
+[ 44%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/block.cpp.o
+[ 45%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/storagedrive.cpp.o
+[ 46%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/storagevolume.cpp.o
+[ 46%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/opticaldrive.cpp.o
+[ 47%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/opticaldisc.cpp.o
+[ 47%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/storageaccess.cpp.o
+[ 48%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/camera.cpp.o
+[ 48%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/portablemediaplayer.cpp.o
+[ 49%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/networkshare.cpp.o
+[ 50%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/battery.cpp.o
+[ 50%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/frontend/predicate.cpp.o
+[ 51%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/battery.cpp.o
+[ 51%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/block.cpp.o
+[ 52%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/camera.cpp.o
+[ 52%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/opticaldrive.cpp.o
+[ 53%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/device.cpp.o
+[ 54%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/deviceinterface.cpp.o
+[ 54%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/devicemanager.cpp.o
+[ 55%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/genericinterface.cpp.o
+[ 55%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/networkshare.cpp.o
+[ 56%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/opticaldisc.cpp.o
+[ 56%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/portablemediaplayer.cpp.o
+[ 57%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/processor.cpp.o
+[ 58%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/storagedrive.cpp.o
+[ 58%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/storagevolume.cpp.o
+[ 59%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/ifaces/storageaccess.cpp.o
+[ 59%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/shared/rootdevice.cpp.o
+[ 60%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/shared/cpufeatures.cpp.o
+[ 60%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices_debug.cpp.o
+[ 61%] Building C object src/solid/CMakeFiles/KF5Solid.dir/predicate_parser.c.o
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/predicate_parser.y:[m[K In function '[01m[KSoliderror[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/predicate_parser.y:93:28:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kscanner[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   93 | void Soliderror ( [01;35m[Kyyscan_t scanner[m[K, const char *s )  /* Called by Solidparse on error */
+      |                   [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[ 62%] Building C object src/solid/CMakeFiles/KF5Solid.dir/predicate_lexer.c.o
+[ 62%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakebattery.cpp.o
+[ 63%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakeblock.cpp.o
+[ 63%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakecamera.cpp.o
+[ 64%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakecdrom.cpp.o
+[ 65%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakedevice.cpp.o
+[ 65%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakedeviceinterface.cpp.o
+[ 66%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakegenericinterface.cpp.o
+[ 66%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakemanager.cpp.o
+[ 67%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakenetworkshare.cpp.o
+[ 67%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakeopticaldisc.cpp.o
+[ 68%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakeportablemediaplayer.cpp.o
+[ 69%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakeprocessor.cpp.o
+[ 69%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakestorage.cpp.o
+[ 70%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakestorageaccess.cpp.o
+[ 70%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fakehw/fakevolume.cpp.o
+[ 71%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevdevice.cpp.o
+[ 71%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevmanager.cpp.o
+[ 72%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevdeviceinterface.cpp.o
+[ 73%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevgenericinterface.cpp.o
+[ 73%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/cpuinfo.cpp.o
+[ 74%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/cpuinfo_arm.cpp.o
+[ 74%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevprocessor.cpp.o
+[ 75%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevcamera.cpp.o
+[ 75%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevportablemediaplayer.cpp.o
+[ 76%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udev/udevblock.cpp.o
+[ 77%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/shared/udevqtclient.cpp.o
+[ 77%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/shared/udevqtdevice.cpp.o
+[ 78%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksmanager.cpp.o
+[ 78%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksdevice.cpp.o
+[ 79%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksdevicebackend.cpp.o
+[ 79%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksblock.cpp.o
+[ 80%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksstoragevolume.cpp.o
+[ 81%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksdeviceinterface.cpp.o
+[ 81%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksopticaldisc.cpp.o
+[ 82%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksopticaldrive.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusconnection.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusConnection:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/dbus/manager.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusconnection.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusConnection:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/dbus/manager.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusconnection.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusConnection:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/dbus/manager.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusconnection.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusConnection:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/dbus/manager.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusconnection.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusConnection:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/dbus/manager.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusconnection.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusConnection:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/dbus/manager.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksmanager.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusextratypes.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusObjectPath:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.cpp:9[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 82%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksstoragedrive.cpp.o
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusextratypes.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusObjectPath:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.cpp:9[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusextratypes.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusObjectPath:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.cpp:9[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusextratypes.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusObjectPath:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.cpp:9[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:44[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusextratypes.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusObjectPath:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.cpp:9[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qtdbusglobal.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/qdbusextratypes.h:45[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus/QDBusObjectPath:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/udisks2/udisksdevicebackend.cpp:9[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 83%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksstorageaccess.cpp.o
+[ 83%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/udisksgenericinterface.cpp.o
+[ 84%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/udisks2/dbus/manager.cpp.o
+[ 85%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/udisks_debug.cpp.o
+[ 85%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fstab/fstabmanager.cpp.o
+[ 86%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fstab/fstabdevice.cpp.o
+[ 86%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fstab/fstabnetworkshare.cpp.o
+[ 87%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fstab/fstabstorageaccess.cpp.o
+[ 88%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fstab/fstabhandling.cpp.o
+[ 88%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/fstab/fstabwatcher.cpp.o
+[ 89%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/fstab_debug.cpp.o
+[ 89%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/upower/upowermanager.cpp.o
+[ 90%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/upower/upowerdevice.cpp.o
+[ 90%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/upower/upowerdbusinterface.cpp.o
+[ 91%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/upower/upowerbattery.cpp.o
+[ 92%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/upower/upowerdeviceinterface.cpp.o
+[ 92%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/devices/backends/upower/upowergenericinterface.cpp.o
+[ 93%] Building CXX object src/solid/CMakeFiles/KF5Solid.dir/ECMQmLoader-solid5_qt.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:[m[K In member function '[01m[Kvirtual bool Solid::Backends::UPower::UPowerDevice::queryDeviceInterface(const Solid::DeviceInterface::Type&) const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_PEN[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+   77 |         switch [01;35m[K([m[Kuptype) {
+      |                [01;35m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_MODEM[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_NETWORK[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_VIDEO[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_OTHER_AUDIO[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_REMOTE_CONTROL[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_PRINTER[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_SCANNER[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_CAMERA[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_WEARABLE[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_TOY[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/ifaces/device.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobjectdefs.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/ifaces/device.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/ifaces/device.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobjectdefs.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/ifaces/device.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/ifaces/device.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobjectdefs.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/ifaces/device.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerdevice.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:[m[K In member function '[01m[Kvirtual Solid::Battery::BatteryType Solid::Backends::UPower::Battery::type() const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_MEDIA_PLAYER[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+   36 |     switch [01;35m[K([m[Kt) {
+      |            [01;35m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_COMPUTER[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_PEN[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_TOUCHPAD[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_MODEM[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_NETWORK[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_HEADSET[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_SPEAKERS[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_HEADPHONES[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_VIDEO[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_OTHER_AUDIO[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_REMOTE_CONTROL[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_PRINTER[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_SCANNER[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_CAMERA[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_WEARABLE[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_TOY[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/szybet/kdesrc/frameworks/solid/src/solid/devices/backends/upower/upowerbattery.cpp:36:12:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUP_DEVICE_KIND_LAST[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[ 93%] Linking CXX shared library ../../bin/libKF5Solid.so
+[ 94%] Built target KF5Solid
+[ 94%] Automatic MOC for target solid-hardware5
+[ 94%] Automatic MOC for target solidextensionplugin
+[ 94%] Built target solidextensionplugin_autogen
+[ 94%] Built target solid-hardware5_autogen
+[ 95%] Linking CXX executable ../../../bin/solid-hardware5
+[ 98%] Built target solidextensionplugin
+[100%] Built target solid-hardware5

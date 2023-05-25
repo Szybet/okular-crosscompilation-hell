@@ -1,0 +1,9 @@
+bugzilla:
+  product: kldap
+description: Library to assist working with LDAP directories
+hasrepo: true
+identifier: kldap
+name: KLDAP
+projectpath: kde/pim/kldap
+repoactive: true
+repopath: pim/kldap

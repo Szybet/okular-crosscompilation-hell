@@ -1,0 +1,7 @@
+description: Kcm module that manages the most common settings of grub2
+hasrepo: true
+identifier: kcmgrub2
+name: Grub2 configuration tool
+projectpath: playground/sysadmin/kcmgrub2
+repoactive: false
+repopath: unmaintained/kcmgrub2

@@ -1,0 +1,7 @@
+description: Agent to record the status of changes to Gitlab CI jobs in a separate database
+hasrepo: true
+identifier: sysadmin-gitlab-jobwatch
+name: Gitlab Job Watcher
+projectpath: sysadmin/gitlab-jobwatch
+repoactive: true
+repopath: sysadmin/gitlab-jobwatch

@@ -1,0 +1,7 @@
+description: Video player and video collection manager
+hasrepo: true
+identifier: maui-clip
+name: Clip
+projectpath: playground/base/maui-clip
+repoactive: true
+repopath: maui/clip

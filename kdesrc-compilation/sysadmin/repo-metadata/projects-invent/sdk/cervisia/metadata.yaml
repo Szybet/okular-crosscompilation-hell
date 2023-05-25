@@ -1,0 +1,9 @@
+bugzilla:
+  product: cervisia
+description: GUI for CVS
+hasrepo: true
+identifier: cervisia
+name: Cervisia
+projectpath: kde/kdesdk/cervisia
+repoactive: true
+repopath: sdk/cervisia

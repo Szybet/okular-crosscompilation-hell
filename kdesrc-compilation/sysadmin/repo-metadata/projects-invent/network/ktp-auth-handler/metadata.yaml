@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: auth-handler
+description: UI/KWallet integration for passwords and SSL errors on account connection
+hasrepo: true
+identifier: ktp-auth-handler
+name: Telepathy Auth Handler
+projectpath: kde/kdenetwork/ktp-auth-handler
+repoactive: true
+repopath: network/ktp-auth-handler

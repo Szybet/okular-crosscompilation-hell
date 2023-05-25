@@ -1,0 +1,7 @@
+description: KDevelop plugin for clang-tidy static analysis support
+hasrepo: true
+identifier: kdev-clang-tidy
+name: KDevelop Clang-Tidy Support
+projectpath: unmaintained/kdev-clang-tidy
+repoactive: false
+repopath: unmaintained/kdev-clang-tidy

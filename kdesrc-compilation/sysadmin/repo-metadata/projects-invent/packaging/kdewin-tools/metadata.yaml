@@ -1,0 +1,7 @@
+description: Supplementary tools which assist compiling KDE applications on Windows
+hasrepo: true
+identifier: kdewin-tools
+name: KDEWin Tools
+projectpath: kdesupport/kdewin-tools
+repoactive: true
+repopath: packaging/kdewin-tools

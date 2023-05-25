@@ -1,0 +1,9 @@
+description: Contains all tooling necessary to operate build.kde.org, including the
+  Docker images for our Linux builds along with the documentation necessary to setup
+  FreeBSD and Windows builds.
+hasrepo: true
+identifier: sysadmin-ci-tooling
+name: CI Tooling
+projectpath: sysadmin/ci-tooling
+repoactive: false
+repopath: sysadmin/ci-tooling

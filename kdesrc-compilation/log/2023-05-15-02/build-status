@@ -1,0 +1,6 @@
+extra-cmake-modules: Succeeded after 2 seconds.
+kcoreaddons: Succeeded after 1 second.
+kconfig: Succeeded after 1 second.
+ki18n: Succeeded after 0 seconds.
+karchive: Succeeded after 1 second.
+kdoctools: Failed on build after 6 seconds.

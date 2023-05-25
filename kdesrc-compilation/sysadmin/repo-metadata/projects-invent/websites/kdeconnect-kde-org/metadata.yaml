@@ -1,0 +1,7 @@
+description: Website for KDE Connect — kdeconnect.kde.org
+hasrepo: true
+identifier: websites-kdeconnect-kde-org
+name: KDE Connect Website
+projectpath: websites/kdeconnect-kde-org
+repoactive: true
+repopath: websites/kdeconnect-kde-org

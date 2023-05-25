@@ -1,0 +1,8 @@
+description: Makes contacts, notes and messages from VKontakte.ru social network available
+  in KDE.
+hasrepo: true
+identifier: akonadi-vkontakte
+name: VKontakte Resource for Akonadi
+projectpath: unmaintained/akonadi-vkontakte
+repoactive: false
+repopath: unmaintained/akonadi-vkontakte

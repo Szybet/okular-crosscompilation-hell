@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmahjongg
+description: KMahjongg is a tile matching game for one or two players
+hasrepo: true
+identifier: kmahjongg
+name: KMahjongg
+projectpath: kde/kdegames/kmahjongg
+repoactive: true
+repopath: games/kmahjongg

@@ -1,0 +1,7 @@
+description: Data for the KDE Short URL Redirector Service - go.kde.org
+hasrepo: true
+identifier: websites-go-kde-org
+name: KDE Short URL Redirector
+projectpath: websites/go-kde-org
+repoactive: true
+repopath: websites/go-kde-org

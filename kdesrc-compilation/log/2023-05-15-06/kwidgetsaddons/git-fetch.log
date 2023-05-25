@@ -1,0 +1,4 @@
+# kdesrc-build running: 'git' 'fetch' '--tags' 'origin'
+# from directory: /home/szybet/kdesrc/frameworks/kwidgetsaddons
+From https://invent.kde.org/frameworks/kwidgetsaddons
+ + fcd2aa60...898063b6 work/kbroulik/kfontrequester-label-click -> origin/work/kbroulik/kfontrequester-label-click  (forced update)

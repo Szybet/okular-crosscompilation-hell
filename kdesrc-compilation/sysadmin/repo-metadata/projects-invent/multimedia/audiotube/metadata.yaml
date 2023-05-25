@@ -1,0 +1,9 @@
+description: Client for YouTube Music
+hasrepo: true
+identifier: audiotube
+name: AudioTube
+projectpath: extragear/multimedia/audiotube
+repoactive: true
+repopath: multimedia/audiotube
+bugzilla:
+    product: audiotube

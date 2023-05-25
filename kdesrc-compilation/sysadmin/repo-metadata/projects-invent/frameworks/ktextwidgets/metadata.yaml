@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-ktextwidgets
+description: KTextWidgets
+hasrepo: true
+identifier: ktextwidgets
+name: KTextWidgets
+projectpath: frameworks/ktextwidgets
+repoactive: true
+repopath: frameworks/ktextwidgets

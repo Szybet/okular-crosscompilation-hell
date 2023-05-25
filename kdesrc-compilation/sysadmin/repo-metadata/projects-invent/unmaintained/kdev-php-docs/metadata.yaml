@@ -1,0 +1,7 @@
+description: PHP Documentation plugin for KDevelop/Quanta.
+hasrepo: true
+identifier: kdev-php-docs
+name: PHP Docs
+projectpath: unmaintained/kdev-php-docs
+repoactive: false
+repopath: unmaintained/kdev-php-docs

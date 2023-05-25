@@ -1,0 +1,7 @@
+description: Browser based QML Renderer
+hasrepo: true
+identifier: qmlonline
+name: QML Online
+projectpath: playground/www/qmlonline
+repoactive: true
+repopath: webapps/qmlonline

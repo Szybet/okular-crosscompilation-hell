@@ -1,0 +1,8 @@
+description: A web server which provides OCS (Open Collaboration Services) functionality,
+  and a web demo client
+hasrepo: true
+identifier: ocs-server
+name: ocs-server
+projectpath: playground/www/ocs-server
+repoactive: true
+repopath: webapps/ocs-server

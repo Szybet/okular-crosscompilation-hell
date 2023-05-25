@@ -1,0 +1,7 @@
+description: KDevelop plugin that starts a script in a web browser
+hasrepo: true
+identifier: kdev-executebrowser
+name: KDevelop Execute Browser Plugin
+projectpath: playground/devtools/plugins/kdev-executebrowser
+repoactive: true
+repopath: kdevelop/kdev-executebrowser

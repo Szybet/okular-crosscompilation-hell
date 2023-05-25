@@ -1,0 +1,10 @@
+bugzilla:
+  product: lskat
+description: Lieutenant Skat (from German Offiziersskat) is a fun and engaging card
+  game for two players
+hasrepo: true
+identifier: lskat
+name: lskat
+projectpath: kde/kdegames/lskat
+repoactive: true
+repopath: games/lskat

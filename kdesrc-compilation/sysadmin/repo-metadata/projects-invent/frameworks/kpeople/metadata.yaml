@@ -1,0 +1,11 @@
+bugzilla:
+  __do_not_use-legacy-product: kpeople
+  product: frameworks-kpeople
+description: A library that provides access to all contacts and the people who hold
+  them
+hasrepo: true
+identifier: kpeople
+name: KPeople
+projectpath: frameworks/kpeople
+repoactive: true
+repopath: frameworks/kpeople

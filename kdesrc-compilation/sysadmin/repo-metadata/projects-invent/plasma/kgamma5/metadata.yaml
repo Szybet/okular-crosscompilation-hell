@@ -1,0 +1,9 @@
+description: Adjust your monitor's gamma settings
+hasrepo: true
+identifier: kgamma5
+name: KGamma
+projectpath: kde/workspace/kgamma5
+repoactive: true
+repopath: plasma/kgamma5
+bugzilla:
+    product: kgamma

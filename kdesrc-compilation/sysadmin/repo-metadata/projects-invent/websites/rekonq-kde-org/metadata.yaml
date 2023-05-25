@@ -1,0 +1,7 @@
+description: Website for Rekonq
+hasrepo: true
+identifier: websites-rekonq-kde-org
+name: Rekonq Website
+projectpath: websites/rekonq-kde-org
+repoactive: false
+repopath: websites/rekonq-kde-org

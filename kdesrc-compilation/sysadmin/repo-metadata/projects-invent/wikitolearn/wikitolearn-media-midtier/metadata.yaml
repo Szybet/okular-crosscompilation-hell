@@ -1,0 +1,7 @@
+description: Mid Tier Media Support for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-media-midtier
+name: 'WikiToLearn Mid Tier Media Support'
+projectpath: playground/www/wikitolearn-media-midtier
+repoactive: true
+repopath: wikitolearn/wikitolearn-media-midtier

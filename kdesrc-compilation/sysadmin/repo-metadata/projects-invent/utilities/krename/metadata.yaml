@@ -1,0 +1,7 @@
+description: Utility to handle specialized file renames
+hasrepo: true
+identifier: krename
+name: KRename
+projectpath: extragear/utils/krename
+repoactive: true
+repopath: utilities/krename

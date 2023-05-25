@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: contactlist
+description: Telepathy contact list application
+hasrepo: true
+identifier: ktp-contact-list
+name: Telepathy Contact List
+projectpath: kde/kdenetwork/ktp-contact-list
+repoactive: true
+repopath: network/ktp-contact-list

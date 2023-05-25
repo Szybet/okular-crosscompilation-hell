@@ -1,0 +1,7 @@
+description: Online account management system and its Plasma integration components
+hasrepo: true
+identifier: kaccounts-integration
+name: KAccounts Integration
+projectpath: kde/kdenetwork/kaccounts-integration
+repoactive: true
+repopath: network/kaccounts-integration

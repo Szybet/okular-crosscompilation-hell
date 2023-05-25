@@ -1,0 +1,7 @@
+description: Multi-platform sound framework for application developers
+hasrepo: true
+identifier: phonon
+name: Phonon
+projectpath: kdesupport/phonon
+repoactive: true
+repopath: libraries/phonon

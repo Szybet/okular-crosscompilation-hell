@@ -1,0 +1,9 @@
+bugzilla:
+  product: kfourinline
+description: KFourInLine is a four-in-a-row game
+hasrepo: true
+identifier: kfourinline
+name: KFourInLine
+projectpath: kde/kdegames/kfourinline
+repoactive: true
+repopath: games/kfourinline

@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-ci-matrix
+name: Gerrit Project Compilation and Test Status Matrix
+projectpath: sysadmin/gerrit-ci-matrix
+repoactive: false
+repopath: sysadmin/gerrit-ci-matrix

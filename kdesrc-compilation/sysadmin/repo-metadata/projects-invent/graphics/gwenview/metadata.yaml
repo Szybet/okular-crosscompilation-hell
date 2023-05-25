@@ -1,0 +1,9 @@
+bugzilla:
+  product: gwenview
+description: Image viewer by KDE
+hasrepo: true
+identifier: gwenview
+name: Gwenview
+projectpath: kde/kdegraphics/gwenview
+repoactive: true
+repopath: graphics/gwenview

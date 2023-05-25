@@ -1,0 +1,7 @@
+description: Tracking of Yocto meta-layers for use with KDE
+hasrepo: true
+identifier: yocto-manifest
+name: Yocto Manifests
+projectpath: playground/packaging/yocto-manifest
+repoactive: true
+repopath: packaging/yocto-manifest

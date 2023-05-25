@@ -1,0 +1,7 @@
+description: Website for KStars — kstars.kde.org
+hasrepo: true
+identifier: websites-kstars-kde-org
+name: KStars Website
+projectpath: websites/kstars-kde-org
+repoactive: true
+repopath: websites/kstars-kde-org

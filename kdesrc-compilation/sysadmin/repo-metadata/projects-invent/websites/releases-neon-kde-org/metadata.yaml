@@ -1,0 +1,7 @@
+description: Metadata of Neon releases — releases.neon.kde.org
+hasrepo: true
+identifier: websites-releases-neon-kde-org
+name: Neon Releases Metadata
+projectpath: websites/releases-neon-kde-org
+repoactive: true
+repopath: websites/releases-neon-kde-org

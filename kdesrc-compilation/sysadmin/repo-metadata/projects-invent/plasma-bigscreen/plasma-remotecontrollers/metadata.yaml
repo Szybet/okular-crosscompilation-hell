@@ -1,0 +1,7 @@
+description: Translate various input device events into keyboard and pointer events
+hasrepo: true
+identifier: plasma-remotecontrollers
+name: Plasma Remote Controller Support
+projectpath: kde/workspace/plasma-remotecontrollers
+repoactive: true
+repopath: plasma-bigscreen/plasma-remotecontrollers

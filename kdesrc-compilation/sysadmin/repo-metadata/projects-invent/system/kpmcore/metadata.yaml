@@ -1,0 +1,9 @@
+bugzilla:
+  product: partitionmanager
+description: KDE Partition Manager core library
+hasrepo: true
+identifier: kpmcore
+name: KPMCore
+projectpath: kde/kdeadmin/kpmcore
+repoactive: true
+repopath: system/kpmcore

@@ -1,0 +1,12 @@
+# kdesrc-build running: 'git' 'stash' 'pop'
+# from directory: /home/szybet/kdesrc/kde/kdegraphics/okular
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   CMakeLists.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (2b869c87ac9e5f28c21ab047780dd677c00b95cd)

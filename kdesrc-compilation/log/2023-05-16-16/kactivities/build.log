@@ -1,0 +1,70 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kactivities
+[  2%] Automatic MOC for target KF5Activities
+[  2%] Built target KF5Activities_autogen
+[  4%] Generating activities_interface.cpp, activities_interface.h
+[  7%] Generating application_interface.cpp, application_interface.h
+[  9%] Generating resources_linking_interface.cpp, resources_linking_interface.h
+[ 11%] Generating resources_interface.cpp, resources_interface.h
+[ 14%] Generating features_interface.cpp, features_interface.h
+[ 16%] Generating activities_interface.moc
+[ 21%] Generating application_interface.moc
+[ 21%] Generating features_interface.moc
+[ 23%] Generating resources_linking_interface.moc
+[ 26%] Generating resources_interface.moc
+[ 28%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/__/common/dbus/org.kde.ActivityManager.Activities.cpp.o
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/controller.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/resourceinstance.cpp.o
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/info.cpp.o
+[ 38%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/KF5Activities_autogen/mocs_compilation.cpp.o
+[ 40%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/consumer.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/activitiesmodel.cpp.o
+[ 45%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/mainthreadexecutor_p.cpp.o
+[ 47%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/manager_p.cpp.o
+[ 50%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/activitiescache_p.cpp.o
+[ 52%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/__/utils/dbusfuture_p.cpp.o
+[ 54%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/version.cpp.o
+[ 57%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/activities_interface.cpp.o
+[ 59%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/resources_interface.cpp.o
+[ 61%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/features_interface.cpp.o
+[ 64%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/resources_linking_interface.cpp.o
+[ 66%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/application_interface.cpp.o
+[ 69%] Building CXX object src/lib/CMakeFiles/KF5Activities.dir/debug_p.cpp.o
+[ 71%] Linking CXX shared library ../../bin/libKF5Activities.so
+[ 71%] Built target KF5Activities
+[ 76%] Automatic MOC for target kactivities-cli
+[ 76%] Automatic MOC for target kactivitiesextensionplugin
+[ 76%] Built target kactivities-cli_autogen
+[ 80%] Building CXX object src/cli/CMakeFiles/kactivities-cli.dir/kactivities-cli_autogen/mocs_compilation.cpp.o
+[ 80%] Building CXX object src/cli/CMakeFiles/kactivities-cli.dir/main.cpp.o
+[ 80%] Built target kactivitiesextensionplugin_autogen
+[ 83%] Building CXX object src/imports/CMakeFiles/kactivitiesextensionplugin.dir/kactivitiesextensionplugin_autogen/mocs_compilation.cpp.o
+[ 85%] Building CXX object src/imports/CMakeFiles/kactivitiesextensionplugin.dir/activitiesextensionplugin.cpp.o
+[ 88%] Building CXX object src/imports/CMakeFiles/kactivitiesextensionplugin.dir/activitymodel.cpp.o
+[ 92%] Building CXX object src/imports/CMakeFiles/kactivitiesextensionplugin.dir/resourceinstance.cpp.o
+[ 92%] Building CXX object src/imports/CMakeFiles/kactivitiesextensionplugin.dir/activityinfo.cpp.o
+[ 95%] Building CXX object src/imports/CMakeFiles/kactivitiesextensionplugin.dir/__/utils/dbusfuture_p.cpp.o
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kactivities/src/imports/activitiesextensionplugin.cpp:10[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kactivities/src/imports/activitymodel.h:17:10:[m[K [01;31m[Kfatal error: [m[Kboost/container/flat_set.hpp: No such file or directory
+   17 | #include [01;31m[K<boost/container/flat_set.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [src/imports/CMakeFiles/kactivitiesextensionplugin.dir/build.make:90: src/imports/CMakeFiles/kactivitiesextensionplugin.dir/activitiesextensionplugin.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kactivities/src/imports/activitymodel.cpp:8[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kactivities/src/imports/activitymodel.h:17:10:[m[K [01;31m[Kfatal error: [m[Kboost/container/flat_set.hpp: No such file or directory
+   17 | #include [01;31m[K<boost/container/flat_set.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [src/imports/CMakeFiles/kactivitiesextensionplugin.dir/build.make:104: src/imports/CMakeFiles/kactivitiesextensionplugin.dir/activitymodel.cpp.o] Error 1
+In file included from [01m[K/home/szybet/kdesrc/build/frameworks/kactivities/src/imports/kactivitiesextensionplugin_autogen/EWIEGA46WW/moc_activitymodel.cpp:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/build/frameworks/kactivities/src/imports/kactivitiesextensionplugin_autogen/mocs_compilation.cpp:4[m[K:
+[01m[K/home/szybet/kdesrc/build/frameworks/kactivities/src/imports/kactivitiesextensionplugin_autogen/EWIEGA46WW/../../../../../../../frameworks/kactivities/src/imports/activitymodel.h:17:10:[m[K [01;31m[Kfatal error: [m[Kboost/container/flat_set.hpp: No such file or directory
+   17 | #include [01;31m[K<boost/container/flat_set.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [src/imports/CMakeFiles/kactivitiesextensionplugin.dir/build.make:76: src/imports/CMakeFiles/kactivitiesextensionplugin.dir/kactivitiesextensionplugin_autogen/mocs_compilation.cpp.o] Error 1
+[ 97%] Linking CXX executable ../../bin/kactivities-cli
+[ 97%] Built target kactivities-cli
+make[1]: *** [CMakeFiles/Makefile2:286: src/imports/CMakeFiles/kactivitiesextensionplugin.dir/all] Error 2
+make: *** [Makefile:156: all] Error 2

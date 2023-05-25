@@ -1,0 +1,8 @@
+description: A MMF (Multimedia Framework Architecture) backend for the Phonon multimedia
+  library.
+hasrepo: true
+identifier: phonon-mmf
+name: Phonon MMF
+projectpath: unmaintained/phonon-mmf
+repoactive: false
+repopath: unmaintained/phonon-mmf

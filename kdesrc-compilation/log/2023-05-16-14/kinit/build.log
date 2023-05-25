@@ -1,0 +1,220 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kinit
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kinit/prefix.sh to set the environment for KInit.
+-- Could NOT find Libcap (missing: Libcap_LIBRARIES) 
+-- kdeinit wrapper uses setuid-root to protect kdeinit from misguided Linux OOM killer
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5 (required version >= 5.15.2)
+ * Qt5DBus (required version >= 5.15.2)
+ * Qt5Core (required version >= 5.15.2)
+ * KF5Service (required version >= 5.106.0)
+ * Qt5Gui (required version >= 5.15.2)
+ * KF5KIO (required version >= 5.106.0)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * KF5WindowSystem (required version >= 5.106.0)
+ * KF5Crash (required version >= 5.106.0)
+ * KF5Config (required version >= 5.106.0)
+ * KF5DBusAddons (required version >= 5.106.0)
+
+-- The following OPTIONAL packages have not been found:
+
+ * Libcap, Capabilities are a measure to limit the omnipotence of the superuser., <https://sites.google.com/site/fullycapable/>
+   KInit needs setcap in order to install start_kdeinit with CAP_SYS_RESOURCE capabilities
+
+-- Configuring done (0.1s)
+CMake Warning at KF5InitMacros.cmake:36 (add_library):
+  Cannot generate a safe runtime search path for target kdeinit_klauncher
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/mnt/HDD/Project/Public/okulartry/okular-things/lib]
+      dir 1 must precede it due to runtime library [libKF5Crash.so.5]
+    dir 1 is [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib]
+      dir 0 must precede it due to runtime library [libKF5KIOWidgets.so.5]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  src/klauncher/CMakeLists.txt:27 (kf5_add_kdeinit_executable)
+
+
+CMake Warning at KF5InitMacros.cmake:41 (add_executable):
+  Cannot generate a safe runtime search path for target klauncher because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/home/szybet/kdesrc/build/frameworks/kinit/bin]
+    dir 1 is [/mnt/HDD/Project/Public/okulartry/okular-things/lib]
+      dir 2 must precede it due to runtime library [libKF5Service.so.5]
+    dir 2 is [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib]
+      dir 1 must precede it due to runtime library [libKF5KIOWidgets.so.5]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  src/klauncher/CMakeLists.txt:27 (kf5_add_kdeinit_executable)
+
+
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kinit
+[  4%] Generating mo...
+[  4%] Generating ts...
+[  6%] Automatic MOC for target kdeinit5_shutdown
+[  8%] Automatic MOC for target kdeinit5
+[ 10%] Automatic MOC for target kwrapper5
+[ 12%] Automatic MOC for target kdeinit5_wrapper
+[ 14%] Automatic MOC for target kshell5
+[ 16%] Automatic MOC for target kdeinit_klauncher
+[ 16%] Built target kdeinit5_shutdown_autogen
+[ 16%] Built target kdeinit5_autogen
+[ 16%] Built target tsfiles-d094095819c68d9e28ea7b0678b663f6
+[ 16%] Built target kwrapper5_autogen
+[ 16%] Built target kdeinit5_wrapper_autogen
+[ 16%] Built target kshell5_autogen
+[ 16%] Built target pofiles-d094095819c68d9e28ea7b0678b663f6
+[ 18%] Automatic MOC for target start_kdeinit_wrapper
+[ 20%] Automatic MOC for target start_kdeinit
+[ 22%] Building CXX object src/kdeinit/CMakeFiles/kdeinit5.dir/kinit.cpp.o
+[ 25%] Building CXX object src/kdeinit/CMakeFiles/kdeinit5_shutdown.dir/__/wrapper.cpp.o
+[ 27%] Building CXX object src/kwrapper/CMakeFiles/kwrapper5.dir/kwrapper.cpp.o
+[ 29%] Building CXX object src/kshell/CMakeFiles/kshell5.dir/shell.cpp.o
+[ 31%] Building CXX object src/kdeinit/CMakeFiles/kdeinit5_wrapper.dir/__/wrapper.cpp.o
+[ 31%] Built target start_kdeinit_wrapper_autogen
+[ 31%] Built target start_kdeinit_autogen
+[ 33%] Building CXX object src/kdeinit/CMakeFiles/kdeinit5.dir/proctitle.cpp.o
+[ 35%] Building CXX object src/start_kdeinit/CMakeFiles/start_kdeinit_wrapper.dir/start_kdeinit_wrapper_autogen/mocs_compilation.cpp.o
+[ 37%] Building C object src/start_kdeinit/CMakeFiles/start_kdeinit_wrapper.dir/start_kdeinit_wrapper.c.o
+[ 39%] Building CXX object src/start_kdeinit/CMakeFiles/start_kdeinit.dir/start_kdeinit_autogen/mocs_compilation.cpp.o
+[ 41%] Linking CXX executable ../../bin/start_kdeinit_wrapper
+[ 41%] Built target kdeinit_klauncher_autogen
+[ 43%] Building C object src/start_kdeinit/CMakeFiles/start_kdeinit.dir/start_kdeinit.c.o
+[ 45%] Building CXX object src/klauncher/CMakeFiles/kdeinit_klauncher.dir/kdeinit_klauncher_autogen/mocs_compilation.cpp.o
+[ 47%] Linking CXX executable ../../bin/start_kdeinit
+[ 47%] Built target start_kdeinit_wrapper
+[ 50%] Building CXX object src/klauncher/CMakeFiles/kdeinit_klauncher.dir/klauncher.cpp.o
+[ 50%] Built target start_kdeinit
+[ 52%] Building CXX object src/klauncher/CMakeFiles/kdeinit_klauncher.dir/klauncher_main.cpp.o
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kinit/src/kwrapper/kwrapper.cpp:13[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kwrapper/../wrapper.cpp:[m[K In function '[01m[Kint kwrapper_run(pid_t, int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kwrapper/../wrapper.cpp:242:12:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  242 |     pid = ([01;35m[K(long *) buffer[m[K)[0];
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kwrapper/../wrapper.cpp:248:15:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  248 |     status = ([01;35m[K(long *) buffer[m[K)[1];
+      |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kwrapper/../wrapper.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kwrapper/../wrapper.cpp:474:17:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  474 |         pid = *([01;35m[K(long *) buffer[m[K);
+      |                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kinit/src/kshell/shell.cpp:13[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kshell/../wrapper.cpp:[m[K In function '[01m[Kint kwrapper_run(pid_t, int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kshell/../wrapper.cpp:242:12:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  242 |     pid = ([01;35m[K(long *) buffer[m[K)[0];
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kshell/../wrapper.cpp:248:15:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  248 |     status = ([01;35m[K(long *) buffer[m[K)[1];
+      |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kshell/../wrapper.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kshell/../wrapper.cpp:474:17:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  474 |         pid = *([01;35m[K(long *) buffer[m[K);
+      |                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:[m[K In function '[01m[Kint kwrapper_run(pid_t, int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:242:12:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  242 |     pid = ([01;35m[K(long *) buffer[m[K)[0];
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:248:15:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  248 |     status = ([01;35m[K(long *) buffer[m[K)[1];
+      |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:474:17:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  474 |         pid = *([01;35m[K(long *) buffer[m[K);
+      |                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:[m[K In function '[01m[Kint kwrapper_run(pid_t, int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:242:12:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  242 |     pid = ([01;35m[K(long *) buffer[m[K)[0];
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:248:15:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  248 |     status = ([01;35m[K(long *) buffer[m[K)[1];
+      |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/wrapper.cpp:474:17:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  474 |         pid = *([01;35m[K(long *) buffer[m[K);
+      |                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[ 54%] Linking CXX executable ../../bin/kshell5
+[ 56%] Linking CXX executable ../../bin/kwrapper5
+[ 58%] Linking CXX executable ../../bin/kdeinit5_shutdown
+[ 60%] Linking CXX executable ../../bin/kdeinit5_wrapper
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kdeinit/kinit.cpp:[m[K In function '[01m[Kpid_t launch(int, const char*, const char*, const char*, int, const char*, bool, const char*, bool, const char*)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/kdeinit/kinit.cpp:434:33:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kstartup_id_str[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  434 |                     [01;35m[Kconst char *startup_id_str = "0"[m[K)  // krazy:exclude=doublequote_chars
+      |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[ 62%] Built target kshell5
+[ 64%] Building CXX object src/klauncher/CMakeFiles/kdeinit_klauncher.dir/klauncher_adaptor.cpp.o
+[ 66%] Built target kwrapper5
+[ 68%] Building CXX object src/klauncher/CMakeFiles/kdeinit_klauncher.dir/kslavelauncheradaptor.cpp.o
+[ 70%] Built target kdeinit5_shutdown
+[ 72%] Built target kdeinit5_wrapper
+[ 75%] Linking CXX executable ../../bin/kdeinit5
+[ 79%] Built target kdeinit5
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:[m[K In member function '[01m[Kvoid KLauncher::processRequestReturn(int, const QByteArray&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:265:24:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst char*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  265 |         request_data = [01;35m[K(long *) requestData.data()[m[K;
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:271:24:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst char*[m[K' to '[01m[Klong int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  271 |         request_data = [01;35m[K(long *) requestData.data()[m[K;
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:[m[K In member function '[01m[Kbool KLauncher::start_service(KService::Ptr, const QStringList&, const QStringList&, const QByteArray&, bool, const QDBusMessage&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:705:62:[m[K [01;35m[Kwarning: [m[K'[01m[KKService::DBusStartupType KService::dbusStartupType() const[m[K' is deprecated: Since 5.102. No known users [[01;35m[K-Wdeprecated-declarations[m[K]
+  705 |         request->dbus_startup_type = [01;35m[Kservice->dbusStartupType()[m[K;
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/KService:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.h:34[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:12[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KService/kservice.h:203:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  203 |     DBusStartupType [01;36m[KdbusStartupType[m[K() const;
+      |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:[m[K In member function '[01m[Kvoid KLauncher::send_service_startup_info(KLaunchRequest*, KService::Ptr, const QByteArray&, const QStringList&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:746:54:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Krequest[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  746 | KLauncher::send_service_startup_info([01;35m[KKLaunchRequest *request[m[K, KService::Ptr service, const QByteArray &startup_id,
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:746:77:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kservice[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  746 | KLauncher::send_service_startup_info(KLaunchRequest *request, [01;35m[KKService::Ptr service[m[K, const QByteArray &startup_id,
+      |                                                               [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:746:104:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kstartup_id[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  746 | KLauncher::send_service_startup_info(KLaunchRequest *request, KService::Ptr service, [01;35m[Kconst QByteArray &startup_id[m[K,
+      |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:747:57:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kenvs[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  747 |                                      [01;35m[Kconst QStringList &envs[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:[m[K In member function '[01m[Kvoid KLauncher::cancel_service_startup_info(KLaunchRequest*, const QByteArray&, const QStringList&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:798:56:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Krequest[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  798 | KLauncher::cancel_service_startup_info([01;35m[KKLaunchRequest *request[m[K, const QByteArray &startup_id,
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:798:83:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kstartup_id[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  798 | KLauncher::cancel_service_startup_info(KLaunchRequest *request, [01;35m[Kconst QByteArray &startup_id[m[K,
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:799:59:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kenvs[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  799 |                                        [01;35m[Kconst QStringList &envs[m[K)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:[m[K In member function '[01m[Kbool KLauncher::kdeinit_exec(const QString&, const QStringList&, const QString&, const QStringList&, const QString&, bool, const QDBusMessage&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:826:40:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kstartup_id[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  826 |                         [01;35m[Kconst QString &startup_id[m[K, bool wait, const QDBusMessage &msg)
+      |                         [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:[m[K In member function '[01m[Kpid_t KLauncher::requestSlave(const QString&, const QString&, const QString&, QString&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:969:46:[m[K [01;35m[Kwarning: [m[K'[01m[KQString KPluginLoader::fileName() const[m[K' is deprecated: Since 5.86. Use QPluginLoader::fileName() instead, in case of complex query logic consider using KPluginLoader::findPlugins [[01;35m[K-Wdeprecated-declarations[m[K]
+  969 |     QString slaveModulePath = [01;35m[Kloader.fileName()[m[K;
+      |                               [01;35m[K~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kinit/src/klauncher/klauncher.cpp:42[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:206:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  206 |     QString [01;36m[KfileName[m[K() const;
+      |             [01;36m[K^~~~~~~~[m[K
+[ 81%] Linking CXX shared library ../../bin/libkdeinit5_klauncher.so
+[ 91%] Built target kdeinit_klauncher
+[ 93%] Automatic MOC for target klauncher
+[ 93%] Built target klauncher_autogen
+[ 95%] Building CXX object src/klauncher/CMakeFiles/klauncher.dir/klauncher_dummy.cpp.o
+[ 97%] Building CXX object src/klauncher/CMakeFiles/klauncher.dir/klauncher_autogen/mocs_compilation.cpp.o
+[100%] Linking CXX executable ../../bin/klauncher
+[100%] Built target klauncher

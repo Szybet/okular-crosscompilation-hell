@@ -1,0 +1,9 @@
+description: Libraries to work with TNEF Email Attachments
+hasrepo: true
+identifier: ktnef
+name: KTnef
+projectpath: kde/pim/ktnef
+repoactive: true
+repopath: pim/ktnef
+bugzilla:
+    product: ktnef

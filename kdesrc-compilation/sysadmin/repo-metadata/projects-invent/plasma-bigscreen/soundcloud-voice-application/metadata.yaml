@@ -1,0 +1,7 @@
+description: Soundcloud music player voice application and mycroft skill for Plasma Bigscreen
+hasrepo: true
+identifier: soundcloud-voice-application
+name: Soundcloud Player for Plasma Bigscreen
+projectpath: playground/utils/soundcloud-voice-application
+repoactive: true
+repopath: plasma-bigscreen/soundcloud-voice-application

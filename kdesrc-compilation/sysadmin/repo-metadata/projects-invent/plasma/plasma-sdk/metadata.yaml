@@ -1,0 +1,9 @@
+description: Applications useful for Plasma development
+hasrepo: true
+identifier: plasma-sdk
+name: Plasma SDK
+projectpath: kde/workspace/plasma-sdk
+repoactive: true
+repopath: plasma/plasma-sdk
+bugzilla:
+    product: Plasma SDK

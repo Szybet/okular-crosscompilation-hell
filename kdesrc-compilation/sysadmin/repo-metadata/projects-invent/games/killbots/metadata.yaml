@@ -1,0 +1,9 @@
+bugzilla:
+  product: killbots
+description: Killbots is a simple game of evading killer robots
+hasrepo: true
+identifier: killbots
+name: Killbots
+projectpath: kde/kdegames/killbots
+repoactive: true
+repopath: games/killbots

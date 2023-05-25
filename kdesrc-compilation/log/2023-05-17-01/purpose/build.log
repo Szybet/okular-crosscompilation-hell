@@ -1,0 +1,170 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/purpose
+[  2%] Generating ts...
+[  2%] Automatic MOC for target KF5Purpose
+[  3%] Automatic MOC for target PhabricatorHelpers
+[  3%] Generating mo...
+[  4%] Automatic MOC for target ReviewboardHelpers
+[  4%] Built target tsfiles-b8646b0b3201ca84bc378f9abfb6f5a7
+[  4%] Built target PhabricatorHelpers_autogen
+[  4%] Built target ReviewboardHelpers_autogen
+[  5%] Building CXX object src/plugins/phabricator/CMakeFiles/PhabricatorHelpers.dir/PhabricatorHelpers_autogen/mocs_compilation.cpp.o
+[  6%] Building CXX object src/plugins/phabricator/CMakeFiles/PhabricatorHelpers.dir/phabricatorjobs.cpp.o
+[  5%] Building CXX object src/plugins/phabricator/CMakeFiles/PhabricatorHelpers.dir/debug.cpp.o
+[  7%] Building CXX object src/plugins/reviewboard/CMakeFiles/ReviewboardHelpers.dir/ReviewboardHelpers_autogen/mocs_compilation.cpp.o
+[  8%] Building CXX object src/plugins/reviewboard/CMakeFiles/ReviewboardHelpers.dir/debug.cpp.o
+[  9%] Building CXX object src/plugins/reviewboard/CMakeFiles/ReviewboardHelpers.dir/reviewboardjobs.cpp.o
+[  9%] Built target KF5Purpose_autogen
+[  9%] Generating qrc_standard-plugin-types.cpp
+[ 10%] Building CXX object src/CMakeFiles/KF5Purpose.dir/KF5Purpose_autogen/mocs_compilation.cpp.o
+[ 10%] Built target pofiles-b8646b0b3201ca84bc378f9abfb6f5a7
+[ 11%] Building CXX object src/CMakeFiles/KF5Purpose.dir/purpose_external_process_debug.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/KF5Purpose.dir/pluginbase.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/KF5Purpose.dir/job.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/KF5Purpose.dir/alternativesmodel.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/KF5Purpose.dir/configuration.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/KF5Purpose.dir/helper.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/KF5Purpose.dir/externalprocess/processjob.cpp.o
+[ 17%] Linking CXX shared library ../../../bin/libPhabricatorHelpers.so
+[ 17%] Built target PhabricatorHelpers
+[ 18%] Automatic MOC for target testphabricator
+[ 18%] Built target testphabricator_autogen
+[ 19%] Building CXX object src/CMakeFiles/KF5Purpose.dir/jobcontroller.cpp.o
+[ 20%] Linking CXX shared library ../../../bin/libReviewboardHelpers.so
+[ 21%] Automatic MOC for target phabricatorquickplugin
+[ 21%] Built target ReviewboardHelpers
+[ 22%] Building CXX object src/CMakeFiles/KF5Purpose.dir/qrc_standard-plugin-types.cpp.o
+[ 23%] Building CXX object src/plugins/phabricator/CMakeFiles/testphabricator.dir/testphabricator_autogen/mocs_compilation.cpp.o
+[ 23%] Building CXX object src/plugins/phabricator/CMakeFiles/testphabricator.dir/tests/testphabricator.cpp.o
+[ 24%] Automatic MOC for target rbpurposequickplugin
+[ 24%] Built target phabricatorquickplugin_autogen
+[ 25%] Building CXX object src/plugins/phabricator/CMakeFiles/phabricatorquickplugin.dir/phabricatorquickplugin_autogen/mocs_compilation.cpp.o
+[ 25%] Built target rbpurposequickplugin_autogen
+[ 26%] Building CXX object src/plugins/phabricator/CMakeFiles/phabricatorquickplugin.dir/quick/phabricatorquickplugin.cpp.o
+[ 27%] Building CXX object src/plugins/reviewboard/CMakeFiles/rbpurposequickplugin.dir/rbpurposequickplugin_autogen/mocs_compilation.cpp.o
+[ 28%] Building CXX object src/plugins/reviewboard/CMakeFiles/rbpurposequickplugin.dir/quick/reviewboardquickplugin.cpp.o
+[ 29%] Building CXX object src/plugins/reviewboard/CMakeFiles/rbpurposequickplugin.dir/quick/rbrepositoriesmodel.cpp.o
+[ 30%] Building CXX object src/plugins/reviewboard/CMakeFiles/rbpurposequickplugin.dir/quick/rbreviewslistmodel.cpp.o
+[ 31%] Linking CXX shared library ../bin/libKF5Purpose.so
+[ 31%] Built target KF5Purpose
+[ 31%] Building CXX object src/plugins/reviewboard/CMakeFiles/rbpurposequickplugin.dir/quick/reviewboardrc.cpp.o
+[ 32%] Linking CXX executable ../../../bin/testphabricator
+[ 32%] Built target testphabricator
+[ 33%] Building CXX object src/plugins/phabricator/CMakeFiles/phabricatorquickplugin.dir/quick/difflistmodel.cpp.o
+[ 34%] Automatic MOC for target purposeprocess
+[ 34%] Built target purposeprocess_autogen
+[ 35%] Automatic MOC for target saveasplugin
+[ 36%] Automatic MOC for target imgurplugin
+[ 37%] Automatic MOC for target pastebinplugin
+[ 38%] Automatic MOC for target ktpsendfileplugin
+[ 38%] Built target saveasplugin_autogen
+[ 39%] Building CXX object src/plugins/phabricator/CMakeFiles/phabricatorquickplugin.dir/quick/phabricatorrc.cpp.o
+[ 39%] Built target imgurplugin_autogen
+[ 40%] Automatic MOC for target kdeconnectplugin
+[ 40%] Built target pastebinplugin_autogen
+[ 40%] Built target ktpsendfileplugin_autogen
+[ 41%] Automatic MOC for target reviewboardplugin
+[ 41%] Automatic MOC for target phabricatorplugin
+[ 42%] Automatic MOC for target emailplugin
+[ 43%] Automatic MOC for target telegramplugin
+[ 43%] Built target kdeconnectplugin_autogen
+[ 43%] Built target reviewboardplugin_autogen
+[ 43%] Built target phabricatorplugin_autogen
+[ 44%] Automatic MOC for target kdeconnectsmsplugin
+[ 45%] Automatic MOC for target twitterplugin
+[ 46%] Automatic MOC for target barcodeplugin
+[ 46%] Built target emailplugin_autogen
+[ 46%] Built target telegramplugin_autogen
+[ 46%] Automatic MOC for target bluetoothplugin
+[ 47%] Automatic MOC for target purposequickplugin
+[ 47%] Built target kdeconnectsmsplugin_autogen
+[ 47%] Built target barcodeplugin_autogen
+[ 48%] Automatic MOC for target KF5PurposeWidgets
+[ 49%] Building CXX object src/CMakeFiles/purposeprocess.dir/purposeprocess_autogen/mocs_compilation.cpp.o
+[ 49%] Built target twitterplugin_autogen
+[ 50%] Building CXX object src/CMakeFiles/purposeprocess.dir/externalprocess/purposeprocess_main.cpp.o
+[ 50%] Building CXX object src/plugins/saveas/CMakeFiles/saveasplugin.dir/saveasplugin_autogen/mocs_compilation.cpp.o
+[ 50%] Built target bluetoothplugin_autogen
+[ 50%] Built target purposequickplugin_autogen
+[ 51%] Building CXX object src/plugins/saveas/CMakeFiles/saveasplugin.dir/saveasplugin.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/purposeprocess.dir/helper.cpp.o
+[ 53%] Linking CXX shared library ../../../bin/librbpurposequickplugin.so
+[ 54%] Building CXX object src/plugins/imgur/CMakeFiles/imgurplugin.dir/imgurplugin_autogen/mocs_compilation.cpp.o
+[ 55%] Building CXX object src/plugins/imgur/CMakeFiles/imgurplugin.dir/imgurplugin.cpp.o
+[ 55%] Built target KF5PurposeWidgets_autogen
+[ 55%] Building CXX object src/plugins/imgur/CMakeFiles/imgurplugin.dir/mpform.cpp.o
+[ 55%] Built target rbpurposequickplugin
+[ 56%] Building CXX object src/CMakeFiles/purposeprocess.dir/purpose_external_process_debug.cpp.o
+[ 56%] Building CXX object src/plugins/pastebin/CMakeFiles/pastebinplugin.dir/pastebinplugin_autogen/mocs_compilation.cpp.o
+[ 57%] Building CXX object src/plugins/pastebin/CMakeFiles/pastebinplugin.dir/pastebinplugin.cpp.o
+[ 58%] Linking CXX shared library ../../../bin/libphabricatorquickplugin.so
+[ 58%] Built target phabricatorquickplugin
+[ 59%] Building CXX object src/plugins/ktp-sendfile/CMakeFiles/ktpsendfileplugin.dir/ktpsendfileplugin_autogen/mocs_compilation.cpp.o
+[ 60%] Building CXX object src/plugins/ktp-sendfile/CMakeFiles/ktpsendfileplugin.dir/ktpsendfileplugin.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/purpose/src/externalprocess/purposeprocess_main.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/purpose/src/externalprocess/purposeprocess_main.cpp:124:76:[m[K [01;36m[Knote: [m[K'[01m[K#pragma message: warning: make QGuiApplication, consider QCoreApplication?[m[K'
+  124 | #pragma message("warning: make QGuiApplication, consider QCoreApplication?"[01;36m[K)[m[K
+      |                                                                            [01;36m[K^[m[K
+[ 61%] Building CXX object src/plugins/kdeconnect/CMakeFiles/kdeconnectplugin.dir/kdeconnectplugin_autogen/mocs_compilation.cpp.o
+[ 62%] Building CXX object src/plugins/kdeconnect/CMakeFiles/kdeconnectplugin.dir/kdeconnectplugin.cpp.o
+[ 63%] Building CXX object src/plugins/reviewboard/CMakeFiles/reviewboardplugin.dir/reviewboardplugin_autogen/mocs_compilation.cpp.o
+[ 64%] Linking CXX executable ../bin/purposeprocess
+[ 65%] Building CXX object src/plugins/reviewboard/CMakeFiles/reviewboardplugin.dir/reviewboardplugin.cpp.o
+[ 66%] Linking CXX shared module ../../../bin/kf5/purpose/saveasplugin.so
+[ 67%] Building CXX object src/plugins/phabricator/CMakeFiles/phabricatorplugin.dir/phabricatorplugin_autogen/mocs_compilation.cpp.o
+[ 68%] Building CXX object src/plugins/phabricator/CMakeFiles/phabricatorplugin.dir/phabricatorplugin.cpp.o
+[ 68%] Built target purposeprocess
+[ 69%] Building CXX object src/plugins/email/CMakeFiles/emailplugin.dir/emailplugin_autogen/mocs_compilation.cpp.o
+[ 70%] Building CXX object src/plugins/email/CMakeFiles/emailplugin.dir/emailplugin.cpp.o
+[ 70%] Built target saveasplugin
+[ 71%] Linking CXX shared module ../../../bin/kf5/purpose/imgurplugin.so
+[ 72%] Building CXX object src/plugins/telegram/CMakeFiles/telegramplugin.dir/telegramplugin_autogen/mocs_compilation.cpp.o
+[ 73%] Building CXX object src/plugins/telegram/CMakeFiles/telegramplugin.dir/telegramplugin.cpp.o
+[ 74%] Linking CXX shared module ../../../bin/kf5/purpose/pastebinplugin.so
+[ 74%] Built target imgurplugin
+[ 74%] Building CXX object src/plugins/kdeconnect_sms/CMakeFiles/kdeconnectsmsplugin.dir/kdeconnectsmsplugin_autogen/mocs_compilation.cpp.o
+[ 75%] Building CXX object src/plugins/kdeconnect_sms/CMakeFiles/kdeconnectsmsplugin.dir/kdeconnectsmsplugin.cpp.o
+[ 75%] Built target pastebinplugin
+[ 75%] Building CXX object src/plugins/barcode/CMakeFiles/barcodeplugin.dir/barcodeplugin_autogen/mocs_compilation.cpp.o
+[ 76%] Building CXX object src/plugins/barcode/CMakeFiles/barcodeplugin.dir/barcodeplugin.cpp.o
+[ 77%] Linking CXX shared module ../../../bin/kf5/purpose/ktpsendfileplugin.so
+[ 77%] Built target ktpsendfileplugin
+[ 78%] Building CXX object src/plugins/twitter/CMakeFiles/twitterplugin.dir/twitterplugin_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object src/plugins/twitter/CMakeFiles/twitterplugin.dir/twitterplugin.cpp.o
+[ 80%] Linking CXX shared module ../../../bin/kf5/purpose/kdeconnectplugin.so
+[ 81%] Linking CXX shared module ../../../bin/kf5/purpose/reviewboardplugin.so
+[ 81%] Built target kdeconnectplugin
+[ 82%] Building CXX object src/plugins/bluetooth/CMakeFiles/bluetoothplugin.dir/bluetoothplugin_autogen/mocs_compilation.cpp.o
+[ 83%] Building CXX object src/plugins/bluetooth/CMakeFiles/bluetoothplugin.dir/bluetoothplugin.cpp.o
+[ 83%] Built target reviewboardplugin
+[ 83%] Building CXX object src/quick/CMakeFiles/purposequickplugin.dir/purposequickplugin_autogen/mocs_compilation.cpp.o
+[ 84%] Linking CXX shared module ../../../bin/kf5/purpose/phabricatorplugin.so
+[ 84%] Built target phabricatorplugin
+[ 85%] Building CXX object src/quick/CMakeFiles/purposequickplugin.dir/purposequickplugin.cpp.o
+[ 86%] Linking CXX shared module ../../../bin/kf5/purpose/emailplugin.so
+[ 87%] Linking CXX shared module ../../../bin/kf5/purpose/telegramplugin.so
+[ 88%] Linking CXX shared module ../../../bin/kf5/purpose/kdeconnectsmsplugin.so
+[ 88%] Built target telegramplugin
+[ 89%] Generating qrc_purposewidgets-resources.cpp
+[ 90%] Linking CXX shared module ../../../bin/kf5/purpose/barcodeplugin.so
+[ 90%] Built target emailplugin
+[ 90%] Building CXX object src/widgets/CMakeFiles/KF5PurposeWidgets.dir/menu.cpp.o
+[ 91%] Building CXX object src/widgets/CMakeFiles/KF5PurposeWidgets.dir/KF5PurposeWidgets_autogen/mocs_compilation.cpp.o
+[ 91%] Built target kdeconnectsmsplugin
+[ 92%] Building CXX object src/widgets/CMakeFiles/KF5PurposeWidgets.dir/qrc_purposewidgets-resources.cpp.o
+[ 92%] Built target barcodeplugin
+[ 93%] Linking CXX shared module ../../../bin/kf5/purpose/twitterplugin.so
+[ 93%] Built target twitterplugin
+[ 94%] Linking CXX shared module ../../../bin/kf5/purpose/bluetoothplugin.so
+[ 94%] Built target bluetoothplugin
+[ 95%] Linking CXX shared library ../../bin/libpurposequickplugin.so
+[ 95%] Built target purposequickplugin
+[ 96%] Linking CXX shared library ../../bin/libKF5PurposeWidgets.so
+[ 96%] Built target KF5PurposeWidgets
+[ 97%] Automatic MOC for target sharefileitemaction
+[ 97%] Built target sharefileitemaction_autogen
+[ 98%] Building CXX object src/fileitemactionplugin/CMakeFiles/sharefileitemaction.dir/sharefileitemaction_autogen/mocs_compilation.cpp.o
+[ 99%] Building CXX object src/fileitemactionplugin/CMakeFiles/sharefileitemaction.dir/sharefileitemaction.cpp.o
+[100%] Building CXX object src/fileitemactionplugin/CMakeFiles/sharefileitemaction.dir/purpose_fileitemaction_plugin_debug.cpp.o
+[100%] Linking CXX shared module ../../bin/kf5/kfileitemaction/sharefileitemaction.so
+[100%] Built target sharefileitemaction

@@ -1,0 +1,157 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits/kio_msits_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/kio-msits",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/kio-msits/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/okular",
+	"DEP_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits/kio_msits_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "kio_msits_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/kio-msits/kio_mits_debug.h",
+			"Mu",
+			"EWIEGA46WW/moc_kio_mits_debug.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/kio-msits/msits.h",
+			"Mu",
+			"EWIEGA46WW/moc_msits.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits/kio_msits_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits/kio_msits_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_SPEECH",
+		"KCOREADDONS_LIB",
+		"KF_DEPRECATED_WARNINGS_SINCE=0x055C00",
+		"KPLUGINFACTORY_PLUGIN_CLASS_INTERNAL_NAME=kio_msits_factory",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x050F02",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"TRANSLATION_DOMAIN=\"okular_chm\"",
+		"WITH_KJS=1",
+		"WITH_KWALLET=1",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE",
+		"kio_msits_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"OKULAR_EXPORT_PLUGIN",
+			"[\n^][ \t]*OKULAR_EXPORT_PLUGIN[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/kio-msits",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/core",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/lib",
+		"/usr/include/phonon4qt5",
+		"/usr/include/phonon4qt5/KDE",
+		"/usr/include/KF5/KIOCore",
+		"/usr/include/KF5/KIO",
+		"/usr/include/KF5",
+		"/usr/include/KF5/KCoreAddons",
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/KF5/KService",
+		"/usr/include/KF5/KConfig",
+		"/usr/include/KF5/KConfigCore",
+		"/usr/include/qt/QtNetwork",
+		"/usr/include/qt/QtDBus",
+		"/usr/include/qt/QtConcurrent",
+		"/usr/include",
+		"/usr/include/c++/13.1.1",
+		"/usr/include/c++/13.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/13.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"OKULAR_EXPORT_PLUGIN",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits/kio_msits_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits/CMakeFiles/kio_msits_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-Debug/generators/chm/kio-msits/CMakeFiles/kio_msits_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/kio-msits/kio_mits_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/generators/chm/kio-msits/msits.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

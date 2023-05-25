@@ -1,0 +1,9 @@
+description: Plasma applet for the Pass password manager
+hasrepo: true
+identifier: plasma-pass
+name: Plasma Pass
+projectpath: extragear/base/plasma-pass
+repoactive: true
+repopath: plasma/plasma-pass
+bugzilla:
+    product: plasma-pass

@@ -1,0 +1,9 @@
+bugzilla:
+  product: khelpcenter
+description: Software documentation viewer
+hasrepo: true
+identifier: khelpcenter
+name: KHelpCenter
+projectpath: kde/applications/khelpcenter
+repoactive: true
+repopath: system/khelpcenter

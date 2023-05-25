@@ -1,0 +1,273 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/ki18n
+[  1%] Automatic MOC for target ktranscript
+[  2%] Generating ts...
+[  4%] Generating mo...
+[  5%] Automatic MOC for target KF5I18n
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ca/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ca/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ca@valencia/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ca@valencia/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/fi/scripts/ki18n5/general.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/fi/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/fi/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/fi/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/gd/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/gd/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ja/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ja/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ko/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ko/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/nb/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/nb/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/nn/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/nn/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/nn/scripts/ki18n5/skjermelement.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/nn/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/ru/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/ru/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavian/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavian/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavian/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavian/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavianlatin/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@ijekavianlatin/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@latin/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@latin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/sr@latin/scripts/ki18n5/trapnakron.pmap DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@latin/LC_SCRIPTS/ki18n5
+-- copying... /home/szybet/kdesrc/frameworks/ki18n/po/uk/scripts/ki18n5/ki18n5.js DESTINATION /home/szybet/kdesrc/build/frameworks/ki18n/locale/uk/LC_SCRIPTS/ki18n5
+-- building... fi/scripts/ki18n5/general.pmap to /home/szybet/kdesrc/build/frameworks/ki18n/locale/fi/LC_SCRIPTS/ki18n5/general.pmapc
+-- building... nn/scripts/ki18n5/skjermelement.pmap to /home/szybet/kdesrc/build/frameworks/ki18n/locale/nn/LC_SCRIPTS/ki18n5/skjermelement.pmapc
+-- building... sr/scripts/ki18n5/trapnakron.pmap to /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+-- building... sr@ijekavian/scripts/ki18n5/trapnakron.pmap to /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavian/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+-- building... sr@ijekavianlatin/scripts/ki18n5/trapnakron.pmap to /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+-- building... sr@latin/scripts/ki18n5/trapnakron.pmap to /home/szybet/kdesrc/build/frameworks/ki18n/locale/sr@latin/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+[  5%] Built target ktranscript_autogen
+[  6%] Building CXX object src/i18n/CMakeFiles/ktranscript.dir/ktranscript_autogen/mocs_compilation.cpp.o
+[  6%] Built target KF5I18n_autogen
+[  8%] Building CXX object src/i18n/CMakeFiles/ktranscript.dir/ktranscript.cpp.o
+[  9%] Building CXX object src/i18n/CMakeFiles/ktranscript.dir/common_helpers.cpp.o
+[ 10%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/KF5I18n_autogen/mocs_compilation.cpp.o
+[ 12%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/klocalizedstring.cpp.o
+[ 13%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/klocalizedtranslator.cpp.o
+[ 14%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/kcatalog.cpp.o
+[ 14%] Built target tsfiles-cfa32f4b8ec2d9b64b08c8957696e9b3
+[ 16%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/kuitsetup.cpp.o
+[ 17%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/common_helpers.cpp.o
+[ 17%] Built target pofiles-cfa32f4b8ec2d9b64b08c8957696e9b3
+[ 18%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/klocalizedcontext.cpp.o
+[ 20%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/main.cpp.o
+[ 21%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/ki18n_logging.cpp.o
+[ 22%] Building CXX object src/i18n/CMakeFiles/KF5I18n.dir/ki18n_logging_kuit.cpp.o
+[ 24%] Linking CXX shared module ../../bin/ktranscript.so
+[ 24%] Built target ktranscript
+[ 25%] Linking CXX shared library ../../bin/libKF5I18n.so
+[ 25%] Built target KF5I18n
+[ 26%] Automatic MOC for target ki18n-ktranscripttest
+[ 28%] Automatic MOC for target ki18n-klocalizedstringtest
+[ 29%] Automatic MOC for target ki18n-ktranscriptcleantest
+[ 30%] Automatic MOC for target ki18n-declarativetest
+[ 32%] Automatic MOC for target ki18n-klazylocalizedstringtest
+[ 33%] Automatic MOC for target KF5I18nLocaleData
+[ 33%] Built target KF5I18nLocaleData_autogen
+[ 33%] Built target ki18n-klocalizedstringtest_autogen
+[ 33%] Built target ki18n-ktranscripttest_autogen
+[ 34%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/isocodes.cpp.o
+[ 36%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/KF5I18nLocaleData_autogen/mocs_compilation.cpp.o
+[ 37%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/isocodescache.cpp.o
+[ 38%] Building CXX object autotests/CMakeFiles/ki18n-klocalizedstringtest.dir/ki18n-klocalizedstringtest_autogen/mocs_compilation.cpp.o
+[ 40%] Building CXX object autotests/CMakeFiles/ki18n-ktranscripttest.dir/ki18n-ktranscripttest_autogen/mocs_compilation.cpp.o
+[ 40%] Built target ki18n-declarativetest_autogen
+[ 40%] Built target ki18n-ktranscriptcleantest_autogen
+[ 41%] Building CXX object autotests/CMakeFiles/ki18n-klocalizedstringtest.dir/klocalizedstringtest.cpp.o
+[ 41%] Built target ki18n-klazylocalizedstringtest_autogen
+[ 42%] Building CXX object autotests/CMakeFiles/ki18n-declarativetest.dir/ki18n-declarativetest_autogen/mocs_compilation.cpp.o
+[ 44%] Building CXX object autotests/CMakeFiles/ki18n-ktranscriptcleantest.dir/ki18n-ktranscriptcleantest_autogen/mocs_compilation.cpp.o
+[ 45%] Building CXX object autotests/CMakeFiles/ki18n-declarativetest.dir/ki18ndeclarativetest.cpp.o
+[ 46%] Building CXX object autotests/CMakeFiles/ki18n-ktranscriptcleantest.dir/ktranscriptcleantest.cpp.o
+[ 48%] Building CXX object autotests/CMakeFiles/ki18n-ktranscripttest.dir/ktranscripttest.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:[m[K In member function '[01m[Kbool IsoCodesCache::loadIso3166_1Cache()[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:88:10:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kunsigned char*[m[K' to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+   88 |     if (*[01;35m[Kreinterpret_cast<const uint32_t *>(data)[m[K != Iso3166_1CacheHeader) {
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:92:25:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kunsigned char*[m[K' to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+   92 |     const auto size = *([01;35m[Kreinterpret_cast<const uint32_t *>(data)[m[K + 1);
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:[m[K In member function '[01m[Kuint32_t IsoCodesCache::countryCount() const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:108:37:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst uint8_t*[m[K' {aka '[01m[Kconst unsigned char*[m[K'} to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  108 |     return m_iso3166_1CacheData ? *([01;35m[Kreinterpret_cast<const uint32_t *>(m_iso3166_1CacheData)[m[K + 1) : 0;
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 49%] Building CXX object autotests/CMakeFiles/ki18n-ktranscripttest.dir/testhelpers.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:[m[K In member function '[01m[Kbool IsoCodesCache::loadIso3166_2Cache()[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:208:10:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kunsigned char*[m[K' to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  208 |     if (*[01;35m[Kreinterpret_cast<const uint32_t *>(data)[m[K != Iso3166_2CacheHeader) {
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:212:19:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kunsigned char*[m[K' to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  212 |     auto size = *([01;35m[Kreinterpret_cast<const uint32_t *>(data)[m[K + 1);
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:218:14:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kunsigned char*[m[K' to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  218 |     size = *([01;35m[Kreinterpret_cast<const uint32_t *>(data + offset)[m[K - 1);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:[m[K In member function '[01m[Kuint32_t IsoCodesCache::subdivisionCount() const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:235:37:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst uint8_t*[m[K' {aka '[01m[Kconst unsigned char*[m[K'} to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  235 |     return m_iso3166_2CacheData ? *([01;35m[Kreinterpret_cast<const uint32_t *>(m_iso3166_2CacheData)[m[K + 1) : 0;
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:[m[K In member function '[01m[Kuint32_t IsoCodesCache::subdivisionHierachyMapSize() const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/src/localedata/isocodescache.cpp:246:13:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst uint8_t*[m[K' {aka '[01m[Kconst unsigned char*[m[K'} to '[01m[Kconst uint32_t*[m[K' {aka '[01m[Kconst unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  246 |         ? *([01;35m[Kreinterpret_cast<const uint32_t *>(m_iso3166_2CacheData + 2 * sizeof(uint32_t) + subdivisionCount() * sizeof(MapEntry<uint32_t>))[m[K)
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 50%] Building CXX object autotests/CMakeFiles/ki18n-ktranscriptcleantest.dir/__/src/i18n/ktranscript.cpp.o
+[ 52%] Building CXX object autotests/CMakeFiles/ki18n-ktranscriptcleantest.dir/__/src/i18n/common_helpers.cpp.o
+[ 53%] Linking CXX executable ../bin/ki18n-declarativetest
+[ 54%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/kcountry.cpp.o
+[ 54%] Built target ki18n-declarativetest
+[ 56%] Building CXX object autotests/CMakeFiles/ki18n-klazylocalizedstringtest.dir/ki18n-klazylocalizedstringtest_autogen/mocs_compilation.cpp.o
+[ 57%] Building CXX object autotests/CMakeFiles/ki18n-klazylocalizedstringtest.dir/klazylocalizedstringtest.cpp.o
+[ 58%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/kcountrysubdivision.cpp.o
+[ 60%] Linking CXX executable ../bin/ki18n-klocalizedstringtest
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscriptcleantest.cpp:[m[K In member function '[01m[Kvoid KTranscriptCleanTest::test_data()[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscriptcleantest.cpp:40:36:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   40 |     QTest::newRow("test_basic") << [01;36m[KQVariantList{"test_basic", "foo"}[m[K << false << "foo bar";
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlibrary.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QLibrary:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscriptcleantest.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscriptcleantest.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[ 60%] Built target ki18n-klocalizedstringtest
+[ 61%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/ktimezone.cpp.o
+[ 62%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/spatial_index.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:[m[K In member function '[01m[Kvoid KTranscriptTest::test_data()[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:56:36:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   56 |     QTest::newRow("test_basic") << [01;36m[KQVariantList{"test_basic", "foo"}[m[K << false << "foo bar";
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:57:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   57 |     QTest::newRow("test_unicode") << [01;36m[KQVariantList{"test_unicode", "čгσィ九"}[m[K << false << "čгσィ九 фу";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:58:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   58 |     QTest::newRow("test_hascall") << [01;36m[KQVariantList{"test_hascall", "test_basic"}[m[K << false << "yes";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:59:36:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   59 |     QTest::newRow("test_acall") << [01;36m[KQVariantList{"test_acall", "test_basic", "qwyx"}[m[K << false << "qwyx bar";
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:60:35:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   60 |     QTest::newRow("test_load") << [01;36m[KQVariantList{"test_load"}[m[K << false << "foo blurb";
+      |                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:61:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   61 |     QTest::newRow("test_fallback") << [01;36m[KQVariantList{"test_fallback"}[m[K << true << "";
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:62:36:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   62 |     QTest::newRow("test_msgid") << [01;36m[KQVariantList{"test_msgid"}[m[K << false << "source-text";
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:63:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   63 |     QTest::newRow("test_msgtrf") << [01;36m[KQVariantList{"test_msgtrf"}[m[K << false << "translated-text";
+      |                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:64:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   64 |     QTest::newRow("test_msgctxt") << [01;36m[KQVariantList{"test_msgctxt"}[m[K << false << "a-context";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:65:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   65 |     QTest::newRow("test_msgkey") << [01;36m[KQVariantList{"test_msgkey"}[m[K << false << "a-context|source-text";
+      |                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:66:36:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   66 |     QTest::newRow("test_nsubs") << [01;36m[KQVariantList{"test_nsubs"}[m[K << false << "2";
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:67:35:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   67 |     QTest::newRow("test_subs") << [01;36m[KQVariantList{"test_subs", 1}[m[K << false << "qwyx";
+      |                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:68:35:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   68 |     QTest::newRow("test_vals") << [01;36m[KQVariantList{"test_vals", 0, 5}[m[K << false << "50";
+      |                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:69:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   69 |     QTest::newRow("test_dynctxt") << [01;36m[KQVariantList{"test_dynctxt", "origin"}[m[K << false << "neverwhere";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:70:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   70 |     QTest::newRow("test_dbgputs") << [01;36m[KQVariantList{"test_dbgputs"}[m[K << false << "debugged";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:71:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   71 |     QTest::newRow("test_warnputs") << [01;36m[KQVariantList{"test_warnputs"}[m[K << false << "warned";
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:72:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   72 |     QTest::newRow("test_setcallForall") << [01;36m[KQVariantList{"test_setcallForall"}[m[K << false << "done";
+      |                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:73:43:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   73 |     QTest::newRow("test_toUpperFirst") << [01;36m[KQVariantList{"test_toUpperFirst", "...123 foo"}[m[K << false << "...123 Foo";
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:74:51:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   74 |     QTest::newRow("test_toUpperFirst_unicode") << [01;36m[KQVariantList{"test_toUpperFirst", "...123 фу"}[m[K << false << "...123 Фу";
+      |                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:75:43:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   75 |     QTest::newRow("test_toLowerFirst") << [01;36m[KQVariantList{"test_toLowerFirst", "...123 FOO"}[m[K << false << "...123 fOO";
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:76:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   76 |     QTest::newRow("test_loadProps") << [01;36m[KQVariantList{"test_loadProps", "cities"}[m[K << false << "loaded";
+      |                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:77:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   77 |     QTest::newRow("test_getProp") << [01;36m[KQVariantList{"test_getProp", "cities", "Athens", "gen"}[m[K << false << "Atine";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:78:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   78 |     QTest::newRow("test_setProp") << [01;36m[KQVariantList{"test_setProp", "Oslo", "dat", "Oslou"}[m[K << false << "Oslou";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:79:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   79 |     QTest::newRow("test_normKey") << [01;36m[KQVariantList{"test_normKey", "Some &Thing"}[m[K << false << "something";
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:80:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   80 |     QTest::newRow("test_getConfString") << [01;36m[KQVariantList{"test_getConfString", "StringKey"}[m[K << false << "StringValue";
+      |                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:81:55:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   81 |     QTest::newRow("test_getConfStringWithDefault") << [01;36m[KQVariantList{"test_getConfStringWithDefault", "NoSuchKey", "DefaultValue"}[m[K << false << "DefaultValue";
+      |                                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:82:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   82 |     QTest::newRow("test_getConfBool") << [01;36m[KQVariantList{"test_getConfBool", "BoolKey"}[m[K << false << "true";
+      |                                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:83:53:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   83 |     QTest::newRow("test_getConfBoolWithDefault") << [01;36m[KQVariantList{"test_getConfBoolWithDefault", "NoSuchKey", true}[m[K << false << "true";
+      |                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:84:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   84 |     QTest::newRow("test_getConfNumber") << [01;36m[KQVariantList{"test_getConfNumber", "NumberKey"}[m[K << false << "12345";
+      |                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:85:55:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   85 |     QTest::newRow("test_getConfNumberWithDefault") << [01;36m[KQVariantList{"test_getConfNumberWithDefault", "NoSuchKey", 54321}[m[K << false << "54321";
+      |                                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlibrary.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QLibrary:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/ki18n/autotests/ktranscripttest.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[ 64%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/spatial_index_entry.cpp.o
+[ 65%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/spatial_index_property.cpp.o
+[ 66%] Linking CXX executable ../bin/ki18n-ktranscripttest
+[ 66%] Built target ki18n-ktranscripttest
+[ 68%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/timezonedata.cpp.o
+[ 69%] Linking CXX executable ../bin/ki18n-ktranscriptcleantest
+[ 70%] Building CXX object src/localedata/CMakeFiles/KF5I18nLocaleData.dir/logging.cpp.o
+[ 70%] Built target ki18n-ktranscriptcleantest
+[ 72%] Linking CXX executable ../bin/ki18n-klazylocalizedstringtest
+[ 72%] Built target ki18n-klazylocalizedstringtest
+[ 73%] Linking CXX shared library ../../bin/libKF5I18nLocaleData.so
+[ 73%] Built target KF5I18nLocaleData
+[ 74%] Automatic MOC for target kcatalogtest
+[ 76%] Automatic MOC for target kcountrytest
+[ 77%] Automatic MOC for target ktimezonetest
+[ 78%] Automatic MOC for target kcountrysubdivisiontest
+[ 80%] Automatic MOC for target ki18nlocaledataqmlplugin
+[ 80%] Built target kcountrysubdivisiontest_autogen
+[ 80%] Built target kcountrytest_autogen
+[ 80%] Built target kcatalogtest_autogen
+[ 81%] Building CXX object autotests/CMakeFiles/kcountrysubdivisiontest.dir/kcountrysubdivisiontest_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object autotests/CMakeFiles/kcountrysubdivisiontest.dir/kcountrysubdivisiontest.cpp.o
+[ 84%] Building CXX object autotests/CMakeFiles/kcountrytest.dir/kcountrytest_autogen/mocs_compilation.cpp.o
+[ 85%] Building CXX object autotests/CMakeFiles/kcountrytest.dir/kcountrytest.cpp.o
+[ 86%] Building CXX object autotests/CMakeFiles/kcatalogtest.dir/kcatalogtest_autogen/mocs_compilation.cpp.o
+[ 88%] Building CXX object autotests/CMakeFiles/kcatalogtest.dir/kcatalogtest.cpp.o
+[ 88%] Built target ki18nlocaledataqmlplugin_autogen
+[ 88%] Built target ktimezonetest_autogen
+[ 89%] Building CXX object src/localedata-qml/CMakeFiles/ki18nlocaledataqmlplugin.dir/ki18nlocaledataqmlplugin_autogen/mocs_compilation.cpp.o
+[ 90%] Building CXX object src/localedata-qml/CMakeFiles/ki18nlocaledataqmlplugin.dir/ki18nlocaledataqmlplugin.cpp.o
+[ 92%] Building CXX object autotests/CMakeFiles/ktimezonetest.dir/ktimezonetest_autogen/mocs_compilation.cpp.o
+[ 93%] Building CXX object autotests/CMakeFiles/ktimezonetest.dir/ktimezonetest.cpp.o
+[ 94%] Linking CXX executable ../bin/kcountrysubdivisiontest
+[ 94%] Built target kcountrysubdivisiontest
+[ 96%] Linking CXX executable ../bin/kcatalogtest
+[ 96%] Built target kcatalogtest
+[ 97%] Linking CXX executable ../bin/kcountrytest
+[ 98%] Linking CXX executable ../bin/ktimezonetest
+[100%] Linking CXX shared library ../../bin/libki18nlocaledataqmlplugin.so
+[100%] Built target kcountrytest
+[100%] Built target ktimezonetest
+[100%] Built target ki18nlocaledataqmlplugin

@@ -1,0 +1,10 @@
+description: Control Panel for your system firewall
+hasrepo: true
+identifier: plasma-firewall
+name: Plasma Firewall
+projectpath: kde/workspace/plasma-firewall
+repoactive: true
+repopath: plasma/plasma-firewall
+bugzilla:
+    product: systemsettings
+    component: kcm_firewall

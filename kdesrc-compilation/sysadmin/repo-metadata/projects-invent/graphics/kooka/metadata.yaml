@@ -1,0 +1,7 @@
+description: Scanning application and libkscan library
+hasrepo: true
+identifier: kooka
+name: Kooka
+projectpath: playground/graphics/kooka
+repoactive: true
+repopath: graphics/kooka

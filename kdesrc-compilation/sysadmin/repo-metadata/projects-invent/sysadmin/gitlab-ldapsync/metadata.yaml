@@ -1,0 +1,8 @@
+description: Agent to monitor a given LDAP directory for changes and propagate them
+  to Gitlab
+hasrepo: true
+identifier: sysadmin-gitlab-ldapsync
+name: Gitlab LDAP Sync
+projectpath: sysadmin/gitlab-ldapsync
+repoactive: true
+repopath: sysadmin/gitlab-ldapsync

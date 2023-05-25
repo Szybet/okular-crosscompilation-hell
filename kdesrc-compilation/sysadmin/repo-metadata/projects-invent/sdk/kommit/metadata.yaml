@@ -1,0 +1,7 @@
+description: Graphical Git Client
+hasrepo: true
+identifier: kommit
+name: Kommit
+projectpath: playground/sdk/kommit
+repoactive: true
+repopath: sdk/kommit

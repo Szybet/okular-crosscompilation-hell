@@ -1,0 +1,7 @@
+description: Aether theme for Sphinx documentation
+hasrepo: true
+identifier: websites-aether-sphinx
+name: Aether Theme - Sphinx
+projectpath: websites/aether-sphinx
+repoactive: true
+repopath: websites/aether-sphinx

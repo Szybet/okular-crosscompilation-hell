@@ -1,0 +1,7 @@
+description: KDevelop plugin for uploading files to a remote server
+hasrepo: true
+identifier: kdev-upload
+name: KDevelop Upload Plugin
+projectpath: playground/devtools/plugins/kdev-upload
+repoactive: true
+repopath: kdevelop/kdev-upload

@@ -1,0 +1,7 @@
+description: Non-blocking Qt database framework
+hasrepo: true
+identifier: futuresql
+name: FutureSQL
+projectpath: kdesupport/futuresql
+repoactive: true
+repopath: libraries/futuresql

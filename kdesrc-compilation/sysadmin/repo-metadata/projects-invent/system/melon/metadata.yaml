@@ -1,0 +1,7 @@
+description: Desktop QML file manager
+hasrepo: true
+identifier: melon
+name: Melon
+projectpath: playground/system/melon
+repoactive: false
+repopath: system/melon

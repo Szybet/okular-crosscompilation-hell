@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kapidox
+description: Frameworks API Documentation Tools
+hasrepo: true
+identifier: kapidox
+name: Frameworks API Documentation Tools
+projectpath: frameworks/kapidox
+repoactive: true
+repopath: frameworks/kapidox

@@ -1,0 +1,7 @@
+description: Application which used to run apps.kde.org
+hasrepo: true
+identifier: websites-apps-kde-org-archived
+name: Apps.KDE.org API Service
+projectpath: websites/apps-kde-org-archived
+repoactive: false
+repopath: websites/apps-kde-org-archived

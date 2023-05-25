@@ -1,0 +1,7 @@
+description: File server for the software store
+hasrepo: true
+identifier: ocs-fileserver
+name: OCS File Server
+projectpath: playground/www/ocs-fileserver
+repoactive: true
+repopath: webapps/ocs-fileserver

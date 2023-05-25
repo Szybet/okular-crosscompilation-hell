@@ -1,0 +1,9 @@
+bugzilla:
+  product: KSystemLog
+description: KDE SystemLog Application
+hasrepo: true
+identifier: ksystemlog
+name: KSystemLog
+projectpath: kde/kdeadmin/ksystemlog
+repoactive: true
+repopath: system/ksystemlog

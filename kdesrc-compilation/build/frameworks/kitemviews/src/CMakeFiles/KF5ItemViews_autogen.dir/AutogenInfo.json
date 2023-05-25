@@ -1,0 +1,242 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kitemviews/src/KF5ItemViews_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kitemviews",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kitemviews/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kitemviews/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kitemviews/src/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQmLoader.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kitemviews",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kitemviews/src/kitemviews_debug.h",
+			"Mu",
+			"EJRQKI7XPS/moc_kitemviews_debug.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorizedsortfilterproxymodel.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcategorizedsortfilterproxymodel.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorizedsortfilterproxymodel_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcategorizedsortfilterproxymodel_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorizedview.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcategorizedview.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorizedview_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcategorizedview_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorydrawer.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcategorydrawer.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kextendableitemdelegate.h",
+			"Mu",
+			"EWIEGA46WW/moc_kextendableitemdelegate.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kfilterproxysearchline.h",
+			"Mu",
+			"EWIEGA46WW/moc_kfilterproxysearchline.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/klistwidgetsearchline.h",
+			"Mu",
+			"EWIEGA46WW/moc_klistwidgetsearchline.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/ktreewidgetsearchline.h",
+			"Mu",
+			"EWIEGA46WW/moc_ktreewidgetsearchline.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/ktreewidgetsearchlinewidget.h",
+			"Mu",
+			"EWIEGA46WW/moc_ktreewidgetsearchlinewidget.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kwidgetitemdelegate.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwidgetitemdelegate.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kwidgetitemdelegate_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwidgetitemdelegate_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kwidgetitemdelegatepool_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwidgetitemdelegatepool_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kitemviews/src/KF5ItemViews_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/kitemviews/src/KF5ItemViews_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KF5ItemViews_EXPORTS",
+		"KITEMVIEWS_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KITEMVIEWS_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kitemviews/src",
+		"/home/szybet/kdesrc/frameworks/kitemviews/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/kitemviews/src/KF5ItemViews_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/kitemviews/src/CMakeFiles/KF5ItemViews_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kitemviews/src/CMakeFiles/KF5ItemViews_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kitemviews/src/ECMQmLoader-kitemviews5_qt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/build/frameworks/kitemviews/src/kitemviews_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorizedsortfilterproxymodel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorizedview.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kcategorydrawer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kextendableitemdelegate.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kfilterproxysearchline.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/klistwidgetsearchline.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/ktreewidgetsearchline.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/ktreewidgetsearchlinewidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kwidgetitemdelegate.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kitemviews/src/kwidgetitemdelegatepool.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

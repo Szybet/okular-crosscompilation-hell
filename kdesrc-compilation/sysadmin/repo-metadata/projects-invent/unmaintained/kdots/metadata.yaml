@@ -1,0 +1,12 @@
+description: 'KDots is the simple implementation of the game of dots written with
+  Qt Toolkit and KDELibs.
+
+
+  The purpose of Dots game is to catch your opponent''s dots by placing your dots
+  on the game board where the lines cross.'
+hasrepo: true
+identifier: kdots
+name: KDots board game
+projectpath: unmaintained/kdots
+repoactive: false
+repopath: unmaintained/kdots

@@ -1,0 +1,7 @@
+description: A plasmoid to show your events and todos from Akonadi
+hasrepo: true
+identifier: plasmoid-eventlist
+name: Plasmoid for Akonadi
+projectpath: unmaintained/plasmoid-eventlist
+repoactive: false
+repopath: unmaintained/plasmoid-eventlist

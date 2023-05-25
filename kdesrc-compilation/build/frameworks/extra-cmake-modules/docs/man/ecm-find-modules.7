@@ -1,0 +1,1283 @@
+.\" Man page generated from reStructuredText.
+.
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.TH "ECM-FIND-MODULES" "7" "May 16, 2023" "5.107" "Extra CMake Modules"
+.SH NAME
+ecm-find-modules \- ECM Find Modules Reference
+.SH INTRODUCTION
+.sp
+Find modules are used by the CMake \fBfind_package\fP command to search for
+packages that do not provide their own CMake package config files. CMake
+provides an extensive set of find modules, and Extra CMake Modules (ECM) adds
+to that.
+.sp
+To use ECM’s find modules, you need to tell CMake to find the ECM package, and
+then add either \fB${ECM_MODULE_PATH}\fP or \fB${ECM_FIND_MODULE_DIR}\fP to the
+\fBCMAKE_MODULE_PATH\fP variable:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+find_package(ECM REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${ECM_FIND_MODULE_DIR})
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Using \fB${ECM_MODULE_PATH}\fP will also make the modules intended for direct use
+by CMake scripts available (see \fI\%ecm\-modules(7)\fP and
+\fI\%ecm\-kde\-modules(7)\fP).
+.sp
+You can also make local copies of find modules using the
+\fBecm_use_find_modules\fP function from \fI\%ECMUseFindModules\fP, which is
+automatically included when ECM is found:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+find_package(ECM REQUIRED NO_MODULE)
+ecm_use_find_modules(
+    DIR \(dq${CMAKE_BINARY_DIR}/cmake\(dq
+    MODULES FindEGL.cmake
+)
+set(CMAKE_MODULE_PATH \(dq${CMAKE_BINARY_DIR}/cmake\(dq)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This allows selective use of ECM’s find modules, and the NO_OVERRIDE argument
+can be used to ensure that if CMake ships its own version of that find module,
+it will be used instead.
+.SH ALL FIND MODULES
+.SS Find7z
+.sp
+Try to find 7z.
+.sp
+If the 7z executable is not in your PATH, you can provide
+an alternative name or full path location with the \fB7z_EXECUTABLE\fP
+variable.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fB7z_FOUND\fP
+TRUE if 7z is available
+.TP
+.B \fB7z_EXECUTABLE\fP
+Path to 7z executable
+.UNINDENT
+.sp
+If \fB7z_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fB7z::7z\fP
+Path to 7z executable
+.UNINDENT
+.sp
+Since 5.85.0.
+.SS FindCanberra
+.sp
+Try to find Canberra event sound library.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBCanberra_FOUND\fP
+True if (the requested version of) Canberra is available
+.TP
+.B \fBCanberra_VERSION\fP
+The version of Canberra
+.TP
+.B \fBCanberra_LIBRARIES\fP
+The libraries of Canberra for use with target_link_libraries()
+.TP
+.B \fBCanberra_INCLUDE_DIRS\fP
+The include dirs of Canberra for use with target_include_directories()
+.UNINDENT
+.sp
+If \fBCanberra_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBCanberra::Canberra\fP
+The Canberra library
+.UNINDENT
+.sp
+In general we recommend using the imported target, as it is easier to use.
+Bear in mind, however, that if the target is in the link interface of an
+exported library, it must be made available by the package config file.
+.sp
+Since 5.56.0.
+.SS FindEGL
+.sp
+Try to find EGL.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBEGL_FOUND\fP
+True if (the requested version of) EGL is available
+.TP
+.B \fBEGL_VERSION\fP
+The version of EGL; note that this is the API version defined in the
+headers, rather than the version of the implementation (eg: Mesa)
+.TP
+.B \fBEGL_LIBRARIES\fP
+This can be passed to target_link_libraries() instead of the \fBEGL::EGL\fP
+target
+.TP
+.B \fBEGL_INCLUDE_DIRS\fP
+This should be passed to target_include_directories() if the target is not
+used for linking
+.TP
+.B \fBEGL_DEFINITIONS\fP
+This should be passed to target_compile_options() if the target is not
+used for linking
+.UNINDENT
+.sp
+If \fBEGL_FOUND\fP is TRUE, it will also define the following imported target:
+.INDENT 0.0
+.TP
+.B \fBEGL::EGL\fP
+The EGL library
+.UNINDENT
+.sp
+In general we recommend using the imported target, as it is easier to use.
+Bear in mind, however, that if the target is in the link interface of an
+exported library, it must be made available by the package config file.
+.sp
+Since pre\-1.0.0.
+.SS FindGLIB2
+.sp
+Try to locate the GLib2 library.
+If found, this will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBGLIB2_FOUND\fP
+True if the GLib2 library is available
+.TP
+.B \fBGLIB2_INCLUDE_DIRS\fP
+The GLib2 include directories
+.TP
+.B \fBGLIB2_LIBRARIES\fP
+The GLib2 libraries for linking
+.TP
+.B \fBGLIB2_INCLUDE_DIR\fP
+Deprecated, use \fBGLIB2_INCLUDE_DIRS\fP
+.TP
+.B \fBGLIB2_LIBRARY\fP
+Deprecated, use \fBGLIB2_LIBRARIES\fP
+.UNINDENT
+.sp
+If \fBGLIB2_FOUND\fP is TRUE, it will also define the following
+imported target:
+.INDENT 0.0
+.TP
+.B \fBGLIB2::GLIB2\fP
+The GLIB2 library
+.UNINDENT
+.sp
+Since 5.41.0.
+.SS FindGperf
+.sp
+Try to find GNU gperf.
+.sp
+If the gperf executable is not in your PATH, you can provide
+an alternative name or full path location with the \fBGperf_EXECUTABLE\fP
+variable.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBGperf_FOUND\fP
+True if gperf is available.
+.TP
+.B \fBGperf_EXECUTABLE\fP
+The gperf executable.
+.TP
+.B \fBGperf_VERSION\fP
+The gperf version. (since 5.85)
+.UNINDENT
+.sp
+If \fBGperf_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBGPerf::Gperf\fP
+The gperf executable.
+.UNINDENT
+.sp
+and the following public function:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_gperf_generate(<GperfInput> <OutputFile> <OutputVariable(|target (since 5.83))>
+                   [GENERATION_FLAGS <flags>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Run \fBgperf\fP on \fB<GperfInput>\fP to generate \fB<OutputFile>\fP, adding it to
+the \fB<OutputVariable>\fP variable which contains the source for the target
+where \fB<OutputFile>\fP is going to be built or, since KF 5.83, if the given
+argument is a target, to the list of private sources of that target. The
+target must not be an alias. The optional \fBGENERATION_FLAGS\fP argument is
+needed to pass extra parameters to \fBgperf\fP (note you cannot override that
+way the output file).
+.sp
+A simple invocation would be:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_gperf_generate(simple.gperf ${CMAKE_CURRENT_BINARY_DIR}/simple.h MySources)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.35.0.
+.SS FindGradle
+.sp
+Provides the ability to build Android AAR libraries using Gradle.
+.sp
+This relies on the Qt provided Gradle, so a Qt for Android installation
+is required.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+gradle_add_aar(<target>
+               BUIDLFILE build.gradle
+               NAME <aar\-name>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This builds an Android AAR library using the given \fBbuild.gradle\fP file.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+gradle_install_aar(<target>
+                   DESTINATION <dest>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Installs a Android AAR library that has been created with \fBgradle_add_aar\fP\&.
+.sp
+Since 5.76.0.
+.SS FindIcoTool
+.sp
+Try to find icotool.
+.sp
+If the icotool executable is not in your PATH, you can provide
+an alternative name or full path location with the \fBIcoTool_EXECUTABLE\fP
+variable.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBIcoTool_FOUND\fP
+True if icotool is available.
+.TP
+.B \fBIcoTool_EXECUTABLE\fP
+The icotool executable.
+.UNINDENT
+.sp
+If \fBIcoTool_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBIcoTool::IcoTool\fP
+The icotool executable.
+.UNINDENT
+.sp
+Since 5.49.
+.SS FindInotify
+.INDENT 0.0
+.TP
+.B Try to find inotify on this system. This finds:
+.INDENT 7.0
+.IP \(bu 2
+libinotify on Unix like systems, or
+.IP \(bu 2
+the kernel’s inotify on Linux systems.
+.UNINDENT
+.UNINDENT
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBInotify_FOUND\fP
+True if inotify is available
+.TP
+.B \fBInotify_LIBRARIES\fP
+This has to be passed to target_link_libraries()
+.TP
+.B \fBInotify_INCLUDE_DIRS\fP
+This has to be passed to target_include_directories()
+.UNINDENT
+.sp
+On Linux and SunOS, the libraries and include directories are empty,
+even though \fBInotify_FOUND\fP may be set to TRUE. This is because
+no special includes or libraries are needed. On other systems
+these may be needed to use inotify.
+.sp
+Since 5.32.0.
+.SS FindIsoCodes
+.sp
+Try to find iso\-codes data files.
+Once done this will define:
+.INDENT 0.0
+.TP
+.B \fBIsoCodes_FOUND\fP
+Whether the system has iso\-codes
+.TP
+.B \fBIsoCodes_PREFIX\fP
+The location in which the iso\-codes data files are found
+.TP
+.B \fBIsoCodes_DOMAINS\fP
+The available domains provided by iso\-codes
+.UNINDENT
+.sp
+Since 5.80.0.
+.SS FindKF5
+.sp
+Find KDE Frameworks 5 with a single find_package() call.
+.sp
+This will use the package config files provided by the individual frameworks.
+For example, if you wish to find KArchive, which presents itself to CMake as
+KF5Archive (ie: you would do \fBfind_package(KF5Archive)\fP to find it
+directly), you can do
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+find_package(KF5 COMPONENTS Archive)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If all the required components (those given in the COMPONENTS argument, but
+not those given in the OPTIONAL_COMPONENTS argument) are found, \fBKF5_FOUND\fP
+will be set to true. Otherwise, it will be set to false.
+.sp
+Since pre\-1.0.0.
+.SS FindLibExiv2
+.sp
+Try to find the Exiv2 library.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBLibExiv2_FOUND\fP
+True if (the requested version of) Exiv2 is available
+.TP
+.B \fBLibExiv2_VERSION\fP
+The version of Exiv2
+.TP
+.B \fBLibExiv2_INCLUDE_DIRS\fP
+The include dirs of Exiv2 for use with target_include_directories()
+.TP
+.B \fBLibExiv2_LIBRARIES\fP
+The Exiv2 library for use with target_link_libraries().
+This can be passed to target_link_libraries() instead of
+the \fBLibExiv2::LibExiv2\fP target
+.UNINDENT
+.sp
+If \fBLibExiv2_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBLibExiv2::LibExiv2\fP
+The Exiv2 library
+.UNINDENT
+.sp
+In general we recommend using the imported target, as it is easier to use.
+Bear in mind, however, that if the target is in the link interface of an
+exported library, it must be made available by the package config file.
+.sp
+Since 5.53.0.
+.SS FindLibGit2
+.sp
+Try to find libgit2 on a Unix system.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBLIBGIT2_FOUND\fP
+True if (the requested version of) libgit2 is available
+.TP
+.B \fBLIBGIT2_VERSION\fP
+The version of libgit2
+.TP
+.B \fBLIBGIT2_LIBRARIES\fP
+This can be passed to target_link_libraries() instead of the \fBLibGit2::LibGit2\fP
+target
+.TP
+.B \fBLIBGIT2_INCLUDE_DIRS\fP
+This should be passed to target_include_directories() if the target is not
+used for linking
+.TP
+.B \fBLIBGIT2_DEFINITIONS\fP
+This should be passed to target_compile_options() if the target is not
+used for linking
+.UNINDENT
+.sp
+If \fBLIBGIT2_FOUND\fP is TRUE, it will also define the following imported target:
+.INDENT 0.0
+.TP
+.B \fBLibGit2::LibGit2\fP
+The libgit2 library
+.UNINDENT
+.sp
+In general we recommend using the imported target, as it is easier to use.
+Bear in mind, however, that if the target is in the link interface of an
+exported library, it must be made available by the package config file.
+.sp
+Since 1.3.0.
+.SS FindLibMount
+.sp
+Try to find the libmount library (part of util\-linux), once done this will define:
+.INDENT 0.0
+.TP
+.B \fBLibMount_FOUND\fP
+LibMount was found on the system.
+.TP
+.B \fBLibMount_INCLUDE_DIRS\fP
+The libmount include directory.
+.TP
+.B \fBLibMount_LIBRARIES\fP
+The libmount libraries.
+.TP
+.B \fBLibMount_VERSION\fP
+The libmount version.
+.UNINDENT
+.sp
+If \fBLibMount_FOUND\fP is TRUE, it will also define the following imported target:
+.INDENT 0.0
+.TP
+.B \fBLibMount::LibMount\fP
+The libmount library
+.UNINDENT
+.sp
+Since 5.83.0
+.SS FindLibcap
+.sp
+Try to find the setcap binary and cap libraries
+.sp
+This will define:
+.INDENT 0.0
+.TP
+.B \fBLibcap_FOUND\fP
+system has the cap library and setcap binary
+.TP
+.B \fBLibcap_LIBRARIES\fP
+cap libraries to link against
+.TP
+.B \fBSETCAP_EXECUTABLE\fP
+path of the setcap binary
+.TP
+.B In addition, the following targets are defined:
+\fBLibcap::SetCapabilities\fP
+.UNINDENT
+.sp
+Since 5.80.0
+.SS FindOpenEXR
+.sp
+Try to find the OpenEXR libraries.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBOpenEXR_FOUND\fP
+True if OpenEXR is available
+.TP
+.B \fBOpenEXR_LIBRARIES\fP
+Link to these to use OpenEXR
+.TP
+.B \fBOpenEXR_INCLUDE_DIRS\fP
+Include directory for OpenEXR
+.TP
+.B \fBOpenEXR_DEFINITIONS\fP
+Compiler flags required to link against OpenEXR
+.UNINDENT
+.sp
+and the following imported targets:
+.INDENT 0.0
+.TP
+.B \fBOpenEXR::IlmImf\fP
+The OpenEXR core library
+.UNINDENT
+.sp
+In general we recommend using the imported target, as it is easier to use.
+Bear in mind, however, that if the target is in the link interface of an
+exported library, it must be made available by the package config file.
+.sp
+Since pre\-1.0.0.
+.SS FindPhoneNumber
+.sp
+Try to find PhoneNumber.
+.sp
+This is a component\-based find module, which makes use of the COMPONENTS and
+OPTIONAL_COMPONENTS arguments to find_module.  The following components are
+available:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+PhoneNumber  GeoCoding
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If no components are specified, this module will act as though all components
+were passed to OPTIONAL_COMPONENTS.
+.sp
+This module will define the following variables, independently of the
+components searched for or found:
+.INDENT 0.0
+.TP
+.B \fBPhoneNumber_FOUND\fP
+True if (the requestion version of) PhoneNumber is available
+.UNINDENT
+.sp
+For each searched\-for components, \fBPhoneNumber_<component>_FOUND\fP will be set to
+TRUE if the corresponding library was found, and FALSE otherwise.  If
+\fBPhoneNumber_<component>_FOUND\fP is TRUE, the imported target \fBPhoneNumber::<component>\fP
+will be defined.
+.sp
+Since 5.54.0.
+.SS FindPoppler
+.sp
+Try to find Poppler.
+.sp
+This is a component\-based find module, which makes use of the COMPONENTS
+and OPTIONAL_COMPONENTS arguments to find_module.  The following components
+are available:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+Core  Cpp  Qt5  Qt4  Glib
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If no components are specified, this module will act as though all components
+were passed to OPTIONAL_COMPONENTS.
+.sp
+This module will define the following variables, independently of the
+components searched for or found:
+.INDENT 0.0
+.TP
+.B \fBPoppler_FOUND\fP
+TRUE if (the requested version of) Poppler is available
+.TP
+.B \fBPoppler_VERSION\fP
+Found Poppler version
+.TP
+.B \fBPoppler_TARGETS\fP
+A list of all targets imported by this module (note that there may be more
+than the components that were requested)
+.TP
+.B \fBPoppler_LIBRARIES\fP
+This can be passed to target_link_libraries() instead of the imported
+targets
+.TP
+.B \fBPoppler_INCLUDE_DIRS\fP
+This should be passed to target_include_directories() if the targets are
+not used for linking
+.TP
+.B \fBPoppler_DEFINITIONS\fP
+This should be passed to target_compile_options() if the targets are not
+used for linking
+.UNINDENT
+.sp
+For each searched\-for components, \fBPoppler_<component>_FOUND\fP will be set to
+TRUE if the corresponding Poppler library was found, and FALSE otherwise.  If
+\fBPoppler_<component>_FOUND\fP is TRUE, the imported target
+\fBPoppler::<component>\fP will be defined.  This module will also attempt to
+determine \fBPoppler_*_VERSION\fP variables for each imported target, although
+\fBPoppler_VERSION\fP should normally be sufficient.
+.sp
+In general we recommend using the imported targets, as they are easier to use
+and provide more control.  Bear in mind, however, that if any target is in the
+link interface of an exported library, it must be made available by the
+package config file.
+.sp
+Since 5.19
+.SS FindPulseAudio
+.sp
+Try to locate the PulseAudio library.
+If found, this will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBPulseAudio_FOUND\fP
+True if the system has the PulseAudio library of at least
+the minimum version specified by either the version parameter
+to find_package() or the variable PulseAudio_MINIMUM_VERSION
+.TP
+.B \fBPulseAudio_INCLUDE_DIRS\fP
+The PulseAudio include directory
+.TP
+.B \fBPulseAudio_LIBRARIES\fP
+The PulseAudio libraries for linking
+.TP
+.B \fBPulseAudio_MAINLOOP_LIBRARY\fP
+The libraries needed to use PulseAudio Mainloop
+.TP
+.B \fBPulseAudio_VERSION\fP
+The version of PulseAudio that was found
+.TP
+.B \fBPulseAudio_INCLUDE_DIR\fP
+Deprecated, use \fBPulseAudio_INCLUDE_DIRS\fP
+.TP
+.B \fBPulseAudio_LIBRARY\fP
+Deprecated, use \fBPulseAudio_LIBRARIES\fP
+.UNINDENT
+.sp
+If \fBPulseAudio_FOUND\fP is TRUE, it will also define the following
+imported target:
+.INDENT 0.0
+.TP
+.B \fBPulseAudio::PulseAudio\fP
+The PulseAudio library
+.UNINDENT
+.sp
+Since 5.41.0.
+.SS FindQtWaylandScanner
+.sp
+Try to find qtwaylandscanner.
+.sp
+If the qtwaylandscanner executable is not in your PATH, you can provide
+an alternative name or full path location with the \fBQtWaylandScanner_EXECUTABLE\fP
+variable.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBQtWaylandScanner_FOUND\fP
+True if qtwaylandscanner is available
+.TP
+.B \fBQtWaylandScanner_EXECUTABLE\fP
+The qtwaylandscanner executable.
+.UNINDENT
+.sp
+If \fBQtWaylandScanner_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBWayland::QtScanner\fP
+The qtwaylandscanner executable.
+.UNINDENT
+.sp
+This module provides the following functions to generate C++ protocol
+implementations:
+.INDENT 0.0
+.INDENT 3.5
+.INDENT 0.0
+.IP \(bu 2
+\fBecm_add_qtwayland_client_protocol\fP
+.IP \(bu 2
+\fBecm_add_qtwayland_server_protocol\fP
+.UNINDENT
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qtwayland_client_protocol(<target>
+                                  PROTOCOL <xmlfile>
+                                  BASENAME <basename>
+                                  [PREFIX <prefix>])
+
+ecm_add_qtwayland_client_protocol(<source_files_var>
+                                  PROTOCOL <xmlfile>
+                                  BASENAME <basename>
+                                  [PREFIX <prefix>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Generate C++ wrapper to Wayland client protocol files from \fB<xmlfile>\fP
+XML definition for the \fB<basename>\fP interface and append those files
+to \fB<source_files_var>\fP or \fB<target>\fP\&.  Pass the \fB<prefix>\fP argument if the interface
+names don’t start with \fBqt_\fP or \fBwl_\fP\&.
+.sp
+WaylandScanner is required and will be searched for.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qtwayland_server_protocol(<target>
+                                  PROTOCOL <xmlfile>
+                                  BASENAME <basename>
+                                  [PREFIX <prefix>])
+
+ecm_add_qtwayland_server_protocol(<source_files_var>
+                                  PROTOCOL <xmlfile>
+                                  BASENAME <basename>
+                                  [PREFIX <prefix>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Generate C++ wrapper to Wayland server protocol files from \fB<xmlfile>\fP
+XML definition for the \fB<basename>\fP interface and append those files
+to \fB<source_files_var>\fP or \fB<target>\fP\&.  Pass the \fB<prefix>\fP argument if the interface
+names don’t start with \fBqt_\fP or \fBwl_\fP\&.
+.sp
+WaylandScanner is required and will be searched for.
+.sp
+Since 1.4.0.
+.SS FindSasl2
+.sp
+Try to find the SASL2 library.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBSasl2_FOUND\fP
+System has SASL2.
+.TP
+.B \fBSasl2_VERSION\fP
+The version of SASL2.
+.TP
+.B \fBSasl2_INCLUDE_DIRS\fP
+This should be passed to target_include_directories() if
+the target is not used for linking.
+.TP
+.B \fBSasl2_LIBRARIES\fP
+The SASL2 library.
+This can be passed to target_link_libraries() instead of
+the \fBSasl2::Sasl2\fP target
+.UNINDENT
+.sp
+If \fBSasl2_FOUND\fP is TRUE, the following imported target
+will be available:
+.INDENT 0.0
+.TP
+.B \fBSasl2::Sasl2\fP
+The SASL2 library
+.UNINDENT
+.sp
+Since 5.41.0.
+.SS FindSeccomp
+.sp
+Try to locate the libseccomp library.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBSeccomp_FOUND\fP
+True if the seccomp library is available
+.TP
+.B \fBSeccomp_INCLUDE_DIRS\fP
+The seccomp include directories
+.TP
+.B \fBSeccomp_LIBRARIES\fP
+The seccomp libraries for linking
+.UNINDENT
+.sp
+If \fBSeccomp_FOUND\fP is TRUE, it will also define the following
+imported target:
+.INDENT 0.0
+.TP
+.B \fBSeccomp::Seccomp\fP
+The Seccomp library
+.UNINDENT
+.sp
+Since 5.44.0.
+.SS FindSharedMimeInfo
+.sp
+Try to find the shared\-mime\-info package.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBSharedMimeInfo_FOUND\fP
+True if system has the shared\-mime\-info package
+.TP
+.B \fBUPDATE_MIME_DATABASE_EXECUTABLE\fP
+The update\-mime\-database executable
+.UNINDENT
+.sp
+and the following imported targets:
+.INDENT 0.0
+.TP
+.B \fBSharedMimeInfo::UpdateMimeDatabase\fP
+The update\-mime\-database executable
+.UNINDENT
+.sp
+The follow macro is available:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+update_xdg_mimetypes(<path>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Updates the XDG mime database at install time (unless the \fB$DESTDIR\fP
+environment variable is set, in which case it is up to package managers to
+perform this task).
+.sp
+Since pre\-1.0.0.
+.SS FindTaglib
+.sp
+Try to find the Taglib library.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBTaglib_FOUND\fP
+True if the system has the taglib library of at least the minimum
+version specified by the version parameter to find_package()
+.TP
+.B \fBTaglib_INCLUDE_DIRS\fP
+The taglib include dirs for use with target_include_directories
+.TP
+.B \fBTaglib_LIBRARIES\fP
+The taglib libraries for use with target_link_libraries()
+.TP
+.B \fBTaglib_VERSION\fP
+The version of taglib that was found
+.UNINDENT
+.sp
+If \fBTaglib_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBTaglib::Taglib\fP
+The Taglib library
+.UNINDENT
+.sp
+Since 5.72.0
+.SS FindUDev
+.sp
+Try to find the UDev library.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBUDev_FOUND\fP
+System has UDev.
+.TP
+.B \fBUDev_INCLUDE_DIRS\fP
+The libudev include directory.
+.TP
+.B \fBUDev_LIBRARIES\fP
+The libudev libraries.
+.TP
+.B \fBUDev_VERSION\fP
+The libudev version.
+.UNINDENT
+.sp
+If \fBUDev_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBUDev::UDev\fP
+The UDev library
+.UNINDENT
+.sp
+Since 5.57.0.
+.SS FindWayland
+.sp
+Try to find Wayland.
+.sp
+This is a component\-based find module, which makes use of the COMPONENTS
+and OPTIONAL_COMPONENTS arguments to find_module.  The following components
+are available:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+Client  Server  Cursor  Egl
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If no components are specified, this module will act as though all components
+were passed to OPTIONAL_COMPONENTS.
+.sp
+This module will define the following variables, independently of the
+components searched for or found:
+.INDENT 0.0
+.TP
+.B \fBWayland_FOUND\fP
+TRUE if (the requested version of) Wayland is available
+.TP
+.B \fBWayland_VERSION\fP
+Found Wayland version
+.TP
+.B \fBWayland_TARGETS\fP
+A list of all targets imported by this module (note that there may be more
+than the components that were requested)
+.TP
+.B \fBWayland_LIBRARIES\fP
+This can be passed to target_link_libraries() instead of the imported
+targets
+.TP
+.B \fBWayland_INCLUDE_DIRS\fP
+This should be passed to target_include_directories() if the targets are
+not used for linking
+.TP
+.B \fBWayland_DEFINITIONS\fP
+This should be passed to target_compile_options() if the targets are not
+used for linking
+.TP
+.B \fBWayland_DATADIR\fP
+The core wayland protocols data directory
+Since 5.73.0
+.UNINDENT
+.sp
+For each searched\-for components, \fBWayland_<component>_FOUND\fP will be set to
+TRUE if the corresponding Wayland library was found, and FALSE otherwise.  If
+\fBWayland_<component>_FOUND\fP is TRUE, the imported target
+\fBWayland::<component>\fP will be defined.  This module will also attempt to
+determine \fBWayland_*_VERSION\fP variables for each imported target, although
+\fBWayland_VERSION\fP should normally be sufficient.
+.sp
+In general we recommend using the imported targets, as they are easier to use
+and provide more control.  Bear in mind, however, that if any target is in the
+link interface of an exported library, it must be made available by the
+package config file.
+.sp
+Since pre\-1.0.0.
+.SS FindWaylandProtocols
+.sp
+Try to find wayland\-protocols on a Unix system.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBWaylandProtocols_FOUND\fP
+True if (the requested version of) wayland\-protocols is available
+.TP
+.B \fBWaylandProtocols_VERSION\fP
+The version of wayland\-protocols
+.TP
+.B \fBWaylandProtocols_DATADIR\fP
+The wayland protocols data directory
+.UNINDENT
+.SS FindWaylandScanner
+.sp
+Try to find wayland\-scanner.
+.sp
+If the wayland\-scanner executable is not in your PATH, you can provide
+an alternative name or full path location with the \fBWaylandScanner_EXECUTABLE\fP
+variable.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBWaylandScanner_FOUND\fP
+True if wayland\-scanner is available.
+.TP
+.B \fBWaylandScanner_EXECUTABLE\fP
+The wayland\-scanner executable.
+.UNINDENT
+.sp
+If \fBWaylandScanner_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBWayland::Scanner\fP
+The wayland\-scanner executable.
+.UNINDENT
+.sp
+This module provides the following functions to generate C protocol
+implementations:
+.INDENT 0.0
+.INDENT 3.5
+.INDENT 0.0
+.IP \(bu 2
+\fBecm_add_wayland_client_protocol\fP
+.IP \(bu 2
+\fBecm_add_wayland_server_protocol\fP
+.UNINDENT
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_wayland_client_protocol(<target>
+                                PROTOCOL <xmlfile>
+                                BASENAME <basename>)
+
+ecm_add_wayland_client_protocol(<source_files_var>
+                                PROTOCOL <xmlfile>
+                                BASENAME <basename>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Generate Wayland client protocol files from \fB<xmlfile>\fP XML
+definition for the \fB<basename>\fP interface and append those files
+to \fB<source_files_var>\fP or \fB<target>\fP\&.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_wayland_server_protocol(<target>
+                                PROTOCOL <xmlfile>
+                                BASENAME <basename>)
+
+ecm_add_wayland_server_protocol(<source_files_var>
+                                PROTOCOL <xmlfile>
+                                BASENAME <basename>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Generate Wayland server protocol files from \fB<xmlfile>\fP XML
+definition for the \fB<basename>\fP interface and append those files
+to \fB<source_files_var>\fP or \fB<target>\fP\&.
+.sp
+Since 1.4.0.
+.SS FindX11_XCB
+.sp
+Try to find the X11 XCB compatibility library.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBX11_XCB_FOUND\fP
+True if (the requested version of) libX11\-xcb is available
+.TP
+.B \fBX11_XCB_VERSION\fP
+The version of libX11\-xcb (this is not guaranteed to be set even when
+X11_XCB_FOUND is true)
+.TP
+.B \fBX11_XCB_LIBRARIES\fP
+This can be passed to target_link_libraries() instead of the \fBEGL::EGL\fP
+target
+.TP
+.B \fBX11_XCB_INCLUDE_DIR\fP
+This should be passed to target_include_directories() if the target is not
+used for linking
+.TP
+.B \fBX11_XCB_DEFINITIONS\fP
+This should be passed to target_compile_options() if the target is not
+used for linking
+.UNINDENT
+.sp
+If \fBX11_XCB_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBX11::XCB\fP
+The X11 XCB compatibility library
+.UNINDENT
+.sp
+In general we recommend using the imported target, as it is easier to use.
+Bear in mind, however, that if the target is in the link interface of an
+exported library, it must be made available by the package config file.
+.sp
+Since pre\-1.0.0.
+.SS FindXCB
+.sp
+Try to find XCB.
+.sp
+This is a component\-based find module, which makes use of the COMPONENTS and
+OPTIONAL_COMPONENTS arguments to find_module.  The following components are
+available:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+XCB
+ATOM         AUX          COMPOSITE    CURSOR       DAMAGE
+DPMS         DRI2         DRI3         EVENT        EWMH
+GLX          ICCCM        IMAGE        KEYSYMS      PRESENT
+RANDR        RECORD       RENDER       RENDERUTIL   RES
+SCREENSAVER  SHAPE        SHM          SYNC         UTIL
+XF86DRI      XFIXES       XINERAMA     XINPUT       XKB
+XTEST        XV           XVMC
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If no components are specified, this module will act as though all components
+were passed to OPTIONAL_COMPONENTS. Before 5.82 this excluded XINPUT. Since 5.82
+all components are searched for.
+.sp
+This module will define the following variables, independently of the
+components searched for or found:
+.INDENT 0.0
+.TP
+.B \fBXCB_FOUND\fP
+True if (the requestion version of) xcb is available
+.TP
+.B \fBXCB_VERSION\fP
+Found xcb version
+.TP
+.B \fBXCB_TARGETS\fP
+A list of all targets imported by this module (note that there may be more
+than the components that were requested)
+.TP
+.B \fBXCB_LIBRARIES\fP
+This can be passed to target_link_libraries() instead of the imported
+targets
+.TP
+.B \fBXCB_INCLUDE_DIRS\fP
+This should be passed to target_include_directories() if the targets are
+not used for linking
+.TP
+.B \fBXCB_DEFINITIONS\fP
+This should be passed to target_compile_options() if the targets are not
+used for linking
+.UNINDENT
+.sp
+For each searched\-for components, \fBXCB_<component>_FOUND\fP will be set to
+true if the corresponding xcb library was found, and false otherwise.  If
+\fBXCB_<component>_FOUND\fP is true, the imported target \fBXCB::<component>\fP
+will be defined.  This module will also attempt to determine
+\fBXCB_*_VERSION\fP variables for each imported target, although
+\fBXCB_VERSION\fP should normally be sufficient.
+.sp
+In general we recommend using the imported targets, as they are easier to use
+and provide more control.  Bear in mind, however, that if any target is in the
+link interface of an exported library, it must be made available by the
+package config file.
+.sp
+Since pre\-1.0.0.
+.SS Findepoxy
+.sp
+Try to find libepoxy on a Unix system.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBepoxy_FOUND\fP
+True if (the requested version of) libepoxy is available
+.TP
+.B \fBepoxy_VERSION\fP
+The version of libepoxy
+.TP
+.B \fBepoxy_LIBRARIES\fP
+This should be passed to target_link_libraries() if the target is not
+used for linking
+.TP
+.B \fBepoxy_INCLUDE_DIRS\fP
+This should be passed to target_include_directories() if the target is not
+used for linking
+.TP
+.B \fBepoxy_DEFINITIONS\fP
+This should be passed to target_compile_options() if the target is not
+used for linking
+.TP
+.B \fBepoxy_HAS_GLX\fP
+True if GLX support is available
+.UNINDENT
+.sp
+If \fBepoxy_FOUND\fP is TRUE, it will also define the following imported target:
+.INDENT 0.0
+.TP
+.B \fBepoxy::epoxy\fP
+The epoxy library
+.UNINDENT
+.sp
+In general we recommend using the imported target, as it is easier to use.
+Bear in mind, however, that if the target is in the link interface of an
+exported library, it must be made available by the package config file.
+.SS Findgzip
+.sp
+Try to find gzip.
+.sp
+If the gzip executable is not in your PATH, you can provide
+an alternative name or full path location with the \fBgzip_EXECUTABLE\fP
+variable.
+.sp
+This will define the following variables:
+.INDENT 0.0
+.TP
+.B \fBgzip_FOUND\fP
+TRUE if gzip is available
+.TP
+.B \fBgzip_EXECUTABLE\fP
+Path to gzip executable
+.UNINDENT
+.sp
+If \fBgzip_FOUND\fP is TRUE, it will also define the following imported
+target:
+.INDENT 0.0
+.TP
+.B \fBgzip::gzip\fP
+Path to gzip executable
+.UNINDENT
+.sp
+Since 5.85.0.
+.SH SEE ALSO
+.sp
+\fI\%ecm(7)\fP, \fI\%ecm\-modules(7)\fP, \fI\%ecm\-kde\-modules(7)\fP
+.SH COPYRIGHT
+KDE Developers
+.\" Generated by docutils manpage writer.
+.

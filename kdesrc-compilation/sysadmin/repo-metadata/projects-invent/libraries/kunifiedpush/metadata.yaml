@@ -1,0 +1,7 @@
+description: UnifiedPush client components
+hasrepo: true
+identifier: kunifiedpush
+name: KUnifiedPush
+projectpath: libraries/kunifiedpush
+repoactive: true
+repopath: libraries/kunifiedpush

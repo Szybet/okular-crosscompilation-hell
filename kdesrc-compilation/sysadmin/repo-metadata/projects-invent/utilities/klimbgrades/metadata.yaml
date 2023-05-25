@@ -1,0 +1,7 @@
+description: Conversion utility for the difficulty rating of rock climbs
+hasrepo: true
+identifier: klimbgrades
+name: Klimbgrades
+projectpath: playground/utils/klimbgrades
+repoactive: true
+repopath: utilities/klimbgrades

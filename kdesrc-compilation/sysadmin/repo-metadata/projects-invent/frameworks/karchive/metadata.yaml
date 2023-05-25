@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-karchive
+description: Qt 5 addon providing access to numerous types of archives
+hasrepo: true
+identifier: karchive
+name: KArchive
+projectpath: frameworks/karchive
+repoactive: true
+repopath: frameworks/karchive

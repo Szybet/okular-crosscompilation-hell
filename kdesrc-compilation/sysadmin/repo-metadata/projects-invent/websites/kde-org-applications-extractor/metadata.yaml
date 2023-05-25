@@ -1,0 +1,7 @@
+description: Code to generate the kde.org/applications metadata
+hasrepo: true
+identifier: websites-kde-org-applications-extractor
+name: KDE.org Applications Metadata Extractor
+projectpath: websites/kde-org-applications-extractor
+repoactive: false
+repopath: websites/kde-org-applications-extractor

@@ -1,0 +1,9 @@
+description: Audio recorder for Plasma Mobile and other platforms
+hasrepo: true
+identifier: krecorder
+name: KRecorder
+projectpath: extragear/utils/krecorder
+repoactive: true
+repopath: utilities/krecorder
+bugzilla:
+    product: krecorder

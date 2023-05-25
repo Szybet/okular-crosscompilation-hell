@@ -1,0 +1,7 @@
+description: Tools and scripts used to build Necessitas SDK.
+hasrepo: true
+identifier: necessitas-tools
+name: Necessitas tools and scripts
+projectpath: unmaintained/necessitas/necessitas-tools
+repoactive: false
+repopath: unmaintained/necessitas-tools

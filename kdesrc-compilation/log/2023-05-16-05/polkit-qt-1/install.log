@@ -1,0 +1,47 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/kdesupport/polkit-qt-1
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-action.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-actionbutton.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-actionbuttons.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-authority.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-details.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-identity.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-subject.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-temporaryauthorization.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-actiondescription.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-agent-listener.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-agent-session.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-version.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-core-export.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-export.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-agent-export.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Authority
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Details
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Identity
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Subject
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/TemporaryAuthorization
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/ActionDescription
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Gui/Action
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Gui/ActionButton
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Gui/ActionButtons
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Agent/Listener
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Agent/Session
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-1.pc
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-core-1.pc
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-gui-1.pc
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-agent-1.pc
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Config.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1ConfigVersion.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Targets.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Targets-noconfig.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-core-1.so.1.114.0
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-core-1.so.1
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-core-1.so
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-gui-1.so.1.114.0
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-gui-1.so.1
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-gui-1.so
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-agent-1.so.1.114.0
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-agent-1.so.1
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-agent-1.so

@@ -1,0 +1,7 @@
+description: Tooling for monitoring inotify limits and informing the user when they have been or about to be reached.
+hasrepo: true
+identifier: kde-inotify-survey
+name: Inotify Survey
+projectpath: extragear/system/kde-inotify-survey
+repoactive: true
+repopath: system/kde-inotify-survey

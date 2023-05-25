@@ -1,0 +1,10 @@
+bugzilla:
+  product: kmail2
+  __do_not_use-legacy-product: kmail
+description: State-of-the-art feature-rich email client that supports many protocols
+hasrepo: true
+identifier: kmail
+name: KMail
+projectpath: kde/pim/kmail
+repoactive: true
+repopath: pim/kmail

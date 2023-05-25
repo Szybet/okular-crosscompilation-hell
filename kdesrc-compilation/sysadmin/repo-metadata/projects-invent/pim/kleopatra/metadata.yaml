@@ -1,0 +1,9 @@
+description: Certificate manager and GUI for OpenPGP and CMS cryptography
+hasrepo: true
+identifier: kleopatra
+name: Kleopatra
+projectpath: kde/pim/kleopatra
+repoactive: true
+repopath: pim/kleopatra
+bugzilla:
+    product: kleopatra

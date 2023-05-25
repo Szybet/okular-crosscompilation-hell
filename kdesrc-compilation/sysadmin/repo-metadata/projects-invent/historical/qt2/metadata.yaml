@@ -1,0 +1,7 @@
+description: Historical copy of Qt 2, adapted to compile on modern systems (circa. 2018)
+hasrepo: true
+identifier: qt2
+name: 'Historical - Qt 2'
+projectpath: historical/qt2
+repoactive: true
+repopath: historical/qt2

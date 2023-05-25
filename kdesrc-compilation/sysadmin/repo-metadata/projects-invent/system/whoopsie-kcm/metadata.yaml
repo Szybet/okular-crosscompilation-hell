@@ -1,0 +1,7 @@
+description: A KCM for talking to Ubuntu error tracker submission system Whoopsie
+hasrepo: true
+identifier: whoopsie-kcm
+name: Whoopsie KCM
+projectpath: playground/base/whoopsie-kcm
+repoactive: false
+repopath: system/whoopsie-kcm

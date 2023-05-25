@@ -1,0 +1,7 @@
+description: Library which provides support for mail applications
+hasrepo: true
+identifier: mailcommon
+name: PIM MailCommon
+projectpath: kde/pim/mailcommon
+repoactive: true
+repopath: pim/mailcommon

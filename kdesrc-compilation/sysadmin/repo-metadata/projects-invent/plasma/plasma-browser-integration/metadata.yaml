@@ -1,0 +1,9 @@
+description: Components necessary to integrate browsers into the Plasma Desktop
+hasrepo: true
+identifier: plasma-browser-integration
+name: Plasma Browser Integration
+projectpath: kde/workspace/plasma-browser-integration
+repoactive: true
+repopath: plasma/plasma-browser-integration
+bugzilla:
+    product: plasma-browser-integration

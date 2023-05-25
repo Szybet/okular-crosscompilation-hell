@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmag
+description: Screen magnifier
+hasrepo: true
+identifier: kmag
+name: KMag
+projectpath: kde/kdeaccessibility/kmag
+repoactive: true
+repopath: accessibility/kmag

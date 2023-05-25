@@ -1,0 +1,7 @@
+description: Wayland Server Components built on KDE Frameworks
+hasrepo: true
+identifier: kwayland-server
+name: KWayland Server
+projectpath: kde/workspace/kwayland-server
+repoactive: false
+repopath: plasma/kwayland-server

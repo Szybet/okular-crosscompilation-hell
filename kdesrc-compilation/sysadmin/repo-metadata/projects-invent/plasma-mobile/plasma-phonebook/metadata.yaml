@@ -1,0 +1,9 @@
+description: Phone book for Plasma Mobile
+hasrepo: true
+identifier: plasma-phonebook
+name: Plasma Mobile Phonebook
+projectpath: extragear/base/plasma-phonebook
+repoactive: true
+repopath: plasma-mobile/plasma-phonebook
+bugzilla:
+    product: plasma-phonebook

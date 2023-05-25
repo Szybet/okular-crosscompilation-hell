@@ -1,0 +1,9 @@
+bugzilla:
+  product: step
+description: Interactive physics simulator
+hasrepo: true
+identifier: step
+name: Step
+projectpath: kde/kdeedu/step
+repoactive: true
+repopath: education/step

@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kidletime
+description: KIdleTime
+hasrepo: true
+identifier: kidletime
+name: KIdleTime
+projectpath: frameworks/kidletime
+repoactive: true
+repopath: frameworks/kidletime

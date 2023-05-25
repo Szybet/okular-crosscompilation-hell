@@ -1,0 +1,7 @@
+description: Thumbnailers for various graphics file formats
+hasrepo: true
+identifier: kdegraphics-thumbnailers
+name: Thumbnailers
+projectpath: kde/kdegraphics/kdegraphics-thumbnailers
+repoactive: true
+repopath: graphics/kdegraphics-thumbnailers

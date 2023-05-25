@@ -1,0 +1,427 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qca-pkcs11.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qca-pkcs11.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreListContext_t {
+    QByteArrayData data[4];
+    char stringdata0[62];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreListContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreListContext_t qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreListContext = {
+    {
+QT_MOC_LITERAL(0, 0, 42), // "pkcs11QCAPlugin::pkcs11KeySto..."
+QT_MOC_LITERAL(1, 43, 7), // "doReady"
+QT_MOC_LITERAL(2, 51, 0), // ""
+QT_MOC_LITERAL(3, 52, 9) // "doUpdated"
+
+    },
+    "pkcs11QCAPlugin::pkcs11KeyStoreListContext\0"
+    "doReady\0\0doUpdated"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_pkcs11QCAPlugin__pkcs11KeyStoreListContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   24,    2, 0x08 /* Private */,
+       3,    0,   25,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void pkcs11QCAPlugin::pkcs11KeyStoreListContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<pkcs11KeyStoreListContext *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->doReady(); break;
+        case 1: _t->doUpdated(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject pkcs11QCAPlugin::pkcs11KeyStoreListContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<KeyStoreListContext::staticMetaObject>(),
+    qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreListContext.data,
+    qt_meta_data_pkcs11QCAPlugin__pkcs11KeyStoreListContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *pkcs11QCAPlugin::pkcs11KeyStoreListContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *pkcs11QCAPlugin::pkcs11KeyStoreListContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreListContext.stringdata0))
+        return static_cast<void*>(this);
+    return KeyStoreListContext::qt_metacast(_clname);
+}
+
+int pkcs11QCAPlugin::pkcs11KeyStoreListContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KeyStoreListContext::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_pkcs11QCAPlugin__pkcs11RSAContext_t {
+    QByteArrayData data[1];
+    char stringdata0[34];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_pkcs11QCAPlugin__pkcs11RSAContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_pkcs11QCAPlugin__pkcs11RSAContext_t qt_meta_stringdata_pkcs11QCAPlugin__pkcs11RSAContext = {
+    {
+QT_MOC_LITERAL(0, 0, 33) // "pkcs11QCAPlugin::pkcs11RSACon..."
+
+    },
+    "pkcs11QCAPlugin::pkcs11RSAContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_pkcs11QCAPlugin__pkcs11RSAContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void pkcs11QCAPlugin::pkcs11RSAContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject pkcs11QCAPlugin::pkcs11RSAContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<RSAContext::staticMetaObject>(),
+    qt_meta_stringdata_pkcs11QCAPlugin__pkcs11RSAContext.data,
+    qt_meta_data_pkcs11QCAPlugin__pkcs11RSAContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *pkcs11QCAPlugin::pkcs11RSAContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *pkcs11QCAPlugin::pkcs11RSAContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_pkcs11QCAPlugin__pkcs11RSAContext.stringdata0))
+        return static_cast<void*>(this);
+    return RSAContext::qt_metacast(_clname);
+}
+
+int pkcs11QCAPlugin::pkcs11RSAContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = RSAContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_pkcs11QCAPlugin__pkcs11PKeyContext_t {
+    QByteArrayData data[1];
+    char stringdata0[35];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_pkcs11QCAPlugin__pkcs11PKeyContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_pkcs11QCAPlugin__pkcs11PKeyContext_t qt_meta_stringdata_pkcs11QCAPlugin__pkcs11PKeyContext = {
+    {
+QT_MOC_LITERAL(0, 0, 34) // "pkcs11QCAPlugin::pkcs11PKeyCo..."
+
+    },
+    "pkcs11QCAPlugin::pkcs11PKeyContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_pkcs11QCAPlugin__pkcs11PKeyContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void pkcs11QCAPlugin::pkcs11PKeyContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject pkcs11QCAPlugin::pkcs11PKeyContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<PKeyContext::staticMetaObject>(),
+    qt_meta_stringdata_pkcs11QCAPlugin__pkcs11PKeyContext.data,
+    qt_meta_data_pkcs11QCAPlugin__pkcs11PKeyContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *pkcs11QCAPlugin::pkcs11PKeyContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *pkcs11QCAPlugin::pkcs11PKeyContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_pkcs11QCAPlugin__pkcs11PKeyContext.stringdata0))
+        return static_cast<void*>(this);
+    return PKeyContext::qt_metacast(_clname);
+}
+
+int pkcs11QCAPlugin::pkcs11PKeyContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = PKeyContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext_t {
+    QByteArrayData data[1];
+    char stringdata0[44];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext_t qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext = {
+    {
+QT_MOC_LITERAL(0, 0, 43) // "pkcs11QCAPlugin::pkcs11KeySto..."
+
+    },
+    "pkcs11QCAPlugin::pkcs11KeyStoreEntryContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void pkcs11QCAPlugin::pkcs11KeyStoreEntryContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject pkcs11QCAPlugin::pkcs11KeyStoreEntryContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<KeyStoreEntryContext::staticMetaObject>(),
+    qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext.data,
+    qt_meta_data_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *pkcs11QCAPlugin::pkcs11KeyStoreEntryContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *pkcs11QCAPlugin::pkcs11KeyStoreEntryContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_pkcs11QCAPlugin__pkcs11KeyStoreEntryContext.stringdata0))
+        return static_cast<void*>(this);
+    return KeyStoreEntryContext::qt_metacast(_clname);
+}
+
+int pkcs11QCAPlugin::pkcs11KeyStoreEntryContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KeyStoreEntryContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_pkcs11Plugin_t {
+    QByteArrayData data[1];
+    char stringdata0[13];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_pkcs11Plugin_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_pkcs11Plugin_t qt_meta_stringdata_pkcs11Plugin = {
+    {
+QT_MOC_LITERAL(0, 0, 12) // "pkcs11Plugin"
+
+    },
+    "pkcs11Plugin"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_pkcs11Plugin[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void pkcs11Plugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject pkcs11Plugin::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_pkcs11Plugin.data,
+    qt_meta_data_pkcs11Plugin,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *pkcs11Plugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *pkcs11Plugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_pkcs11Plugin.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "QCAPlugin"))
+        return static_cast< QCAPlugin*>(this);
+    if (!strcmp(_clname, "com.affinix.qca.Plugin/1.0"))
+        return static_cast< QCAPlugin*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int pkcs11Plugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+QT_PLUGIN_METADATA_SECTION
+static constexpr unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x1a,  'c',  'o',  'm',  '.',  'a', 
+    'f',  'f',  'i',  'n',  'i',  'x',  '.',  'q', 
+    'c',  'a',  '.',  'P',  'l',  'u',  'g',  'i', 
+    'n',  '/',  '1',  '.',  '0', 
+    // "className"
+    0x03,  0x6c,  'p',  'k',  'c',  's',  '1',  '1', 
+    'P',  'l',  'u',  'g',  'i',  'n', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(pkcs11Plugin, pkcs11Plugin)
+
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

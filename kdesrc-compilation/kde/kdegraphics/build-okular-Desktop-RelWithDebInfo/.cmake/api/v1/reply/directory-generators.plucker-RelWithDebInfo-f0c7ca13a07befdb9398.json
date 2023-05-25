@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"kcoreaddons_add_plugin",
+			"okular_add_generator"
+		],
+		"files" : 
+		[
+			"/usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake",
+			"generators/CMakeLists.txt",
+			"generators/plucker/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "lib/qt/plugins/okular/generators",
+			"paths" : 
+			[
+				"bin/plugins/okular/okularGenerator_plucker.so"
+			],
+			"targetId" : "okularGenerator_plucker::@3bfd4bcff3a569b8e1d6",
+			"targetIndex" : 123,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/kservices5",
+			"paths" : 
+			[
+				"generators/plucker/okularPlucker.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "okular",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"generators/plucker/okularApplication_plucker.desktop",
+				"generators/plucker/org.kde.mobile.okular_plucker.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "okular",
+			"destination" : "share/metainfo",
+			"paths" : 
+			[
+				"generators/plucker/org.kde.okular-plucker.metainfo.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/plucker",
+		"source" : "generators/plucker"
+	}
+}

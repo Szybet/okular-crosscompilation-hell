@@ -1,0 +1,7 @@
+description: This plugin brings qml and JavaScript language support to KDevelop
+hasrepo: true
+identifier: kdev-qmljs
+name: KDevelop QML and JS plugin
+projectpath: unmaintained/kdev-qmljs
+repoactive: false
+repopath: unmaintained/kdev-qmljs

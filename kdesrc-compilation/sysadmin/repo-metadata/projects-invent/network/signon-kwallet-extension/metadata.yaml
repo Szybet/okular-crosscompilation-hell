@@ -1,0 +1,7 @@
+description: KWallet integration for the SignOn framework (gitlab.com/accounts-sso)
+hasrepo: true
+identifier: signon-kwallet-extension
+name: SignOn KWallet Extension
+projectpath: kde/kdenetwork/signon-kwallet-extension
+repoactive: true
+repopath: network/signon-kwallet-extension

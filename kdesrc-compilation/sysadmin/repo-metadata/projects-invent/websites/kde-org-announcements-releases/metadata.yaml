@@ -1,0 +1,7 @@
+description: Website for KDE.org release announcements — kde.org/announcements/releases
+hasrepo: true
+identifier: websites-kde-org-announcements-releases
+name: KDE.org Release Announcements Subsite
+projectpath: websites/kde-org-announcements-releases
+repoactive: false
+repopath: websites/kde-org-announcements-releases

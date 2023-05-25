@@ -1,0 +1,33 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kio
+[  0%] Generating mo...
+[  0%] Generating moc_predefs.h
+[  1%] Automatic MOC for target KF5KIONTLM
+[  1%] Automatic MOC for target protocoltojson
+[  2%] Generating ts...
+[  2%] Automatic MOC for target kded_kcookiejar
+[  2%] Automatic MOC for target kcookiejar5
+[  2%] Built target kcm_webshortcuts_link
+[  2%] Automatic MOC for target KF5KIOCore
+[  2%] Built target tsfiles-583fb853a6311f5cf12fd043f323004c
+[  2%] Generating smb.json
+[  2%] Built target KF5KIONTLM_autogen
+[  2%] Built target kcookiejar5_autogen
+[  2%] Built target protocoltojson_autogen
+/bin/sh: line 1: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/desktoptojson: cannot execute binary file: Exec format error
+make[2]: *** [src/kcms/smb/CMakeFiles/kcm_smb_autogen.dir/build.make:75: src/kcms/smb/smb.json] Error 126
+make[1]: *** [CMakeFiles/Makefile2:2807: src/kcms/smb/CMakeFiles/kcm_smb_autogen.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  2%] Automatic MOC for target kpac_dhcp_helper
+[  2%] Generating kioworker.tar.bz2
+[  2%] Built target kcm_proxy_link
+[  2%] Building CXX object src/protocoltojson/CMakeFiles/protocoltojson.dir/main.cpp.o
+[  2%] Building CXX object src/protocoltojson/CMakeFiles/protocoltojson.dir/protocoltojson_autogen/mocs_compilation.cpp.o
+[  2%] Built target kioworker_kapptemplate
+[  2%] Built target kpac_dhcp_helper_autogen
+[  2%] Built target kded_kcookiejar_autogen
+[  2%] Built target pofiles-583fb853a6311f5cf12fd043f323004c
+[  3%] Linking CXX executable ../../bin/protocoltojson
+[  3%] Built target protocoltojson
+[  3%] Built target KF5KIOCore_autogen
+make: *** [Makefile:136: all] Error 2

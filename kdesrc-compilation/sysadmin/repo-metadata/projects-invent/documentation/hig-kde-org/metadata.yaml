@@ -1,0 +1,7 @@
+description: KDE Human Interface Guidelines website
+hasrepo: true
+identifier: websites-hig-kde-org
+name: KDE Human Interface Guidelines website
+projectpath: websites/hig-kde-org
+repoactive: false
+repopath: documentation/hig-kde-org

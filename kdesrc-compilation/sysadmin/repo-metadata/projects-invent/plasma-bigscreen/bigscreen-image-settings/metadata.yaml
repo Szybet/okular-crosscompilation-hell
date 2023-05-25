@@ -1,0 +1,7 @@
+description: Recipes and other materials needed to build Plasma Bigscreen images
+hasrepo: true
+identifier: bigscreen-image-settings
+name: Plasma Bigscreen OS Image Settings
+projectpath: playground/utils/bigscreen-image-settings
+repoactive: true
+repopath: plasma-bigscreen/bigscreen-image-settings

@@ -1,0 +1,7 @@
+description: Mycroft integration library using a mock api to integrate apps as skill in mycroft
+hasrepo: true
+identifier: libqmycroft
+name: LibQMycroft
+projectpath: playground/libs/libqmycroft
+repoactive: true
+repopath: libraries/libqmycroft

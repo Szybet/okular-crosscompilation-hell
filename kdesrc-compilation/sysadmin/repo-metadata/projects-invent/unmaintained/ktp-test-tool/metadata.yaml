@@ -1,0 +1,10 @@
+description: 'A tool for testing out the various components of the KDE Telepathy.
+
+
+  DEPRECATED'
+hasrepo: true
+identifier: ktp-test-tool
+name: Telepathy Test Tool
+projectpath: unmaintained/ktp-test-tool
+repoactive: false
+repopath: unmaintained/ktp-test-tool

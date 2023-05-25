@@ -1,0 +1,9 @@
+bugzilla:
+  product: kcolorchooser
+description: A small utility to select a color
+hasrepo: true
+identifier: kcolorchooser
+name: KColorChooser
+projectpath: kde/kdegraphics/kcolorchooser
+repoactive: true
+repopath: graphics/kcolorchooser

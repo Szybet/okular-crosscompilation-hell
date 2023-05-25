@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'reset' '--hard' 'origin/kf5'
+# from directory: /home/szybet/kdesrc/frameworks/kparts
+HEAD is now at 2f89938 API dox: fix missing @endcode and wrong inline usage of @param

@@ -1,0 +1,7 @@
+description: Utility for annotating images
+hasrepo: true
+identifier: libkimageannotator
+name: KImageAnnotator
+projectpath: playground/libs/libkimageannotator
+repoactive: false
+repopath: libraries/libkimageannotator

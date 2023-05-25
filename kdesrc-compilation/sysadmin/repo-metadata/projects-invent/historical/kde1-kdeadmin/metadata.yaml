@@ -1,0 +1,7 @@
+description: Historical copy of the admin applications module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdeadmin
+name: 'Historical - KDE 1 - KDEAdmin'
+projectpath: historical/kde1-kdeadmin
+repoactive: true
+repopath: historical/kde1-kdeadmin

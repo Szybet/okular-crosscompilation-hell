@@ -1,0 +1,7 @@
+description: 'Set of configuration modules which allows administrator to change polkit settings.'
+hasrepo: true
+identifier: polkit-kde-kcmodules-1
+name: Polkit KDE Configuration
+projectpath: playground/system/polkit-kde-kcmodules-1
+repoactive: false
+repopath: system/polkit-kde-kcmodules-1

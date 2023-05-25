@@ -1,0 +1,141 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kauth/src/kauth-policy-gen_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kauth",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kauth/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kauth/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kauth/src/CMakeLists.txt",
+		"/home/szybet/kdesrc/frameworks/kauth/src/ConfigureChecks.cmake",
+		"/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1ConfigVersion.cmake",
+		"/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Config.cmake",
+		"/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Targets.cmake",
+		"/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Targets-noconfig.cmake",
+		"/home/szybet/kdesrc/frameworks/kauth/src/BackendsConfig.h.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQmLoader.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kauth",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/frameworks/kauth/src/policy-gen/policy-gen.h",
+			"Mu",
+			"BUJG56RMWN/moc_policy-gen.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kauth/src/kauth-policy-gen_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/kauth/src/kauth-policy-gen_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KF_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"KF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x55f00",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kauth/src",
+		"/home/szybet/kdesrc/frameworks/kauth/src",
+		"/mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/kauth/src/kauth-policy-gen_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kauth/src/KF5AuthCore_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kauth/src/KF5AuthWidgets_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kauth/src/kf5authadaptor.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kauth/src/kf5authadaptor.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/kauth/src/CMakeFiles/kauth-policy-gen_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kauth/src/CMakeFiles/kauth-policy-gen_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/frameworks/kauth/src/backends/polkit-1/kauth-policy-gen-polkit1.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kauth/src/policy-gen/policy-gen.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

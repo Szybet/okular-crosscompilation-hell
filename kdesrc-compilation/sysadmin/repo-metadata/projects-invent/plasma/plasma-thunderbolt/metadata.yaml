@@ -1,0 +1,10 @@
+description: Plasma integration for controlling Thunderbolt devices
+hasrepo: true
+identifier: plasma-thunderbolt
+name: Plasma Thunderbolt Integration
+projectpath: kde/workspace/plasma-thunderbolt
+repoactive: true
+repopath: plasma/plasma-thunderbolt
+bugzilla:
+    product: systemsettings
+    component: kcm_thunderbolt

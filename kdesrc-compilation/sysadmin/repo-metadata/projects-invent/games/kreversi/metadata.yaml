@@ -1,0 +1,9 @@
+bugzilla:
+  product: kreversi
+description: KReversi is is a simple one player strategy game played against the computer
+hasrepo: true
+identifier: kreversi
+name: KReversi
+projectpath: kde/kdegames/kreversi
+repoactive: true
+repopath: games/kreversi

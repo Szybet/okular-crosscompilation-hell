@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'reset' '--hard' 'origin/master'
+# from directory: /home/szybet/kdesrc/kdesupport/polkit-qt-1
+HEAD is now at 590e710 .gitlab-ci.yml: enable static builds

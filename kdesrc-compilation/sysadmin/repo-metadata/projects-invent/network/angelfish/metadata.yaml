@@ -1,0 +1,9 @@
+description: Web browser for Plasma Mobile
+hasrepo: true
+identifier: angelfish
+name: Angelfish
+projectpath: extragear/base/angelfish
+repoactive: true
+repopath: network/angelfish
+bugzilla:
+    product: angelfish

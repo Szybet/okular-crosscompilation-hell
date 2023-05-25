@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+630bb787d1f898092aead766a6096e66 CMakeFiles/fetch-translations
+a58cc57a7d03c53791f53db8494a8782 CMakeFiles/uninstall
+9c2085dadb7cc367a0aacf6e57ad937a lib/CMakeFiles/qmobipocket_autogen
+3b00a0c9ba399b3449135c4707aa6ca0 releaseme

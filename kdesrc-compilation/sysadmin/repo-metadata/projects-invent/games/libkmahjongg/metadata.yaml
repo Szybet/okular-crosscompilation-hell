@@ -1,0 +1,7 @@
+description: Common code, backgrounds and tile sets for games using Mahjongg tiles
+hasrepo: true
+identifier: libkmahjongg
+name: libkmahjongg
+projectpath: kde/kdegames/libkmahjongg
+repoactive: true
+repopath: games/libkmahjongg

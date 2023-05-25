@@ -1,0 +1,7 @@
+description: Telegram client built using Kirigami
+hasrepo: true
+identifier: tok
+name: Tok
+projectpath: playground/network/tok
+repoactive: false
+repopath: network/tok

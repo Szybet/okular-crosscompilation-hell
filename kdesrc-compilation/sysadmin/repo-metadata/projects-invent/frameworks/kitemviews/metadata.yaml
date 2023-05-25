@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kitemviews
+description: KItemViews
+hasrepo: true
+identifier: kitemviews
+name: KItemViews
+projectpath: frameworks/kitemviews
+repoactive: true
+repopath: frameworks/kitemviews

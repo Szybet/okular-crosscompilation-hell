@@ -1,0 +1,7 @@
+description: Perl bindings for the Qt libraries.
+hasrepo: true
+identifier: perlqt
+name: PerlQt
+projectpath: kde/kdebindings/perl/perlqt
+repoactive: false
+repopath: unmaintained/perlqt

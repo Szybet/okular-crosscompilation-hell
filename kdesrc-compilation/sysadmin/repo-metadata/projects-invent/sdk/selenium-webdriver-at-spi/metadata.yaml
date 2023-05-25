@@ -1,0 +1,7 @@
+description: Selenium/Appium WebDriver implementation based on AT-SPI Accessibility
+hasrepo: true
+identifier: selenium-webdriver-at-spi
+name: Selenium Webdriver using AT-SPI
+projectpath: playground/sdk/selenium-webdriver-at-spi
+repoactive: true
+repopath: sdk/selenium-webdriver-at-spi

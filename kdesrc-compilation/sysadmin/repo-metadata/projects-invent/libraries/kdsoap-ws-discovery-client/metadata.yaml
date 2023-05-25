@@ -1,0 +1,7 @@
+description: Library for finding WS-Discovery devices in the network using Qt5 and KDSoap.
+hasrepo: true
+identifier: kdsoap-ws-discovery-client
+name: KDSoap WS-Discovery Client
+projectpath: playground/libs/kdsoap-ws-discovery-client
+repoactive: true
+repopath: libraries/kdsoap-ws-discovery-client

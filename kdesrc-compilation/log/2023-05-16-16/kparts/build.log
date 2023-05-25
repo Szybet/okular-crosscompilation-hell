@@ -1,0 +1,77 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kparts
+[  7%] Automatic MOC for target KF5Parts
+[  7%] Generating kpartsapp.tar.bz2
+[  7%] Generating mo...
+[ 10%] Generating ts...
+[ 10%] Built target tsfiles-98f9d85bc51520bfbaf4158518e9fbaa
+[ 10%] Built target kpartsapp_kapptemplate
+[ 10%] Built target pofiles-98f9d85bc51520bfbaf4158518e9fbaa
+[ 10%] Built target KF5Parts_autogen
+[ 20%] Building CXX object src/CMakeFiles/KF5Parts.dir/partmetadatautil_p.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KF5Parts.dir/part.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KF5Parts.dir/KF5Parts_autogen/mocs_compilation.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KF5Parts.dir/partbase.cpp.o
+[ 22%] Building CXX object src/CMakeFiles/KF5Parts.dir/partloader.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5Parts.dir/openurlarguments.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5Parts.dir/readonlypart.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5Parts.dir/readwritepart.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5Parts.dir/plugin.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/KF5Parts.dir/partmanager.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kparts/src/partloader.cpp:[m[K In lambda function:
+[01m[K/home/szybet/kdesrc/frameworks/kparts/src/partloader.cpp:122:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kint KPluginMetaData::initialPreference() const[m[K' is deprecated: Since 5.104. This feature is only used in KParts, read the key manually if needed [[01;35m[K-Wdeprecated-declarations[m[K]
+  122 |         return [01;35m[Kleft.initialPreference()[m[K > right.initialPreference();
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginfactory.h:15[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginFactory:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kparts/src/partloader.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kparts/src/partloader.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginmetadata.h:502:9:[m[K [01;36m[Knote: [m[Kdeclared here
+  502 |     int [01;36m[KinitialPreference[m[K() const;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kparts/src/partloader.cpp:122:66:[m[K [01;35m[Kwarning: [m[K'[01m[Kint KPluginMetaData::initialPreference() const[m[K' is deprecated: Since 5.104. This feature is only used in KParts, read the key manually if needed [[01;35m[K-Wdeprecated-declarations[m[K]
+  122 |         return left.initialPreference() > [01;35m[Kright.initialPreference()[m[K;
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginfactory.h:15[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginFactory:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kparts/src/partloader.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kparts/src/partloader.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginmetadata.h:502:9:[m[K [01;36m[Knote: [m[Kdeclared here
+  502 |     int [01;36m[KinitialPreference[m[K() const;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[ 37%] Building CXX object src/CMakeFiles/KF5Parts.dir/mainwindow.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/KF5Parts.dir/event.cpp.o
+[ 42%] Building CXX object src/CMakeFiles/KF5Parts.dir/guiactivateevent.cpp.o
+[ 45%] Building CXX object src/CMakeFiles/KF5Parts.dir/partactivateevent.cpp.o
+[ 47%] Building CXX object src/CMakeFiles/KF5Parts.dir/partselectevent.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/KF5Parts.dir/browserextension.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/KF5Parts.dir/browserhostextension.cpp.o
+[ 55%] Building CXX object src/CMakeFiles/KF5Parts.dir/browserarguments.cpp.o
+[ 57%] Building CXX object src/CMakeFiles/KF5Parts.dir/liveconnectextension.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/KF5Parts.dir/openurlevent.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/KF5Parts.dir/windowargs.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/KF5Parts.dir/historyprovider.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/KF5Parts.dir/browserinterface.cpp.o
+[ 70%] Building CXX object src/CMakeFiles/KF5Parts.dir/browserrun.cpp.o
+[ 72%] Building CXX object src/CMakeFiles/KF5Parts.dir/browseropenorsavequestion.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/KF5Parts.dir/statusbarextension.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/KF5Parts.dir/scriptableextension.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/KF5Parts.dir/textextension.cpp.o
+[ 82%] Building CXX object src/CMakeFiles/KF5Parts.dir/htmlextension.cpp.o
+[ 85%] Building CXX object src/CMakeFiles/KF5Parts.dir/htmlsettingsinterface.cpp.o
+[ 87%] Building CXX object src/CMakeFiles/KF5Parts.dir/selectorinterface.cpp.o
+[ 90%] Building CXX object src/CMakeFiles/KF5Parts.dir/fileinfoextension.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kparts/src/browserrun.cpp:[m[K In member function '[01m[Kvoid KParts::BrowserRun::slotCopyToTempFileResult(KJob*)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kparts/src/browserrun.cpp:530:99:[m[K [01;35m[Kwarning: [m[K'[01m[KKIO::JobUiDelegate::JobUiDelegate(KJobUiDelegate::Flags, QWidget*)[m[K' is deprecated: Since 5.98. use KIO::createDefaultJobUiDelegate or versioned constructor instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  530 |         job->setUiDelegate(new KIO::JobUiDelegate(KJobUiDelegate::AutoHandlingEnabled, d->m_window[01;35m[K)[m[K);
+      |                                                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KIOWidgets/KIO/JobUiDelegate:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kparts/src/browserrun.cpp:17[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KIOWidgets/kio/jobuidelegate.h:66:14:[m[K [01;36m[Knote: [m[Kdeclared here
+   66 |     explicit [01;36m[KJobUiDelegate[m[K(KJobUiDelegate::Flags flags, QWidget *window);
+      |              [01;36m[K^~~~~~~~~~~~~[m[K
+[ 92%] Building CXX object src/CMakeFiles/KF5Parts.dir/listingfilterextension.cpp.o
+[ 95%] Building CXX object src/CMakeFiles/KF5Parts.dir/listingnotificationextension.cpp.o
+[ 97%] Building CXX object src/CMakeFiles/KF5Parts.dir/kparts_logging.cpp.o
+[100%] Linking CXX shared library ../bin/libKF5Parts.so
+[100%] Built target KF5Parts

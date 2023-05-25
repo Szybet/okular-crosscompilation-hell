@@ -1,0 +1,9 @@
+description: Weather application for Plasma Mobile
+hasrepo: true
+identifier: kweather
+name: KWeather
+projectpath: extragear/utils/kweather
+repoactive: true
+repopath: utilities/kweather
+bugzilla:
+    product: kweather

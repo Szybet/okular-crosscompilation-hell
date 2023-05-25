@@ -1,0 +1,10 @@
+bugzilla:
+  product: ktuberling
+description: KTuberling is a simple constructor game suitable for children and adults
+  alike
+hasrepo: true
+identifier: ktuberling
+name: KTuberling
+projectpath: kde/kdegames/ktuberling
+repoactive: true
+repopath: games/ktuberling

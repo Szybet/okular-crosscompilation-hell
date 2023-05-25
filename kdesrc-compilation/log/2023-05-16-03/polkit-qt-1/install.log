@@ -1,0 +1,50 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/kdesupport/polkit-qt-1
+Install the project...
+-- Install configuration: ""
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-action.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-actionbutton.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-actionbuttons.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-authority.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-details.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-identity.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-subject.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-temporaryauthorization.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-actiondescription.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-agent-listener.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-agent-session.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-version.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-core-export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-gui-export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/polkitqt1-agent-export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Authority
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Details
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Identity
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Subject
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/TemporaryAuthorization
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/ActionDescription
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Gui/Action
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Gui/ActionButton
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Gui/ActionButtons
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Agent/Listener
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/polkit-qt5-1/PolkitQt1/Agent/Session
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-1.pc
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-core-1.pc
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-gui-1.pc
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/polkit-qt5-agent-1.pc
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Config.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1ConfigVersion.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Targets.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PolkitQt5-1/PolkitQt5-1Targets-noconfig.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-core-1.so.1.114.0
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-core-1.so.1
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-core-1.so.1.114.0" to ""
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-core-1.so
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-gui-1.so.1.114.0
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-gui-1.so.1
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-gui-1.so.1.114.0" to ""
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-gui-1.so
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-agent-1.so.1.114.0
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-agent-1.so.1
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-agent-1.so.1.114.0" to ""
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libpolkit-qt5-agent-1.so

@@ -1,0 +1,8 @@
+description: An OCS compatible web service for publishing application add-ons from
+  upstream projects directly to users via a git repository.
+hasrepo: true
+identifier: synchrotron-sources
+name: Synchrotron Sources
+projectpath: playground/www/synchrotron-sources
+repoactive: false
+repopath: unmaintained/synchrotron-sources

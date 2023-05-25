@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'clone' '--recursive' '-b' 'kf5' '--' 'kde:frameworks/kcompletion.git' '/home/szybet/kdesrc/frameworks/kcompletion'
+# from directory: /home/szybet/kdesrc
+Cloning into '/home/szybet/kdesrc/frameworks/kcompletion'...

@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: send-file
+description: File manager plugin to launch a file transfer job with a specified contact
+hasrepo: true
+identifier: ktp-send-file
+name: Telepathy Send File
+projectpath: kde/kdenetwork/ktp-send-file
+repoactive: true
+repopath: network/ktp-send-file

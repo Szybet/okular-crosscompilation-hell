@@ -1,0 +1,7 @@
+description: A MPlayer backend for the Phonon multimedia library.
+hasrepo: true
+identifier: phonon-mplayer
+name: Phonon MPlayer
+projectpath: unmaintained/phonon-mplayer
+repoactive: false
+repopath: unmaintained/phonon-mplayer

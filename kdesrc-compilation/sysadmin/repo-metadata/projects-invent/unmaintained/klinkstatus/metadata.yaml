@@ -1,0 +1,7 @@
+description: Tool to check the current status of links in a web page.
+hasrepo: true
+identifier: klinkstatus
+name: KLinkStatus
+projectpath: unmaintained/klinkstatus
+repoactive: false
+repopath: unmaintained/klinkstatus

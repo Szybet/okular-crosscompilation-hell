@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-kde-traditional-projects
+name: Traditional KDE Projects for Gerrit instance
+projectpath: sysadmin/gerrit-kde-traditional-projects
+repoactive: false
+repopath: sysadmin/gerrit-kde-traditional-projects

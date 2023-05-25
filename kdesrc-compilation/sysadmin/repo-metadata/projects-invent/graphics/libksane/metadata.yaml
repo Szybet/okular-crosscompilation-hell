@@ -1,0 +1,9 @@
+bugzilla:
+  product: libksane
+description: Library providing QWidget with all the logic to interface scanners
+hasrepo: true
+identifier: libksane
+name: libksane
+projectpath: kde/kdegraphics/libs/libksane
+repoactive: true
+repopath: graphics/libksane

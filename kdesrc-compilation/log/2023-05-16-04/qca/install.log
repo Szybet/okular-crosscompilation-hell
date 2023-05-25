@@ -1,0 +1,32 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/kdesupport/qca
+Install the project...
+-- Install configuration: ""
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/qca2-qt5.pc
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/features/crypto.prf
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/man/man1/qcatool-qt5.1
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqca-qt5.so.2.3.6
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqca-qt5.so.2
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/lib/libqca-qt5.so.2.3.6" to ""
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqca-qt5.so
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qcaprovider.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/QtCrypto
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_support.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_tools.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_core.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_textfilter.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_basic.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_publickey.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_cert.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_keystore.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_securelayer.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_securemessage.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_version.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qpipe.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_safetimer.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_export.h
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5Targets.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5Targets-noconfig.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5Config.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5ConfigVersion.cmake

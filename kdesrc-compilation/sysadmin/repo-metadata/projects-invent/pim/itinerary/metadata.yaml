@@ -1,0 +1,9 @@
+description: Itinerary and boarding pass management application
+hasrepo: true
+identifier: itinerary
+name: Itinerary
+projectpath: kde/pim/itinerary
+repoactive: true
+repopath: pim/itinerary
+bugzilla:
+  product: KDE Itinerary

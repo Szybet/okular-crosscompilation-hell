@@ -1,0 +1,7 @@
+description: Qt wrapper library around the libgit2 git access library
+hasrepo: true
+identifier: libqgit2
+name: libqgit2
+projectpath: playground/libs/libqgit2
+repoactive: true
+repopath: libraries/libqgit2

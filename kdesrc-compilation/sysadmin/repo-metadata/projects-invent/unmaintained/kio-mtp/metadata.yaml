@@ -1,0 +1,7 @@
+description: Provides KIO Access to MTP devices using the mtp:/// protocol.
+hasrepo: true
+identifier: kio-mtp
+name: MTP KIO Slave
+projectpath: unmaintained/kio-mtp
+repoactive: false
+repopath: unmaintained/kio-mtp

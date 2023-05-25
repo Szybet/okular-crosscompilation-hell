@@ -1,0 +1,7 @@
+description: Website for KGeoTag - kgeotag.kde.org
+hasrepo: true
+identifier: websites-kgeotag-kde-org
+name: KGeoTag Website
+projectpath: websites/kgeotag-kde-org
+repoactive: true
+repopath: websites/kgeotag-kde-org

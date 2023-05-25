@@ -1,0 +1,9 @@
+bugzilla:
+  product: knavalbattle
+description: Naval Battle is a ship sinking game
+hasrepo: true
+identifier: knavalbattle
+name: KNavalBattle
+projectpath: kde/kdegames/knavalbattle
+repoactive: true
+repopath: games/knavalbattle

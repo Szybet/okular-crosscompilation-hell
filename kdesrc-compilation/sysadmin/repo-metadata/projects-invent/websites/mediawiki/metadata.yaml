@@ -1,0 +1,7 @@
+description: Customized version of MediaWiki that was used by the KDE Wikis
+hasrepo: true
+identifier: websites-mediawiki
+name: KDE Wikis - MediaWiki
+projectpath: websites/mediawiki
+repoactive: false
+repopath: websites/mediawiki

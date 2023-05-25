@@ -1,0 +1,9 @@
+name: Peruse Comic Book Reader and Creator
+description: A comic book viewer and creator based on Frameworks 5, for use on multiple form factors
+identifier: peruse
+hasrepo: true
+projectpath: extragear/graphics/peruse
+repoactive: true
+repopath: graphics/peruse
+bugzilla:
+  product: peruse

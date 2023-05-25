@@ -1,0 +1,670 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kconfigdialog_unittest.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kconfigdialog_unittest.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_TextEditUserPropertyWidget_t {
+    QByteArrayData data[4];
+    char stringdata0[45];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TextEditUserPropertyWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TextEditUserPropertyWidget_t qt_meta_stringdata_TextEditUserPropertyWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 26), // "TextEditUserPropertyWidget"
+QT_MOC_LITERAL(1, 27, 11), // "textChanged"
+QT_MOC_LITERAL(2, 39, 0), // ""
+QT_MOC_LITERAL(3, 40, 4) // "text"
+
+    },
+    "TextEditUserPropertyWidget\0textChanged\0"
+    "\0text"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TextEditUserPropertyWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       1,   22, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   19,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+
+ // properties: name, type, flags
+       3, QMetaType::QString, 0x00595103,
+
+ // properties: notify_signal_id
+       0,
+
+       0        // eod
+};
+
+void TextEditUserPropertyWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<TextEditUserPropertyWidget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->textChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (TextEditUserPropertyWidget::*)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TextEditUserPropertyWidget::textChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<TextEditUserPropertyWidget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = _t->text(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        auto *_t = static_cast<TextEditUserPropertyWidget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setText(*reinterpret_cast< QString*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+QT_INIT_METAOBJECT const QMetaObject TextEditUserPropertyWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_TextEditUserPropertyWidget.data,
+    qt_meta_data_TextEditUserPropertyWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *TextEditUserPropertyWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TextEditUserPropertyWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TextEditUserPropertyWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int TextEditUserPropertyWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 1;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void TextEditUserPropertyWidget::textChanged(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_TextEditNoUserPropertyWidget_t {
+    QByteArrayData data[6];
+    char stringdata0[66];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TextEditNoUserPropertyWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TextEditNoUserPropertyWidget_t qt_meta_stringdata_TextEditNoUserPropertyWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 28), // "TextEditNoUserPropertyWidget"
+QT_MOC_LITERAL(1, 29, 11), // "textChanged"
+QT_MOC_LITERAL(2, 41, 0), // ""
+QT_MOC_LITERAL(3, 42, 4), // "text"
+QT_MOC_LITERAL(4, 47, 12), // "otherChanged"
+QT_MOC_LITERAL(5, 60, 5) // "other"
+
+    },
+    "TextEditNoUserPropertyWidget\0textChanged\0"
+    "\0text\0otherChanged\0other"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TextEditNoUserPropertyWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       2,   30, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   24,    2, 0x06 /* Public */,
+       4,    1,   27,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::QString,    5,
+
+ // properties: name, type, flags
+       3, QMetaType::QString, 0x00495103,
+       5, QMetaType::QString, 0x00595103,
+
+ // properties: notify_signal_id
+       0,
+       1,
+
+       0        // eod
+};
+
+void TextEditNoUserPropertyWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<TextEditNoUserPropertyWidget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->textChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->otherChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (TextEditNoUserPropertyWidget::*)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TextEditNoUserPropertyWidget::textChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (TextEditNoUserPropertyWidget::*)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TextEditNoUserPropertyWidget::otherChanged)) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<TextEditNoUserPropertyWidget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = _t->text(); break;
+        case 1: *reinterpret_cast< QString*>(_v) = _t->other(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        auto *_t = static_cast<TextEditNoUserPropertyWidget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setText(*reinterpret_cast< QString*>(_v)); break;
+        case 1: _t->setOther(*reinterpret_cast< QString*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+QT_INIT_METAOBJECT const QMetaObject TextEditNoUserPropertyWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_TextEditNoUserPropertyWidget.data,
+    qt_meta_data_TextEditNoUserPropertyWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *TextEditNoUserPropertyWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TextEditNoUserPropertyWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TextEditNoUserPropertyWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int TextEditNoUserPropertyWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void TextEditNoUserPropertyWidget::textChanged(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void TextEditNoUserPropertyWidget::otherChanged(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+struct qt_meta_stringdata_TextEditNoUserPropertyNoNotifyWidget_t {
+    QByteArrayData data[6];
+    char stringdata0[74];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TextEditNoUserPropertyNoNotifyWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TextEditNoUserPropertyNoNotifyWidget_t qt_meta_stringdata_TextEditNoUserPropertyNoNotifyWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 36), // "TextEditNoUserPropertyNoNotif..."
+QT_MOC_LITERAL(1, 37, 11), // "textChanged"
+QT_MOC_LITERAL(2, 49, 0), // ""
+QT_MOC_LITERAL(3, 50, 4), // "text"
+QT_MOC_LITERAL(4, 55, 12), // "otherChanged"
+QT_MOC_LITERAL(5, 68, 5) // "other"
+
+    },
+    "TextEditNoUserPropertyNoNotifyWidget\0"
+    "textChanged\0\0text\0otherChanged\0other"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TextEditNoUserPropertyNoNotifyWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       2,   30, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   24,    2, 0x06 /* Public */,
+       4,    1,   27,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::QString,    5,
+
+ // properties: name, type, flags
+       3, QMetaType::QString, 0x00095103,
+       5, QMetaType::QString, 0x00595103,
+
+ // properties: notify_signal_id
+       0,
+       1,
+
+       0        // eod
+};
+
+void TextEditNoUserPropertyNoNotifyWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<TextEditNoUserPropertyNoNotifyWidget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->textChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->otherChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (TextEditNoUserPropertyNoNotifyWidget::*)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TextEditNoUserPropertyNoNotifyWidget::textChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (TextEditNoUserPropertyNoNotifyWidget::*)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TextEditNoUserPropertyNoNotifyWidget::otherChanged)) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<TextEditNoUserPropertyNoNotifyWidget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = _t->text(); break;
+        case 1: *reinterpret_cast< QString*>(_v) = _t->other(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        auto *_t = static_cast<TextEditNoUserPropertyNoNotifyWidget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setText(*reinterpret_cast< QString*>(_v)); break;
+        case 1: _t->setOther(*reinterpret_cast< QString*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+QT_INIT_METAOBJECT const QMetaObject TextEditNoUserPropertyNoNotifyWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_TextEditNoUserPropertyNoNotifyWidget.data,
+    qt_meta_data_TextEditNoUserPropertyNoNotifyWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *TextEditNoUserPropertyNoNotifyWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TextEditNoUserPropertyNoNotifyWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TextEditNoUserPropertyNoNotifyWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int TextEditNoUserPropertyNoNotifyWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void TextEditNoUserPropertyNoNotifyWidget::textChanged(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void TextEditNoUserPropertyNoNotifyWidget::otherChanged(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+struct qt_meta_stringdata_KConfigDialog_UnitTest_t {
+    QByteArrayData data[12];
+    char stringdata0[474];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_KConfigDialog_UnitTest_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_KConfigDialog_UnitTest_t qt_meta_stringdata_KConfigDialog_UnitTest = {
+    {
+QT_MOC_LITERAL(0, 0, 22), // "KConfigDialog_UnitTest"
+QT_MOC_LITERAL(1, 23, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 36, 0), // ""
+QT_MOC_LITERAL(3, 37, 4), // "test"
+QT_MOC_LITERAL(4, 42, 37), // "testKConfigCompilerSignalsKno..."
+QT_MOC_LITERAL(5, 80, 42), // "testKConfigCompilerSignalsWit..."
+QT_MOC_LITERAL(6, 123, 50), // "testKConfigCompilerSignalsWit..."
+QT_MOC_LITERAL(7, 174, 55), // "testKConfigCompilerSignalsWit..."
+QT_MOC_LITERAL(8, 230, 52), // "testKConfigCompilerSignalsWit..."
+QT_MOC_LITERAL(9, 283, 60), // "testKConfigCompilerSignalsWit..."
+QT_MOC_LITERAL(10, 344, 65), // "testKConfigCompilerSignalsWit..."
+QT_MOC_LITERAL(11, 410, 63) // "testKConfigCompilerSignalsWit..."
+
+    },
+    "KConfigDialog_UnitTest\0initTestCase\0"
+    "\0test\0testKConfigCompilerSignalsKnownWidget\0"
+    "testKConfigCompilerSignalsWithUserProperty\0"
+    "testKConfigCompilerSignalsWithoutUserPropertyByMap\0"
+    "testKConfigCompilerSignalsWithoutUserPropertyByProperty\0"
+    "testKConfigCompilerSignalsWithUserPropertyAutoSignal\0"
+    "testKConfigCompilerSignalsWithoutUserPropertyByMapAutoSignal\0"
+    "testKConfigCompilerSignalsWithoutUserPropertyByPropertyAutoSignal\0"
+    "testKConfigCompilerSignalsWithoutUserPropertyByPropertyBySignal"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_KConfigDialog_UnitTest[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      10,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   64,    2, 0x08 /* Private */,
+       3,    0,   65,    2, 0x08 /* Private */,
+       4,    0,   66,    2, 0x08 /* Private */,
+       5,    0,   67,    2, 0x08 /* Private */,
+       6,    0,   68,    2, 0x08 /* Private */,
+       7,    0,   69,    2, 0x08 /* Private */,
+       8,    0,   70,    2, 0x08 /* Private */,
+       9,    0,   71,    2, 0x08 /* Private */,
+      10,    0,   72,    2, 0x08 /* Private */,
+      11,    0,   73,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void KConfigDialog_UnitTest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<KConfigDialog_UnitTest *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->test(); break;
+        case 2: _t->testKConfigCompilerSignalsKnownWidget(); break;
+        case 3: _t->testKConfigCompilerSignalsWithUserProperty(); break;
+        case 4: _t->testKConfigCompilerSignalsWithoutUserPropertyByMap(); break;
+        case 5: _t->testKConfigCompilerSignalsWithoutUserPropertyByProperty(); break;
+        case 6: _t->testKConfigCompilerSignalsWithUserPropertyAutoSignal(); break;
+        case 7: _t->testKConfigCompilerSignalsWithoutUserPropertyByMapAutoSignal(); break;
+        case 8: _t->testKConfigCompilerSignalsWithoutUserPropertyByPropertyAutoSignal(); break;
+        case 9: _t->testKConfigCompilerSignalsWithoutUserPropertyByPropertyBySignal(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject KConfigDialog_UnitTest::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_KConfigDialog_UnitTest.data,
+    qt_meta_data_KConfigDialog_UnitTest,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *KConfigDialog_UnitTest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KConfigDialog_UnitTest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_KConfigDialog_UnitTest.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int KConfigDialog_UnitTest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 10)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 10;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

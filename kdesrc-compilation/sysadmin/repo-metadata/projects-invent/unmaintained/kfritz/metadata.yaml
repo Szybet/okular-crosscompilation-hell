@@ -1,0 +1,10 @@
+description: 'A KDE call monitor and frontend for users of AVMs Fritz!Box routers.
+
+
+  You can download source-tarballs from github, see below.'
+hasrepo: true
+identifier: kfritz
+name: KFritz
+projectpath: unmaintained/kfritz
+repoactive: false
+repopath: unmaintained/kfritz

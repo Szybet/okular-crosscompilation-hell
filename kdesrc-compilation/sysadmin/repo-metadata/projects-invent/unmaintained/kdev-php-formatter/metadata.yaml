@@ -1,0 +1,7 @@
+description: KDevelop Plugin for PHPFormatter
+hasrepo: true
+identifier: kdev-php-formatter
+name: PHP Formatter Plugin
+projectpath: unmaintained/kdev-php-formatter
+repoactive: false
+repopath: unmaintained/kdev-php-formatter

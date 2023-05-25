@@ -1,0 +1,7 @@
+description: KDE client for Rocket Chat
+hasrepo: true
+identifier: ruqola
+name: Ruqola
+projectpath: extragear/network/ruqola
+repoactive: true
+repopath: network/ruqola

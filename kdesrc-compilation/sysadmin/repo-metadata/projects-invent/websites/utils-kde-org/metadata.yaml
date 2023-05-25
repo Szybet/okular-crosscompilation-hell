@@ -1,0 +1,7 @@
+description: Website for KDE's utilities — utils.kde.org
+hasrepo: true
+identifier: websites-utils-kde-org
+name: Utilities Website
+projectpath: websites/utils-kde-org
+repoactive: true
+repopath: websites/utils-kde-org

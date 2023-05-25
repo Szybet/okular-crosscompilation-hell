@@ -1,0 +1,7 @@
+description: Open-source HMI (Human Machine Interface) software written in C++ and QML
+hasrepo: true
+identifier: cutehmi
+name: CuteHMI
+projectpath: playground/base/cutehmi
+repoactive: true
+repopath: sdk/cutehmi

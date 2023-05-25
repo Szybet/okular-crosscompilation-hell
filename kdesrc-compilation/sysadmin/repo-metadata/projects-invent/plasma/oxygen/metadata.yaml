@@ -1,0 +1,9 @@
+description: The Oxygen Style for Qt/KDE Applications
+hasrepo: true
+identifier: oxygen
+name: Oxygen
+projectpath: kde/workspace/oxygen
+repoactive: true
+repopath: plasma/oxygen
+bugzilla:
+    product: Oxygen

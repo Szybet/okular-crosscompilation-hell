@@ -1,0 +1,9 @@
+bugzilla:
+  product: kubrick
+description: Kubrick is based on the famous Rubik's Cube
+hasrepo: true
+identifier: kubrick
+name: Kubrick
+projectpath: kde/kdegames/kubrick
+repoactive: true
+repopath: games/kubrick

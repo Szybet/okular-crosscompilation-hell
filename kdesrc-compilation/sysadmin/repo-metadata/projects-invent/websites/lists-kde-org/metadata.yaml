@@ -1,0 +1,7 @@
+description: Necessary code to redirect from lists.kde.org to appropriate mail archives
+hasrepo: true
+identifier: websites-lists-kde-org
+name: Lists.KDE.org Redirector
+projectpath: websites/lists-kde-org
+repoactive: true
+repopath: websites/lists-kde-org

@@ -1,0 +1,7 @@
+description: Historical copy of the gaming applications module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdegames
+name: 'Historical - KDE 1 - KDEGames'
+projectpath: historical/kde1-kdegames
+repoactive: true
+repopath: historical/kde1-kdegames

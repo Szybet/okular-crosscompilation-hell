@@ -1,0 +1,33 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kio/src/filewidgets/KF5KIOFileWidgets_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kio",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kio/src/filewidgets",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kio/src/filewidgets",
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kio",
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kio/src/filewidgets/KF5KIOFileWidgets_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/linkPath.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/TextFile.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/HTMLFile.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/linkURL.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/EmptyFile.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/linkProgram.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/Directory.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/TextFile.txt",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/HTMLFile.html",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/Program.desktop",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/EmptyFile",
+		"/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/URL.desktop"
+	],
+	"LOCK_FILE" : "/home/szybet/kdesrc/build/frameworks/kio/src/filewidgets/CMakeFiles/KF5KIOFileWidgets_autogen.dir/AutoRcc_templates_BBAKS3W2WL_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "templates" ],
+	"OUTPUT_CHECKSUM" : "BBAKS3W2WL",
+	"OUTPUT_NAME" : "qrc_templates.cpp",
+	"RCC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kio/src/filewidgets/CMakeFiles/KF5KIOFileWidgets_autogen.dir/AutoRcc_templates_BBAKS3W2WL_Used.txt",
+	"SOURCE" : "/home/szybet/kdesrc/frameworks/kio/src/new_file_templates/templates.qrc",
+	"VERBOSITY" : 0
+}

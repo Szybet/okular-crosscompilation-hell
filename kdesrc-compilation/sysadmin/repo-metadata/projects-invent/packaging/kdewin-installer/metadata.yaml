@@ -1,0 +1,7 @@
+description: Installer for KDE applications on Windows
+hasrepo: true
+identifier: kdewin-installer
+name: KDEWin Installer
+projectpath: kdesupport/kdewin-installer
+repoactive: true
+repopath: packaging/kdewin-installer

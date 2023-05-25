@@ -1,0 +1,7 @@
+description: Framework which provides convenience methods that make QFuture actually useful
+hasrepo: true
+identifier: asynqt
+name: AsynQt
+projectpath: playground/libs/asynqt
+repoactive: false
+repopath: libraries/asynqt

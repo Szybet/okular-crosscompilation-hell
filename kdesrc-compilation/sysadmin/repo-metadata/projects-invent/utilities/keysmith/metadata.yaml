@@ -1,0 +1,9 @@
+description: OTP client for Plasma Mobile and Desktop
+hasrepo: true
+identifier: keysmith
+name: Keysmith
+projectpath: extragear/utils/keysmith
+repoactive: true
+repopath: utilities/keysmith
+bugzilla:
+    product: keysmith

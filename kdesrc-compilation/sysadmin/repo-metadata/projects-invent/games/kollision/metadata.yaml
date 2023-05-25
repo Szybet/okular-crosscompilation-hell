@@ -1,0 +1,9 @@
+bugzilla:
+  product: kollision
+description: Kollision is a simple ball dodging game
+hasrepo: true
+identifier: kollision
+name: Kollision
+projectpath: kde/kdegames/kollision
+repoactive: true
+repopath: games/kollision

@@ -1,0 +1,10 @@
+bugzilla:
+  product: kbreakout
+description: KBreakout is a Breakout-like game. Its objective is to destroy as many
+  bricks as possible without losing the ball.
+hasrepo: true
+identifier: kbreakout
+name: KBreakOut
+projectpath: kde/kdegames/kbreakout
+repoactive: true
+repopath: games/kbreakout

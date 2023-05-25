@@ -1,0 +1,10 @@
+bugzilla:
+  product: frameworks-prison
+description: prison is a barcode api currently offering a nice Qt api to produce QRCode
+  barcodes and DataMatrix barcodes, and can easily be made support more.
+hasrepo: true
+identifier: prison
+name: Barcode library
+projectpath: frameworks/prison
+repoactive: true
+repopath: frameworks/prison

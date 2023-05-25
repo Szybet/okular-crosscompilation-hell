@@ -1,0 +1,7 @@
+description: Orchestrate multiple Craft instance configurations
+hasrepo: true
+identifier: craftmaster
+name: Craft Master
+projectpath: kdesupport/craftmaster
+repoactive: true
+repopath: packaging/craftmaster

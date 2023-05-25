@@ -1,0 +1,9 @@
+bugzilla:
+  product: kontactinterface
+description: Support libraries to assist integration with Kontact
+hasrepo: true
+identifier: kontactinterface
+name: KontactInterface
+projectpath: kde/pim/kontactinterface
+repoactive: true
+repopath: pim/kontactinterface

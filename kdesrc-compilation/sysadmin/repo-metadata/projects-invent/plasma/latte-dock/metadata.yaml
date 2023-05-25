@@ -1,0 +1,10 @@
+description: Replacement dock for Plasma desktops, providing an elegant and intuitive
+  experience for your tasks and plasmoids
+hasrepo: true
+identifier: latte-dock
+name: Latte Dock
+projectpath: extragear/base/latte-dock
+repoactive: true
+repopath: plasma/latte-dock
+bugzilla:
+    product: lattedock

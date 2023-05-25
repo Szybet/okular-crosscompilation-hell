@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-neon-server-deploy
+name: Neon Server Deployment Tooling
+projectpath: sysadmin/neon-server-deploy
+repoactive: false
+repopath: sysadmin/neon-server-deploy

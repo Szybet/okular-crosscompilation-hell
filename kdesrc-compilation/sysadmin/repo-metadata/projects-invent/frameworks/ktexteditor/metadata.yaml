@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-ktexteditor
+description: KTextEditor Framework
+hasrepo: true
+identifier: ktexteditor
+name: KTextEditor
+projectpath: frameworks/ktexteditor
+repoactive: true
+repopath: frameworks/ktexteditor

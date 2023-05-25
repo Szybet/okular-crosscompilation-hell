@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-neon-logind-cleanup
+name: Neon logind session cleaner
+projectpath: sysadmin/neon-logind-cleanup
+repoactive: false
+repopath: sysadmin/neon-logind-cleanup

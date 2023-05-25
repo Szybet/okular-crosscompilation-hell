@@ -1,0 +1,228 @@
+# kdesrc-build running: 'cmake' '-B' '.' '-S' '/home/szybet/kdesrc/kde/kdegraphics/okular' '-G' 'Unix Makefiles' '-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON' '-DCMAKE_TOOLCHAIN_FILE=/mnt/HDD/Project/Public/okulartry/kobo.cmake' '-DCMAKE_CXX_FLAGS:STRING=-pipe' '-DCMAKE_INSTALL_PREFIX=/mnt/HDD/Project/Public/okulartry/okular-things' '-DCMAKE_PREFIX_PATH=/home/build/inkbox/compiled-binaries/qt-bin/'
+# from directory: /home/szybet/kdesrc/build/kde/kdegraphics/okular
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Setting build type to 'Debug' as none was specified.
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+-- Performing Test _OFFT_IS_64BIT - Failed
+-- Performing Test HAVE_DATE_TIME
+-- Performing Test HAVE_DATE_TIME - Success
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/kde/kdegraphics/okular/prefix.sh to set the environment for okular.
+-- Found KF5Archive: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Archive/KF5ArchiveConfig.cmake (found version "5.107.0") 
+-- Found KF5Bookmarks: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Bookmarks/KF5BookmarksConfig.cmake (found version "5.107.0") 
+-- Found KF5Completion: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Completion/KF5CompletionConfig.cmake (found version "5.107.0") 
+-- Found KF5Config: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Config/KF5ConfigConfig.cmake (found version "5.107.0") 
+-- Found KF5ConfigWidgets: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsConfig.cmake (found version "5.107.0") 
+-- Found KF5CoreAddons: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsConfig.cmake (found version "5.107.0") 
+-- Found Gettext: /sbin/msgmerge (found version "0.21.1") 
+-- Found KF5I18n: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5I18n/KF5I18nConfig.cmake (found version "5.107.0") 
+-- Found KF5KIO: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5KIO/KF5KIOConfig.cmake (found version "5.107.0") 
+-- Found KF5ThreadWeaver: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5ThreadWeaver/KF5ThreadWeaverConfig.cmake (found version "5.107.0") 
+-- Found KF5WindowSystem: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5WindowSystem/KF5WindowSystemConfig.cmake (found version "5.107.0") 
+-- Found KF5: success (found suitable version "5.107.0", minimum required is "5.92.0") found components: Archive Bookmarks Completion Config ConfigWidgets CoreAddons I18n KIO ThreadWeaver WindowSystem 
+-- Found KF5Parts: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Parts/KF5PartsConfig.cmake (found version "5.107.0") 
+-- Found KF5Crash: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Crash/KF5CrashConfig.cmake (found version "5.107.0") 
+-- Found KF5IconThemes: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5IconThemes/KF5IconThemesConfig.cmake (found version "5.107.0") 
+-- Found KF5TextWidgets: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5TextWidgets/KF5TextWidgetsConfig.cmake (found version "5.107.0") 
+-- Found KF5: success (found suitable version "5.107.0", minimum required is "5.92.0") found components: Parts Crash IconThemes TextWidgets 
+-- Found KF5Activities: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Activities/KF5ActivitiesConfig.cmake (found version "5.107.0") 
+-- Found KF5: success (found suitable version "5.107.0", minimum required is "5.92.0") found components: Activities 
+-- Found ZLIB: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libz.so (found version "1.2.12")  
+-- Poppler: Qt5 requires Core
+-- Could NOT find Poppler_Core (missing: Poppler_Core_LIBRARY Poppler_Core_INCLUDE_DIR) (found version "23.05.0")
+-- Could NOT find Poppler_Qt5 (missing: Poppler_Qt5_LIBRARY Poppler_Qt5_INCLUDE_DIR Poppler_Core_FOUND) (found version "23.05.0")
+-- Could NOT find Poppler (missing: Poppler_LIBRARIES Qt5) (found suitable version "23.05.0", minimum required is "22.02.0")
+-- Could NOT find Freetype (missing: FREETYPE_LIBRARY FREETYPE_INCLUDE_DIRS) 
+-- Could NOT find TIFF (missing: TIFF_LIBRARY TIFF_INCLUDE_DIR) 
+-- Found JPEG: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libjpeg.so (found version "90") 
+CMake Warning (dev) at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (LibSpectre).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  cmake/modules/FindLibSpectre.cmake:16 (include)
+  CMakeLists.txt:224 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PkgConfig: /sbin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libspectre'
+--   Found libspectre, version 0.2.12
+-- Could NOT find LibSpectre (missing: LIBSPECTRE_LIBRARY) (Required is at least version "0.2")
+-- Could NOT find CHM (missing: CHM_INCLUDE_DIR CHM_LIBRARY) 
+-- Could NOT find LibZip (missing: LIBZIP_LIBRARY LIBZIP_INCLUDE_DIR) 
+-- Checking for module 'ddjvuapi'
+--   Found ddjvuapi, version 3.5.28
+-- Could NOT find DjVuLibre (missing: DJVULIBRE_INCLUDE_DIR DJVULIBRE_LIBRARY) (Required is at least version "3.5.28")
+-- Could NOT find EPub (missing: EPUB_LIBRARIES EPUB_INCLUDE_DIR) 
+-- Checking for module 'libmarkdown'
+--   Found libmarkdown, version 2.2.7c
+-- Found Discount: markdown  
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/kimgio/CMakeLists.txt:6 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/dvi/CMakeLists.txt:46 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/xps/CMakeLists.txt:10 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/fictionbook/CMakeLists.txt:13 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/comicbook/CMakeLists.txt:16 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/fax/CMakeLists.txt:8 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/plucker/CMakeLists.txt:18 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/txt/CMakeLists.txt:13 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/mobipocket/CMakeLists.txt:12 (okular_add_generator)
+
+
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake:190 (message):
+  Setting the JSON parameter is deprecated, see function docs for details
+Call Stack (most recent call first):
+  generators/CMakeLists.txt:3 (kcoreaddons_add_plugin)
+  generators/markdown/CMakeLists.txt:12 (okular_add_generator)
+
+
+-- Looking for malloc_trim
+-- Looking for malloc_trim - found
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- The following RECOMMENDED packages have been found:
+
+ * KF5Wallet (required version >= 5.92.0)
+   Required for document storing passwords in secure wallets. You can make the dependency optional adding KF5Wallet to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * JPEG, A library for reading and writing JPEG image files., <https://www.ijg.org>
+   Support for PalmDB documents in okular. You can make the dependency optional adding JPEG to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5KExiv2, Wrapper around Exiv2 library, <https://commits.kde.org/libkexiv2>
+   Support for exif rotation in image files. You can make the dependency optional adding KF5KExiv2 to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5JS (required version >= 5.106.0)
+   Required for supporting JavaScript in PDF documents You can make the dependency optional adding KF5JS to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5KHtml, HTML rendering library
+   Support CHM files in okular. You can make the dependency optional adding KF5KHtml to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * Discount, A library that gives you formatting functions suitable for marking down entire documents or lines of text, <https://www.pell.portland.or.us/~orc/Code/discount/>
+   Support for Markdown documents in Okular. You can make the dependency optional adding Discount to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.92.0)
+ * Qt5Test
+ * Qt5PrintSupport
+ * Qt5Svg
+ * KF5Archive (required version >= 5.92.0)
+ * KF5Config (required version >= 5.106.0)
+ * KF5Bookmarks (required version >= 5.106.0)
+ * KF5Completion (required version >= 5.106.0)
+ * KF5ConfigWidgets (required version >= 5.106.0)
+ * KF5ThreadWeaver (required version >= 5.92.0)
+ * KF5WindowSystem (required version >= 5.92.0)
+ * Qt5DBus
+ * Qt5 (required version >= 5.15.2)
+ * KF5KIO (required version >= 5.106.0)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * KF5Crash (required version >= 5.92.0)
+ * KF5IconThemes (required version >= 5.92.0)
+ * KF5TextWidgets (required version >= 5.92.0)
+ * KF5Purpose, A framework for services and actions integration
+   Required for enabling the share menu. You can make the dependency optional adding KF5Purpose to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * KF5Activities (required version >= 5.92.0), Activities interface library, <https://api.kde.org/frameworks/kactivities/html/>
+   Required for Activities integration.
+ * KF5 (required version >= 5.92.0)
+ * Qt5Widgets
+ * Phonon4Qt5
+ * ZLIB
+ * KF5Parts (required version >= 5.106.0)
+ * Qt5Gui (required version >= 5.12.0)
+ * QMobipocket (required version >= 2), A library for reading Mobipocket documents, <https://commits.kde.org/kdegraphics-mobipocket>
+   Support for Mobipocket documents in Okular. You can make the dependency optional adding QMobipocket to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * PkgConfig
+ * Qt5Core (required version >= 5.15.2)
+ * KF5Pty
+
+-- The following RECOMMENDED packages have not been found:
+
+ * Poppler (required version >= 22.02.0), A PDF rendering library, <https://poppler.freedesktop.org/>
+   Support for PDF files in okular. You can make the dependency optional adding Poppler to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * Freetype, A font rendering engine, <https://www.freetype.org>
+   Provides freetype font support in the okular DVI generator. You can make the dependency optional adding Freetype to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * TIFF, A library for reading and writing TIFF formatted files,, <http://www.libtiff.org>
+   Support for TIFF files in okular. You can make the dependency optional adding TIFF to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * LibSpectre (required version >= 0.2), A PostScript rendering library, <https://libspectre.freedesktop.org>
+   Support for PS files in okular. You can make the dependency optional adding LibSpectre to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * CHM, A library for dealing with Microsoft ITSS/CHM format files, <http://www.jedrea.com/chmlib>
+   Support CHM files in okular. You can make the dependency optional adding CHM to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * LibZip, A library for reading, creating, and modifying zip archives, <https://libzip.org/>
+   Support CHM files in okular. You can make the dependency optional adding LibZip to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * DjVuLibre (required version >= 3.5.28), A library for dealing with DjVu formatted files, <https://djvulibre.djvuzone.org>
+   Support for DjVu files in okular. You can make the dependency optional adding DjVuLibre to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+ * EPub, A library for reading EPub documents, <http://sourceforge.net/projects/ebook-tools>
+   Support for EPub documents in Okular. You can make the dependency optional adding EPub to the FORCE_NOT_REQUIRED_DEPENDENCIES cmake option
+
+-- Building Desktop User Interface: ON
+-- Building Mobile Interface: OFF
+
+-- Configuring done (1.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/szybet/kdesrc/build/kde/kdegraphics/okular

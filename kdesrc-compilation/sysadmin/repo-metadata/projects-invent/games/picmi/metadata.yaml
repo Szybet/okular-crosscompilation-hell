@@ -1,0 +1,9 @@
+bugzilla:
+  product: picmi
+description: A nonogram logic game by KDE
+hasrepo: true
+identifier: picmi
+name: Picmi
+projectpath: kde/kdegames/picmi
+repoactive: true
+repopath: games/picmi

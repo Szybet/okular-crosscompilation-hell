@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'clone' '--recursive' '-b' 'master' '--' 'kde:libraries/plasma-wayland-protocols.git' '/home/szybet/kdesrc/kdesupport/plasma-wayland-protocols'
+# from directory: /home/szybet/kdesrc
+Cloning into '/home/szybet/kdesrc/kdesupport/plasma-wayland-protocols'...

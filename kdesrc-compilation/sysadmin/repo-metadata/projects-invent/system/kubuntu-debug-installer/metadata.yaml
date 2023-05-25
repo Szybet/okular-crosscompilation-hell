@@ -1,0 +1,7 @@
+description: Program to install debug packages for DrKonqi on Kubuntu
+hasrepo: true
+identifier: kubuntu-debug-installer
+name: Kubuntu Debug Installer
+projectpath: playground/base/kubuntu-debug-installer
+repoactive: false
+repopath: system/kubuntu-debug-installer

@@ -1,0 +1,7 @@
+description: Website with reports about KDE projects and their activity
+hasrepo: true
+identifier: websites-reports-kde-org
+name: Activity Reports Website
+projectpath: websites/reports-kde-org
+repoactive: false
+repopath: websites/reports-kde-org

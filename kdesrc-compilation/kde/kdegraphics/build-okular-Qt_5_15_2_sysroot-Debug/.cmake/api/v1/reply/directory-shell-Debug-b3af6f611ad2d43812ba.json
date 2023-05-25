@@ -1,0 +1,93 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"shell/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "okular",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/okular"
+			],
+			"targetId" : "okular::@1853d830bb945de99790",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "okular",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"shell/org.kde.okular.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "share/kxmlgui5/okular",
+			"paths" : 
+			[
+				"shell/shell.rc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/metainfo",
+			"paths" : 
+			[
+				"shell/org.kde.okular.appdata.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "shell",
+		"source" : "shell"
+	}
+}

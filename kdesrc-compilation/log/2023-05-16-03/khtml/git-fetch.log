@@ -1,0 +1,4 @@
+# kdesrc-build running: 'git' 'fetch' '--tags' 'origin'
+# from directory: /home/szybet/kdesrc/frameworks/khtml
+From https://invent.kde.org/frameworks/khtml
+   68cd676..2c5f4d5  kf5        -> origin/kf5

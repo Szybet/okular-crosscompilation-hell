@@ -1,0 +1,7 @@
+description: Samba Share Mounter
+hasrepo: true
+identifier: samba-mounter
+name: Samba Mounter
+projectpath: playground/base/samba-mounter
+repoactive: true
+repopath: system/samba-mounter

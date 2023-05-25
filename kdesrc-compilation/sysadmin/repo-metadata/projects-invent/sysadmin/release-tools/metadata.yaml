@@ -1,0 +1,7 @@
+description: Scripts and tools used when releasing KDE SC
+hasrepo: true
+identifier: sysadmin-release-tools
+name: KDE release tools
+projectpath: sysadmin/release-tools
+repoactive: true
+repopath: sysadmin/release-tools

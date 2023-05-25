@@ -1,0 +1,7 @@
+description: Website to promote KDE's environmental projects
+hasrepo: true
+identifier: websites-eco-kde-org
+name: Environmental Projects Website
+projectpath: websites/eco-kde-org
+repoactive: true
+repopath: websites/eco-kde-org

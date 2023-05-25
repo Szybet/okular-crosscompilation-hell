@@ -1,0 +1,7 @@
+description: Plasma applet to monitor Packagekit
+hasrepo: true
+identifier: plasma-packagekit
+name: Plasma PackageKit Applet
+projectpath: playground/base/plasma-packagekit
+repoactive: true
+repopath: system/plasma-packagekit

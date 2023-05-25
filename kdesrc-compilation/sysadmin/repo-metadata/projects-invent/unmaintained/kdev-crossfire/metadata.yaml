@@ -1,0 +1,7 @@
+description: KDevelop Debugger plugin for debugging JavaScript using crossfire
+hasrepo: true
+identifier: kdev-crossfire
+name: Crossfire Debugger Plugin
+projectpath: unmaintained/kdev-crossfire
+repoactive: false
+repopath: unmaintained/kdev-crossfire

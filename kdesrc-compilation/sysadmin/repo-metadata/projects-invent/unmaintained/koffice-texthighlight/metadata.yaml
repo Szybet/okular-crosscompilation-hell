@@ -1,0 +1,7 @@
+description: A plugin for KWord to allow giving syntax highlighting to selected text.
+hasrepo: true
+identifier: koffice-texthighlight
+name: KOffice Texthighlight
+projectpath: unmaintained/koffice-texthighlight
+repoactive: false
+repopath: unmaintained/koffice-texthighlight

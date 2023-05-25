@@ -1,0 +1,7 @@
+description: Hugo based website containing tutorials and other articles useful for KDE Development
+hasrepo: true
+identifier: documentation-develop-kde-org
+name: Developer Tutorial and Article Site
+projectpath: documentation/develop-kde-org
+repoactive: true
+repopath: documentation/develop-kde-org

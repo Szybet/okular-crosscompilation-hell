@@ -1,0 +1,9 @@
+bugzilla:
+  product: kjumpingcube
+description: KJumpingCube is a simple tactical game
+hasrepo: true
+identifier: kjumpingcube
+name: KJumpingCube
+projectpath: kde/kdegames/kjumpingcube
+repoactive: true
+repopath: games/kjumpingcube

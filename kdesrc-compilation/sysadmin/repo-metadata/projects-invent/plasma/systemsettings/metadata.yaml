@@ -1,0 +1,9 @@
+description: Control center to configure your Plasma Desktop
+hasrepo: true
+identifier: systemsettings
+name: System Settings
+projectpath: kde/workspace/systemsettings
+repoactive: true
+repopath: plasma/systemsettings
+bugzilla:
+    product: systemsettings

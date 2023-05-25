@@ -1,0 +1,7 @@
+description: C++ library for controlling asynchronous tasks
+hasrepo: true
+identifier: kasync
+name: KAsync
+projectpath: playground/libs/kasync
+repoactive: true
+repopath: libraries/kasync

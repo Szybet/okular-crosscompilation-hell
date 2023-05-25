@@ -1,0 +1,7 @@
+description: Backup scheduler for the Plasma desktop
+hasrepo: true
+identifier: kup
+name: Kup
+projectpath: extragear/system/kup
+repoactive: true
+repopath: system/kup

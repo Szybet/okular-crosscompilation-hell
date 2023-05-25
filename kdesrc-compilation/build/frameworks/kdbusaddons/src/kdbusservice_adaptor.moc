@@ -1,0 +1,155 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kdbusservice_adaptor.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include "kdbusservice_adaptor.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kdbusservice_adaptor.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_KDBusServiceAdaptor_t {
+    QByteArrayData data[13];
+    char stringdata0[1020];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_KDBusServiceAdaptor_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_KDBusServiceAdaptor_t qt_meta_stringdata_KDBusServiceAdaptor = {
+    {
+QT_MOC_LITERAL(0, 0, 19), // "KDBusServiceAdaptor"
+QT_MOC_LITERAL(1, 20, 15), // "D-Bus Interface"
+QT_MOC_LITERAL(2, 36, 27), // "org.freedesktop.Application"
+QT_MOC_LITERAL(3, 64, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 84, 864), // "  <interface name=\"org.freed..."
+QT_MOC_LITERAL(5, 876, 8), // "Activate"
+QT_MOC_LITERAL(6, 885, 0), // ""
+QT_MOC_LITERAL(7, 886, 13), // "platform_data"
+QT_MOC_LITERAL(8, 900, 14), // "ActivateAction"
+QT_MOC_LITERAL(9, 915, 11), // "action_name"
+QT_MOC_LITERAL(10, 927, 9), // "parameter"
+QT_MOC_LITERAL(11, 937, 4), // "Open"
+QT_MOC_LITERAL(12, 942, 4) // "uris"
+
+    },
+    "KDBusServiceAdaptor\0D-Bus Interface\0"
+    "org.freedesktop.Application\0"
+    "D-Bus Introspection\0"
+    "  <interface name=\"org.freedesktop.Application\">\n    <method name=\""
+    "Activate\">\n      <annotation value=\"QVariantMap\" name=\"org.qtproj"
+    "ect.QtDBus.QtTypeName.In0\"/>\n      <arg direction=\"in\" type=\"a{sv"
+    "}\" name=\"platform-data\"/>\n    </method>\n    <method name=\"Open\""
+    ">\n      <annotation value=\"QVariantMap\" name=\"org.qtproject.QtDBus"
+    ".QtTypeName.In1\"/>\n      <arg direction=\"in\" type=\"as\" name=\"ur"
+    "is\"/>\n      <arg direction=\"in\" type=\"a{sv}\" name=\"platform-dat"
+    "a\"/>\n    </method>\n    <method name=\"ActivateAction\">\n      <ann"
+    "otation value=\"QVariantMap\" name=\"org.qtproject.QtDBus.QtTypeName.I"
+    "n2\"/>\n      <arg direction=\"in\" type=\"s\" name=\"action_name\"/>\n"
+    "      <arg direction=\"in\" type=\"av\" name=\"parameter\"/>\n      <a"
+    "rg direction=\"in\" type=\"a{sv}\" name=\"platform-data\"/>\n    </met"
+    "hod>\n  </interface>\n\0"
+    "Activate\0\0platform_data\0ActivateAction\0"
+    "action_name\0parameter\0Open\0uris"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_KDBusServiceAdaptor[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       2,   14, // classinfo
+       3,   18, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // classinfo: key, value
+       1,    2,
+       3,    4,
+
+ // slots: name, argc, parameters, tag, flags
+       5,    1,   33,    6, 0x0a /* Public */,
+       8,    3,   36,    6, 0x0a /* Public */,
+      11,    2,   43,    6, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QVariantMap,    7,
+    QMetaType::Void, QMetaType::QString, QMetaType::QVariantList, QMetaType::QVariantMap,    9,   10,    7,
+    QMetaType::Void, QMetaType::QStringList, QMetaType::QVariantMap,   12,    7,
+
+       0        // eod
+};
+
+void KDBusServiceAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<KDBusServiceAdaptor *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->Activate((*reinterpret_cast< const QVariantMap(*)>(_a[1]))); break;
+        case 1: _t->ActivateAction((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QVariantList(*)>(_a[2])),(*reinterpret_cast< const QVariantMap(*)>(_a[3]))); break;
+        case 2: _t->Open((*reinterpret_cast< const QStringList(*)>(_a[1])),(*reinterpret_cast< const QVariantMap(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject KDBusServiceAdaptor::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDBusAbstractAdaptor::staticMetaObject>(),
+    qt_meta_stringdata_KDBusServiceAdaptor.data,
+    qt_meta_data_KDBusServiceAdaptor,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *KDBusServiceAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KDBusServiceAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_KDBusServiceAdaptor.stringdata0))
+        return static_cast<void*>(this);
+    return QDBusAbstractAdaptor::qt_metacast(_clname);
+}
+
+int KDBusServiceAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractAdaptor::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 3)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 3;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

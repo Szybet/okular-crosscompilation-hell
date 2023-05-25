@@ -1,0 +1,7 @@
+description: Plasma integration of different Mycroft AI services
+hasrepo: true
+identifier: mycroft-plasmoid
+name: Plasma Mycroft Applet
+projectpath: extragear/utils/mycroft-plasmoid
+repoactive: true
+repopath: utilities/mycroft-plasmoid

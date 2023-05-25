@@ -1,0 +1,7 @@
+description: Qt-based Ring communication framework (www.ring.cx) client
+hasrepo: true
+identifier: ring-kde
+name: Ring KDE Client
+projectpath: extragear/pim/ring-kde
+repoactive: false
+repopath: network/ring-kde

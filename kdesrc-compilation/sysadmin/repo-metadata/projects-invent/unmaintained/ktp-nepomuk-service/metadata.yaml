@@ -1,0 +1,7 @@
+description: Nepomuk integration service for Telepathy
+hasrepo: true
+identifier: ktp-nepomuk-service
+name: Telepathy Nepomuk Service
+projectpath: unmaintained/ktp-nepomuk-service
+repoactive: false
+repopath: unmaintained/ktp-nepomuk-service

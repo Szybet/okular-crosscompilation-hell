@@ -1,0 +1,7 @@
+description: Build environment and SDK for cross-building KDE applications for Android.
+hasrepo: true
+identifier: android-builder
+name: KDE on Android SDK
+projectpath: unmaintained/android-builder
+repoactive: false
+repopath: unmaintained/android-builder

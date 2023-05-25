@@ -1,0 +1,9 @@
+description: Simplified menu for your Plasma Desktop
+hasrepo: true
+identifier: plasma-simplemenu
+name: Plasma Simple Menu Applet
+projectpath: extragear/base/plasma-simplemenu
+repoactive: true
+repopath: plasma/plasma-simplemenu
+bugzilla:
+    product: plasma-simplemenu

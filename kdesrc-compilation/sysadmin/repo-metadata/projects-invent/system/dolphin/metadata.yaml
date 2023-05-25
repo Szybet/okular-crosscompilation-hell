@@ -1,0 +1,9 @@
+bugzilla:
+  product: dolphin
+description: File manager by KDE
+hasrepo: true
+identifier: dolphin
+name: Dolphin
+projectpath: kde/applications/dolphin
+repoactive: true
+repopath: system/dolphin

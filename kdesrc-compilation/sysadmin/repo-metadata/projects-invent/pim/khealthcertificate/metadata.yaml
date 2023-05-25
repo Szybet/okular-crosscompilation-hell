@@ -1,0 +1,7 @@
+description: Handling of digital vaccination, test and recovery certificates.
+hasrepo: true
+identifier: khealthcertificate
+name: KHealthCertificate
+projectpath: extragear/pim/khealthcertificate
+repoactive: true
+repopath: pim/khealthcertificate

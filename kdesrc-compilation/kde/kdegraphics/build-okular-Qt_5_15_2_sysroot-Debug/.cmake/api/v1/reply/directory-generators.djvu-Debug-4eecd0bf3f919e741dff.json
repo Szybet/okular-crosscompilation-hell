@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"kcoreaddons_add_plugin",
+			"okular_add_generator"
+		],
+		"files" : 
+		[
+			"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake",
+			"generators/CMakeLists.txt",
+			"generators/djvu/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "plugins/okular/generators",
+			"paths" : 
+			[
+				"bin/plugins/okular/okularGenerator_djvu.so"
+			],
+			"targetId" : "okularGenerator_djvu::@bde5d42cfada4b1bbf6f",
+			"targetIndex" : 47,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/kservices5",
+			"paths" : 
+			[
+				"generators/djvu/okularDjvu.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "okular",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"generators/djvu/okularApplication_djvu.desktop",
+				"generators/djvu/org.kde.mobile.okular_djvu.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "okular",
+			"destination" : "share/metainfo",
+			"paths" : 
+			[
+				"generators/djvu/org.kde.okular-djvu.metainfo.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/djvu",
+		"source" : "generators/djvu"
+	}
+}

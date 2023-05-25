@@ -1,0 +1,7 @@
+description: Shared icons, artwork and data files for educational applications
+hasrepo: true
+identifier: kdeedu-data
+name: KDE Edu Data
+projectpath: kde/kdeedu/kdeedu-data
+repoactive: true
+repopath: education/kdeedu-data

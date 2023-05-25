@@ -1,0 +1,9 @@
+bugzilla:
+  product: kgoldrunner
+description: KGoldrunner is a game of action and puzzle solving
+hasrepo: true
+identifier: kgoldrunner
+name: KGoldrunner
+projectpath: kde/kdegames/kgoldrunner
+repoactive: true
+repopath: games/kgoldrunner

@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: contact-runner
+description: KRunner plugin for KDE Telepathy
+hasrepo: true
+identifier: ktp-contact-runner
+name: Telepathy Contact Runner
+projectpath: kde/kdenetwork/ktp-contact-runner
+repoactive: true
+repopath: network/ktp-contact-runner

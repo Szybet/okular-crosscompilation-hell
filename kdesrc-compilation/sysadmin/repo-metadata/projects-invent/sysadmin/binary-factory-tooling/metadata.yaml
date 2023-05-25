@@ -1,0 +1,7 @@
+description: All tooling and other materials necessary for the operation of the KDE Binary Factory
+hasrepo: true
+identifier: sysadmin-binary-factory-tooling
+name: Binary Factory Tooling
+projectpath: sysadmin/binary-factory-tooling
+repoactive: false
+repopath: sysadmin/binary-factory-tooling

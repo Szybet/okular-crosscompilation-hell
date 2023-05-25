@@ -1,0 +1,7 @@
+description: Strigi client
+hasrepo: true
+identifier: strigiclient
+name: Strigiclient
+projectpath: kdesupport/strigi/strigiclient
+repoactive: false
+repopath: unmaintained/strigiclient

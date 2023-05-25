@@ -1,0 +1,7 @@
+description: Communicate using Morse
+hasrepo: true
+identifier: vail
+name: Vail
+projectpath: playground/utils/vail
+repoactive: true
+repopath: utilities/vail

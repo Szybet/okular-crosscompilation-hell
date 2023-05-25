@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+a4e0f70c05bd15d1fd6cdf62be7bb8ea CMakeFiles/pofiles-4ec42fc8356ea28b76f6febeac3e38fb
+292f24158943a4a58ea2a21637f55a20 CMakeFiles/tsfiles-4ec42fc8356ea28b76f6febeac3e38fb
+58e0f127a9fe37119fc4760b3cdf70dd CMakeFiles/uninstall
+50b9fa47be73017c636dd926ed253de9 src/CMakeFiles/KF5TextWidgets_autogen

@@ -1,0 +1,5 @@
+# kdesrc-build running: 'git' 'fetch' '--tags' 'origin'
+# from directory: /home/szybet/kdesrc/kdesupport/phonon
+From https://invent.kde.org/libraries/phonon
+   605092dc..b5f11928  master     -> origin/master
+   928d210f..6c511ac0  4.11       -> origin/4.11

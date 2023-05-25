@@ -1,0 +1,7 @@
+description: Pages Backend for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-pages-backend
+name: 'WikiToLearn Pages Backend'
+projectpath: playground/www/wikitolearn-pages-backend
+repoactive: true
+repopath: wikitolearn/wikitolearn-pages-backend

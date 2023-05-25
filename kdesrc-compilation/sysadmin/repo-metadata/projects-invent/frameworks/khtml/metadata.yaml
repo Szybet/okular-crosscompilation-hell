@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-khtml
+description: KHtml
+hasrepo: true
+identifier: khtml
+name: KHtml
+projectpath: frameworks/khtml
+repoactive: true
+repopath: frameworks/khtml

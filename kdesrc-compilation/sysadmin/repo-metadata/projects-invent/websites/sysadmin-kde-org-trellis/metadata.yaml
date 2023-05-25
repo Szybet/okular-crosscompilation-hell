@@ -1,0 +1,7 @@
+description: Customized Trellis Desk instance that was used by KDE Sysadmin
+hasrepo: true
+identifier: websites-sysadmin-kde-org-trellis
+name: Trellis Desk for KDE
+projectpath: websites/sysadmin-kde-org-trellis
+repoactive: false
+repopath: websites/sysadmin-kde-org-trellis

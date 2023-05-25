@@ -1,0 +1,9 @@
+bugzilla:
+  product: ktouch
+description: Touch Typing Tutor
+hasrepo: true
+identifier: ktouch
+name: KTouch
+projectpath: kde/kdeedu/ktouch
+repoactive: true
+repopath: education/ktouch

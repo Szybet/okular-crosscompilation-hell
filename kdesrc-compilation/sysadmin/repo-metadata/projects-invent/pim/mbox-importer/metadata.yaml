@@ -1,0 +1,7 @@
+description: Wizard to assist with importing MBox email archives into Akonadi
+hasrepo: true
+identifier: mbox-importer
+name: MBox Importer
+projectpath: kde/pim/mbox-importer
+repoactive: true
+repopath: pim/mbox-importer

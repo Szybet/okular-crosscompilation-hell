@@ -1,0 +1,694 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcoreaddons
+[  0%] Generating ECMPoQm/ar/kcoreaddons5_qt.qm
+[  0%] Generating ECMPoQm/af/kcoreaddons5_qt.qm
+[  0%] Generating ECMPoQm/as/kcoreaddons5_qt.qm
+[  0%] Generating ECMPoQm/az/kcoreaddons5_qt.qm
+[  0%] Generating ECMPoQm/be/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/ast/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/be@latin/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/bg/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  1%] Built target translations_5
+[  1%] Built target translations_2
+[  1%] Built target translations_4
+[  1%] Built target translations_8
+[  1%] Generating ECMPoQm/bn_IN/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/bn/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/bs/kcoreaddons5_qt.qm
+[  1%] Generating ECMPoQm/br/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  1%] Built target translations_12
+[  2%] Generating ECMPoQm/ca/kcoreaddons5_qt.qm
+[  2%] Built target translations_6
+[  2%] Built target translations_3
+[  2%] Built target translations_7
+[  2%] Built target translations_1
+[  2%] Built target translations_13
+[  2%] Generating ECMPoQm/ca@valencia/kcoreaddons5_qt.qm
+[  2%] Built target translations_10
+[  2%] Generating ECMPoQm/crh/kcoreaddons5_qt.qm
+[  2%] Generating ECMPoQm/cs/kcoreaddons5_qt.qm
+[  3%] Generating ECMPoQm/csb/kcoreaddons5_qt.qm
+[  3%] Generating ECMPoQm/cy/kcoreaddons5_qt.qm
+[  3%] Generating ECMPoQm/da/kcoreaddons5_qt.qm
+[  3%] Built target translations_14
+[  3%] Built target translations_11
+[  3%] Built target translations_9
+[  3%] Built target translations_16
+[  4%] Generating ECMPoQm/de/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  4%] Generating ECMPoQm/el/kcoreaddons5_qt.qm
+[  4%] Generating ECMPoQm/en/kcoreaddons5_qt.qm
+[  4%] Generating ECMPoQm/en_GB/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  4%] Built target translations_22
+[  4%] Built target translations_15
+[  5%] Generating ECMPoQm/eo/kcoreaddons5_qt.qm
+[  5%] Built target translations_17
+[  5%] Built target translations_19
+[  5%] Generating ECMPoQm/es/kcoreaddons5_qt.qm
+[  5%] Built target translations_24
+[  5%] Generating ECMPoQm/et/kcoreaddons5_qt.qm
+[  5%] Built target translations_18
+[  5%] Built target translations_20
+[  5%] Generating ECMPoQm/eu/kcoreaddons5_qt.qm
+[  6%] Generating ECMPoQm/fa/kcoreaddons5_qt.qm
+[  6%] Generating ECMPoQm/fi/kcoreaddons5_qt.qm
+[  6%] Generating ECMPoQm/fr/kcoreaddons5_qt.qm
+[  6%] Built target translations_23
+[  6%] Built target translations_21
+[  7%] Generating ECMPoQm/fy/kcoreaddons5_qt.qm
+[  7%] Built target translations_25
+[  7%] Generating ECMPoQm/ga/kcoreaddons5_qt.qm
+[  7%] Generating ECMPoQm/gd/kcoreaddons5_qt.qm
+[  7%] Built target translations_27
+[  7%] Built target translations_26
+[  7%] Built target translations_33
+[  7%] Built target translations_28
+[  7%] Built target translations_30
+[  7%] Built target translations_29
+[  7%] Generating ECMPoQm/gl/kcoreaddons5_qt.qm
+[  7%] Generating ECMPoQm/gu/kcoreaddons5_qt.qm
+[  8%] Generating ECMPoQm/ha/kcoreaddons5_qt.qm
+[  8%] Generating ECMPoQm/he/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  8%] Generating ECMPoQm/hi/kcoreaddons5_qt.qm
+[  8%] Generating ECMPoQm/hne/kcoreaddons5_qt.qm
+[  8%] Built target translations_37
+[  8%] Built target translations_36
+[  8%] Built target translations_31
+[  8%] Generating ECMPoQm/hr/kcoreaddons5_qt.qm
+[  8%] Generating ECMPoQm/hsb/kcoreaddons5_qt.qm
+[  8%] Generating ECMPoQm/hu/kcoreaddons5_qt.qm
+[  8%] Built target translations_32
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  8%] Built target translations_34
+[  9%] Generating ECMPoQm/hy/kcoreaddons5_qt.qm
+[  9%] Built target translations_38
+[  9%] Built target translations_35
+[  9%] Generating ECMPoQm/ia/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Built target translations_39
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[  9%] Generating ECMPoQm/id/kcoreaddons5_qt.qm
+[  9%] Generating ECMPoQm/ie/kcoreaddons5_qt.qm
+[ 10%] Generating ECMPoQm/is/kcoreaddons5_qt.qm
+[ 10%] Built target translations_46
+[ 10%] Built target translations_40
+[ 10%] Built target translations_42
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 10%] Built target translations_41
+[ 10%] Generating ECMPoQm/ja/kcoreaddons5_qt.qm
+[ 10%] Generating ECMPoQm/it/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 11%] Generating ECMPoQm/ka/kcoreaddons5_qt.qm
+[ 11%] Built target translations_49
+[ 11%] Generating ECMPoQm/kab/kcoreaddons5_qt.qm
+[ 11%] Built target translations_50
+[ 11%] Built target translations_44
+[ 11%] Generating ECMPoQm/kk/kcoreaddons5_qt.qm
+[ 11%] Built target translations_43
+[ 11%] Built target translations_45
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 12%] Generating ECMPoQm/kn/kcoreaddons5_qt.qm
+[ 12%] Generating ECMPoQm/km/kcoreaddons5_qt.qm
+[ 12%] Generating ECMPoQm/ko/kcoreaddons5_qt.qm
+[ 12%] Built target translations_47
+[ 12%] Generating ECMPoQm/ku/kcoreaddons5_qt.qm
+[ 12%] Built target translations_55
+[ 12%] Built target translations_51
+[ 12%] Generating ECMPoQm/lb/kcoreaddons5_qt.qm
+[ 12%] Built target translations_48
+[ 13%] Generating ECMPoQm/lt/kcoreaddons5_qt.qm
+[ 13%] Generating ECMPoQm/lv/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 13%] Generating ECMPoQm/mai/kcoreaddons5_qt.qm
+[ 13%] Built target translations_58
+[ 13%] Built target translations_52
+[ 13%] Built target translations_53
+[ 14%] Generating ECMPoQm/mk/kcoreaddons5_qt.qm
+[ 14%] Built target translations_54
+[ 14%] Built target translations_56
+[ 14%] Generating ECMPoQm/ml/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 14%] Generating ECMPoQm/mr/kcoreaddons5_qt.qm
+[ 14%] Generating ECMPoQm/ms/kcoreaddons5_qt.qm
+[ 15%] Generating ECMPoQm/my/kcoreaddons5_qt.qm
+[ 15%] Built target translations_57
+[ 15%] Built target translations_59
+[ 15%] Built target translations_65
+[ 15%] Generating ECMPoQm/nb/kcoreaddons5_qt.qm
+[ 15%] Built target translations_60
+[ 15%] Generating ECMPoQm/nds/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 15%] Generating ECMPoQm/ne/kcoreaddons5_qt.qm
+[ 16%] Generating ECMPoQm/nl/kcoreaddons5_qt.qm
+[ 16%] Built target translations_66
+[ 16%] Built target translations_61
+[ 16%] Built target translations_62
+[ 16%] Generating ECMPoQm/nn/kcoreaddons5_qt.qm
+[ 16%] Generating ECMPoQm/oc/kcoreaddons5_qt.qm
+[ 16%] Generating ECMPoQm/or/kcoreaddons5_qt.qm
+[ 16%] Built target translations_63
+[ 16%] Built target translations_64
+[ 16%] Built target translations_70
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 17%] Generating ECMPoQm/pa/kcoreaddons5_qt.qm
+[ 17%] Generating ECMPoQm/pl/kcoreaddons5_qt.qm
+[ 17%] Generating ECMPoQm/ps/kcoreaddons5_qt.qm
+[ 17%] Built target translations_71
+[ 17%] Built target translations_67
+[ 17%] Built target translations_69
+[ 17%] Generating ECMPoQm/pt/kcoreaddons5_qt.qm
+[ 17%] Built target translations_68
+[ 18%] Generating ECMPoQm/pt_BR/kcoreaddons5_qt.qm
+[ 18%] Built target translations_72
+[ 18%] Built target translations_76
+[ 18%] Generating ECMPoQm/ru/kcoreaddons5_qt.qm
+[ 18%] Built target translations_77
+[ 18%] Generating ECMPoQm/ro/kcoreaddons5_qt.qm
+[ 18%] Generating ECMPoQm/si/kcoreaddons5_qt.qm
+[ 19%] Generating ECMPoQm/se/kcoreaddons5_qt.qm
+[ 19%] Built target translations_73
+[ 19%] Built target translations_74
+[ 19%] Built target translations_75
+[ 19%] Generating ECMPoQm/sk/kcoreaddons5_qt.qm
+[ 19%] Built target translations_80
+[ 19%] Generating ECMPoQm/sl/kcoreaddons5_qt.qm
+[ 19%] Generating ECMPoQm/sr/kcoreaddons5_qt.qm
+[ 20%] Generating ECMPoQm/sq/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 20%] Generating ECMPoQm/sr@ijekavian/kcoreaddons5_qt.qm
+[ 20%] Built target translations_85
+[ 20%] Built target translations_86
+[ 20%] Built target translations_83
+[ 20%] Generating ECMPoQm/sr@ijekavianlatin/kcoreaddons5_qt.qm
+[ 20%] Built target translations_79
+[ 21%] Generating ECMPoQm/sr@latin/kcoreaddons5_qt.qm
+[ 21%] Generating ECMPoQm/sv/kcoreaddons5_qt.qm
+[ 21%] Built target translations_87
+[ 21%] Built target translations_78
+[ 21%] Built target translations_81
+[ 21%] Generating ECMPoQm/ta/kcoreaddons5_qt.qm
+[ 21%] Built target translations_88
+[ 21%] Built target translations_82
+[ 21%] Built target translations_89
+[ 22%] Generating ECMPoQm/te/kcoreaddons5_qt.qm
+[ 22%] Generating ECMPoQm/tg/kcoreaddons5_qt.qm
+[ 22%] Generating ECMPoQm/th/kcoreaddons5_qt.qm
+[ 22%] Built target translations_84
+[ 22%] Generating ECMPoQm/tok/kcoreaddons5_qt.qm
+[ 23%] Generating ECMPoQm/tr/kcoreaddons5_qt.qm
+[ 23%] Generating ECMPoQm/tt/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 23%] Generating ECMPoQm/ug/kcoreaddons5_qt.qm
+[ 23%] Built target translations_95
+[ 23%] Built target translations_94
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 23%] Generating ECMPoQm/uk/kcoreaddons5_qt.qm
+[ 24%] Generating ECMPoQm/uz/kcoreaddons5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 24%] Built target translations_98
+[ 24%] Built target translations_90
+[ 24%] Generating ECMPoQm/uz@cyrillic/kcoreaddons5_qt.qm
+[ 24%] Built target translations_91
+[ 24%] Built target translations_93
+[ 25%] Generating ECMPoQm/vi/kcoreaddons5_qt.qm
+[ 25%] Built target translations_96
+[ 25%] Built target translations_92
+[ 25%] Built target translations_97
+[ 25%] Generating ECMPoQm/wa/kcoreaddons5_qt.qm
+[ 25%] Generating ECMPoQm/xh/kcoreaddons5_qt.qm
+[ 25%] Generating ECMPoQm/zh_CN/kcoreaddons5_qt.qm
+[ 25%] Built target translations_101
+[ 25%] Generating ECMPoQm/zh_TW/kcoreaddons5_qt.qm
+[ 26%] Generating ECMPoQm/zh_HK/kcoreaddons5_qt.qm
+[ 26%] Automatic MOC for target KF5CoreAddons
+[ 26%] Built target translations_104
+[ 26%] Built target translations_106
+[ 26%] Built target translations_99
+[ 26%] Automatic MOC for target desktoptojson
+[ 26%] Automatic MOC for target autotests_static
+[ 26%] Built target translations_100
+[ 26%] Built target desktoptojson_autogen
+[ 26%] Built target autotests_static_autogen
+[ 26%] Built target translations_102
+[ 26%] Built target translations_103
+[ 27%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/desktoptojson_autogen/mocs_compilation.cpp.o
+[ 27%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/desktoptojson_debug.cpp.o
+[ 27%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/main.cpp.o
+[ 28%] Building CXX object autotests/CMakeFiles/autotests_static.dir/autotests_static_autogen/mocs_compilation.cpp.o
+[ 28%] Building CXX object autotests/CMakeFiles/autotests_static.dir/kcoreaddons_debug.cpp.o
+[ 28%] Built target translations_105
+[ 29%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/__/lib/plugin/desktopfileparser.cpp.o
+[ 29%] Building CXX object src/desktoptojson/CMakeFiles/desktoptojson.dir/desktoptojson.cpp.o
+[ 29%] Built target KF5CoreAddons_autogen
+[ 29%] Generating io/org.freedesktop.portal.FileTransfer.cpp, io/org.freedesktop.portal.FileTransfer.h
+[ 29%] Generating io/org.kde.KIOFuse.VFS.cpp, io/org.kde.KIOFuse.VFS.h
+dbus.parser: Invalid D-BUS object path '//' found while parsing introspection
+[ 29%] Generating io/org.freedesktop.portal.FileTransfer.moc
+[ 29%] Generating io/org.kde.KIOFuse.VFS.moc
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/KF5CoreAddons_autogen/mocs_compilation.cpp.o
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/ECMQmLoader-kcoreaddons5_qt.cpp.o
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/caching/kshareddatacache.cpp.o
+[ 30%] Linking CXX static library ../lib/libautotests_static.a
+[ 30%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kmacroexpander_unix.cpp.o
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/klistopenfilesjob_unix.cpp.o
+[ 31%] Built target autotests_static
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kuser_unix.cpp.o
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kshell_unix.cpp.o
+[ 31%] Linking CXX executable ../../bin/desktoptojson
+[ 31%] Built target desktoptojson
+[ 31%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kprocesslist_unix.cpp.o
+[ 31%] Automatic MOC for target ktexttohtmlteststatic
+[ 31%] Built target ktexttohtmlteststatic_autogen
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache.cpp:[m[K In function '[01m[Kunsigned int MurmurHashAligned(const void*, int, unsigned int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache.cpp:99:18:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst unsigned char*[m[K' to '[01m[Kconst unsigned int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+   99 |             d = *[01;35m[Kreinterpret_cast<const unsigned int *>(data)[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/caching/kshareddatacache.cpp:136:19:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kconst unsigned char*[m[K' to '[01m[Kconst unsigned int*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  136 |             h += *[01;35m[Kreinterpret_cast<const unsigned int *>(data)[m[K;
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/org.freedesktop.portal.FileTransfer.cpp.o
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/org.kde.KIOFuse.VFS.cpp.o
+[ 32%] Building CXX object autotests/CMakeFiles/ktexttohtmlteststatic.dir/ktexttohtmlteststatic_autogen/mocs_compilation.cpp.o
+[ 32%] Building CXX object autotests/CMakeFiles/ktexttohtmlteststatic.dir/__/src/lib/text/ktexttohtml.cpp.o
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/kaboutdata.cpp.o
+[ 32%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/kcoreaddons.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kautosavefile.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kdirwatch.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kfilesystemtype.cpp.o
+[ 33%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kmessage.cpp.o
+[ 34%] Linking CXX static library ../lib/libktexttohtmlteststatic.a
+[ 34%] Built target ktexttohtmlteststatic
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kprocess.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/io/kdirwatch.cpp:[m[K In member function '[01m[Kvoid KDirWatchPrivate::inotifyEventReceived()[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kcoreaddons/src/lib/io/kdirwatch.cpp:283:55:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kinotify_event*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  283 |             const struct inotify_event *const event = [01;35m[Kreinterpret_cast<inotify_event *>(&buf[offsetCurrent])[m[K;
+      |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 35%] Automatic MOC for target ktexttohtmltest
+[ 35%] Automatic MOC for target ktexttohtmlbenchmarktest
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kbackup.cpp.o
+[ 35%] Built target ktexttohtmltest_autogen
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kurlmimedata.cpp.o
+[ 35%] Building CXX object autotests/CMakeFiles/ktexttohtmltest.dir/ktexttohtmltest_autogen/mocs_compilation.cpp.o
+[ 35%] Built target ktexttohtmlbenchmarktest_autogen
+[ 35%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/kfileutils.cpp.o
+[ 35%] Building CXX object autotests/CMakeFiles/ktexttohtmlbenchmarktest.dir/ktexttohtmlbenchmarktest_autogen/mocs_compilation.cpp.o
+[ 35%] Building CXX object autotests/CMakeFiles/ktexttohtmlbenchmarktest.dir/ktexttohtmlbenchmarktest.cpp.o
+[ 36%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/io/knetworkmounts.cpp.o
+[ 37%] Building CXX object autotests/CMakeFiles/ktexttohtmlbenchmarktest.dir/__/src/lib/text/ktexttohtml.cpp.o
+[ 37%] Building CXX object autotests/CMakeFiles/ktexttohtmltest.dir/ktexttohtmltest.cpp.o
+[ 37%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kcompositejob.cpp.o
+[ 37%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kjob.cpp.o
+[ 37%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kjobtrackerinterface.cpp.o
+[ 38%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/jobs/kjobuidelegate.cpp.o
+[ 38%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kpluginfactory.cpp.o
+[ 38%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kpluginloader.cpp.o
+[ 38%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kpluginmetadata.cpp.o
+[ 39%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/kstaticpluginhelpers.cpp.o
+[ 39%] Linking CXX executable ../bin/ktexttohtmlbenchmarktest
+[ 39%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/plugin/desktopfileparser.cpp.o
+[ 40%] Linking CXX executable ../bin/ktexttohtmltest
+[ 40%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/randomness/krandom.cpp.o
+[ 40%] Built target ktexttohtmlbenchmarktest
+[ 40%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/randomness/krandomsequence.cpp.o
+[ 40%] Built target ktexttohtmltest
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kjsonutils.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kfuzzymatcher.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kmacroexpander.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/kstringhandler.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/text/ktexttohtml.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kdelibs4migration.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kdelibs4configmigrator.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kformat.cpp.o
+[ 42%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kformatprivate.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kosrelease.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kprocesslist.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kshell.cpp.o
+[ 43%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/klibexec.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/ksignalhandler.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/ksandbox.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kmemoryinfo.cpp.o
+[ 44%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/util/kruntimeplatform.cpp.o
+[ 45%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/desktopfileparser_debug.cpp.o
+[ 45%] Building CXX object src/lib/CMakeFiles/KF5CoreAddons.dir/kcoreaddons_debug.cpp.o
+[ 45%] Linking CXX shared library ../../bin/libKF5CoreAddons.so
+[ 45%] Built target KF5CoreAddons
+[ 46%] Automatic MOC for target jsonplugin
+[ 46%] Automatic MOC for target jsonplugin2
+[ 47%] Automatic MOC for target unversionedplugin
+[ 47%] Automatic MOC for target versionedplugin
+[ 47%] Automatic MOC for target jsonplugin_cmake_macro
+[ 47%] Automatic MOC for target alwaysunloadplugin
+[ 47%] Automatic MOC for target multiplugin
+[ 47%] Automatic MOC for target qtplugin
+[ 47%] Built target jsonplugin_cmake_macro_autogen
+[ 47%] Automatic MOC for target pluginwithoutmetadata
+[ 47%] Built target qtplugin_autogen
+[ 47%] Built target unversionedplugin_autogen
+[ 47%] Automatic MOC for target org.kde.test
+[ 47%] Automatic MOC for target kaboutdatatest
+[ 47%] Built target alwaysunloadplugin_autogen
+[ 47%] Built target versionedplugin_autogen
+[ 47%] Automatic MOC for target kaboutdataapplicationdatatest
+[ 47%] Built target multiplugin_autogen
+[ 47%] Automatic MOC for target kautosavefiletest
+[ 47%] Built target jsonplugin2_autogen
+[ 47%] Built target jsonplugin_autogen
+[ 47%] Automatic MOC for target kcompositejobtest
+[ 47%] Automatic MOC for target kjobtest
+[ 47%] Automatic MOC for target kformattest
+[ 47%] Built target pluginwithoutmetadata_autogen
+[ 47%] Automatic MOC for target kosreleasetest
+[ 47%] Built target kaboutdatatest_autogen
+[ 47%] Built target org.kde.test_autogen
+[ 48%] Automatic MOC for target static_jsonplugin_cmake_macro_2
+[ 48%] Automatic MOC for target static_jsonplugin_cmake_macro
+[ 48%] Built target kautosavefiletest_autogen
+[ 48%] Built target kformattest_autogen
+[ 48%] Automatic MOC for target kpluginloadertest
+[ 48%] Built target kaboutdataapplicationdatatest_autogen
+[ 48%] Built target kjobtest_autogen
+[ 49%] Automatic MOC for target static_plugin_without_metadata
+[ 49%] Built target kcompositejobtest_autogen
+[ 49%] Automatic MOC for target kprocesstest
+[ 49%] Automatic MOC for target kshareddatacachetest
+[ 49%] Automatic MOC for target krandomtest
+[ 49%] Built target kosreleasetest_autogen
+[ 49%] Automatic MOC for target kshelltest
+[ 49%] Built target static_jsonplugin_cmake_macro_2_autogen
+[ 49%] Built target static_jsonplugin_cmake_macro_autogen
+[ 49%] Automatic MOC for target kurlmimedatatest
+[ 49%] Automatic MOC for target kstringhandlertest
+[ 49%] Built target kpluginloadertest_autogen
+[ 49%] Built target static_plugin_without_metadata_autogen
+[ 49%] Built target kprocesstest_autogen
+[ 49%] Automatic MOC for target kmacroexpandertest
+[ 49%] Automatic MOC for target kusertest
+[ 49%] Automatic MOC for target kprocesslisttest
+[ 49%] Built target kshareddatacachetest_autogen
+[ 49%] Built target krandomtest_autogen
+[ 49%] Automatic MOC for target kfileutilstest
+[ 49%] Automatic MOC for target kfuzzymatchertest
+[ 49%] Built target kshelltest_autogen
+[ 49%] Built target kurlmimedatatest_autogen
+[ 49%] Automatic MOC for target knetworkmountstestcanonical
+[ 49%] Built target kstringhandlertest_autogen
+[ 49%] Automatic MOC for target knetworkmountstestnoconfig
+[ 49%] Automatic MOC for target knetworkmountstestpaths
+[ 49%] Built target kprocesslisttest_autogen
+[ 49%] Built target kusertest_autogen
+[ 49%] Built target kmacroexpandertest_autogen
+[ 49%] Automatic MOC for target knetworkmountsteststatic
+[ 49%] Built target kfileutilstest_autogen
+[ 49%] Automatic MOC for target klibexectest
+[ 49%] Automatic MOC for target kmemoryinfotest
+[ 49%] Built target kfuzzymatchertest_autogen
+[ 49%] Automatic MOC for target kruntimeplatformtest
+[ 49%] Automatic MOC for target klistopenfilesjobtest_unix
+[ 49%] Built target knetworkmountstestcanonical_autogen
+[ 49%] Built target knetworkmountstestnoconfig_autogen
+[ 49%] Automatic MOC for target kdelibs4migrationtest
+[ 49%] Built target knetworkmountstestpaths_autogen
+[ 49%] Automatic MOC for target kdelibs4configmigratortest
+[ 49%] Automatic MOC for target kprocesstest_helper
+[ 49%] Built target kprocesstest_helper_autogen
+[ 49%] Built target knetworkmountsteststatic_autogen
+[ 49%] Automatic MOC for target kdirwatch_stat_benchmarktest
+[ 49%] Automatic MOC for target kdirwatch_stat_unittest
+[ 49%] Built target kmemoryinfotest_autogen
+[ 49%] Built target klistopenfilesjobtest_unix_autogen
+[ 49%] Automatic MOC for target kdirwatch_inotify_unittest
+[ 49%] Built target klibexectest_autogen
+[ 49%] Automatic MOC for target kdirwatch_inotify_benchmarktest
+[ 49%] Built target kruntimeplatformtest_autogen
+[ 49%] Automatic MOC for target kdirwatch_qfswatch_unittest
+[ 49%] Automatic MOC for target kdirwatch_qfswatch_benchmarktest
+[ 49%] Built target kdelibs4migrationtest_autogen
+[ 49%] Built target kdelibs4configmigratortest_autogen
+[ 49%] Automatic MOC for target kdirwatchtest_gui
+[ 49%] Automatic MOC for target faceicontest
+[ 49%] Built target kdirwatch_stat_unittest_autogen
+[ 49%] Built target kdirwatch_stat_benchmarktest_autogen
+[ 50%] Automatic MOC for target texttohtmltest
+[ 50%] Built target kdirwatch_inotify_benchmarktest_autogen
+[ 50%] Building CXX object autotests/CMakeFiles/jsonplugin.dir/jsonplugin_autogen/mocs_compilation.cpp.o
+[ 50%] Built target kdirwatch_inotify_unittest_autogen
+[ 50%] Built target kdirwatch_qfswatch_unittest_autogen
+[ 51%] Building CXX object autotests/CMakeFiles/jsonplugin2.dir/jsonplugin2_autogen/mocs_compilation.cpp.o
+[ 51%] Built target texttohtmltest_autogen
+[ 51%] Building CXX object autotests/CMakeFiles/jsonplugin2.dir/jsonplugin2.cpp.o
+[ 51%] Built target kdirwatch_qfswatch_benchmarktest_autogen
+[ 51%] Building CXX object autotests/CMakeFiles/jsonplugin.dir/jsonplugin.cpp.o
+[ 51%] Building CXX object autotests/CMakeFiles/versionedplugin.dir/versionedplugin_autogen/mocs_compilation.cpp.o
+[ 51%] Building CXX object autotests/CMakeFiles/unversionedplugin.dir/unversionedplugin_autogen/mocs_compilation.cpp.o
+[ 51%] Built target kdirwatchtest_gui_autogen
+[ 51%] Building CXX object autotests/CMakeFiles/unversionedplugin.dir/unversionedplugin.cpp.o
+[ 51%] Built target faceicontest_autogen
+[ 51%] Building CXX object autotests/CMakeFiles/versionedplugin.dir/versionedplugin.cpp.o
+[ 51%] Building CXX object autotests/CMakeFiles/multiplugin.dir/multiplugin_autogen/mocs_compilation.cpp.o
+[ 52%] Building CXX object autotests/CMakeFiles/alwaysunloadplugin.dir/alwaysunloadplugin_autogen/mocs_compilation.cpp.o
+[ 52%] Building CXX object autotests/CMakeFiles/qtplugin.dir/qtplugin_autogen/mocs_compilation.cpp.o
+[ 52%] Building CXX object autotests/CMakeFiles/qtplugin.dir/qtplugin.cpp.o
+[ 52%] Building CXX object autotests/CMakeFiles/alwaysunloadplugin.dir/alwaysunloadplugin.cpp.o
+[ 52%] Linking CXX shared module ../bin/jsonplugin.so
+[ 52%] Linking CXX shared module ../bin/unversionedplugin.so
+[ 52%] Linking CXX shared module ../bin/jsonplugin2.so
+[ 52%] Linking CXX shared module ../bin/versionedplugin.so
+[ 52%] Built target jsonplugin
+[ 52%] Building CXX object autotests/CMakeFiles/multiplugin.dir/multiplugin.cpp.o
+[ 52%] Built target unversionedplugin
+[ 53%] Building CXX object autotests/CMakeFiles/jsonplugin_cmake_macro.dir/jsonplugin_cmake_macro_autogen/mocs_compilation.cpp.o
+[ 53%] Built target jsonplugin2
+[ 53%] Building CXX object autotests/CMakeFiles/pluginwithoutmetadata.dir/pluginwithoutmetadata_autogen/mocs_compilation.cpp.o
+[ 53%] Built target versionedplugin
+[ 53%] Building CXX object autotests/CMakeFiles/jsonplugin_cmake_macro.dir/kpluginclass.cpp.o
+[ 53%] Building CXX object autotests/CMakeFiles/pluginwithoutmetadata.dir/pluginwithoutmetadata.cpp.o
+[ 53%] Building CXX object autotests/CMakeFiles/org.kde.test.dir/org.kde.test_autogen/mocs_compilation.cpp.o
+[ 54%] Building CXX object autotests/CMakeFiles/kaboutdatatest.dir/kaboutdatatest_autogen/mocs_compilation.cpp.o
+[ 55%] Building CXX object autotests/CMakeFiles/kaboutdataapplicationdatatest.dir/kaboutdataapplicationdatatest_autogen/mocs_compilation.cpp.o
+[ 55%] Building CXX object autotests/CMakeFiles/kaboutdatatest.dir/kaboutdatatest.cpp.o
+[ 55%] Building CXX object autotests/CMakeFiles/kaboutdataapplicationdatatest.dir/kaboutdataapplicationdatatest.cpp.o
+[ 56%] Linking CXX shared module ../bin/qtplugin.so
+[ 56%] Built target qtplugin
+[ 56%] Building CXX object autotests/CMakeFiles/org.kde.test.dir/jsonplugin.cpp.o
+[ 56%] Linking CXX shared module ../bin/alwaysunloadplugin.so
+[ 57%] Building CXX object autotests/CMakeFiles/kautosavefiletest.dir/kautosavefiletest_autogen/mocs_compilation.cpp.o
+[ 57%] Built target alwaysunloadplugin
+[ 57%] Building CXX object autotests/CMakeFiles/kautosavefiletest.dir/kautosavefiletest.cpp.o
+[ 58%] Linking CXX shared module ../bin/multiplugin.so
+[ 59%] Linking CXX shared module ../bin/namespace/pluginwithoutmetadata.so
+[ 59%] Linking CXX shared module ../bin/namespace/jsonplugin_cmake_macro.so
+[ 59%] Built target pluginwithoutmetadata
+[ 59%] Built target multiplugin
+[ 60%] Building CXX object autotests/CMakeFiles/kcompositejobtest.dir/kcompositejobtest_autogen/mocs_compilation.cpp.o
+[ 60%] Building CXX object autotests/CMakeFiles/kformattest.dir/kformattest_autogen/mocs_compilation.cpp.o
+[ 60%] Built target jsonplugin_cmake_macro
+[ 60%] Building CXX object autotests/CMakeFiles/kjobtest.dir/kjobtest_autogen/mocs_compilation.cpp.o
+[ 61%] Building CXX object autotests/CMakeFiles/kjobtest.dir/kjobtest.cpp.o
+[ 61%] Linking CXX executable ../bin/kaboutdataapplicationdatatest
+[ 61%] Building CXX object autotests/CMakeFiles/kosreleasetest.dir/kosreleasetest_autogen/mocs_compilation.cpp.o
+[ 61%] Building CXX object autotests/CMakeFiles/kosreleasetest.dir/kosreleasetest.cpp.o
+[ 62%] Linking CXX shared module ../bin/org.kde.test.so
+[ 62%] Built target kaboutdataapplicationdatatest
+[ 62%] Linking CXX executable ../bin/kaboutdatatest
+[ 62%] Building CXX object autotests/CMakeFiles/static_jsonplugin_cmake_macro_2.dir/static_jsonplugin_cmake_macro_2_autogen/mocs_compilation.cpp.o
+[ 62%] Building CXX object autotests/CMakeFiles/static_jsonplugin_cmake_macro_2.dir/statickpluginclass_2.cpp.o
+[ 62%] Built target org.kde.test
+[ 62%] Built target kaboutdatatest
+[ 62%] Building CXX object autotests/CMakeFiles/static_jsonplugin_cmake_macro.dir/static_jsonplugin_cmake_macro_autogen/mocs_compilation.cpp.o
+[ 63%] Building CXX object autotests/CMakeFiles/kpluginloadertest.dir/kpluginloadertest_autogen/mocs_compilation.cpp.o
+[ 63%] Building CXX object autotests/CMakeFiles/static_jsonplugin_cmake_macro.dir/statickpluginclass.cpp.o
+[ 63%] Building CXX object autotests/CMakeFiles/kpluginloadertest.dir/kpluginloadertest.cpp.o
+[ 64%] Building CXX object autotests/CMakeFiles/kformattest.dir/kformattest.cpp.o
+[ 64%] Building CXX object autotests/CMakeFiles/kcompositejobtest.dir/kcompositejobtest.cpp.o
+[ 64%] Linking CXX executable ../bin/kautosavefiletest
+[ 64%] Built target kautosavefiletest
+[ 64%] Building CXX object autotests/CMakeFiles/static_plugin_without_metadata.dir/static_plugin_without_metadata_autogen/mocs_compilation.cpp.o
+[ 64%] Building CXX object autotests/CMakeFiles/static_plugin_without_metadata.dir/staticpluginwithoutmetadata.cpp.o
+[ 64%] Linking CXX static library ../lib/libstatic_jsonplugin_cmake_macro_2.a
+[ 64%] Built target static_jsonplugin_cmake_macro_2
+[ 65%] Linking CXX executable ../bin/kosreleasetest
+[ 65%] Building CXX object autotests/CMakeFiles/kprocesstest.dir/kprocesstest_autogen/mocs_compilation.cpp.o
+[ 65%] Building CXX object autotests/CMakeFiles/kprocesstest.dir/kprocesstest.cpp.o
+[ 65%] Linking CXX executable ../bin/kjobtest
+[ 65%] Built target kosreleasetest
+[ 65%] Building CXX object autotests/CMakeFiles/krandomtest.dir/krandomtest_autogen/mocs_compilation.cpp.o
+[ 65%] Building CXX object autotests/CMakeFiles/krandomtest.dir/krandomtest.cpp.o
+[ 66%] Linking CXX static library ../lib/libstatic_jsonplugin_cmake_macro.a
+[ 66%] Built target kjobtest
+[ 66%] Building CXX object autotests/CMakeFiles/kshareddatacachetest.dir/kshareddatacachetest_autogen/mocs_compilation.cpp.o
+[ 66%] Building CXX object autotests/CMakeFiles/kshareddatacachetest.dir/kshareddatacachetest.cpp.o
+[ 66%] Built target static_jsonplugin_cmake_macro
+[ 66%] Building CXX object autotests/CMakeFiles/kshelltest.dir/kshelltest_autogen/mocs_compilation.cpp.o
+[ 66%] Building CXX object autotests/CMakeFiles/kshelltest.dir/kshelltest.cpp.o
+[ 66%] Linking CXX executable ../bin/kcompositejobtest
+[ 66%] Linking CXX static library ../lib/libstatic_plugin_without_metadata.a
+[ 66%] Built target static_plugin_without_metadata
+[ 66%] Building CXX object autotests/CMakeFiles/kurlmimedatatest.dir/kurlmimedatatest_autogen/mocs_compilation.cpp.o
+[ 66%] Built target kcompositejobtest
+[ 66%] Building CXX object autotests/CMakeFiles/kstringhandlertest.dir/kstringhandlertest_autogen/mocs_compilation.cpp.o
+[ 66%] Linking CXX executable ../bin/kformattest
+[ 66%] Linking CXX executable ../bin/kpluginloadertest
+[ 66%] Built target kformattest
+[ 66%] Building CXX object autotests/CMakeFiles/kstringhandlertest.dir/kstringhandlertest.cpp.o
+[ 66%] Built target kpluginloadertest
+[ 66%] Building CXX object autotests/CMakeFiles/kurlmimedatatest.dir/kurlmimedatatest.cpp.o
+[ 67%] Linking CXX executable ../bin/kprocesstest
+[ 67%] Building CXX object autotests/CMakeFiles/kmacroexpandertest.dir/kmacroexpandertest_autogen/mocs_compilation.cpp.o
+[ 67%] Building CXX object autotests/CMakeFiles/kmacroexpandertest.dir/kmacroexpandertest.cpp.o
+[ 67%] Built target kprocesstest
+[ 67%] Building CXX object autotests/CMakeFiles/kusertest.dir/kusertest_autogen/mocs_compilation.cpp.o
+[ 67%] Building CXX object autotests/CMakeFiles/kusertest.dir/kusertest.cpp.o
+[ 68%] Linking CXX executable ../bin/kshareddatacachetest
+[ 68%] Building CXX object autotests/CMakeFiles/kprocesslisttest.dir/kprocesslisttest_autogen/mocs_compilation.cpp.o
+[ 68%] Built target kshareddatacachetest
+[ 69%] Linking CXX executable ../bin/kshelltest
+[ 69%] Building CXX object autotests/CMakeFiles/kfileutilstest.dir/kfileutilstest_autogen/mocs_compilation.cpp.o
+[ 69%] Built target kshelltest
+[ 70%] Building CXX object autotests/CMakeFiles/kfileutilstest.dir/kfileutilstest.cpp.o
+[ 71%] Linking CXX executable ../bin/krandomtest
+[ 71%] Built target krandomtest
+[ 71%] Building CXX object autotests/CMakeFiles/kprocesslisttest.dir/kprocesslisttest.cpp.o
+[ 72%] Linking CXX executable ../bin/kurlmimedatatest
+[ 73%] Linking CXX executable ../bin/kstringhandlertest
+[ 73%] Built target kstringhandlertest
+[ 73%] Built target kurlmimedatatest
+[ 73%] Building CXX object autotests/CMakeFiles/kfuzzymatchertest.dir/kfuzzymatchertest_autogen/mocs_compilation.cpp.o
+[ 74%] Building CXX object autotests/CMakeFiles/kfuzzymatchertest.dir/kfuzzymatchertest.cpp.o
+[ 74%] Building CXX object autotests/CMakeFiles/knetworkmountstestcanonical.dir/knetworkmountstestcanonical_autogen/mocs_compilation.cpp.o
+[ 74%] Building CXX object autotests/CMakeFiles/knetworkmountstestcanonical.dir/knetworkmountstestcanonical.cpp.o
+[ 75%] Linking CXX executable ../bin/kmacroexpandertest
+[ 76%] Linking CXX executable ../bin/kusertest
+[ 76%] Built target kmacroexpandertest
+[ 76%] Building CXX object autotests/CMakeFiles/knetworkmountstestnoconfig.dir/knetworkmountstestnoconfig_autogen/mocs_compilation.cpp.o
+[ 76%] Built target kusertest
+[ 76%] Building CXX object autotests/CMakeFiles/knetworkmountstestpaths.dir/knetworkmountstestpaths_autogen/mocs_compilation.cpp.o
+[ 76%] Linking CXX executable ../bin/kfileutilstest
+[ 76%] Built target kfileutilstest
+[ 76%] Building CXX object autotests/CMakeFiles/knetworkmountstestpaths.dir/knetworkmountstestpaths.cpp.o
+[ 76%] Building CXX object autotests/CMakeFiles/knetworkmountsteststatic.dir/knetworkmountsteststatic_autogen/mocs_compilation.cpp.o
+[ 77%] Linking CXX executable ../bin/kprocesslisttest
+[ 77%] Built target kprocesslisttest
+[ 77%] Building CXX object autotests/CMakeFiles/knetworkmountsteststatic.dir/knetworkmountsteststatic.cpp.o
+[ 77%] Building CXX object autotests/CMakeFiles/klibexectest.dir/klibexectest_autogen/mocs_compilation.cpp.o
+[ 78%] Building CXX object autotests/CMakeFiles/klibexectest.dir/klibexectest.cpp.o
+[ 79%] Linking CXX executable ../bin/knetworkmountstestcanonical
+[ 79%] Built target knetworkmountstestcanonical
+[ 79%] Building CXX object autotests/CMakeFiles/kmemoryinfotest.dir/kmemoryinfotest_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object autotests/CMakeFiles/kmemoryinfotest.dir/kmemoryinfotest.cpp.o
+[ 79%] Building CXX object autotests/CMakeFiles/knetworkmountstestnoconfig.dir/knetworkmountstestnoconfig.cpp.o
+[ 79%] Linking CXX executable ../bin/kfuzzymatchertest
+[ 79%] Building CXX object autotests/CMakeFiles/kruntimeplatformtest.dir/kruntimeplatformtest_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object autotests/CMakeFiles/kruntimeplatformtest.dir/kruntimeplatformtest.cpp.o
+[ 79%] Built target kfuzzymatchertest
+[ 79%] Building CXX object autotests/CMakeFiles/klistopenfilesjobtest_unix.dir/klistopenfilesjobtest_unix_autogen/mocs_compilation.cpp.o
+[ 80%] Linking CXX executable ../bin/knetworkmountstestpaths
+[ 80%] Built target knetworkmountstestpaths
+[ 81%] Building CXX object autotests/CMakeFiles/kdelibs4migrationtest.dir/kdelibs4migrationtest_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object autotests/CMakeFiles/kdelibs4configmigratortest.dir/kdelibs4configmigratortest_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object autotests/CMakeFiles/kdelibs4migrationtest.dir/kdelibs4migrationtest.cpp.o
+[ 82%] Building CXX object autotests/CMakeFiles/kdelibs4configmigratortest.dir/kdelibs4configmigratortest.cpp.o
+[ 83%] Linking CXX executable ../bin/knetworkmountsteststatic
+[ 83%] Linking CXX executable ../bin/klibexectest
+[ 83%] Built target knetworkmountsteststatic
+[ 84%] Building CXX object autotests/CMakeFiles/klistopenfilesjobtest_unix.dir/klistopenfilesjobtest_unix.cpp.o
+[ 84%] Built target klibexectest
+[ 84%] Building CXX object autotests/CMakeFiles/kprocesstest_helper.dir/kprocesstest_helper_autogen/mocs_compilation.cpp.o
+[ 84%] Building CXX object autotests/CMakeFiles/kprocesstest_helper.dir/kprocesstest_helper.cpp.o
+[ 84%] Building CXX object autotests/CMakeFiles/kdirwatch_stat_unittest.dir/kdirwatch_stat_unittest_autogen/mocs_compilation.cpp.o
+[ 85%] Building CXX object autotests/CMakeFiles/kdirwatch_stat_unittest.dir/kdirwatch_unittest.cpp.o
+[ 86%] Linking CXX executable ../bin/kmemoryinfotest
+[ 86%] Built target kmemoryinfotest
+[ 86%] Building CXX object autotests/CMakeFiles/kdirwatch_stat_benchmarktest.dir/kdirwatch_stat_benchmarktest_autogen/mocs_compilation.cpp.o
+[ 87%] Building CXX object autotests/CMakeFiles/kdirwatch_stat_benchmarktest.dir/kdirwatch_benchmarktest.cpp.o
+[ 88%] Linking CXX executable ../bin/knetworkmountstestnoconfig
+[ 88%] Built target knetworkmountstestnoconfig
+[ 89%] Building CXX object autotests/CMakeFiles/kdirwatch_inotify_unittest.dir/kdirwatch_inotify_unittest_autogen/mocs_compilation.cpp.o
+[ 89%] Building CXX object autotests/CMakeFiles/kdirwatch_inotify_unittest.dir/kdirwatch_unittest.cpp.o
+[ 90%] Linking CXX executable ../bin/kruntimeplatformtest
+[ 90%] Built target kruntimeplatformtest
+[ 91%] Building CXX object autotests/CMakeFiles/kdirwatch_inotify_benchmarktest.dir/kdirwatch_inotify_benchmarktest_autogen/mocs_compilation.cpp.o
+[ 91%] Building CXX object autotests/CMakeFiles/kdirwatch_inotify_benchmarktest.dir/kdirwatch_benchmarktest.cpp.o
+[ 91%] Linking CXX executable ../bin/kdelibs4migrationtest
+[ 92%] Linking CXX executable ../bin/kprocesstest_helper
+[ 92%] Built target kprocesstest_helper
+[ 92%] Built target kdelibs4migrationtest
+[ 92%] Building CXX object autotests/CMakeFiles/kdirwatch_qfswatch_unittest.dir/kdirwatch_qfswatch_unittest_autogen/mocs_compilation.cpp.o
+[ 93%] Building CXX object autotests/CMakeFiles/kdirwatch_qfswatch_unittest.dir/kdirwatch_unittest.cpp.o
+[ 94%] Building CXX object autotests/CMakeFiles/kdirwatch_qfswatch_benchmarktest.dir/kdirwatch_qfswatch_benchmarktest_autogen/mocs_compilation.cpp.o
+[ 94%] Building CXX object autotests/CMakeFiles/kdirwatch_qfswatch_benchmarktest.dir/kdirwatch_benchmarktest.cpp.o
+[ 94%] Linking CXX executable ../bin/kdelibs4configmigratortest
+[ 94%] Linking CXX executable ../bin/klistopenfilesjobtest_unix
+[ 94%] Built target kdelibs4configmigratortest
+[ 94%] Building CXX object tests/CMakeFiles/kdirwatchtest_gui.dir/kdirwatchtest_gui_autogen/mocs_compilation.cpp.o
+[ 94%] Built target klistopenfilesjobtest_unix
+[ 95%] Building CXX object tests/CMakeFiles/kdirwatchtest_gui.dir/kdirwatchtest_gui.cpp.o
+[ 95%] Linking CXX executable ../bin/kdirwatch_stat_benchmarktest
+[ 95%] Built target kdirwatch_stat_benchmarktest
+[ 95%] Building CXX object tests/CMakeFiles/faceicontest.dir/faceicontest_autogen/mocs_compilation.cpp.o
+[ 95%] Linking CXX executable ../bin/kdirwatch_stat_unittest
+[ 95%] Built target kdirwatch_stat_unittest
+[ 96%] Building CXX object tests/CMakeFiles/faceicontest.dir/faceicontest.cpp.o
+[ 96%] Linking CXX executable ../bin/kdirwatch_inotify_benchmarktest
+[ 96%] Built target kdirwatch_inotify_benchmarktest
+[ 96%] Building CXX object tests/CMakeFiles/texttohtmltest.dir/texttohtmltest_autogen/mocs_compilation.cpp.o
+[ 96%] Automatic MOC for target kpluginfactorytest
+[ 96%] Building CXX object tests/CMakeFiles/texttohtmltest.dir/ktexttohtmltest.cpp.o
+[ 96%] Built target kpluginfactorytest_autogen
+[ 96%] Automatic MOC for target kpluginmetadatatest
+[ 96%] Linking CXX executable ../bin/kdirwatch_inotify_unittest
+[ 96%] Linking CXX executable ../bin/kdirwatch_qfswatch_benchmarktest
+[ 96%] Built target kpluginmetadatatest_autogen
+[ 96%] Building CXX object autotests/CMakeFiles/kpluginfactorytest.dir/kpluginfactorytest_autogen/mocs_compilation.cpp.o
+[ 96%] Built target kdirwatch_inotify_unittest
+[ 97%] Building CXX object autotests/CMakeFiles/kpluginmetadatatest.dir/kpluginmetadatatest_autogen/mocs_compilation.cpp.o
+[ 97%] Building CXX object autotests/CMakeFiles/kpluginfactorytest.dir/kpluginfactorytest.cpp.o
+[ 97%] Built target kdirwatch_qfswatch_benchmarktest
+[ 98%] Building CXX object autotests/CMakeFiles/kpluginfactorytest.dir/kcoreaddons_static_staticnamespace_plugins.cpp.o
+[ 98%] Building CXX object autotests/CMakeFiles/kpluginmetadatatest.dir/kpluginmetadatatest.cpp.o
+[ 98%] Linking CXX executable ../bin/kdirwatchtest_gui
+[ 98%] Linking CXX executable ../bin/kdirwatch_qfswatch_unittest
+[ 98%] Building CXX object autotests/CMakeFiles/kpluginmetadatatest.dir/kcoreaddons_static_staticnamespace_plugins.cpp.o
+[ 98%] Built target kdirwatchtest_gui
+[ 98%] Building CXX object autotests/CMakeFiles/kpluginmetadatatest.dir/kcoreaddons_static_staticnamespace2_plugins.cpp.o
+[ 98%] Built target kdirwatch_qfswatch_unittest
+[ 98%] Building CXX object autotests/CMakeFiles/kpluginmetadatatest.dir/kcoreaddons_static_staticnamespace3_plugins.cpp.o
+[ 98%] Linking CXX executable ../bin/faceicontest
+[ 98%] Built target faceicontest
+[ 98%] Building CXX object autotests/CMakeFiles/kpluginfactorytest.dir/kcoreaddons_static_staticnamespace2_plugins.cpp.o
+[ 98%] Linking CXX executable ../bin/texttohtmltest
+[ 98%] Built target texttohtmltest
+[100%] Linking CXX executable ../bin/kpluginmetadatatest
+[100%] Linking CXX executable ../bin/kpluginfactorytest
+[100%] Built target kpluginmetadatatest
+[100%] Built target kpluginfactorytest

@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kcmutils
+description: Utilities for interacting with KCModules
+hasrepo: true
+identifier: kcmutils
+name: KCMUtils
+projectpath: frameworks/kcmutils
+repoactive: true
+repopath: frameworks/kcmutils

@@ -1,0 +1,9 @@
+bugzilla:
+  product: cantor
+description: Front end to powerful mathematics and statistics packages
+hasrepo: true
+identifier: cantor
+name: Cantor
+projectpath: kde/kdeedu/cantor
+repoactive: true
+repopath: education/cantor

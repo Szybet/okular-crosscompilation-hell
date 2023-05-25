@@ -1,0 +1,9 @@
+bugzilla:
+  product: kcalc
+description: Calculator offering everything a scientific calculator does, and more
+hasrepo: true
+identifier: kcalc
+name: KCalc
+projectpath: kde/kdeutils/kcalc
+repoactive: true
+repopath: utilities/kcalc

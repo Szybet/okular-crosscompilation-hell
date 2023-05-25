@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../bin/libKF5KExiv2.pdb"
+  "../bin/libKF5KExiv2.so"
+  "../bin/libKF5KExiv2.so.15.0.0"
+  "../bin/libKF5KExiv2.so.5.0.0"
+  "CMakeFiles/KExiv2_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/KExiv2_autogen.dir/ParseCache.txt"
+  "KExiv2_autogen"
+  "CMakeFiles/KExiv2.dir/KExiv2_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/KExiv2.dir/KExiv2_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2_p.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2_p.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2comments.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2comments.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2data.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2data.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2exif.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2exif.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2gps.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2gps.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2image.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2image.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2iptc.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2iptc.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2previews.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2previews.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/kexiv2xmp.cpp.o"
+  "CMakeFiles/KExiv2.dir/kexiv2xmp.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/libkexiv2_debug.cpp.o"
+  "CMakeFiles/KExiv2.dir/libkexiv2_debug.cpp.o.d"
+  "CMakeFiles/KExiv2.dir/rotationmatrix.cpp.o"
+  "CMakeFiles/KExiv2.dir/rotationmatrix.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/KExiv2.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

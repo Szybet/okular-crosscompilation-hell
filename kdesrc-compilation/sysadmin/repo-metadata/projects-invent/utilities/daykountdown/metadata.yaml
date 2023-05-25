@@ -1,0 +1,7 @@
+description: A simple date countdown app written for KDE Plasma, using Kirigami.
+hasrepo: true
+identifier: daykountdown
+name: DayKountdown
+projectpath: playground/utilities/daykountdown
+repoactive: true
+repopath: utilities/daykountdown

@@ -1,0 +1,31 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/kdesupport/qca
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig/qca2-qt5.pc
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/features/crypto.prf
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/man/man1/qcatool-qt5.1
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqca-qt5.so.2.3.6
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqca-qt5.so.2
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libqca-qt5.so
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qcaprovider.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/QtCrypto
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_support.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_tools.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_core.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_textfilter.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_basic.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_publickey.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_cert.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_keystore.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_securelayer.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_securemessage.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_version.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qpipe.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_safetimer.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5/QtCrypto/qca_export.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5Targets.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5Targets-noconfig.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5Config.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/Qca-qt5/Qca-qt5ConfigVersion.cmake

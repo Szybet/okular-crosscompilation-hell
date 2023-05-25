@@ -1,0 +1,7 @@
+description: Programmable timer
+hasrepo: true
+identifier: kairo
+name: Kairo
+projectpath: playground/utils/kairo
+repoactive: true
+repopath: utilities/kairo

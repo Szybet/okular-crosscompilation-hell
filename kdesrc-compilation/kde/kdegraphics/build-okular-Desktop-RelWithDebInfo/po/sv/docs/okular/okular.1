@@ -1,0 +1,198 @@
+'\" t
+.\"     Title: \fBokular\fR
+.\"    Author: Yuri Chornoivan <yurchor@ukr.net>
+.\" Generator: DocBook XSL Stylesheets v1.79.2 <http://docbook.sf.net/>
+.\"      Date: 2022-02-19
+.\"    Manual: Okular användarhandbok
+.\"    Source: KDE Gear Okular 22.04
+.\"  Language: Swedish
+.\"
+.TH "\FBOKULAR\FR" "1" "2022\-02\-19" "KDE Gear Okular 22.04" "Okular användarhandbok"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+
+
+
+
+.SH "NAMN"
+okular \- ett generellt dokumentvisningsprogram
+
+.SH "SYNOPSIS"
+.HP \w'\fBokular\fR\ 'u
+\fBokular\fR  [\fIOkular\-väljare\fR]  [\fIwebbadress\fR] 
+
+
+
+.SH "BESKRIVNING"
+.PP
+\fBokular\fR
+har som mål att visa dokument av olika format\&.
+
+
+
+.SH "OKULAR\-VÄLJARE"
+
+
+
+.PP
+\fB\-p, \-\-page \fR\fB\fInummer\fR\fR
+.RS 4
+
+
+
+Öppna en angiven sida i dokumentet\&.
+
+.RE
+.PP
+\fB\-\-presentation\fR
+.RS 4
+
+
+
+Öppna dokumentet i presentationsläge\&.
+
+.RE
+.PP
+\fB\-\-print\fR
+.RS 4
+
+
+
+Starta med utskriftsdialogruta\&.
+
+.RE
+.PP
+\fB\-\-print\-and\-exit\fR
+.RS 4
+
+
+
+Starta med utskriftsdialogruta och avsluta efter utskrift\&.
+
+.RE
+.PP
+\fB\-\-unique\fR
+.RS 4
+
+
+
+Styrning av unik instans\&.
+
+.RE
+.PP
+\fB\-\-noraise\fR
+.RS 4
+
+
+
+Tillåter eller förhindrar att Okulars fönster höjs efter start\&.
+
+.RE
+.PP
+\fB\-\-find \fR\fB\fIsträng\fR\fR
+.RS 4
+
+
+
+Sök efter en sträng i texten\&.
+
+.RE
+.PP
+\fB\-\-editor\-cmd \fR\fB\fIsträng\fR\fR
+.RS 4
+
+
+
+Ställer in det externa redigeringskommandot\&. Du kan inte ställa in redigeringskommandot för en instans av Okular som redan kör\&. Observera att
+\fB\-\-unique\fR
+inte heller stöds när redigeringskommandot ställs in på kommandoraden\&.
+
+.RE
+
+
+.SH "VÄLJARE"
+
+
+.PP
+\fBWebbadress\fR
+.RS 4
+
+
+
+En adress till dokumentet som ska öppnas\&. För PDF kan namnet anges som
+\fIdokumentnamn\fR#\fInamngivet\-mål\fR
+där
+\fInamngivet\-mål\fR
+är ett visst namngivet mål inbäddat i dokumentet\&.
+
+.RE
+
+
+.SH "ÅTERKOPPLING"
+.PP
+På IRC, irc\&.libera\&.chat #okular, via e\-post okular\-devel@kde\&.org, eller på webben <\m[blue]\fBhttp://okular\&.kde\&.org/\fR\m[]\&\s-2\u[1]\d\s+2>
+
+
+.SH "SE OCKSÅ"
+
+.RS 4
+Mer detaljerad användardokumentation är tillgänglig via \m[blue]\fBhelp:/okular\fR\m[] (skriv antingen in webbadressen i Konqueror, eller kör \fB\fBkhelpcenter\fR\fR\fB \fR\fB\fIhelp:/okular\fR\fR)\&.
+.RE
+.RS 4
+kf5options(7)
+.RE
+.RS 4
+qt5options(7)
+.RE
+.RS 4
+Det finns också ytterligare information tillgänglig på \m[blue]\fBhttp://okular\&.kde\&.org/\fR\m[]\&\s-2\u[1]\d\s+2
+.RE
+
+.SH "COPYRIGHT"
+.PP
+Copyright (c) 2002 Wilco Greven, Christophe Devriese
+.PP
+Copyright (c) 2004\-2005 Enrico Ros
+.PP
+Copyright (c) 2005 Piotr Szymanski
+.PP
+Copyright (c) 2004\-2012 Albert Astals Cid
+.PP
+Copyright (c) 2006\-2009 Pino Toscano
+.PP
+Licens: GNU General Public Version 2 <\m[blue]\fBhttp://www\&.gnu\&.org/licenses/gpl\-2\&.0\&.html\fR\m[]\&\s-2\u[2]\d\s+2>
+
+.SH "AUTHOR"
+.PP
+\fBYuri Chornoivan\fR <\&yurchor@ukr\&.net\&>
+.RS 4
+Okular manualsida\&.
+.RE
+.SH "NOTER"
+.IP " 1." 4
+http://okular.kde.org/
+.RS 4
+\%https://okular.kde.org/
+.RE
+.IP " 2." 4
+http://www.gnu.org/licenses/gpl-2.0.html
+.RS 4
+\%https://www.gnu.org/licenses/gpl-2.0.html
+.RE

@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-zuul
+name: Code and configuration for Zuul instance which integrates with Gerrit
+projectpath: sysadmin/gerrit-zuul
+repoactive: false
+repopath: sysadmin/gerrit-zuul

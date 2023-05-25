@@ -1,0 +1,7 @@
+description: Website of the KDE/FreeBSD initiative — freebsd.kde.org
+hasrepo: true
+identifier: websites-freebsd-kde-org
+name: KDE-FreeBSD Website
+projectpath: websites/freebsd-kde-org
+repoactive: true
+repopath: websites/freebsd-kde-org

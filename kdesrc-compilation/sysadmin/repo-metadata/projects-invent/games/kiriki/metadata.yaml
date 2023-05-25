@@ -1,0 +1,9 @@
+bugzilla:
+  product: kiriki
+description: Kiriki is an addictive and fun dice game
+hasrepo: true
+identifier: kiriki
+name: Kiriki
+projectpath: kde/kdegames/kiriki
+repoactive: true
+repopath: games/kiriki

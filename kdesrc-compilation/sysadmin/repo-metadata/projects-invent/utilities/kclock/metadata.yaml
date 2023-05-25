@@ -1,0 +1,9 @@
+description: Clock app for Plasma Mobile
+hasrepo: true
+identifier: kclock
+name: KClock
+projectpath: extragear/utils/kclock
+repoactive: true
+repopath: utilities/kclock
+bugzilla:
+    product: kclock

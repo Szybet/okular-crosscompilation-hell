@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-neon-image-syncd
+name: A daemon to poll rsync and sync neon images.
+projectpath: sysadmin/neon-image-syncd
+repoactive: false
+repopath: sysadmin/neon-image-syncd

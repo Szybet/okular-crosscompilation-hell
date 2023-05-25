@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kjobwidgets
+description: KJobWidgets
+hasrepo: true
+identifier: kjobwidgets
+name: KJobWidgets
+projectpath: frameworks/kjobwidgets
+repoactive: true
+repopath: frameworks/kjobwidgets

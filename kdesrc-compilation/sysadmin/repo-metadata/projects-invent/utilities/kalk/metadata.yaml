@@ -1,0 +1,9 @@
+description: Kalk is a powerful cross-platform calculator application built with the [Kirigami framework](https://kde.org/products/kirigami/)
+hasrepo: true
+identifier: kalk
+name: Kalk
+projectpath: extragear/utils/kalk
+repoactive: true
+repopath: utilities/kalk
+bugzilla:
+    product: kalk

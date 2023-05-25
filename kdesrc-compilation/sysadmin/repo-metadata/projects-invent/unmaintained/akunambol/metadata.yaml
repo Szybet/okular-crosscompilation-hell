@@ -1,0 +1,8 @@
+description: Akunambol is a KDE SyncML client for your Akonadi Storage. a.k.a, it
+  synchronizes your data with another device.
+hasrepo: true
+identifier: akunambol
+name: Akunambol
+projectpath: unmaintained/akunambol
+repoactive: false
+repopath: unmaintained/akunambol

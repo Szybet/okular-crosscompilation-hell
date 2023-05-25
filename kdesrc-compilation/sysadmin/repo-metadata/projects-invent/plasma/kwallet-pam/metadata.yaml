@@ -1,0 +1,9 @@
+description: PAM Integration with KWallet - Unlock KWallet when you login
+hasrepo: true
+identifier: kwallet-pam
+name: KWallet PAM Integration
+projectpath: kde/workspace/kwallet-pam
+repoactive: true
+repopath: plasma/kwallet-pam
+bugzilla:
+    product: kwallet-pam

@@ -1,0 +1,7 @@
+description: Library that provides Gravatar support
+hasrepo: true
+identifier: libgravatar
+name: libgravatar
+projectpath: kde/pim/libgravatar
+repoactive: true
+repopath: pim/libgravatar

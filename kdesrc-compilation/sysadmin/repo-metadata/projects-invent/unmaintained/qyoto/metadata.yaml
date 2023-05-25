@@ -1,0 +1,7 @@
+description: .NET/Mono bindings for the Qt libraries.
+hasrepo: true
+identifier: qyoto
+name: Qyoto
+projectpath: kde/kdebindings/csharp/qyoto
+repoactive: false
+repopath: unmaintained/qyoto

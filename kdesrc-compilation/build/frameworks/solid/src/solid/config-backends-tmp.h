@@ -1,0 +1,5 @@
+#define BUILD_DEVICE_BACKEND_fakehw 1
+#define BUILD_DEVICE_BACKEND_udev 1
+#define BUILD_DEVICE_BACKEND_udisks2 1
+#define BUILD_DEVICE_BACKEND_fstab 1
+#define BUILD_DEVICE_BACKEND_upower 1

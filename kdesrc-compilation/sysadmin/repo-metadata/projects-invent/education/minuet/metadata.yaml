@@ -1,0 +1,9 @@
+bugzilla:
+  product: minuet
+description: Free and open-source software for music education
+hasrepo: true
+identifier: minuet
+name: Minuet
+projectpath: kde/kdeedu/minuet
+repoactive: true
+repopath: education/minuet

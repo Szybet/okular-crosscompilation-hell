@@ -1,0 +1,7 @@
+description: A Kipi Plugin to send images through telepathy
+hasrepo: true
+identifier: ktp-kipi-plugin
+name: KDE Telepathy Kipi Plugin
+projectpath: unmaintained/ktp-kipi-plugin
+repoactive: false
+repopath: unmaintained/ktp-kipi-plugin

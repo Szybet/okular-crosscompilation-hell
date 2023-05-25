@@ -1,0 +1,9 @@
+description: Active Window Control applet for the Plasma Desktop
+hasrepo: true
+identifier: plasma-active-window-control
+name: Plasma Active Window Control Applet
+projectpath: extragear/base/plasma-active-window-control
+repoactive: false
+repopath: plasma/plasma-active-window-control
+bugzilla:
+    product: Active Window Control

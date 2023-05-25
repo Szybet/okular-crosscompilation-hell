@@ -1,0 +1,7 @@
+description: Note taking application using Akonadi
+hasrepo: true
+identifier: kjots
+name: KJots
+projectpath: playground/pim/kjots
+repoactive: true
+repopath: pim/kjots

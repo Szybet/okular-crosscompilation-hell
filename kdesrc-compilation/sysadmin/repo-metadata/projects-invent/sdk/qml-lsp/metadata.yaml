@@ -1,0 +1,7 @@
+identifier: qml-lsp
+name: QML LSP
+description: Collection of QML tools, including qml-lsp, qml-dap, and qml-refactor-fairy
+hasrepo: true
+repoactive: true
+repopath: sdk/qml-lsp
+projectpath: playground/sdk/qml-lsp

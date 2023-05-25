@@ -1,0 +1,7 @@
+description: Plugins for the thumbnailing system
+hasrepo: true
+identifier: kdesdk-thumbnailers
+name: Thumbnailer plugins
+projectpath: kde/kdesdk/kdesdk-thumbnailers
+repoactive: true
+repopath: sdk/kdesdk-thumbnailers

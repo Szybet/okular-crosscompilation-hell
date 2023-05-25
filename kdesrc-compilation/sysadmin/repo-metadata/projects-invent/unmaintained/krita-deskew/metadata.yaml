@@ -1,0 +1,8 @@
+description: Deskew rotates an image such that text is straight, which is useful when
+  dealing with scanned images.
+hasrepo: true
+identifier: krita-deskew
+name: Deskew
+projectpath: extragear/graphics/krita-extensions/krita-deskew
+repoactive: false
+repopath: unmaintained/krita-deskew

@@ -1,0 +1,7 @@
+description: Connect to your contacts using ssh
+hasrepo: true
+identifier: ktp-ssh-contact
+name: KDE Telepathy SSH Contact
+projectpath: unmaintained/ktp-ssh-contact
+repoactive: false
+repopath: unmaintained/ktp-ssh-contact

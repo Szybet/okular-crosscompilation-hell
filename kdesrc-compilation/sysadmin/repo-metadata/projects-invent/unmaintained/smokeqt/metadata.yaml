@@ -1,0 +1,7 @@
+description: SMOKE bindings for the Qt libraries. Used by language bindings.
+hasrepo: true
+identifier: smokeqt
+name: smokeqt
+projectpath: kde/kdebindings/smoke/smokeqt
+repoactive: false
+repopath: unmaintained/smokeqt

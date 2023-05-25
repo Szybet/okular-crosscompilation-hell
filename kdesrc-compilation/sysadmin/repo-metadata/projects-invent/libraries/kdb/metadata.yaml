@@ -1,0 +1,7 @@
+description: Database connectivity and creation framework for various database vendors
+hasrepo: true
+identifier: kdb
+name: KDb
+projectpath: extragear/libs/kdb
+repoactive: true
+repopath: libraries/kdb

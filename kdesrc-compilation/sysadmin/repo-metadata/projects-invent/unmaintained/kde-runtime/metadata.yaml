@@ -1,0 +1,7 @@
+description: Plugins and applications necessary for the running of KDE applications.
+hasrepo: true
+identifier: kde-runtime
+name: KDE Runtime
+projectpath: unmaintained/kde-runtime
+repoactive: false
+repopath: unmaintained/kde-runtime

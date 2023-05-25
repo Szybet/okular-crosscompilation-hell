@@ -1,0 +1,7 @@
+description: Yocto packaging metadata for KDE Frameworks
+hasrepo: true
+identifier: yocto-meta-kf5
+name: Yocto KF5 Packaging
+projectpath: playground/packaging/yocto-meta-kf5
+repoactive: true
+repopath: packaging/yocto-meta-kf5

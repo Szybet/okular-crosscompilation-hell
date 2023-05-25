@@ -1,0 +1,7 @@
+description: Qt accessibility bridge plugin
+hasrepo: true
+identifier: qtatspi
+name: Qt AT-SPI
+projectpath: unmaintained/qtatspi
+repoactive: false
+repopath: unmaintained/qtatspi

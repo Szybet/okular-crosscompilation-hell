@@ -1,0 +1,9 @@
+bugzilla:
+  product: neochat
+description: A client for matrix, the decentralized communication protocol
+hasrepo: true
+identifier: neochat
+name: NeoChat
+projectpath: extragear/network/neochat
+repoactive: true
+repopath: network/neochat

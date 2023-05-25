@@ -1,0 +1,7 @@
+description: Agent to monitor a given gitlab instance and perform pre-defined actions
+hasrepo: true
+identifier: sysadmin-gitlab-react
+name: Gitlab React
+projectpath: sysadmin/gitlab-react
+repoactive: true
+repopath: sysadmin/gitlab-react

@@ -1,0 +1,7 @@
+description: Command-line application capable of creating Windows Toast notifications
+hasrepo: true
+identifier: snoretoast
+name: Snoretoast
+projectpath: playground/libs/snoretoast
+repoactive: false
+repopath: libraries/snoretoast

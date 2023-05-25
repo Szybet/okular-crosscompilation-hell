@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kxmlgui/src/KF5XmlGui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kxmlgui",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kxmlgui/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kxmlgui/src",
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kxmlgui",
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kxmlgui/src/KF5XmlGui_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kxmlgui/src/thumb_frame.png",
+		"/home/szybet/kdesrc/frameworks/kxmlgui/src/aboutkde.svg",
+		"/home/szybet/kdesrc/frameworks/kxmlgui/src/ui_standards.rc"
+	],
+	"LOCK_FILE" : "/home/szybet/kdesrc/build/frameworks/kxmlgui/src/CMakeFiles/KF5XmlGui_autogen.dir/AutoRcc_kxmlgui_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "kxmlgui" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_kxmlgui.cpp",
+	"RCC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kxmlgui/src/CMakeFiles/KF5XmlGui_autogen.dir/AutoRcc_kxmlgui_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/szybet/kdesrc/frameworks/kxmlgui/src/kxmlgui.qrc",
+	"VERBOSITY" : 0
+}

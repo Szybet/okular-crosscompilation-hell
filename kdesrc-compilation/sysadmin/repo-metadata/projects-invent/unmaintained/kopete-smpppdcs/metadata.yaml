@@ -1,0 +1,7 @@
+description: Smpppdcs Plugin for Kopete
+hasrepo: true
+identifier: kopete-smpppdcs
+name: Kopete Smpppdcs Plugin
+projectpath: unmaintained/kopete-smpppdcs
+repoactive: false
+repopath: unmaintained/kopete-smpppdcs

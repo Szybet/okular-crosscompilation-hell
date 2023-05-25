@@ -1,0 +1,11 @@
+description: 'A library that allows users to easily give feedback on software
+
+  by embedding itself into every window and providing straight forward dialogs to
+
+  express like or dislike of something.'
+hasrepo: true
+identifier: liblikeback
+name: liblikeback
+projectpath: unmaintained/liblikeback
+repoactive: false
+repopath: unmaintained/liblikeback

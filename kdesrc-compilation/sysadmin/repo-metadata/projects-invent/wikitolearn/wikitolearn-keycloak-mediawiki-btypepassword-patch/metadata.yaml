@@ -1,0 +1,7 @@
+description: btypepassword patch for Keycloak's Mediawiki integration
+hasrepo: true
+identifier: wikitolearn-keycloak-mediawiki-btypepassword-patch
+name: 'Keycloak Mediawiki Integration btypepassword Patch for WikiToLearn'
+projectpath: playground/www/wikitolearn-keycloak-mediawiki-btypepassword-patch
+repoactive: true
+repopath: wikitolearn/wikitolearn-keycloak-mediawiki-btypepassword-patch

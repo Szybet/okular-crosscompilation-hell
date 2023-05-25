@@ -1,0 +1,8 @@
+description: Printer Applet is a system tray utility that shows current print jobs,
+  shows printer warnings and errors.
+hasrepo: true
+identifier: printer-applet
+name: Printer Applet
+projectpath: unmaintained/printer-applet
+repoactive: false
+repopath: unmaintained/printer-applet

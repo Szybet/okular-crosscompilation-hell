@@ -1,0 +1,7 @@
+description: Unified identity management for KDE websites
+hasrepo: true
+identifier: websites-my-kde-org
+name: MyKDE
+projectpath: websites/my-kde-org
+repoactive: true
+repopath: websites/my-kde-org

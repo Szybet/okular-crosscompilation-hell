@@ -1,0 +1,147 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api/KF5JSApi_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kjs",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kjs/src/kjs/api",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/CMakeLists.txt",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kjs",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsarguments.h",
+			"Mu",
+			"EWIEGA46WW/moc_kjsarguments.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjscontext.h",
+			"Mu",
+			"EWIEGA46WW/moc_kjscontext.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsinterpreter.h",
+			"Mu",
+			"EWIEGA46WW/moc_kjsinterpreter.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsobject.h",
+			"Mu",
+			"EWIEGA46WW/moc_kjsobject.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsprototype.h",
+			"Mu",
+			"EWIEGA46WW/moc_kjsprototype.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api/KF5JSApi_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api/KF5JSApi_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BUILDING_KDE__",
+		"KF5JSApi_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api",
+		"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api",
+		"/home/szybet/kdesrc/build/frameworks/kjs/src",
+		"/home/szybet/kdesrc/frameworks/kjs/src",
+		"/home/szybet/kdesrc/build/frameworks/kjs",
+		"/home/szybet/kdesrc/frameworks/kjs/src/wtf",
+		"/home/szybet/kdesrc/build/frameworks/kjs/src/kjs",
+		"/home/szybet/kdesrc/frameworks/kjs/src/kjs",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api/KF5JSApi_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api/CMakeFiles/KF5JSApi_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kjs/src/kjs/api/CMakeFiles/KF5JSApi_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsarguments.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjscontext.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsinterpreter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsobject.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kjs/src/kjs/api/kjsprototype.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

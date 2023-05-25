@@ -1,0 +1,7 @@
+description: Camera application for Plasma Mobile
+hasrepo: true
+identifier: plasma-camera
+name: Plasma Camera
+projectpath: extragear/base/plasma-camera
+repoactive: true
+repopath: plasma-mobile/plasma-camera

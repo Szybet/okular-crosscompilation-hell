@@ -1,0 +1,7 @@
+description: Please see https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file for more information
+hasrepo: true
+identifier: .github
+name: GitHub Community Health Templates
+projectpath: sysadmin/.github
+repoactive: true
+repopath: sysadmin/.github

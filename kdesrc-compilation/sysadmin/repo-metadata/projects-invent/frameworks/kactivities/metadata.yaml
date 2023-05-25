@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kactivities
+description: "Core components for the KDE's Activities System"
+hasrepo: true
+identifier: kactivities
+name: Activities
+projectpath: frameworks/kactivities
+repoactive: true
+repopath: frameworks/kactivities

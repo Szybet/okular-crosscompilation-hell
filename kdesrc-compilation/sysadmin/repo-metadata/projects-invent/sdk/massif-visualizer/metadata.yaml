@@ -1,0 +1,7 @@
+description: Visualizer for Valgrind Massif data files
+hasrepo: true
+identifier: massif-visualizer
+name: Massif Visualizer
+projectpath: extragear/sdk/massif-visualizer
+repoactive: true
+repopath: sdk/massif-visualizer

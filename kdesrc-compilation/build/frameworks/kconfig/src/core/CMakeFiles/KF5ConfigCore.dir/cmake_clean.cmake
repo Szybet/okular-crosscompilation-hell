@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../../bin/libKF5ConfigCore.pdb"
+  "../../bin/libKF5ConfigCore.so"
+  "../../bin/libKF5ConfigCore.so.5"
+  "../../bin/libKF5ConfigCore.so.5.107.0"
+  "CMakeFiles/KF5ConfigCore_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/KF5ConfigCore_autogen.dir/ParseCache.txt"
+  "KF5ConfigCore_autogen"
+  "CMakeFiles/KF5ConfigCore.dir/KF5ConfigCore_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/KF5ConfigCore_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kauthorized.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kauthorized.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfig.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfig.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfig_core_log_settings.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfig_core_log_settings.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigbackend.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigbackend.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigbase.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigbase.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigdata.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigdata.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfiggroup.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfiggroup.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigini.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigini.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigwatcher.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kconfigwatcher.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kcoreconfigskeleton.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kcoreconfigskeleton.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kdesktopfile.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kdesktopfile.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/kemailsettings.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/kemailsettings.cpp.o.d"
+  "CMakeFiles/KF5ConfigCore.dir/ksharedconfig.cpp.o"
+  "CMakeFiles/KF5ConfigCore.dir/ksharedconfig.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/KF5ConfigCore.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

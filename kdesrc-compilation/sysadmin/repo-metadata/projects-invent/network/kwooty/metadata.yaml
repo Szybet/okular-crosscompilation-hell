@@ -1,0 +1,7 @@
+description: Friendly newsgroup binary downloader for Usenet
+hasrepo: true
+identifier: kwooty
+name: Kwooty
+projectpath: playground/network/kwooty
+repoactive: false
+repopath: network/kwooty

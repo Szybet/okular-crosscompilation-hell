@@ -1,0 +1,4 @@
+# kdesrc-build running: 'git' 'fetch' '--tags' 'origin'
+# from directory: /home/szybet/kdesrc/frameworks/kio
+From https://invent.kde.org/frameworks/kio
+   d50d34009..a9a6651dc  master     -> origin/master

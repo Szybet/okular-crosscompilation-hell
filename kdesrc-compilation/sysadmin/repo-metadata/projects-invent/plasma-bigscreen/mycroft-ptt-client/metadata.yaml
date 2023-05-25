@@ -1,0 +1,7 @@
+description: A simple push to talk client for mycroft based on libinput for USB remotes or external devices that wish to activate the mycroft listener with a button press for Plasma Bigscreen
+hasrepo: true
+identifier: mycroft-ptt-client
+name: Mycroft Push to Talk Client
+projectpath: playground/utils/mycroft-ptt-client
+repoactive: true
+repopath: plasma-bigscreen/mycroft-ptt-client

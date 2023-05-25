@@ -1,0 +1,7 @@
+description: Collection of Arcade games developed in Kirigami
+hasrepo: true
+identifier: arkade
+name: Arkade
+projectpath: playground/games/arkade
+repoactive: true
+repopath: games/arkade

@@ -1,0 +1,7 @@
+description: Metamodule for the KDE 2 Release, adapted to run on modern systems
+hasrepo: true
+identifier: kde2
+name: 'Historical - KDE 2 Meta Module'
+projectpath: historical/kde2
+repoactive: true
+repopath: historical/kde2

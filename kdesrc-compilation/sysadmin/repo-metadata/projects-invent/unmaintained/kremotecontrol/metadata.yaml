@@ -1,0 +1,8 @@
+description: KRemoteControl (formerly known as KDELirc) is a KDE frontend for your
+  remote controls.
+hasrepo: true
+identifier: kremotecontrol
+name: KRemoteControl
+projectpath: unmaintained/kremotecontrol
+repoactive: false
+repopath: unmaintained/kremotecontrol

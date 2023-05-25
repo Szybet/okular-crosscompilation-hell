@@ -1,0 +1,9 @@
+bugzilla:
+  product: konquest
+description: Konquest is the KDE version of Gnu-Lactic
+hasrepo: true
+identifier: konquest
+name: Konquest
+projectpath: kde/kdegames/konquest
+repoactive: true
+repopath: games/konquest

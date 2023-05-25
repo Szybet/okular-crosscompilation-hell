@@ -1,0 +1,12 @@
+# kdesrc-build running: 'git' 'stash' 'pop'
+# from directory: /home/szybet/kdesrc/frameworks/kpty
+On branch kf5
+Your branch is up to date with 'origin/kf5'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   src/kpty.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (0b359dc0a4d1d3ea26068b0d3c02ebea89d3878d)

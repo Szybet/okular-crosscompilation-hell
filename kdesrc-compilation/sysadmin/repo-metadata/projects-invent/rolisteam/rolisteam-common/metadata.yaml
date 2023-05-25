@@ -1,0 +1,7 @@
+description: Shared Components for Rolisteam
+hasrepo: true
+identifier: rolisteam-common
+name: Rolisteam Shared Components
+projectpath: playground/games/rolisteam-common
+repoactive: false
+repopath: rolisteam/rolisteam-common

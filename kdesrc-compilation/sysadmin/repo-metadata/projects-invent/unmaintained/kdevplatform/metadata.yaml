@@ -1,0 +1,8 @@
+description: The KDevelop Platform, supplying a framework to build IDE-like applications
+  on top of it.
+hasrepo: true
+identifier: kdevplatform
+name: KDevPlatform
+projectpath: unmaintained/kdevplatform
+repoactive: false
+repopath: unmaintained/kdevplatform

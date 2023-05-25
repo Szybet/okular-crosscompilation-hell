@@ -1,0 +1,9 @@
+bugzilla:
+  product: kidentitymanagement
+description: Library to assist in handling user identities
+hasrepo: true
+identifier: kidentitymanagement
+name: KIdentityManagement
+projectpath: kde/pim/kidentitymanagement
+repoactive: true
+repopath: pim/kidentitymanagement

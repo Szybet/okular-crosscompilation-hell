@@ -1,0 +1,10 @@
+description: Breeze widget theme for GTK 2 and 3
+hasrepo: true
+identifier: breeze-gtk
+name: Breeze for GTK
+projectpath: kde/workspace/breeze-gtk
+repoactive: true
+repopath: plasma/breeze-gtk
+bugzilla:
+    product: Breeze
+    component: gtk theme

@@ -1,0 +1,9 @@
+description: Wallpapers for Plasma Workspaces
+hasrepo: true
+identifier: plasma-workspace-wallpapers
+name: Plasma Workspace Wallpapers
+projectpath: kde/workspace/plasma-workspace-wallpapers
+repoactive: true
+repopath: plasma/plasma-workspace-wallpapers
+bugzilla:
+    product: Plasma Workspace Wallpapers

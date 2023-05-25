@@ -1,0 +1,7 @@
+description: Library that implements importing of emails from various other email clients
+hasrepo: true
+identifier: mailimporter
+name: PIM MailImporter
+projectpath: kde/pim/mailimporter
+repoactive: true
+repopath: pim/mailimporter

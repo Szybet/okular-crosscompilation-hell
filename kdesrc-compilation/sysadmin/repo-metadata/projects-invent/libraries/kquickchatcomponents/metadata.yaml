@@ -1,0 +1,7 @@
+description: Set of chat components for QtQuick chat apps wishing to fit in with KDE's collection of chat apps
+hasrepo: true
+identifier: kquickchatcomponents
+name: KDE Chat Components for QtQuick
+projectpath: kdereview/kquickchatcomponents
+repoactive: true
+repopath: libraries/kquickchatcomponents

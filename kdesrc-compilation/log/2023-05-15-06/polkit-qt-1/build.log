@@ -1,0 +1,20 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kdesupport/polkit-qt-1
+[  4%] Automatic MOC and UIC for target polkit-qt5-core-1
+[  4%] Built target polkit-qt5-core-1_autogen
+[  9%] Building CXX object core/CMakeFiles/polkit-qt5-core-1.dir/polkitqt1-authority.cpp.o
+[ 13%] Building CXX object core/CMakeFiles/polkit-qt5-core-1.dir/polkit-qt5-core-1_autogen/mocs_compilation.cpp.o
+[ 18%] Building CXX object core/CMakeFiles/polkit-qt5-core-1.dir/polkitqt1-identity.cpp.o
+[ 22%] Building CXX object core/CMakeFiles/polkit-qt5-core-1.dir/polkitqt1-temporaryauthorization.cpp.o
+[ 27%] Building CXX object core/CMakeFiles/polkit-qt5-core-1.dir/polkitqt1-details.cpp.o
+[ 31%] Building CXX object core/CMakeFiles/polkit-qt5-core-1.dir/polkitqt1-subject.cpp.o
+[ 36%] Building CXX object core/CMakeFiles/polkit-qt5-core-1.dir/polkitqt1-actiondescription.cpp.o
+[ 40%] Linking CXX shared library libpolkit-qt5-core-1.so
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lpolkit-gobject-1
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lgio-2.0
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lgobject-2.0
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lglib-2.0
+collect2: error: ld returned 1 exit status
+make[2]: *** [core/CMakeFiles/polkit-qt5-core-1.dir/build.make:195: core/libpolkit-qt5-core-1.so.1.114.0] Error 1
+make[1]: *** [CMakeFiles/Makefile2:164: core/CMakeFiles/polkit-qt5-core-1.dir/all] Error 2
+make: *** [Makefile:156: all] Error 2

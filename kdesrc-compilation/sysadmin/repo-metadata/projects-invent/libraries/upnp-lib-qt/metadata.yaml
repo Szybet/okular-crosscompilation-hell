@@ -1,0 +1,7 @@
+description: UPnP wrapper for Qt
+hasrepo: true
+identifier: upnp-lib-qt
+name: UPnP Qt Library
+projectpath: playground/base/upnp-lib-qt
+repoactive: true
+repopath: libraries/upnp-lib-qt

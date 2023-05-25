@@ -1,0 +1,7 @@
+description: GraphViz dot graph viewer
+hasrepo: true
+identifier: kgraphviewer
+name: KGraphViewer
+projectpath: extragear/graphics/kgraphviewer
+repoactive: true
+repopath: graphics/kgraphviewer

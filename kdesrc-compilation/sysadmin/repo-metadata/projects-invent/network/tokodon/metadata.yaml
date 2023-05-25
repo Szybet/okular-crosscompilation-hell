@@ -1,0 +1,9 @@
+description: Tokodon is a Mastodon client for Plasma and Plasma Mobile
+hasrepo: true
+identifier: tokodon
+name: Tokodon
+projectpath: extragear/network/tokodon
+repoactive: true
+repopath: network/tokodon
+bugzilla:
+    product: tokodon

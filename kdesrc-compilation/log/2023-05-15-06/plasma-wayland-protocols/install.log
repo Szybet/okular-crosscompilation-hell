@@ -1,0 +1,35 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/kdesupport/plasma-wayland-protocols
+Install the project...
+-- Install configuration: ""
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfig.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfigVersion.cmake
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/appmenu.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/blur.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/contrast.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/dpms.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/fake-input.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/fullscreen-shell.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/idle.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/keystate.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/outputdevice.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/output-management.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/kde-lockscreen-overlay-v1.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/kde-primary-output-v1.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/kde-output-device-v2.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/kde-output-management-v2.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/plasma-shell.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/plasma-virtual-desktop.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/plasma-window-management.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/remote-access.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/server-decoration-palette.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/server-decoration.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/shadow.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/slide.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/surface-extension.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/text-input-unstable-v2.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/text-input.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/wayland-eglstream-controller.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/zkde-screencast-unstable-v1.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/kde-output-order-v1.xml
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/share/plasma-wayland-protocols/screencast.xml

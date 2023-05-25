@@ -1,0 +1,135 @@
+Holding performance profile
+Building extra-cmake-modules from _cmdline (1/44)
+	Fetching remote changes to extra-cmake-modules
+	Merging extra-cmake-modules changes from branch kf5
+	No changes to extra-cmake-modules source code, but proceeding to build anyway.
+Building kcoreaddons from _cmdline (2/44)
+	Fetching remote changes to kcoreaddons
+	Merging kcoreaddons changes from branch kf5
+	No changes to kcoreaddons source code, but proceeding to build anyway.
+Building kconfig from _cmdline (3/44)
+	Fetching remote changes to kconfig
+	Merging kconfig changes from branch kf5
+	No changes to kconfig source code, but proceeding to build anyway.
+Building ki18n from _cmdline (4/44)
+	Fetching remote changes to ki18n
+	Merging ki18n changes from branch kf5
+	No changes to ki18n source code, but proceeding to build anyway.
+Building karchive from _cmdline (5/44)
+	Fetching remote changes to karchive
+	Merging karchive changes from branch kf5
+	No changes to karchive source code, but proceeding to build anyway.
+Building kdoctools from _cmdline (6/44)
+	Fetching remote changes to kdoctools
+	Merging kdoctools changes from branch kf5
+	No changes to kdoctools source code, but proceeding to build anyway.
+Building kwidgetsaddons from _cmdline (7/44)
+	Fetching remote changes to kwidgetsaddons
+	Merging kwidgetsaddons changes from branch kf5
+	No changes to kwidgetsaddons source code, but proceeding to build anyway.
+Building plasma-wayland-protocols from _cmdline (8/44)
+	Fetching remote changes to plasma-wayland-protocols
+	Merging plasma-wayland-protocols changes from branch master
+	No changes to plasma-wayland-protocols source code, but proceeding to build anyway.
+Building polkit-qt-1 from _cmdline (9/44)
+	Fetching remote changes to polkit-qt-1
+	Merging polkit-qt-1 changes from branch master
+	No changes to polkit-qt-1 source code, but proceeding to build anyway.
+Building kauth from _cmdline (10/44)
+	Fetching remote changes to kauth
+	Merging kauth changes from branch kf5
+	No changes to kauth source code, but proceeding to build anyway.
+Building kcodecs from _cmdline (11/44)
+	Fetching remote changes to kcodecs
+	Merging kcodecs changes from branch kf5
+	No changes to kcodecs source code, but proceeding to build anyway.
+Building kguiaddons from _cmdline (12/44)
+	Fetching remote changes to kguiaddons
+	Merging kguiaddons changes from branch kf5
+	No changes to kguiaddons source code, but proceeding to build anyway.
+Building kwindowsystem from _cmdline (13/44)
+	Fetching remote changes to kwindowsystem
+	Merging kwindowsystem changes from branch kf5
+	No changes to kwindowsystem source code, but proceeding to build anyway.
+Building kconfigwidgets from _cmdline (14/44)
+	Fetching remote changes to kconfigwidgets
+	Merging kconfigwidgets changes from branch kf5
+	No changes to kconfigwidgets source code, but proceeding to build anyway.
+Building kdbusaddons from _cmdline (15/44)
+	Fetching remote changes to kdbusaddons
+	Merging kdbusaddons changes from branch kf5
+	No changes to kdbusaddons source code, but proceeding to build anyway.
+Building kcompletion from _cmdline (16/44)
+	Fetching remote changes to kcompletion
+	Merging kcompletion changes from branch kf5
+	Source update complete for kcompletion: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kcompletion.
+	Running cmake targeting Unix Makefiles...
+Building kcrash from _cmdline (17/44)
+	Fetching remote changes to kcrash
+	Merging kcrash changes from branch kf5
+	Source update complete for kcrash: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kcrash.
+	Running cmake targeting Unix Makefiles...
+	Note: - 1 - compile warnings
+Building kiconthemes from _cmdline (18/44)
+	Fetching remote changes to kiconthemes
+	Merging kiconthemes changes from branch kf5
+	Source update complete for kiconthemes: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kiconthemes.
+	Running cmake targeting Unix Makefiles...
+	Note: -- 5 -- compile warnings
+Building sonnet from _cmdline (19/44)
+	Fetching remote changes to sonnet
+	Merging sonnet changes from branch kf5
+	Source update complete for sonnet: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for sonnet.
+	Running cmake targeting Unix Makefiles...
+Building kglobalaccel from _cmdline (20/44)
+	Fetching remote changes to kglobalaccel
+	Merging kglobalaccel changes from branch kf5
+	Source update complete for kglobalaccel: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kglobalaccel.
+	Running cmake targeting Unix Makefiles...
+Building kitemviews from _cmdline (21/44)
+	Fetching remote changes to kitemviews
+	Merging kitemviews changes from branch kf5
+	Source update complete for kitemviews: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kitemviews.
+	Running cmake targeting Unix Makefiles...
+Building ktextwidgets from _cmdline (22/44)
+	Fetching remote changes to ktextwidgets
+	Merging ktextwidgets changes from branch kf5
+	Source update complete for ktextwidgets: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for ktextwidgets.
+	Running cmake targeting Unix Makefiles...
+Building knotifications from _cmdline (23/44)
+	Fetching remote changes to knotifications
+	Merging knotifications changes from branch kf5
+	Source update complete for knotifications: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for knotifications.
+	Running cmake targeting Unix Makefiles...
+
+knotifications didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+knotifications - file:///home/szybet/kdesrc/log/2023-05-16-06/knotifications/cmake.log
+
+Possible solution: Install the build dependencies for the modules:
+knotifications
+You can use 'sudo apt build-dep <source_package>', 'sudo dnf builddep <package>', 'sudo zypper source-install --build-deps-only <source_package>' or a similar command for your distro of choice.
+See https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source/Install_the_dependencies
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-06

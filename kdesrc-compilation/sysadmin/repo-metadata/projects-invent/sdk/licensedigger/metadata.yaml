@@ -1,0 +1,7 @@
+description: Tools to convert existing license headers to SPDX compliant headers
+hasrepo: true
+identifier: licensedigger
+name: License Digger
+projectpath: playground/sdk/licensedigger
+repoactive: true
+repopath: sdk/licensedigger

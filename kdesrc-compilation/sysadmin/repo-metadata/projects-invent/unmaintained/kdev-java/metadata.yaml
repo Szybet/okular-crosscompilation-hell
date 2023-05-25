@@ -1,0 +1,7 @@
+description: Java language support for KDevelop4
+hasrepo: true
+identifier: kdev-java
+name: KDevelop Java Support
+projectpath: unmaintained/kdev-java
+repoactive: false
+repopath: unmaintained/kdev-java

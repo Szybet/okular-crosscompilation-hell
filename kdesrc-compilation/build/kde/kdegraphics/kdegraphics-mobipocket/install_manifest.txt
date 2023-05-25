@@ -1,0 +1,11 @@
+/mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket/mobipocket.h
+/mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket/qfilestream.h
+/mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket/qmobipocket_export.h
+/mnt/HDD/Project/Public/okulartry/okular-things/include/QMobipocket/qmobipocket_version.h
+/mnt/HDD/Project/Public/okulartry/okular-things/lib/libqmobipocket.so.2.1.0
+/mnt/HDD/Project/Public/okulartry/okular-things/lib/libqmobipocket.so.2
+/mnt/HDD/Project/Public/okulartry/okular-things/lib/libqmobipocket.so
+/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketTargets.cmake
+/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketTargets-debug.cmake
+/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketConfig.cmake
+/mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/QMobipocket/QMobipocketConfigVersion.cmake

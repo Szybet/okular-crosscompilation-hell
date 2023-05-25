@@ -1,0 +1,7 @@
+description: Desktop interface to control 3D printers powered by AtCore
+hasrepo: true
+identifier: atelier
+name: Atelier
+projectpath: playground/base/atelier
+repoactive: true
+repopath: utilities/atelier

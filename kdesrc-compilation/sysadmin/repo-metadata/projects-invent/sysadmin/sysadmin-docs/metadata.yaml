@@ -1,0 +1,7 @@
+description: Documentation for infrastructure and services managed by sysadmin team
+hasrepo: true
+identifier: sysadmin-docs
+name: Sysadmin documentation
+projectpath: sysadmin/sysadmin-docs
+repoactive: false
+repopath: sysadmin/sysadmin-docs

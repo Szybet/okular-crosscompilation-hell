@@ -1,0 +1,9 @@
+description: Desktop Planetarium
+hasrepo: true
+identifier: kstars
+name: KStars
+projectpath: extragear/edu/kstars
+repoactive: true
+repopath: education/kstars
+bugzilla:
+    product: kstars

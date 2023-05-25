@@ -1,0 +1,9 @@
+bugzilla:
+  product: kapptemplate
+description: Factory for the easy creation of KDE/Qt components and programs
+hasrepo: true
+identifier: kapptemplate
+name: KAppTemplate
+projectpath: kde/kdesdk/kapptemplate
+repoactive: true
+repopath: sdk/kapptemplate

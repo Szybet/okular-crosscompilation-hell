@@ -1,0 +1,799 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kdesupport/qca
+[  0%] Automatic MOC for target qca-qt5
+[  0%] Built target qca-qt5_autogen
+[  1%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca-qt5_autogen/mocs_compilation.cpp.o
+[  1%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_tools.cpp.o
+[  1%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_textfilter.cpp.o
+[  1%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_plugin.cpp.o
+[  2%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_basic.cpp.o
+[  2%] Building CXX object src/CMakeFiles/qca-qt5.dir/support/logger.cpp.o
+[  3%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_cert.cpp.o
+[  3%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_core.cpp.o
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:[m[K In function '[01m[Kvoid* qca_secure_alloc(int)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:134:5:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kint*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  134 |     [01;35m[Kreinterpret_cast<int *>(c)[m[K[0] = bytes + sizeof(int);
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:[m[K In function '[01m[Kvoid qca_secure_free(void*)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:143:23:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kint*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  143 |     const int bytes = [01;35m[Kreinterpret_cast<int *>(c)[m[K[0];
+      |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:[m[K In function '[01m[Kvoid* qca_secure_realloc(void*, int)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:156:25:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kint*[m[K' increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  156 |     const int oldsize = [01;35m[Kreinterpret_cast<int *>(c)[m[K[0] - sizeof(int);
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:[m[K In function '[01m[Kbool QCA::can_lock()[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:47:14:[m[K [01;35m[Kwarning: [m[K'[01m[Kd[m[K' may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+   47 |     if ([01;35m[Kmlock(d, 256)[m[K == 0) {
+      |         [01;35m[K~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp:28[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include/sys/mman.h:104:12:[m[K [01;36m[Knote: [m[Kby argument 1 of type '[01m[Kconst void*[m[K' to '[01m[Kint mlock(const void*, size_t)[m[K' declared here
+  104 | extern int [01;36m[Kmlock[m[K (__const void *__addr, size_t __len) __THROW;
+      |            [01;36m[K^~~~~[m[K
+[  3%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_default.cpp.o
+[  3%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_keystore.cpp.o
+[  4%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_publickey.cpp.o
+[  4%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_safeobj.cpp.o
+[  4%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_safetimer.cpp.o
+[  5%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_securelayer.cpp.o
+[  5%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_securemessage.cpp.o
+[  5%] Building CXX object src/CMakeFiles/qca-qt5.dir/support/qpipe.cpp.o
+[  6%] Building CXX object src/CMakeFiles/qca-qt5.dir/support/console.cpp.o
+[  6%] Building CXX object src/CMakeFiles/qca-qt5.dir/support/synchronizer.cpp.o
+[  6%] Building CXX object src/CMakeFiles/qca-qt5.dir/support/dirwatch.cpp.o
+[  7%] Building CXX object src/CMakeFiles/qca-qt5.dir/support/syncthread.cpp.o
+[  7%] Building CXX object src/CMakeFiles/qca-qt5.dir/qca_systemstore_flatfile.cpp.o
+[  8%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/util.cpp.o
+[  8%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/exceptn.cpp.o
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/support/console.cpp:[m[K In member function '[01m[Kvoid QCA::ConsolePrompt::Private::appendChar(QChar)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/support/console.cpp:867:21:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kushort*[m[K' {aka '[01m[Kshort unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  867 |         ushort *p = [01;35m[Kreinterpret_cast<ushort *>(result.data())[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/support/console.cpp:[m[K In member function '[01m[Kvoid QCA::ConsolePrompt::Private::convertToUtf8()[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/support/console.cpp:877:43:[m[K [01;35m[Kwarning: [m[Kcast from '[01m[Kchar*[m[K' to '[01m[Kushort*[m[K' {aka '[01m[Kshort unsigned int*[m[K'} increases required alignment of target type [[01;35m[K-Wcast-align[m[K]
+  877 |         const ushort              *ustr = [01;35m[Kreinterpret_cast<ushort *>(result.data())[m[K;
+      |                                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[  8%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mutex.cpp.o
+[  9%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mux_qt/mux_qt.cpp.o
+[  9%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/charset.cpp.o
+[  9%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/defalloc.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mp_comba.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mp_mul.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mp_shift.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mp_misc.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/divide.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/big_base.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/big_code.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/big_io.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/big_ops2.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/big_ops3.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/bit_ops.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/libstate.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mem_pool.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/modules.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mp_asm.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/mp_mulop.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/ml_unix/mlock.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/parsing.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/qca-qt5.dir/botantools/botan/alloc_mmap/mmap_mem.cpp.o
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:[m[K In member function '[01m[Kvirtual void QCA::Botan::Pooling_Allocator::deallocate(void*, QCA::Botan::u32bit)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:240:65:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  240 |         std::vector<Memory_Block>::iterator i = [01;36m[Kstd::lower_bound(blocks.begin(), blocks.end(), Memory_Block(ptr))[m[K;
+      |                                                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:[m[K In member function '[01m[Kvoid QCA::Botan::Pooling_Allocator::get_more_core(QCA::Botan::u32bit)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:298:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  298 |     [01;36m[Kstd::sort(blocks.begin(), blocks.end())[m[K;
+      |     [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:299:33:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  299 |     last_used = [01;36m[Kstd::lower_bound(blocks.begin(), blocks.end(), Memory_Block(ptr))[m[K;
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_ForwardIterator std::lower_bound(_ForwardIterator, _ForwardIterator, const _Tp&) [with _ForwardIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Tp = QCA::Botan::Pooling_Allocator::Memory_Block][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:1490:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1490 |     [01;36m[Klower_bound[m[K(_ForwardIterator __first, _ForwardIterator __last,
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:1490:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:1499:32:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1499 |       return [01;36m[Kstd::__lower_bound(__first, __last, __val,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1500 | [01;36m[K                                __gnu_cxx::__ops::__iter_less_val())[m[K;
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:72[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:[m[K In member function '[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {unsigned char*}; _Tp = QCA::Botan::Pooling_Allocator::Memory_Block; _Alloc = std::allocator<QCA::Botan::Pooling_Allocator::Memory_Block>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:121:28:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  121 |           [01;36m[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::sort(_RAIter, _RAIter) [with _RAIter = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:4832:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 4832 |     [01;36m[Ksort[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last)
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:4832:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:4842:18:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 4842 |       [01;36m[Kstd::__sort(__first, __last, __gnu_cxx::__ops::__iter_less_iter())[m[K;
+      |       [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_ForwardIterator std::__lower_bound(_ForwardIterator, _ForwardIterator, const _Tp&, _Compare) [with _ForwardIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Tp = QCA::Botan::Pooling_Allocator::Memory_Block; _Compare = __gnu_cxx::__ops::_Iter_less_val][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:1451:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1451 |     [01;36m[K__lower_bound[m[K(_ForwardIterator __first, _ForwardIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:1451:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:1457:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1457 |       _DistanceType __len = [01;36m[Kstd::distance(__first, __last)[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:1464:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1464 |           if ([01;36m[K__comp(__middle, __val)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/vector:72[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:62[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {unsigned char*}; _Tp = QCA::Botan::Pooling_Allocator::Memory_Block; _Alloc = std::allocator<QCA::Botan::Pooling_Allocator::Memory_Block>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/vector.tcc:426:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<QCA::Botan::Pooling_Allocator::Memory_Block>::iterator[m[K' changed in GCC 7.1
+  426 |       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1949:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1949 |     [01;36m[K__sort[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1949:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1954:32:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1954 |           [01;36m[Kstd::__introsort_loop(__first, __last,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ 1955 | [01;36m[K                                std::__lg(__last - __first) * 2,[m[K
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1956 | [01;36m[K                                __comp)[m[K;
+      |                                 [01;36m[K~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1957:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1957 |           [01;36m[Kstd::__final_insertion_sort(__first, __last, __comp)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_RandomAccessIterator, _RandomAccessIterator, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:98:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   98 |     [01;36m[K__distance[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:98:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_less_val::operator()(_Iterator, _Value&) const [with _Iterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Value = const QCA::Botan::Pooling_Allocator::Memory_Block][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:68:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   68 |       [01;36m[Koperator[m[K()(_Iterator __it, _Value& __val) const
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Size = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1925:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1925 |     [01;36m[K__introsort_loop[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1925:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1933:34:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1933 |               [01;36m[Kstd::__partial_sort(__first, __last, __last, __comp)[m[K;
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1938:45:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1938 |             [01;36m[Kstd::__unguarded_partition_pivot(__first, __last, __comp)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1939:32:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1939 |           [01;36m[Kstd::__introsort_loop(__cut, __last, __depth_limit, __comp)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1861:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1861 |     [01;36m[K__final_insertion_sort[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1861:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1866:32:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1866 |           [01;36m[Kstd::__insertion_sort(__first, __first + int(_S_threshold), __comp)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1867:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1867 |           [01;36m[Kstd::__unguarded_insertion_sort(__first + int(_S_threshold), __last,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1868 | [01;36m[K                                          __comp)[m[K;
+      |                                           [01;36m[K~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1871:30:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1871 |         [01;36m[Kstd::__insertion_sort(__first, __last, __comp)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__partial_sort(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1912:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1912 |     [01;36m[K__partial_sort[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1912:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1912:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1917:25:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1917 |       [01;36m[Kstd::__heap_select(__first, __middle, __last, __comp)[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1918:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1918 |       [01;36m[Kstd::__sort_heap(__first, __middle, __comp)[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1900:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1900 |     [01;36m[K__unguarded_partition_pivot[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1900:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1904:34:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1904 |       [01;36m[Kstd::__move_median_to_first(__first, __first + 1, __mid, __last - 1,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1905 | [01;36m[K                                  __comp)[m[K;
+      |                                   [01;36m[K~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1904:34:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1906:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1906 |       return [01;36m[Kstd::__unguarded_partition(__first + 1, __last, __first, __comp)[m[K;
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1819:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1819 |     [01;36m[K__insertion_sort[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1819:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1826:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1826 |           if ([01;36m[K__comp(__i, __first)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1830:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1830 |               [01;36m[K_GLIBCXX_MOVE_BACKWARD3[m[K(__first, __i, __i + 1);
+      |               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__unguarded_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1843:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1843 |     [01;36m[K__unguarded_insertion_sort[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1843:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__heap_select(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1642:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1642 |     [01;36m[K__heap_select[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1642:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1642:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1646:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1646 |       [01;36m[Kstd::__make_heap(__first, __middle, __comp)[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1648:19:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1648 |         if ([01;36m[K__comp(__i, __first)[m[K)
+      |             [01;36m[K~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1649:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1649 |           [01;36m[Kstd::__pop_heap(__first, __middle, __i, __comp)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:61[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:[m[K In function '[01m[Kvoid std::__sort_heap(_RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:418:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  418 |     [01;36m[K__sort_heap[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:418:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:424:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  424 |           [01;36m[Kstd::__pop_heap(__first, __last, __last, __comp)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kconstexpr bool __gnu_cxx::__ops::_Iter_less_iter::operator()(_Iterator1, _Iterator2) const [with _Iterator1 = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Iterator2 = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:44:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   44 |       [01;36m[Koperator[m[K()(_Iterator1 __it1, _Iterator2 __it2) const
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:44:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__move_median_to_first(_Iterator, _Iterator, _Iterator, _Iterator, _Compare) [with _Iterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:79:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   79 |     [01;36m[K__move_median_to_first[m[K(_Iterator __result,_Iterator __a, _Iterator __b,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:79:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:79:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:79:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:82:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   82 |       if ([01;36m[K__comp(__a, __b)[m[K)
+      |           [01;36m[K~~~~~~^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:84:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   84 |           if ([01;36m[K__comp(__b, __c)[m[K)
+      |               [01;36m[K~~~~~~^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:85:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   85 |             [01;36m[Kstd::iter_swap(__result, __b)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:86:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   86 |           else if ([01;36m[K__comp(__a, __c)[m[K)
+      |                    [01;36m[K~~~~~~^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:87:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   87 |             [01;36m[Kstd::iter_swap(__result, __c)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:89:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   89 |             [01;36m[Kstd::iter_swap(__result, __a)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:91:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   91 |       else if ([01;36m[K__comp(__a, __c)[m[K)
+      |                [01;36m[K~~~~~~^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:92:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   92 |         [01;36m[Kstd::iter_swap(__result, __a)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:93:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   93 |       else if ([01;36m[K__comp(__b, __c)[m[K)
+      |                [01;36m[K~~~~~~^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:94:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   94 |         [01;36m[Kstd::iter_swap(__result, __c)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:96:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   96 |         [01;36m[Kstd::iter_swap(__result, __b)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[K_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1878:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1878 |     [01;36m[K__unguarded_partition[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1878:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1878:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1884:24:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1884 |           while ([01;36m[K__comp(__first, __pivot)[m[K)
+      |                  [01;36m[K~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1887:24:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1887 |           while ([01;36m[K__comp(__pivot, __last)[m[K)
+      |                  [01;36m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1891:25:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1891 |           [01;36m[Kstd::iter_swap(__first, __last)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_BI2 std::move_backward(_BI1, _BI1, _BI2) [with _BI1 = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _BI2 = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:884:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  884 |     [01;36m[Kmove_backward[m[K(_BI1 __first, _BI1 __last, _BI2 __result)
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:884:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:884:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:894:47:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  894 |       return [01;36m[Kstd::__copy_move_backward_a<true>(std::__miter_base(__first),[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  895 | [01;36m[K                                               std::__miter_base(__last),[m[K
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  896 | [01;36m[K                                               __result)[m[K;
+      |                                                [01;36m[K~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__unguarded_linear_insert(_RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Val_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:1799:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1799 |     [01;36m[K__unguarded_linear_insert[m[K(_RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:61[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:[m[K In function '[01m[Kvoid std::__make_heap(_RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:339:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  339 |     [01;36m[K__make_heap[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:339:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:[m[K In function '[01m[Kvoid std::__pop_heap(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:253:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  253 |     [01;36m[K__pop_heap[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:253:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:253:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[Kvoid std::iter_swap(_ForwardIterator1, _ForwardIterator2) [with _ForwardIterator1 = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _ForwardIterator2 = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:152:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  152 |     [01;36m[Kiter_swap[m[K(_ForwardIterator1 __a, _ForwardIterator2 __b)
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:152:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:61[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/cpp_type_traits.h:[m[K In function '[01m[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/cpp_type_traits.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  560 |     [01;36m[K__miter_base[m[K(_Iterator __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_OI std::__copy_move_backward_a(_II, _II, _OI) [with bool _IsMove = true; _II = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _OI = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:796:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  796 |     [01;36m[K__copy_move_backward_a[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:796:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:796:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Val_less_iter::operator()(_Value&, _Iterator) const [with _Value = QCA::Botan::Pooling_Allocator::Memory_Block; _Iterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:97:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   97 |       [01;36m[Koperator[m[K()(_Value& __val, _Iterator __it) const
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:61[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:[m[K In function '[01m[Kvoid std::__adjust_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Distance = int; _Tp = QCA::Botan::Pooling_Allocator::Memory_Block; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:223:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  223 |     [01;36m[K__adjust_heap[m[K(_RandomAccessIterator __first, _Distance __holeIndex,
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:231:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  231 |           if ([01;36m[K__comp(__first + __secondChild,[m[K
+      |               [01;36m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  232 | [01;36m[K                     __first + (__secondChild - 1))[m[K)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator.h:[m[K In function '[01m[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = QCA::Botan::Pooling_Allocator::Memory_Block*; _Container = std::vector<QCA::Botan::Pooling_Allocator::Memory_Block>][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator.h:1257:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+ 1257 |     [01;36m[K__niter_base[m[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:[m[K In function '[01m[K_From std::__niter_wrap(_From, _To) [with _From = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _To = QCA::Botan::Pooling_Allocator::Memory_Block*][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:328:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  328 |     [01;36m[K__niter_wrap[m[K(_From __from, _To __res)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algo.h:61[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:62[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:[m[K In function '[01m[Kvoid std::__push_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Distance = int; _Tp = QCA::Botan::Pooling_Allocator::Memory_Block; _Compare = __gnu_cxx::__ops::_Iter_less_val][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:134:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  134 |     [01;36m[K__push_heap[m[K(_RandomAccessIterator __first,
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_heap.h:139:48:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+  139 |       while (__holeIndex > __topIndex && [01;36m[K__comp(__first + __parent, __value)[m[K)
+      |                                          [01;36m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QtGlobal:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/types.h:38[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/allocate.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/botan/mem_pool.h:37[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp:34[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:[m[K In member function '[01m[Kbool __gnu_cxx::__ops::_Iter_less_val::operator()(_Iterator, _Value&) const [with _Iterator = __gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >; _Value = QCA::Botan::Pooling_Allocator::Memory_Block][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/predefined_ops.h:68:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<QCA::Botan::Pooling_Allocator::Memory_Block*, std::vector<QCA::Botan::Pooling_Allocator::Memory_Block> >[m[K' changed in GCC 7.1
+   68 |       [01;36m[Koperator[m[K()(_Iterator __it, _Value& __val) const
+      |       [01;36m[K^~~~~~~~[m[K
+[ 16%] Linking CXX shared library ../lib/libqca-qt5.so
+[ 16%] Built target qca-qt5
+[ 17%] Automatic MOC for target qca-botan
+[ 18%] Automatic MOC for target qca-logger
+[ 18%] Automatic MOC for target qca-gnupg
+[ 19%] Automatic MOC for target qca-ossl
+[ 19%] Automatic MOC for target qca-pkcs11
+[ 19%] Automatic MOC for target qca-gcrypt
+[ 19%] Automatic MOC for target qca-softstore
+[ 19%] Automatic MOC for target qca-nss
+[ 19%] Built target qca-pkcs11_autogen
+[ 19%] Built target qca-logger_autogen
+[ 20%] Automatic MOC for target base64unittest
+[ 20%] Automatic MOC for target bigintunittest
+[ 20%] Built target qca-softstore_autogen
+[ 20%] Built target qca-botan_autogen
+[ 20%] Built target qca-gcrypt_autogen
+[ 21%] Automatic MOC for target certunittest
+[ 21%] Automatic MOC for target clientplugin
+[ 22%] Automatic MOC for target cipherunittest
+[ 22%] Built target qca-nss_autogen
+[ 22%] Automatic MOC for target dsaunittest
+[ 22%] Built target qca-gnupg_autogen
+[ 22%] Built target cipherunittest_autogen
+[ 22%] Built target base64unittest_autogen
+[ 22%] Built target bigintunittest_autogen
+[ 22%] Automatic MOC for target hashunittest
+[ 22%] Automatic MOC for target filewatchunittest
+[ 23%] Automatic MOC for target hexunittest
+[ 23%] Automatic MOC for target kdfunittest
+[ 23%] Built target clientplugin_autogen
+[ 23%] Built target certunittest_autogen
+[ 23%] Automatic MOC for target keybundle
+[ 24%] Automatic MOC for target keygenunittest
+[ 24%] Built target qca-ossl_autogen
+[ 24%] Automatic MOC for target keylengthunittest
+[ 24%] Built target dsaunittest_autogen
+[ 24%] Automatic MOC for target keystore
+[ 24%] Built target hexunittest_autogen
+[ 24%] Built target hashunittest_autogen
+[ 24%] Built target kdfunittest_autogen
+[ 24%] Automatic MOC for target loggerunittest
+[ 24%] Automatic MOC for target macunittest
+[ 24%] Built target filewatchunittest_autogen
+[ 24%] Built target keygenunittest_autogen
+[ 24%] Built target keybundle_autogen
+[ 24%] Automatic MOC for target metatypeunittest
+[ 25%] Automatic MOC for target pgpunittest
+[ 25%] Built target keylengthunittest_autogen
+[ 25%] Automatic MOC for target pipeunittest
+[ 25%] Automatic MOC for target pkits
+[ 25%] Automatic MOC for target rsaunittest
+[ 25%] Built target keystore_autogen
+[ 26%] Automatic MOC for target securearrayunittest
+[ 26%] Built target loggerunittest_autogen
+[ 27%] Automatic MOC for target staticunittest
+[ 27%] Built target macunittest_autogen
+[ 27%] Built target pgpunittest_autogen
+[ 27%] Built target pkits_autogen
+[ 27%] Built target metatypeunittest_autogen
+[ 27%] Built target pipeunittest_autogen
+[ 27%] Automatic MOC for target symmetrickeyunittest
+[ 27%] Built target rsaunittest_autogen
+[ 28%] Automatic MOC for target veloxunittest
+[ 28%] Automatic MOC for target tlsunittest
+[ 28%] Automatic MOC for target cms
+[ 28%] Automatic MOC for target base64test
+[ 28%] Automatic MOC for target aes-cmac
+[ 28%] Built target base64test_autogen
+[ 28%] Automatic MOC for target certtest
+[ 28%] Built target certtest_autogen
+[ 28%] Built target securearrayunittest_autogen
+[ 29%] Automatic MOC for target cmsexample
+[ 29%] Automatic MOC for target ciphertest
+[ 29%] Built target cmsexample_autogen
+[ 29%] Built target staticunittest_autogen
+[ 29%] Built target ciphertest_autogen
+[ 29%] Built target aes-cmac_autogen
+[ 30%] Automatic MOC for target hashtest
+[ 31%] Automatic MOC for target eventhandlerdemo
+[ 31%] Automatic MOC for target hextest
+[ 32%] Automatic MOC for target keyloader
+[ 32%] Built target tlsunittest_autogen
+[ 32%] Built target symmetrickeyunittest_autogen
+[ 32%] Built target hashtest_autogen
+[ 33%] Automatic MOC for target mactest
+[ 33%] Automatic MOC for target md5crypt
+[ 33%] Built target cms_autogen
+[ 33%] Built target hextest_autogen
+[ 33%] Built target veloxunittest_autogen
+[ 34%] Automatic MOC for target providertest
+[ 35%] Automatic MOC for target randomtest
+[ 35%] Automatic MOC for target publickeyexample
+[ 35%] Built target md5crypt_autogen
+[ 35%] Built target mactest_autogen
+[ 35%] Automatic MOC for target rsatest
+[ 35%] Built target providertest_autogen
+[ 35%] Built target randomtest_autogen
+[ 35%] Automatic MOC for target saslserver
+[ 36%] Automatic MOC for target saslclient
+[ 36%] Built target publickeyexample_autogen
+[ 36%] Built target rsatest_autogen
+[ 36%] Automatic MOC for target sslservtest
+[ 36%] Automatic MOC for target ssltest
+[ 37%] Automatic MOC for target tlssocket
+[ 37%] Built target eventhandlerdemo_autogen
+[ 37%] Automatic MOC for target mozcerts-qt5
+[ 37%] Built target keyloader_autogen
+[ 37%] Automatic MOC for target qcatool-qt5
+[ 37%] Building CXX object plugins/qca-botan/CMakeFiles/qca-botan.dir/qca-botan_autogen/mocs_compilation.cpp.o
+[ 37%] Built target mozcerts-qt5_autogen
+[ 38%] Building CXX object plugins/qca-botan/CMakeFiles/qca-botan.dir/qca-botan.cpp.o
+[ 38%] Building CXX object plugins/qca-gcrypt/CMakeFiles/qca-gcrypt.dir/qca-gcrypt_autogen/mocs_compilation.cpp.o
+[ 38%] Built target saslserver_autogen
+[ 38%] Built target saslclient_autogen
+[ 38%] Building CXX object plugins/qca-gcrypt/CMakeFiles/qca-gcrypt.dir/qca-gcrypt.cpp.o
+[ 38%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/qca-gnupg_autogen/mocs_compilation.cpp.o
+[ 38%] Built target ssltest_autogen
+[ 39%] Building CXX object plugins/qca-logger/CMakeFiles/qca-logger.dir/qca-logger_autogen/mocs_compilation.cpp.o
+[ 40%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/qca-gnupg.cpp.o
+[ 40%] Built target tlssocket_autogen
+[ 40%] Built target sslservtest_autogen
+[ 40%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/gpgop.cpp.o
+[ 40%] Building CXX object plugins/qca-logger/CMakeFiles/qca-logger.dir/qca-logger.cpp.o
+[ 40%] Building CXX object plugins/qca-nss/CMakeFiles/qca-nss.dir/qca-nss_autogen/mocs_compilation.cpp.o
+[ 40%] Built target qcatool-qt5_autogen
+In file included from [01m[K/usr/include/botan-2/botan/types.h:13[m[K,
+                 from [01m[K/usr/include/botan-2/botan/secmem.h:11[m[K,
+                 from [01m[K/usr/include/botan-2/botan/rng.h:11[m[K,
+                 from [01m[K/usr/include/botan-2/botan/auto_rng.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-botan/qca-botan.cpp:26[m[K:
+[01m[K/usr/include/botan-2/botan/build.h:469:6:[m[K [01;31m[Kerror: [m[K#error "Trying to compile Botan configured as x86_64 with non-x86_64 compiler."
+  469 |     #[01;31m[Kerror[m[K "Trying to compile Botan configured as x86_64 with non-x86_64 compiler."
+      |      [01;31m[K^~~~~[m[K
+[ 40%] Building CXX object plugins/qca-nss/CMakeFiles/qca-nss.dir/qca-nss.cpp.o
+[ 41%] Building CXX object plugins/qca-ossl/CMakeFiles/qca-ossl.dir/qca-ossl_autogen/mocs_compilation.cpp.o
+[ 41%] Building CXX object plugins/qca-ossl/CMakeFiles/qca-ossl.dir/qca-ossl.cpp.o
+[ 41%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/utils.cpp.o
+[ 41%] Building CXX object plugins/qca-pkcs11/CMakeFiles/qca-pkcs11.dir/qca-pkcs11_autogen/mocs_compilation.cpp.o
+[ 41%] Linking CXX shared module ../../lib/qca-qt5/crypto/libqca-logger.so
+[ 42%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/gpgproc/sprocess.cpp.o
+[ 42%] Building CXX object plugins/qca-pkcs11/CMakeFiles/qca-pkcs11.dir/qca-pkcs11.cpp.o
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:[m[K In member function '[01m[Kvirtual void opensslQCAPlugin::RSAKey::startSign(QCA::SignatureAlgorithm, QCA::SignatureFormat)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:2083:18:[m[K [01;31m[Kerror: [m[K'[01m[KEVP_md2[m[K' was not declared in this scope; did you mean '[01m[KEVP_mdc2[m[K'?
+ 2083 |             md = [01;31m[KEVP_md2[m[K();
+      |                  [01;31m[K^~~~~~~[m[K
+      |                  [32m[KEVP_mdc2[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:[m[K In member function '[01m[Kvirtual void opensslQCAPlugin::RSAKey::startVerify(QCA::SignatureAlgorithm, QCA::SignatureFormat)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:2110:18:[m[K [01;31m[Kerror: [m[K'[01m[KEVP_md2[m[K' was not declared in this scope; did you mean '[01m[KEVP_mdc2[m[K'?
+ 2110 |             md = [01;31m[KEVP_md2[m[K();
+      |                  [01;31m[K^~~~~~~[m[K
+      |                  [32m[KEVP_mdc2[m[K
+[ 42%] Built target qca-logger
+[ 42%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/mypgpkeycontext.cpp.o
+make[2]: *** [plugins/qca-botan/CMakeFiles/qca-botan.dir/build.make:90: plugins/qca-botan/CMakeFiles/qca-botan.dir/qca-botan.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1367: plugins/qca-botan/CMakeFiles/qca-botan.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 42%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/mykeystoreentry.cpp.o
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-pkcs11/qca-pkcs11.cpp:29:10:[m[K [01;31m[Kfatal error: [m[Kpkcs11-helper-1.0/pkcs11h-certificate.h: No such file or directory
+   29 | #include [01;31m[K<pkcs11-helper-1.0/pkcs11h-certificate.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [plugins/qca-pkcs11/CMakeFiles/qca-pkcs11.dir/build.make:90: plugins/qca-pkcs11/CMakeFiles/qca-pkcs11.dir/qca-pkcs11.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1685: plugins/qca-pkcs11/CMakeFiles/qca-pkcs11.dir/all] Error 2
+[ 43%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/myopenpgpcontext.cpp.o
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:[m[K In member function '[01m[Kvirtual QCA::Provider::Context* opensslProvider::createContext(const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:6728:43:[m[K [01;31m[Kerror: [m[K'[01m[KEVP_sha[m[K' was not declared in this scope; did you mean '[01m[KEVP_sha1[m[K'?
+ 6728 |             return new opensslHashContext([01;31m[KEVP_sha[m[K(), this, type);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [32m[KEVP_sha1[m[K
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:6734:43:[m[K [01;31m[Kerror: [m[K'[01m[KEVP_md2[m[K' was not declared in this scope; did you mean '[01m[KEVP_mdc2[m[K'?
+ 6734 |             return new opensslHashContext([01;31m[KEVP_md2[m[K(), this, type);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [32m[KEVP_mdc2[m[K
+[ 44%] Linking CXX shared module ../../lib/qca-qt5/crypto/libqca-gcrypt.so
+[ 45%] Linking CXX shared module ../../lib/qca-qt5/crypto/libqca-nss.so
+[01m[K/home/szybet/kdesrc/kdesupport/qca/plugins/qca-ossl/qca-ossl.cpp:6764:45:[m[K [01;31m[Kerror: [m[K'[01m[KEVP_md2[m[K' was not declared in this scope; did you mean '[01m[KEVP_mdc2[m[K'?
+ 6764 |             return new opensslPbkdf1Context([01;31m[KEVP_md2[m[K(), this, type);
+      |                                             [01;31m[K^~~~~~~[m[K
+      |                                             [32m[KEVP_mdc2[m[K
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lssl3
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lsmime3
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lnss3
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lnssutil3
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lplds4
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lplc4
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: cannot find -lnspr4
+collect2: error: ld returned 1 exit status
+make[2]: *** [plugins/qca-nss/CMakeFiles/qca-nss.dir/build.make:115: lib/qca-qt5/crypto/libqca-nss.so] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1579: plugins/qca-nss/CMakeFiles/qca-nss.dir/all] Error 2
+[ 45%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/mykeystorelist.cpp.o
+[ 45%] Built target qca-gcrypt
+[ 45%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/mymessagecontext.cpp.o
+make[2]: *** [plugins/qca-ossl/CMakeFiles/qca-ossl.dir/build.make:90: plugins/qca-ossl/CMakeFiles/qca-ossl.dir/qca-ossl.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1632: plugins/qca-ossl/CMakeFiles/qca-ossl.dir/all] Error 2
+[ 46%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/ringwatch.cpp.o
+[ 46%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/lineconverter.cpp.o
+[ 46%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/gpgaction.cpp.o
+[ 47%] Building CXX object plugins/qca-gnupg/CMakeFiles/qca-gnupg.dir/gpgproc/gpgproc.cpp.o
+[ 47%] Linking CXX shared module ../../lib/qca-qt5/crypto/libqca-gnupg.so
+[ 47%] Built target qca-gnupg
+make: *** [Makefile:146: all] Error 2

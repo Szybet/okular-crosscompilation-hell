@@ -1,0 +1,7 @@
+description: Use a pyramid to reconstruct a sharper image.
+hasrepo: true
+identifier: krita-pyramidalsharpening
+name: Pyramidal Sharpening
+projectpath: extragear/graphics/krita-extensions/krita-pyramidalsharpening
+repoactive: false
+repopath: unmaintained/krita-pyramidalsharpening

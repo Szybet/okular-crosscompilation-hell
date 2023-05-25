@@ -1,0 +1,60 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kdbusaddons
+[  1%] Built target translations_1
+[  2%] Built target translations_2
+[  3%] Built target translations_5
+[  5%] Built target translations_6
+[  6%] Built target translations_4
+[  7%] Built target translations_3
+[  8%] Built target translations_7
+[ 10%] Built target translations_8
+[ 11%] Built target translations_11
+[ 12%] Built target translations_9
+[ 13%] Built target translations_12
+[ 15%] Built target translations_13
+[ 16%] Built target translations_10
+[ 17%] Built target translations_14
+[ 18%] Built target translations_15
+[ 20%] Built target translations_16
+[ 21%] Built target translations_17
+[ 22%] Built target translations_18
+[ 24%] Built target translations_19
+[ 25%] Built target translations_20
+[ 26%] Built target translations_21
+[ 27%] Built target translations_22
+[ 30%] Built target translations_23
+[ 30%] Built target translations_24
+[ 32%] Built target translations_28
+[ 32%] Built target translations_25
+[ 34%] Built target translations_27
+[ 35%] Built target translations_26
+[ 36%] Built target translations_29
+[ 37%] Built target translations_30
+[ 39%] Built target translations_32
+[ 40%] Built target translations_31
+[ 43%] Built target translations_37
+[ 43%] Built target translations_36
+[ 44%] Built target translations_34
+[ 45%] Built target translations_35
+[ 46%] Built target translations_33
+[ 48%] Built target translations_38
+[ 49%] Built target translations_39
+[ 50%] Built target translations_40
+[ 51%] Built target translations_41
+[ 54%] Built target translations_43
+[ 53%] Built target translations_42
+[ 55%] Built target translations_44
+[ 56%] Built target translations_45
+[ 58%] Built target translations_47
+[ 59%] Built target translations_46
+[ 60%] Built target translations_48
+[ 62%] Built target translations_50
+[ 64%] Built target translations_49
+[ 64%] Built target translations_52
+[ 65%] Built target translations_51
+[ 67%] Automatic MOC for target KF5DBusAddons
+[ 68%] Automatic MOC for target kquitapp5
+[ 68%] Built target kquitapp5_autogen
+[ 68%] Built target KF5DBusAddons_autogen
+[ 72%] Built target kquitapp5
+[100%] Built target KF5DBusAddons

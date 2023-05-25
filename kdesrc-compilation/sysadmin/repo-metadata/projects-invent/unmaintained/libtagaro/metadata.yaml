@@ -1,0 +1,8 @@
+description: Replacement for libkdegames which will allow KDE games to scale to mobile
+  form factors, and to fully take advantage of Qt 4 facilities.
+hasrepo: true
+identifier: libtagaro
+name: libtagaro
+projectpath: unmaintained/libtagaro
+repoactive: false
+repopath: unmaintained/libtagaro

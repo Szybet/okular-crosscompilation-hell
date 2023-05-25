@@ -1,0 +1,7 @@
+description: Plasma dataengine for managing Telepathy account presence.
+hasrepo: true
+identifier: ktp-presence-dataengine
+name: Telepathy Presence Dataengine
+projectpath: unmaintained/ktp-presence-dataengine
+repoactive: false
+repopath: unmaintained/ktp-presence-dataengine

@@ -1,0 +1,9 @@
+bugzilla:
+  product: Elisa
+description: Simple music player aiming to provide a nice experience for its users
+hasrepo: true
+identifier: elisa
+name: Elisa
+projectpath: kde/kdemultimedia/elisa
+repoactive: true
+repopath: multimedia/elisa

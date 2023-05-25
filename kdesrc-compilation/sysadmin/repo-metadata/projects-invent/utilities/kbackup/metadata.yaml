@@ -1,0 +1,9 @@
+bugzilla:
+  product: kbackup
+description: Backup program with an easy-to-use interface
+hasrepo: true
+identifier: kbackup
+name: KBackup
+projectpath: kde/kdeutils/kbackup
+repoactive: true
+repopath: utilities/kbackup

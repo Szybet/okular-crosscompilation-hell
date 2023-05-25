@@ -1,0 +1,10 @@
+description: Configuration module for SDDM
+hasrepo: true
+identifier: sddm-kcm
+name: SDDM KCM
+projectpath: kde/workspace/sddm-kcm
+repoactive: true
+repopath: plasma/sddm-kcm
+bugzilla:
+    product: systemsettings
+    component: kcm_sddm

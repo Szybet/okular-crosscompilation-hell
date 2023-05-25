@@ -1,0 +1,9 @@
+bugzilla:
+  product: k3b
+description: Full-featured CD/DVD/Blu-ray burning and ripping application
+hasrepo: true
+identifier: k3b
+name: K3b
+projectpath: kde/kdemultimedia/k3b
+repoactive: true
+repopath: multimedia/k3b

@@ -1,0 +1,7 @@
+description: Multi-platform text editor
+hasrepo: true
+identifier: nota
+name: Nota
+projectpath: playground/base/nota
+repoactive: true
+repopath: maui/nota

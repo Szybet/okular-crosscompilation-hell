@@ -1,0 +1,7 @@
+description: Mobile Git repository manager
+hasrepo: true
+identifier: bonsai
+name: Bonsai
+projectpath: playground/base/bonsai
+repoactive: true
+repopath: maui/bonsai

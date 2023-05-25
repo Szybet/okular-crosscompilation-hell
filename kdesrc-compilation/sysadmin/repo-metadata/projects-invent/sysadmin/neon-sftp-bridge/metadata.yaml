@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-neon-sftp-bridge
+name: Neon SFTP-to-HTTP bridging daemon
+projectpath: sysadmin/neon-sftp-bridge
+repoactive: false
+repopath: sysadmin/neon-sftp-bridge

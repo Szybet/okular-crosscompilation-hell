@@ -1,0 +1,7 @@
+description: CD player by KDE
+hasrepo: true
+identifier: kscd
+name: KsCD
+projectpath: playground/multimedia/kscd
+repoactive: false
+repopath: multimedia/kscd

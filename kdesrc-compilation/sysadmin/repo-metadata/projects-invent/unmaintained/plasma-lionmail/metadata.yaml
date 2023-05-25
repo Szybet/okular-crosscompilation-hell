@@ -1,0 +1,7 @@
+description: A Plasma widget displaying new and important email
+hasrepo: true
+identifier: plasma-lionmail
+name: Lionmail Email Notifier
+projectpath: unmaintained/plasma-lionmail
+repoactive: false
+repopath: unmaintained/plasma-lionmail

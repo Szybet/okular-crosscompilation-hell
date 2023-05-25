@@ -1,0 +1,25 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/extra-cmake-modules
+-- The following features have been enabled:
+
+ * BUILD_HTML_DOCS, Generate HTML documentation for installed modules.
+ * BUILD_MAN_DOCS, Generate man page documentation for installed modules.
+
+-- The following OPTIONAL packages have been found:
+
+ * Sphinx (required version >= 1.2), Tool to generate documentation., <https://www.sphinx-doc.org/>
+   Required to build documentation for Extra CMake Modules.
+ * QCollectionGenerator, Qt help collection generator., <https://www.qt.io/>
+   Required to build Extra CMake Modules documentation in Qt Help format.
+
+-- The following features have been disabled:
+
+ * BUILD_QTHELP_DOCS, Generate QtHelp documentation for installed modules.
+ * BUILD_TESTING, Build automated tests.
+
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/extra-cmake-modules
+[ 50%] sphinx-build html: see /home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/build-html.log
+[100%] sphinx-build man: see /home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/build-man.log
+[100%] Built target documentation

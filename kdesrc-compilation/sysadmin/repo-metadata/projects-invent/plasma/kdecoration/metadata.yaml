@@ -1,0 +1,10 @@
+description: Plugin-based library to create window decorations
+hasrepo: true
+identifier: kdecoration
+name: KDecoration
+projectpath: kde/workspace/kdecoration
+repoactive: true
+repopath: plasma/kdecoration
+bugzilla:
+    product: kwin
+    component: decorations

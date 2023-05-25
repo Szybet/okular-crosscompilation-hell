@@ -1,0 +1,9 @@
+bugzilla:
+  product: Rocs
+description: An educational Graph Theory IDE
+hasrepo: true
+identifier: rocs
+name: Rocs
+projectpath: kde/kdeedu/rocs
+repoactive: true
+repopath: education/rocs

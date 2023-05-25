@@ -1,0 +1,7 @@
+description: Contacts and dialer application
+hasrepo: true
+identifier: maui-communicator
+name: Communicator
+projectpath: playground/base/maui-communicator
+repoactive: true
+repopath: maui/communicator

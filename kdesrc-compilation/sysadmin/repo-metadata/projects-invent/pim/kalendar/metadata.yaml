@@ -1,0 +1,7 @@
+description: A calendar application using Akonadi to sync with external services (Nextcloud, GMail, ...)
+hasrepo: true
+identifier: kalendar
+name: Kalendar
+projectpath: kde/pim/kalendar
+repoactive: true
+repopath: pim/kalendar

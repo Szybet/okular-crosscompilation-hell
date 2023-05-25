@@ -1,0 +1,389 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kirigami/src/KirigamiPlugin_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kirigami",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kirigami/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kirigami/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kirigami/src/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQmLoader.cpp.in",
+		"/home/szybet/kdesrc/frameworks/kirigami/src/scenegraph/shaders/shaders.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kirigami",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kirigami/src/libkirigami/loggingcategory.h",
+			"Mu",
+			"5OE37L6T47/moc_loggingcategory.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/avatar.h",
+			"Mu",
+			"EWIEGA46WW/moc_avatar.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/colorutils.h",
+			"Mu",
+			"EWIEGA46WW/moc_colorutils.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h",
+			"Mu",
+			"EWIEGA46WW/moc_columnview.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/columnview_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_columnview_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/delegaterecycler.h",
+			"Mu",
+			"EWIEGA46WW/moc_delegaterecycler.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/enums.h",
+			"Mu",
+			"EWIEGA46WW/moc_enums.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/formlayoutattached.h",
+			"Mu",
+			"EWIEGA46WW/moc_formlayoutattached.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/icon.h",
+			"Mu",
+			"EWIEGA46WW/moc_icon.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/imagecolors.h",
+			"Mu",
+			"EWIEGA46WW/moc_imagecolors.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/inputmethod.h",
+			"Mu",
+			"EWIEGA46WW/moc_inputmethod.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/kirigamiplugin.h",
+			"Mu",
+			"EWIEGA46WW/moc_kirigamiplugin.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/mnemonicattached.h",
+			"Mu",
+			"EWIEGA46WW/moc_mnemonicattached.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/pagepool.h",
+			"Mu",
+			"EWIEGA46WW/moc_pagepool.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h",
+			"Mu",
+			"EWIEGA46WW/moc_pagerouter.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/scenegraph/managedtexturenode.h",
+			"Mu",
+			"3GMBWEERUK/moc_managedtexturenode.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/scenegraph/paintedrectangleitem.h",
+			"Mu",
+			"3GMBWEERUK/moc_paintedrectangleitem.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/scenepositionattached.h",
+			"Mu",
+			"EWIEGA46WW/moc_scenepositionattached.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/settings.h",
+			"Mu",
+			"EWIEGA46WW/moc_settings.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/shadowedrectangle.h",
+			"Mu",
+			"EWIEGA46WW/moc_shadowedrectangle.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/shadowedtexture.h",
+			"Mu",
+			"EWIEGA46WW/moc_shadowedtexture.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/sizegroup.h",
+			"Mu",
+			"EWIEGA46WW/moc_sizegroup.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/spellcheckinghint.h",
+			"Mu",
+			"EWIEGA46WW/moc_spellcheckinghint.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/toolbarlayout.h",
+			"Mu",
+			"EWIEGA46WW/moc_toolbarlayout.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/toolbarlayoutdelegate.h",
+			"Mu",
+			"EWIEGA46WW/moc_toolbarlayoutdelegate.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/wheelhandler.h",
+			"Mu",
+			"EWIEGA46WW/moc_wheelhandler.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kirigami/src/KirigamiPlugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/kirigami/src/KirigamiPlugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KF_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"KF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x55f00",
+		"KIRIGAMI2_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KIRIGAMI2_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"KIRIGAMI_ENABLE_DBUS",
+		"KirigamiPlugin_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICKCONTROLS2_LIB",
+		"QT_QUICK_LIB",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kirigami/src",
+		"/home/szybet/kdesrc/frameworks/kirigami/src",
+		"/home/szybet/kdesrc/build/frameworks/kirigami",
+		"/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami",
+		"/home/szybet/kdesrc/build/frameworks/kirigami/src/libkirigami",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/5.15.2",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui/5.15.2/QtGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/5.15.2",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/5.15.2/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtQml",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtNetwork",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtQuick",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtQmlModels",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtQuickControls2",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtConcurrent",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [ "-Muri=org.kde.kirigami" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/kirigami/src/KirigamiPlugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/kirigami/src/CMakeFiles/KirigamiPlugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kirigami/src/CMakeFiles/KirigamiPlugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kirigami/src/ECMQmLoader-libkirigami2plugin_qt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/build/frameworks/kirigami/src/libkirigami/loggingcategory.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/frameworks/kirigami/src/avatar.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/colorutils.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/columnview.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/delegaterecycler.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/frameworks/kirigami/src/enums.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/formlayoutattached.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/frameworks/kirigami/src/icon.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/imagecolors.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/inputmethod.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/kirigamiplugin.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/mnemonicattached.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/pagepool.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/scenegraph/managedtexturenode.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/scenegraph/paintedrectangleitem.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/scenepositionattached.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/settings.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/shadowedrectangle.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/shadowedtexture.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/sizegroup.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/spellcheckinghint.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/toolbarlayout.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/toolbarlayoutdelegate.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kirigami/src/wheelhandler.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

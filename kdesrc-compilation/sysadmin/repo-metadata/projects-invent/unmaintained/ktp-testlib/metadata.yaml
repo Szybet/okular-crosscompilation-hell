@@ -1,0 +1,7 @@
+description: Infrastructure library for building unit tests for Telepathy components
+hasrepo: true
+identifier: ktp-testlib
+name: Telepathy Testlib
+projectpath: unmaintained/ktp-testlib
+repoactive: false
+repopath: unmaintained/ktp-testlib

@@ -1,0 +1,9 @@
+description: Resource usage monitor for your computer
+hasrepo: true
+identifier: ksysguard
+name: KSysGuard
+projectpath: kde/workspace/ksysguard
+repoactive: false
+repopath: plasma/ksysguard
+bugzilla:
+    product: ksysguard

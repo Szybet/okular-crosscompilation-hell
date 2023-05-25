@@ -1,0 +1,7 @@
+description: Secrets management infrastructure
+hasrepo: true
+identifier: ksecrets
+name: KSecretsService
+projectpath: playground/utils/ksecrets
+repoactive: false
+repopath: utilities/ksecrets

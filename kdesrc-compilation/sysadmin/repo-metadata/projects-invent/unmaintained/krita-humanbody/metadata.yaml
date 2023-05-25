@@ -1,0 +1,8 @@
+description: Canvas decoration that display the outline of a human to help choosing
+  the pose when drawing.
+hasrepo: true
+identifier: krita-humanbody
+name: Human Body
+projectpath: extragear/graphics/krita-extensions/krita-humanbody
+repoactive: false
+repopath: unmaintained/krita-humanbody

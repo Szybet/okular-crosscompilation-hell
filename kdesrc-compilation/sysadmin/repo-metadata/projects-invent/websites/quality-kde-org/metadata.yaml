@@ -1,0 +1,7 @@
+description: Tools that make up the KDE Quality website
+hasrepo: true
+identifier: websites-quality-kde-org
+name: KDE Quality Website
+projectpath: websites/quality-kde-org
+repoactive: true
+repopath: websites/quality-kde-org

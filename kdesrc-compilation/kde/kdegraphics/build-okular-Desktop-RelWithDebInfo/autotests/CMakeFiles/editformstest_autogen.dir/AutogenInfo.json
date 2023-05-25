@@ -1,0 +1,177 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/editformstest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/okular/autotests",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/autotests/CMakeLists.txt",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/cmake/modules/FindDiscount.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/okular",
+	"DEP_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/editformstest_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "editformstest_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/editformstest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/editformstest_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_SPEECH",
+		"KCOREADDONS_LIB",
+		"KDESRCDIR=\"/home/szybet/kdesrc/kde/kdegraphics/okular/autotests/\"",
+		"KF_DEPRECATED_WARNINGS_SINCE=0x055C00",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x050F02",
+		"QT_FORCE_ASSERTS",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_STRICT_ITERATORS",
+		"QT_TESTCASE_BUILDDIR=\"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo\"",
+		"QT_TESTLIB_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"TRANSLATION_DOMAIN=\"okular\"",
+		"WITH_KJS=1",
+		"WITH_KWALLET=1",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"OKULAR_EXPORT_PLUGIN",
+			"[\n^][ \t]*OKULAR_EXPORT_PLUGIN[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/autotests",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular",
+		"/home/szybet/kdesrc/kde/kdegraphics/okular/core/synctex",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/core",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo",
+		"/usr/include/phonon4qt5",
+		"/usr/include/phonon4qt5/KDE",
+		"/usr/include/qt",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtTest",
+		"/usr/include/KF5/KCoreAddons",
+		"/usr/include/KF5",
+		"/usr/include/KF5/KXmlGui",
+		"/usr/include/qt/QtXml",
+		"/usr/include/KF5/KConfig",
+		"/usr/include/KF5/KConfigCore",
+		"/usr/include/KF5/KConfigWidgets",
+		"/usr/include/KF5/KWidgetsAddons",
+		"/usr/include/KF5/KConfigGui",
+		"/usr/include/KF5/KCodecs",
+		"/usr/include/KF5/KAuthWidgets",
+		"/usr/include/KF5/KAuthCore",
+		"/usr/include/KF5/KAuth",
+		"/usr/include/qt/QtDBus",
+		"/usr/include/qt/QtPrintSupport",
+		"/usr/include/qt/QtCore/5.15.9",
+		"/usr/include/qt/QtCore/5.15.9/QtCore",
+		"/usr/include/c++/13.1.1",
+		"/usr/include/c++/13.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/13.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"OKULAR_EXPORT_PLUGIN",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/editformstest_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/addremoveannotationtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/annotationstest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/documenttest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/editannotationcontentstest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/editdrawingtooldialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/formattest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/keystroketest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/kjsfunctionstest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/modifyannotationpropertiestest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/parttest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/searchtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/shelltest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/signunsignedfieldtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/translateannotationtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/urldetecttest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/visibilitytest_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/CMakeFiles/editformstest_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/autotests/CMakeFiles/editformstest_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/okular/autotests/editformstest.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,9 @@
+bugzilla:
+  product: kturtle
+description: Educational programming environment that uses TurtleSpeak
+hasrepo: true
+identifier: kturtle
+name: KTurtle
+projectpath: kde/kdeedu/kturtle
+repoactive: true
+repopath: education/kturtle

@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"kcoreaddons_add_plugin",
+			"okular_add_generator"
+		],
+		"files" : 
+		[
+			"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake",
+			"generators/CMakeLists.txt",
+			"generators/mobipocket/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "plugins/okular/generators",
+			"paths" : 
+			[
+				"bin/plugins/okular/okularGenerator_mobi.so"
+			],
+			"targetId" : "okularGenerator_mobi::@82e85de86a6eb4394343",
+			"targetIndex" : 63,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/kservices5",
+			"paths" : 
+			[
+				"generators/mobipocket/okularMobi.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "okular",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"generators/mobipocket/okularApplication_mobi.desktop",
+				"generators/mobipocket/org.kde.mobile.okular_mobi.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "okular",
+			"destination" : "share/metainfo",
+			"paths" : 
+			[
+				"generators/mobipocket/org.kde.okular-mobipocket.metainfo.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/mobipocket",
+		"source" : "generators/mobipocket"
+	}
+}

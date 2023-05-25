@@ -1,0 +1,9 @@
+bugzilla:
+  product: ksudoku
+description: KSudoku is a logic-based symbol placement puzzle
+hasrepo: true
+identifier: ksudoku
+name: KSudoku
+projectpath: kde/kdegames/ksudoku
+repoactive: true
+repopath: games/ksudoku

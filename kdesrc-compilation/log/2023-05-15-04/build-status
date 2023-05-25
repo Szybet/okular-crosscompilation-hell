@@ -1,0 +1,5 @@
+extra-cmake-modules: Succeeded after 4 seconds.
+kcoreaddons: Succeeded after 1 minute, and 7 seconds.
+kconfig: Succeeded after 32 seconds.
+ki18n: Succeeded after 22 seconds.
+karchive: Failed on build after 6 seconds.

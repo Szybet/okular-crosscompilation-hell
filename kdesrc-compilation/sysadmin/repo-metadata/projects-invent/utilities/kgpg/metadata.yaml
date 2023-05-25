@@ -1,0 +1,9 @@
+bugzilla:
+  product: kgpg
+description: Simple interface for GnuPG, a powerful encryption utility
+hasrepo: true
+identifier: kgpg
+name: KGpg
+projectpath: kde/kdeutils/kgpg
+repoactive: true
+repopath: utilities/kgpg

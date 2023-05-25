@@ -1,0 +1,7 @@
+description: Property editing framework with an editor widget similar to Qt Designer
+hasrepo: true
+identifier: kproperty
+name: KProperty
+projectpath: extragear/libs/kproperty
+repoactive: true
+repopath: libraries/kproperty

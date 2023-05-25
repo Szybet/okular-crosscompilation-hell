@@ -1,0 +1,9 @@
+bugzilla:
+  product: libkdcraw
+description: C++ interface around LibRaw library used to decode RAW picture files
+hasrepo: true
+identifier: libkdcraw
+name: libkdcraw
+projectpath: kde/kdegraphics/libs/libkdcraw
+repoactive: true
+repopath: graphics/libkdcraw

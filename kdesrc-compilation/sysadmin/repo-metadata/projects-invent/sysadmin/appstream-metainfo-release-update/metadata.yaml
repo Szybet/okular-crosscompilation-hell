@@ -1,0 +1,8 @@
+description: "Updates AppStream Metainfo files for new releases of your software\r\
+  \n"
+hasrepo: true
+identifier: sysadmin-appstream-metainfo-release-update
+name: Appstream Metainfo Updater for Releases
+projectpath: sysadmin/appstream-metainfo-release-update
+repoactive: false
+repopath: sysadmin/appstream-metainfo-release-update

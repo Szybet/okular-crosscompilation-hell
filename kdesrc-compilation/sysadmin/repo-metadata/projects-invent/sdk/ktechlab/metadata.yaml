@@ -1,0 +1,7 @@
+description: IDE for microcontrollers and electronics
+hasrepo: true
+identifier: ktechlab
+name: KTechLab
+projectpath: playground/devtools/ktechlab
+repoactive: true
+repopath: sdk/ktechlab

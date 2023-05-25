@@ -1,0 +1,9 @@
+bugzilla:
+  product: kbruch
+description: Practice Fractions
+hasrepo: true
+identifier: kbruch
+name: KBruch
+projectpath: kde/kdeedu/kbruch
+repoactive: true
+repopath: education/kbruch

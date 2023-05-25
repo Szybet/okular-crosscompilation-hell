@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kpty
+description: KPty
+hasrepo: true
+identifier: kpty
+name: KPty
+projectpath: frameworks/kpty
+repoactive: true
+repopath: frameworks/kpty

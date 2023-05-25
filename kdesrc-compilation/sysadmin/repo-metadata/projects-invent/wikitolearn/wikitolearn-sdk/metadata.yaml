@@ -1,0 +1,7 @@
+description: SDK for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-sdk
+name: 'WikiToLearn SDK'
+projectpath: playground/www/wikitolearn-sdk
+repoactive: true
+repopath: wikitolearn/wikitolearn-sdk

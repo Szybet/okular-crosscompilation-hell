@@ -1,0 +1,7 @@
+description: A minimal toolkit for win32 API required to build up the console wrapper.
+hasrepo: true
+identifier: libkcw
+name: KCW Library
+projectpath: unmaintained/libkcw
+repoactive: false
+repopath: unmaintained/libkcw

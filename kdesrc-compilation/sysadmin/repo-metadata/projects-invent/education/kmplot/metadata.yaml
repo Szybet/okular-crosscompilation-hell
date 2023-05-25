@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmplot
+description: Mathematical Function Plotter
+hasrepo: true
+identifier: kmplot
+name: KmPlot
+projectpath: kde/kdeedu/kmplot
+repoactive: true
+repopath: education/kmplot

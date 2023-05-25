@@ -1,0 +1,7 @@
+description: KDE SVN repository browser — websvn.kde.org
+hasrepo: true
+identifier: websites-websvn-kde-org
+name: KDE WebSVN - ViewVC
+projectpath: websites/websvn-kde-org
+repoactive: true
+repopath: websites/websvn-kde-org

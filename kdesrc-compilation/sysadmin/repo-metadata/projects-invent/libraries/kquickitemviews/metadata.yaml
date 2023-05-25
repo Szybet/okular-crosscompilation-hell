@@ -1,0 +1,7 @@
+description: Qt Model compatibility layer for QML
+hasrepo: true
+identifier: kquickitemviews
+name: KQuickItemViews
+projectpath: playground/libs/kquickitemviews
+repoactive: true
+repopath: libraries/kquickitemviews

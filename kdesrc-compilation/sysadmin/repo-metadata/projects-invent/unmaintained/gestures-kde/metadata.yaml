@@ -1,0 +1,7 @@
+description: Handles gestures of multi touch input devices
+hasrepo: true
+identifier: gestures-kde
+name: Gestures handler by KDE
+projectpath: unmaintained/gestures-kde
+repoactive: false
+repopath: unmaintained/gestures-kde

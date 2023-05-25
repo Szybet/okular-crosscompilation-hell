@@ -1,0 +1,583 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kauth
+[  2%] Generating ECMPoQm/af/kauth5_qt.qm
+[  3%] Generating ECMPoQm/as/kauth5_qt.qm
+[  3%] Generating ECMPoQm/ar/kauth5_qt.qm
+[  3%] Generating ECMPoQm/be/kauth5_qt.qm
+[  3%] Generating ECMPoQm/az/kauth5_qt.qm
+[  4%] Generating ECMPoQm/bn/kauth5_qt.qm
+[  4%] Generating ECMPoQm/be@latin/kauth5_qt.qm
+[  4%] Generating ECMPoQm/bg/kauth5_qt.qm
+[  4%] Built target translations_7
+[  4%] Built target translations_4
+[  4%] Built target translations_2
+[  5%] Generating ECMPoQm/bn_IN/kauth5_qt.qm
+[  5%] Generating ECMPoQm/bs/kauth5_qt.qm
+[  5%] Generating ECMPoQm/br/kauth5_qt.qm
+[  5%] Built target translations_11
+[  6%] Generating ECMPoQm/ca/kauth5_qt.qm
+[  6%] Built target translations_3
+[  6%] Built target translations_6
+[  6%] Built target translations_8
+[  6%] Built target translations_5
+[  6%] Generating ECMPoQm/ca@valencia/kauth5_qt.qm
+[  7%] Generating ECMPoQm/crh/kauth5_qt.qm
+[  7%] Built target translations_1
+[  7%] Built target translations_12
+[  7%] Built target translations_9
+[  8%] Generating ECMPoQm/cs/kauth5_qt.qm
+[  8%] Built target translations_13
+[  9%] Generating ECMPoQm/cy/kauth5_qt.qm
+[  9%] Generating ECMPoQm/da/kauth5_qt.qm
+[  9%] Generating ECMPoQm/csb/kauth5_qt.qm
+[  9%] Built target translations_10
+[  9%] Built target translations_15
+[ 10%] Generating ECMPoQm/de/kauth5_qt.qm
+[ 10%] Generating ECMPoQm/el/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 11%] Generating ECMPoQm/en_GB/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 11%] Generating ECMPoQm/eo/kauth5_qt.qm
+[ 11%] Built target translations_22
+[ 11%] Built target translations_14
+[ 11%] Built target translations_16
+[ 11%] Built target translations_18
+[ 12%] Generating ECMPoQm/es/kauth5_qt.qm
+[ 12%] Built target translations_17
+[ 12%] Generating ECMPoQm/et/kauth5_qt.qm
+[ 13%] Generating ECMPoQm/eu/kauth5_qt.qm
+[ 13%] Built target translations_19
+[ 13%] Built target translations_20
+[ 14%] Generating ECMPoQm/fa/kauth5_qt.qm
+[ 14%] Generating ECMPoQm/fi/kauth5_qt.qm
+[ 15%] Generating ECMPoQm/fr/kauth5_qt.qm
+[ 15%] Generating ECMPoQm/fy/kauth5_qt.qm
+[ 15%] Built target translations_21
+[ 15%] Generating ECMPoQm/ga/kauth5_qt.qm
+[ 15%] Built target translations_23
+[ 15%] Built target translations_25
+[ 15%] Built target translations_24
+[ 15%] Built target translations_28
+[ 15%] Built target translations_26
+[ 16%] Generating ECMPoQm/gd/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 17%] Generating ECMPoQm/gl/kauth5_qt.qm
+[ 17%] Built target translations_29
+[ 17%] Generating ECMPoQm/gu/kauth5_qt.qm
+[ 17%] Built target translations_27
+[ 17%] Generating ECMPoQm/he/kauth5_qt.qm
+[ 18%] Built target translations_31
+[ 18%] Generating ECMPoQm/ha/kauth5_qt.qm
+[ 19%] Generating ECMPoQm/hi/kauth5_qt.qm
+[ 19%] Generating ECMPoQm/hne/kauth5_qt.qm
+[ 19%] Built target translations_35
+[ 20%] Generating ECMPoQm/hr/kauth5_qt.qm
+[ 20%] Built target translations_34
+[ 21%] Generating ECMPoQm/hsb/kauth5_qt.qm
+[ 21%] Built target translations_30
+[ 22%] Generating ECMPoQm/hu/kauth5_qt.qm
+[ 22%] Generating ECMPoQm/hy/kauth5_qt.qm
+[ 22%] Built target translations_32
+[ 22%] Built target translations_33
+[ 22%] Built target translations_36
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 23%] Generating ECMPoQm/ia/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 23%] Built target translations_38
+[ 24%] Generating ECMPoQm/is/kauth5_qt.qm
+[ 24%] Generating ECMPoQm/id/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 24%] Built target translations_37
+[ 24%] Built target translations_39
+[ 24%] Built target translations_40
+[ 25%] Generating ECMPoQm/it/kauth5_qt.qm
+[ 25%] Generating ECMPoQm/ja/kauth5_qt.qm
+[ 26%] Generating ECMPoQm/ka/kauth5_qt.qm
+[ 26%] Generating ECMPoQm/kk/kauth5_qt.qm
+[ 26%] Built target translations_46
+[ 26%] Built target translations_41
+[ 26%] Built target translations_42
+[ 26%] Built target translations_47
+[ 27%] Generating ECMPoQm/km/kauth5_qt.qm
+[ 28%] Generating ECMPoQm/ko/kauth5_qt.qm
+[ 28%] Built target translations_44
+[ 29%] Generating ECMPoQm/kn/kauth5_qt.qm
+[ 29%] Generating ECMPoQm/ku/kauth5_qt.qm
+[ 29%] Built target translations_43
+[ 30%] Generating ECMPoQm/lb/kauth5_qt.qm
+[ 30%] Built target translations_51
+[ 30%] Generating ECMPoQm/lt/kauth5_qt.qm
+[ 30%] Built target translations_45
+[ 30%] Generating ECMPoQm/mai/kauth5_qt.qm
+[ 30%] Built target translations_54
+[ 31%] Built target translations_48
+[ 31%] Generating ECMPoQm/lv/kauth5_qt.qm
+[ 32%] Generating ECMPoQm/mk/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 33%] Generating ECMPoQm/ml/kauth5_qt.qm
+[ 33%] Built target translations_49
+[ 33%] Built target translations_52
+[ 33%] Built target translations_50
+[ 33%] Built target translations_56
+[ 33%] Generating ECMPoQm/mr/kauth5_qt.qm
+[ 33%] Generating ECMPoQm/ms/kauth5_qt.qm
+[ 34%] Generating ECMPoQm/nb/kauth5_qt.qm
+[ 35%] Generating ECMPoQm/nds/kauth5_qt.qm
+[ 35%] Built target translations_53
+[ 35%] Built target translations_57
+[ 35%] Built target translations_61
+[ 35%] Built target translations_55
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 35%] Generating ECMPoQm/ne/kauth5_qt.qm
+[ 36%] Generating ECMPoQm/nl/kauth5_qt.qm
+[ 36%] Built target translations_58
+[ 36%] Generating ECMPoQm/nn/kauth5_qt.qm
+[ 37%] Generating ECMPoQm/oc/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 37%] Built target translations_60
+[ 37%] Built target translations_65
+[ 37%] Built target translations_59
+[ 37%] Generating ECMPoQm/or/kauth5_qt.qm
+[ 38%] Generating ECMPoQm/pa/kauth5_qt.qm
+[ 39%] Generating ECMPoQm/pl/kauth5_qt.qm
+[ 40%] Generating ECMPoQm/ps/kauth5_qt.qm
+[ 40%] Built target translations_62
+[ 40%] Built target translations_66
+[ 40%] Built target translations_63
+[ 40%] Generating ECMPoQm/pt/kauth5_qt.qm
+[ 41%] Generating ECMPoQm/pt_BR/kauth5_qt.qm
+[ 41%] Built target translations_64
+[ 41%] Generating ECMPoQm/ro/kauth5_qt.qm
+[ 41%] Built target translations_71
+[ 41%] Built target translations_72
+[ 42%] Generating ECMPoQm/ru/kauth5_qt.qm
+[ 42%] Built target translations_67
+[ 43%] Generating ECMPoQm/se/kauth5_qt.qm
+[ 43%] Built target translations_70
+[ 43%] Generating ECMPoQm/si/kauth5_qt.qm
+[ 43%] Built target translations_68
+[ 43%] Built target translations_69
+[ 43%] Generating ECMPoQm/sl/kauth5_qt.qm
+[ 44%] Generating ECMPoQm/sk/kauth5_qt.qm
+[ 44%] Built target translations_75
+[ 45%] Generating ECMPoQm/sq/kauth5_qt.qm
+[ 46%] Generating ECMPoQm/sr/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 47%] Generating ECMPoQm/sr@ijekavian/kauth5_qt.qm
+[ 47%] Built target translations_80
+[ 47%] Built target translations_73
+[ 47%] Built target translations_81
+[ 47%] Generating ECMPoQm/sr@ijekavianlatin/kauth5_qt.qm
+[ 47%] Built target translations_74
+[ 48%] Generating ECMPoQm/sr@latin/kauth5_qt.qm
+[ 48%] Generating ECMPoQm/sv/kauth5_qt.qm
+[ 48%] Built target translations_82
+[ 49%] Generating ECMPoQm/ta/kauth5_qt.qm
+[ 49%] Built target translations_83
+[ 49%] Built target translations_78
+[ 49%] Built target translations_77
+[ 49%] Built target translations_79
+[ 49%] Built target translations_84
+[ 49%] Generating ECMPoQm/te/kauth5_qt.qm
+[ 49%] Built target translations_76
+[ 50%] Generating ECMPoQm/tg/kauth5_qt.qm
+[ 51%] Generating ECMPoQm/th/kauth5_qt.qm
+[ 51%] Generating ECMPoQm/tr/kauth5_qt.qm
+[ 51%] Generating ECMPoQm/tt/kauth5_qt.qm
+[ 52%] Generating ECMPoQm/ug/kauth5_qt.qm
+[ 52%] Built target translations_89
+[ 52%] Generating ECMPoQm/uk/kauth5_qt.qm
+[ 52%] Built target translations_92
+[ 53%] Generating ECMPoQm/uz/kauth5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 54%] Generating ECMPoQm/uz@cyrillic/kauth5_qt.qm
+[ 54%] Built target translations_85
+[ 54%] Built target translations_87
+[ 54%] Built target translations_91
+[ 54%] Built target translations_90
+[ 54%] Built target translations_88
+[ 54%] Built target translations_86
+[ 54%] Generating ECMPoQm/vi/kauth5_qt.qm
+[ 55%] Generating ECMPoQm/wa/kauth5_qt.qm
+[ 55%] Generating ECMPoQm/xh/kauth5_qt.qm
+[ 55%] Built target translations_95
+[ 55%] Built target translations_93
+[ 56%] Generating ECMPoQm/zh_TW/kauth5_qt.qm
+[ 57%] Generating ECMPoQm/zh_CN/kauth5_qt.qm
+[ 58%] Generating ECMPoQm/zh_HK/kauth5_qt.qm
+[ 58%] Built target translations_98
+[ 58%] Built target translations_100
+[ 58%] Automatic MOC for target kauth-policy-gen
+[ 59%] Automatic MOC for target KF5AuthCore
+[ 60%] Automatic MOC for target kauth_tests_static
+[ 60%] Built target translations_94
+[ 60%] Built target kauth-policy-gen_autogen
+[ 60%] Built target translations_96
+[ 60%] Built target translations_97
+[ 61%] Building CXX object src/CMakeFiles/kauth-policy-gen.dir/kauth-policy-gen_autogen/mocs_compilation.cpp.o
+[ 61%] Building CXX object src/CMakeFiles/kauth-policy-gen.dir/policy-gen/policy-gen.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/kauth-policy-gen.dir/backends/polkit-1/kauth-policy-gen-polkit1.cpp.o
+[ 62%] Built target translations_99
+[ 62%] Built target KF5AuthCore_autogen
+[ 62%] Built target kauth_tests_static_autogen
+[ 63%] Generating kf5authadaptor.cpp, kf5authadaptor.h
+[ 63%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/KF5AuthCore_autogen/mocs_compilation.cpp.o
+[ 64%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/action.cpp.o
+[ 64%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/actionreply.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/executejob.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/AuthBackend.cpp.o
+[ 66%] Generating kf5authadaptor.moc
+[ 67%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/kauth_tests_static_autogen/mocs_compilation.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/BackendsManager.cpp.o
+[ 68%] Linking CXX executable ../bin/kauth-policy-gen
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:[m[K In function '[01m[KQDataStream& QtPrivate::writeAssociativeContainer(QDataStream&, const Container&) [with Container = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:351:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  351 |         const qint64 last = [01;36m[Kstd::distance(rangeStart, it)[m[K - 1;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qscopedpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 68%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/__/src/action.cpp.o
+[ 69%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/__/src/actionreply.cpp.o
+[ 69%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/__/src/executejob.cpp.o
+[ 69%] Built target kauth-policy-gen
+[ 70%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/__/src/AuthBackend.cpp.o
+[ 70%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/BackendsManager.cpp.o
+[ 71%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/__/src/HelperProxy.cpp.o
+[ 72%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/HelperProxy.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:[m[K In function '[01m[KQDataStream& QtPrivate::writeAssociativeContainer(QDataStream&, const Container&) [with Container = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:351:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  351 |         const qint64 last = [01;36m[Kstd::distance(rangeStart, it)[m[K - 1;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qscopedpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 72%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/helpersupport.cpp.o
+[ 73%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/__/src/helpersupport.cpp.o
+[ 74%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/kauthdebug.cpp.o
+[ 74%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/TestBackend.cpp.o
+[ 74%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/backends/fake/FakeBackend.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/backends/fakehelper/FakeHelperProxy.cpp.o
+[ 76%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/__/src/backends/dbus/DBusHelperProxy.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/KF5AuthCore.dir/ECMQmLoader-kauth5_qt.cpp.o
+[ 77%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/kf5authadaptor.cpp.o
+[ 78%] Building CXX object autotests/CMakeFiles/kauth_tests_static.dir/kauthdebug.cpp.o
+[ 78%] Linking CXX shared library ../bin/libKF5AuthCore.so
+[ 78%] Built target KF5AuthCore
+[ 78%] Automatic MOC for target helper
+[ 79%] Automatic MOC for target client
+[ 80%] Automatic MOC for target KF5AuthWidgets
+[ 81%] Automatic MOC for target kauth_backend_plugin
+[ 81%] Built target client_autogen
+[ 82%] Building CXX object examples/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object examples/CMakeFiles/client.dir/client.cpp.o
+[ 82%] Built target helper_autogen
+[ 83%] Building CXX object examples/CMakeFiles/helper.dir/helper_autogen/mocs_compilation.cpp.o
+[ 83%] Building CXX object examples/CMakeFiles/helper.dir/helper.cpp.o
+[ 83%] Built target KF5AuthWidgets_autogen
+[ 83%] Building CXX object src/CMakeFiles/KF5AuthWidgets.dir/KF5AuthWidgets_autogen/mocs_compilation.cpp.o
+[ 84%] Building CXX object src/CMakeFiles/KF5AuthWidgets.dir/kauthdebug.cpp.o
+[ 84%] Building CXX object src/CMakeFiles/KF5AuthWidgets.dir/objectdecorator.cpp.o
+[ 84%] Built target kauth_backend_plugin_autogen
+[ 85%] Building CXX object src/CMakeFiles/kauth_backend_plugin.dir/kauth_backend_plugin_autogen/mocs_compilation.cpp.o
+[ 85%] Building CXX object src/CMakeFiles/kauth_backend_plugin.dir/backends/polkit-1/Polkit1Backend.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/HelperProxy.h:17[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.cpp:9[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:[m[K In function '[01m[KQDataStream& QtPrivate::writeAssociativeContainer(QDataStream&, const Container&) [with Container = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:351:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  351 |         const qint64 last = [01;36m[Kstd::distance(rangeStart, it)[m[K - 1;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qiterator.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmap.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QMap:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/HelperProxy.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.cpp:9[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 86%] Building CXX object src/CMakeFiles/kauth_backend_plugin.dir/AuthBackend.cpp.o
+[ 86%] Linking CXX executable ../bin/client
+[ 86%] Linking CXX static library ../lib/libkauth_tests_static.a
+[ 86%] Built target client
+[ 87%] Building CXX object src/CMakeFiles/kauth_backend_plugin.dir/kauthdebug.cpp.o
+[ 88%] Linking CXX executable ../bin/helper
+[ 88%] Built target kauth_tests_static
+[ 89%] Automatic MOC for target KAuthHelperTest
+[ 89%] Automatic MOC for target KAuthSetupActionTest
+[ 89%] Built target helper
+[ 89%] Built target KAuthSetupActionTest_autogen
+[ 89%] Built target KAuthHelperTest_autogen
+[ 91%] Building CXX object autotests/CMakeFiles/KAuthSetupActionTest.dir/KAuthSetupActionTest_autogen/mocs_compilation.cpp.o
+[ 91%] Building CXX object autotests/CMakeFiles/KAuthSetupActionTest.dir/SetupActionTest.cpp.o
+[ 91%] Building CXX object autotests/CMakeFiles/KAuthHelperTest.dir/KAuthHelperTest_autogen/mocs_compilation.cpp.o
+[ 92%] Building CXX object autotests/CMakeFiles/KAuthHelperTest.dir/HelperTest.cpp.o
+[ 92%] Building CXX object autotests/CMakeFiles/KAuthHelperTest.dir/TestHelper.cpp.o
+[ 93%] Linking CXX shared library ../bin/libKF5Auth.so
+[ 93%] Linking CXX shared module ../bin/kauth_backend_plugin.so
+[ 93%] Built target KF5AuthWidgets
+[ 94%] Automatic MOC for target kauth_helper_plugin
+[ 94%] Built target kauth_backend_plugin
+[ 94%] Built target kauth_helper_plugin_autogen
+[ 95%] Generating kf5authadaptor.cpp, kf5authadaptor.h
+[ 95%] Generating kf5authadaptor.moc
+[ 96%] Building CXX object src/CMakeFiles/kauth_helper_plugin.dir/backends/dbus/DBusHelperProxy.cpp.o
+[ 96%] Building CXX object src/CMakeFiles/kauth_helper_plugin.dir/kauth_helper_plugin_autogen/mocs_compilation.cpp.o
+[ 97%] Building CXX object src/CMakeFiles/kauth_helper_plugin.dir/kf5authadaptor.cpp.o
+[ 98%] Building CXX object src/CMakeFiles/kauth_helper_plugin.dir/kauthdebug.cpp.o
+[ 98%] Building CXX object src/CMakeFiles/kauth_helper_plugin.dir/HelperProxy.cpp.o
+[ 98%] Linking CXX executable ../bin/KAuthSetupActionTest
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/AuthBackend.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/BackendsManager.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/HelperTest.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 98%] Built target KAuthSetupActionTest
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobjectdefs.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/AuthBackend.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/BackendsManager.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/HelperTest.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/AuthBackend.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/BackendsManager.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/HelperTest.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobjectdefs.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/AuthBackend.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/BackendsManager.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/HelperTest.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/AuthBackend.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/BackendsManager.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/HelperTest.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobjectdefs.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:46[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/AuthBackend.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/BackendsManager.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/autotests/HelperTest.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[100%] Linking CXX executable ../bin/KAuthHelperTest
+[100%] Built target KAuthHelperTest
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QDataStream:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/actionreply.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/HelperProxy.h:17[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.cpp:9[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:[m[K In function '[01m[KQDataStream& QtPrivate::writeAssociativeContainer(QDataStream&, const Container&) [with Container = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qdatastream.h:351:42:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  351 |         const qint64 last = [01;36m[Kstd::distance(rangeStart, it)[m[K - 1;
+      |                             [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qiterator.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmap.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QMap:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/HelperProxy.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.h:12[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kauth/src/backends/dbus/DBusHelperProxy.cpp:9[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[100%] Linking CXX shared module ../bin/kauth_helper_plugin.so
+[100%] Built target kauth_helper_plugin

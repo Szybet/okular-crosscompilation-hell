@@ -1,0 +1,7 @@
+description: C++/KF5 library for asynchronous interaction with VK social network web API
+hasrepo: true
+identifier: libkvkontakte
+name: libkvkontakte
+projectpath: extragear/libs/libkvkontakte
+repoactive: false
+repopath: libraries/libkvkontakte

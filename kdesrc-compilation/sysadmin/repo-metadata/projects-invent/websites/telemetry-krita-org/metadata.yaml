@@ -1,0 +1,7 @@
+description: Telemetry backend for Krita — telemetry.krita.org
+hasrepo: true
+identifier: websites-telemetry-krita-org
+name: Krita Telemetry Backend
+projectpath: websites/telemetry-krita-org
+repoactive: false
+repopath: websites/telemetry-krita-org

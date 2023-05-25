@@ -1,0 +1,9 @@
+bugzilla:
+  product: keditbookmarks
+description: Bookmarks editor
+hasrepo: true
+identifier: keditbookmarks
+name: KEditBookmarks
+projectpath: kde/applications/keditbookmarks
+repoactive: true
+repopath: utilities/keditbookmarks

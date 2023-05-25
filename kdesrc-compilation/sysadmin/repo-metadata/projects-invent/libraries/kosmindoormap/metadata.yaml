@@ -1,0 +1,9 @@
+description: OSM multi-floor indoor map renderer
+hasrepo: true
+identifier: kosmindoormap
+name: KOSMIndoorMap
+projectpath: kde/pim/kosmindoormap
+repoactive: true
+repopath: libraries/kosmindoormap
+bugzilla:
+  product: KOSMIndoorMaps

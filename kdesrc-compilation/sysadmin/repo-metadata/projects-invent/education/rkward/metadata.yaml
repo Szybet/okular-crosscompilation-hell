@@ -1,0 +1,7 @@
+description: Easily extensible and easy-to-use IDE/GUI for R
+hasrepo: true
+identifier: rkward
+name: RKWard
+projectpath: kdereview/rkward
+repoactive: true
+repopath: education/rkward

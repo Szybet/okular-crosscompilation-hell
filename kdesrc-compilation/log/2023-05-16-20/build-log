@@ -1,0 +1,22 @@
+Holding performance profile
+Building kpty from _cmdline (1/5)
+	Fetching remote changes to kpty
+	Merging kpty changes from branch kf5
+	Source update complete for kpty: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for kpty.
+	Removing files in build directory for kpty
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: - 1 - compile warnings
+
+kpty didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kpty - file:///home/szybet/kdesrc/log/2023-05-16-20/kpty/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-20

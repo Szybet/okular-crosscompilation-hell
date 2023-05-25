@@ -1,0 +1,7 @@
+description: REST API for Neon package contents queries — contents.neon.kde.org
+hasrepo: true
+identifier: websites-contents-neon-kde-org
+name: Neon Contents API
+projectpath: websites/contents-neon-kde-org
+repoactive: true
+repopath: websites/contents-neon-kde-org

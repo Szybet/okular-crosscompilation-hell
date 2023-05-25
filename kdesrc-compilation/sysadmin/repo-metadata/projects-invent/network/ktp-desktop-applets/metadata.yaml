@@ -1,0 +1,9 @@
+bugzilla:
+  product: telepathy
+description: KDE Telepathy applets for the Plasma Desktop
+hasrepo: true
+identifier: ktp-desktop-applets
+name: Telepathy Desktop Applets
+projectpath: kde/kdenetwork/ktp-desktop-applets
+repoactive: true
+repopath: network/ktp-desktop-applets

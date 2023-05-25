@@ -1,0 +1,7 @@
+description: MirrorBrain configuration, templates, etc. — download.kde.org
+hasrepo: true
+identifier: websites-download-kde-org
+name: Download Website
+projectpath: websites/download-kde-org
+repoactive: true
+repopath: websites/download-kde-org

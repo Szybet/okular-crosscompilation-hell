@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-geoip-service-backend
+name: GeoIP Resolution Service
+projectpath: sysadmin/geoip-service-backend
+repoactive: false
+repopath: sysadmin/geoip-service-backend

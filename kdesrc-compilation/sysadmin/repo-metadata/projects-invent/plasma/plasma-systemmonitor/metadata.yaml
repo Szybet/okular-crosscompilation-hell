@@ -1,0 +1,9 @@
+description: An interface for monitoring system sensors, process information and other system resources
+hasrepo: true
+identifier: plasma-systemmonitor
+name: Plasma System Monitor
+projectpath: kde/workspace/plasma-systemmonitor
+repoactive: true
+repopath: plasma/plasma-systemmonitor
+bugzilla:
+    product: plasma-systemmonitor

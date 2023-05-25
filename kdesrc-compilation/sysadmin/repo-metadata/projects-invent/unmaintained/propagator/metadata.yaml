@@ -1,0 +1,7 @@
+description: A git mirror fleet manager
+hasrepo: true
+identifier: propagator
+name: Propagator
+projectpath: unmaintained/propagator
+repoactive: false
+repopath: unmaintained/propagator

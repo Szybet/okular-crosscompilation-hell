@@ -1,0 +1,9 @@
+bugzilla:
+  product: ksirk
+description: KsirK is a computerized version of a well known strategy game
+hasrepo: true
+identifier: ksirk
+name: KsirK
+projectpath: kde/kdegames/ksirk
+repoactive: true
+repopath: games/ksirk

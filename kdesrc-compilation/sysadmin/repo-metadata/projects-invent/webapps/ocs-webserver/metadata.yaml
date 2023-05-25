@@ -1,0 +1,7 @@
+description: Webserver for running a software store
+hasrepo: true
+identifier: ocs-webserver
+name: OCS Webserver
+projectpath: playground/www/ocs-webserver
+repoactive: true
+repopath: webapps/ocs-webserver

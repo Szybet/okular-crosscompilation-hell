@@ -1,0 +1,42 @@
+
+#ifndef REVIEWBOARDHELPERS_EXPORT_H
+#define REVIEWBOARDHELPERS_EXPORT_H
+
+#ifdef REVIEWBOARDHELPERS_STATIC_DEFINE
+#  define REVIEWBOARDHELPERS_EXPORT
+#  define REVIEWBOARDHELPERS_NO_EXPORT
+#else
+#  ifndef REVIEWBOARDHELPERS_EXPORT
+#    ifdef ReviewboardHelpers_EXPORTS
+        /* We are building this library */
+#      define REVIEWBOARDHELPERS_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define REVIEWBOARDHELPERS_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef REVIEWBOARDHELPERS_NO_EXPORT
+#    define REVIEWBOARDHELPERS_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef REVIEWBOARDHELPERS_DEPRECATED
+#  define REVIEWBOARDHELPERS_DEPRECATED __attribute__ ((__deprecated__))
+#endif
+
+#ifndef REVIEWBOARDHELPERS_DEPRECATED_EXPORT
+#  define REVIEWBOARDHELPERS_DEPRECATED_EXPORT REVIEWBOARDHELPERS_EXPORT REVIEWBOARDHELPERS_DEPRECATED
+#endif
+
+#ifndef REVIEWBOARDHELPERS_DEPRECATED_NO_EXPORT
+#  define REVIEWBOARDHELPERS_DEPRECATED_NO_EXPORT REVIEWBOARDHELPERS_NO_EXPORT REVIEWBOARDHELPERS_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef REVIEWBOARDHELPERS_NO_DEPRECATED
+#    define REVIEWBOARDHELPERS_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* REVIEWBOARDHELPERS_EXPORT_H */

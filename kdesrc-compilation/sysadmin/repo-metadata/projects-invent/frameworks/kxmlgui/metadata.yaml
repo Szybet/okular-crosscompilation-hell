@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kxmlgui
+description: KXMLGUI
+hasrepo: true
+identifier: kxmlgui
+name: KXMLGUI
+projectpath: frameworks/kxmlgui
+repoactive: true
+repopath: frameworks/kxmlgui

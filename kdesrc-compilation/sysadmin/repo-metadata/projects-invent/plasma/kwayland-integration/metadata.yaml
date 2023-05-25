@@ -1,0 +1,9 @@
+description: Integration plugins for various KDE frameworks for the Wayland windowing system
+hasrepo: true
+identifier: kwayland-integration
+name: KWayland Integration
+projectpath: kde/workspace/kwayland-integration
+repoactive: true
+repopath: plasma/kwayland-integration
+bugzilla:
+    product: kwayland-integration

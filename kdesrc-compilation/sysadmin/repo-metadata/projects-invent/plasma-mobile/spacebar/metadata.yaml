@@ -1,0 +1,9 @@
+description: SMS/MMS application for Plasma Mobile
+hasrepo: true
+identifier: spacebar
+name: Spacebar
+projectpath: extragear/mobile/spacebar
+repoactive: true
+repopath: plasma-mobile/spacebar
+bugzilla:
+    product: spacebar

@@ -1,0 +1,77 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kdbusaddons
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kdbusaddons/prefix.sh to set the environment for KDBusAddons.
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5DBus (required version >= 5.15.2)
+ * Qt5LinguistTools
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kdbusaddons
+[  2%] Built target translations_1
+[  2%] Built target translations_3
+[  3%] Built target translations_4
+[  5%] Built target translations_2
+[  6%] Built target translations_6
+[  7%] Built target translations_5
+[  8%] Built target translations_8
+[ 10%] Built target translations_7
+[ 12%] Built target translations_11
+[ 12%] Built target translations_10
+[ 13%] Built target translations_12
+[ 15%] Built target translations_9
+[ 16%] Built target translations_13
+[ 17%] Built target translations_14
+[ 18%] Built target translations_15
+[ 20%] Built target translations_16
+[ 21%] Built target translations_20
+[ 22%] Built target translations_18
+[ 24%] Built target translations_19
+[ 25%] Built target translations_17
+[ 26%] Built target translations_21
+[ 27%] Built target translations_22
+[ 29%] Built target translations_23
+[ 30%] Built target translations_24
+[ 31%] Built target translations_25
+[ 32%] Built target translations_26
+[ 37%] Built target translations_27
+[ 40%] Built target translations_31
+[ 40%] Built target translations_29
+[ 40%] Built target translations_30
+[ 40%] Built target translations_32
+[ 40%] Built target translations_28
+[ 45%] Built target translations_35
+[ 45%] Built target translations_34
+[ 45%] Built target translations_33
+[ 45%] Built target translations_36
+[ 46%] Built target translations_38
+[ 48%] Built target translations_39
+[ 49%] Built target translations_37
+[ 50%] Built target translations_40
+[ 53%] Built target translations_43
+[ 53%] Built target translations_41
+[ 54%] Built target translations_42
+[ 55%] Built target translations_45
+[ 56%] Built target translations_44
+[ 58%] Built target translations_46
+[ 59%] Built target translations_47
+[ 60%] Built target translations_48
+[ 62%] Built target translations_49
+[ 63%] Built target translations_51
+[ 64%] Built target translations_50
+[ 67%] Automatic MOC for target kquitapp5
+[ 67%] Built target translations_52
+[ 68%] Automatic MOC for target KF5DBusAddons
+[ 68%] Built target kquitapp5_autogen
+[ 68%] Built target KF5DBusAddons_autogen
+[ 69%] Linking CXX executable ../../../bin/kquitapp5
+[ 97%] Built target KF5DBusAddons
+[100%] Built target kquitapp5

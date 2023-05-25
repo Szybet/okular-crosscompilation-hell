@@ -1,0 +1,7 @@
+description: Veritas provides a common interface for running unit tests in KDevPlatform.
+hasrepo: true
+identifier: veritas
+name: Veritas
+projectpath: unmaintained/veritas
+repoactive: false
+repopath: unmaintained/veritas

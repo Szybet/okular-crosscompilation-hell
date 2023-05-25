@@ -1,0 +1,8 @@
+description: Assistant to help with managing external and cloud data storage providers
+  such as Owncloud and Google Drive.
+hasrepo: true
+identifier: pim-storage-service-manager
+name: PIM Storage Service Manager
+projectpath: unmaintained/pim-storage-service-manager
+repoactive: false
+repopath: unmaintained/pim-storage-service-manager

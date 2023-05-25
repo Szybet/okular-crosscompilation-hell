@@ -1,0 +1,10 @@
+description: Flatpak Permissions Management KCM
+hasrepo: true
+identifier: flatpak-kcm
+name: Flatpak KCM
+projectpath: kde/workspace/flatpak-kcm
+repoactive: true
+repopath: plasma/flatpak-kcm
+bugzilla:
+    product: systemsettings
+    component: kcm_flatpak

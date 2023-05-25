@@ -1,0 +1,9 @@
+bugzilla:
+  product: okular
+description: KDE document viewer
+hasrepo: true
+identifier: okular
+name: Okular
+projectpath: kde/kdegraphics/okular
+repoactive: true
+repopath: graphics/okular

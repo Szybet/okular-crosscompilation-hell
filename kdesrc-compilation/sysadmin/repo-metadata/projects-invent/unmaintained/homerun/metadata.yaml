@@ -1,0 +1,7 @@
+description: An application launcher for KDE Plasma desktop
+hasrepo: true
+identifier: homerun
+name: KDE Homerun
+projectpath: unmaintained/homerun
+repoactive: false
+repopath: unmaintained/homerun

@@ -1,0 +1,9 @@
+bugzilla:
+  product: kanagram
+description: Letter Order Game
+hasrepo: true
+identifier: kanagram
+name: Kanagram
+projectpath: kde/kdeedu/kanagram
+repoactive: true
+repopath: education/kanagram

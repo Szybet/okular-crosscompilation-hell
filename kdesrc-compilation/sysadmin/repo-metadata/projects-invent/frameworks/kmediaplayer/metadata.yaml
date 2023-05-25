@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kmediaplayer
+description: KMediaPlayer
+hasrepo: true
+identifier: kmediaplayer
+name: KMediaPlayer
+projectpath: frameworks/kmediaplayer
+repoactive: true
+repopath: frameworks/kmediaplayer

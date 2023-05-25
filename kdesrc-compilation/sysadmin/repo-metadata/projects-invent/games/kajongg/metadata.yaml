@@ -1,0 +1,9 @@
+bugzilla:
+  product: kajongg
+description: Mah Jongg - the ancient Chinese board game for 4 players
+hasrepo: true
+identifier: kajongg
+name: Kajongg
+projectpath: kde/kdegames/kajongg
+repoactive: true
+repopath: games/kajongg

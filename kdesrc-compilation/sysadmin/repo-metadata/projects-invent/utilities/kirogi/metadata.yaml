@@ -1,0 +1,7 @@
+description: Ground control application for drones
+hasrepo: true
+identifier: kirogi
+name: Kirogi
+projectpath: playground/base/kirogi
+repoactive: true
+repopath: utilities/kirogi

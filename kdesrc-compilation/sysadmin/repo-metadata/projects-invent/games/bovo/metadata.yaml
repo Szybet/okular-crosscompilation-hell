@@ -1,0 +1,9 @@
+bugzilla:
+  product: bovo
+description: Bovo is a Gomoku like game for two players
+hasrepo: true
+identifier: bovo
+name: Bovo
+projectpath: kde/kdegames/bovo
+repoactive: true
+repopath: games/bovo

@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-all-projects
+name: All-Projects for Gerrit instance
+projectpath: sysadmin/gerrit-all-projects
+repoactive: false
+repopath: sysadmin/gerrit-all-projects

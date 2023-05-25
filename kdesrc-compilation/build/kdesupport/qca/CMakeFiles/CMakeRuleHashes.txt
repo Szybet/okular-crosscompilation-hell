@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+da5682b3b852cf4b8a4e03840ed4a921 CMakeFiles/doc
+55e02b4a70bda560ac4fed8777134331 CMakeFiles/uninstall
+dbd4c2ed223ba0b89332248fc7c57983 src/CMakeFiles/qca-qt5_autogen

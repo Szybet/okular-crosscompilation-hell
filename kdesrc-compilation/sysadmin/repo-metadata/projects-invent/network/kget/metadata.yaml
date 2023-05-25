@@ -1,0 +1,9 @@
+bugzilla:
+  product: kget
+description: Download Manager
+hasrepo: true
+identifier: kget
+name: KGet
+projectpath: kde/kdenetwork/kget
+repoactive: true
+repopath: network/kget

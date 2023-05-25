@@ -1,0 +1,7 @@
+description: This is a KScan plugin that implements the scanning through libksane
+hasrepo: true
+identifier: ksaneplugin
+name: KSanePlugin
+projectpath: unmaintained/ksaneplugin
+repoactive: false
+repopath: unmaintained/ksaneplugin

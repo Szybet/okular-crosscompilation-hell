@@ -1,0 +1,49 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/frameworks/kguiaddons
+Install the project...
+-- Install configuration: "Debug"
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5GuiAddons.so.5.107.0
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5GuiAddons.so.5
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5GuiAddons.so
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kguiaddons_export.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kmodifierkeyinfoprovider_p.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/klocalimagecacheimpl.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KColorUtils
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KColorCollection
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KColorMimeData
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KColorSchemeWatcher
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kcolorutils.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kcolorcollection.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kcolormimedata.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kcolorschemewatcher.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KDateValidator
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KWordWrap
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kdatevalidator.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kwordwrap.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KFontUtils
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kfontutils.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KIconUtils
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KImageCache
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KModifierKeyInfo
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KCursorSaver
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kiconutils.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kimagecache.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kmodifierkeyinfo.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kcursorsaver.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KeySequenceRecorder
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/keysequencerecorder.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/KSystemClipboard
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/ksystemclipboard.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/modules/qt_KGuiAddons.pri
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/kguiaddons.categories
+-- Installing: /mnt/HDD/Project/Public/okulartry/okular-things/bin/kde-geo-uri-handler
+-- Set runtime path of "/mnt/HDD/Project/Public/okulartry/okular-things/bin/kde-geo-uri-handler" to "/mnt/HDD/Project/Public/okulartry/okular-things/lib:/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib"
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/applications/google-maps-geo-handler.desktop
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/applications/openstreetmap-geo-handler.desktop
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/applications/qwant-maps-geo-handler.desktop
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/applications/wheelmap-geo-handler.desktop
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5GuiAddons/KF5GuiAddonsConfig.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5GuiAddons/KF5GuiAddonsConfigVersion.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5GuiAddons/KF5GuiAddonsTargets.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5GuiAddons/KF5GuiAddonsTargets-debug.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KGuiAddons/kguiaddons_version.h

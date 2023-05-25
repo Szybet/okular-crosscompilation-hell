@@ -1,0 +1,9 @@
+bugzilla:
+  product: kalarmcal
+description: Calendar support for KAlarm
+hasrepo: true
+identifier: kalarmcal
+name: KAlarmCal
+projectpath: kde/pim/kalarmcal
+repoactive: false
+repopath: pim/kalarmcal

@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'reset' '--hard' 'origin/kf5'
+# from directory: /home/szybet/kdesrc/frameworks/kirigami
+HEAD is now at c6559f71 Fix painting of non-symbolic icons which are fallbacks for symbolic

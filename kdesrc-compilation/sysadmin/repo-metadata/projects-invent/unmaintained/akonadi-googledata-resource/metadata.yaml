@@ -1,0 +1,7 @@
+description: It hosts 2 resources for akonadi that enables KDE-PIM apps to sync/edit/add/delete entries (either contacts or calendar events) from a google account.
+hasrepo: true
+identifier: akonadi-googledata-resource
+name: Akonadi GCalendar and Contacts resources
+projectpath: unmaintained/akonadi-googledata-resource
+repoactive: false
+repopath: unmaintained/akonadi-googledata-resource

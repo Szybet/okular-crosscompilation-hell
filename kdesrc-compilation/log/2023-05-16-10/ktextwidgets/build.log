@@ -1,0 +1,9 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/ktextwidgets
+[  6%] Generating ts...
+[ 13%] Generating mo...
+[ 20%] Automatic MOC for target KF5TextWidgets
+[ 20%] Built target tsfiles-4ec42fc8356ea28b76f6febeac3e38fb
+[ 20%] Built target pofiles-4ec42fc8356ea28b76f6febeac3e38fb
+[ 20%] Built target KF5TextWidgets_autogen
+[100%] Built target KF5TextWidgets

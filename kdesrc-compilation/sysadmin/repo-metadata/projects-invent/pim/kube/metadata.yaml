@@ -1,0 +1,7 @@
+description: Modern groupware client based on QtQuick and Sink
+hasrepo: true
+identifier: kube
+name: Kube
+projectpath: playground/pim/kube
+repoactive: true
+repopath: pim/kube

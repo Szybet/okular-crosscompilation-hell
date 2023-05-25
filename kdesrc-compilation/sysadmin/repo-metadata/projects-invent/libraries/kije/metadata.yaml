@@ -1,0 +1,7 @@
+description: QtQuick library with widgets for desktop-oriented QtQuick applications.
+hasrepo: true
+identifier: kije
+name: Kijetesantakalu
+projectpath: playground/libs/kije
+repoactive: true
+repopath: libraries/kije

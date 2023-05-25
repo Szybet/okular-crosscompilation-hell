@@ -1,0 +1,9 @@
+bugzilla:
+  product: kolf
+description: Kolf is a miniature golf game with 2d top-down view
+hasrepo: true
+identifier: kolf
+name: Kolf
+projectpath: kde/kdegames/kolf
+repoactive: true
+repopath: games/kolf

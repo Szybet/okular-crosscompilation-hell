@@ -1,0 +1,7 @@
+description: Subversion client by KDE
+hasrepo: true
+identifier: kdesvn
+name: KDESvn
+projectpath: extragear/sdk/kdesvn
+repoactive: true
+repopath: sdk/kdesvn

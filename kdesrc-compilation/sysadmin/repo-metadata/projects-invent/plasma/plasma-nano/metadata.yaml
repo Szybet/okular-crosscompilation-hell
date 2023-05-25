@@ -1,0 +1,7 @@
+description: A minimal Plasma shell package
+hasrepo: true
+identifier: plasma-nano
+name: Plasma Nano
+projectpath: kde/workspace/plasma-nano
+repoactive: true
+repopath: plasma/plasma-nano

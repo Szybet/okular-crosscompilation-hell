@@ -1,0 +1,9 @@
+bugzilla:
+  product: KPublicTransport
+description: Library to assist with accessing public transport timetables and other data
+hasrepo: true
+identifier: kpublictransport
+name: KPublicTransport
+projectpath: kde/pim/kpublictransport
+repoactive: true
+repopath: libraries/kpublictransport

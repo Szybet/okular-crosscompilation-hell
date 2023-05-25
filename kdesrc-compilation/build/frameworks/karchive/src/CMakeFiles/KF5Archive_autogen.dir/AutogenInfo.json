@@ -1,0 +1,257 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/karchive/src/KF5Archive_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/karchive",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/karchive/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/karchive/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/karchive/src/CMakeLists.txt",
+		"/home/szybet/kdesrc/frameworks/karchive/src/config-compression.h.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQmLoader.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/karchive",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/karchive/src/loggingcategory.h",
+			"Mu",
+			"EJRQKI7XPS/moc_loggingcategory.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/k7zip.h",
+			"Mu",
+			"EWIEGA46WW/moc_k7zip.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kar.h",
+			"Mu",
+			"EWIEGA46WW/moc_kar.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/karchive.h",
+			"Mu",
+			"EWIEGA46WW/moc_karchive.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/karchive_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_karchive_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kcompressiondevice.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcompressiondevice.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kcompressiondevice_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcompressiondevice_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kfilterbase.h",
+			"Mu",
+			"EWIEGA46WW/moc_kfilterbase.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kfilterdev.h",
+			"Mu",
+			"EWIEGA46WW/moc_kfilterdev.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kgzipfilter.h",
+			"Mu",
+			"EWIEGA46WW/moc_kgzipfilter.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/klimitediodevice_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_klimitediodevice_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/knonefilter.h",
+			"Mu",
+			"EWIEGA46WW/moc_knonefilter.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/krcc.h",
+			"Mu",
+			"EWIEGA46WW/moc_krcc.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/ktar.h",
+			"Mu",
+			"EWIEGA46WW/moc_ktar.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kxzfilter.h",
+			"Mu",
+			"EWIEGA46WW/moc_kxzfilter.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kzip.h",
+			"Mu",
+			"EWIEGA46WW/moc_kzip.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kzstdfilter.h",
+			"Mu",
+			"EWIEGA46WW/moc_kzstdfilter.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/karchive/src/KF5Archive_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/karchive/src/KF5Archive_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KARCHIVE_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KARCHIVE_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"KF5Archive_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/karchive/src",
+		"/home/szybet/kdesrc/frameworks/karchive/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/karchive/src/KF5Archive_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/karchive/src/CMakeFiles/KF5Archive_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/karchive/src/CMakeFiles/KF5Archive_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/karchive/src/ECMQmLoader-karchive5_qt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/build/frameworks/karchive/src/loggingcategory.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/frameworks/karchive/src/k7zip.cpp", "Mu", null ],
+		[ "/home/szybet/kdesrc/frameworks/karchive/src/kar.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/karchive.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kcompressiondevice.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kfilterbase.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kfilterdev.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kgzipfilter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/klimitediodevice.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/knonefilter.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/frameworks/karchive/src/krcc.cpp", "Mu", null ],
+		[ "/home/szybet/kdesrc/frameworks/karchive/src/ktar.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kxzfilter.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/frameworks/karchive/src/kzip.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/frameworks/karchive/src/kzstdfilter.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

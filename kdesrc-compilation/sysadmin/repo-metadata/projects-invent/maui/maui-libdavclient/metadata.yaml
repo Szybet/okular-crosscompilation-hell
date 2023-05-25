@@ -1,0 +1,7 @@
+description: DAV protocol support for Maui applications
+hasrepo: true
+identifier: maui-libdavclient
+name: Maui libdavclient
+projectpath: playground/base/maui-libdavclient
+repoactive: true
+repopath: maui/maui-libdavclient

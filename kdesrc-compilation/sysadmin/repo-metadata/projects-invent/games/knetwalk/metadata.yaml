@@ -1,0 +1,10 @@
+bugzilla:
+  product: knetwalk
+description: 'KNetWalk: connect all the terminals to the server, in as few turns as
+  possible'
+hasrepo: true
+identifier: knetwalk
+name: KNetWalk
+projectpath: kde/kdegames/knetwalk
+repoactive: true
+repopath: games/knetwalk

@@ -1,0 +1,9 @@
+bugzilla:
+  product: ktimer
+description: Little tool to execute programs after some time
+hasrepo: true
+identifier: ktimer
+name: KTimer
+projectpath: kde/kdeutils/ktimer
+repoactive: true
+repopath: utilities/ktimer

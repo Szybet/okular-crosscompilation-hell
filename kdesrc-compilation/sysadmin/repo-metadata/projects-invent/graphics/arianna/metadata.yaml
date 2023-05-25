@@ -1,0 +1,9 @@
+bugzilla:
+  product: arianna
+description: EPub Reader for mobile devices
+hasrepo: true
+identifier: arianna
+name: Arianna
+projectpath: extragear/graphics/arianna
+repoactive: true
+repopath: graphics/arianna

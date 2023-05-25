@@ -1,0 +1,7 @@
+description: Replacement to the KIOSK tool
+hasrepo: true
+identifier: confine
+name: Confine
+projectpath: playground/utils/confine
+repoactive: false
+repopath: utilities/confine

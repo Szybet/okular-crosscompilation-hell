@@ -1,0 +1,7 @@
+description: The KDE Library
+hasrepo: true
+identifier: kdelibs
+name: KDE Libraries
+projectpath: unmaintained/kdelibs
+repoactive: false
+repopath: unmaintained/kdelibs

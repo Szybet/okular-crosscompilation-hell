@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdeclarative
+description: KDeclarative
+hasrepo: true
+identifier: kdeclarative
+name: KDeclarative
+projectpath: frameworks/kdeclarative
+repoactive: true
+repopath: frameworks/kdeclarative

@@ -1,0 +1,7 @@
+description: Android port of Qt Mobility
+hasrepo: true
+identifier: android-qt-mobility
+name: Android QtMobility
+projectpath: unmaintained/necessitas/android-qt-mobility
+repoactive: false
+repopath: unmaintained/android-qt-mobility

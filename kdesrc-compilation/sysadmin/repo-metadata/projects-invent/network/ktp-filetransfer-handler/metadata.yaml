@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: filetransfer
+description: Telepathy file transfer handler
+hasrepo: true
+identifier: ktp-filetransfer-handler
+name: Telepathy File Transfer Handler
+projectpath: kde/kdenetwork/ktp-filetransfer-handler
+repoactive: true
+repopath: network/ktp-filetransfer-handler

@@ -1,0 +1,9 @@
+bugzilla:
+  product: kwave
+description: Sound editor by KDE
+hasrepo: true
+identifier: kwave
+name: Kwave
+projectpath: kde/kdemultimedia/kwave
+repoactive: true
+repopath: multimedia/kwave

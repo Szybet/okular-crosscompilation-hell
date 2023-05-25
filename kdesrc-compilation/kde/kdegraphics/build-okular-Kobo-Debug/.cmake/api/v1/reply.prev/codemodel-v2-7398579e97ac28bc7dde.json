@@ -1,0 +1,558 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-054068e9ae947ced753b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					]
+				},
+				{
+					"build" : "icons",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-icons-Debug-1df72ce618f6321e8401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "icons"
+				},
+				{
+					"build" : "part",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-part-Debug-fb97c660b1d900e895a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "part"
+				},
+				{
+					"build" : "part/data",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-part.data-Debug-fc1ac4005e5c99e0943b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "part/data"
+				},
+				{
+					"build" : "shell",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-shell-Debug-b6bd71ca0c8d98a1bd4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "shell",
+					"targetIndexes" : 
+					[
+						3,
+						20
+					]
+				},
+				{
+					"build" : "generators",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators-Debug-2e574151e908c74880ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "generators"
+				},
+				{
+					"build" : "generators/kimgio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.kimgio-Debug-d555d5081c941f1fd34f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/kimgio",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "generators/dvi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.dvi-Debug-d264ff0deaa281b29fd3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/dvi",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "generators/xps",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.xps-Debug-032cb3f9c62fae672fbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/xps",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "generators/fictionbook",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.fictionbook-Debug-2b9f85a3bbcb07074399.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/fictionbook",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "generators/comicbook",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.comicbook-Debug-d9ebbb99660dbaad66d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/comicbook",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "generators/fax",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.fax-Debug-4fcc6b7cbe7a753119f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/fax",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "generators/txt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.txt-Debug-c4b92b25f6d3d99f3647.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/txt",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "generators/mobipocket",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-generators.mobipocket-Debug-566aba28269e0353b4df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "generators/mobipocket",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "okular",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "buildtests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buildtests-Debug-3dab35510eb6f631e91d.json",
+					"name" : "buildtests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "comicbooktest::@a4fbe277662296b10178",
+					"jsonFile" : "target-comicbooktest-Debug-b4200773913f4471a577.json",
+					"name" : "comicbooktest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "comicbooktest_autogen::@a4fbe277662296b10178",
+					"jsonFile" : "target-comicbooktest_autogen-Debug-ef2cfad3efa5aabdbc96.json",
+					"name" : "comicbooktest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "okular::@1853d830bb945de99790",
+					"jsonFile" : "target-okular-Debug-2770bb80703eaa3d35e7.json",
+					"name" : "okular",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "okularGenerator_comicbook::@a4fbe277662296b10178",
+					"jsonFile" : "target-okularGenerator_comicbook-Debug-6593fa8efd4473a6e7bd.json",
+					"name" : "okularGenerator_comicbook",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "okularGenerator_comicbook_autogen::@a4fbe277662296b10178",
+					"jsonFile" : "target-okularGenerator_comicbook_autogen-Debug-70912ca21ecca9f4486d.json",
+					"name" : "okularGenerator_comicbook_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "okularGenerator_dvi::@239122a401f324a2a715",
+					"jsonFile" : "target-okularGenerator_dvi-Debug-f17c0da936c413ec657e.json",
+					"name" : "okularGenerator_dvi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "okularGenerator_dvi_autogen::@239122a401f324a2a715",
+					"jsonFile" : "target-okularGenerator_dvi_autogen-Debug-9975df23b25227ed6f2b.json",
+					"name" : "okularGenerator_dvi_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "okularGenerator_fax::@d2e68a6e4d41d231900f",
+					"jsonFile" : "target-okularGenerator_fax-Debug-5758b2aaad11c4ef51f2.json",
+					"name" : "okularGenerator_fax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "okularGenerator_fax_autogen::@d2e68a6e4d41d231900f",
+					"jsonFile" : "target-okularGenerator_fax_autogen-Debug-25a48e7e3025c4b7321e.json",
+					"name" : "okularGenerator_fax_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "okularGenerator_fb::@ecc5dfeb6cd9be701859",
+					"jsonFile" : "target-okularGenerator_fb-Debug-0dd4791515b7de49696d.json",
+					"name" : "okularGenerator_fb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "okularGenerator_fb_autogen::@ecc5dfeb6cd9be701859",
+					"jsonFile" : "target-okularGenerator_fb_autogen-Debug-1c15f28e0131fd046343.json",
+					"name" : "okularGenerator_fb_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "okularGenerator_kimgio::@2e853a6336d43fe4c2a3",
+					"jsonFile" : "target-okularGenerator_kimgio-Debug-355167679cbb4a00de55.json",
+					"name" : "okularGenerator_kimgio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "okularGenerator_kimgio_autogen::@2e853a6336d43fe4c2a3",
+					"jsonFile" : "target-okularGenerator_kimgio_autogen-Debug-195c4e1eaca91b15a04b.json",
+					"name" : "okularGenerator_kimgio_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "okularGenerator_mobi::@82e85de86a6eb4394343",
+					"jsonFile" : "target-okularGenerator_mobi-Debug-e8beee8953f3e808573a.json",
+					"name" : "okularGenerator_mobi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "okularGenerator_mobi_autogen::@82e85de86a6eb4394343",
+					"jsonFile" : "target-okularGenerator_mobi_autogen-Debug-49d3d0e52d40bf1a55ce.json",
+					"name" : "okularGenerator_mobi_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "okularGenerator_txt::@f2c1af6bdc8b674caade",
+					"jsonFile" : "target-okularGenerator_txt-Debug-bd280a8c2319df03d903.json",
+					"name" : "okularGenerator_txt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "okularGenerator_txt_autogen::@f2c1af6bdc8b674caade",
+					"jsonFile" : "target-okularGenerator_txt_autogen-Debug-f81dd5f38fd0a15de32f.json",
+					"name" : "okularGenerator_txt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "okularGenerator_xps::@95294dafc3d3f1f5d19f",
+					"jsonFile" : "target-okularGenerator_xps-Debug-081d40796d7f9cd75698.json",
+					"name" : "okularGenerator_xps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "okularGenerator_xps_autogen::@95294dafc3d3f1f5d19f",
+					"jsonFile" : "target-okularGenerator_xps_autogen-Debug-f1a55c6e9e50073bbd04.json",
+					"name" : "okularGenerator_xps_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "okular_autogen::@1853d830bb945de99790",
+					"jsonFile" : "target-okular_autogen-Debug-3c38c05079fce25547a7.json",
+					"name" : "okular_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "okular_comicbook::@a4fbe277662296b10178",
+					"jsonFile" : "target-okular_comicbook-Debug-548c021f53fc3f040ea8.json",
+					"name" : "okular_comicbook",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "okular_comicbook_autogen::@a4fbe277662296b10178",
+					"jsonFile" : "target-okular_comicbook_autogen-Debug-3a984ee1a5c3bfa7b0c9.json",
+					"name" : "okular_comicbook_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "okularcore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-okularcore-Debug-93b44b8ebdc350fec39d.json",
+					"name" : "okularcore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "okularcore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-okularcore_autogen-Debug-65a628f8df38a8025dad.json",
+					"name" : "okularcore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "okularpart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-okularpart-Debug-77d9bbc356a56dd86d27.json",
+					"name" : "okularpart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "okularpart_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-okularpart_autogen-Debug-2852b0f1f56ebc8b85c8.json",
+					"name" : "okularpart_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pofiles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pofiles-Debug-24d3812eb8c457db121c.json",
+					"name" : "pofiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pofiles-1c55821d4c4d169d1717e2094316414c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pofiles-1c55821d4c4d169d1717e2094316414c-Debug-d1d2aa9249126e986f9b.json",
+					"name" : "pofiles-1c55821d4c4d169d1717e2094316414c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tsfiles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tsfiles-Debug-76c19029e1cc648920b7.json",
+					"name" : "tsfiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tsfiles-1c55821d4c4d169d1717e2094316414c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tsfiles-1c55821d4c4d169d1717e2094316414c-Debug-8b786734282ff4bc8199.json",
+					"name" : "tsfiles-1c55821d4c4d169d1717e2094316414c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-a7e7fc0f42065e1b22fb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/szybet/kdesrc/kde/kdegraphics/build-okular-Kobo-Debug",
+		"source" : "/home/szybet/kdesrc/kde/kdegraphics/okular"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

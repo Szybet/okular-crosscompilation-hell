@@ -1,0 +1,7 @@
+description: Plasma-specific protocols for Wayland
+hasrepo: true
+identifier: plasma-wayland-protocols
+name: Plasma Wayland Protocols
+projectpath: kdesupport/plasma-wayland-protocols
+repoactive: true
+repopath: libraries/plasma-wayland-protocols

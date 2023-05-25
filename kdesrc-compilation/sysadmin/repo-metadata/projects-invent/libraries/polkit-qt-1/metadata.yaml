@@ -1,0 +1,7 @@
+description: Qt wrapper around Polkit-1 client libraries
+hasrepo: true
+identifier: polkit-qt-1
+name: Polkit Qt
+projectpath: kdesupport/polkit-qt-1
+repoactive: true
+repopath: libraries/polkit-qt-1

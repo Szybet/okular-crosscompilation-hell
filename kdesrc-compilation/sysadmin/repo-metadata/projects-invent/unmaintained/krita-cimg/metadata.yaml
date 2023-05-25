@@ -1,0 +1,7 @@
+description: Extension based on the cimg library. http://cimg.sourceforge.net/
+hasrepo: true
+identifier: krita-cimg
+name: CImg
+projectpath: extragear/graphics/krita-extensions/krita-cimg
+repoactive: false
+repopath: unmaintained/krita-cimg

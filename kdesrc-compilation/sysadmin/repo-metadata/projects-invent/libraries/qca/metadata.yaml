@@ -1,0 +1,7 @@
+description: Qt Cryptographic Architecture — straightforward cross-platform crypto API
+hasrepo: true
+identifier: qca
+name: QCA
+projectpath: kdesupport/qca
+repoactive: true
+repopath: libraries/qca

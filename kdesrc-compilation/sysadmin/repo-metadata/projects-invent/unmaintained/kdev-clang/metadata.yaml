@@ -1,0 +1,7 @@
+description: Integrates Clang into KDevelop for C/C++/Objective-C language support.
+hasrepo: true
+identifier: kdev-clang
+name: KDevelop Clang Integration
+projectpath: unmaintained/kdev-clang
+repoactive: false
+repopath: unmaintained/kdev-clang

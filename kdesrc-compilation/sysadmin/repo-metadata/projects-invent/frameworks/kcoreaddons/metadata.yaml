@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kcoreaddons
+description: KCoreAddons
+hasrepo: true
+identifier: kcoreaddons
+name: KCoreAddons
+projectpath: frameworks/kcoreaddons
+repoactive: true
+repopath: frameworks/kcoreaddons

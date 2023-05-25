@@ -1,0 +1,7 @@
+description: 'Fork of the default KDE widget and window decoration theme (Oxygen) that supports transparency for application windows.'
+hasrepo: true
+identifier: oxygen-transparent
+name: Oxygen Transparent
+projectpath: unmaintained/oxygen-transparent
+repoactive: false
+repopath: unmaintained/oxygen-transparent

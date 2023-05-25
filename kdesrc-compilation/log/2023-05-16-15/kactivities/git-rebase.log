@@ -1,0 +1,3 @@
+# kdesrc-build running: 'git' 'reset' '--hard' 'origin/kf5'
+# from directory: /home/szybet/kdesrc/frameworks/kactivities
+HEAD is now at 29a51f82 GIT_SILENT Upgrade KF version to 5.107.0.

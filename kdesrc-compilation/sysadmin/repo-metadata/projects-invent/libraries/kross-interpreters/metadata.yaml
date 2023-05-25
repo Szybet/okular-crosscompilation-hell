@@ -1,0 +1,9 @@
+bugzilla:
+  product: kross-interpreters
+description: Language interpreters to enable in-process scripting with Kross
+hasrepo: true
+identifier: kross-interpreters
+name: Kross Interpreters
+projectpath: kde/kdebindings/kross-interpreters
+repoactive: true
+repopath: libraries/kross-interpreters

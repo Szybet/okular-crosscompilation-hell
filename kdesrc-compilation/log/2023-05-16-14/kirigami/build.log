@@ -1,0 +1,574 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kirigami
+[  1%] Generating ECMPoQm/bg/libkirigami2plugin_qt.qm
+[  2%] Generating ECMPoQm/ar/libkirigami2plugin_qt.qm
+[  3%] Generating ECMPoQm/cs/libkirigami2plugin_qt.qm
+[  5%] Generating ECMPoQm/da/libkirigami2plugin_qt.qm
+[  5%] Generating ECMPoQm/az/libkirigami2plugin_qt.qm
+[  6%] Generating ECMPoQm/ca/libkirigami2plugin_qt.qm
+[  7%] Generating ECMPoQm/ca@valencia/libkirigami2plugin_qt.qm
+[  8%] Generating ECMPoQm/de/libkirigami2plugin_qt.qm
+[  8%] Built target translations_1
+[  8%] Built target translations_7
+[  8%] Built target translations_4
+[  8%] Built target translations_3
+[  8%] Built target translations_6
+[  8%] Built target translations_2
+[  8%] Built target translations_5
+[  8%] Built target translations_8
+[  9%] Generating ECMPoQm/el/libkirigami2plugin_qt.qm
+[ 10%] Generating ECMPoQm/es/libkirigami2plugin_qt.qm
+[ 11%] Generating ECMPoQm/en_GB/libkirigami2plugin_qt.qm
+[ 12%] Generating ECMPoQm/et/libkirigami2plugin_qt.qm
+[ 13%] Generating ECMPoQm/eu/libkirigami2plugin_qt.qm
+[ 14%] Generating ECMPoQm/fi/libkirigami2plugin_qt.qm
+[ 15%] Generating ECMPoQm/fr/libkirigami2plugin_qt.qm
+[ 16%] Generating ECMPoQm/gl/libkirigami2plugin_qt.qm
+[ 16%] Built target translations_9
+[ 16%] Built target translations_11
+[ 16%] Built target translations_10
+[ 16%] Built target translations_13
+[ 16%] Built target translations_12
+[ 16%] Built target translations_15
+[ 16%] Built target translations_14
+[ 16%] Built target translations_16
+[ 17%] Generating ECMPoQm/hi/libkirigami2plugin_qt.qm
+[ 18%] Generating ECMPoQm/hu/libkirigami2plugin_qt.qm
+[ 19%] Generating ECMPoQm/ia/libkirigami2plugin_qt.qm
+[ 20%] Generating ECMPoQm/id/libkirigami2plugin_qt.qm
+[ 21%] Generating ECMPoQm/it/libkirigami2plugin_qt.qm
+[ 22%] Generating ECMPoQm/ja/libkirigami2plugin_qt.qm
+[ 23%] Generating ECMPoQm/ka/libkirigami2plugin_qt.qm
+[ 25%] Generating ECMPoQm/ko/libkirigami2plugin_qt.qm
+[ 25%] Built target translations_17
+[ 25%] Built target translations_18
+[ 25%] Built target translations_21
+[ 25%] Built target translations_19
+[ 25%] Built target translations_20
+[ 25%] Built target translations_22
+[ 25%] Built target translations_23
+[ 25%] Built target translations_24
+[ 26%] Generating ECMPoQm/lt/libkirigami2plugin_qt.qm
+[ 28%] Generating ECMPoQm/nn/libkirigami2plugin_qt.qm
+[ 28%] Generating ECMPoQm/nl/libkirigami2plugin_qt.qm
+[ 29%] Generating ECMPoQm/pa/libkirigami2plugin_qt.qm
+[ 30%] Generating ECMPoQm/ml/libkirigami2plugin_qt.qm
+[ 31%] Generating ECMPoQm/pl/libkirigami2plugin_qt.qm
+[ 32%] Generating ECMPoQm/pt/libkirigami2plugin_qt.qm
+[ 33%] Generating ECMPoQm/pt_BR/libkirigami2plugin_qt.qm
+[ 33%] Built target translations_29
+[ 33%] Built target translations_26
+[ 33%] Built target translations_28
+[ 33%] Built target translations_25
+[ 33%] Built target translations_27
+[ 33%] Built target translations_30
+[ 33%] Built target translations_31
+[ 33%] Built target translations_32
+[ 35%] Generating ECMPoQm/sl/libkirigami2plugin_qt.qm
+[ 35%] Generating ECMPoQm/ro/libkirigami2plugin_qt.qm
+[ 36%] Generating ECMPoQm/sr/libkirigami2plugin_qt.qm
+[ 37%] Generating ECMPoQm/ru/libkirigami2plugin_qt.qm
+[ 38%] Generating ECMPoQm/sk/libkirigami2plugin_qt.qm
+[ 39%] Generating ECMPoQm/sr@ijekavian/libkirigami2plugin_qt.qm
+[ 40%] Generating ECMPoQm/sr@latin/libkirigami2plugin_qt.qm
+[ 41%] Generating ECMPoQm/sr@ijekavianlatin/libkirigami2plugin_qt.qm
+[ 41%] Built target translations_36
+[ 41%] Built target translations_33
+[ 41%] Built target translations_37
+[ 41%] Built target translations_34
+[ 41%] Built target translations_38
+[ 41%] Built target translations_35
+[ 41%] Built target translations_40
+[ 41%] Built target translations_39
+[ 42%] Generating ECMPoQm/sv/libkirigami2plugin_qt.qm
+[ 43%] Generating ECMPoQm/ta/libkirigami2plugin_qt.qm
+[ 44%] Generating ECMPoQm/tg/libkirigami2plugin_qt.qm
+[ 45%] Generating ECMPoQm/tr/libkirigami2plugin_qt.qm
+[ 46%] Generating ECMPoQm/zh_CN/libkirigami2plugin_qt.qm
+[ 47%] Generating ECMPoQm/uk/libkirigami2plugin_qt.qm
+[ 48%] Generating ECMPoQm/zh_TW/libkirigami2plugin_qt.qm
+[ 50%] Automatic MOC for target KF5Kirigami2
+[ 50%] Built target translations_41
+[ 50%] Built target translations_44
+[ 50%] Built target translations_42
+[ 50%] Built target translations_46
+[ 50%] Built target translations_43
+[ 50%] Built target translations_45
+[ 50%] Built target translations_47
+[ 51%] Generating kirigami.tar.bz2
+[ 51%] Built target kirigami_kapptemplate
+[ 51%] Built target KF5Kirigami2_autogen
+[ 52%] Generating tabletmodemanager_interface.cpp, tabletmodemanager_interface.h
+[ 53%] Generating virtualkeyboard_interface.cpp, virtualkeyboard_interface.h
+[ 55%] Generating tabletmodemanager_interface.moc
+[ 55%] Generating virtualkeyboard_interface.moc
+[ 56%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/KF5Kirigami2_autogen/mocs_compilation.cpp.o
+[ 58%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/platformtheme.cpp.o
+[ 58%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/basictheme.cpp.o
+[ 59%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/kirigamipluginfactory.cpp.o
+[ 60%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/styleselector.cpp.o
+[ 61%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/units.cpp.o
+[ 62%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/tabletmodewatcher.cpp.o
+[ 63%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/virtualkeyboardwatcher.cpp.o
+[ 64%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/tabletmodemanager_interface.cpp.o
+[ 65%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/virtualkeyboard_interface.cpp.o
+[ 66%] Building CXX object src/libkirigami/CMakeFiles/KF5Kirigami2.dir/loggingcategory.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:[m[K In constructor '[01m[KKirigami::TabletModeWatcherPrivate::TabletModeWatcherPrivate(Kirigami::TabletModeWatcher*)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:63:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   63 |                 [01;36m[Kmessage.setArguments({m_interface->interface()})[m[K;
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qcoreevent.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QEvent:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qcoreevent.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QEvent:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qnamespace.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qcoreevent.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QEvent:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/tabletmodewatcher.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/memory:63[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/memory:63[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.h:13[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/memory:63[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.h:11[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/libkirigami/virtualkeyboardwatcher.cpp:8[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 67%] Linking CXX shared library ../../bin/libKF5Kirigami2.so
+[ 67%] Built target KF5Kirigami2
+[ 68%] Automatic MOC for target KirigamiPlugin
+AutoMoc: /home/szybet/kdesrc/frameworks/kirigami/src/shadowedrectangle.h:276: Warning: Property declaration renderType is both WRITEable and CONSTANT. CONSTANT will be ignored.
+[ 68%] Built target KirigamiPlugin_autogen
+[ 69%] Automatic RCC for scenegraph/shaders/shaders.qrc
+[ 71%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/colorutils.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/ECMQmLoader-libkirigami2plugin_qt.cpp.o
+[ 73%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/avatar.cpp.o
+[ 73%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/KirigamiPlugin_autogen/mocs_compilation.cpp.o
+[ 76%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/columnview.cpp.o
+[ 76%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/delegaterecycler.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/formlayoutattached.cpp.o
+[ 78%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/enums.cpp.o
+[ 79%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/icon.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/imagecolors.cpp.o
+[ 81%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/kirigamiplugin.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kirigami/src/delegaterecycler.cpp:[m[K In member function '[01m[Kvoid DelegateRecycler::setSourceComponent(QQmlComponent*)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kirigami/src/delegaterecycler.cpp:314:34:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QQmlContext::PropertyPair>[m[K' changed in GCC 7.1
+  314 |         [01;36m[Kctx->setContextProperties({QQmlContext::PropertyPair{QStringLiteral("modelData"), m_propertiesTracker->property("trackedModelData")},[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  315 | [01;36m[K                                   QQmlContext::PropertyPair{QStringLiteral("index"), m_propertiesTracker->property("trackedIndex")},[m[K
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  316 | [01;36m[K                                   QQmlContext::PropertyPair{QStringLiteral("delegateRecycler"), QVariant::fromValue<QObject *>(this)}})[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kirigami/src/imagecolors.cpp:274:[m[K [01;35m[Kwarning: [m[Kignoring '[01m[K#pragma omp parallel[m[K' [[01;35m[K-Wunknown-pragmas[m[K]
+  274 | #pragma omp parallel for collapse(2) reduction(+ : r) reduction(+ : g) reduction(+ : b) reduction(+ : c)
+      | 
+[01m[K/home/szybet/kdesrc/frameworks/kirigami/src/imagecolors.cpp:314:[m[K [01;35m[Kwarning: [m[Kignoring '[01m[K#pragma omp parallel[m[K' [[01;35m[K-Wunknown-pragmas[m[K]
+  314 | #pragma omp parallel for private(r, g, b, c)
+      | 
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer_impl.h:65[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/delegaterecycler.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/delegaterecycler.cpp:8[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qvector.h:[m[K In constructor '[01m[KQVector<T>::QVector(std::initializer_list<_Tp>) [with T = QQmlContext::PropertyPair][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qvector.h:545:1:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QQmlContext::PropertyPair>[m[K' changed in GCC 7.1
+  545 | [01;36m[KQVector<T>[m[K::QVector(std::initializer_list<T> args)
+      | [01;36m[K^~~~~~~~~~[m[K
+[ 82%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/mnemonicattached.cpp.o
+[ 83%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/pagepool.cpp.o
+[ 84%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/pagerouter.cpp.o
+[ 85%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/scenepositionattached.cpp.o
+[ 86%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/settings.cpp.o
+[ 87%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/shadowedrectangle.cpp.o
+[ 88%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/shadowedtexture.cpp.o
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/map:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:56[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer_impl.h:65[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_map.h:[m[K In member function '[01m[Kstd::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](const key_type&) [with _Key = unsigned int; _Tp = QVariant; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, QVariant> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_map.h:501:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, QVariant>, std::_Select1st<std::pair<const unsigned int, QVariant> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, QVariant> > >::const_iterator[m[K' changed in GCC 7.1
+  501 |           __i = [01;36m[K_M_t._M_emplace_hint_unique(__i, std::piecewise_construct,[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  502 | [01;36m[K                                            std::tuple<const key_type&>(__k),[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  503 | [01;36m[K                                            std::tuple<>())[m[K;
+      |                                             [01;36m[K~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer_impl.h:65[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QMap<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic int QtMetaTypePrivate::QAssociativeIterableImpl::sizeImpl(const void*) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1310:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1310 |     { return int([01;36m[Kstd::distance(static_cast<const T*>(p)->begin(),[m[K
+      |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1311 | [01;36m[K                               static_cast<const T*>(p)->end())[m[K); }
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::findImpl(const void*, const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1315:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1315 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+ 1316 | [01;36m[K                                                        static_cast<const T*>(container)->find(*static_cast<const typename T::key_type*>(p)))[m[K; }
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::beginImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1327:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1327 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->begin())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::QAssociativeIterableImpl::endImpl(const void*, void**) [with T = QHash<QString, QVariant>][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:1331:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+ 1331 |     { [01;36m[KIteratorOwner<typename T::const_iterator>::assign(iterator, static_cast<const T*>(container)->end())[m[K; }
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/map:60[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:56[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer_impl.h:65[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_tree.h:[m[K In member function '[01m[Kstd::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_emplace_hint_unique(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator, _Args&& ...) [with _Args = {const std::piecewise_construct_t&, std::tuple<const unsigned int&>, std::tuple<>}; _Key = unsigned int; _Val = std::pair<const unsigned int, QVariant>; _KeyOfValue = std::_Select1st<std::pair<const unsigned int, QVariant> >; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, QVariant> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_tree.h:2426:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, QVariant>, std::_Select1st<std::pair<const unsigned int, QVariant> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, QVariant> > >::const_iterator[m[K' changed in GCC 7.1
+ 2426 |       [01;36m[K_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>[m[K::
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 89%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/sizegroup.cpp.o
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer_impl.h:65[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K                             std::__iterator_category(__first))[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer_impl.h:65[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:[m[K In static member function '[01m[Kstatic void QtMetaTypePrivate::IteratorOwnerCommon<const_iterator>::assign(void**, const_iterator) [with const_iterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:878:17:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+  878 |     static void [01;36m[Kassign[m[K(void **ptr, const_iterator iterator)
+      |                 [01;36m[K^~~~~~[m[K
+[ 90%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/spellcheckinghint.cpp.o
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/map:60[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qmetatype.h:56[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:54[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer_impl.h:65[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_tree.h:[m[K In member function '[01m[Kstd::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*> std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_get_insert_hint_unique_pos(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator, const key_type&) [with _Key = unsigned int; _Val = std::pair<const unsigned int, QVariant>; _KeyOfValue = std::_Select1st<std::pair<const unsigned int, QVariant> >; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, QVariant> >][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_tree.h:2161:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, QVariant>, std::_Select1st<std::pair<const unsigned int, QVariant> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, QVariant> > >::const_iterator[m[K' changed in GCC 7.1
+ 2161 |     [01;36m[K_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:61[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qsharedpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qpointer.h:43[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QPointer:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/columnview.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.h:9[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kirigami/src/pagerouter.cpp:7[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QMap<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+   80 |     [01;36m[K__distance[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQMap<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:[m[K In function '[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = QHash<QString, QVariant>::const_iterator][m[K':
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:80:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[KQHash<QString, QVariant>::const_iterator[m[K' changed in GCC 7.1
+[ 91%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/toolbarlayout.cpp.o
+[ 92%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/toolbarlayoutdelegate.cpp.o
+[ 93%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/wheelhandler.cpp.o
+[ 94%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/inputmethod.cpp.o
+[ 95%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/scenegraph/managedtexturenode.cpp.o
+[ 96%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/scenegraph/paintedrectangleitem.cpp.o
+[ 97%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/libkirigami/loggingcategory.cpp.o
+[ 98%] Building CXX object src/CMakeFiles/KirigamiPlugin.dir/KirigamiPlugin_autogen/ZJW3U7FZZD/qrc_shaders.cpp.o
+[100%] Linking CXX shared library ../bin/libKirigamiPlugin.so
+[100%] Built target KirigamiPlugin

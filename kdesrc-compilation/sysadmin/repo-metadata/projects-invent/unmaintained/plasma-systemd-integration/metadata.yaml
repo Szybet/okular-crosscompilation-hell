@@ -1,0 +1,7 @@
+description: Integration of Plasma Workspace and various modules with systemd
+hasrepo: true
+identifier: plasma-systemd-integration
+name: Plasma systemd integration
+projectpath: unmaintained/plasma-systemd-integration
+repoactive: false
+repopath: unmaintained/plasma-systemd-integration

@@ -1,0 +1,9 @@
+description: Manages the power consumption settings of a Plasma shell
+hasrepo: true
+identifier: powerdevil
+name: PowerDevil
+projectpath: kde/workspace/powerdevil
+repoactive: true
+repopath: plasma/powerdevil
+bugzilla:
+    product: Powerdevil

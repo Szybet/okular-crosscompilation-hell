@@ -1,0 +1,7 @@
+description: Sphinx setup for the Openraster.org (ORA specification) website
+hasrepo: true
+identifier: websites-openraster-org
+name: OpenRaster Specification Website
+projectpath: websites/openraster-org
+repoactive: true
+repopath: documentation/openraster-org

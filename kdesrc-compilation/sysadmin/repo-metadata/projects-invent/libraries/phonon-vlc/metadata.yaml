@@ -1,0 +1,7 @@
+description: VLC backend for the Phonon multimedia library
+hasrepo: true
+identifier: phonon-vlc
+name: Phonon VLC
+projectpath: kdesupport/phonon-vlc
+repoactive: true
+repopath: libraries/phonon-vlc

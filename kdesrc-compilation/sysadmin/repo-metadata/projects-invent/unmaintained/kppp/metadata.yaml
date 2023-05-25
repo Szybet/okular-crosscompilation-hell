@@ -1,0 +1,7 @@
+description: Dialer and Front end for pppd
+hasrepo: true
+identifier: kppp
+name: KPPP
+projectpath: unmaintained/kppp
+repoactive: false
+repopath: unmaintained/kppp

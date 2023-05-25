@@ -1,0 +1,7 @@
+description: Collection of things for KAccounts targeted for Plasma Mobile
+hasrepo: true
+identifier: kaccounts-mobile
+name: KAccounts Mobile
+projectpath: playground/mobile/kaccounts-mobile
+repoactive: false
+repopath: plasma-mobile/kaccounts-mobile

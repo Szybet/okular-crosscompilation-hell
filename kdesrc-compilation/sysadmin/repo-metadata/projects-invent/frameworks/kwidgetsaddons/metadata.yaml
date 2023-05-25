@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kwidgetsaddons
+description: KWidgetsAddons
+hasrepo: true
+identifier: kwidgetsaddons
+name: KWidgetsAddons
+projectpath: frameworks/kwidgetsaddons
+repoactive: true
+repopath: frameworks/kwidgetsaddons

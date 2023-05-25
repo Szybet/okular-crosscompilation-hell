@@ -1,0 +1,332 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ki18n_install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5I18n/KF5I18nMacros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 365,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 477,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 480,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 481,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 597,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 603,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 606,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 608,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 610,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 167,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 625,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 632,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 634,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Devel",
+			"destination" : "include/okular/core",
+			"paths" : 
+			[
+				"core/action.h",
+				"core/annotations.h",
+				"core/area.h",
+				"core/document.h",
+				"core/fontinfo.h",
+				"core/form.h",
+				"core/generator.h",
+				"core/global.h",
+				"core/page.h",
+				"core/pagesize.h",
+				"core/pagetransition.h",
+				"core/signatureutils.h",
+				"core/sound.h",
+				"core/sourcereference.h",
+				"core/textdocumentgenerator.h",
+				"core/textdocumentsettings.h",
+				"core/textpage.h",
+				"core/tile.h",
+				"core/utils.h",
+				"core/fileprinter.h",
+				"core/printoptionswidget.h",
+				"core/observer.h",
+				"build/core/version.h",
+				"build/core/okularcore_export.h",
+				"build/settings_core.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "include/okular/interfaces",
+			"paths" : 
+			[
+				"interfaces/configinterface.h",
+				"interfaces/guiinterface.h",
+				"interfaces/printinterface.h",
+				"interfaces/saveinterface.h",
+				"interfaces/viewerinterface.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libOkular5Core.so.10.0.0",
+				"bin/libOkular5Core.so.10"
+			],
+			"targetId" : "okularcore::@6890427a1f51a3e7e1df",
+			"targetIndex" : 31,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libOkular5Core.so"
+			],
+			"targetId" : "okularcore::@6890427a1f51a3e7e1df",
+			"targetIndex" : 31,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/config.kcfg",
+			"paths" : 
+			[
+				"conf/okular.kcfg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "okular",
+			"destination" : "share/config.kcfg",
+			"paths" : 
+			[
+				"conf/okular_core.kcfg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "okular",
+			"destination" : "share/kservicetypes5",
+			"paths" : 
+			[
+				"core/okularGenerator.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "okular",
+			"destination" : "lib/plugins",
+			"paths" : 
+			[
+				"bin/okularpart.so"
+			],
+			"targetId" : "okularpart::@6890427a1f51a3e7e1df",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "okular",
+			"destination" : "share/kconf_update",
+			"paths" : 
+			[
+				"okular.upd"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "okular",
+			"destination" : "share/kservices5",
+			"paths" : 
+			[
+				"okular_part.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "okular",
+			"destination" : "share/kxmlgui5/okular",
+			"paths" : 
+			[
+				"part/part.rc",
+				"part/part-viewermode.rc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "okular",
+			"destination" : "share/qlogging-categories5",
+			"paths" : 
+			[
+				"okular.categories"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "okular",
+			"destination" : "share",
+			"paths" : 
+			[
+				"build/locale"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Okular5",
+			"paths" : 
+			[
+				"build/Okular5Config.cmake",
+				"build/Okular5ConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "okular",
+			"destination" : "lib/cmake/Okular5",
+			"exportName" : "Okular5Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "okularcore::@6890427a1f51a3e7e1df",
+					"index" : 31
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/f63aa603055556ba87124de80d14b750/Okular5Targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "okular",
+			"destination" : "share/okular/pics",
+			"paths" : 
+			[
+				"core/stamps.svg"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

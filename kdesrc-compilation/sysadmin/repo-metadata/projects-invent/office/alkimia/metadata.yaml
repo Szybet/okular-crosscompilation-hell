@@ -1,0 +1,9 @@
+bugzilla:
+  product: libalkimia
+description: Library used by KDE finance applications
+hasrepo: true
+identifier: alkimia
+name: Alkimia
+projectpath: extragear/office/alkimia
+repoactive: true
+repopath: office/alkimia

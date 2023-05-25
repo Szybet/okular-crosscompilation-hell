@@ -1,0 +1,10 @@
+description: Native iOS port of KDE Connect
+hasrepo: true
+identifier: kdeconnect-ios
+name: KDE Connect iOS
+projectpath: playground/network/kdeconnect-ios
+repoactive: true
+repopath: network/kdeconnect-ios
+bugzilla:
+  product: kdeconnect
+  component: ios-application

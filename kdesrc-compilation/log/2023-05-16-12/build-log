@@ -1,0 +1,30 @@
+Holding performance profile
+Building solid from _cmdline (1/15)
+	Fetching remote changes to solid
+	Merging solid changes from branch kf5
+	No changes to solid source code, but proceeding to build anyway.
+	Note: ---- 30 ---- compile warnings
+Building kio from _cmdline (2/15)
+	Fetching remote changes to kio
+	Merging kio changes from branch kf5
+	Source update complete for kio: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for kio.
+	Removing files in build directory for kio
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: --- 18 --- compile warnings
+
+kio didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kio - file:///home/szybet/kdesrc/log/2023-05-16-12/kio/build.log
+
+Important notification for kio:
+    kio has failed to build 5 times.
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-12

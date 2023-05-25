@@ -1,0 +1,113 @@
+Holding performance profile
+Building extra-cmake-modules from _cmdline (1/44)
+	Fetching remote changes to extra-cmake-modules
+	Merging extra-cmake-modules changes from branch kf5
+	No changes to extra-cmake-modules source code, but proceeding to build anyway.
+Building kcoreaddons from _cmdline (2/44)
+	Fetching remote changes to kcoreaddons
+	Merging kcoreaddons changes from branch kf5
+	No changes to kcoreaddons source code, but proceeding to build anyway.
+Building kconfig from _cmdline (3/44)
+	Fetching remote changes to kconfig
+	Merging kconfig changes from branch kf5
+	No changes to kconfig source code, but proceeding to build anyway.
+Building ki18n from _cmdline (4/44)
+	Fetching remote changes to ki18n
+	Merging ki18n changes from branch kf5
+	No changes to ki18n source code, but proceeding to build anyway.
+Building karchive from _cmdline (5/44)
+	Fetching remote changes to karchive
+	Merging karchive changes from branch kf5
+	No changes to karchive source code, but proceeding to build anyway.
+Building kdoctools from _cmdline (6/44)
+	Fetching remote changes to kdoctools
+	Merging kdoctools changes from branch kf5
+	No changes to kdoctools source code, but proceeding to build anyway.
+Building kwidgetsaddons from _cmdline (7/44)
+	Fetching remote changes to kwidgetsaddons
+	Merging kwidgetsaddons changes from branch kf5
+	No changes to kwidgetsaddons source code, but proceeding to build anyway.
+Building plasma-wayland-protocols from _cmdline (8/44)
+	Fetching remote changes to plasma-wayland-protocols
+	Merging plasma-wayland-protocols changes from branch master
+	No changes to plasma-wayland-protocols source code, but proceeding to build anyway.
+Building polkit-qt-1 from _cmdline (9/44)
+	Fetching remote changes to polkit-qt-1
+	Merging polkit-qt-1 changes from branch master
+	No changes to polkit-qt-1 source code, but proceeding to build anyway.
+Building kauth from _cmdline (10/44)
+	Fetching remote changes to kauth
+	Merging kauth changes from branch kf5
+	No changes to kauth source code, but proceeding to build anyway.
+Building kcodecs from _cmdline (11/44)
+	Fetching remote changes to kcodecs
+	Merging kcodecs changes from branch kf5
+	No changes to kcodecs source code, but proceeding to build anyway.
+Building kguiaddons from _cmdline (12/44)
+	Fetching remote changes to kguiaddons
+	Merging kguiaddons changes from branch kf5
+	No changes to kguiaddons source code, but proceeding to build anyway.
+Building kwindowsystem from _cmdline (13/44)
+	Fetching remote changes to kwindowsystem
+	Merging kwindowsystem changes from branch kf5
+	No changes to kwindowsystem source code, but proceeding to build anyway.
+Building kconfigwidgets from _cmdline (14/44)
+	Fetching remote changes to kconfigwidgets
+	Merging kconfigwidgets changes from branch kf5
+	No changes to kconfigwidgets source code, but proceeding to build anyway.
+Building kdbusaddons from _cmdline (15/44)
+	Fetching remote changes to kdbusaddons
+	Merging kdbusaddons changes from branch kf5
+	No changes to kdbusaddons source code, but proceeding to build anyway.
+Building kcompletion from _cmdline (16/44)
+	Fetching remote changes to kcompletion
+	Merging kcompletion changes from branch kf5
+	No changes to kcompletion source code, but proceeding to build anyway.
+Building kcrash from _cmdline (17/44)
+	Fetching remote changes to kcrash
+	Merging kcrash changes from branch kf5
+	No changes to kcrash source code, but proceeding to build anyway.
+Building kiconthemes from _cmdline (18/44)
+	Fetching remote changes to kiconthemes
+	Merging kiconthemes changes from branch kf5
+	No changes to kiconthemes source code, but proceeding to build anyway.
+Building sonnet from _cmdline (19/44)
+	Fetching remote changes to sonnet
+	Merging sonnet changes from branch kf5
+	No changes to sonnet source code, but proceeding to build anyway.
+Building kglobalaccel from _cmdline (20/44)
+	Fetching remote changes to kglobalaccel
+	Merging kglobalaccel changes from branch kf5
+	No changes to kglobalaccel source code, but proceeding to build anyway.
+Building kitemviews from _cmdline (21/44)
+	Fetching remote changes to kitemviews
+	Merging kitemviews changes from branch kf5
+	No changes to kitemviews source code, but proceeding to build anyway.
+Building ktextwidgets from _cmdline (22/44)
+	Fetching remote changes to ktextwidgets
+	Merging ktextwidgets changes from branch kf5
+	No changes to ktextwidgets source code, but proceeding to build anyway.
+Building knotifications from _cmdline (23/44)
+	Fetching remote changes to knotifications
+	Merging knotifications changes from branch kf5
+	Source update complete for knotifications: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for knotifications.
+	Removing files in build directory for knotifications
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: --- 14 --- compile warnings
+
+knotifications didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+knotifications - file:///home/szybet/kdesrc/log/2023-05-16-08/knotifications/build.log
+
+Important notification for knotifications:
+    knotifications has failed to build 5 times.
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-08

@@ -1,0 +1,7 @@
+description: Daemon that presents various notifications to Kubuntu users
+hasrepo: true
+identifier: kubuntu-notification-helper
+name: Kubuntu Notifications Helper
+projectpath: playground/base/kubuntu-notification-helper
+repoactive: true
+repopath: system/kubuntu-notification-helper

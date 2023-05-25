@@ -1,0 +1,7 @@
+description: Localization and Internationalization Service Bot
+hasrepo: true
+identifier: sysadmin-l10n-scripty
+name: Scripty
+projectpath: sysadmin/l10n-scripty
+repoactive: true
+repopath: sysadmin/l10n-scripty

@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kbookmarks
+description: KBookmarks
+hasrepo: true
+identifier: kbookmarks
+name: KBookmarks
+projectpath: frameworks/kbookmarks
+repoactive: true
+repopath: frameworks/kbookmarks

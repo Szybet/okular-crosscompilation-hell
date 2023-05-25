@@ -1,0 +1,9 @@
+bugzilla:
+  product: korganizer
+description: Library for displaying and creating events and calendars
+hasrepo: true
+identifier: eventviews
+name: PIM EventViews
+projectpath: kde/pim/eventviews
+repoactive: true
+repopath: pim/eventviews

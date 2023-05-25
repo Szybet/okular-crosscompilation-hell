@@ -1,0 +1,9 @@
+bugzilla:
+  product: libkeduvocdocument
+description: Library to parse, convert, and manipulate KVTML files
+hasrepo: true
+identifier: libkeduvocdocument
+name: libkeduvocdocument
+projectpath: kde/kdeedu/libkeduvocdocument
+repoactive: true
+repopath: education/libkeduvocdocument

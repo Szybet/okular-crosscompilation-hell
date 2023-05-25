@@ -1,0 +1,9 @@
+bugzilla:
+  product: kopete
+description: Flexible multi-protocol instant messenger for personal and enterprise use
+hasrepo: true
+identifier: kopete
+name: Kopete
+projectpath: kde/kdenetwork/kopete
+repoactive: true
+repopath: network/kopete

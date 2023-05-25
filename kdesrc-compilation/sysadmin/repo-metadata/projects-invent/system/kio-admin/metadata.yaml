@@ -1,0 +1,7 @@
+description: Manage files as administrator using the admin:// KIO protocol.
+hasrepo: true
+identifier: kio-admin
+name: KIO Admin Worker
+projectpath: extragear/sysadmin/kio-admin
+repoactive: true
+repopath: system/kio-admin

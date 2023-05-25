@@ -1,0 +1,7 @@
+description: KDE extensions and theming for the Hugo static website generator framework.
+hasrepo: true
+identifier: websites-hugo-kde
+name: KDE Extensions for Hugo
+projectpath: websites/hugo-kde
+repoactive: true
+repopath: websites/hugo-kde

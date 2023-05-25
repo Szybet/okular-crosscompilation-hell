@@ -1,0 +1,7 @@
+description: Yocto Demo Image for KDE projects
+hasrepo: true
+identifier: yocto-meta-kde-demo
+name: Yocto KDE Demo Image
+projectpath: playground/packaging/yocto-meta-kde-demo
+repoactive: true
+repopath: packaging/yocto-meta-kde-demo

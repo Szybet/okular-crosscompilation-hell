@@ -1,0 +1,9 @@
+bugzilla:
+  product: ark
+description: File archiver by KDE
+hasrepo: true
+identifier: ark
+name: Ark
+projectpath: kde/kdeutils/ark
+repoactive: true
+repopath: utilities/ark

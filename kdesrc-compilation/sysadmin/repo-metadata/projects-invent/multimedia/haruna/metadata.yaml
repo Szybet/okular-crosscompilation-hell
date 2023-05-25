@@ -1,0 +1,9 @@
+bugzilla:
+  product: Haruna
+description: Open source video player built with Qt/QML and libmpv.
+hasrepo: true
+identifier: haruna
+name: Haruna
+projectpath: kde/kdemultimedia/haruna
+repoactive: true
+repopath: multimedia/haruna

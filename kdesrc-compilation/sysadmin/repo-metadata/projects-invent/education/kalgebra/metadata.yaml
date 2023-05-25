@@ -1,0 +1,9 @@
+bugzilla:
+  product: kalgebra
+description: 2D and 3D Graph Calculator
+hasrepo: true
+identifier: kalgebra
+name: KAlgebra
+projectpath: kde/kdeedu/kalgebra
+repoactive: true
+repopath: education/kalgebra

@@ -1,0 +1,7 @@
+description: .NET/Mono bindings for the KDE libraries.
+hasrepo: true
+identifier: kimono
+name: Kimono
+projectpath: kde/kdebindings/csharp/kimono
+repoactive: false
+repopath: unmaintained/kimono

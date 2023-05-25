@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-bluez-qt
+description: Qt wrapper for Bluez 5 DBus API
+hasrepo: true
+identifier: bluez-qt
+name: BluezQt
+projectpath: frameworks/bluez-qt
+repoactive: true
+repopath: frameworks/bluez-qt

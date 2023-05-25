@@ -1,0 +1,9 @@
+description: Plasma applet and services for creating encrypted vaults
+hasrepo: true
+identifier: plasma-vault
+name: Plasma Vault
+projectpath: kde/workspace/plasma-vault
+repoactive: true
+repopath: plasma/plasma-vault
+bugzilla:
+    product: Plasma Vault

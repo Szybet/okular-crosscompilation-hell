@@ -1,0 +1,8 @@
+description: Plugins for 3rd party applications to be able to support activities and
+  Share Like Connect.
+hasrepo: true
+identifier: activities-support
+name: Application plugins to support activities
+projectpath: unmaintained/activities-support
+repoactive: false
+repopath: unmaintained/activities-support

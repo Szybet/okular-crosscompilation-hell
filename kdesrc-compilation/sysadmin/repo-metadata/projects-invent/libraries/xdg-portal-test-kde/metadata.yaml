@@ -1,0 +1,7 @@
+description: Test application for Flatpak portals and Qt Flatpak platform plugin
+hasrepo: true
+identifier: xdg-portal-test-kde
+name: KDE XDG Portal Test
+projectpath: playground/base/xdg-portal-test-kde
+repoactive: true
+repopath: libraries/xdg-portal-test-kde

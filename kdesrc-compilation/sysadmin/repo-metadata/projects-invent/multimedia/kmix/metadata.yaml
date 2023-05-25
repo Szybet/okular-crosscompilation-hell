@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmix
+description: Volume control program
+hasrepo: true
+identifier: kmix
+name: KMix
+projectpath: kde/kdemultimedia/kmix
+repoactive: true
+repopath: multimedia/kmix

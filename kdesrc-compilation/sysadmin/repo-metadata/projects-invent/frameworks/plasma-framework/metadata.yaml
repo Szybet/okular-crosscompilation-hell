@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-plasma
+description: Plasma library and runtime components based upon KF5 and Qt5
+hasrepo: true
+identifier: plasma-framework
+name: KDE Plasma Framework
+projectpath: frameworks/plasma-framework
+repoactive: true
+repopath: frameworks/plasma-framework

@@ -1,0 +1,7 @@
+description: PHP Language Plugin for KDevelop
+hasrepo: true
+identifier: kdev-php
+name: KDevelop PHP Support
+projectpath: extragear/kdevelop/plugins/kdev-php
+repoactive: true
+repopath: kdevelop/kdev-php

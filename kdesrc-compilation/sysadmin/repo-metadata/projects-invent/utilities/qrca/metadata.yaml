@@ -1,0 +1,7 @@
+description: QR code scanner for Plasma Mobile
+hasrepo: true
+identifier: qrca
+name: Qrca
+projectpath: playground/utilities/qrca
+repoactive: true
+repopath: utilities/qrca

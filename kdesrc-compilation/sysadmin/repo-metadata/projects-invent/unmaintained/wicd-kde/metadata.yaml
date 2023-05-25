@@ -1,0 +1,10 @@
+description: 'A Wicd client built on the KDE Development Platform.
+
+
+  !http://kde-apps.org/CONTENT/content-pre1/132366-1.png!'
+hasrepo: true
+identifier: wicd-kde
+name: Wicd Client KDE
+projectpath: extragear/network/wicd-kde
+repoactive: false
+repopath: unmaintained/wicd-kde

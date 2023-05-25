@@ -1,0 +1,174 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"kcoreaddons_add_plugin",
+			"okular_add_generator",
+			"ecm_install_icons",
+			"_ecm_update_iconcache"
+		],
+		"files" : 
+		[
+			"/usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake",
+			"generators/CMakeLists.txt",
+			"generators/spectre/CMakeLists.txt",
+			"/usr/share/ECM/modules/ECMInstallIcons.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 268,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 268,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 275,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 199,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "lib/qt/plugins/okular/generators",
+			"paths" : 
+			[
+				"bin/plugins/okular/okularGenerator_ghostview.so"
+			],
+			"targetId" : "okularGenerator_ghostview::@d23915d43fe7edc13b4e",
+			"targetIndex" : 111,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"generators/spectre/okularApplication_ghostview.desktop",
+				"generators/spectre/org.kde.mobile.okular_ghostview.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "okular",
+			"destination" : "share/kservices5",
+			"paths" : 
+			[
+				"generators/spectre/okularGhostview.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "okular",
+			"destination" : "share/okular/icons/hicolor/16x16/apps",
+			"paths" : 
+			[
+				{
+					"from" : "generators/spectre/16-apps-okular-gv.png",
+					"to" : "okular-gv.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "okular",
+			"destination" : "share/okular/icons/hicolor/32x32/apps",
+			"paths" : 
+			[
+				{
+					"from" : "generators/spectre/32-apps-okular-gv.png",
+					"to" : "okular-gv.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "okular",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "okular",
+			"destination" : "share/metainfo",
+			"paths" : 
+			[
+				"generators/spectre/org.kde.okular-spectre.metainfo.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/spectre",
+		"source" : "generators/spectre"
+	}
+}

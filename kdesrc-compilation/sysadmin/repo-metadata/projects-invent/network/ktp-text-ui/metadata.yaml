@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: text-ui
+description: Telepathy handler for text chats
+hasrepo: true
+identifier: ktp-text-ui
+name: Telepathy Text UI
+projectpath: kde/kdenetwork/ktp-text-ui
+repoactive: true
+repopath: network/ktp-text-ui

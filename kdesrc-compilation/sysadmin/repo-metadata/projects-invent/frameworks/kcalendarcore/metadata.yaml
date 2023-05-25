@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kcalendarcore
+description: KCalendarCore - Library for Interfacing with Calendars
+hasrepo: true
+identifier: kcalendarcore
+name: KCalendarCore
+projectpath: frameworks/kcalendarcore
+repoactive: true
+repopath: frameworks/kcalendarcore

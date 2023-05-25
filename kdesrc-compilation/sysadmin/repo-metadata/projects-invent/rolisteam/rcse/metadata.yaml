@@ -1,0 +1,7 @@
+description: Character Set IDE for Rolisteam applications.
+hasrepo: true
+identifier: rcse
+name: Rolisteam Character Set Editor - RCSE
+projectpath: playground/games/rcse
+repoactive: false
+repopath: rolisteam/rcse

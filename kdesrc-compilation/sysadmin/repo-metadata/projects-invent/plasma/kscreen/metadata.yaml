@@ -1,0 +1,9 @@
+description: KDE's screen management software
+hasrepo: true
+identifier: kscreen
+name: KScreen
+projectpath: kde/workspace/kscreen
+repoactive: true
+repopath: plasma/kscreen
+bugzilla:
+    product: kscreen

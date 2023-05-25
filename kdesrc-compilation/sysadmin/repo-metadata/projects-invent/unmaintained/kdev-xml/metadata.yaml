@@ -1,0 +1,7 @@
+description: KDevelop Plugin for XML and HTML Language Support
+hasrepo: true
+identifier: kdev-xml
+name: XML-HTML Language Plugin
+projectpath: unmaintained/kdev-xml
+repoactive: false
+repopath: unmaintained/kdev-xml

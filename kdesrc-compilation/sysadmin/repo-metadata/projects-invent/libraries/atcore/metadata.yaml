@@ -1,0 +1,7 @@
+description: Library for connection and management of 3D printers (Atelier Core)
+hasrepo: true
+identifier: atcore
+name: AtCore
+projectpath: extragear/base/atcore
+repoactive: true
+repopath: libraries/atcore

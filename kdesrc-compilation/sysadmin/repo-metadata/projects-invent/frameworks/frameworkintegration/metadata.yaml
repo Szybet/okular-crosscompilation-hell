@@ -1,0 +1,10 @@
+bugzilla:
+  product: frameworks-frameworkintegration
+description: Framework providing components to allow applications to integrate with
+  a KDE Workspace
+hasrepo: true
+identifier: frameworkintegration
+name: Integration for Frameworks
+projectpath: frameworks/frameworkintegration
+repoactive: true
+repopath: frameworks/frameworkintegration

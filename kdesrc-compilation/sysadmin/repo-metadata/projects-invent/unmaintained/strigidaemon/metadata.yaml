@@ -1,0 +1,7 @@
+description: Strigi daemon
+hasrepo: true
+identifier: strigidaemon
+name: Strigidaemon
+projectpath: kdesupport/strigi/strigidaemon
+repoactive: false
+repopath: unmaintained/strigidaemon

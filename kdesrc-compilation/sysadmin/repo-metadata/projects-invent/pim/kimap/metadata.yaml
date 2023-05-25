@@ -1,0 +1,9 @@
+description: Library to assist working with IMAP servers
+hasrepo: true
+identifier: kimap
+name: KIMAP
+projectpath: kde/pim/kimap
+repoactive: true
+repopath: pim/kimap
+bugzilla:
+    product: kimap

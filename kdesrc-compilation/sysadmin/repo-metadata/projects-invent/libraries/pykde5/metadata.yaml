@@ -1,0 +1,7 @@
+description: Python bindings for KF5
+hasrepo: true
+identifier: pykde5
+name: PyKDE 5
+projectpath: kde/kdebindings/python/pykde5
+repoactive: false
+repopath: libraries/pykde5

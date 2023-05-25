@@ -1,0 +1,7 @@
+description: Generate bindings to use Rust code in Qt and QML
+hasrepo: true
+identifier: rust-qt-binding-generator
+name: Rust Qt Binding Generator
+projectpath: extragear/sdk/rust-qt-binding-generator
+repoactive: true
+repopath: sdk/rust-qt-binding-generator

@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+3a1b54a02bf01c76b886e771b23ca986 CMakeFiles/pofiles-98f9d85bc51520bfbaf4158518e9fbaa
+636bd17e1f24877eed99bda448e3482a CMakeFiles/tsfiles-98f9d85bc51520bfbaf4158518e9fbaa
+ba65dc1f2629ee7600954c212cbf4431 CMakeFiles/uninstall
+4ab3ab10961687e5d0ad6b416a9b053a src/CMakeFiles/KF5Parts_autogen
+455a95d441a285de7af98de3939f22f2 templates/CMakeFiles/kpartsapp_kapptemplate
+560ba2d215563157bab819edf393d708 templates/kpartsapp.tar.bz2

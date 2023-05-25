@@ -1,0 +1,7 @@
+description: Website for Kontact — kontact.kde.org
+hasrepo: true
+identifier: websites-kontact-kde-org
+name: Kontact Website
+projectpath: websites/kontact-kde-org
+repoactive: true
+repopath: websites/kontact-kde-org

@@ -1,0 +1,7 @@
+description: Android Qt5 QtBase module
+hasrepo: true
+identifier: android-qt5-qtbase
+name: Android Qt5 QtBase module
+projectpath: unmaintained/necessitas/android-qt5-qtbase
+repoactive: false
+repopath: unmaintained/android-qt5-qtbase

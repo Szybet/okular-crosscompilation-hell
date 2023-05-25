@@ -1,0 +1,7 @@
+description: Color management KCM using Oyranos CMS
+hasrepo: true
+identifier: kolor-manager
+name: KolorManager
+projectpath: extragear/graphics/kolor-manager
+repoactive: true
+repopath: graphics/kolor-manager

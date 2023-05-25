@@ -1,0 +1,12 @@
+description: 'KDE interface for LaTeX graphic tools (such as TikZ, Gnuplot, Circuit
+  Macros) to produce publication-ready pictures.
+
+
+  Please use "bugs.kde.org":https://bugs.kde.org/wizard.cgi?package=cirkuit&kbugreport=1
+  to file bug reports and wishes.'
+hasrepo: true
+identifier: cirkuit
+name: Cirkuit
+projectpath: unmaintained/cirkuit
+repoactive: false
+repopath: unmaintained/cirkuit

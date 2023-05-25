@@ -1,0 +1,118 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kconfigwidgets
+[  2%] Generating mo...
+[  2%] Generating ts...
+[  3%] Automatic MOC for target KF5ConfigWidgets
+[  3%] Built target tsfiles-8d8c3442b1b958997ffe00e56a4b21e3
+[  3%] Built target pofiles-8d8c3442b1b958997ffe00e56a4b21e3
+[  3%] Built target KF5ConfigWidgets_autogen
+[  4%] Automatic RCC for kconfigwidgets.qrc
+[  6%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/KF5ConfigWidgets_autogen/mocs_compilation.cpp.o
+[  7%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcolorscheme.cpp.o
+[  8%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcolorschememodel.cpp.o
+[  9%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcolorschememenu.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcolorschememanager.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcommandbar.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcodecaction.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcommandbarmodel_p.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:[m[K In member function '[01m[Kint KCodecAction::mibForName(const QString&, bool*) const[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:114:51:[m[K [01;35m[Kwarning: [m[K'[01m[KQTextCodec* KCharsets::codecForName(const QString&, bool&) const[m[K' is deprecated: Since 5.101. use QTextCodec codecForName or QStringEncoder [[01;35m[K-Wdeprecated-declarations[m[K]
+  114 |         QTextCodec *codec = [01;35m[Kcharsets->codecForName(codecName, success)[m[K;
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCodecs/KCharsets:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:12[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCodecs/kcharsets.h:86:17:[m[K [01;36m[Knote: [m[Kdeclared here
+   86 |     QTextCodec *[01;36m[KcodecForName[m[K(const QString &n, bool &ok) const;
+      |                 [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:117:43:[m[K [01;35m[Kwarning: [m[K'[01m[KQTextCodec* KCharsets::codecForName(const QString&, bool&) const[m[K' is deprecated: Since 5.101. use QTextCodec codecForName or QStringEncoder [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |             codec = [01;35m[Kcharsets->codecForName(charsets->encodingForName(codecName), success)[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCodecs/KCharsets:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:12[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCodecs/kcharsets.h:86:17:[m[K [01;36m[Knote: [m[Kdeclared here
+   86 |     QTextCodec *[01;36m[KcodecForName[m[K(const QString &n, bool &ok) const;
+      |                 [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:[m[K In member function '[01m[Kbool KCodecAction::setCurrentCodec(QTextCodec*)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:232:65:[m[K [01;35m[Kwarning: [m[K'[01m[KQTextCodec* KCharsets::codecForName(const QString&) const[m[K' is deprecated: Since 5.101. use QTextCodec codecForName or QStringEncoder [[01;35m[K-Wdeprecated-declarations[m[K]
+  232 |                 if (codec == [01;35m[KKCharsets::charsets()->codecForName(actions().at(i)->menu()->actions().at(j)->text())[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCodecs/KCharsets:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfigwidgets/src/kcodecaction.cpp:12[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCodecs/kcharsets.h:67:17:[m[K [01;36m[Knote: [m[Kdeclared here
+   67 |     QTextCodec *[01;36m[KcodecForName[m[K(const QString &name) const;
+      |                 [01;36m[K^~~~~~~~~~~~[m[K
+[ 15%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kconfigdialog.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kconfigviewstatesaver.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kconfigdialogmanager.cpp.o
+[ 19%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kcmodule.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/khelpclient.cpp.o
+[ 21%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/khamburgermenu.cpp.o
+[ 22%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/khamburgermenuhelpers.cpp.o
+[ 24%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/klanguagebutton.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/klanguagename.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/krecentfilesaction.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kstandardaction.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kstatefulbrush.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/ktipdialog.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kconfigwidgets_debug.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/kpastetextaction.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5ConfigWidgets.dir/KF5ConfigWidgets_autogen/EWIEGA46WW/qrc_kconfigwidgets.cpp.o
+[ 34%] Linking CXX shared library ../bin/libKF5ConfigWidgets.so
+[ 34%] Built target KF5ConfigWidgets
+[ 37%] Automatic MOC for target klanguagebuttontest
+[ 37%] Automatic MOC for target kcommandbartest
+[ 40%] Automatic MOC for target kcolorschemedemo
+[ 40%] Automatic MOC for target kcolorutilsdemo
+[ 39%] Automatic MOC for target kcodecactiontest
+[ 42%] Automatic MOC for target kstandardactiontest
+[ 43%] Automatic MOC for target kconfigdialog_unittest
+[ 44%] Automatic MOC for target krecentfilesactiontest
+[ 44%] Built target klanguagebuttontest_autogen
+[ 44%] Built target kcommandbartest_autogen
+[ 45%] Automatic MOC for target klanguagenametest
+[ 46%] Automatic MOC for target kcolorschemetest
+[ 46%] Built target krecentfilesactiontest_autogen
+[ 46%] Built target kcolorutilsdemo_autogen
+[ 48%] Automatic MOC for target kcmdbartest
+[ 49%] Automatic MOC for target krecentfilesaction_test
+[ 49%] Built target kcodecactiontest_autogen
+[ 49%] Built target kstandardactiontest_autogen
+[ 49%] Built target kcolorschemedemo_autogen
+[ 50%] Building CXX object tests/CMakeFiles/klanguagebuttontest.dir/klanguagebuttontest_autogen/mocs_compilation.cpp.o
+[ 51%] Building CXX object tests/CMakeFiles/kcommandbartest.dir/kcommandbartest_autogen/mocs_compilation.cpp.o
+[ 53%] Building CXX object tests/CMakeFiles/kcodecactiontest.dir/kcodecactiontest_autogen/mocs_compilation.cpp.o
+[ 54%] Building CXX object tests/CMakeFiles/klanguagebuttontest.dir/klanguagebuttontest.cpp.o
+[ 55%] Building CXX object tests/CMakeFiles/kcommandbartest.dir/kcommandbartest.cpp.o
+[ 55%] Built target kconfigdialog_unittest_autogen
+[ 56%] Building CXX object tests/CMakeFiles/kcodecactiontest.dir/kcodecactiontest.cpp.o
+[ 56%] Built target kcolorschemetest_autogen
+[ 57%] Generating ui_kcolorutilsdemo.h
+[ 57%] Built target klanguagenametest_autogen
+[ 57%] Built target krecentfilesaction_test_autogen
+[ 59%] Building CXX object tests/CMakeFiles/kcolorutilsdemo.dir/kcolorutilsdemo_autogen/mocs_compilation.cpp.o
+[ 60%] Generating ui_krecentfilesactiontest.h
+[ 61%] Building CXX object autotests/CMakeFiles/kstandardactiontest.dir/kstandardactiontest_autogen/mocs_compilation.cpp.o
+[ 62%] Building CXX object tests/CMakeFiles/krecentfilesactiontest.dir/krecentfilesactiontest_autogen/mocs_compilation.cpp.o
+[ 62%] Built target kcmdbartest_autogen
+[ 63%] Building CXX object tests/CMakeFiles/krecentfilesactiontest.dir/krecentfilesactiontest.cpp.o
+[ 65%] Building CXX object autotests/CMakeFiles/kstandardactiontest.dir/kstandardactiontest.cpp.o
+[ 66%] Generating signaltest.h, signaltest.cpp
+/bin/sh: line 1: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libexec/kf5/kconfig_compiler_kf5: cannot execute binary file: Exec format error
+make[2]: *** [autotests/CMakeFiles/kconfigdialog_unittest.dir/build.make:80: autotests/signaltest.h] Error 126
+make[1]: *** [CMakeFiles/Makefile2:728: autotests/CMakeFiles/kconfigdialog_unittest.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 67%] Building CXX object tests/CMakeFiles/kcolorutilsdemo.dir/kcolorutilsdemo.cpp.o
+[ 68%] Building CXX object tests/CMakeFiles/kcolorutilsdemo.dir/kimageframe.cpp.o
+[ 69%] Linking CXX executable ../bin/klanguagebuttontest
+[ 71%] Linking CXX executable ../bin/kcodecactiontest
+[ 71%] Built target klanguagebuttontest
+[ 72%] Linking CXX executable ../bin/krecentfilesactiontest
+[ 72%] Built target kcodecactiontest
+[ 73%] Linking CXX executable ../bin/kcommandbartest
+[ 73%] Built target krecentfilesactiontest
+[ 73%] Built target kcommandbartest
+[ 74%] Linking CXX executable ../bin/kstandardactiontest
+[ 75%] Linking CXX executable ../bin/kcolorutilsdemo
+[ 75%] Built target kstandardactiontest
+[ 75%] Built target kcolorutilsdemo
+make: *** [Makefile:146: all] Error 2

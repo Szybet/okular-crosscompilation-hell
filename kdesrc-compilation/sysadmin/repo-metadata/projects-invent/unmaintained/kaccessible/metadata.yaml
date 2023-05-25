@@ -1,0 +1,8 @@
+description: kaccessible implements a QAccessibleBridgePlugin to provide accessibility
+  services like focus tracking and a screenreader.
+hasrepo: true
+identifier: kaccessible
+name: kaccessible
+projectpath: unmaintained/kaccessible
+repoactive: false
+repopath: unmaintained/kaccessible

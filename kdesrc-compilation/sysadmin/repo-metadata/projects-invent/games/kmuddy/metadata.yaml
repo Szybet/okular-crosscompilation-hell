@@ -1,0 +1,7 @@
+description: A MUD (Multi-User Dungeon) client by KDE
+hasrepo: true
+identifier: kmuddy
+name: KMuddy
+projectpath: playground/games/kmuddy
+repoactive: true
+repopath: games/kmuddy

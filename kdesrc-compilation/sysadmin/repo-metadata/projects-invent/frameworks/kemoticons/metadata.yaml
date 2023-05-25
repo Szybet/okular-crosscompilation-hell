@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kemoticons
+description: KEmoticons
+hasrepo: true
+identifier: kemoticons
+name: KEmoticons
+projectpath: frameworks/kemoticons
+repoactive: true
+repopath: frameworks/kemoticons

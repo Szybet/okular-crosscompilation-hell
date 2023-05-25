@@ -1,0 +1,7 @@
+description: Bigscreen first boot mycroft configuration and setup skill
+hasrepo: true
+identifier: mycroft-bigscreen-setup
+name: Mycroft Configuration and Setup Skill for Plasma Bigscreen
+projectpath: playground/utils/mycroft-bigscreen-setup
+repoactive: true
+repopath: plasma-bigscreen/mycroft-bigscreen-setup

@@ -1,0 +1,18 @@
+# CMake generated Testfile for 
+# Source directory: /home/szybet/kdesrc/frameworks/kconfigwidgets/autotests
+# Build directory: /home/szybet/kdesrc/build/frameworks/kconfigwidgets/autotests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(kstandardactiontest "/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin/kstandardactiontest")
+set_tests_properties(kstandardactiontest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;8;ecm_add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;0;")
+add_test(kconfigdialog_unittest "/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin/kconfigdialog_unittest")
+set_tests_properties(kconfigdialog_unittest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;12;ecm_add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;0;")
+add_test(klanguagenametest "/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin/klanguagenametest")
+set_tests_properties(klanguagenametest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;40;ecm_add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;0;")
+add_test(kcolorschemetest "/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin/kcolorschemetest")
+set_tests_properties(kcolorschemetest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;41;ecm_add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;0;")
+add_test(kcmdbartest "/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin/kcmdbartest")
+set_tests_properties(kcmdbartest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;42;ecm_add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;0;")
+add_test(krecentfilesaction_test "/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin/krecentfilesaction_test")
+set_tests_properties(krecentfilesaction_test PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/szybet/kdesrc/build/frameworks/kconfigwidgets/bin:" _BACKTRACE_TRIPLES "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake;96;add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;44;ecm_add_test;/home/szybet/kdesrc/frameworks/kconfigwidgets/autotests/CMakeLists.txt;0;")

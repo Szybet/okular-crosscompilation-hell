@@ -1,0 +1,4 @@
+# kdesrc-build running: 'git' 'fetch' '--tags' 'origin'
+# from directory: /home/szybet/kdesrc/kdesupport/plasma-wayland-protocols
+From https://invent.kde.org/libraries/plasma-wayland-protocols
+ + 3c79cab...a581222 work/zzag/kde-screen-edge-v1 -> origin/work/zzag/kde-screen-edge-v1  (forced update)

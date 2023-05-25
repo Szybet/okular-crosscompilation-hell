@@ -1,0 +1,14 @@
+extra-cmake-modules: Succeeded after 2 seconds.
+kcoreaddons: Succeeded after 6 seconds.
+kconfig: Succeeded after 2 seconds.
+ki18n: Succeeded after 2 seconds.
+karchive: Succeeded after 1 second.
+kdoctools: Succeeded after 6 seconds.
+kwidgetsaddons: Succeeded after 9 seconds.
+plasma-wayland-protocols: Succeeded after 0 seconds.
+polkit-qt-1: Succeeded after 2 seconds.
+kauth: Succeeded after 1 second.
+kcodecs: Succeeded after 2 seconds.
+kguiaddons: Succeeded after 21 seconds.
+kwindowsystem: Succeeded after 21 seconds.
+kconfigwidgets: Failed on build after 1 second.

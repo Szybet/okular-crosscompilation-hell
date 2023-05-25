@@ -1,0 +1,9 @@
+bugzilla:
+  product: khangman
+description: A hangman game
+hasrepo: true
+identifier: khangman
+name: KHangMan
+projectpath: kde/kdeedu/khangman
+repoactive: true
+repopath: education/khangman

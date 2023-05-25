@@ -1,0 +1,7 @@
+description: Runtime components for KDE software on Windows
+hasrepo: true
+identifier: kwindowsaddons
+name: KWindowsAddons
+projectpath: playground/base/kwindowsaddons
+repoactive: false
+repopath: libraries/kwindowsaddons

@@ -1,0 +1,7 @@
+description: Kcm module for managing systemd
+hasrepo: true
+identifier: systemd-kcm
+name: Systemd KCM
+projectpath: unmaintained/systemd-kcm
+repoactive: false
+repopath: unmaintained/systemd-kcm

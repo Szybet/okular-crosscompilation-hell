@@ -1,0 +1,7 @@
+description: KDevelop Parser Generator, used in the PHP language plugin and others
+hasrepo: true
+identifier: kdevelop-pg-qt
+name: KDevelop-PG-Qt
+projectpath: extragear/kdevelop/utilities/kdevelop-pg-qt
+repoactive: true
+repopath: kdevelop/kdevelop-pg-qt

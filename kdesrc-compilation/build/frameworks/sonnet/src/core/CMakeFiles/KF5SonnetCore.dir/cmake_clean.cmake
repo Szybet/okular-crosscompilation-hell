@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../../bin/libKF5SonnetCore.pdb"
+  "../../bin/libKF5SonnetCore.so"
+  "../../bin/libKF5SonnetCore.so.5"
+  "../../bin/libKF5SonnetCore.so.5.107.0"
+  "CMakeFiles/KF5SonnetCore_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/KF5SonnetCore_autogen.dir/ParseCache.txt"
+  "KF5SonnetCore_autogen"
+  "CMakeFiles/KF5SonnetCore.dir/KF5SonnetCore_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/KF5SonnetCore_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/backgroundchecker.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/backgroundchecker.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/client.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/client.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/core_debug.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/core_debug.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/guesslanguage.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/guesslanguage.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/languagefilter.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/languagefilter.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/loader.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/loader.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/settings.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/settings.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/settingsimpl.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/settingsimpl.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/speller.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/speller.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/spellerplugin.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/spellerplugin.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/textbreaks.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/textbreaks.cpp.o.d"
+  "CMakeFiles/KF5SonnetCore.dir/tokenizer.cpp.o"
+  "CMakeFiles/KF5SonnetCore.dir/tokenizer.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/KF5SonnetCore.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,7 @@
+description: Scripts and templates used to manage web statistics on KDE servers
+hasrepo: true
+identifier: sysadmin-webstats
+name: Webstats
+projectpath: sysadmin/webstats
+repoactive: false
+repopath: sysadmin/webstats

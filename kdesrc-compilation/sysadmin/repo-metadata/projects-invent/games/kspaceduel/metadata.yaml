@@ -1,0 +1,10 @@
+bugzilla:
+  product: kspaceduel
+description: 'KSpaceDuel: each of two possible players controls a satellite spaceship
+  orbiting the sun'
+hasrepo: true
+identifier: kspaceduel
+name: KSpaceDuel
+projectpath: kde/kdegames/kspaceduel
+repoactive: true
+repopath: games/kspaceduel

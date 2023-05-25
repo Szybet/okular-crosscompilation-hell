@@ -1,0 +1,7 @@
+description: KDE Control Module for configuring the GRUB bootloader
+hasrepo: true
+identifier: kcm-grub2
+name: GRUB2 KCM
+projectpath: extragear/sysadmin/kcm-grub2
+repoactive: true
+repopath: system/kcm-grub2

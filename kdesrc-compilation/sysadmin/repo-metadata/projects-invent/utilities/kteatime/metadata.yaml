@@ -1,0 +1,9 @@
+bugzilla:
+  product: kteatime
+description: Handy timer for steeping tea
+hasrepo: true
+identifier: kteatime
+name: KTeaTime
+projectpath: kde/kdeutils/kteatime
+repoactive: true
+repopath: utilities/kteatime

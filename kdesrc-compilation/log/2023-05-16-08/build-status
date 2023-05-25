@@ -1,0 +1,23 @@
+extra-cmake-modules: Succeeded after 1 second.
+kcoreaddons: Succeeded after 1 second.
+kconfig: Succeeded after 2 seconds.
+ki18n: Succeeded after 0 seconds.
+karchive: Succeeded after 1 second.
+kdoctools: Succeeded after 4 seconds.
+kwidgetsaddons: Succeeded after 1 second.
+plasma-wayland-protocols: Succeeded after 0 seconds.
+polkit-qt-1: Succeeded after 0 seconds.
+kauth: Succeeded after 2 seconds.
+kcodecs: Succeeded after 0 seconds.
+kguiaddons: Succeeded after 1 second.
+kwindowsystem: Succeeded after 1 second.
+kconfigwidgets: Succeeded after 0 seconds.
+kdbusaddons: Succeeded after 1 second.
+kcompletion: Succeeded after 1 second.
+kcrash: Succeeded after 1 second.
+kiconthemes: Succeeded after 0 seconds.
+sonnet: Succeeded after 2 seconds.
+kglobalaccel: Succeeded after 1 second.
+kitemviews: Succeeded after 1 second.
+ktextwidgets: Succeeded after 0 seconds.
+knotifications: Failed on build after 18 seconds.

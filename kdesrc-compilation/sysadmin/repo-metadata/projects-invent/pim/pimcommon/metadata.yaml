@@ -1,0 +1,7 @@
+description: Common library components for KDE PIM
+hasrepo: true
+identifier: pimcommon
+name: PimCommon
+projectpath: kde/pim/pimcommon
+repoactive: true
+repopath: pim/pimcommon

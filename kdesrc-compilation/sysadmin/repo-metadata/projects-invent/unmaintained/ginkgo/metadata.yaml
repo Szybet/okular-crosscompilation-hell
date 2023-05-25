@@ -1,0 +1,8 @@
+description: Ginkgo is a generic resource navigator and editor for Nepomuk, the KDE
+  semantic toolkit.
+hasrepo: true
+identifier: ginkgo
+name: Ginkgo
+projectpath: playground/utils/ginkgo
+repoactive: false
+repopath: unmaintained/ginkgo

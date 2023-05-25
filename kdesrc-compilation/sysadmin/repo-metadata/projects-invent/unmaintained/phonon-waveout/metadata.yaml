@@ -1,0 +1,7 @@
+description: A WaveOut backend for the Phonon multimedia library.
+hasrepo: true
+identifier: phonon-waveout
+name: Phonon WaveOut
+projectpath: unmaintained/phonon-waveout
+repoactive: false
+repopath: unmaintained/phonon-waveout

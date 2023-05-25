@@ -1,0 +1,7 @@
+description: A System Settings module for managing users and groups on your system.
+hasrepo: true
+identifier: kcm-userconfig
+name: kcm-userconfig
+projectpath: playground/sysadmin/kcm-userconfig
+repoactive: false
+repopath: unmaintained/kcm-userconfig

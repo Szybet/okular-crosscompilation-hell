@@ -1,0 +1,9 @@
+description: Powerful BitTorrent client
+hasrepo: true
+identifier: ktorrent
+name: KTorrent
+projectpath: kde/kdenetwork/ktorrent
+repoactive: true
+repopath: network/ktorrent
+bugzilla:
+    product: ktorrent

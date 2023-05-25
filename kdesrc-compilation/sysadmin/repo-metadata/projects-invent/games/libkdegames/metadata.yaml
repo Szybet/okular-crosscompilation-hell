@@ -1,0 +1,9 @@
+bugzilla:
+  product: libkdegames
+description: Common code and data for many KDE games
+hasrepo: true
+identifier: libkdegames
+name: libkdegames
+projectpath: kde/kdegames/libkdegames
+repoactive: true
+repopath: games/libkdegames

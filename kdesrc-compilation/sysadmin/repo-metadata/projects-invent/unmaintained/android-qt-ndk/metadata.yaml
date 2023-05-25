@@ -1,0 +1,7 @@
+description: NDK repository for the Android port of Qt.
+hasrepo: true
+identifier: android-qt-ndk
+name: Android Qt NDK
+projectpath: unmaintained/necessitas/android-qt-ndk
+repoactive: false
+repopath: unmaintained/android-qt-ndk

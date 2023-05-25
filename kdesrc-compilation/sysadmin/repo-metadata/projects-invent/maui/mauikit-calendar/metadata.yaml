@@ -1,0 +1,7 @@
+description: Calendar support components for Maui applications
+hasrepo: true
+identifier: mauikit-calendar
+name: MauiKit Calendar
+projectpath: playground/base/mauikit-calendar
+repoactive: true
+repopath: maui/mauikit-calendar

@@ -1,0 +1,7 @@
+description: Efficient audio tagger that supports a large variety of file formats
+hasrepo: true
+identifier: kid3
+name: Kid3
+projectpath: extragear/multimedia/kid3
+repoactive: true
+repopath: multimedia/kid3

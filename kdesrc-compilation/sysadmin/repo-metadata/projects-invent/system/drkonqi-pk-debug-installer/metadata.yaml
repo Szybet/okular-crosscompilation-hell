@@ -1,0 +1,7 @@
+description: PackageKit based debug package installer (for debian-like distros) for DrKonqi
+hasrepo: true
+identifier: drkonqi-pk-debug-installer
+name: DrKonqi PackageKit Debug Installer
+projectpath: playground/base/drkonqi-pk-debug-installer
+repoactive: true
+repopath: system/drkonqi-pk-debug-installer

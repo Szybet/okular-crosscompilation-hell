@@ -1,0 +1,5 @@
+# kdesrc-build running: 'git' 'fetch' '--tags' 'origin'
+# from directory: /home/szybet/kdesrc/kde/kdegraphics/okular
+From https://invent.kde.org/graphics/okular
+   0741ff3ef..d18a08e91  master        -> origin/master
+   580d56f43..bad4f9eee  release/23.04 -> origin/release/23.04

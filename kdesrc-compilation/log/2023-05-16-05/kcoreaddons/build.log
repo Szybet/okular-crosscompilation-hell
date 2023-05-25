@@ -1,0 +1,370 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcoreaddons
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kcoreaddons/prefix.sh to set the environment for KCoreAddons.
+-- Could NOT find FAM (missing: FAM_INCLUDE_DIR FAM_LIBRARIES) 
+-- The following features have been enabled:
+
+ * XDGPortalDragAndDrop, Drag and Drop support via xdg-desktop-portal requies QtDBus
+ * dladdr, Can resolve shared library paths and by extension libexec paths at runtime using dladdr() API
+
+-- The following OPTIONAL packages have been found:
+
+ * Inotify
+   Filesystem alteration notifications using inotify
+ * Qt5DBus
+ * UDev, API for enumerating and introspecting local devices (part of systemd), <https://www.freedesktop.org/wiki/Software/systemd/>
+ * SharedMimeInfo (required version >= 1.8), A database of common MIME types, <https://freedesktop.org/wiki/Software/shared-mime-info/>
+   Allows KDE applications to determine file types
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Core
+ * Threads
+ * Qt5LinguistTools
+ * Qt5 (required version >= 5.15.2)
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+
+-- The following OPTIONAL packages have not been found:
+
+ * FAM, File alteration notification support via a separate service, <http://oss.sgi.com/projects/fam>
+   Provides file alteration notification facilities using a separate service. FAM provides additional support for NFS.
+
+-- Configuring done (0.2s)
+-- Generating done (0.6s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kcoreaddons
+[  1%] Built target translations_3
+[  1%] Built target translations_4
+[  1%] Built target translations_5
+[  1%] Built target translations_2
+[  1%] Built target translations_6
+[  1%] Built target translations_1
+[  1%] Built target translations_7
+[  1%] Built target translations_8
+[  1%] Built target translations_9
+[  1%] Built target translations_11
+[  1%] Built target translations_10
+[  2%] Built target translations_13
+[  2%] Built target translations_12
+[  2%] Built target translations_15
+[  2%] Built target translations_14
+[  2%] Built target translations_16
+[  3%] Built target translations_17
+[  4%] Built target translations_20
+[  4%] Built target translations_18
+[  4%] Built target translations_21
+[  4%] Built target translations_23
+[  4%] Built target translations_19
+[  4%] Built target translations_22
+[  5%] Built target translations_24
+[  5%] Built target translations_26
+[  5%] Built target translations_25
+[  5%] Built target translations_29
+[  5%] Built target translations_30
+[  5%] Built target translations_27
+[  6%] Built target translations_31
+[  6%] Built target translations_32
+[  7%] Built target translations_28
+[  7%] Built target translations_33
+[  7%] Built target translations_34
+[  7%] Built target translations_35
+[  8%] Built target translations_37
+[  8%] Built target translations_36
+[  8%] Built target translations_39
+[  8%] Built target translations_38
+[  8%] Built target translations_40
+[  8%] Built target translations_42
+[  8%] Built target translations_44
+[  8%] Built target translations_45
+[  9%] Built target translations_43
+[  9%] Built target translations_46
+[ 10%] Built target translations_47
+[ 10%] Built target translations_41
+[ 10%] Built target translations_48
+[ 11%] Built target translations_51
+[ 11%] Built target translations_50
+[ 11%] Built target translations_49
+[ 11%] Built target translations_52
+[ 12%] Built target translations_54
+[ 12%] Built target translations_55
+[ 12%] Built target translations_53
+[ 12%] Built target translations_56
+[ 12%] Built target translations_60
+[ 12%] Built target translations_59
+[ 14%] Built target translations_58
+[ 14%] Built target translations_61
+[ 14%] Built target translations_57
+[ 14%] Built target translations_62
+[ 14%] Built target translations_63
+[ 14%] Built target translations_64
+[ 15%] Built target translations_65
+[ 15%] Built target translations_66
+[ 15%] Built target translations_67
+[ 15%] Built target translations_68
+[ 16%] Built target translations_69
+[ 16%] Built target translations_71
+[ 16%] Built target translations_70
+[ 16%] Built target translations_72
+[ 16%] Built target translations_74
+[ 17%] Built target translations_77
+[ 18%] Built target translations_73
+[ 18%] Built target translations_75
+[ 18%] Built target translations_78
+[ 18%] Built target translations_76
+[ 18%] Built target translations_79
+[ 19%] Built target translations_80
+[ 19%] Built target translations_81
+[ 19%] Built target translations_83
+[ 19%] Built target translations_82
+[ 19%] Built target translations_85
+[ 20%] Built target translations_84
+[ 20%] Built target translations_86
+[ 20%] Built target translations_87
+[ 21%] Built target translations_88
+[ 21%] Built target translations_89
+[ 21%] Built target translations_90
+[ 22%] Built target translations_91
+[ 22%] Built target translations_93
+[ 22%] Built target translations_92
+[ 22%] Built target translations_94
+[ 23%] Built target translations_95
+[ 23%] Built target translations_96
+[ 23%] Built target translations_97
+[ 24%] Built target translations_99
+[ 24%] Built target translations_98
+[ 24%] Built target translations_100
+[ 25%] Built target translations_101
+[ 25%] Built target translations_102
+[ 25%] Built target translations_103
+[ 25%] Built target translations_104
+[ 26%] Built target translations_105
+[ 26%] Automatic MOC for target desktoptojson
+[ 26%] Built target translations_106
+[ 26%] Automatic MOC for target KF5CoreAddons
+[ 26%] Automatic MOC for target autotests_static
+[ 26%] Built target desktoptojson_autogen
+[ 26%] Built target autotests_static_autogen
+[ 26%] Built target KF5CoreAddons_autogen
+[ 26%] Linking CXX executable ../../bin/desktoptojson
+[ 27%] Built target autotests_static
+[ 27%] Automatic MOC for target ktexttohtmlteststatic
+[ 27%] Built target ktexttohtmlteststatic_autogen
+[ 28%] Built target ktexttohtmlteststatic
+[ 28%] Automatic MOC for target ktexttohtmltest
+[ 28%] Automatic MOC for target ktexttohtmlbenchmarktest
+[ 28%] Built target ktexttohtmltest_autogen
+[ 28%] Built target ktexttohtmlbenchmarktest_autogen
+[ 41%] Built target KF5CoreAddons
+[ 42%] Linking CXX executable ../bin/ktexttohtmltest
+[ 43%] Automatic MOC for target versionedplugin
+[ 43%] Automatic MOC for target multiplugin
+[ 43%] Automatic MOC for target jsonplugin2
+[ 44%] Automatic MOC for target unversionedplugin
+[ 44%] Linking CXX executable ../bin/ktexttohtmlbenchmarktest
+[ 44%] Automatic MOC for target jsonplugin
+[ 44%] Built target multiplugin_autogen
+[ 44%] Built target jsonplugin2_autogen
+[ 44%] Built target versionedplugin_autogen
+[ 44%] Built target jsonplugin_autogen
+[ 44%] Built target unversionedplugin_autogen
+[ 44%] Automatic MOC for target alwaysunloadplugin
+[ 44%] Automatic MOC for target qtplugin
+[ 44%] Automatic MOC for target jsonplugin_cmake_macro
+[ 44%] Automatic MOC for target pluginwithoutmetadata
+[ 44%] Automatic MOC for target org.kde.test
+[ 46%] Built target desktoptojson
+[ 46%] Built target qtplugin_autogen
+[ 46%] Built target alwaysunloadplugin_autogen
+[ 46%] Built target jsonplugin_cmake_macro_autogen
+[ 46%] Built target org.kde.test_autogen
+[ 46%] Built target pluginwithoutmetadata_autogen
+[ 46%] Automatic MOC for target kaboutdatatest
+[ 46%] Automatic MOC for target kaboutdataapplicationdatatest
+[ 46%] Automatic MOC for target kautosavefiletest
+[ 46%] Automatic MOC for target kcompositejobtest
+[ 46%] Built target kaboutdatatest_autogen
+[ 46%] Automatic MOC for target kjobtest
+[ 46%] Automatic MOC for target kformattest
+[ 46%] Built target kaboutdataapplicationdatatest_autogen
+[ 46%] Built target kautosavefiletest_autogen
+[ 46%] Built target kcompositejobtest_autogen
+[ 46%] Automatic MOC for target kosreleasetest
+[ 46%] Built target kjobtest_autogen
+[ 46%] Built target kformattest_autogen
+[ 46%] Automatic MOC for target static_jsonplugin_cmake_macro
+[ 47%] Automatic MOC for target static_jsonplugin_cmake_macro_2
+[ 47%] Automatic MOC for target kpluginloadertest
+[ 48%] Automatic MOC for target static_plugin_without_metadata
+[ 48%] Built target kosreleasetest_autogen
+[ 48%] Automatic MOC for target kprocesstest
+[ 48%] Built target static_jsonplugin_cmake_macro_2_autogen
+[ 48%] Built target kpluginloadertest_autogen
+[ 48%] Built target static_jsonplugin_cmake_macro_autogen
+[ 48%] Built target static_plugin_without_metadata_autogen
+[ 48%] Automatic MOC for target krandomtest
+[ 48%] Built target kprocesstest_autogen
+[ 48%] Automatic MOC for target kshareddatacachetest
+[ 48%] Automatic MOC for target kshelltest
+[ 48%] Automatic MOC for target kurlmimedatatest
+[ 48%] Automatic MOC for target kstringhandlertest
+[ 48%] Automatic MOC for target kmacroexpandertest
+[ 48%] Built target krandomtest_autogen
+[ 48%] Built target kshareddatacachetest_autogen
+[ 48%] Built target kurlmimedatatest_autogen
+[ 48%] Built target kshelltest_autogen
+[ 48%] Built target kstringhandlertest_autogen
+[ 49%] Built target ktexttohtmlbenchmarktest
+[ 49%] Built target kmacroexpandertest_autogen
+[ 49%] Automatic MOC for target kusertest
+[ 49%] Automatic MOC for target kprocesslisttest
+[ 49%] Built target ktexttohtmltest
+[ 49%] Automatic MOC for target kfileutilstest
+[ 49%] Automatic MOC for target kfuzzymatchertest
+[ 49%] Automatic MOC for target knetworkmountstestcanonical
+[ 49%] Automatic MOC for target knetworkmountstestnoconfig
+[ 49%] Automatic MOC for target knetworkmountstestpaths
+[ 49%] Built target kusertest_autogen
+[ 49%] Built target kprocesslisttest_autogen
+[ 49%] Automatic MOC for target knetworkmountsteststatic
+[ 49%] Built target kfileutilstest_autogen
+[ 49%] Built target kfuzzymatchertest_autogen
+[ 49%] Built target knetworkmountstestcanonical_autogen
+[ 49%] Built target knetworkmountstestnoconfig_autogen
+[ 49%] Built target knetworkmountstestpaths_autogen
+[ 49%] Automatic MOC for target klibexectest
+[ 49%] Automatic MOC for target kmemoryinfotest
+[ 49%] Automatic MOC for target kruntimeplatformtest
+[ 49%] Automatic MOC for target kdelibs4migrationtest
+[ 49%] Automatic MOC for target klistopenfilesjobtest_unix
+[ 49%] Built target knetworkmountsteststatic_autogen
+[ 49%] Automatic MOC for target kdelibs4configmigratortest
+[ 49%] Automatic MOC for target kprocesstest_helper
+[ 49%] Built target klibexectest_autogen
+[ 49%] Built target kmemoryinfotest_autogen
+[ 49%] Built target kruntimeplatformtest_autogen
+[ 49%] Built target kdelibs4migrationtest_autogen
+[ 49%] Built target klistopenfilesjobtest_unix_autogen
+[ 49%] Built target kdelibs4configmigratortest_autogen
+[ 49%] Built target kprocesstest_helper_autogen
+[ 49%] Automatic MOC for target kdirwatch_stat_unittest
+[ 49%] Automatic MOC for target kdirwatch_stat_benchmarktest
+[ 49%] Automatic MOC for target kdirwatch_inotify_unittest
+[ 49%] Automatic MOC for target kdirwatch_inotify_benchmarktest
+[ 49%] Automatic MOC for target kdirwatch_qfswatch_unittest
+[ 49%] Automatic MOC for target kdirwatch_qfswatch_benchmarktest
+[ 49%] Automatic MOC for target kdirwatchtest_gui
+[ 49%] Automatic MOC for target faceicontest
+[ 49%] Built target kdirwatch_stat_unittest_autogen
+[ 49%] Built target kdirwatch_stat_benchmarktest_autogen
+[ 49%] Built target kdirwatch_inotify_unittest_autogen
+[ 49%] Built target kdirwatch_inotify_benchmarktest_autogen
+[ 49%] Built target kdirwatch_qfswatch_unittest_autogen
+[ 49%] Built target kdirwatch_qfswatch_benchmarktest_autogen
+[ 49%] Built target kdirwatchtest_gui_autogen
+[ 49%] Built target faceicontest_autogen
+[ 50%] Automatic MOC for target texttohtmltest
+[ 50%] Built target jsonplugin
+[ 50%] Built target versionedplugin
+[ 51%] Built target jsonplugin2
+[ 51%] Built target unversionedplugin
+[ 51%] Built target texttohtmltest_autogen
+[ 52%] Built target alwaysunloadplugin
+[ 53%] Built target multiplugin
+[ 54%] Built target qtplugin
+[ 55%] Built target jsonplugin_cmake_macro
+[ 56%] Built target pluginwithoutmetadata
+[ 57%] Built target org.kde.test
+[ 57%] Linking CXX executable ../bin/kaboutdatatest
+[ 57%] Linking CXX executable ../bin/kaboutdataapplicationdatatest
+[ 57%] Linking CXX executable ../bin/kcompositejobtest
+[ 57%] Linking CXX executable ../bin/kautosavefiletest
+[ 57%] Linking CXX executable ../bin/kformattest
+[ 57%] Linking CXX executable ../bin/kjobtest
+[ 58%] Linking CXX executable ../bin/kosreleasetest
+[ 58%] Built target static_jsonplugin_cmake_macro_2
+[ 59%] Built target static_jsonplugin_cmake_macro
+[ 59%] Linking CXX executable ../bin/kpluginloadertest
+[ 60%] Built target kaboutdataapplicationdatatest
+[ 61%] Built target kaboutdatatest
+[ 62%] Built target kautosavefiletest
+[ 63%] Built target kformattest
+[ 63%] Built target kosreleasetest
+[ 64%] Built target kcompositejobtest
+[ 64%] Built target static_plugin_without_metadata
+[ 65%] Linking CXX executable ../bin/kprocesstest
+[ 66%] Built target kjobtest
+[ 67%] Linking CXX executable ../bin/krandomtest
+[ 68%] Linking CXX executable ../bin/kshelltest
+[ 69%] Linking CXX executable ../bin/kshareddatacachetest
+[ 70%] Linking CXX executable ../bin/kstringhandlertest
+[ 71%] Linking CXX executable ../bin/kurlmimedatatest
+[ 72%] Linking CXX executable ../bin/kmacroexpandertest
+[ 73%] Built target kpluginloadertest
+[ 74%] Linking CXX executable ../bin/kusertest
+[ 74%] Built target kprocesstest
+[ 74%] Built target kshareddatacachetest
+[ 74%] Built target krandomtest
+[ 74%] Built target kshelltest
+[ 75%] Linking CXX executable ../bin/kprocesslisttest
+[ 75%] Built target kmacroexpandertest
+[ 75%] Linking CXX executable ../bin/kfileutilstest
+[ 75%] Built target kstringhandlertest
+[ 75%] Built target kurlmimedatatest
+[ 75%] Linking CXX executable ../bin/kfuzzymatchertest
+[ 76%] Linking CXX executable ../bin/knetworkmountstestcanonical
+[ 77%] Linking CXX executable ../bin/knetworkmountstestnoconfig
+[ 78%] Linking CXX executable ../bin/knetworkmountsteststatic
+[ 79%] Linking CXX executable ../bin/knetworkmountstestpaths
+[ 79%] Built target kusertest
+[ 79%] Linking CXX executable ../bin/klibexectest
+[ 79%] Built target kprocesslisttest
+[ 80%] Built target kfileutilstest
+[ 80%] Built target knetworkmountstestcanonical
+[ 81%] Linking CXX executable ../bin/kmemoryinfotest
+[ 82%] Built target kfuzzymatchertest
+[ 82%] Built target knetworkmountstestnoconfig
+[ 82%] Built target knetworkmountsteststatic
+[ 83%] Linking CXX executable ../bin/kruntimeplatformtest
+[ 83%] Built target knetworkmountstestpaths
+[ 84%] Built target klibexectest
+[ 84%] Linking CXX executable ../bin/klistopenfilesjobtest_unix
+[ 84%] Linking CXX executable ../bin/kdelibs4migrationtest
+[ 84%] Linking CXX executable ../bin/kdelibs4configmigratortest
+[ 85%] Linking CXX executable ../bin/kprocesstest_helper
+[ 85%] Linking CXX executable ../bin/kdirwatch_stat_unittest
+[ 85%] Linking CXX executable ../bin/kdirwatch_stat_benchmarktest
+[ 85%] Built target kmemoryinfotest
+[ 85%] Built target kruntimeplatformtest
+[ 85%] Linking CXX executable ../bin/kdirwatch_inotify_unittest
+[ 85%] Built target kprocesstest_helper
+[ 86%] Built target kdelibs4migrationtest
+[ 86%] Linking CXX executable ../bin/kdirwatch_inotify_benchmarktest
+[ 87%] Built target klistopenfilesjobtest_unix
+[ 88%] Built target kdelibs4configmigratortest
+[ 89%] Built target kdirwatch_stat_benchmarktest
+[ 89%] Linking CXX executable ../bin/kdirwatch_qfswatch_unittest
+[ 90%] Built target kdirwatch_stat_unittest
+[ 90%] Linking CXX executable ../bin/kdirwatch_qfswatch_benchmarktest
+[ 90%] Linking CXX executable ../bin/kdirwatchtest_gui
+[ 90%] Linking CXX executable ../bin/texttohtmltest
+[ 90%] Linking CXX executable ../bin/faceicontest
+[ 90%] Automatic MOC for target kpluginfactorytest
+[ 90%] Built target kpluginfactorytest_autogen
+[ 90%] Automatic MOC for target kpluginmetadatatest
+[ 90%] Built target kpluginmetadatatest_autogen
+[ 90%] Linking CXX executable ../bin/kpluginfactorytest
+[ 91%] Built target kdirwatch_inotify_benchmarktest
+[ 92%] Built target kdirwatch_inotify_unittest
+[ 93%] Built target kdirwatch_qfswatch_benchmarktest
+[ 94%] Built target kdirwatch_qfswatch_unittest
+[ 95%] Linking CXX executable ../bin/kpluginmetadatatest
+[ 96%] Built target faceicontest
+[ 97%] Built target kdirwatchtest_gui
+[ 97%] Built target texttohtmltest
+[ 98%] Built target kpluginfactorytest
+[100%] Built target kpluginmetadatatest

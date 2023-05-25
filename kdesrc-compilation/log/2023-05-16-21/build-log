@@ -1,0 +1,32 @@
+Holding performance profile
+Building kpty from _cmdline (1/5)
+	Fetching remote changes to kpty
+	Merging kpty changes from branch kf5
+	* You had local changes to kpty, which have been re-applied.
+	Source update complete for kpty: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kpty.
+	Running cmake targeting Unix Makefiles...
+Building libkexiv2 from _cmdline (2/5)
+	Fetching remote changes to libkexiv2
+	Merging libkexiv2 changes from branch master
+	Source update complete for libkexiv2: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for libkexiv2.
+	Running cmake targeting Unix Makefiles...
+
+libkexiv2 didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+libkexiv2 - file:///home/szybet/kdesrc/log/2023-05-16-21/libkexiv2/cmake.log
+
+Possible solution: Install the build dependencies for the modules:
+libkexiv2
+You can use 'sudo apt build-dep <source_package>', 'sudo dnf builddep <package>', 'sudo zypper source-install --build-deps-only <source_package>' or a similar command for your distro of choice.
+See https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source/Install_the_dependencies
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-21

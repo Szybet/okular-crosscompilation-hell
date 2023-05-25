@@ -1,0 +1,1040 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ki18n_install",
+			"kdoctools_create_handbook",
+			"kdoctools_install",
+			"kdoctools_create_manpage"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/lib/cmake/KF5I18n/KF5I18nMacros.cmake",
+			"/usr/lib/cmake/KF5DocTools/KF5DocToolsMacros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 365,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 477,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 480,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 481,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 597,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 603,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 606,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 608,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 610,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 167,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 612,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 19
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 25
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 27
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 29
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 35
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 37
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 39
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 41
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 43
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 47
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 49
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 51
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 53
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 55
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 57
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 59
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 61
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 63
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 234,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 65
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 625,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 632,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 634,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Devel",
+			"destination" : "include/okular/core",
+			"paths" : 
+			[
+				"core/action.h",
+				"core/annotations.h",
+				"core/area.h",
+				"core/document.h",
+				"core/fontinfo.h",
+				"core/form.h",
+				"core/generator.h",
+				"core/global.h",
+				"core/page.h",
+				"core/pagesize.h",
+				"core/pagetransition.h",
+				"core/signatureutils.h",
+				"core/sound.h",
+				"core/sourcereference.h",
+				"core/textdocumentgenerator.h",
+				"core/textdocumentsettings.h",
+				"core/textpage.h",
+				"core/tile.h",
+				"core/utils.h",
+				"core/fileprinter.h",
+				"core/printoptionswidget.h",
+				"core/observer.h",
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/core/version.h",
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/core/okularcore_export.h",
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/settings_core.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "include/okular/interfaces",
+			"paths" : 
+			[
+				"interfaces/configinterface.h",
+				"interfaces/guiinterface.h",
+				"interfaces/printinterface.h",
+				"interfaces/saveinterface.h",
+				"interfaces/viewerinterface.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libOkular5Core.so.10.0.0",
+				"bin/libOkular5Core.so.10"
+			],
+			"targetId" : "okularcore::@6890427a1f51a3e7e1df",
+			"targetIndex" : 143,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libOkular5Core.so"
+			],
+			"targetId" : "okularcore::@6890427a1f51a3e7e1df",
+			"targetIndex" : 143,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/config.kcfg",
+			"paths" : 
+			[
+				"conf/okular.kcfg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "okular",
+			"destination" : "share/config.kcfg",
+			"paths" : 
+			[
+				"conf/okular_core.kcfg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "okular",
+			"destination" : "share/kservicetypes5",
+			"paths" : 
+			[
+				"core/okularGenerator.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "okular",
+			"destination" : "lib/qt/plugins",
+			"paths" : 
+			[
+				"bin/okularpart.so"
+			],
+			"targetId" : "okularpart::@6890427a1f51a3e7e1df",
+			"targetIndex" : 146,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "okular",
+			"destination" : "share/kconf_update",
+			"paths" : 
+			[
+				"okular.upd"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "okular",
+			"destination" : "share/kservices5",
+			"paths" : 
+			[
+				"okular_part.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "okular",
+			"destination" : "share/kxmlgui5/okular",
+			"paths" : 
+			[
+				"part/part.rc",
+				"part/part-viewermode.rc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "okular",
+			"destination" : "share/qlogging-categories5",
+			"paths" : 
+			[
+				"okular.categories"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "okular",
+			"destination" : "share",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/locale"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/ca/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/ca/docs/okular/index.cache.bz2",
+				"po/ca/docs/okular/index.docbook",
+				"po/ca/docs/okular/bookmark-management.png",
+				"po/ca/docs/okular/configure-annotations.png",
+				"po/ca/docs/okular/configure-backends.png",
+				"po/ca/docs/okular/configure-editor.png",
+				"po/ca/docs/okular/configure.png",
+				"po/ca/docs/okular/mainwindow.png",
+				"po/ca/docs/okular/presentation.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "okular",
+			"destination" : "share/man/ca/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/ca/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/de/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/de/docs/okular/index.cache.bz2",
+				"po/de/docs/okular/index.docbook",
+				"po/de/docs/okular/annotation-properties.png",
+				"po/de/docs/okular/configure-annotations.png",
+				"po/de/docs/okular/configure-editor.png",
+				"po/de/docs/okular/configure.png",
+				"po/de/docs/okular/embedded-files-bar.png",
+				"po/de/docs/okular/mainwindow.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "okular",
+			"destination" : "share/man/de/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/de/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/es/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/es/docs/okular/index.cache.bz2",
+				"po/es/docs/okular/index.docbook",
+				"po/es/docs/okular/configure.png",
+				"po/es/docs/okular/embedded-files-bar.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "okular",
+			"destination" : "share/man/es/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/es/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "okular",
+			"destination" : "share/man/et/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/et/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/fr/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/fr/docs/okular/index.cache.bz2",
+				"po/fr/docs/okular/index.docbook",
+				"po/fr/docs/okular/annotation-properties.png",
+				"po/fr/docs/okular/annotations.png",
+				"po/fr/docs/okular/bookmark-management.png",
+				"po/fr/docs/okular/configure-annotations.png",
+				"po/fr/docs/okular/configure-backends.png",
+				"po/fr/docs/okular/configure-editor.png",
+				"po/fr/docs/okular/configure.png",
+				"po/fr/docs/okular/forms-bar.png",
+				"po/fr/docs/okular/mainwindow.png",
+				"po/fr/docs/okular/presentation.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "okular",
+			"destination" : "share/man/fr/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/fr/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/gl/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/gl/docs/okular/index.cache.bz2",
+				"po/gl/docs/okular/index.docbook"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/it/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/it/docs/okular/index.cache.bz2",
+				"po/it/docs/okular/index.docbook",
+				"po/it/docs/okular/annotation-properties.png",
+				"po/it/docs/okular/annotations.png",
+				"po/it/docs/okular/bookmark-management.png",
+				"po/it/docs/okular/configure-annotations.png",
+				"po/it/docs/okular/configure-backends.png",
+				"po/it/docs/okular/configure-editor.png",
+				"po/it/docs/okular/configure.png",
+				"po/it/docs/okular/embedded-files-bar.png",
+				"po/it/docs/okular/forms-bar.png",
+				"po/it/docs/okular/mainwindow.png",
+				"po/it/docs/okular/presentation.png",
+				"po/it/docs/okular/signatures-bar.png",
+				"po/it/docs/okular/signatures-panel.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "okular",
+			"destination" : "share/man/it/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/it/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/ja/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/ja/docs/okular/index.cache.bz2",
+				"po/ja/docs/okular/index.docbook",
+				"po/ja/docs/okular/configure.png",
+				"po/ja/docs/okular/embedded-files-bar.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/nl/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/nl/docs/okular/index.cache.bz2",
+				"po/nl/docs/okular/index.docbook"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "okular",
+			"destination" : "share/man/nl/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/nl/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/pl/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/pl/docs/okular/index.cache.bz2",
+				"po/pl/docs/okular/index.docbook",
+				"po/pl/docs/okular/annotation-properties.png",
+				"po/pl/docs/okular/annotations.png",
+				"po/pl/docs/okular/bookmark-management.png",
+				"po/pl/docs/okular/configure-annotations.png",
+				"po/pl/docs/okular/configure-backends.png",
+				"po/pl/docs/okular/configure-editor.png",
+				"po/pl/docs/okular/configure.png",
+				"po/pl/docs/okular/embedded-files-bar.png",
+				"po/pl/docs/okular/forms-bar.png",
+				"po/pl/docs/okular/mainwindow.png",
+				"po/pl/docs/okular/presentation.png",
+				"po/pl/docs/okular/rating.png",
+				"po/pl/docs/okular/tool-ellipse-okular.png",
+				"po/pl/docs/okular/tool-highlighter-okular.png",
+				"po/pl/docs/okular/tool-ink-okular.png",
+				"po/pl/docs/okular/tool-line-okular.png",
+				"po/pl/docs/okular/tool-note-inline-okular.png",
+				"po/pl/docs/okular/tool-note-okular.png",
+				"po/pl/docs/okular/tool-polygon-okular.png",
+				"po/pl/docs/okular/tool-stamp-okular.png",
+				"po/pl/docs/okular/tool-underline-okular.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/pt/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/pt/docs/okular/index.cache.bz2",
+				"po/pt/docs/okular/index.docbook"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "okular",
+			"destination" : "share/man/pt/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/pt/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/pt_BR/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/pt_BR/docs/okular/index.cache.bz2",
+				"po/pt_BR/docs/okular/index.docbook",
+				"po/pt_BR/docs/okular/annotation-properties.png",
+				"po/pt_BR/docs/okular/annotations.png",
+				"po/pt_BR/docs/okular/bookmark-management.png",
+				"po/pt_BR/docs/okular/configure-annotations.png",
+				"po/pt_BR/docs/okular/configure-backends.png",
+				"po/pt_BR/docs/okular/configure-editor.png",
+				"po/pt_BR/docs/okular/configure.png",
+				"po/pt_BR/docs/okular/embedded-files-bar.png",
+				"po/pt_BR/docs/okular/forms-bar.png",
+				"po/pt_BR/docs/okular/mainwindow.png",
+				"po/pt_BR/docs/okular/presentation.png",
+				"po/pt_BR/docs/okular/signatures-bar.png",
+				"po/pt_BR/docs/okular/signatures-panel.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "okular",
+			"destination" : "share/man/pt_BR/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/pt_BR/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/ru/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/ru/docs/okular/index.cache.bz2",
+				"po/ru/docs/okular/index.docbook",
+				"po/ru/docs/okular/annotation-properties.png",
+				"po/ru/docs/okular/annotations.png",
+				"po/ru/docs/okular/bookmark-management.png",
+				"po/ru/docs/okular/configure-annotations.png",
+				"po/ru/docs/okular/configure-backends.png",
+				"po/ru/docs/okular/configure-editor.png",
+				"po/ru/docs/okular/configure.png",
+				"po/ru/docs/okular/embedded-files-bar.png",
+				"po/ru/docs/okular/enhance-lowcontrast.png",
+				"po/ru/docs/okular/enhance-shape.png",
+				"po/ru/docs/okular/enhance-solid.png",
+				"po/ru/docs/okular/enhance-thinline.png",
+				"po/ru/docs/okular/forms-bar.png",
+				"po/ru/docs/okular/mainwindow.png",
+				"po/ru/docs/okular/presentation.png",
+				"po/ru/docs/okular/rating.png",
+				"po/ru/docs/okular/tool-ellipse-okular.png",
+				"po/ru/docs/okular/tool-highlighter-okular.png",
+				"po/ru/docs/okular/tool-ink-okular.png",
+				"po/ru/docs/okular/tool-line-okular.png",
+				"po/ru/docs/okular/tool-note-inline-okular.png",
+				"po/ru/docs/okular/tool-note-okular.png",
+				"po/ru/docs/okular/tool-polygon-okular.png",
+				"po/ru/docs/okular/tool-stamp-okular.png",
+				"po/ru/docs/okular/tool-underline-okular.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "okular",
+			"destination" : "share/man/ru/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/ru/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/sv/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/sv/docs/okular/index.cache.bz2",
+				"po/sv/docs/okular/index.docbook",
+				"po/sv/docs/okular/configure.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "okular",
+			"destination" : "share/man/sv/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/sv/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "okular",
+			"destination" : "share/doc/HTML/uk/okular",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/uk/docs/okular/index.cache.bz2",
+				"po/uk/docs/okular/index.docbook",
+				"po/uk/docs/okular/annotation-properties.png",
+				"po/uk/docs/okular/annotations.png",
+				"po/uk/docs/okular/bookmark-management.png",
+				"po/uk/docs/okular/configure-annotations.png",
+				"po/uk/docs/okular/configure-backends.png",
+				"po/uk/docs/okular/configure-editor.png",
+				"po/uk/docs/okular/configure.png",
+				"po/uk/docs/okular/embedded-files-bar.png",
+				"po/uk/docs/okular/forms-bar.png",
+				"po/uk/docs/okular/mainwindow.png",
+				"po/uk/docs/okular/signatures-bar.png",
+				"po/uk/docs/okular/signatures-panel.png"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "okular",
+			"destination" : "share/man/uk/man1",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/po/uk/docs/okular/okular.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 67,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Okular5",
+			"paths" : 
+			[
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/Okular5Config.cmake",
+				"/home/szybet/kdesrc/kde/kdegraphics/build-okular-Desktop-RelWithDebInfo/Okular5ConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "okular",
+			"destination" : "lib/cmake/Okular5",
+			"exportName" : "Okular5Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "okularcore::@6890427a1f51a3e7e1df",
+					"index" : 143
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/f63aa603055556ba87124de80d14b750/Okular5Targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 69,
+			"component" : "okular",
+			"destination" : "share/okular/pics",
+			"paths" : 
+			[
+				"core/stamps.svg"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

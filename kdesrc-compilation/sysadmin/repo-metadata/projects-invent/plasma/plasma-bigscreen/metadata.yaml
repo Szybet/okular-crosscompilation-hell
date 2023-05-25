@@ -1,0 +1,9 @@
+description: Plasma shell for TVs
+hasrepo: true
+identifier: plasma-bigscreen
+name: Plasma Bigscreen
+projectpath: kde/workspace/plasma-bigscreen
+repoactive: true
+repopath: plasma/plasma-bigscreen
+bugzilla:
+    product: plasma-bigscreen

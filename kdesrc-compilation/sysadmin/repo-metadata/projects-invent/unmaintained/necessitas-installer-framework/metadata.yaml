@@ -1,0 +1,7 @@
+description: Qt's Installer Framework with a few custom patches
+hasrepo: true
+identifier: necessitas-installer-framework
+name: Necessitas Installer Framework
+projectpath: unmaintained/necessitas/necessitas-installer-framework
+repoactive: false
+repopath: unmaintained/necessitas-installer-framework

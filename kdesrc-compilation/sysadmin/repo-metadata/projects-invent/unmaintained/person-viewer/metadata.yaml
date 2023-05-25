@@ -1,0 +1,7 @@
+description: Simple address book application displaying info about aggregated contacts
+hasrepo: true
+identifier: person-viewer
+name: Address book based on KPeople
+projectpath: playground/pim/person-viewer
+repoactive: false
+repopath: unmaintained/person-viewer

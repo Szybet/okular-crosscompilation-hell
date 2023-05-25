@@ -1,0 +1,9 @@
+bugzilla:
+  product: Falkon
+description: Cross-platform Qt-based web browser
+hasrepo: true
+identifier: falkon
+name: Falkon
+projectpath: extragear/network/falkon
+repoactive: true
+repopath: network/falkon

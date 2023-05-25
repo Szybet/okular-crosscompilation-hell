@@ -1,0 +1,9 @@
+bugzilla:
+  product: kcron
+description: Task scheduler by KDE
+hasrepo: true
+identifier: kcron
+name: KCron
+projectpath: kde/kdeadmin/kcron
+repoactive: true
+repopath: system/kcron

@@ -1,0 +1,10 @@
+bugzilla:
+  __do_not_use-legacy-product: baloo
+  product: frameworks-baloo
+description: Baloo is a framework for searching and managing metadata.
+hasrepo: true
+identifier: baloo
+name: Baloo
+projectpath: frameworks/baloo
+repoactive: true
+repopath: frameworks/baloo

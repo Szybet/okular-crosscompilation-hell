@@ -1,0 +1,7 @@
+description: extra-metainfo information for appstream-generator
+hasrepo: true
+identifier: sysadmin-neon-appstream-extra-metainfo
+name: Neon Additional Appstream Metainfo
+projectpath: sysadmin/neon-appstream-extra-metainfo
+repoactive: false
+repopath: sysadmin/neon-appstream-extra-metainfo

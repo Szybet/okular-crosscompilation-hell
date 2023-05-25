@@ -1,0 +1,9 @@
+bugzilla:
+  product: yakuake
+description: Drop-down terminal emulator based on Konsole technologies
+hasrepo: true
+identifier: yakuake
+name: Yakuake
+projectpath: kde/applications/yakuake
+repoactive: true
+repopath: utilities/yakuake

@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+cb690ba2d58b2e0ee6f93407085a41cc CMakeFiles/fetch-translations
+36340f72823e9498b82d8dd69b6765f7 CMakeFiles/uninstall
+b735c4ce6fb4df1374e79d00826e64d7 releaseme
+dfcef1a06e7e2699a4c7388a556a1a32 src/CMakeFiles/KF5GuiAddons_autogen
+021949c40365bf0430f0bc89dc4955de src/geo-scheme-handler/CMakeFiles/kde-geo-uri-handler_autogen

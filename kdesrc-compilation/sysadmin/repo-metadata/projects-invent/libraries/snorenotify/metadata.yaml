@@ -1,0 +1,7 @@
+description: Multi-platform Qt notification framework
+hasrepo: true
+identifier: snorenotify
+name: Snorenotify
+projectpath: playground/libs/snorenotify
+repoactive: true
+repopath: libraries/snorenotify

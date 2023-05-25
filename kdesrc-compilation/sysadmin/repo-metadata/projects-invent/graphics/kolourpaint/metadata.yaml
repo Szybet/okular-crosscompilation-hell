@@ -1,0 +1,9 @@
+bugzilla:
+  product: kolourpaint
+description: Easy-to-use paint program
+hasrepo: true
+identifier: kolourpaint
+name: KolourPaint
+projectpath: kde/kdegraphics/kolourpaint
+repoactive: true
+repopath: graphics/kolourpaint

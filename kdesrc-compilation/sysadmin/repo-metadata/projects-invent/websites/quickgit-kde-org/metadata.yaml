@@ -1,0 +1,7 @@
+description: Quickgit Git repository browser (KDE-customized version of GitPHP)
+hasrepo: true
+identifier: websites-quickgit-kde-org
+name: KDE Quickgit - GitPHP
+projectpath: websites/quickgit-kde-org
+repoactive: false
+repopath: websites/quickgit-kde-org

@@ -1,0 +1,17 @@
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/package.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/package_source.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/CMakeFiles/install/strip.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/documentation.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/package.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/package_source.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/frameworks/extra-cmake-modules/docs/CMakeFiles/install/strip.dir

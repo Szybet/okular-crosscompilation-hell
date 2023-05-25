@@ -1,0 +1,9 @@
+bugzilla:
+  product: kipiplugins
+description: Plugins extending KDE graphics apps, e.g. with import/export capabilities
+hasrepo: true
+identifier: kipi-plugins
+name: Kipi Plugins
+projectpath: kde/kdegraphics/kipi-plugins
+repoactive: true
+repopath: graphics/kipi-plugins

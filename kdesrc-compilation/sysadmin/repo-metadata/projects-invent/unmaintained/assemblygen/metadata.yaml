@@ -1,0 +1,7 @@
+description: A tool that generates .NET/mono assemblies from SMOKE libraries.
+hasrepo: true
+identifier: assemblygen
+name: Assemblygen
+projectpath: unmaintained/assemblygen
+repoactive: false
+repopath: unmaintained/assemblygen

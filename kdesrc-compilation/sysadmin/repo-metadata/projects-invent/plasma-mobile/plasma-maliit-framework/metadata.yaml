@@ -1,0 +1,7 @@
+description: Framework for Maliit integration with Plasma
+hasrepo: true
+identifier: plasma-maliit-framework
+name: Plasma Maliit Framework
+projectpath: playground/mobile/plasma-maliit-framework
+repoactive: false
+repopath: plasma-mobile/plasma-maliit-framework

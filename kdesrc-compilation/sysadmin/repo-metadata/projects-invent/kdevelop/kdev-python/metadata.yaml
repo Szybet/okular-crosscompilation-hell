@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdev-python
+description: KDevelop Python language support
+hasrepo: true
+identifier: kdev-python
+name: KDevelop Python Support
+projectpath: extragear/kdevelop/plugins/kdev-python
+repoactive: true
+repopath: kdevelop/kdev-python

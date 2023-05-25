@@ -1,0 +1,9 @@
+bugzilla:
+  product: libkcddb
+description: Library used to retrieve audio CD metadata from the Internet
+hasrepo: true
+identifier: libkcddb
+name: libkcddb
+projectpath: kde/kdemultimedia/libkcddb
+repoactive: true
+repopath: multimedia/libkcddb

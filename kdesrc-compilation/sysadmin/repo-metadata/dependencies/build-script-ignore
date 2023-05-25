@@ -1,0 +1,23 @@
+extragear/kdevelop/kdev-www
+kdesupport/strigi/strigi
+
+# No modules to install yet
+kde/kdemultimedia/strigi-multimedia
+
+# Convenience module for packagers, redundant with kipi-plugins, digikam, etc.
+extragear/graphics/digikam/digikam-software-compilation
+
+# Nothing to build, just JS code. http://blogs.kde.org/2013/06/18/compiling-all-kde-sc-svngit
+extragear/network/bodega-webapp-client
+
+# Nothing to build
+kdesupport/inqlude-data
+playground/utils/kpaste
+playground/base/plasma-active-kickstart
+playground/base/activities-support
+playground/artwork/oxygen-fonts
+playground/sdk/releaseme
+playground/sdk/kde-ruleset
+kde/superbuild
+extragear/base/plasma-mobile/plasma-mobile-config
+

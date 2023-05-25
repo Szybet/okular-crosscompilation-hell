@@ -1,0 +1,15 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kpty
+[ 22%] Automatic MOC for target KF5Pty
+[ 22%] Generating ts...
+[ 33%] Generating mo...
+[ 33%] Built target tsfiles-c2ccbc57b07e194e0d0c4a390493e760
+[ 33%] Built target KF5Pty_autogen
+[ 44%] Building CXX object src/CMakeFiles/KF5Pty.dir/KF5Pty_autogen/mocs_compilation.cpp.o
+[ 55%] Building CXX object src/CMakeFiles/KF5Pty.dir/kpty.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/KF5Pty.dir/kptydevice.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/KF5Pty.dir/kpty_debug.cpp.o
+[ 88%] Building CXX object src/CMakeFiles/KF5Pty.dir/kptyprocess.cpp.o
+[ 88%] Built target pofiles-c2ccbc57b07e194e0d0c4a390493e760
+[100%] Linking CXX shared library ../bin/libKF5Pty.so
+[100%] Built target KF5Pty

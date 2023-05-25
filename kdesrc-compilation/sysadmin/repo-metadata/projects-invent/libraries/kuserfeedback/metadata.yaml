@@ -1,0 +1,7 @@
+description: Framework for collecting user feedback for apps via telemetry and surveys
+hasrepo: true
+identifier: kuserfeedback
+name: KUserFeedback
+projectpath: extragear/libs/kuserfeedback
+repoactive: true
+repopath: libraries/kuserfeedback

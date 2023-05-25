@@ -1,0 +1,7 @@
+description: Documentation Tags plugin for MediaWiki
+hasrepo: true
+identifier: websites-mediawiki-documentation-tags
+name: MediaWiki DocumentationTags Plugin
+projectpath: websites/mediawiki-documentation-tags
+repoactive: true
+repopath: websites/mediawiki-documentation-tags

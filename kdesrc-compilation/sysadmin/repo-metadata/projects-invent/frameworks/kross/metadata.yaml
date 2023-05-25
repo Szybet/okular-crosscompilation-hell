@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kross
+description: Kross
+hasrepo: true
+identifier: kross
+name: Kross
+projectpath: frameworks/kross
+repoactive: true
+repopath: frameworks/kross

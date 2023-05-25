@@ -1,0 +1,104 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kinit
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/kinit/prefix.sh to set the environment for KInit.
+-- Could NOT find Libcap (missing: Libcap_LIBRARIES) 
+-- kdeinit wrapper uses setuid-root to protect kdeinit from misguided Linux OOM killer
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5 (required version >= 5.15.2)
+ * Qt5DBus (required version >= 5.15.2)
+ * Qt5Core (required version >= 5.15.2)
+ * KF5Service (required version >= 5.106.0)
+ * Qt5Gui (required version >= 5.15.2)
+ * KF5KIO (required version >= 5.106.0)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * KF5WindowSystem (required version >= 5.106.0)
+ * KF5Crash (required version >= 5.106.0)
+ * KF5Config (required version >= 5.106.0)
+ * KF5DBusAddons (required version >= 5.106.0)
+
+-- The following OPTIONAL packages have not been found:
+
+ * Libcap, Capabilities are a measure to limit the omnipotence of the superuser., <https://sites.google.com/site/fullycapable/>
+   KInit needs setcap in order to install start_kdeinit with CAP_SYS_RESOURCE capabilities
+
+-- Configuring done (0.1s)
+CMake Warning at KF5InitMacros.cmake:36 (add_library):
+  Cannot generate a safe runtime search path for target kdeinit_klauncher
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/mnt/HDD/Project/Public/okulartry/okular-things/lib]
+      dir 1 must precede it due to runtime library [libKF5Crash.so.5]
+    dir 1 is [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib]
+      dir 0 must precede it due to runtime library [libKF5KIOWidgets.so.5]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  src/klauncher/CMakeLists.txt:27 (kf5_add_kdeinit_executable)
+
+
+CMake Warning at KF5InitMacros.cmake:41 (add_executable):
+  Cannot generate a safe runtime search path for target klauncher because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/home/szybet/kdesrc/build/frameworks/kinit/bin]
+    dir 1 is [/mnt/HDD/Project/Public/okulartry/okular-things/lib]
+      dir 0 must precede it due to runtime library [libkdeinit5_klauncher.so]
+      dir 2 must precede it due to runtime library [libKF5Service.so.5]
+    dir 2 is [/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib]
+      dir 1 must precede it due to runtime library [libKF5KIOWidgets.so.5]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  src/klauncher/CMakeLists.txt:27 (kf5_add_kdeinit_executable)
+
+
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/kinit
+[  6%] Generating mo...
+[  6%] Automatic MOC for target kdeinit5
+[  6%] Automatic MOC for target kdeinit5_shutdown
+[  8%] Automatic MOC for target kdeinit5_wrapper
+[ 10%] Generating ts...
+[ 12%] Automatic MOC for target kdeinit_klauncher
+[ 14%] Automatic MOC for target kshell5
+[ 16%] Automatic MOC for target kwrapper5
+[ 16%] Built target kdeinit5_wrapper_autogen
+[ 16%] Built target kdeinit5_shutdown_autogen
+[ 16%] Built target kdeinit5_autogen
+[ 16%] Built target kshell5_autogen
+[ 16%] Built target kdeinit_klauncher_autogen
+[ 16%] Built target tsfiles-d094095819c68d9e28ea7b0678b663f6
+[ 16%] Built target pofiles-d094095819c68d9e28ea7b0678b663f6
+[ 16%] Built target kwrapper5_autogen
+[ 18%] Automatic MOC for target start_kdeinit_wrapper
+[ 20%] Automatic MOC for target start_kdeinit
+[ 22%] Linking CXX executable ../../bin/kdeinit5
+[ 25%] Linking CXX executable ../../bin/kdeinit5_shutdown
+[ 27%] Linking CXX executable ../../bin/kdeinit5_wrapper
+[ 29%] Linking CXX executable ../../bin/kshell5
+[ 31%] Linking CXX executable ../../bin/kwrapper5
+[ 31%] Built target start_kdeinit_wrapper_autogen
+[ 31%] Built target start_kdeinit_autogen
+[ 54%] Built target kdeinit_klauncher
+[ 58%] Building CXX object src/start_kdeinit/CMakeFiles/start_kdeinit_wrapper.dir/start_kdeinit_wrapper_autogen/mocs_compilation.cpp.o
+[ 58%] Building CXX object src/start_kdeinit/CMakeFiles/start_kdeinit.dir/start_kdeinit_autogen/mocs_compilation.cpp.o
+[ 60%] Automatic MOC for target klauncher
+[ 62%] Building C object src/start_kdeinit/CMakeFiles/start_kdeinit_wrapper.dir/start_kdeinit_wrapper.c.o
+[ 64%] Building C object src/start_kdeinit/CMakeFiles/start_kdeinit.dir/start_kdeinit.c.o
+[ 64%] Built target klauncher_autogen
+[ 66%] Linking CXX executable ../../bin/klauncher
+[ 68%] Linking CXX executable ../../bin/start_kdeinit_wrapper
+[ 70%] Linking CXX executable ../../bin/start_kdeinit
+[ 75%] Built target kdeinit5_shutdown
+[ 79%] Built target kwrapper5
+[ 83%] Built target kdeinit5_wrapper
+[ 87%] Built target kshell5
+[ 87%] Built target start_kdeinit_wrapper
+[ 87%] Built target start_kdeinit
+[ 95%] Built target kdeinit5
+[100%] Built target klauncher

@@ -1,0 +1,7 @@
+description: Provides the interface and basic tools for the KDE workspace.
+hasrepo: true
+identifier: kde-workspace
+name: KDE Workspace
+projectpath: kde/kde-workspace
+repoactive: false
+repopath: unmaintained/kde-workspace

@@ -1,0 +1,7 @@
+description: Various Shared Plugins for Rolisteam
+hasrepo: true
+identifier: rolisteam-plugins
+name: Rolisteam Plugins
+projectpath: playground/games/rolisteam-plugins
+repoactive: false
+repopath: rolisteam/rolisteam-plugins

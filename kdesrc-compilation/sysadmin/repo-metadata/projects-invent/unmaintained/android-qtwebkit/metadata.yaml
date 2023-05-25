@@ -1,0 +1,7 @@
+description: QtWebkit port to Android
+hasrepo: true
+identifier: android-qtwebkit
+name: Android QtWebkit
+projectpath: unmaintained/necessitas/android-qtwebkit
+repoactive: false
+repopath: unmaintained/android-qtwebkit

@@ -1,0 +1,7 @@
+description: KOffice plugin to work with Google Docs
+hasrepo: true
+identifier: koffice-googledocs
+name: KOffice Google Docs plugin
+projectpath: unmaintained/koffice-googledocs
+repoactive: false
+repopath: unmaintained/koffice-googledocs

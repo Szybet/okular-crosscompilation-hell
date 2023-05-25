@@ -1,0 +1,10 @@
+bugzilla:
+  __do_not_use-legacy-product: kjsembed
+  product: frameworks-kjsembed
+description: KJSEmbed
+hasrepo: true
+identifier: kjsembed
+name: KJSEmbed
+projectpath: frameworks/kjsembed
+repoactive: true
+repopath: frameworks/kjsembed

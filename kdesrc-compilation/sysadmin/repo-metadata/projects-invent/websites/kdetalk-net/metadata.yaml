@@ -1,0 +1,7 @@
+description: Website for KDE's Jabber server — kdetalk.net
+hasrepo: true
+identifier: websites-kdetalk-net
+name: KDETalk.net
+projectpath: websites/kdetalk-net
+repoactive: true
+repopath: websites/kdetalk-net

@@ -1,0 +1,9 @@
+description: Menu Editor for Plasma Workspaces
+hasrepo: true
+identifier: kmenuedit
+name: KMenuEdit
+projectpath: kde/workspace/kmenuedit
+repoactive: true
+repopath: plasma/kmenuedit
+bugzilla:
+    product: kmenuedit

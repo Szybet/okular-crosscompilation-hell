@@ -1,0 +1,7 @@
+description: Collection of applications used for file and Internet browsing.
+hasrepo: true
+identifier: kde-baseapps
+name: KDE Base Apps
+projectpath: unmaintained/kde-baseapps
+repoactive: false
+repopath: unmaintained/kde-baseapps

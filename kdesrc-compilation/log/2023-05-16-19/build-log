@@ -1,0 +1,28 @@
+Holding performance profile
+Building khtml from _cmdline (1/6)
+	Fetching remote changes to khtml
+	Merging khtml changes from branch kf5
+	No changes to khtml source code, but proceeding to build anyway.
+Building kpty from _cmdline (2/6)
+	Fetching remote changes to kpty
+	Merging kpty changes from branch kf5
+	Source update complete for kpty: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kpty.
+	Running cmake targeting Unix Makefiles...
+
+kpty didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kpty - file:///home/szybet/kdesrc/log/2023-05-16-19/kpty/cmake.log
+
+Possible solution: Install the build dependencies for the modules:
+kpty
+You can use 'sudo apt build-dep <source_package>', 'sudo dnf builddep <package>', 'sudo zypper source-install --build-deps-only <source_package>' or a similar command for your distro of choice.
+See https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source/Install_the_dependencies
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-19

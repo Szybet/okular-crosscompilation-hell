@@ -1,0 +1,10 @@
+bugzilla:
+  __do_not_use-legacy-product: solid
+  product: frameworks-solid
+description: Solid
+hasrepo: true
+identifier: solid
+name: Solid
+projectpath: frameworks/solid
+repoactive: true
+repopath: frameworks/solid

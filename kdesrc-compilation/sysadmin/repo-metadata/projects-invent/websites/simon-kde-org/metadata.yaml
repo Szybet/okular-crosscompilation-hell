@@ -1,0 +1,7 @@
+description: Static copy of the Drupal-based Simon website — simon.kde.org
+hasrepo: true
+identifier: websites-simon-kde-org
+name: Simon Website
+projectpath: websites/simon-kde-org
+repoactive: true
+repopath: websites/simon-kde-org

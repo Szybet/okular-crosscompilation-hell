@@ -1,0 +1,7 @@
+description: Accessing the addressbook of a SugarCRM web service
+hasrepo: true
+identifier: akonadi-sugarcrm
+name: Akonadi Resource for SugarCRM Contacts
+projectpath: unmaintained/akonadi-sugarcrm
+repoactive: false
+repopath: unmaintained/akonadi-sugarcrm

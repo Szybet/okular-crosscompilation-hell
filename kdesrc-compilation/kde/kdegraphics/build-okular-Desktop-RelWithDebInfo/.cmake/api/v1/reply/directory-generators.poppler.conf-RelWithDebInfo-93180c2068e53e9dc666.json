@@ -1,0 +1,43 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"generators/poppler/conf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "okular",
+			"destination" : "share/config.kcfg",
+			"paths" : 
+			[
+				"generators/poppler/conf/pdfsettings.kcfg"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/poppler/conf",
+		"source" : "generators/poppler/conf"
+	}
+}

@@ -1,0 +1,10 @@
+bugzilla:
+  product: frameworks-kcodecs
+description: KCodecs provide a collection of methods to manipulate strings using various
+  encodings
+hasrepo: true
+identifier: kcodecs
+name: KCodecs
+projectpath: frameworks/kcodecs
+repoactive: true
+repopath: frameworks/kcodecs

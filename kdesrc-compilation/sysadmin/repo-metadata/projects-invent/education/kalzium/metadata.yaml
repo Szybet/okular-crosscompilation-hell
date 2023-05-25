@@ -1,0 +1,9 @@
+bugzilla:
+  product: kalzium
+description: Periodic Table of Elements
+hasrepo: true
+identifier: kalzium
+name: Kalzium
+projectpath: kde/kdeedu/kalzium
+repoactive: true
+repopath: education/kalzium

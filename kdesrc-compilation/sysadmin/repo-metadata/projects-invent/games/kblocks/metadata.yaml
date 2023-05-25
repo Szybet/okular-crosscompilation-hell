@@ -1,0 +1,9 @@
+bugzilla:
+  product: kblocks
+description: KBlocks is the classic falling blocks game
+hasrepo: true
+identifier: kblocks
+name: KBlocks
+projectpath: kde/kdegames/kblocks
+repoactive: true
+repopath: games/kblocks

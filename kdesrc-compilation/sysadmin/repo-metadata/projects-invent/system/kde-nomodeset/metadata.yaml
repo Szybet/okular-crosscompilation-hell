@@ -1,0 +1,7 @@
+description: Safe Graphics Mode Startup Utility
+hasrepo: true
+identifier: kde-nomodeset
+name: Safe Graphics Mode (NoModeSet) Utility
+projectpath: playground/base/kde-nomodeset
+repoactive: true
+repopath: system/kde-nomodeset

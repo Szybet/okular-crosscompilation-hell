@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmousetool
+description: Program that clicks the mouse for you
+hasrepo: true
+identifier: kmousetool
+name: KMouseTool
+projectpath: kde/kdeaccessibility/kmousetool
+repoactive: true
+repopath: accessibility/kmousetool

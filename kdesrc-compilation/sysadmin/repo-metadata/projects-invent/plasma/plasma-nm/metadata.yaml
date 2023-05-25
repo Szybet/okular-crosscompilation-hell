@@ -1,0 +1,9 @@
+description: Plasma applet written in QML for managing network connections
+hasrepo: true
+identifier: plasma-nm
+name: Plasma applet for NetworkManager
+projectpath: kde/workspace/plasma-nm
+repoactive: true
+repopath: plasma/plasma-nm
+bugzilla:
+    product: plasma-nm

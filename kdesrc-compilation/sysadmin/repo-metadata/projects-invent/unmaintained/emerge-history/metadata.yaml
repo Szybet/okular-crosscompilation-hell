@@ -1,0 +1,7 @@
+description: complete svn history of emerge
+hasrepo: true
+identifier: emerge-history
+name: Emerge-History
+projectpath: kdesupport/emerge-history
+repoactive: false
+repopath: unmaintained/emerge-history

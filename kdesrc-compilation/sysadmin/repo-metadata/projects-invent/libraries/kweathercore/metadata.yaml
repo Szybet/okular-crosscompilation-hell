@@ -1,0 +1,7 @@
+description: Library to facilitate retrieval of weather information including forecasts and alerts
+hasrepo: true
+identifier: kweathercore
+name: KWeatherCore
+projectpath: extragear/libs/kweathercore
+repoactive: true
+repopath: libraries/kweathercore

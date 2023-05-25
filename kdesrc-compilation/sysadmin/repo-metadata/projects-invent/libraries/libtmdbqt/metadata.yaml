@@ -1,0 +1,7 @@
+description: Library that can retrieve information about movies from the TMDb web service
+hasrepo: true
+identifier: libtmdbqt
+name: libtmdbqt
+projectpath: playground/network/libtmdbqt
+repoactive: true
+repopath: libraries/libtmdbqt

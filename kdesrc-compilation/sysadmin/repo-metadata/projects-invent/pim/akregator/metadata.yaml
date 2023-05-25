@@ -1,0 +1,9 @@
+bugzilla:
+  product: akregator
+description: RSS Feed Reader
+hasrepo: true
+identifier: akregator
+name: Akregator
+projectpath: kde/pim/akregator
+repoactive: true
+repopath: pim/akregator

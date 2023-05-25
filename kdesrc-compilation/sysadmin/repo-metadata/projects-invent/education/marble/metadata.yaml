@@ -1,0 +1,9 @@
+bugzilla:
+  product: marble
+description: Virtual Globe and World Atlas that you can use to learn more about the Earth
+hasrepo: true
+identifier: marble
+name: Marble
+projectpath: kde/kdeedu/marble
+repoactive: true
+repopath: education/marble

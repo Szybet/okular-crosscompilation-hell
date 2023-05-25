@@ -1,0 +1,9 @@
+description: Bluedevil adds Bluetooth capabilities to KDE Plasma
+hasrepo: true
+identifier: bluedevil
+name: Bluedevil
+projectpath: kde/workspace/bluedevil
+repoactive: true
+repopath: plasma/bluedevil
+bugzilla:
+    product: Bluedevil

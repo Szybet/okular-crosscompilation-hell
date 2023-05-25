@@ -1,0 +1,7 @@
+description: A collection of package management tools for Debian-based systems
+hasrepo: true
+identifier: muon
+name: Muon
+projectpath: extragear/sysadmin/muon
+repoactive: false
+repopath: system/muon

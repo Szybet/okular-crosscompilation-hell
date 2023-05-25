@@ -1,0 +1,7 @@
+description: Course data for Vocabulary trainers, provided by KDE Edu.
+hasrepo: true
+identifier: others-kvtml-data
+name: KVTML Course Data
+projectpath: others/kde-edu-courses/kvtml-data
+repoactive: false
+repopath: unmaintained/kvtml-data

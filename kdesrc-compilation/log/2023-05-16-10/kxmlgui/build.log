@@ -1,0 +1,12 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kxmlgui
+[  1%] Generating ts...
+[  3%] Generating mo...
+[  5%] Automatic MOC for target KF5XmlGui
+[  7%] Automatic MOC for target ksendbugmail
+[  7%] Built target tsfiles-c6090ddd75a8ae84c3fd16dc0511905e
+[  7%] Built target ksendbugmail_autogen
+[  7%] Built target pofiles-c6090ddd75a8ae84c3fd16dc0511905e
+[  7%] Built target KF5XmlGui_autogen
+[ 14%] Built target ksendbugmail
+[100%] Built target KF5XmlGui

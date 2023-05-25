@@ -1,0 +1,7 @@
+description: Open Source 3D Printing Host - CLI Interface
+hasrepo: true
+identifier: atcore-cli
+name: AtCore Command Line Interface
+projectpath: playground/base/atcore-cli
+repoactive: true
+repopath: utilities/atcore-cli

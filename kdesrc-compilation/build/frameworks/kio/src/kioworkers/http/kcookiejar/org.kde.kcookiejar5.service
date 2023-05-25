@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.kde.kcookiejar5
+Exec=/mnt/HDD/Project/Public/okulartry/okular-things/bin/kded5

@@ -1,0 +1,9 @@
+bugzilla:
+  product: konqueror
+description: Web browser and Swiss Army knife for any kind of file management and previewing
+hasrepo: true
+identifier: konqueror
+name: Konqueror
+projectpath: kde/applications/konqueror
+repoactive: true
+repopath: network/konqueror

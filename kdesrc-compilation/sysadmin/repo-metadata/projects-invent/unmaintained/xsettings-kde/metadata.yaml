@@ -1,0 +1,9 @@
+description: Allows XSettings aware applications (all GTK+ applications) to be informed
+  instantly of changes in KDE configuration, such as theme name, default font and
+  so on.
+hasrepo: true
+identifier: xsettings-kde
+name: XSettings Daemon
+projectpath: playground/base/xsettings-kde
+repoactive: false
+repopath: unmaintained/xsettings-kde

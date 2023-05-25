@@ -1,0 +1,7 @@
+description: Historical copy of the graphics applications module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdegraphics
+name: 'Historical - KDE 1 - KDEGraphics'
+projectpath: historical/kde1-kdegraphics
+repoactive: true
+repopath: historical/kde1-kdegraphics

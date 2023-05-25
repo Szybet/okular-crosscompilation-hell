@@ -1,0 +1,7 @@
+description: Hex editor for viewing and editing the raw data of files
+hasrepo: true
+identifier: okteta
+name: Okteta
+projectpath: extragear/utils/okteta
+repoactive: true
+repopath: utilities/okteta

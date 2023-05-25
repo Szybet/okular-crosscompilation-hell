@@ -1,0 +1,7 @@
+description: Console applications and utilities for managing calendars in Akonadi
+hasrepo: true
+identifier: akonadi-calendar-tools
+name: Akonadi Calendar Tools
+projectpath: kde/pim/akonadi-calendar-tools
+repoactive: true
+repopath: pim/akonadi-calendar-tools

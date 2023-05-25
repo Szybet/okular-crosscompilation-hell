@@ -1,0 +1,10 @@
+description: Project build blueprints for Craft not related to KDE software
+hasrepo: true
+identifier: craft-blueprints-community
+name: Craft Community Blueprints
+projectpath: kdesupport/craft-blueprints-community
+repoactive: true
+repopath: packaging/craft-blueprints-community
+bugzilla:
+    product: Craft
+    component: Blueprints

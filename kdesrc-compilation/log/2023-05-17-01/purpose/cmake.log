@@ -1,0 +1,98 @@
+# kdesrc-build running: 'cmake' '-B' '.' '-S' '/home/szybet/kdesrc/frameworks/purpose' '-G' 'Unix Makefiles' '-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON' '-DCMAKE_TOOLCHAIN_FILE=/mnt/HDD/Project/Public/okulartry/kobo.cmake' '-DCMAKE_CXX_FLAGS:STRING=-pipe' '-DCMAKE_INSTALL_PREFIX=/mnt/HDD/Project/Public/okulartry/okular-things' '-DCMAKE_PREFIX_PATH=/home/build/inkbox/compiled-binaries/qt-bin/'
+# from directory: /home/szybet/kdesrc/build/frameworks/purpose
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/purpose/prefix.sh to set the environment for Purpose.
+-- Setting build type to 'Debug' as none was specified.
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+-- Performing Test _OFFT_IS_64BIT - Failed
+-- Performing Test HAVE_DATE_TIME
+-- Performing Test HAVE_DATE_TIME - Success
+-- Performing Test BSYMBOLICFUNCTIONS_AVAILABLE
+-- Performing Test BSYMBOLICFUNCTIONS_AVAILABLE - Success
+CMake Deprecation Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQMLModules.cmake:7 (message):
+  ECMQMLModules.cmake is deprecated since 5.88.0, please use
+  ECMFindQmlModule.cmake instead
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (include)
+
+
+-- Found KF5CoreAddons: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsConfig.cmake (found version "5.107.0") 
+-- Found Gettext: /sbin/msgmerge (found version "0.21.1") 
+-- Found KF5I18n: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5I18n/KF5I18nConfig.cmake (found version "5.107.0") 
+-- Found KF5Config: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Config/KF5ConfigConfig.cmake (found version "5.107.0") 
+-- Found KF5Kirigami2: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Kirigami2/KF5Kirigami2Config.cmake (found version "5.107.0") 
+-- Found KF5Notifications: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5Notifications/KF5NotificationsConfig.cmake (found version "5.107.0") 
+-- Found KF5KIO: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5KIO/KF5KIOConfig.cmake (found version "5.107.0") 
+-- Found KF5: success (found suitable version "5.107.0", minimum required is "5.106.0") found components: CoreAddons I18n Config Kirigami2 Notifications KIO 
+CMake Warning at CMakeLists.txt:35 (find_package):
+  Could not find a configuration file for package "KAccounts" that is
+  compatible with requested version "".
+
+  The following configuration files were considered but not accepted:
+
+    /lib/cmake/KAccounts/KAccountsConfig.cmake, version: 23.04.1 (64bit)
+    /usr/lib/cmake/KAccounts/KAccountsConfig.cmake, version: 23.04.1 (64bit)
+
+
+
+-- Found Ubuntu.OnlineAccounts-QMLModule: TRUE (found version "")  
+-- Found org.kde.kquickcontrolsaddons-QMLModule: TRUE (found version "")  
+-- Found org.kde.prison-QMLModule: TRUE (found version "")  
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+CMake Warning at src/plugins/phabricator/CMakeLists.txt:3 (message):
+  The phabricator plugin depends on having the 'arc' script available in the
+  PATH
+
+
+-- The following RUNTIME packages have been found:
+
+ * Ubuntu.OnlineAccounts-QMLModule, QML module 'Ubuntu.OnlineAccounts' is a runtime dependency.
+ * org.kde.kquickcontrolsaddons-QMLModule, QML module 'org.kde.kquickcontrolsaddons' is a runtime dependency.
+ * org.kde.prison-QMLModule, QML module 'org.kde.prison' is a runtime dependency.
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0)
+ * Qt5Qml
+ * Qt5Test
+ * Qt5 (required version >= 5.15.2)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * Qt5DBus (required version >= 5.15.2)
+ * KF5Kirigami2 (required version >= 5.106.0)
+ * Qt5Gui (required version >= 5.15.2)
+ * Qt5Widgets (required version >= 5.15.2)
+ * KF5Notifications (required version >= 5.106.0)
+ * KF5CoreAddons (required version >= 5.106.0)
+ * KF5Config (required version >= 5.106.0)
+ * Qt5Network (required version >= 5.15.2)
+ * KF5KIO (required version >= 5.106.0)
+ * KF5 (required version >= 5.106.0)
+ * Qt5Core
+
+-- The following OPTIONAL packages have not been found:
+
+ * KAccounts
+   Needed for YouTube and Nextcloud upload
+
+-- Configuring done (2.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/purpose

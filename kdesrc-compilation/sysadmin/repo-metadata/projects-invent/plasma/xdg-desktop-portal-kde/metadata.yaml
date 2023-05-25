@@ -1,0 +1,9 @@
+description: A backend implementation for xdg-desktop-portal that is using Qt/KDE
+hasrepo: true
+identifier: xdg-desktop-portal-kde
+name: KDE Portal for XDG Desktop
+projectpath: kde/workspace/xdg-desktop-portal-kde
+repoactive: true
+repopath: plasma/xdg-desktop-portal-kde
+bugzilla:
+    product: xdg-desktop-portal-kde

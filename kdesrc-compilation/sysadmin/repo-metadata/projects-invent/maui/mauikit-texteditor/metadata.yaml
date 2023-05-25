@@ -1,0 +1,7 @@
+description: MauiKit Text Editor components
+hasrepo: true
+identifier: mauikit-texteditor
+name: MauiKitTextEditor
+projectpath: playground/libs/mauikit-texteditor
+repoactive: true
+repopath: maui/mauikit-texteditor

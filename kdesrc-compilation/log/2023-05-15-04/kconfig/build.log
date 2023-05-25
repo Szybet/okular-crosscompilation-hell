@@ -1,0 +1,425 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kconfig
+[  2%] Generating ECMPoQm/af/kconfig5_qt.qm
+[  3%] Generating ECMPoQm/az/kconfig5_qt.qm
+[  3%] Generating ECMPoQm/bg/kconfig5_qt.qm
+[  3%] Generating ECMPoQm/be/kconfig5_qt.qm
+[  4%] Generating ECMPoQm/ar/kconfig5_qt.qm
+[  5%] Generating ECMPoQm/be@latin/kconfig5_qt.qm
+[  6%] Generating ECMPoQm/bn/kconfig5_qt.qm
+[  7%] Generating ECMPoQm/bn_IN/kconfig5_qt.qm
+[  7%] Built target translations_1
+[  7%] Built target translations_3
+[  7%] Built target translations_2
+[  7%] Built target translations_4
+[  7%] Built target translations_6
+[  7%] Built target translations_8
+[  7%] Built target translations_7
+[  7%] Built target translations_5
+[  8%] Generating ECMPoQm/bs/kconfig5_qt.qm
+[  8%] Generating ECMPoQm/ca/kconfig5_qt.qm
+[  9%] Generating ECMPoQm/br/kconfig5_qt.qm
+[ 10%] Generating ECMPoQm/csb/kconfig5_qt.qm
+[ 11%] Generating ECMPoQm/ca@valencia/kconfig5_qt.qm
+[ 11%] Generating ECMPoQm/cs/kconfig5_qt.qm
+[ 11%] Generating ECMPoQm/cy/kconfig5_qt.qm
+[ 12%] Generating ECMPoQm/da/kconfig5_qt.qm
+[ 12%] Built target translations_11
+[ 12%] Built target translations_9
+[ 12%] Built target translations_13
+[ 12%] Built target translations_14
+[ 12%] Built target translations_10
+[ 12%] Built target translations_12
+[ 12%] Built target translations_15
+[ 12%] Built target translations_16
+[ 13%] Generating ECMPoQm/el/kconfig5_qt.qm
+[ 13%] Generating ECMPoQm/de/kconfig5_qt.qm
+[ 13%] Generating ECMPoQm/en_GB/kconfig5_qt.qm
+[ 13%] Generating ECMPoQm/eo/kconfig5_qt.qm
+[ 13%] Generating ECMPoQm/es/kconfig5_qt.qm
+[ 14%] Generating ECMPoQm/et/kconfig5_qt.qm
+[ 14%] Generating ECMPoQm/eu/kconfig5_qt.qm
+[ 15%] Generating ECMPoQm/fa/kconfig5_qt.qm
+[ 15%] Built target translations_17
+[ 15%] Built target translations_19
+[ 15%] Built target translations_18
+[ 15%] Built target translations_21
+[ 15%] Built target translations_20
+[ 15%] Built target translations_22
+[ 15%] Built target translations_23
+[ 15%] Built target translations_24
+[ 15%] Generating ECMPoQm/fi/kconfig5_qt.qm
+[ 16%] Generating ECMPoQm/fr/kconfig5_qt.qm
+[ 16%] Generating ECMPoQm/fy/kconfig5_qt.qm
+[ 17%] Generating ECMPoQm/ga/kconfig5_qt.qm
+[ 17%] Generating ECMPoQm/gd/kconfig5_qt.qm
+[ 17%] Generating ECMPoQm/gl/kconfig5_qt.qm
+[ 17%] Generating ECMPoQm/gu/kconfig5_qt.qm
+[ 18%] Generating ECMPoQm/he/kconfig5_qt.qm
+[ 18%] Built target translations_25
+[ 18%] Built target translations_27
+[ 18%] Built target translations_26
+[ 18%] Built target translations_28
+[ 18%] Built target translations_30
+[ 18%] Built target translations_29
+[ 18%] Built target translations_31
+[ 18%] Built target translations_32
+[ 18%] Generating ECMPoQm/hi/kconfig5_qt.qm
+[ 18%] Generating ECMPoQm/hr/kconfig5_qt.qm
+[ 19%] Generating ECMPoQm/hne/kconfig5_qt.qm
+[ 20%] Generating ECMPoQm/hsb/kconfig5_qt.qm
+[ 20%] Generating ECMPoQm/hu/kconfig5_qt.qm
+[ 21%] Generating ECMPoQm/ia/kconfig5_qt.qm
+[ 21%] Generating ECMPoQm/id/kconfig5_qt.qm
+[ 21%] Generating ECMPoQm/is/kconfig5_qt.qm
+[ 21%] Built target translations_35
+[ 21%] Built target translations_34
+[ 21%] Built target translations_37
+[ 21%] Built target translations_36
+[ 21%] Built target translations_33
+[ 21%] Built target translations_39
+[ 21%] Built target translations_38
+[ 21%] Built target translations_40
+[ 21%] Generating ECMPoQm/it/kconfig5_qt.qm
+[ 21%] Generating ECMPoQm/ka/kconfig5_qt.qm
+[ 22%] Generating ECMPoQm/kab/kconfig5_qt.qm
+[ 23%] Generating ECMPoQm/ja/kconfig5_qt.qm
+[ 23%] Generating ECMPoQm/kk/kconfig5_qt.qm
+[ 24%] Generating ECMPoQm/km/kconfig5_qt.qm
+[ 24%] Generating ECMPoQm/kn/kconfig5_qt.qm
+[ 25%] Generating ECMPoQm/ko/kconfig5_qt.qm
+[ 25%] Built target translations_41
+[ 25%] Built target translations_45
+[ 25%] Built target translations_43
+[ 25%] Built target translations_44
+[ 25%] Built target translations_42
+[ 25%] Built target translations_46
+[ 25%] Built target translations_47
+[ 25%] Built target translations_48
+[ 25%] Generating ECMPoQm/ku/kconfig5_qt.qm
+[ 26%] Generating ECMPoQm/lv/kconfig5_qt.qm
+[ 26%] Generating ECMPoQm/lb/kconfig5_qt.qm
+[ 26%] Generating ECMPoQm/lt/kconfig5_qt.qm
+[ 26%] Generating ECMPoQm/mai/kconfig5_qt.qm
+[ 27%] Generating ECMPoQm/mk/kconfig5_qt.qm
+[ 27%] Generating ECMPoQm/ml/kconfig5_qt.qm
+[ 28%] Generating ECMPoQm/mr/kconfig5_qt.qm
+[ 28%] Built target translations_52
+[ 28%] Built target translations_49
+[ 28%] Built target translations_51
+[ 28%] Built target translations_53
+[ 28%] Built target translations_50
+[ 28%] Built target translations_54
+[ 28%] Built target translations_55
+[ 28%] Built target translations_56
+[ 28%] Generating ECMPoQm/ms/kconfig5_qt.qm
+[ 29%] Generating ECMPoQm/nb/kconfig5_qt.qm
+[ 29%] Generating ECMPoQm/nds/kconfig5_qt.qm
+[ 29%] Generating ECMPoQm/ne/kconfig5_qt.qm
+[ 30%] Generating ECMPoQm/nl/kconfig5_qt.qm
+[ 30%] Generating ECMPoQm/nn/kconfig5_qt.qm
+[ 31%] Generating ECMPoQm/pa/kconfig5_qt.qm
+[ 31%] Generating ECMPoQm/or/kconfig5_qt.qm
+[ 31%] Built target translations_57
+[ 31%] Built target translations_58
+[ 31%] Built target translations_59
+[ 31%] Built target translations_62
+[ 31%] Built target translations_60
+[ 31%] Built target translations_64
+[ 31%] Built target translations_63
+[ 31%] Built target translations_61
+[ 31%] Generating ECMPoQm/pl/kconfig5_qt.qm
+[ 32%] Generating ECMPoQm/pt/kconfig5_qt.qm
+[ 32%] Generating ECMPoQm/pt_BR/kconfig5_qt.qm
+[ 33%] Generating ECMPoQm/ro/kconfig5_qt.qm
+[ 33%] Generating ECMPoQm/ru/kconfig5_qt.qm
+[ 34%] Generating ECMPoQm/si/kconfig5_qt.qm
+[ 34%] Generating ECMPoQm/sk/kconfig5_qt.qm
+[ 34%] Generating ECMPoQm/se/kconfig5_qt.qm
+[ 34%] Built target translations_65
+[ 34%] Built target translations_67
+[ 34%] Built target translations_66
+[ 34%] Built target translations_68
+[ 34%] Built target translations_69
+[ 34%] Built target translations_71
+[ 34%] Built target translations_70
+[ 34%] Built target translations_72
+[ 34%] Generating ECMPoQm/sl/kconfig5_qt.qm
+[ 35%] Generating ECMPoQm/sq/kconfig5_qt.qm
+[ 35%] Generating ECMPoQm/sr/kconfig5_qt.qm
+[ 36%] Generating ECMPoQm/sr@ijekavian/kconfig5_qt.qm
+[ 36%] Generating ECMPoQm/sr@ijekavianlatin/kconfig5_qt.qm
+[ 37%] Generating ECMPoQm/sr@latin/kconfig5_qt.qm
+[ 37%] Generating ECMPoQm/ta/kconfig5_qt.qm
+[ 37%] Generating ECMPoQm/sv/kconfig5_qt.qm
+[ 37%] Built target translations_73
+[ 37%] Built target translations_74
+[ 37%] Built target translations_76
+[ 37%] Built target translations_75
+[ 37%] Built target translations_77
+[ 37%] Built target translations_78
+[ 37%] Built target translations_79
+[ 37%] Built target translations_80
+[ 38%] Generating ECMPoQm/te/kconfig5_qt.qm
+[ 38%] Generating ECMPoQm/tg/kconfig5_qt.qm
+[ 38%] Generating ECMPoQm/th/kconfig5_qt.qm
+[ 39%] Generating ECMPoQm/tr/kconfig5_qt.qm
+[ 39%] Generating ECMPoQm/ug/kconfig5_qt.qm
+[ 40%] Generating ECMPoQm/uk/kconfig5_qt.qm
+[ 40%] Generating ECMPoQm/uz/kconfig5_qt.qm
+[ 40%] Built target translations_81
+[ 41%] Generating ECMPoQm/uz@cyrillic/kconfig5_qt.qm
+[ 41%] Built target translations_82
+[ 41%] Built target translations_84
+[ 41%] Built target translations_86
+[ 41%] Built target translations_85
+[ 41%] Built target translations_83
+[ 41%] Built target translations_87
+[ 41%] Generating ECMPoQm/vi/kconfig5_qt.qm
+[ 41%] Built target translations_88
+[ 41%] Generating ECMPoQm/wa/kconfig5_qt.qm
+[ 42%] Generating ECMPoQm/xh/kconfig5_qt.qm
+[ 43%] Generating ECMPoQm/zh_TW/kconfig5_qt.qm
+[ 43%] Generating ECMPoQm/zh_CN/kconfig5_qt.qm
+[ 43%] Automatic MOC for target kconfig_compiler
+[ 44%] Automatic MOC for target KF5ConfigCore
+[ 44%] Built target translations_89
+[ 44%] Automatic MOC for target kentrymaptest
+[ 44%] Built target translations_90
+[ 44%] Built target translations_91
+[ 44%] Built target translations_92
+[ 44%] Built target translations_93
+[ 44%] Built target kconfig_compiler_autogen
+[ 45%] Building CXX object src/kconfig_compiler/CMakeFiles/kconfig_compiler.dir/kconfig_compiler_autogen/mocs_compilation.cpp.o
+[ 45%] Building CXX object src/kconfig_compiler/CMakeFiles/kconfig_compiler.dir/KConfigParameters.cpp.o
+[ 45%] Building CXX object src/kconfig_compiler/CMakeFiles/kconfig_compiler.dir/KConfigHeaderGenerator.cpp.o
+[ 46%] Building CXX object src/kconfig_compiler/CMakeFiles/kconfig_compiler.dir/KConfigCodeGeneratorBase.cpp.o
+[ 47%] Building CXX object src/kconfig_compiler/CMakeFiles/kconfig_compiler.dir/KConfigSourceGenerator.cpp.o
+[ 47%] Building CXX object src/kconfig_compiler/CMakeFiles/kconfig_compiler.dir/KConfigXmlParser.cpp.o
+[ 47%] Building CXX object src/kconfig_compiler/CMakeFiles/kconfig_compiler.dir/kconfig_compiler.cpp.o
+[ 47%] Built target kentrymaptest_autogen
+[ 47%] Building CXX object autotests/CMakeFiles/kentrymaptest.dir/kentrymaptest_autogen/mocs_compilation.cpp.o
+[ 47%] Built target KF5ConfigCore_autogen
+[ 48%] Building CXX object autotests/CMakeFiles/kentrymaptest.dir/kentrymaptest.cpp.o
+[ 48%] Building CXX object autotests/CMakeFiles/kentrymaptest.dir/__/src/core/kconfigdata.cpp.o
+[ 48%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/KF5ConfigCore_autogen/mocs_compilation.cpp.o
+[ 48%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfig.cpp.o
+[ 49%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfigbase.cpp.o
+[ 49%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfigdata.cpp.o
+[ 50%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfiggroup.cpp.o
+[ 51%] Linking CXX executable ../../bin/kconfig_compiler_kf5
+[ 51%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfigbackend.cpp.o
+[ 51%] Built target kconfig_compiler
+[ 52%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfigini.cpp.o
+[ 52%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kdesktopfile.cpp.o
+[ 53%] Linking CXX executable ../bin/kentrymaptest
+[ 54%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/ksharedconfig.cpp.o
+[ 54%] Built target kentrymaptest
+[ 54%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kcoreconfigskeleton.cpp.o
+[ 55%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kauthorized.cpp.o
+[ 55%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kemailsettings.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfig.cpp:[m[K In member function '[01m[Kvoid KConfigPrivate::notifyClients(const QHash<QString, QList<QByteArray> >&, const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfig.cpp:507:25:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  507 |     [01;36m[Kmessage.setArguments({QVariant::fromValue(changes)})[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qstringlist.h:41[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QStringList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigbase.h:16[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfig.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfig.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:[m[K In member function '[01m[Kvoid KConfigGroup::writeEntry(const char*, const QVariant&, KConfigBase::WriteConfigFlags)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:958:55:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  958 |         const QVariantList list{rPoint.x(), rPoint.y()[01;36m[K}[m[K;
+      |                                                       [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:966:53:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  966 |         const QVariantList list{point.x(), point.y()[01;36m[K}[m[K;
+      |                                                     [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:974:89:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  974 |         const QVariantList list{rRect.left(), rRect.top(), rRect.width(), rRect.height()[01;36m[K}[m[K;
+      |                                                                                         [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:982:93:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  982 |         const QVariantList list{rRectF.left(), rRectF.top(), rRectF.width(), rRectF.height()[01;36m[K}[m[K;
+      |                                                                                             [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:990:62:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  990 |         const QVariantList list{rSize.width(), rSize.height()[01;36m[K}[m[K;
+      |                                                              [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:1002:64:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+ 1002 |         const QVariantList list{rSizeF.width(), rSizeF.height()[01;36m[K}[m[K;
+      |                                                                [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:1010:70:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+ 1010 |         const QVariantList list{date.year(), date.month(), date.day()[01;36m[K}[m[K;
+      |                                                                      [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:1029:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+ 1029 |         [01;36m[K}[m[K;
+      |         [01;36m[K^[m[K
+[ 55%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfigwatcher.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qstringlist.h:41[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QStringList:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigbase.h:16[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp:10[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[ 56%] Building CXX object src/core/CMakeFiles/KF5ConfigCore.dir/kconfig_core_log_settings.cpp.o
+[ 56%] Linking CXX shared library ../../bin/libKF5ConfigCore.so
+[ 56%] Built target KF5ConfigCore
+[ 56%] Automatic MOC for target kconf_update
+[ 57%] Automatic MOC for target kwriteconfig5
+[ 58%] Automatic MOC for target KF5ConfigQml
+[ 58%] Automatic MOC for target test_kconfigutils
+[ 59%] Automatic MOC for target kconfigcore-ksharedconfigtest
+[ 60%] Automatic MOC for target KF5ConfigGui
+[ 60%] Automatic MOC for target kconfigcore-fallbackconfigresourcestest
+[ 61%] Automatic MOC for target kreadconfig5
+[ 61%] Built target kwriteconfig5_autogen
+[ 61%] Built target kconf_update_autogen
+[ 61%] Built target kreadconfig5_autogen
+[ 62%] Automatic MOC for target kconfigtest
+[ 62%] Automatic MOC for target kconfignokdehometest
+[ 63%] Automatic MOC for target kdesktopfiletest
+[ 63%] Built target KF5ConfigQml_autogen
+[ 63%] Built target test_kconfigutils_autogen
+[ 63%] Built target kconfigcore-ksharedconfigtest_autogen
+[ 63%] Built target KF5ConfigGui_autogen
+[ 64%] Automatic MOC for target test_kconf_update
+[ 65%] Automatic MOC for target ksharedconfig_in_global_object
+[ 65%] Automatic MOC for target kstandardshortcutwatchertest
+[ 65%] Building CXX object src/qml/CMakeFiles/KF5ConfigQml.dir/KF5ConfigQml_autogen/mocs_compilation.cpp.o
+[ 65%] Built target kconfigcore-fallbackconfigresourcestest_autogen
+[ 66%] Building CXX object src/qml/CMakeFiles/KF5ConfigQml.dir/kconfigpropertymap.cpp.o
+[ 66%] Built target ksharedconfig_in_global_object_autogen
+[ 67%] Building CXX object src/kconf_update/CMakeFiles/kconf_update.dir/kconf_update_autogen/mocs_compilation.cpp.o
+[ 67%] Built target kconfigtest_autogen
+[ 67%] Built target kdesktopfiletest_autogen
+[ 67%] Built target kconfignokdehometest_autogen
+[ 67%] Building CXX object src/kconf_update/CMakeFiles/kconf_update.dir/kconf_update.cpp.o
+[ 68%] Building CXX object src/kreadconfig/CMakeFiles/kreadconfig5.dir/kreadconfig5_autogen/mocs_compilation.cpp.o
+[ 69%] Building CXX object src/kconf_update/CMakeFiles/kconf_update.dir/kconfigutils.cpp.o
+[ 70%] Building CXX object src/kreadconfig/CMakeFiles/kwriteconfig5.dir/kwriteconfig5_autogen/mocs_compilation.cpp.o
+[ 70%] Built target test_kconf_update_autogen
+[ 70%] Building CXX object src/kreadconfig/CMakeFiles/kwriteconfig5.dir/kwriteconfig.cpp.o
+[ 70%] Building CXX object src/kreadconfig/CMakeFiles/kreadconfig5.dir/kreadconfig.cpp.o
+[ 70%] Building CXX object autotests/CMakeFiles/test_kconfigutils.dir/test_kconfigutils_autogen/mocs_compilation.cpp.o
+[ 70%] Built target kstandardshortcutwatchertest_autogen
+[ 71%] Building CXX object autotests/CMakeFiles/test_kconfigutils.dir/test_kconfigutils.cpp.o
+[ 72%] Generating qrc_sharedconfigresources.cpp
+[ 73%] Generating qrc_fallbackconfigresources.cpp
+[ 73%] Building CXX object autotests/CMakeFiles/kconfigcore-ksharedconfigtest.dir/kconfigcore-ksharedconfigtest_autogen/mocs_compilation.cpp.o
+[ 73%] Building CXX object autotests/CMakeFiles/kconfigcore-fallbackconfigresourcestest.dir/kconfigcore-fallbackconfigresourcestest_autogen/mocs_compilation.cpp.o
+[ 73%] Building CXX object autotests/CMakeFiles/kconfigcore-ksharedconfigtest.dir/ksharedconfigtest.cpp.o
+[ 74%] Building CXX object autotests/CMakeFiles/kconfigcore-fallbackconfigresourcestest.dir/fallbackconfigresourcestest.cpp.o
+[ 74%] Building CXX object autotests/CMakeFiles/kconfigcore-fallbackconfigresourcestest.dir/qrc_fallbackconfigresources.cpp.o
+[ 74%] Building CXX object src/kconf_update/CMakeFiles/kconf_update.dir/kconf_update_debug.cpp.o
+[ 74%] Linking CXX executable ../../bin/kreadconfig5
+[ 74%] Linking CXX executable ../../bin/kwriteconfig5
+[ 74%] Linking CXX shared library ../../bin/libKF5ConfigQml.so
+[ 74%] Built target kwriteconfig5
+[ 74%] Built target kreadconfig5
+[ 75%] Building CXX object autotests/CMakeFiles/kconfigcore-ksharedconfigtest.dir/qrc_sharedconfigresources.cpp.o
+[ 76%] Building CXX object autotests/CMakeFiles/kconfignokdehometest.dir/kconfignokdehometest_autogen/mocs_compilation.cpp.o
+[ 76%] Building CXX object autotests/CMakeFiles/kconfignokdehometest.dir/kconfignokdehometest.cpp.o
+[ 76%] Built target KF5ConfigQml
+[ 77%] Building CXX object autotests/CMakeFiles/kconfigtest.dir/kconfigtest_autogen/mocs_compilation.cpp.o
+[ 77%] Building CXX object autotests/CMakeFiles/kdesktopfiletest.dir/kdesktopfiletest_autogen/mocs_compilation.cpp.o
+[ 77%] Building CXX object autotests/CMakeFiles/test_kconfigutils.dir/__/src/kconf_update/kconfigutils.cpp.o
+[ 78%] Building CXX object autotests/CMakeFiles/kdesktopfiletest.dir/kdesktopfiletest.cpp.o
+[ 79%] Linking CXX executable ../../bin/kconf_update
+[ 79%] Building CXX object autotests/CMakeFiles/kconfigtest.dir/kconfigtest.cpp.o
+[ 79%] Linking CXX executable ../bin/kconfigcore-ksharedconfigtest
+[ 80%] Linking CXX executable ../bin/kconfigcore-fallbackconfigresourcestest
+[ 80%] Built target kconf_update
+[ 80%] Building CXX object autotests/CMakeFiles/ksharedconfig_in_global_object.dir/ksharedconfig_in_global_object_autogen/mocs_compilation.cpp.o
+[ 80%] Building CXX object autotests/CMakeFiles/test_kconf_update.dir/test_kconf_update_autogen/mocs_compilation.cpp.o
+[ 81%] Building CXX object autotests/CMakeFiles/ksharedconfig_in_global_object.dir/ksharedconfig_in_global_object.cpp.o
+[ 81%] Built target kconfigcore-fallbackconfigresourcestest
+[ 82%] Built target kconfigcore-ksharedconfigtest
+[ 82%] Building CXX object autotests/CMakeFiles/test_kconf_update.dir/test_kconf_update.cpp.o
+[ 82%] Building CXX object autotests/CMakeFiles/kstandardshortcutwatchertest.dir/kstandardshortcutwatchertest_autogen/mocs_compilation.cpp.o
+[ 83%] Linking CXX executable ../bin/test_kconfigutils
+[ 83%] Built target test_kconfigutils
+[ 83%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/KF5ConfigGui_autogen/mocs_compilation.cpp.o
+[ 84%] Linking CXX executable ../bin/kconfignokdehometest
+[ 84%] Built target kconfignokdehometest
+[ 85%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/ECMQmLoader-kconfig5_qt.cpp.o
+[ 85%] Linking CXX executable ../bin/kdesktopfiletest
+[ 85%] Built target kdesktopfiletest
+[ 85%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kconfiggui.cpp.o
+[ 86%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kconfiggroupgui.cpp.o
+[ 86%] Linking CXX executable ../bin/ksharedconfig_in_global_object
+[ 86%] Built target ksharedconfig_in_global_object
+[ 86%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kconfigloader.cpp.o
+[ 86%] Building CXX object autotests/CMakeFiles/kstandardshortcutwatchertest.dir/kstandardshortcutwatchertest.cpp.o
+[ 86%] Linking CXX executable ../bin/test_kconf_update
+[ 87%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kconfigskeleton.cpp.o
+[ 88%] Building CXX object autotests/CMakeFiles/kstandardshortcutwatchertest.dir/__/src/gui/kstandardshortcut.cpp.o
+[ 88%] Built target test_kconf_update
+[ 88%] Building CXX object autotests/CMakeFiles/kstandardshortcutwatchertest.dir/__/src/gui/kstandardshortcutwatcher.cpp.o
+[ 88%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kstandardshortcut.cpp.o
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qobject.h:49[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/QObject:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/autotests/kconfigtest.h:10[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kconfig/autotests/kconfigtest.cpp:7[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:[m[K In constructor '[01m[KQList<T>::QList(std::initializer_list<_Tp>) [with T = QVariant][m[K':
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qlist.h:169:12:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+  169 |     inline [01;36m[KQList[m[K(std::initializer_list<T> args)
+      |            [01;36m[K^~~~~[m[K
+[ 88%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kstandardshortcutwatcher.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/autotests/kconfigtest.cpp:[m[K In function '[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/autotests/kconfigtest.cpp:81:88:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   81 | static const QVariantList s_variantlist_entry{true, false, QStringLiteral("joe"), 10023[01;36m[K}[m[K;
+      |                                                                                        [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/autotests/kconfigtest.cpp:82:75:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::initializer_list<QVariant>[m[K' changed in GCC 7.1
+   82 | static const QVariantList s_variantlist_entry2{s_point_entry, s_size_entry[01;36m[K}[m[K;
+      |                                                                           [01;36m[K^[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/gui/kstandardshortcut.cpp:332:6:[m[K [01;35m[Kwarning: [m[K'[01m[KKStandardShortcut::SaveOptions[m[K' is deprecated: Since 5.39. No known users [[01;35m[K-Wdeprecated-declarations[m[K]
+  332 |     {[01;35m[KSaveOptions[m[K, "SaveOptions", QT_TRANSLATE_NOOP3("KStandardShortcut", "Save Options", "@action"), 0, 0, QList<QKeySequence>(), false, Category::Settings},
+      |      [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kconfig/src/gui/kstandardshortcut.cpp:10[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kconfig/src/gui/kstandardshortcut.h:126:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  126 |     [01;36m[KSaveOptions[m[K ///< @deprecated since 5.39
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[ 89%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kwindowconfig.cpp.o
+[ 89%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kwindowstatesaver.cpp.o
+[ 89%] Linking CXX executable ../bin/kconfigtest
+[ 90%] Building CXX object src/gui/CMakeFiles/KF5ConfigGui.dir/kconfig_gui_log_settings.cpp.o
+[ 90%] Built target kconfigtest
+[ 91%] Linking CXX executable ../bin/kstandardshortcutwatchertest
+[ 91%] Built target kstandardshortcutwatchertest
+[ 91%] Linking CXX shared library ../../bin/libKF5ConfigGui.so
+[ 91%] Built target KF5ConfigGui
+[ 93%] Automatic MOC for target kstandardshortcuttest
+[ 93%] Automatic MOC for target kconfigguitest
+[ 93%] Automatic MOC for target kconfigskeletontest
+[ 93%] Automatic MOC for target kwindowstatesavertest
+[ 93%] Automatic MOC for target kconfigloadertest
+[ 93%] Built target kconfigguitest_autogen
+[ 94%] Building CXX object autotests/CMakeFiles/kconfigguitest.dir/kconfigguitest.cpp.o
+[ 94%] Building CXX object autotests/CMakeFiles/kconfigguitest.dir/kconfigguitest_autogen/mocs_compilation.cpp.o
+[ 94%] Built target kstandardshortcuttest_autogen
+[ 94%] Built target kconfigskeletontest_autogen
+[ 94%] Built target kwindowstatesavertest_autogen
+[ 95%] Building CXX object autotests/CMakeFiles/kstandardshortcuttest.dir/kstandardshortcuttest.cpp.o
+[ 95%] Building CXX object autotests/CMakeFiles/kstandardshortcuttest.dir/kstandardshortcuttest_autogen/mocs_compilation.cpp.o
+[ 96%] Building CXX object autotests/CMakeFiles/kconfigskeletontest.dir/kconfigskeletontest_autogen/mocs_compilation.cpp.o
+[ 96%] Building CXX object autotests/CMakeFiles/kconfigskeletontest.dir/kconfigskeletontest.cpp.o
+[ 97%] Building CXX object autotests/CMakeFiles/kwindowstatesavertest.dir/kwindowstatesavertest_autogen/mocs_compilation.cpp.o
+[ 97%] Built target kconfigloadertest_autogen
+[ 97%] Building CXX object autotests/CMakeFiles/kconfigloadertest.dir/kconfigloadertest_autogen/mocs_compilation.cpp.o
+[ 97%] Building CXX object autotests/CMakeFiles/kwindowstatesavertest.dir/kwindowstatesavertest.cpp.o
+[ 98%] Building CXX object autotests/CMakeFiles/kconfigloadertest.dir/kconfigloadertest.cpp.o
+[ 98%] Linking CXX executable ../bin/kstandardshortcuttest
+[ 98%] Built target kstandardshortcuttest
+[ 99%] Linking CXX executable ../bin/kconfigskeletontest
+[ 99%] Linking CXX executable ../bin/kconfigguitest
+[ 99%] Built target kconfigskeletontest
+[ 99%] Built target kconfigguitest
+[100%] Linking CXX executable ../bin/kwindowstatesavertest
+[100%] Built target kwindowstatesavertest
+[100%] Linking CXX executable ../bin/kconfigloadertest
+[100%] Built target kconfigloadertest

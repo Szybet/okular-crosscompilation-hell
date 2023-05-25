@@ -1,0 +1,10 @@
+description: Native Android port of the KDE Connect Qt app
+hasrepo: true
+identifier: kdeconnect-android
+name: KDE Connect Android
+projectpath: extragear/network/kdeconnect-android
+repoactive: true
+repopath: network/kdeconnect-android
+bugzilla:
+  product: kdeconnect
+  component: android-application

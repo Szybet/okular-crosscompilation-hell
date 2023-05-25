@@ -1,0 +1,17 @@
+{
+    "frameworks/*" : {
+        "trunk" : "none",
+        "stable" : "none",
+        "trunk_kf5" : "kf5",
+        "stable_kf5" : "none",
+        "trunk_kf6" : "master",
+        "stable_kf6" : "none"
+    },
+
+    "*" : {
+        "trunk" : "none",
+        "stable" : "none",
+        "trunk_kf5" : "none",
+        "stable_kf5" : "none"
+    }
+}

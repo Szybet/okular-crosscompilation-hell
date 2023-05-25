@@ -1,0 +1,9 @@
+bugzilla:
+  product: klines
+description: KLines is a simple but highly addictive, one player game
+hasrepo: true
+identifier: klines
+name: KLines
+projectpath: kde/kdegames/klines
+repoactive: true
+repopath: games/klines

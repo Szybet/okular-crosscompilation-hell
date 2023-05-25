@@ -1,0 +1,7 @@
+description: Client application for paste.kde.org written in Qt
+hasrepo: true
+identifier: cutepaste
+name: Paste application for KDE
+projectpath: unmaintained/cutepaste
+repoactive: false
+repopath: unmaintained/cutepaste

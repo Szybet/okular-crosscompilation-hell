@@ -1,0 +1,9 @@
+bugzilla:
+  product: kmines
+description: KMines is the classic Minesweeper game
+hasrepo: true
+identifier: kmines
+name: KMines
+projectpath: kde/kdegames/kmines
+repoactive: true
+repopath: games/kmines

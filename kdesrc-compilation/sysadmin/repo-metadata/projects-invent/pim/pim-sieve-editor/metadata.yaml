@@ -1,0 +1,9 @@
+bugzilla:
+  product: sieveeditor
+description: Application to assist with editing IMAP Sieve filters
+hasrepo: true
+identifier: pim-sieve-editor
+name: PIM Sieve Editor
+projectpath: kde/pim/pim-sieve-editor
+repoactive: true
+repopath: pim/pim-sieve-editor

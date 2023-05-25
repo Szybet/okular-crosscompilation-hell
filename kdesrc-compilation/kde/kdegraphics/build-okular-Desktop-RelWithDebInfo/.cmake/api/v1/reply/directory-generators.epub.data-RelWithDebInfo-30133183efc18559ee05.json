@@ -1,0 +1,44 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"generators/epub/data/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "okular",
+			"destination" : "share/okular/pics",
+			"paths" : 
+			[
+				"generators/epub/data/okular-epub-sound-icon.png",
+				"generators/epub/data/okular-epub-movie.png"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/epub/data",
+		"source" : "generators/epub/data"
+	}
+}

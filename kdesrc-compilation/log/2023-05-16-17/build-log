@@ -1,0 +1,35 @@
+Holding performance profile
+Building kactivities from _cmdline (1/8)
+	Fetching remote changes to kactivities
+	Merging kactivities changes from branch kf5
+	No changes to kactivities source code, but proceeding to build anyway.
+Building kdegraphics-mobipocket from _cmdline (2/8)
+	Fetching remote changes to kdegraphics-mobipocket
+	Merging kdegraphics-mobipocket changes from branch master
+	Source update complete for kdegraphics-mobipocket: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kdegraphics-mobipocket.
+	Running cmake targeting Unix Makefiles...
+Building khtml from _cmdline (3/8)
+	Fetching remote changes to khtml
+	Merging khtml changes from branch kf5
+	Source update complete for khtml: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for khtml.
+	Running cmake targeting Unix Makefiles...
+
+khtml didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+khtml - file:///home/szybet/kdesrc/log/2023-05-16-17/khtml/cmake.log
+
+Possible solution: Install the build dependencies for the modules:
+khtml
+You can use 'sudo apt build-dep <source_package>', 'sudo dnf builddep <package>', 'sudo zypper source-install --build-deps-only <source_package>' or a similar command for your distro of choice.
+See https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source/Install_the_dependencies
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-17

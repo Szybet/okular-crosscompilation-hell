@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+7f0a2a72b1775aa30a487a95312c5053 CMakeFiles/fetch-translations
+206706b32516d6f1db437b548be91d6d CMakeFiles/uninstall
+ef2a686a1320dc7c42f397aaf8650971 releaseme
+fbd42c0d01c57d9360b981bd7b2e33ed src/CMakeFiles/KExiv2_autogen

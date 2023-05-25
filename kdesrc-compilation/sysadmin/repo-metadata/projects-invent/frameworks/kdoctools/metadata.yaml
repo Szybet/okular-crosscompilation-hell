@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdoctools
+description: KDocTools
+hasrepo: true
+identifier: kdoctools
+name: KDocTools
+projectpath: frameworks/kdoctools
+repoactive: true
+repopath: frameworks/kdoctools

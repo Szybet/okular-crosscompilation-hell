@@ -1,0 +1,7 @@
+description: Expose VCard contacts to KPeople
+hasrepo: true
+identifier: kpeoplevcard
+name: KPeople VCard Backend
+projectpath: kdereview/kpeoplevcard
+repoactive: true
+repopath: pim/kpeoplevcard

@@ -1,0 +1,7 @@
+description: Website for the KDE Windows project
+hasrepo: true
+identifier: websites-windows-kde-org
+name: KDE Windows Website
+projectpath: websites/windows-kde-org
+repoactive: false
+repopath: websites/windows-kde-org

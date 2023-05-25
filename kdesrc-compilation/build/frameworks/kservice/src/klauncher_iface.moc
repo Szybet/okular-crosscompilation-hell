@@ -1,0 +1,282 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'klauncher_iface.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include "klauncher_iface.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'klauncher_iface.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_OrgKdeKLauncherInterface_t {
+    QByteArrayData data[36];
+    char stringdata0[466];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_OrgKdeKLauncherInterface_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_OrgKdeKLauncherInterface_t qt_meta_stringdata_OrgKdeKLauncherInterface = {
+    {
+QT_MOC_LITERAL(0, 0, 24), // "OrgKdeKLauncherInterface"
+QT_MOC_LITERAL(1, 25, 14), // "autoStart0Done"
+QT_MOC_LITERAL(2, 40, 0), // ""
+QT_MOC_LITERAL(3, 41, 14), // "autoStart1Done"
+QT_MOC_LITERAL(4, 56, 14), // "autoStart2Done"
+QT_MOC_LITERAL(5, 71, 9), // "autoStart"
+QT_MOC_LITERAL(6, 81, 19), // "QDBusPendingReply<>"
+QT_MOC_LITERAL(7, 101, 5), // "phase"
+QT_MOC_LITERAL(8, 107, 10), // "exec_blind"
+QT_MOC_LITERAL(9, 118, 4), // "name"
+QT_MOC_LITERAL(10, 123, 8), // "arg_list"
+QT_MOC_LITERAL(11, 132, 4), // "envs"
+QT_MOC_LITERAL(12, 137, 10), // "startup_id"
+QT_MOC_LITERAL(13, 148, 12), // "kdeinit_exec"
+QT_MOC_LITERAL(14, 161, 42), // "QDBusPendingReply<int,QString..."
+QT_MOC_LITERAL(15, 204, 3), // "app"
+QT_MOC_LITERAL(16, 208, 4), // "args"
+QT_MOC_LITERAL(17, 213, 3), // "env"
+QT_MOC_LITERAL(18, 217, 15), // "QDBusReply<int>"
+QT_MOC_LITERAL(19, 233, 8), // "QString&"
+QT_MOC_LITERAL(20, 242, 15), // "dbusServiceName"
+QT_MOC_LITERAL(21, 258, 5), // "error"
+QT_MOC_LITERAL(22, 264, 4), // "int&"
+QT_MOC_LITERAL(23, 269, 3), // "pid"
+QT_MOC_LITERAL(24, 273, 17), // "kdeinit_exec_wait"
+QT_MOC_LITERAL(25, 291, 25), // "kdeinit_exec_with_workdir"
+QT_MOC_LITERAL(26, 317, 7), // "workdir"
+QT_MOC_LITERAL(27, 325, 20), // "reparseConfiguration"
+QT_MOC_LITERAL(28, 346, 12), // "setLaunchEnv"
+QT_MOC_LITERAL(29, 359, 5), // "value"
+QT_MOC_LITERAL(30, 365, 29), // "start_service_by_desktop_name"
+QT_MOC_LITERAL(31, 395, 11), // "serviceName"
+QT_MOC_LITERAL(32, 407, 4), // "urls"
+QT_MOC_LITERAL(33, 412, 5), // "blind"
+QT_MOC_LITERAL(34, 418, 29), // "start_service_by_desktop_path"
+QT_MOC_LITERAL(35, 448, 17) // "terminate_kdeinit"
+
+    },
+    "OrgKdeKLauncherInterface\0autoStart0Done\0"
+    "\0autoStart1Done\0autoStart2Done\0autoStart\0"
+    "QDBusPendingReply<>\0phase\0exec_blind\0"
+    "name\0arg_list\0envs\0startup_id\0"
+    "kdeinit_exec\0QDBusPendingReply<int,QString,QString,int>\0"
+    "app\0args\0env\0QDBusReply<int>\0QString&\0"
+    "dbusServiceName\0error\0int&\0pid\0"
+    "kdeinit_exec_wait\0kdeinit_exec_with_workdir\0"
+    "workdir\0reparseConfiguration\0setLaunchEnv\0"
+    "value\0start_service_by_desktop_name\0"
+    "serviceName\0urls\0blind\0"
+    "start_service_by_desktop_path\0"
+    "terminate_kdeinit"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_OrgKdeKLauncherInterface[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      20,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       3,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,  114,    2, 0x06 /* Public */,
+       3,    0,  115,    2, 0x06 /* Public */,
+       4,    0,  116,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       5,    0,  117,    2, 0x0a /* Public */,
+       5,    1,  118,    2, 0x0a /* Public */,
+       8,    4,  121,    2, 0x0a /* Public */,
+       8,    2,  130,    2, 0x0a /* Public */,
+      13,    4,  135,    2, 0x0a /* Public */,
+      13,    7,  144,    2, 0x0a /* Public */,
+      24,    4,  159,    2, 0x0a /* Public */,
+      24,    7,  168,    2, 0x0a /* Public */,
+      25,    5,  183,    2, 0x0a /* Public */,
+      25,    8,  194,    2, 0x0a /* Public */,
+      27,    0,  211,    2, 0x0a /* Public */,
+      28,    2,  212,    2, 0x0a /* Public */,
+      30,    5,  217,    2, 0x0a /* Public */,
+      30,    8,  228,    2, 0x0a /* Public */,
+      34,    5,  245,    2, 0x0a /* Public */,
+      34,    8,  256,    2, 0x0a /* Public */,
+      35,    0,  273,    2, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // slots: parameters
+    0x80000000 | 6,
+    0x80000000 | 6, QMetaType::Int,    7,
+    0x80000000 | 6, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString,    9,   10,   11,   12,
+    0x80000000 | 6, QMetaType::QString, QMetaType::QStringList,    9,   10,
+    0x80000000 | 14, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString,   15,   16,   17,   12,
+    0x80000000 | 18, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString, 0x80000000 | 19, 0x80000000 | 19, 0x80000000 | 22,   15,   16,   17,   12,   20,   21,   23,
+    0x80000000 | 14, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString,   15,   16,   17,   12,
+    0x80000000 | 18, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString, 0x80000000 | 19, 0x80000000 | 19, 0x80000000 | 22,   15,   16,   17,   12,   20,   21,   23,
+    0x80000000 | 14, QMetaType::QString, QMetaType::QStringList, QMetaType::QString, QMetaType::QStringList, QMetaType::QString,   15,   16,   26,   17,   12,
+    0x80000000 | 18, QMetaType::QString, QMetaType::QStringList, QMetaType::QString, QMetaType::QStringList, QMetaType::QString, 0x80000000 | 19, 0x80000000 | 19, 0x80000000 | 22,   15,   16,   26,   17,   12,   20,   21,   23,
+    0x80000000 | 6,
+    0x80000000 | 6, QMetaType::QString, QMetaType::QString,    9,   29,
+    0x80000000 | 14, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString, QMetaType::Bool,   31,   32,   11,   12,   33,
+    0x80000000 | 18, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString, QMetaType::Bool, 0x80000000 | 19, 0x80000000 | 19, 0x80000000 | 22,   31,   32,   11,   12,   33,   20,   21,   23,
+    0x80000000 | 14, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString, QMetaType::Bool,   31,   32,   11,   12,   33,
+    0x80000000 | 18, QMetaType::QString, QMetaType::QStringList, QMetaType::QStringList, QMetaType::QString, QMetaType::Bool, 0x80000000 | 19, 0x80000000 | 19, 0x80000000 | 22,   31,   32,   11,   12,   33,   20,   21,   23,
+    0x80000000 | 6,
+
+       0        // eod
+};
+
+void OrgKdeKLauncherInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<OrgKdeKLauncherInterface *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->autoStart0Done(); break;
+        case 1: _t->autoStart1Done(); break;
+        case 2: _t->autoStart2Done(); break;
+        case 3: { QDBusPendingReply<> _r = _t->autoStart();
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = std::move(_r); }  break;
+        case 4: { QDBusPendingReply<> _r = _t->autoStart((*reinterpret_cast< int(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = std::move(_r); }  break;
+        case 5: { QDBusPendingReply<> _r = _t->exec_blind((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = std::move(_r); }  break;
+        case 6: { QDBusPendingReply<> _r = _t->exec_blind((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = std::move(_r); }  break;
+        case 7: { QDBusPendingReply<int,QString,QString,int> _r = _t->kdeinit_exec((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<int,QString,QString,int>*>(_a[0]) = std::move(_r); }  break;
+        case 8: { QDBusReply<int> _r = _t->kdeinit_exec((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< int(*)>(_a[7])));
+            if (_a[0]) *reinterpret_cast< QDBusReply<int>*>(_a[0]) = std::move(_r); }  break;
+        case 9: { QDBusPendingReply<int,QString,QString,int> _r = _t->kdeinit_exec_wait((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<int,QString,QString,int>*>(_a[0]) = std::move(_r); }  break;
+        case 10: { QDBusReply<int> _r = _t->kdeinit_exec_wait((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< int(*)>(_a[7])));
+            if (_a[0]) *reinterpret_cast< QDBusReply<int>*>(_a[0]) = std::move(_r); }  break;
+        case 11: { QDBusPendingReply<int,QString,QString,int> _r = _t->kdeinit_exec_with_workdir((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< const QStringList(*)>(_a[4])),(*reinterpret_cast< const QString(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<int,QString,QString,int>*>(_a[0]) = std::move(_r); }  break;
+        case 12: { QDBusReply<int> _r = _t->kdeinit_exec_with_workdir((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< const QStringList(*)>(_a[4])),(*reinterpret_cast< const QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< int(*)>(_a[8])));
+            if (_a[0]) *reinterpret_cast< QDBusReply<int>*>(_a[0]) = std::move(_r); }  break;
+        case 13: { QDBusPendingReply<> _r = _t->reparseConfiguration();
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = std::move(_r); }  break;
+        case 14: { QDBusPendingReply<> _r = _t->setLaunchEnv((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = std::move(_r); }  break;
+        case 15: { QDBusPendingReply<int,QString,QString,int> _r = _t->start_service_by_desktop_name((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<int,QString,QString,int>*>(_a[0]) = std::move(_r); }  break;
+        case 16: { QDBusReply<int> _r = _t->start_service_by_desktop_name((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< int(*)>(_a[8])));
+            if (_a[0]) *reinterpret_cast< QDBusReply<int>*>(_a[0]) = std::move(_r); }  break;
+        case 17: { QDBusPendingReply<int,QString,QString,int> _r = _t->start_service_by_desktop_path((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<int,QString,QString,int>*>(_a[0]) = std::move(_r); }  break;
+        case 18: { QDBusReply<int> _r = _t->start_service_by_desktop_path((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< int(*)>(_a[8])));
+            if (_a[0]) *reinterpret_cast< QDBusReply<int>*>(_a[0]) = std::move(_r); }  break;
+        case 19: { QDBusPendingReply<> _r = _t->terminate_kdeinit();
+            if (_a[0]) *reinterpret_cast< QDBusPendingReply<>*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (OrgKdeKLauncherInterface::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgKdeKLauncherInterface::autoStart0Done)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgKdeKLauncherInterface::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgKdeKLauncherInterface::autoStart1Done)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgKdeKLauncherInterface::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgKdeKLauncherInterface::autoStart2Done)) {
+                *result = 2;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject OrgKdeKLauncherInterface::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDBusAbstractInterface::staticMetaObject>(),
+    qt_meta_stringdata_OrgKdeKLauncherInterface.data,
+    qt_meta_data_OrgKdeKLauncherInterface,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *OrgKdeKLauncherInterface::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *OrgKdeKLauncherInterface::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_OrgKdeKLauncherInterface.stringdata0))
+        return static_cast<void*>(this);
+    return QDBusAbstractInterface::qt_metacast(_clname);
+}
+
+int OrgKdeKLauncherInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractInterface::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 20)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 20;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 20)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 20;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void OrgKdeKLauncherInterface::autoStart0Done()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void OrgKdeKLauncherInterface::autoStart1Done()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void OrgKdeKLauncherInterface::autoStart2Done()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

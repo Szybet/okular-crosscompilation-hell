@@ -1,0 +1,7 @@
+description: Classes to read and interact with KColorScheme
+hasrepo: true
+identifier: kcolorscheme
+name: KColorScheme
+projectpath: frameworks/kcolorscheme
+repoactive: true
+repopath: frameworks/kcolorscheme

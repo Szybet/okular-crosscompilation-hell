@@ -1,0 +1,7 @@
+description: Video subtitle editor
+hasrepo: true
+identifier: subtitlecomposer
+name: SubtitleComposer
+projectpath: kde/kdemultimedia/subtitlecomposer
+repoactive: true
+repopath: multimedia/subtitlecomposer

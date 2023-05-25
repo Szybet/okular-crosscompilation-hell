@@ -1,0 +1,7 @@
+description: Library to allow application developers to separate the structure of documents from the data they contain.
+hasrepo: true
+identifier: ktexttemplate
+name: KTextTemplate
+projectpath: playground/libs/ktexttemplate
+repoactive: true
+repopath: libraries/ktexttemplate

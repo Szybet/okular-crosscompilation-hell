@@ -1,0 +1,7 @@
+description: Program to write hybrid ISO files onto USB disks
+hasrepo: true
+identifier: isoimagewriter
+name: ISO Image Writer
+projectpath: extragear/utils/isoimagewriter
+repoactive: true
+repopath: utilities/isoimagewriter

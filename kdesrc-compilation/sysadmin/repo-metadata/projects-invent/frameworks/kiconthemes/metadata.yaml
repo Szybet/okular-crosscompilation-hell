@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kiconthemes
+description: KIconThemes
+hasrepo: true
+identifier: kiconthemes
+name: KIconThemes
+projectpath: frameworks/kiconthemes
+repoactive: true
+repopath: frameworks/kiconthemes

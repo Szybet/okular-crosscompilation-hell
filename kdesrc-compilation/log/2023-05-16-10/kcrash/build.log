@@ -1,0 +1,5 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcrash
+[ 16%] Automatic MOC for target KF5Crash
+[ 16%] Built target KF5Crash_autogen
+[100%] Built target KF5Crash

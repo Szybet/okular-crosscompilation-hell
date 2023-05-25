@@ -1,0 +1,7 @@
+description: This module contains mail-related libraries
+hasrepo: true
+identifier: kdepim-apps-libs
+name: Mail-related libraries
+projectpath: kde/pim/kdepim-apps-libs
+repoactive: false
+repopath: pim/kdepim-apps-libs

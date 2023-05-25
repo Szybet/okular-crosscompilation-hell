@@ -1,0 +1,9 @@
+bugzilla:
+  product: zanshin
+description: Getting Things Done application which aims at getting your mind like water
+hasrepo: true
+identifier: zanshin
+name: Zanshin
+projectpath: kde/pim/zanshin
+repoactive: true
+repopath: pim/zanshin

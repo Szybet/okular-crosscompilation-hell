@@ -1,0 +1,7 @@
+description: Integrated LaTeX Editing Environment
+hasrepo: true
+identifier: kile
+name: Kile
+projectpath: extragear/office/kile
+repoactive: true
+repopath: office/kile

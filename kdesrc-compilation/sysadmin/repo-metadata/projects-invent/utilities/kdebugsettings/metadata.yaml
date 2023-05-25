@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdebugsettings
+description: Application to choose which QLoggingCategory are displayed
+hasrepo: true
+identifier: kdebugsettings
+name: KDebugSettings
+projectpath: kde/kdeutils/kdebugsettings
+repoactive: true
+repopath: utilities/kdebugsettings

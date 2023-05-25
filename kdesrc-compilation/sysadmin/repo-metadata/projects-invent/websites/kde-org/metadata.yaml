@@ -1,0 +1,7 @@
+description: Main KDE Community website — kde.org
+hasrepo: true
+identifier: websites-kde-org
+name: KDE.org Website
+projectpath: websites/kde-org
+repoactive: true
+repopath: websites/kde-org

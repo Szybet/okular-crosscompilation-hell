@@ -1,0 +1,8 @@
+description: Makes events, contacts, notes and messages from Facebook available in
+  KDE.
+hasrepo: true
+identifier: akonadi-facebook
+name: Facebook Resource for Akonadi
+projectpath: unmaintained/akonadi-facebook
+repoactive: false
+repopath: unmaintained/akonadi-facebook

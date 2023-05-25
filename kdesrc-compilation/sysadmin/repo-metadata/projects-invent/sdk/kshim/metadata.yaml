@@ -1,0 +1,7 @@
+description: Create a shim to help run your project
+hasrepo: true
+identifier: kshim
+name: KShim
+projectpath: playground/sdk/kshim
+repoactive: true
+repopath: sdk/kshim

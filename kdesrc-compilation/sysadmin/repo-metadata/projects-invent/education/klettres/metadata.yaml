@@ -1,0 +1,9 @@
+bugzilla:
+  product: klettres
+description: Learn The Alphabet
+hasrepo: true
+identifier: klettres
+name: KLettres
+projectpath: kde/kdeedu/klettres
+repoactive: true
+repopath: education/klettres

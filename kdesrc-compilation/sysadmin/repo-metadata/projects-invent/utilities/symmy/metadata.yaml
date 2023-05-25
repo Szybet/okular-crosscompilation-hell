@@ -1,0 +1,7 @@
+description: GPG symmetric encryption frontend
+hasrepo: true
+identifier: symmy
+name: Symmy
+projectpath: extragear/utils/symmy
+repoactive: true
+repopath: utilities/symmy

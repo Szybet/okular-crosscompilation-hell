@@ -1,0 +1,7 @@
+description: KDED Module which ensures necessary Telepathy services are running.
+hasrepo: true
+identifier: ktp-launcher-kded
+name: Telepathy Launcher KDED
+projectpath: unmaintained/ktp-launcher-kded
+repoactive: false
+repopath: unmaintained/ktp-launcher-kded

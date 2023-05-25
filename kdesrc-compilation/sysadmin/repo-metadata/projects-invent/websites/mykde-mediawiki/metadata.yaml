@@ -1,0 +1,7 @@
+description: Mediawiki plugin for MyKDE
+hasrepo: true
+identifier: websites-mykde-mediawiki
+name: MyKDE Mediawiki Plugin
+projectpath: websites/mykde-mediawiki
+repoactive: true
+repopath: websites/mykde-mediawiki

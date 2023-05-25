@@ -1,0 +1,9 @@
+bugzilla:
+  product: baloo-widgets
+description: Widgets for Baloo
+hasrepo: true
+identifier: baloo-widgets
+name: Baloo Widgets
+projectpath: kde/applications/baloo-widgets
+repoactive: true
+repopath: libraries/baloo-widgets

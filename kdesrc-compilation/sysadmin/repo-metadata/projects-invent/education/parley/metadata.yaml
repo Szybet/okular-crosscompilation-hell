@@ -1,0 +1,9 @@
+bugzilla:
+  product: parley
+description: Vocabulary Trainer
+hasrepo: true
+identifier: parley
+name: Parley
+projectpath: kde/kdeedu/parley
+repoactive: true
+repopath: education/parley

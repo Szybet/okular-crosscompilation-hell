@@ -1,0 +1,8 @@
+description: Repository of Kickstart and Yaml files used to create filesystem images
+  of Plasma Active device adaptations
+hasrepo: true
+identifier: plasma-active-kickstart
+name: Plasma Active Kickstart
+projectpath: unmaintained/plasma-active-kickstart
+repoactive: false
+repopath: unmaintained/plasma-active-kickstart

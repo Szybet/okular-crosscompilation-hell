@@ -1,0 +1,7 @@
+description: Simple flood fill game
+hasrepo: true
+identifier: kolorfill
+name: Kolorfill
+projectpath: playground/base/kolorfill
+repoactive: true
+repopath: games/kolorfill

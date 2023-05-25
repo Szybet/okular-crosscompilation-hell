@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kconfig
+description: KConfig
+hasrepo: true
+identifier: kconfig
+name: KConfig
+projectpath: frameworks/kconfig
+repoactive: true
+repopath: frameworks/kconfig

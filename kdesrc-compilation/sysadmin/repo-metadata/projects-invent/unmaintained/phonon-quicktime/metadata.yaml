@@ -1,0 +1,7 @@
+description: A QuickTime backend for the Phonon multimedia library.
+hasrepo: true
+identifier: phonon-quicktime
+name: Phonon QuickTime
+projectpath: unmaintained/phonon-quicktime
+repoactive: false
+repopath: unmaintained/phonon-quicktime

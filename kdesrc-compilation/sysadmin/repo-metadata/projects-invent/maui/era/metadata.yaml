@@ -1,0 +1,7 @@
+description: Maui Clock app
+hasrepo: true
+identifier: maui-era
+name: Era
+projectpath: playground/base/era
+repoactive: true
+repopath: maui/era

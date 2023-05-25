@@ -1,0 +1,7 @@
+description: A Xine backend for the Phonon multimedia library.
+hasrepo: true
+identifier: phonon-xine
+name: Phonon Xine
+projectpath: unmaintained/phonon-xine
+repoactive: false
+repopath: unmaintained/phonon-xine

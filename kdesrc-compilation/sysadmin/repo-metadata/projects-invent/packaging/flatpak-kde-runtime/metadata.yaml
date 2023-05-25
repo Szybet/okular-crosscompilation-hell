@@ -1,0 +1,7 @@
+description: Files to generate a repository with org.kde.Platform and Sdk
+hasrepo: true
+identifier: flatpak-kde-runtime
+name: Flatpak KDE Runtime
+projectpath: playground/packaging/flatpak-kde-runtime
+repoactive: true
+repopath: packaging/flatpak-kde-runtime

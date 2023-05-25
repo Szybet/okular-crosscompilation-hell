@@ -1,0 +1,7 @@
+description: Akonadi Resource to download emails from MS Exchange servers
+hasrepo: true
+identifier: akonadi-airsync
+name: Akonadi Exchange Active Sync Resource
+projectpath: playground/pim/akonadi-airsync
+repoactive: false
+repopath: pim/akonadi-airsync

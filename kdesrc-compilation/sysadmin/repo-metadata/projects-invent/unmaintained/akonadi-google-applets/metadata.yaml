@@ -1,0 +1,7 @@
+description: 'Plasma applets for Akonadi google resources'
+hasrepo: true
+identifier: akonadi-google-applets
+name: Akonadi google plasma applets
+projectpath: unmaintained/akonadi-google-applets
+repoactive: false
+repopath: unmaintained/akonadi-google-applets

@@ -1,0 +1,7 @@
+description: This framework is the single entry point for power management.
+hasrepo: true
+identifier: solid-power
+name: Solid Power
+projectpath: unmaintained/solid-power
+repoactive: false
+repopath: unmaintained/solid-power

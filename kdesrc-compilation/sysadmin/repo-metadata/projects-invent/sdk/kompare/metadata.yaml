@@ -1,0 +1,9 @@
+bugzilla:
+  product: kompare
+description: Graphical File Differences Tool
+hasrepo: true
+identifier: kompare
+name: Kompare
+projectpath: kde/kdesdk/kompare
+repoactive: true
+repopath: sdk/kompare

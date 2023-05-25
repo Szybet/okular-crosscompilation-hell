@@ -1,0 +1,9 @@
+description: Redshift control applet for the Plasma Desktop
+hasrepo: true
+identifier: plasma-redshift-control
+name: Plasma Redshift Control Applet
+projectpath: extragear/base/plasma-redshift-control
+repoactive: false
+repopath: plasma/plasma-redshift-control
+bugzilla:
+    product: plasma-redshift-control

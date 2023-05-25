@@ -1,0 +1,7 @@
+description: Filter that tries to restyle an image using comparison with other images.
+hasrepo: true
+identifier: krita-analogies
+name: Analogies
+projectpath: extragear/graphics/krita-extensions/krita-analogies
+repoactive: false
+repopath: unmaintained/krita-analogies

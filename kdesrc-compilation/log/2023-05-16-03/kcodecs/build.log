@@ -1,0 +1,334 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcodecs
+[  1%] Generating ECMPoQm/af/kcodecs5_qt.qm
+[  2%] Generating ECMPoQm/as/kcodecs5_qt.qm
+[  4%] Generating ECMPoQm/az/kcodecs5_qt.qm
+[  4%] Generating ECMPoQm/be/kcodecs5_qt.qm
+[  4%] Generating ECMPoQm/ar/kcodecs5_qt.qm
+[  4%] Generating ECMPoQm/be@latin/kcodecs5_qt.qm
+[  5%] Generating ECMPoQm/bn/kcodecs5_qt.qm
+[  5%] Generating ECMPoQm/bg/kcodecs5_qt.qm
+[  5%] Built target translations_4
+[  5%] Built target translations_7
+[  6%] Generating ECMPoQm/bn_IN/kcodecs5_qt.qm
+[  6%] Generating ECMPoQm/br/kcodecs5_qt.qm
+[  6%] Built target translations_2
+[  6%] Built target translations_3
+[  6%] Built target translations_5
+[  6%] Built target translations_1
+[  6%] Built target translations_6
+[  6%] Built target translations_8
+[  6%] Generating ECMPoQm/bs/kcodecs5_qt.qm
+[  6%] Generating ECMPoQm/ca@valencia/kcodecs5_qt.qm
+[  7%] Generating ECMPoQm/ca/kcodecs5_qt.qm
+[  8%] Generating ECMPoQm/cs/kcodecs5_qt.qm
+[  9%] Generating ECMPoQm/crh/kcodecs5_qt.qm
+[  9%] Generating ECMPoQm/csb/kcodecs5_qt.qm
+[  9%] Built target translations_15
+[  9%] Built target translations_9
+[  9%] Built target translations_13
+[  9%] Built target translations_12
+[  9%] Built target translations_10
+[  9%] Generating ECMPoQm/da/kcodecs5_qt.qm
+[ 10%] Generating ECMPoQm/cy/kcodecs5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 11%] Generating ECMPoQm/de/kcodecs5_qt.qm
+[ 11%] Generating ECMPoQm/en_GB/kcodecs5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 12%] Generating ECMPoQm/el/kcodecs5_qt.qm
+[ 12%] Built target translations_11
+[ 12%] Built target translations_14
+[ 13%] Generating ECMPoQm/eo/kcodecs5_qt.qm
+[ 13%] Built target translations_16
+[ 14%] Generating ECMPoQm/es/kcodecs5_qt.qm
+[ 14%] Built target translations_22
+[ 14%] Generating ECMPoQm/et/kcodecs5_qt.qm
+[ 14%] Built target translations_19
+[ 15%] Generating ECMPoQm/eu/kcodecs5_qt.qm
+[ 15%] Built target translations_17
+[ 15%] Built target translations_18
+[ 16%] Generating ECMPoQm/fi/kcodecs5_qt.qm
+[ 16%] Generating ECMPoQm/fa/kcodecs5_qt.qm
+[ 16%] Built target translations_20
+[ 16%] Built target translations_21
+[ 16%] Generating ECMPoQm/fr/kcodecs5_qt.qm
+[ 16%] Generating ECMPoQm/ga/kcodecs5_qt.qm
+[ 17%] Generating ECMPoQm/fy/kcodecs5_qt.qm
+[ 17%] Built target translations_25
+[ 17%] Built target translations_23
+[ 18%] Generating ECMPoQm/gd/kcodecs5_qt.qm
+[ 18%] Generating ECMPoQm/gl/kcodecs5_qt.qm
+[ 18%] Built target translations_27
+[ 18%] Built target translations_26
+[ 18%] Built target translations_28
+[ 18%] Built target translations_24
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 18%] Built target translations_31
+[ 19%] Generating ECMPoQm/gu/kcodecs5_qt.qm
+[ 19%] Built target translations_29
+[ 19%] Generating ECMPoQm/ha/kcodecs5_qt.qm
+[ 20%] Generating ECMPoQm/hi/kcodecs5_qt.qm
+[ 21%] Generating ECMPoQm/hne/kcodecs5_qt.qm
+[ 21%] Generating ECMPoQm/he/kcodecs5_qt.qm
+[ 21%] Built target translations_34
+[ 21%] Built target translations_30
+[ 22%] Generating ECMPoQm/hr/kcodecs5_qt.qm
+[ 22%] Built target translations_35
+[ 22%] Built target translations_32
+[ 22%] Generating ECMPoQm/hsb/kcodecs5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 22%] Generating ECMPoQm/hu/kcodecs5_qt.qm
+[ 22%] Generating ECMPoQm/ia/kcodecs5_qt.qm
+[ 23%] Generating ECMPoQm/hy/kcodecs5_qt.qm
+[ 23%] Built target translations_36
+[ 23%] Built target translations_33
+[ 23%] Built target translations_38
+[ 23%] Built target translations_37
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 24%] Generating ECMPoQm/is/kcodecs5_qt.qm
+[ 25%] Generating ECMPoQm/id/kcodecs5_qt.qm
+[ 26%] Generating ECMPoQm/ja/kcodecs5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 26%] Generating ECMPoQm/it/kcodecs5_qt.qm
+[ 26%] Built target translations_40
+[ 26%] Built target translations_46
+[ 26%] Built target translations_41
+[ 26%] Built target translations_39
+[ 26%] Generating ECMPoQm/ka/kcodecs5_qt.qm
+[ 26%] Built target translations_42
+[ 27%] Generating ECMPoQm/kk/kcodecs5_qt.qm
+[ 27%] Generating ECMPoQm/km/kcodecs5_qt.qm
+[ 27%] Built target translations_44
+[ 27%] Built target translations_47
+[ 27%] Built target translations_43
+[ 28%] Generating ECMPoQm/kn/kcodecs5_qt.qm
+[ 28%] Generating ECMPoQm/ko/kcodecs5_qt.qm
+[ 28%] Generating ECMPoQm/lb/kcodecs5_qt.qm
+[ 29%] Generating ECMPoQm/ku/kcodecs5_qt.qm
+[ 29%] Built target translations_45
+[ 29%] Built target translations_51
+[ 30%] Generating ECMPoQm/lt/kcodecs5_qt.qm
+[ 30%] Generating ECMPoQm/lv/kcodecs5_qt.qm
+[ 31%] Generating ECMPoQm/mai/kcodecs5_qt.qm
+[ 31%] Built target translations_54
+[ 31%] Built target translations_49
+[ 31%] Built target translations_48
+[ 32%] Generating ECMPoQm/mk/kcodecs5_qt.qm
+[ 32%] Built target translations_50
+[ 32%] Generating ECMPoQm/ml/kcodecs5_qt.qm
+[ 32%] Built target translations_53
+[ 33%] Generating ECMPoQm/mr/kcodecs5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 34%] Generating ECMPoQm/ms/kcodecs5_qt.qm
+[ 34%] Generating ECMPoQm/nb/kcodecs5_qt.qm
+[ 34%] Built target translations_52
+[ 34%] Built target translations_55
+[ 34%] Built target translations_56
+[ 35%] Built target translations_61
+[ 35%] Generating ECMPoQm/nds/kcodecs5_qt.qm
+[ 35%] Generating ECMPoQm/ne/kcodecs5_qt.qm
+[ 35%] Built target translations_57
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 36%] Generating ECMPoQm/nl/kcodecs5_qt.qm
+[ 37%] Generating ECMPoQm/nn/kcodecs5_qt.qm
+[ 37%] Generating ECMPoQm/oc/kcodecs5_qt.qm
+[ 37%] Built target translations_58
+[ 38%] Generating ECMPoQm/or/kcodecs5_qt.qm
+[ 38%] Built target translations_59
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 38%] Built target translations_60
+[ 38%] Built target translations_65
+[ 38%] Generating ECMPoQm/pa/kcodecs5_qt.qm
+[ 39%] Generating ECMPoQm/ps/kcodecs5_qt.qm
+[ 39%] Built target translations_66
+[ 40%] Generating ECMPoQm/pl/kcodecs5_qt.qm
+[ 41%] Generating ECMPoQm/pt/kcodecs5_qt.qm
+[ 41%] Built target translations_62
+[ 41%] Built target translations_64
+[ 41%] Built target translations_63
+[ 41%] Generating ECMPoQm/pt_BR/kcodecs5_qt.qm
+[ 42%] Generating ECMPoQm/ro/kcodecs5_qt.qm
+[ 42%] Built target translations_71
+[ 42%] Built target translations_67
+[ 42%] Generating ECMPoQm/ru/kcodecs5_qt.qm
+[ 42%] Built target translations_72
+[ 43%] Generating ECMPoQm/se/kcodecs5_qt.qm
+[ 43%] Generating ECMPoQm/si/kcodecs5_qt.qm
+[ 43%] Built target translations_68
+[ 44%] Generating ECMPoQm/sk/kcodecs5_qt.qm
+[ 44%] Built target translations_75
+[ 45%] Generating ECMPoQm/sl/kcodecs5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 45%] Built target translations_69
+[ 45%] Built target translations_70
+[ 45%] Generating ECMPoQm/sq/kcodecs5_qt.qm
+[ 45%] Generating ECMPoQm/sr/kcodecs5_qt.qm
+[ 46%] Generating ECMPoQm/sr@ijekavian/kcodecs5_qt.qm
+[ 46%] Built target translations_81
+[ 46%] Built target translations_74
+[ 46%] Built target translations_80
+[ 46%] Built target translations_73
+[ 46%] Generating ECMPoQm/sr@ijekavianlatin/kcodecs5_qt.qm
+[ 47%] Generating ECMPoQm/sr@latin/kcodecs5_qt.qm
+[ 47%] Generating ECMPoQm/sv/kcodecs5_qt.qm
+[ 48%] Generating ECMPoQm/ta/kcodecs5_qt.qm
+[ 48%] Built target translations_76
+[ 48%] Built target translations_77
+[ 48%] Built target translations_78
+[ 48%] Built target translations_82
+[ 48%] Built target translations_79
+[ 48%] Built target translations_84
+[ 48%] Built target translations_83
+[ 49%] Generating ECMPoQm/te/kcodecs5_qt.qm
+[ 49%] Generating ECMPoQm/tg/kcodecs5_qt.qm
+[ 50%] Generating ECMPoQm/th/kcodecs5_qt.qm
+[ 50%] Generating ECMPoQm/tr/kcodecs5_qt.qm
+[ 50%] Generating ECMPoQm/tt/kcodecs5_qt.qm
+[ 51%] Generating ECMPoQm/ug/kcodecs5_qt.qm
+[ 52%] Generating ECMPoQm/uk/kcodecs5_qt.qm
+[ 52%] Built target translations_89
+[ 52%] Built target translations_92
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 52%] Generating ECMPoQm/uz/kcodecs5_qt.qm
+[ 53%] Generating ECMPoQm/uz@cyrillic/kcodecs5_qt.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+[ 53%] Built target translations_85
+[ 53%] Generating ECMPoQm/vi/kcodecs5_qt.qm
+[ 53%] Built target translations_86
+[ 53%] Built target translations_90
+[ 53%] Built target translations_87
+[ 53%] Built target translations_95
+[ 53%] Built target translations_88
+[ 54%] Generating ECMPoQm/wa/kcodecs5_qt.qm
+[ 54%] Built target translations_91
+[ 54%] Generating ECMPoQm/xh/kcodecs5_qt.qm
+[ 55%] Generating ECMPoQm/zh_HK/kcodecs5_qt.qm
+[ 56%] Generating ECMPoQm/zh_CN/kcodecs5_qt.qm
+[ 57%] Generating ECMPoQm/zh_TW/kcodecs5_qt.qm
+[ 57%] Automatic MOC for target KF5Codecs
+[ 57%] Built target translations_98
+[ 57%] Built target translations_100
+[ 57%] Built target translations_93
+[ 57%] Built target translations_94
+[ 58%] Automatic MOC for target kusasciitextcodectest
+[ 58%] Built target KF5Codecs_autogen
+[ 58%] Generating kentities.h
+[ 58%] Built target translations_96
+[ 58%] Built target translations_99
+[ 59%] Building CXX object src/CMakeFiles/KF5Codecs.dir/KF5Codecs_autogen/mocs_compilation.cpp.o
+[ 59%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcodecsbase45.cpp.o
+[ 59%] Building CXX object src/CMakeFiles/KF5Codecs.dir/ECMQmLoader-kcodecs5_qt.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcharsets.cpp.o
+[ 60%] Built target translations_97
+[ 61%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcodecsbase64.cpp.o
+[ 61%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcodecs.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcodecsidentity.cpp.o
+[ 63%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcodecsqp.cpp.o
+[ 63%] Built target kusasciitextcodectest_autogen
+[ 63%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcodecsuuencode.cpp.o
+In file included from [01m[K/home/szybet/kdesrc/frameworks/kcodecs/src/kcharsets.cpp:15[m[K:
+[01m[K/home/szybet/kdesrc/frameworks/kcodecs/src/kentities.gperf:[m[K In static member function '[01m[Kstatic const entity* KCodecsEntities::kde_findEntity(const char*, size_t)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kcodecs/src/kentities.gperf:408:10:[m[K [01;35m[Kwarning: [m[Kzero as null pointer constant [[01;35m[K-Wzero-as-null-pointer-constant[m[K]
+[ 64%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kemailaddress.cpp.o
+[ 64%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kencodingprober.cpp.o
+[ 64%] Building CXX object autotests/CMakeFiles/kusasciitextcodectest.dir/kusasciitextcodectest_autogen/mocs_compilation.cpp.o
+[ 65%] Building CXX object autotests/CMakeFiles/kusasciitextcodectest.dir/__/src/kusasciitextcodec.cpp.o
+[ 66%] Building CXX object autotests/CMakeFiles/kusasciitextcodectest.dir/kusasciitextcodectest.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kusasciitextcodec.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/CharDistribution.cpp.o
+[ 68%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/ChineseGroupProber.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/JapaneseGroupProber.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/JpCntx.cpp.o
+[ 70%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/LangBulgarianModel.cpp.o
+[ 70%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/LangCyrillicModel.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/LangGreekModel.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/LangHebrewModel.cpp.o
+[ 72%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/LangHungarianModel.cpp.o
+[ 72%] Linking CXX executable ../bin/kusasciitextcodectest
+[ 72%] Built target kusasciitextcodectest
+[ 72%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/LangThaiModel.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kcodecs/src/probers/LangBulgarianModel.cpp:148:39:[m[K [01;35m[Kwarning: [m[K'[01m[Kvisibility[m[K' attribute ignored [[01;35m[K-Wattributes[m[K]
+  148 | const SequenceModel KCODECS_NO_EXPORT [01;35m[KLatin5BulgarianModel[m[K = {Latin5_BulgarianCharToOrderMap, BulgarianLangModel, (float)0.969392, false, "ISO-8859-5"};
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kcodecs/src/probers/LangBulgarianModel.cpp:150:39:[m[K [01;35m[Kwarning: [m[K'[01m[Kvisibility[m[K' attribute ignored [[01;35m[K-Wattributes[m[K]
+  150 | const SequenceModel KCODECS_NO_EXPORT [01;35m[KWin1251BulgarianModel[m[K = {win1251BulgarianCharToOrderMap, BulgarianLangModel, (float)0.969392, false, "windows-1251"};
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[ 73%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsBig5Prober.cpp.o
+[ 74%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsCharSetProber.cpp.o
+[ 74%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsEscCharsetProber.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsEscSM.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsEUCJPProber.cpp.o
+[ 76%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsEUCKRProber.cpp.o
+[ 76%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsGB2312Prober.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsHebrewProber.cpp.o
+[ 78%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsLatin1Prober.cpp.o
+[ 78%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsMBCSGroupProber.cpp.o
+[ 79%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsMBCSSM.cpp.o
+[ 79%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsSBCharSetProber.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsSBCSGroupProber.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsSJISProber.cpp.o
+[ 81%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/nsUniversalDetector.cpp.o
+[ 82%] Building CXX object src/CMakeFiles/KF5Codecs.dir/probers/UnicodeGroupProber.cpp.o
+[ 82%] Building CXX object src/CMakeFiles/KF5Codecs.dir/kcodecs_debug.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kcodecs/src/probers/UnicodeGroupProber.cpp:[m[K In member function '[01m[Kvirtual kencodingprober::nsProbingState kencodingprober::UnicodeGroupProber::HandleData(const char*, unsigned int)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kcodecs/src/probers/UnicodeGroupProber.cpp:67:37:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+   67 |         if (4 >= aBuf[1] && [01;35m[KaBuf[1] >= 0[m[K && QChar::isPrint(static_cast<uint>(aBuf[0]))) {
+      |                             [01;35m[K~~~~~~~~^~~~[m[K
+[ 83%] Linking CXX shared library ../bin/libKF5Codecs.so
+[ 83%] Built target KF5Codecs
+[ 87%] Automatic MOC for target kemailaddresstest
+[ 87%] Automatic MOC for target rfc2047test
+[ 87%] Automatic MOC for target kencodingprobertest
+[ 87%] Automatic MOC for target codectest
+[ 87%] Automatic MOC for target base45test
+[ 87%] Automatic MOC for target kcharsetstest
+[ 88%] Automatic MOC for target base64benchmark
+[ 88%] Built target base45test_autogen
+[ 88%] Built target kemailaddresstest_autogen
+[ 88%] Built target kcharsetstest_autogen
+[ 88%] Built target codectest_autogen
+[ 88%] Built target rfc2047test_autogen
+[ 88%] Built target kencodingprobertest_autogen
+[ 89%] Building CXX object autotests/CMakeFiles/base45test.dir/base45test_autogen/mocs_compilation.cpp.o
+[ 90%] Building CXX object autotests/CMakeFiles/kemailaddresstest.dir/kemailaddresstest_autogen/mocs_compilation.cpp.o
+[ 90%] Building CXX object autotests/CMakeFiles/base45test.dir/base45test.cpp.o
+[ 90%] Building CXX object autotests/CMakeFiles/codectest.dir/codectest_autogen/mocs_compilation.cpp.o
+[ 91%] Building CXX object autotests/CMakeFiles/kcharsetstest.dir/kcharsetstest_autogen/mocs_compilation.cpp.o
+[ 91%] Building CXX object autotests/CMakeFiles/kencodingprobertest.dir/kencodingprobertest_autogen/mocs_compilation.cpp.o
+[ 91%] Building CXX object autotests/CMakeFiles/rfc2047test.dir/rfc2047test_autogen/mocs_compilation.cpp.o
+[ 91%] Built target base64benchmark_autogen
+[ 92%] Building CXX object autotests/CMakeFiles/kencodingprobertest.dir/kencodingprobertest.cpp.o
+[ 93%] Building CXX object autotests/CMakeFiles/kemailaddresstest.dir/kemailaddresstest.cpp.o
+[ 94%] Building CXX object autotests/CMakeFiles/codectest.dir/codectest.cpp.o
+[ 95%] Building CXX object autotests/CMakeFiles/rfc2047test.dir/rfc2047test.cpp.o
+[ 96%] Building CXX object autotests/CMakeFiles/base64benchmark.dir/base64benchmark_autogen/mocs_compilation.cpp.o
+[ 96%] Building CXX object autotests/CMakeFiles/kcharsetstest.dir/kcharsetstest.cpp.o
+[ 97%] Building CXX object autotests/CMakeFiles/base64benchmark.dir/base64benchmark.cpp.o
+[ 98%] Linking CXX executable ../bin/base45test
+[ 98%] Linking CXX executable ../bin/kencodingprobertest
+[ 98%] Built target base45test
+[ 98%] Built target kencodingprobertest
+[ 98%] Linking CXX executable ../bin/kemailaddresstest
+[ 98%] Built target kemailaddresstest
+[ 98%] Linking CXX executable ../bin/codectest
+[ 98%] Linking CXX executable ../bin/base64benchmark
+[100%] Linking CXX executable ../bin/kcharsetstest
+[100%] Built target codectest
+[100%] Linking CXX executable ../bin/rfc2047test
+[100%] Built target base64benchmark
+[100%] Built target kcharsetstest
+[100%] Built target rfc2047test

@@ -1,0 +1,9 @@
+description: Qt Platform Theme integration plugins for Plasma Workspaces
+hasrepo: true
+identifier: plasma-integration
+name: Plasma Integration
+projectpath: kde/workspace/plasma-integration
+repoactive: true
+repopath: plasma/plasma-integration
+bugzilla:
+    product: plasma-integration

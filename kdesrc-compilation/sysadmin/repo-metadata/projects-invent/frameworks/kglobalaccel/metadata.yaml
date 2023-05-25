@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kglobalaccel
+description: KGlobalAccel
+hasrepo: true
+identifier: kglobalaccel
+name: KGlobalAccel
+projectpath: frameworks/kglobalaccel
+repoactive: true
+repopath: frameworks/kglobalaccel

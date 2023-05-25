@@ -1,0 +1,7 @@
+description: MTP server allowing file access to Plasma Mobile devices
+hasrepo: true
+identifier: mtp-server
+name: MTP Server
+projectpath: playground/mobile/mtp-server
+repoactive: true
+repopath: plasma-mobile/mtp-server

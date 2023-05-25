@@ -1,0 +1,9 @@
+description: Multimedia player with the focus on simplicity, not features
+hasrepo: true
+identifier: dragon
+name: Dragon
+projectpath: kde/kdemultimedia/dragon
+repoactive: true
+repopath: multimedia/dragon
+bugzilla:
+  product: dragonplayer

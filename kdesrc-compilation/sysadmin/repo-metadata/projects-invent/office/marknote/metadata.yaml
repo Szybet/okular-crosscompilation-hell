@@ -1,0 +1,7 @@
+description: A simple markdown note management app
+hasrepo: true
+identifier: marknote
+name: Marknote
+projectpath: playground/office/marknote
+repoactive: true
+repopath: office/marknote

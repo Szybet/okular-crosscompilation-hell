@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kunitconversion
+description: KUnitConversion
+hasrepo: true
+identifier: kunitconversion
+name: KUnitConversion
+projectpath: frameworks/kunitconversion
+repoactive: true
+repopath: frameworks/kunitconversion

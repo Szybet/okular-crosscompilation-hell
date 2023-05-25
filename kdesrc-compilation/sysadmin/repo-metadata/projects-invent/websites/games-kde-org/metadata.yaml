@@ -1,0 +1,7 @@
+description: Website for KDE's games — games.kde.org
+hasrepo: true
+identifier: websites-games-kde-org
+name: Games Website
+projectpath: websites/games-kde-org
+repoactive: true
+repopath: websites/games-kde-org

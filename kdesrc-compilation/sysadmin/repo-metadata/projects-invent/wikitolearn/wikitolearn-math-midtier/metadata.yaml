@@ -1,0 +1,7 @@
+description: Mid Tier Math Support for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-math-midtier
+name: 'WikiToLearn Mid Tier Math Support'
+projectpath: playground/www/wikitolearn-math-midtier
+repoactive: true
+repopath: wikitolearn/wikitolearn-math-midtier

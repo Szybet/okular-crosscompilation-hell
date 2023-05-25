@@ -1,0 +1,7 @@
+description: Courses Backend for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-courses-backend
+name: 'WikiToLearn Courses Backend'
+projectpath: playground/www/wikitolearn-courses-backend
+repoactive: true
+repopath: wikitolearn/wikitolearn-courses-backend

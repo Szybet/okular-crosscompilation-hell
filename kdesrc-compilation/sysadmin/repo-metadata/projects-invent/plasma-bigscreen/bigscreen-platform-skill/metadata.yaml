@@ -1,0 +1,7 @@
+description: Platform control skill for Plasma Bigscreen, providing Window Management Features for Voice Applications on Bigscreen Platform
+hasrepo: true
+identifier: bigscreen-platform-skill
+name: Mycroft Platform Skill for Plasma Bigscreen
+projectpath: playground/utils/bigscreen-platform-skill
+repoactive: true
+repopath: plasma-bigscreen/bigscreen-platform-skill

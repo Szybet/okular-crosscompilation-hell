@@ -1,0 +1,7 @@
+description: A simple note taking application that automatically saves your work
+hasrepo: true
+identifier: notae
+name: Notae
+projectpath: playground/utils/notae
+repoactive: true
+repopath: utilities/notae

@@ -1,0 +1,7 @@
+description: Android port of Qt Framework
+hasrepo: true
+identifier: android-qt
+name: Android Qt Framework
+projectpath: unmaintained/necessitas/android-qt
+repoactive: false
+repopath: unmaintained/android-qt

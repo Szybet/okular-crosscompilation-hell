@@ -1,0 +1,17 @@
+description: LabPlot is a FREE, open source and cross-platform Data Visualization and Analysis software accessible to everyone.
+hasrepo: true
+identifier: labplot
+name: LabPlot
+projectpath: extragear/edu/labplot
+repoactive: true
+repopath: education/labplot
+topics:
+- 'data-visualization'
+- 'data-analysis'
+- 'data-science'
+- 'scientific-visualization'
+- 'scientific-plotting'
+- 'plotting'
+- 'fitting'
+- 'graph'
+- 'graph2d'

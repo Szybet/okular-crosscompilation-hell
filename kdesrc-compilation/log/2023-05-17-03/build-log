@@ -1,0 +1,23 @@
+Holding performance profile
+Building okular from guessed_from_cmdline (1/1)
+	Fetching remote changes to okular
+	Merging okular changes from branch master
+	* You had local changes to okular, which have been re-applied.
+	Source update complete for okular: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for okular.
+	Removing files in build directory for okular
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: - 2 - compile warnings
+
+okular didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+okular - file:///home/szybet/kdesrc/log/2023-05-17-03/okular/build.log
+
+Important notification for okular:
+    okular has failed to build 12 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-17-03

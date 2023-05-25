@@ -1,0 +1,8 @@
+description: OfflineExtension is an extension for WikiToLearn that will add offline
+  support to the current Wiki Editor.
+hasrepo: true
+identifier: wikitolearn-offline-extension
+name: 'WikiToLearn Offline Extension'
+projectpath: playground/www/wikitolearn-offline-extension
+repoactive: true
+repopath: wikitolearn/wikitolearn-offline-extension

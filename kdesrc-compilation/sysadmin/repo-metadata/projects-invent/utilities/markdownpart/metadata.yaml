@@ -1,0 +1,9 @@
+bugzilla:
+  product: markdownpart
+description: KPart for rendering Markdown content
+hasrepo: true
+identifier: markdownpart
+name: Markdown KPart
+projectpath: kde/kdeutils/markdownpart
+repoactive: true
+repopath: utilities/markdownpart

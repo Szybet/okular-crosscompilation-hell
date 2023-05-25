@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kcompletion
+description: KCompletion
+hasrepo: true
+identifier: kcompletion
+name: KCompletion
+projectpath: frameworks/kcompletion
+repoactive: true
+repopath: frameworks/kcompletion

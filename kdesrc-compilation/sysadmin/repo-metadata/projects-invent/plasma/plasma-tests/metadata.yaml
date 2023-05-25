@@ -1,0 +1,7 @@
+description: Tests for the Plasma Workspace
+hasrepo: true
+identifier: plasma-tests
+name: Plasma Tests
+projectpath: kde/workspace/plasma-tests
+repoactive: false
+repopath: plasma/plasma-tests

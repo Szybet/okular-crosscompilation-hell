@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kcrash
+description: KCrash
+hasrepo: true
+identifier: kcrash
+name: KCrash
+projectpath: frameworks/kcrash
+repoactive: true
+repopath: frameworks/kcrash

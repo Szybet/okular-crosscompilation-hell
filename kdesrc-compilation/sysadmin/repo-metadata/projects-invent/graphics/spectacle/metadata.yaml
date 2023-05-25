@@ -1,0 +1,9 @@
+bugzilla:
+  product: Spectacle
+description: Screenshot capture utility
+hasrepo: true
+identifier: spectacle
+name: Spectacle
+projectpath: kde/kdegraphics/spectacle
+repoactive: true
+repopath: graphics/spectacle

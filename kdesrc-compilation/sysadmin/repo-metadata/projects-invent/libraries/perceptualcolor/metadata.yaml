@@ -1,0 +1,7 @@
+description: Qt GUI components for choosing colors, with focus on an intuitive and perceptually uniform presentatio
+hasrepo: true
+identifier: perceptualcolor
+name: Perceptual Color
+projectpath: playground/libs/perceptualcolor
+repoactive: true
+repopath: libraries/perceptualcolor

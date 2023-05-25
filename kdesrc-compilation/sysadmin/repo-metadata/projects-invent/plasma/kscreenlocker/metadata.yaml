@@ -1,0 +1,9 @@
+description: Library and components for secure lock screen architecture
+hasrepo: true
+identifier: kscreenlocker
+name: KScreenLocker
+projectpath: kde/workspace/kscreenlocker
+repoactive: true
+repopath: plasma/kscreenlocker
+bugzilla:
+    product: kscreenlocker

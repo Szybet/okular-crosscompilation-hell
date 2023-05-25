@@ -1,0 +1,9 @@
+bugzilla:
+  product: libkgapi
+description: Library for accessing various Google services via their public API
+hasrepo: true
+identifier: libkgapi
+name: LibKGAPI
+projectpath: kde/pim/libkgapi
+repoactive: true
+repopath: pim/libkgapi

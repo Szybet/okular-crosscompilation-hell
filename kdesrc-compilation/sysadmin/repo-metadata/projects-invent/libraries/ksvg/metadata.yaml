@@ -1,0 +1,7 @@
+description: Components for handling SVGs
+hasrepo: true
+identifier: ksvg
+name: KSVG
+projectpath: kdereview/ksvg
+repoactive: true
+repopath: libraries/ksvg

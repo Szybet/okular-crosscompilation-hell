@@ -1,0 +1,7 @@
+description: DEPRECATED - CONTENT MOVED TO https://invent.kde.org/sysadmin/repo-metadata/-/tree/master/dependencies
+hasrepo: true
+identifier: kde-build-metadata
+name: KDE Build Metadata - deprecated
+projectpath: kde-build-metadata
+repoactive: false
+repopath: sysadmin/kde-build-metadata

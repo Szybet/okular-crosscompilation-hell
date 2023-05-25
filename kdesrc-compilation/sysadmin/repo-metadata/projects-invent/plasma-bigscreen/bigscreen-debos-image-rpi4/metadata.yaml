@@ -1,0 +1,7 @@
+description: Recipes and other materials needed to build a Plasma Bigscreen image for Raspberry Pi4 devices, using DebOS
+hasrepo: true
+identifier: bigscreen-debos-image-rpi4
+name: Plasma Bigscreen Raspberry Pi4 DebOS image
+projectpath: playground/utils/bigscreen-debos-image-rpi4
+repoactive: true
+repopath: plasma-bigscreen/bigscreen-debos-image-rpi4

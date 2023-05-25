@@ -1,0 +1,7 @@
+description: Release script framework
+hasrepo: true
+identifier: releaseme
+name: Releaseme
+projectpath: playground/sdk/releaseme
+repoactive: true
+repopath: sdk/releaseme

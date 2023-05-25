@@ -1,0 +1,10 @@
+description: Syncs KDE settings to GTK applications
+hasrepo: true
+identifier: kde-gtk-config
+name: KDE GTK Configurator
+projectpath: kde/workspace/kde-gtk-config
+repoactive: true
+repopath: plasma/kde-gtk-config
+bugzilla:
+    product: systemsettings
+    component: kcm_style

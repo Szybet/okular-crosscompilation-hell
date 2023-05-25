@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kitemmodels
+description: KItemModels
+hasrepo: true
+identifier: kitemmodels
+name: KItemModels
+projectpath: frameworks/kitemmodels
+repoactive: true
+repopath: frameworks/kitemmodels

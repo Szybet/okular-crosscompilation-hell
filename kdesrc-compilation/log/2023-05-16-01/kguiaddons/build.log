@@ -1,0 +1,112 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kguiaddons
+[  2%] Automatic MOC for target kde-geo-uri-handler
+[  2%] Automatic MOC for target KF5GuiAddons
+[  3%] Automatic MOC for target kgeourihandlertest
+[  3%] Built target kde-geo-uri-handler_autogen
+[  5%] Building CXX object src/geo-scheme-handler/CMakeFiles/kde-geo-uri-handler.dir/kde-geo-uri-handler_autogen/mocs_compilation.cpp.o
+[  6%] Building CXX object src/geo-scheme-handler/CMakeFiles/kde-geo-uri-handler.dir/kgeourihandler.cpp.o
+[  7%] Building CXX object src/geo-scheme-handler/CMakeFiles/kde-geo-uri-handler.dir/main.cpp.o
+[  7%] Built target kgeourihandlertest_autogen
+[  8%] Building CXX object autotests/CMakeFiles/kgeourihandlertest.dir/kgeourihandlertest.cpp.o
+[ 10%] Building CXX object autotests/CMakeFiles/kgeourihandlertest.dir/kgeourihandlertest_autogen/mocs_compilation.cpp.o
+[ 10%] Built target KF5GuiAddons_autogen
+[ 11%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/colors/kcolorutils.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/KF5GuiAddons_autogen/mocs_compilation.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/colors/kcolorspaces.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/colors/kcolorcollection.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/colors/kcolormimedata.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/colors/kcolorschemewatcher.cpp.o
+[ 18%] Linking CXX executable ../../bin/kde-geo-uri-handler
+[ 18%] Built target kde-geo-uri-handler
+[ 20%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/colors/kcolorschemewatcherbackend.cpp.o
+[ 21%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/text/kdatevalidator.cpp.o
+[ 22%] Linking CXX executable ../bin/kgeourihandlertest
+[ 23%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/text/kwordwrap.cpp.o
+[ 23%] Built target kgeourihandlertest
+[ 25%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/fonts/kfontutils.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/util/kiconutils.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/util/klocalimagecacheimpl.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/util/kmodifierkeyinfoprovider.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/util/kmodifierkeyinfo.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/util/kurlhandler_p.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/util/kcursorsaver.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/recorder/keyboardgrabber.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/recorder/keysequencerecorder.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/systemclipboard/qtclipboard.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/systemclipboard/ksystemclipboard.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/KF5GuiAddons.dir/kguiaddons_debug.cpp.o
+[ 40%] Linking CXX shared library ../bin/libKF5GuiAddons.so
+[ 40%] Built target KF5GuiAddons
+[ 42%] Automatic MOC for target kcursorsavertest
+[ 42%] Automatic MOC for target pasteclient
+[ 45%] Automatic MOC for target kwordwraptest
+[ 45%] Automatic MOC for target kiconutilstest
+[ 46%] Automatic MOC for target kcolorutilstest
+[ 47%] Automatic MOC for target keysequencerecordertest
+[ 48%] Automatic MOC for target kurlhandlertest
+[ 50%] Automatic MOC for target kcolorcollectiontest
+[ 50%] Built target pasteclient_autogen
+[ 50%] Built target kcolorcollectiontest_autogen
+[ 51%] Automatic MOC for target kmodifierkeyinfotest
+[ 52%] Automatic MOC for target openurltest
+[ 52%] Built target openurltest_autogen
+[ 52%] Built target kcursorsavertest_autogen
+[ 52%] Built target keysequencerecordertest_autogen
+[ 52%] Built target kcolorutilstest_autogen
+[ 52%] Built target kurlhandlertest_autogen
+[ 53%] Automatic MOC for target kcursorsavergui_test
+[ 53%] Built target kiconutilstest_autogen
+[ 55%] Automatic MOC for target kcolorschemewatchertest
+[ 56%] Building CXX object src/CMakeFiles/pasteclient.dir/pasteclient_autogen/mocs_compilation.cpp.o
+[ 57%] Building CXX object autotests/CMakeFiles/kcursorsavertest.dir/kcursorsavertest_autogen/mocs_compilation.cpp.o
+[ 58%] Building CXX object autotests/CMakeFiles/keysequencerecordertest.dir/keysequencerecordertest_autogen/mocs_compilation.cpp.o
+[ 60%] Building CXX object autotests/CMakeFiles/kurlhandlertest.dir/kurlhandlertest_autogen/mocs_compilation.cpp.o
+[ 61%] Building CXX object src/CMakeFiles/pasteclient.dir/systemclipboard/tests/paste.cpp.o
+[ 61%] Built target kcolorschemewatchertest_autogen
+[ 62%] Building CXX object autotests/CMakeFiles/kurlhandlertest.dir/kurlhandlertest.cpp.o
+[ 62%] Built target kwordwraptest_autogen
+[ 63%] Building CXX object autotests/CMakeFiles/kcursorsavertest.dir/kcursorsavertest.cpp.o
+[ 63%] Built target kmodifierkeyinfotest_autogen
+[ 63%] Built target kcursorsavergui_test_autogen
+[ 65%] Building CXX object autotests/CMakeFiles/keysequencerecordertest.dir/keysequencerecordertest.cpp.o
+[ 66%] Building CXX object tests/CMakeFiles/kcolorcollectiontest.dir/kcolorcollectiontest_autogen/mocs_compilation.cpp.o
+[ 67%] Building CXX object tests/CMakeFiles/kcolorcollectiontest.dir/kcolorcollectiontest.cpp.o
+[ 68%] Building CXX object tests/CMakeFiles/kmodifierkeyinfotest.dir/kmodifierkeyinfotest_autogen/mocs_compilation.cpp.o
+[ 70%] Building CXX object tests/CMakeFiles/kmodifierkeyinfotest.dir/kmodifierkeyinfotest.cpp.o
+[ 71%] Linking CXX executable ../bin/pasteclient
+[ 72%] Building CXX object tests/CMakeFiles/openurltest.dir/openurltest_autogen/mocs_compilation.cpp.o
+[ 73%] Building CXX object tests/CMakeFiles/openurltest.dir/openurltest.cpp.o
+[ 75%] Building CXX object tests/CMakeFiles/kcursorsavergui_test.dir/kcursorsavergui_test_autogen/mocs_compilation.cpp.o
+[ 76%] Building CXX object tests/CMakeFiles/kcursorsavergui_test.dir/kcursorsavergui_test.cpp.o
+[ 76%] Built target pasteclient
+[ 77%] Building CXX object tests/CMakeFiles/kcolorschemewatchertest.dir/kcolorschemewatchertest_autogen/mocs_compilation.cpp.o
+[ 78%] Building CXX object tests/CMakeFiles/kcolorschemewatchertest.dir/kcolorschemewatchertest.cpp.o
+[ 80%] Linking CXX executable ../bin/kcolorcollectiontest
+[ 81%] Linking CXX executable ../bin/kcursorsavertest
+[ 82%] Linking CXX executable ../bin/kurlhandlertest
+[ 82%] Built target kurlhandlertest
+[ 82%] Built target kcolorcollectiontest
+[ 83%] Building CXX object autotests/CMakeFiles/kwordwraptest.dir/kwordwraptest_autogen/mocs_compilation.cpp.o
+[ 85%] Building CXX object autotests/CMakeFiles/kwordwraptest.dir/kwordwraptest.cpp.o
+[ 85%] Built target kcursorsavertest
+[ 86%] Building CXX object autotests/CMakeFiles/kcolorutilstest.dir/kcolorutilstest_autogen/mocs_compilation.cpp.o
+[ 87%] Building CXX object autotests/CMakeFiles/kiconutilstest.dir/kiconutilstest_autogen/mocs_compilation.cpp.o
+[ 88%] Linking CXX executable ../bin/keysequencerecordertest
+[ 90%] Linking CXX executable ../bin/openurltest
+[ 90%] Built target keysequencerecordertest
+[ 91%] Building CXX object autotests/CMakeFiles/kiconutilstest.dir/kiconutilstest.cpp.o
+[ 91%] Built target openurltest
+[ 92%] Building CXX object autotests/CMakeFiles/kcolorutilstest.dir/kcolorutilstest.cpp.o
+[ 93%] Linking CXX executable ../bin/kmodifierkeyinfotest
+[ 95%] Linking CXX executable ../bin/kcursorsavergui_test
+[ 95%] Built target kmodifierkeyinfotest
+[ 95%] Built target kcursorsavergui_test
+[ 96%] Linking CXX executable ../bin/kcolorschemewatchertest
+[ 96%] Built target kcolorschemewatchertest
+[ 97%] Linking CXX executable ../bin/kwordwraptest
+[ 97%] Built target kwordwraptest
+[ 98%] Linking CXX executable ../bin/kiconutilstest
+[100%] Linking CXX executable ../bin/kcolorutilstest
+[100%] Built target kiconutilstest
+[100%] Built target kcolorutilstest

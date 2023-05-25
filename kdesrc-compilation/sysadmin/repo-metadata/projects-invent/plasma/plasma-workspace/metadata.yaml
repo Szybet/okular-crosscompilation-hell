@@ -1,0 +1,9 @@
+description: Various components needed to run a Plasma-based environment
+hasrepo: true
+identifier: plasma-workspace
+name: Plasma Workspace
+projectpath: kde/workspace/plasma-workspace
+repoactive: true
+repopath: plasma/plasma-workspace
+bugzilla:
+    product: plasmashell

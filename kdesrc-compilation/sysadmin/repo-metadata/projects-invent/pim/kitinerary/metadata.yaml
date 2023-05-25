@@ -1,0 +1,9 @@
+description: Data Model and Extraction System for Travel Reservation information
+hasrepo: true
+identifier: kitinerary
+name: KItinerary
+projectpath: kde/pim/kitinerary
+repoactive: true
+repopath: pim/kitinerary
+bugzilla:
+    product: "KDE Itinerary"

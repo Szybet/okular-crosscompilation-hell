@@ -1,0 +1,18 @@
+# kdesrc-build running: 'make' 'install/fast'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcrash
+Install the project...
+-- Install configuration: "Debug"
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Crash.so.5.107.0
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Crash.so.5
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/libKF5Crash.so
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/kcrash_export.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/KCrash
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/kcrash.h
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/kcrash.categories
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/share/qlogging-categories5/kcrash.renamecategories
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/modules/qt_KCrash.pri
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashConfig.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashConfigVersion.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashTargets.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/lib/cmake/KF5Crash/KF5CrashTargets-debug.cmake
+-- Up-to-date: /mnt/HDD/Project/Public/okulartry/okular-things/include/KF5/KCrash/kcrash_version.h

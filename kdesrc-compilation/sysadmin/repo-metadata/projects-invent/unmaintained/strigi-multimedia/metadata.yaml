@@ -1,0 +1,7 @@
+description: Various analyzers to provide multimedia support to Strigi
+hasrepo: true
+identifier: strigi-multimedia
+name: Strigi multimedia analyzers
+projectpath: unmaintained/strigi-multimedia
+repoactive: false
+repopath: unmaintained/strigi-multimedia

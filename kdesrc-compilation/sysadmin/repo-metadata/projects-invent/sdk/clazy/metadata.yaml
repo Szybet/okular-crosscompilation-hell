@@ -1,0 +1,7 @@
+description: Qt-oriented static code analyzer based on the Clang framework
+hasrepo: true
+identifier: clazy
+name: Clazy
+projectpath: extragear/sdk/clazy
+repoactive: true
+repopath: sdk/clazy

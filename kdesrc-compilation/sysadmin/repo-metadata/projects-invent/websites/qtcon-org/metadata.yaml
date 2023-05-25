@@ -1,0 +1,7 @@
+description: Static copy of the QtCon website - qtcon.org
+hasrepo: true
+identifier: websites-qtcon-org
+name: QtCon Website
+projectpath: websites/qtcon-org
+repoactive: true
+repopath: websites/qtcon-org

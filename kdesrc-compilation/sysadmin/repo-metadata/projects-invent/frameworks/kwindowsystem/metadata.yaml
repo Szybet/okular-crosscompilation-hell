@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kwindowsystem
+description: KWindowSystem
+hasrepo: true
+identifier: kwindowsystem
+name: KWindowSystem
+projectpath: frameworks/kwindowsystem
+repoactive: true
+repopath: frameworks/kwindowsystem

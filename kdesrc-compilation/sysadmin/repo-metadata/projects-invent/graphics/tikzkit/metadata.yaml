@@ -1,0 +1,7 @@
+description: WYSIWYG editor to create PGF/TikZ pictures
+hasrepo: true
+identifier: tikzkit
+name: TikZKit
+projectpath: playground/graphics/tikzkit
+repoactive: true
+repopath: graphics/tikzkit

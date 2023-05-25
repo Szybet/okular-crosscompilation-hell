@@ -1,0 +1,7 @@
+description: Content delivery network for the software store
+hasrepo: true
+identifier: ocs-cdn
+name: OCS Content Distribution Network
+projectpath: playground/www/ocs-cdn
+repoactive: true
+repopath: webapps/ocs-cdn

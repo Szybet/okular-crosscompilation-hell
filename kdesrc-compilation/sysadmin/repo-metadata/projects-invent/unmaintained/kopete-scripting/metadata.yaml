@@ -1,0 +1,7 @@
+description: Scripting Plugin for Kopete
+hasrepo: true
+identifier: kopete-scripting
+name: Kopete Scripting Plugin
+projectpath: unmaintained/kopete-scripting
+repoactive: false
+repopath: unmaintained/kopete-scripting

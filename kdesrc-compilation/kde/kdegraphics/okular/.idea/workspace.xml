@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3cd780c-4f60-4b5e-a80f-081e35151aa0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/document.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/document.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/generator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/generator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/textdocumentgenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/textdocumentgenerator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/txt/converter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/generators/txt/converter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/txt/document.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/generators/txt/document.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/txt/generator_txt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/generators/txt/generator_txt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shell/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2Q4tDoPxxPBXLTmHFSSDQsZxVly" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/szybet/kdesrc/kde/kdegraphics/okular",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CLionExternalConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.jetbrains.cidr.remote.gdbserver.type" factoryName="com.jetbrains.cidr.remote.gdbserver.factory" editBeforeRun="true" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" version="1" RUN_PATH="$PROJECT_DIR$/../build-okular-Kobo-Debug/bin/okular">
+      <custom-gdb-server version="1" gdb-connect="10.42.0.28:4444" executable="/bin/gdbserver" warmup-ms="0" download-type="UPDATED_ONLY" uploadFile="/tmp/CLion/debug/okular" defaultGdbServerArgs=":4444 /tmp/CLion/debug/okular">
+        <debugger kind="GDB">/usr/bin/gdb-multiarch</debugger>
+      </custom-gdb-server>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3cd780c-4f60-4b5e-a80f-081e35151aa0" name="Changes" comment="" />
+      <created>1684624565218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684624565218</updated>
+      <workItem from="1684624566688" duration="471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>

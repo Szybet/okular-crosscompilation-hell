@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-kde-ci-checked-projects
+name: KDE CI checked projects for Gerrit instance
+projectpath: sysadmin/gerrit-kde-ci-checked-projects
+repoactive: false
+repopath: sysadmin/gerrit-kde-ci-checked-projects

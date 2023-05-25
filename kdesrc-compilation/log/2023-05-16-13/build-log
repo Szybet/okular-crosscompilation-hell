@@ -1,0 +1,25 @@
+Holding performance profile
+Building kio from _cmdline (1/14)
+	Fetching remote changes to kio
+	Merging kio changes from branch kf5
+	No changes to kio source code, but proceeding to build anyway.
+	Note: -- 5 -- compile warnings
+Building kinit from _cmdline (2/14)
+	Fetching remote changes to kinit
+	Merging kinit changes from branch kf5
+	Source update complete for kinit: no files affected
+	  Rebuilding because the build directory doesn't exist
+	Preparing build system for kinit.
+	Running cmake targeting Unix Makefiles...
+	Note: --- 27 --- compile warnings
+
+kinit didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+kinit - file:///home/szybet/kdesrc/log/2023-05-16-13/kinit/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-13

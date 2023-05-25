@@ -1,0 +1,7 @@
+description: GUI for creating and editing regular expressions
+hasrepo: true
+identifier: kregexpeditor
+name: KRegExpEditor
+projectpath: playground/utils/kregexpeditor
+repoactive: true
+repopath: utilities/kregexpeditor

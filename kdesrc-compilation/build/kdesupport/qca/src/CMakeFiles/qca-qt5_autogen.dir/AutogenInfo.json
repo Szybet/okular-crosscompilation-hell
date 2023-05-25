@@ -1,0 +1,409 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/kdesupport/qca/src/qca-qt5_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/kdesupport/qca",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/kdesupport/qca/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/kdesupport/qca/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/kdesupport/qca/src/CMakeLists.txt",
+		"/usr/share/cmake/Modules/CheckIncludeFiles.cmake",
+		"/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake",
+		"/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/kdesupport/qca",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/kdesupport/qca/qca_version.h",
+			"Mu",
+			"AXPSB5LYZJ/moc_qca_version.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_basic.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_basic.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_cert.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_cert.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_core.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_core.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_keystore.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_keystore.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_publickey.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_publickey.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_safetimer.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_safetimer.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_securelayer.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_securelayer.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_securemessage.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_securemessage.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_support.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_support.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_textfilter.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_textfilter.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qca_tools.h",
+			"Mu",
+			"J7M6AUHDER/moc_qca_tools.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qcaprovider.h",
+			"Mu",
+			"J7M6AUHDER/moc_qcaprovider.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto/qpipe.h",
+			"Mu",
+			"J7M6AUHDER/moc_qpipe.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/alloc_mmap/mmap_mem.h",
+			"Mu",
+			"5U733GMVKU/moc_mmap_mem.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mux_qt/mux_qt.h",
+			"Mu",
+			"ABWYNAQOEH/moc_mux_qt.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_plugin.h",
+			"Mu",
+			"EWIEGA46WW/moc_qca_plugin.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_safeobj.h",
+			"Mu",
+			"EWIEGA46WW/moc_qca_safeobj.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/kdesupport/qca/src/qca-qt5_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/kdesupport/qca/src/qca-qt5_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOTAN_EXT_ALLOC_MMAP",
+		"BOTAN_EXT_MUTEX_QT",
+		"BOTAN_KARAT_MUL_THRESHOLD=12",
+		"BOTAN_KARAT_SQR_THRESHOLD=12",
+		"BOTAN_MINIMAL_BIGINT",
+		"BOTAN_MP_WORD_BITS=32",
+		"BOTAN_NO_CONF_H",
+		"BOTAN_NO_INIT_H",
+		"BOTAN_TOOLS_ONLY",
+		"BOTAN_TYPES_QT",
+		"QCA_MAKEDLL",
+		"QCA_PLUGIN_PATH=\"/mnt/HDD/Project/Public/okulartry/okular-things/lib/qca-qt5\"",
+		"QCA_SYSTEMSTORE_PATH=\"/etc/ssl/certs/ca-certificates.crt\"",
+		"QT_CORE_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_SIGNALS_SLOTS_KEYWORDS",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_DEFAULT_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/kdesupport/qca/src",
+		"/home/szybet/kdesrc/kdesupport/qca/src",
+		"/home/szybet/kdesrc/kdesupport/qca/include/QtCrypto",
+		"/home/szybet/kdesrc/build/kdesupport/qca",
+		"/home/szybet/kdesrc/kdesupport/qca/src/support",
+		"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/kdesupport/qca/src/qca-qt5_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/kdesupport/qca/src/CMakeFiles/qca-qt5_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/kdesupport/qca/src/CMakeFiles/qca-qt5_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/alloc_mmap/mmap_mem.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/big_base.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/big_code.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/big_io.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/big_ops2.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/big_ops3.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/bit_ops.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/charset.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/defalloc.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/divide.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/exceptn.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/libstate.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mem_pool.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/ml_unix/mlock.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/modules.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mp_asm.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mp_comba.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mp_misc.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mp_mul.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mp_mulop.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mp_shift.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mutex.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/mux_qt/mux_qt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/parsing.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/botantools/botan/util.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_basic.cpp", "Mu", null ],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_cert.cpp", "Mu", null ],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_core.cpp", "Mu", null ],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_default.cpp", "Mu", null ],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_keystore.cpp", "Mu", null ],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_plugin.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_publickey.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_safeobj.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_safetimer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_securelayer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_securemessage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_systemstore_flatfile.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/qca_textfilter.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/szybet/kdesrc/kdesupport/qca/src/qca_tools.cpp", "Mu", null ],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/support/console.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/support/dirwatch.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/support/logger.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/support/qpipe.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/support/synchronizer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kdesupport/qca/src/support/syncthread.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

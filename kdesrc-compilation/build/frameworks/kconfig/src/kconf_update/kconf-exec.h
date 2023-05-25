@@ -1,0 +1,1 @@
+#define KCONF_UPDATE_EXECUTABLE "/home/szybet/kdesrc/build/frameworks/kconfig/bin/kconf_update"

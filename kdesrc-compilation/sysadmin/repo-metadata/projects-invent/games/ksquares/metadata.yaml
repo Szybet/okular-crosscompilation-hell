@@ -1,0 +1,10 @@
+bugzilla:
+  product: KSquares
+description: KSquares is modeled after the well known pen and paper based game of
+  Dots and Boxes
+hasrepo: true
+identifier: ksquares
+name: KSquares
+projectpath: kde/kdegames/ksquares
+repoactive: true
+repopath: games/ksquares

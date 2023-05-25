@@ -1,0 +1,7 @@
+description: Library that provides cryptography support for mails
+hasrepo: true
+identifier: libkleo
+name: libkleo
+projectpath: kde/pim/libkleo
+repoactive: true
+repopath: pim/libkleo

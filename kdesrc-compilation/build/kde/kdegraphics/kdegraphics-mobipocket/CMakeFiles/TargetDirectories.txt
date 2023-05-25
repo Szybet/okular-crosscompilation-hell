@@ -1,0 +1,16 @@
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/uninstall.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/fetch-translations.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/CMakeFiles/install/strip.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/qmobipocket.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/edit_cache.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/rebuild_cache.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/list_install_components.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/install.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/install/local.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/install/strip.dir
+/home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket/lib/CMakeFiles/qmobipocket_autogen.dir

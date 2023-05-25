@@ -1,0 +1,7 @@
+description: KDE Community Forum version of phpBB — forum.kde.org
+hasrepo: true
+identifier: websites-forum-kde-org
+name: KDE Forum - phpBB
+projectpath: websites/forum-kde-org
+repoactive: true
+repopath: websites/forum-kde-org

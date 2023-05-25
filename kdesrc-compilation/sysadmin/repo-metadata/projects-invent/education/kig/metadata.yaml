@@ -1,0 +1,9 @@
+bugzilla:
+  product: kig
+description: Interactive Geometry
+hasrepo: true
+identifier: kig
+name: Kig
+projectpath: kde/kdeedu/kig
+repoactive: true
+repopath: education/kig

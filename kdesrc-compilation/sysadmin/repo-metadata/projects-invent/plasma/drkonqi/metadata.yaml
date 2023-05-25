@@ -1,0 +1,9 @@
+description: Crash handler for KDE software
+hasrepo: true
+identifier: drkonqi
+name: DrKonqi
+projectpath: kde/workspace/drkonqi
+repoactive: true
+repopath: plasma/drkonqi
+bugzilla:
+    product: drkonqi

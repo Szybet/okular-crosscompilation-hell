@@ -1,0 +1,8 @@
+description: A complete Plasma workspace targeted from small handheld devices to larger
+  tablets.
+hasrepo: true
+identifier: plasma-mobile-history
+name: Plasma mobile shell (history)
+projectpath: extragear/base/plasma-mobile-history
+repoactive: false
+repopath: unmaintained/plasma-mobile-history

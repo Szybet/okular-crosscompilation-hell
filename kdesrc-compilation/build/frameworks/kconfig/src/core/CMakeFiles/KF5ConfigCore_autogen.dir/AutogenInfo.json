@@ -1,0 +1,264 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kconfig/src/core/KF5ConfigCore_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kconfig",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kconfig/src/core",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kconfig/src/core",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kconfig/src/core/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/home/szybet/kdesrc/frameworks/kconfig/src/core/config-kconfig.h.cmake",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kconfig",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kconfig/src/core/kconfig_core_log_settings.h",
+			"Mu",
+			"EJRQKI7XPS/moc_kconfig_core_log_settings.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kauthorized.h",
+			"Mu",
+			"EWIEGA46WW/moc_kauthorized.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfig.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfig.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfig_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfig_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigbackend_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfigbackend_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigbase.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfigbase.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigbase_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfigbase_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigdata_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfigdata_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfiggroup.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfiggroup_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigini_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfigini_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigwatcher.h",
+			"Mu",
+			"EWIEGA46WW/moc_kconfigwatcher.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kcoreconfigskeleton.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcoreconfigskeleton.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kcoreconfigskeleton_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kcoreconfigskeleton_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kdesktopfile.h",
+			"Mu",
+			"EWIEGA46WW/moc_kdesktopfile.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kemailsettings.h",
+			"Mu",
+			"EWIEGA46WW/moc_kemailsettings.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/ksharedconfig.h",
+			"Mu",
+			"EWIEGA46WW/moc_ksharedconfig.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kconfig/src/core/KF5ConfigCore_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/kconfig/src/core/KF5ConfigCore_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCONFIGCORE_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KCONFIGCORE_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"KCONF_UPDATE_INSTALL_LOCATION=\"/mnt/HDD/Project/Public/okulartry/okular-things/lib/libexec/kf5/kconf_update\"",
+		"KF5ConfigCore_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50f02",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kconfig/src/core",
+		"/home/szybet/kdesrc/frameworks/kconfig/src/core",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtDBus",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/kconfig/src/core/KF5ConfigCore_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/kconfig/src/core/CMakeFiles/KF5ConfigCore_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kconfig/src/core/CMakeFiles/KF5ConfigCore_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/frameworks/kconfig/src/core/kconfig_core_log_settings.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kauthorized.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfig.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigbackend.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigbase.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigdata.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfiggroup.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigini.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kconfigwatcher.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kcoreconfigskeleton.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kdesktopfile.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/kemailsettings.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/frameworks/kconfig/src/core/ksharedconfig.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

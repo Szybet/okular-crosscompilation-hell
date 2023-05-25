@@ -1,0 +1,9 @@
+bugzilla:
+  product: kdepim
+description: Library components for messages (e.g. displaying Akonadi collections)
+hasrepo: true
+identifier: messagelib
+name: PIM Messagelib
+projectpath: kde/pim/messagelib
+repoactive: true
+repopath: pim/messagelib

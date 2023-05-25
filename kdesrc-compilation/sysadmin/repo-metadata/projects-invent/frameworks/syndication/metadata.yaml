@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-syndication
+description: Syndication Library
+hasrepo: true
+identifier: syndication
+name: syndication
+projectpath: frameworks/syndication
+repoactive: true
+repopath: frameworks/syndication

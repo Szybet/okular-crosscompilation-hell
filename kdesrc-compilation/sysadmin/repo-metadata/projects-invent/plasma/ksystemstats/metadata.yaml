@@ -1,0 +1,9 @@
+description: A plugin based system monitoring daemon.
+hasrepo: true
+identifier: ksystemstats
+name: KSystemStats
+projectpath: kde/workspace/ksystemstats
+repoactive: true
+repopath: plasma/ksystemstats
+bugzilla:
+    product: plasma-systemmonitor

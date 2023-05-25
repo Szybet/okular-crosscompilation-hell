@@ -1,0 +1,9 @@
+bugzilla:
+  product: knights
+description: Chess board program.
+hasrepo: true
+identifier: knights
+name: Knights
+projectpath: kde/kdegames/knights
+repoactive: true
+repopath: games/knights

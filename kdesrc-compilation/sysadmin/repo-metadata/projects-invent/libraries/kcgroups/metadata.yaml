@@ -1,0 +1,7 @@
+description: Library for easy access to running apps and their control groups resources
+hasrepo: true
+identifier: kcgroups
+name: KCGroups
+projectpath: kdereview/kcgroups
+repoactive: true
+repopath: libraries/kcgroups

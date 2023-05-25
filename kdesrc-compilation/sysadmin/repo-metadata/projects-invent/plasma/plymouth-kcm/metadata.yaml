@@ -1,0 +1,10 @@
+description: KCM to manage the Plymouth (Boot) theme
+hasrepo: true
+identifier: plymouth-kcm
+name: Plymouth KCM
+projectpath: kde/workspace/plymouth-kcm
+repoactive: true
+repopath: plasma/plymouth-kcm
+bugzilla:
+    product: systemsettings
+    component: kcm_plymouth

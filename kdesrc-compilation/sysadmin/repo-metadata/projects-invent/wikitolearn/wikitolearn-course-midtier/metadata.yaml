@@ -1,0 +1,7 @@
+description: Mid Tier Course Support for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-course-midtier
+name: 'WikiToLearn Mid Tier Course Support'
+projectpath: playground/www/wikitolearn-course-midtier
+repoactive: true
+repopath: wikitolearn/wikitolearn-course-midtier

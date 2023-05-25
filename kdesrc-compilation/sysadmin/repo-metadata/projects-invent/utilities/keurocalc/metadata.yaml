@@ -1,0 +1,7 @@
+description: Utility to handle currency conversions between European currencies
+hasrepo: true
+identifier: keurocalc
+name: KEuroCalc
+projectpath: extragear/utils/keurocalc
+repoactive: true
+repopath: utilities/keurocalc

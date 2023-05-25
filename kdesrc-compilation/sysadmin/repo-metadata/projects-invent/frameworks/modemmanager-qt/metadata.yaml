@@ -1,0 +1,12 @@
+bugzilla:
+  product: frameworks-modemmanager-qt
+description: 'Qt wrapper for ModemManager DBus API.
+
+
+  Report bugs in bugs.kde.org, under product frameworks-modemmanager-qt.'
+hasrepo: true
+identifier: modemmanager-qt
+name: ModemManagerQt
+projectpath: frameworks/modemmanager-qt
+repoactive: true
+repopath: frameworks/modemmanager-qt

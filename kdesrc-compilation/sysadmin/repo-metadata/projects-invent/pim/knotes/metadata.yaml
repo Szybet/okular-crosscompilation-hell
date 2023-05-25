@@ -1,0 +1,9 @@
+bugzilla:
+  product: knotes
+description: Note-taking application
+hasrepo: true
+identifier: knotes
+name: KNotes
+projectpath: kde/pim/knotes
+repoactive: true
+repopath: pim/knotes

@@ -1,0 +1,7 @@
+description: Course data for KTurtle, provided by KDE Edu.
+hasrepo: true
+identifier: others-kturtle-data
+name: KTurtle Course Data
+projectpath: others/kde-edu-courses/kturtle-data
+repoactive: false
+repopath: unmaintained/kturtle-data

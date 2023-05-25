@@ -1,0 +1,7 @@
+description: Simple and user-friendly Jabber/XMPP client for every device and platform
+hasrepo: true
+identifier: kaidan
+name: Kaidan
+projectpath: kdereview/kaidan
+repoactive: true
+repopath: network/kaidan

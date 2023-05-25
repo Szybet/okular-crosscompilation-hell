@@ -1,0 +1,9 @@
+bugzilla:
+  product: klickety
+description: Klickety is an adaptation of the Clickomania game
+hasrepo: true
+identifier: klickety
+name: Klickety
+projectpath: kde/kdegames/klickety
+repoactive: true
+repopath: games/klickety

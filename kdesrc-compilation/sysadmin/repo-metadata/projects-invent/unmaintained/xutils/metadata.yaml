@@ -1,0 +1,7 @@
+description: Utilities for crossbuilding Plasma packages
+hasrepo: true
+identifier: xutils
+name: Crossbuilder Utilities
+projectpath: unmaintained/xutils
+repoactive: false
+repopath: unmaintained/xutils

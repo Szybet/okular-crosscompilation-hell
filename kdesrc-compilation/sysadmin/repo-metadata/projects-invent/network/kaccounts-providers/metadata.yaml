@@ -1,0 +1,7 @@
+description: Online account providers for the KAccounts system
+hasrepo: true
+identifier: kaccounts-providers
+name: KAccounts Providers
+projectpath: kde/kdenetwork/kaccounts-providers
+repoactive: true
+repopath: network/kaccounts-providers

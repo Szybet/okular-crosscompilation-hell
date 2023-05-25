@@ -1,0 +1,7 @@
+description: Command-line client for inqlude.org
+hasrepo: true
+identifier: inqlude-client
+name: Inqlude Client
+projectpath: playground/sdk/inqlude-client
+repoactive: true
+repopath: sdk/inqlude-client

@@ -1,0 +1,10 @@
+description: General UI components for Plasma Phone including shell, containment and
+  applets.
+hasrepo: true
+identifier: plasma-mobile
+name: Plasma Mobile
+projectpath: kde/workspace/plasma-mobile
+repoactive: true
+repopath: plasma/plasma-mobile
+bugzilla:
+    product: plasma-mobile

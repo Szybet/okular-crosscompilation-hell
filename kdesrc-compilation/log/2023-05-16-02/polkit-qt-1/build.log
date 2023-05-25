@@ -1,0 +1,11 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kdesupport/polkit-qt-1
+[  4%] Automatic MOC and UIC for target polkit-qt5-core-1
+[  4%] Built target polkit-qt5-core-1_autogen
+[ 40%] Built target polkit-qt5-core-1
+[ 50%] Automatic MOC and UIC for target polkit-qt5-gui-1
+[ 50%] Automatic MOC and UIC for target polkit-qt5-agent-1
+[ 50%] Built target polkit-qt5-agent-1_autogen
+[ 50%] Built target polkit-qt5-gui-1_autogen
+[ 72%] Built target polkit-qt5-gui-1
+[100%] Built target polkit-qt5-agent-1

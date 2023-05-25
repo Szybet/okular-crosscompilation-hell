@@ -1,0 +1,9 @@
+bugzilla:
+  product: juk
+description: Audio jukebox app, supporting collections of MP3, Ogg Vorbis and FLAC audio files
+hasrepo: true
+identifier: juk
+name: JuK
+projectpath: kde/kdemultimedia/juk
+repoactive: true
+repopath: multimedia/juk

@@ -1,0 +1,7 @@
+description: GUI for Wacom Linux drivers that supports different button/pen layout profiles
+hasrepo: true
+identifier: wacomtablet
+name: Wacom Tablet KCM
+projectpath: extragear/base/wacomtablet
+repoactive: true
+repopath: system/wacomtablet

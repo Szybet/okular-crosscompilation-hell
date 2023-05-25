@@ -1,0 +1,7 @@
+description: Content Snap for Qt5 and KF5
+hasrepo: true
+identifier: snap-kf5
+name: Snapcraft KF5
+projectpath: playground/packaging/snap-kf5
+repoactive: true
+repopath: packaging/snap-kf5

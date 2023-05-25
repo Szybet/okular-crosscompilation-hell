@@ -1,0 +1,7 @@
+description: ''
+hasrepo: true
+identifier: sysadmin-gerrit-infra-projects
+name: Infrastructure projects managed by Gerrit
+projectpath: sysadmin/gerrit-infra-projects
+repoactive: false
+repopath: sysadmin/gerrit-infra-projects

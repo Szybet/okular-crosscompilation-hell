@@ -1,0 +1,7 @@
+description: Maui Archiver for compressed files
+hasrepo: true
+identifier: arca
+name: Arca
+projectpath: playground/base/arca
+repoactive: true
+repopath: maui/arca

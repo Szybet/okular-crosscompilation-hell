@@ -1,0 +1,7 @@
+description: FUSE Interface for KIO
+hasrepo: true
+identifier: kio-fuse
+name: KIOFuse
+projectpath: extragear/base/kio-fuse
+repoactive: true
+repopath: system/kio-fuse

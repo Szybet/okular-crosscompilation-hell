@@ -1,0 +1,7 @@
+description: Calculate best fit curves with experimental points using regression or neural networks
+hasrepo: true
+identifier: kartesio
+name: Kartesio
+projectpath: playground/edu/kartesio
+repoactive: false
+repopath: education/kartesio

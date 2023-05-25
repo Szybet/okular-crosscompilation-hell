@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kinit
+description: KInit
+hasrepo: true
+identifier: kinit
+name: KInit
+projectpath: frameworks/kinit
+repoactive: true
+repopath: frameworks/kinit

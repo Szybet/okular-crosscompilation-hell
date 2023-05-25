@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-knotifyconfig
+description: KNotifyConfig
+hasrepo: true
+identifier: knotifyconfig
+name: KNotifyConfig
+projectpath: frameworks/knotifyconfig
+repoactive: true
+repopath: frameworks/knotifyconfig

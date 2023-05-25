@@ -1,0 +1,12 @@
+description: 'The core Nepomuk system contains of the central services like file indexing,
+  file system monitoring, query, and of course storage, as well as the corresponding
+  client libraries.
+
+
+  This is a compile time dependency for kde-runtime.'
+hasrepo: true
+identifier: nepomuk-core
+name: Nepomuk Core
+projectpath: unmaintained/nepomuk-core
+repoactive: false
+repopath: unmaintained/nepomuk-core

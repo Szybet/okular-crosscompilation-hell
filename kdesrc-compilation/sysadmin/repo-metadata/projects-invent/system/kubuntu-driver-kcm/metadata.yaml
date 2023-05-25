@@ -1,0 +1,7 @@
+description: KCM that uses Ubuntu driver management system to install proprietary drivers
+hasrepo: true
+identifier: kubuntu-driver-kcm
+name: Kubuntu Driver KCM
+projectpath: playground/base/kubuntu-driver-kcm
+repoactive: false
+repopath: system/kubuntu-driver-kcm

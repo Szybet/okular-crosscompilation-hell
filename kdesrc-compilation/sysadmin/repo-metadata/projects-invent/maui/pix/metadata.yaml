@@ -1,0 +1,7 @@
+description: Image gallery application
+hasrepo: true
+identifier: maui-pix
+name: Pix
+projectpath: playground/base/maui-pix
+repoactive: true
+repopath: maui/pix

@@ -1,0 +1,8 @@
+description: Agent to mirror all repositories, and changes in them, from a Gitlab
+  instance
+hasrepo: true
+identifier: sysadmin-replicant
+name: Replicant
+projectpath: sysadmin/replicant
+repoactive: true
+repopath: sysadmin/replicant

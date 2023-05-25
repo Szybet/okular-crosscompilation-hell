@@ -1,0 +1,7 @@
+description: Perl bindings for libraries created by the KDE community.
+hasrepo: true
+identifier: perlkde
+name: PerlKDE
+projectpath: kde/kdebindings/perl/perlkde
+repoactive: false
+repopath: unmaintained/perlkde

@@ -1,0 +1,7 @@
+description: A mail client for Plasma Mobile
+hasrepo: true
+identifier: raven
+name: Raven
+projectpath: playground/mobile/raven
+repoactive: true
+repopath: plasma-mobile/raven

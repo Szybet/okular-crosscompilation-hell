@@ -1,0 +1,7 @@
+description: Docker packaging environment for KDE Neon, including everything
+hasrepo: true
+identifier: docker-neon-all
+name: KDE Neon Docker with Everything
+projectpath: playground/packaging/docker-neon-all
+repoactive: false
+repopath: packaging/docker-neon-all

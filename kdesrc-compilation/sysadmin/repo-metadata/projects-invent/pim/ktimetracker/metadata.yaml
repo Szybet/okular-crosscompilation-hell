@@ -1,0 +1,9 @@
+description: Todo management and time tracker
+hasrepo: true
+identifier: ktimetracker
+name: KTimeTracker
+projectpath: extragear/pim/ktimetracker
+repoactive: true
+repopath: pim/ktimetracker
+bugzilla:
+    product: ktimetracker

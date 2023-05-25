@@ -1,0 +1,9 @@
+bugzilla:
+  product: katomic
+description: Katomic is a fun and educational game built around molecular geometry
+hasrepo: true
+identifier: katomic
+name: Katomic
+projectpath: kde/kdegames/katomic
+repoactive: true
+repopath: games/katomic

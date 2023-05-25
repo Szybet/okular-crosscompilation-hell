@@ -1,0 +1,7 @@
+description: KTextEditor plugin which allows to edit text documents collaboratively
+hasrepo: true
+identifier: kte-collaborative
+name: KTextEditor Collaborative Editing
+projectpath: playground/network/kte-collaborative
+repoactive: false
+repopath: network/kte-collaborative

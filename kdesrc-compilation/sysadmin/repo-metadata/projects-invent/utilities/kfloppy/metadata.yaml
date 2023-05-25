@@ -1,0 +1,9 @@
+bugzilla:
+  product: kfloppy
+description: Graphical utility to format 3.5" and 5.25" floppy disks
+hasrepo: true
+identifier: kfloppy
+name: KFloppy
+projectpath: kde/kdeutils/kfloppy
+repoactive: true
+repopath: utilities/kfloppy

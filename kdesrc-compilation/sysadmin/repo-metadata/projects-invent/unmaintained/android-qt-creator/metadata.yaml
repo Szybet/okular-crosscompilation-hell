@@ -1,0 +1,7 @@
+description: Android port of Qt Creator IDE
+hasrepo: true
+identifier: android-qt-creator
+name: Android Qt Creator
+projectpath: unmaintained/necessitas/android-qt-creator
+repoactive: false
+repopath: unmaintained/android-qt-creator

@@ -1,0 +1,7 @@
+description: Library and client applications for the Make Play Live content store.
+hasrepo: true
+identifier: bodega-client
+name: Add ons installer
+projectpath: unmaintained/bodega-client
+repoactive: false
+repopath: unmaintained/bodega-client

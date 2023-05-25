@@ -1,0 +1,7 @@
+description: Qt wrapper around libinfinity, a library for collaborative editing
+hasrepo: true
+identifier: libqinfinity
+name: Qt wrapper around libinfinity
+projectpath: unmaintained/libqinfinity
+repoactive: false
+repopath: unmaintained/libqinfinity

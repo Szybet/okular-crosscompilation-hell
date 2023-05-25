@@ -1,0 +1,9 @@
+bugzilla:
+  product: bomber
+description: Bomber is a single player arcade game
+hasrepo: true
+identifier: bomber
+name: Bomber
+projectpath: kde/kdegames/bomber
+repoactive: true
+repopath: games/bomber

@@ -1,0 +1,7 @@
+description: Plasma integration for Maliit virtual keyboard
+hasrepo: true
+identifier: plasma-maliit-plugins
+name: Plasma Maliit Plugins
+projectpath: playground/mobile/plasma-maliit-plugins
+repoactive: false
+repopath: plasma-mobile/plasma-maliit-plugins

@@ -1,0 +1,9 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kwallet
+[ 20%] Generating mo...
+[ 20%] Generating ts...
+[ 30%] Automatic MOC for target KF5Wallet
+[ 30%] Built target KF5Wallet_autogen
+[ 30%] Built target tsfiles-d7cba7fa33fd2290ceaea516854289f6
+[ 30%] Built target pofiles-d7cba7fa33fd2290ceaea516854289f6
+[100%] Built target KF5Wallet

@@ -1,0 +1,143 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmimetypechoosertest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kwidgetsaddons/tests",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/frameworks/kwidgetsaddons/tests/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMMarkAsTest.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5Test/Qt5TestConfig.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/frameworks/kwidgetsaddons",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmimetypechoosertest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmimetypechoosertest_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KWIDGETSADDONS_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KWIDGETSADDONS_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50e00",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_TESTCASE_BUILDDIR=\"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons\"",
+		"QT_TESTLIB_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests",
+		"/home/szybet/kdesrc/frameworks/kwidgetsaddons/tests",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/src",
+		"/home/szybet/kdesrc/frameworks/kwidgetsaddons/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtTest",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmimetypechoosertest_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kactionselectortest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kanimatedbuttontest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kassistantdialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kbusyindicatorwidgettest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kcharselecttest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kcollapsiblegroupboxtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kcolorcombotest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kdatecomboboxtestapp_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kdatepickerpopuptest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kdatepicktest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kdatetimeedittestapp_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/keditlistwidgettest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kfontchooserdialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kfontrequestertest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kgradientselectortest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kledtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmessageboxtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmessageboxwidtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmessagedialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kmessagewidgettest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/knewpassworddialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/knewpasswordwidget_test_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kpagedialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kpagewidgettest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kpassworddialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kpixmapregionselectordialogtest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kpixmapsequenceoverlaypaintertest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kratingwidgettest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kselectactiontest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/kseparatortest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/ksqueezedtextlabeltest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/ktitlewidgettest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/ktoolbarlabelactiontest_autogen/mocs_compilation.cpp",
+		"/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/ui_kcolumnresizertestapp.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/CMakeFiles/kmimetypechoosertest_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/frameworks/kwidgetsaddons/tests/CMakeFiles/kmimetypechoosertest_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/frameworks/kwidgetsaddons/tests/kmimetypechoosertest.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,7 @@
+description: Shibboleth discovery support for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-shibboleth-discovery
+name: 'WikiToLearn Shibboleth Discovery Support'
+projectpath: playground/www/wikitolearn-shibboleth-discovery
+repoactive: true
+repopath: wikitolearn/wikitolearn-shibboleth-discovery

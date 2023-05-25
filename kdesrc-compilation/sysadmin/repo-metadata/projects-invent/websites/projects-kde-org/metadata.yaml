@@ -1,0 +1,7 @@
+description: KDE's customized version of Redmine, which used to power Projects
+hasrepo: true
+identifier: websites-projects-kde-org
+name: Projects - Redmine
+projectpath: websites/projects-kde-org
+repoactive: false
+repopath: websites/projects-kde-org

@@ -1,0 +1,7 @@
+description: Package management application using PackageKit
+hasrepo: true
+identifier: apper
+name: Apper
+projectpath: extragear/sysadmin/apper
+repoactive: true
+repopath: system/apper

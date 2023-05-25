@@ -1,0 +1,256 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kpasswdserveradaptor.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include "kpasswdserveradaptor.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kpasswdserveradaptor.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_KPasswdServerAdaptor_t {
+    QByteArrayData data[25];
+    char stringdata0[3206];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_KPasswdServerAdaptor_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_KPasswdServerAdaptor_t qt_meta_stringdata_KPasswdServerAdaptor = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "KPasswdServerAdaptor"
+QT_MOC_LITERAL(1, 21, 15), // "D-Bus Interface"
+QT_MOC_LITERAL(2, 37, 21), // "org.kde.KPasswdServer"
+QT_MOC_LITERAL(3, 59, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 79, 2896), // "  <interface name=\"org.kde.K..."
+QT_MOC_LITERAL(5, 2700, 24), // "checkAuthInfoAsyncResult"
+QT_MOC_LITERAL(6, 2725, 0), // ""
+QT_MOC_LITERAL(7, 2726, 9), // "requestId"
+QT_MOC_LITERAL(8, 2736, 5), // "seqNr"
+QT_MOC_LITERAL(9, 2742, 13), // "KIO::AuthInfo"
+QT_MOC_LITERAL(10, 2756, 4), // "info"
+QT_MOC_LITERAL(11, 2761, 24), // "queryAuthInfoAsyncResult"
+QT_MOC_LITERAL(12, 2786, 11), // "addAuthInfo"
+QT_MOC_LITERAL(13, 2798, 8), // "windowId"
+QT_MOC_LITERAL(14, 2807, 4), // "data"
+QT_MOC_LITERAL(15, 2812, 13), // "checkAuthInfo"
+QT_MOC_LITERAL(16, 2826, 8), // "usertime"
+QT_MOC_LITERAL(17, 2835, 18), // "checkAuthInfoAsync"
+QT_MOC_LITERAL(18, 2854, 13), // "queryAuthInfo"
+QT_MOC_LITERAL(19, 2868, 8), // "errorMsg"
+QT_MOC_LITERAL(20, 2877, 18), // "queryAuthInfoAsync"
+QT_MOC_LITERAL(21, 2896, 14), // "removeAuthInfo"
+QT_MOC_LITERAL(22, 2911, 4), // "host"
+QT_MOC_LITERAL(23, 2916, 8), // "protocol"
+QT_MOC_LITERAL(24, 2925, 4) // "user"
+
+    },
+    "KPasswdServerAdaptor\0D-Bus Interface\0"
+    "org.kde.KPasswdServer\0D-Bus Introspection\0"
+    "  <interface name=\"org.kde.KPasswdServer\">\n    <signal name=\"check"
+    "AuthInfoAsyncResult\">\n      <arg type=\"x\" name=\"requestId\"/>\n  "
+    "    <arg type=\"x\" name=\"seqNr\"/>\n      <arg type=\"(ysssssssssbbb"
+    "ba{s(siv)})\" name=\"info\"/>\n      <annotation value=\"KIO::AuthInfo"
+    "\" name=\"org.qtproject.QtDBus.QtTypeName.Out2\"/>\n    </signal>\n   "
+    " <signal name=\"queryAuthInfoAsyncResult\">\n      <arg type=\"x\" nam"
+    "e=\"requestId\"/>\n      <arg type=\"x\" name=\"seqNr\"/>\n      <arg "
+    "type=\"(ysssssssssbbbba{s(siv)})\" name=\"info\"/>\n      <annotation "
+    "value=\"KIO::AuthInfo\" name=\"org.qtproject.QtDBus.QtTypeName.Out2\"/"
+    ">\n    </signal>\n    <method name=\"checkAuthInfo\">\n      <arg dire"
+    "ction=\"out\" type=\"ay\"/>\n      <arg direction=\"in\" type=\"ay\" n"
+    "ame=\"data\"/>\n      <arg direction=\"in\" type=\"x\" name=\"windowId"
+    "\"/>\n      <arg direction=\"in\" type=\"x\" name=\"usertime\"/>\n    "
+    "</method>\n    <method name=\"queryAuthInfo\">\n      <arg direction=\""
+    "out\" type=\"ay\"/>\n      <arg direction=\"in\" type=\"ay\" name=\"da"
+    "ta\"/>\n      <arg direction=\"in\" type=\"s\" name=\"errorMsg\"/>\n  "
+    "    <arg direction=\"in\" type=\"x\" name=\"windowId\"/>\n      <arg d"
+    "irection=\"in\" type=\"x\" name=\"seqNr\"/>\n      <arg direction=\"in"
+    "\" type=\"x\" name=\"usertime\"/>\n    </method>\n    <method name=\"c"
+    "heckAuthInfoAsync\">\n      <arg direction=\"out\" type=\"x\"/>\n     "
+    " <arg direction=\"in\" type=\"(ysssssssssbbbba{s(siv)})\" name=\"info\""
+    "/>\n      <annotation value=\"KIO::AuthInfo\" name=\"org.qtproject.QtD"
+    "Bus.QtTypeName.In0\"/>\n      <arg direction=\"in\" type=\"x\" name=\""
+    "windowId\"/>\n      <arg direction=\"in\" type=\"x\" name=\"usertime\""
+    "/>\n    </method>\n    <method name=\"queryAuthInfoAsync\">\n      <ar"
+    "g direction=\"out\" type=\"x\"/>\n      <arg direction=\"in\" type=\"("
+    "ysssssssssbbbba{s(siv)})\" name=\"info\"/>\n      <annotation value=\""
+    "KIO::AuthInfo\" name=\"org.qtproject.QtDBus.QtTypeName.In0\"/>\n      "
+    "<arg direction=\"in\" type=\"s\" name=\"errorMsg\"/>\n      <arg direc"
+    "tion=\"in\" type=\"x\" name=\"windowId\"/>\n      <arg direction=\"in\""
+    " type=\"x\" name=\"seqNr\"/>\n      <arg direction=\"in\" type=\"x\" n"
+    "ame=\"usertime\"/>\n    </method>\n    <method name=\"addAuthInfo\">\n"
+    "      <arg direction=\"in\" type=\"ay\" name=\"data\"/>\n      <arg di"
+    "rection=\"in\" type=\"x\" name=\"windowId\"/>\n    </method>\n    <met"
+    "hod name=\"addAuthInfo\">\n      <arg direction=\"in\" type=\"(yssssss"
+    "sssbbbba{s(siv)})\" name=\"info\"/>\n      <annotation value=\"KIO::Au"
+    "thInfo\" name=\"org.qtproject.QtDBus.QtTypeName.In0\"/>\n      <arg di"
+    "rection=\"in\" type=\"x\" name=\"windowId\"/>\n    </method>\n    <met"
+    "hod name=\"removeAuthInfo\">\n      <arg direction=\"in\" type=\"s\" n"
+    "ame=\"host\"/>\n      <arg direction=\"in\" type=\"s\" name=\"protocol"
+    "\"/>\n      <arg direction=\"in\" type=\"s\" name=\"user\"/>\n    </me"
+    "thod>\n  </interface>\n\0"
+    "checkAuthInfoAsyncResult\0\0requestId\0"
+    "seqNr\0KIO::AuthInfo\0info\0"
+    "queryAuthInfoAsyncResult\0addAuthInfo\0"
+    "windowId\0data\0checkAuthInfo\0usertime\0"
+    "checkAuthInfoAsync\0queryAuthInfo\0"
+    "errorMsg\0queryAuthInfoAsync\0removeAuthInfo\0"
+    "host\0protocol\0user"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_KPasswdServerAdaptor[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       2,   14, // classinfo
+       9,   18, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // classinfo: key, value
+       1,    2,
+       3,    4,
+
+ // signals: name, argc, parameters, tag, flags
+       5,    3,   63,    6, 0x06 /* Public */,
+      11,    3,   70,    6, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+      12,    2,   77,    6, 0x0a /* Public */,
+      12,    2,   82,    6, 0x0a /* Public */,
+      15,    3,   87,    6, 0x0a /* Public */,
+      17,    3,   94,    6, 0x0a /* Public */,
+      18,    5,  101,    6, 0x0a /* Public */,
+      20,    5,  112,    6, 0x0a /* Public */,
+      21,    3,  123,    6, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::LongLong, QMetaType::LongLong, 0x80000000 | 9,    7,    8,   10,
+    QMetaType::Void, QMetaType::LongLong, QMetaType::LongLong, 0x80000000 | 9,    7,    8,   10,
+
+ // slots: parameters
+    QMetaType::Void, 0x80000000 | 9, QMetaType::LongLong,   10,   13,
+    QMetaType::Void, QMetaType::QByteArray, QMetaType::LongLong,   14,   13,
+    QMetaType::QByteArray, QMetaType::QByteArray, QMetaType::LongLong, QMetaType::LongLong,   14,   13,   16,
+    QMetaType::LongLong, 0x80000000 | 9, QMetaType::LongLong, QMetaType::LongLong,   10,   13,   16,
+    QMetaType::QByteArray, QMetaType::QByteArray, QMetaType::QString, QMetaType::LongLong, QMetaType::LongLong, QMetaType::LongLong,   14,   19,   13,    8,   16,
+    QMetaType::LongLong, 0x80000000 | 9, QMetaType::QString, QMetaType::LongLong, QMetaType::LongLong, QMetaType::LongLong,   10,   19,   13,    8,   16,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,   22,   23,   24,
+
+       0        // eod
+};
+
+void KPasswdServerAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<KPasswdServerAdaptor *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->checkAuthInfoAsyncResult((*reinterpret_cast< qlonglong(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2])),(*reinterpret_cast< KIO::AuthInfo(*)>(_a[3]))); break;
+        case 1: _t->queryAuthInfoAsyncResult((*reinterpret_cast< qlonglong(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2])),(*reinterpret_cast< KIO::AuthInfo(*)>(_a[3]))); break;
+        case 2: _t->addAuthInfo((*reinterpret_cast< KIO::AuthInfo(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2]))); break;
+        case 3: _t->addAuthInfo((*reinterpret_cast< const QByteArray(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2]))); break;
+        case 4: { QByteArray _r = _t->checkAuthInfo((*reinterpret_cast< const QByteArray(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2])),(*reinterpret_cast< qlonglong(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QByteArray*>(_a[0]) = std::move(_r); }  break;
+        case 5: { qlonglong _r = _t->checkAuthInfoAsync((*reinterpret_cast< KIO::AuthInfo(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2])),(*reinterpret_cast< qlonglong(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< qlonglong*>(_a[0]) = std::move(_r); }  break;
+        case 6: { QByteArray _r = _t->queryAuthInfo((*reinterpret_cast< const QByteArray(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< qlonglong(*)>(_a[3])),(*reinterpret_cast< qlonglong(*)>(_a[4])),(*reinterpret_cast< qlonglong(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< QByteArray*>(_a[0]) = std::move(_r); }  break;
+        case 7: { qlonglong _r = _t->queryAuthInfoAsync((*reinterpret_cast< KIO::AuthInfo(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< qlonglong(*)>(_a[3])),(*reinterpret_cast< qlonglong(*)>(_a[4])),(*reinterpret_cast< qlonglong(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< qlonglong*>(_a[0]) = std::move(_r); }  break;
+        case 8: _t->removeAuthInfo((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (KPasswdServerAdaptor::*)(qlonglong , qlonglong , KIO::AuthInfo );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KPasswdServerAdaptor::checkAuthInfoAsyncResult)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (KPasswdServerAdaptor::*)(qlonglong , qlonglong , KIO::AuthInfo );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KPasswdServerAdaptor::queryAuthInfoAsyncResult)) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject KPasswdServerAdaptor::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDBusAbstractAdaptor::staticMetaObject>(),
+    qt_meta_stringdata_KPasswdServerAdaptor.data,
+    qt_meta_data_KPasswdServerAdaptor,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *KPasswdServerAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KPasswdServerAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_KPasswdServerAdaptor.stringdata0))
+        return static_cast<void*>(this);
+    return QDBusAbstractAdaptor::qt_metacast(_clname);
+}
+
+int KPasswdServerAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractAdaptor::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 9)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 9;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void KPasswdServerAdaptor::checkAuthInfoAsyncResult(qlonglong _t1, qlonglong _t2, KIO::AuthInfo _t3)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void KPasswdServerAdaptor::queryAuthInfoAsyncResult(qlonglong _t1, qlonglong _t2, KIO::AuthInfo _t3)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

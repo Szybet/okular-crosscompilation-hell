@@ -1,0 +1,7 @@
+description: KPart for rendering Markdown content
+hasrepo: true
+identifier: kmarkdownwebview
+name: KMarkdown Webview
+projectpath: extragear/utils/kmarkdownwebview
+repoactive: false
+repopath: utilities/kmarkdownwebview

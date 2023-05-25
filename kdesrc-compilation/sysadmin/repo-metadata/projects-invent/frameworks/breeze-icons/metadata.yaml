@@ -1,0 +1,10 @@
+bugzilla:
+  component: icons
+  product: breeze
+description: Breeze icon theme.
+hasrepo: true
+identifier: breeze-icons
+name: Breeze Icons
+projectpath: frameworks/breeze-icons
+repoactive: true
+repopath: frameworks/breeze-icons

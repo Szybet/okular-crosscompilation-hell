@@ -1,0 +1,7 @@
+description: Analyzer plugins for Strigi
+hasrepo: true
+identifier: kdenetwork-strigi-analyzers
+name: KDE Network Strigi Analyzers
+projectpath: unmaintained/kdenetwork-strigi-analyzers
+repoactive: false
+repopath: unmaintained/kdenetwork-strigi-analyzers

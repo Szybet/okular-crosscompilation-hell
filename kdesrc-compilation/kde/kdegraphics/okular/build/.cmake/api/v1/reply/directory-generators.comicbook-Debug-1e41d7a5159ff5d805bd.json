@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"kcoreaddons_add_plugin",
+			"okular_add_generator"
+		],
+		"files" : 
+		[
+			"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake",
+			"generators/CMakeLists.txt",
+			"generators/comicbook/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "okular",
+			"destination" : "lib/plugins/okular/generators",
+			"paths" : 
+			[
+				"bin/plugins/okular/okularGenerator_comicbook.so"
+			],
+			"targetId" : "okularGenerator_comicbook::@a4fbe277662296b10178",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "okular",
+			"destination" : "share/kservices5",
+			"paths" : 
+			[
+				"generators/comicbook/okularComicbook.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "okular",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"generators/comicbook/okularApplication_comicbook.desktop",
+				"generators/comicbook/org.kde.mobile.okular_comicbook.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "okular",
+			"destination" : "share/metainfo",
+			"paths" : 
+			[
+				"generators/comicbook/org.kde.okular-comicbook.metainfo.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "generators/comicbook",
+		"source" : "generators/comicbook"
+	}
+}

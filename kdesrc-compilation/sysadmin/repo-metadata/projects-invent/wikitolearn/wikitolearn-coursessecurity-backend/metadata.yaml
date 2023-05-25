@@ -1,0 +1,7 @@
+description: Backend Components of Course Security system for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-coursessecurity-backend
+name: 'WikiToLearn Course Security Backend'
+projectpath: playground/www/wikitolearn-coursessecurity-backend
+repoactive: true
+repopath: wikitolearn/wikitolearn-coursessecurity-backend

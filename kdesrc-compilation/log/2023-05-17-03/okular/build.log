@@ -1,0 +1,62 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kde/kdegraphics/okular
+[  2%] Automatic MOC for target okular
+[  2%] Generating ts...
+[  2%] Generating mo...
+[  3%] Automatic MOC for target okularcore
+[  3%] Built target tsfiles-1c55821d4c4d169d1717e2094316414c
+[  3%] Built target okular_autogen
+[  4%] Generating ui_welcomescreen.h
+/home/szybet/kdesrc/kde/kdegraphics/okular/shell/welcomescreen.ui: Warning: The name 'horizontalWidget' (QWidget) is already in use, defaulting to 'horizontalWidget1'.
+[  5%] Building CXX object shell/CMakeFiles/okular.dir/okular_main.cpp.o
+[  5%] Building CXX object shell/CMakeFiles/okular.dir/main.cpp.o
+[  5%] Building CXX object shell/CMakeFiles/okular.dir/shell.cpp.o
+[  5%] Building CXX object shell/CMakeFiles/okular.dir/okular_autogen/mocs_compilation.cpp.o
+[  6%] Building CXX object shell/CMakeFiles/okular.dir/shellutils.cpp.o
+[  6%] Building CXX object shell/CMakeFiles/okular.dir/recentitemsmodel.cpp.o
+[  6%] Built target okularcore_autogen
+[  7%] Building CXX object shell/CMakeFiles/okular.dir/welcomescreen.cpp.o
+[  7%] Generating ui_textdocumentsettings.h
+[  8%] Generating qrc_builtin.cpp
+[  8%] Generating settings_core.h, settings_core.cpp
+/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libexec/kf5/kconfig_compiler_kf5: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libexec/kf5/kconfig_compiler_kf5: cannot execute binary file
+make[2]: *** [CMakeFiles/okularcore.dir/build.make:94: settings_core.h] Error 126
+make[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/okularcore.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:[m[K In constructor '[01m[KShell::Shell(const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:168:35:[m[K [01;35m[Kwarning: [m[K'[01m[KKPluginFactory* KPluginLoader::factory()[m[K' is deprecated: Since 5.86. Use KPluginFactory::loadFactory or KPluginFactory::instantiatePlugin instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  168 |     m_partFactory = [01;35m[Kloader.factory()[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:28[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:126:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  126 |     KPluginFactory *[01;36m[Kfactory[m[K();
+      |                     [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KI18n/KLocalizedString:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:25[m[K:
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:173:100:[m[K [01;35m[Kwarning: [m[K'[01m[KQString KPluginLoader::errorString() const[m[K' is deprecated: Since 5.86. Use QPluginLoader::errorString() instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  173 |         KMessageBox::error(this, i18n("Unable to find the Okular component: %1", [01;35m[Kloader.errorString()[m[K));
+      |                                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/KPluginLoader:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:28[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KCoreAddons/kpluginloader.h:191:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  191 |     QString [01;36m[KerrorString[m[K() const;
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:[m[K In member function '[01m[Kvoid Shell::tryRaise(const QString&)[m[K':
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:661:24:[m[K [01;31m[Kerror: [m[K'[01m[KsetCurrentXdgActivationToken[m[K' is not a member of '[01m[KKWindowSystem[m[K'
+  661 |         KWindowSystem::[01;31m[KsetCurrentXdgActivationToken[m[K(startupId);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:666:57:[m[K [01;31m[Kerror: [m[Kinvalid conversion from '[01m[KQWindow*[m[K' to '[01m[KWId[m[K' {aka '[01m[Kunsigned int[m[K'} [[01;31m[K-fpermissive[m[K]
+  666 |     KWindowSystem::activateWindow([01;31m[Kwindow()->windowHandle()[m[K);
+      |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                         [01;31m[K|[m[K
+      |                                                         [01;31m[KQWindow*[m[K
+In file included from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KWindowSystem/KWindowSystem:1[m[K,
+                 from [01m[K/home/szybet/kdesrc/kde/kdegraphics/okular/shell/shell.cpp:36[m[K:
+[01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/KF5/KWindowSystem/kwindowsystem.h:147:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of '[01m[Kstatic void KWindowSystem::activateWindow(WId, long int)[m[K'
+  147 |     static void activateWindow([01;36m[KWId win[m[K, long time = 0);
+      |                                [01;36m[K~~~~^~~[m[K
+[  8%] Built target pofiles-1c55821d4c4d169d1717e2094316414c
+make[2]: *** [shell/CMakeFiles/okular.dir/build.make:122: shell/CMakeFiles/okular.dir/shell.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:635: shell/CMakeFiles/okular.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

@@ -1,0 +1,11 @@
+description: Port of the Oxygen widget theme to GTK
+hasrepo: true
+identifier: oxygen-gtk
+name: Oxygen for GTK
+projectpath: playground/artwork/oxygen-gtk
+repoactive: true
+repopath: plasma/oxygen-gtk
+
+bugzilla:
+    product: Oxygen
+    component: gtk3-engine

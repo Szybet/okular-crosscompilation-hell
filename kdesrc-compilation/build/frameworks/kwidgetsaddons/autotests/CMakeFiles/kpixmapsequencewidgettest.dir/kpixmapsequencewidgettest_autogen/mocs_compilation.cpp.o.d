@@ -1,0 +1,2 @@
+autotests/CMakeFiles/kpixmapsequencewidgettest.dir/kpixmapsequencewidgettest_autogen/mocs_compilation.cpp.o: \
+ /home/szybet/kdesrc/build/frameworks/kwidgetsaddons/autotests/kpixmapsequencewidgettest_autogen/mocs_compilation.cpp

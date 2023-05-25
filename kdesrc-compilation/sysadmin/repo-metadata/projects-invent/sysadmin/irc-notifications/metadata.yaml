@@ -1,0 +1,8 @@
+description: Essential materials for the KDE IRC commit notifications system, based
+  on Irker and CIA style XML delivered via SMTP.
+hasrepo: true
+identifier: sysadmin-irc-notifications
+name: IRC Commit Notifications
+projectpath: sysadmin/irc-notifications
+repoactive: true
+repopath: sysadmin/irc-notifications

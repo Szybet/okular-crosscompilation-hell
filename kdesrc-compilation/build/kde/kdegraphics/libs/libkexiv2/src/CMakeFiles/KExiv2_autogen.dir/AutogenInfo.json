@@ -1,0 +1,196 @@
+{
+	"BUILD_DIR" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/KExiv2_autogen",
+	"CMAKE_BINARY_DIR" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMVersionHeader.h.in",
+		"/usr/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/cmake/templates/KF5KExiv2Config.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/libkexiv2_debug.h",
+			"Mu",
+			"EJRQKI7XPS/moc_libkexiv2_debug.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2.h",
+			"Mu",
+			"EWIEGA46WW/moc_kexiv2.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kexiv2_p.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2data.h",
+			"Mu",
+			"EWIEGA46WW/moc_kexiv2data.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2previews.h",
+			"Mu",
+			"EWIEGA46WW/moc_kexiv2previews.cpp",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/rotationmatrix.h",
+			"Mu",
+			"EWIEGA46WW/moc_rotationmatrix.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/KExiv2_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/KExiv2_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KEXIV2_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KEXIV2_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"KExiv2_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x060000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x050E00",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_HAS_AUTO_PTR_ETC=1",
+		"_LARGEFILE64_SOURCE",
+		"_LIBCPP_ENABLE_CXX17_REMOVED_AUTO_PTR=1"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src",
+		"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/KExiv2_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/CMakeFiles/KExiv2_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/CMakeFiles/KExiv2_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/szybet/kdesrc/build/kde/kdegraphics/libs/libkexiv2/src/libkexiv2_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2_p.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2comments.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2data.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2exif.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2gps.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2image.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2iptc.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2previews.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/kexiv2xmp.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/szybet/kdesrc/kde/kdegraphics/libs/libkexiv2/src/rotationmatrix.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

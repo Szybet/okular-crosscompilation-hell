@@ -1,0 +1,7 @@
+description: Website for the Peruvian KDE community — pe.kde.org
+hasrepo: true
+identifier: websites-pe-kde-org
+name: KDE Peru Website
+projectpath: websites/pe-kde-org
+repoactive: true
+repopath: websites/pe-kde-org

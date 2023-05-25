@@ -1,0 +1,7 @@
+description: Tool for ripping compact discs
+hasrepo: true
+identifier: audex
+name: Audex
+projectpath: playground/multimedia/audex
+repoactive: true
+repopath: multimedia/audex

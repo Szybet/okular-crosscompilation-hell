@@ -1,0 +1,7 @@
+description: Vakzination manages your health certificates like vaccination, test, and recovery certificates.
+hasrepo: true
+identifier: vakzination
+name: Vakzination
+projectpath: playground/pim/vakzination
+repoactive: true
+repopath: pim/vakzination

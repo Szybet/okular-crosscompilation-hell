@@ -1,0 +1,7 @@
+description: A fast and convenient image viewer
+hasrepo: true
+identifier: kuickshow
+name: Kuickshow
+projectpath: playground/graphics/kuickshow
+repoactive: true
+repopath: graphics/kuickshow

@@ -1,0 +1,7 @@
+description: Chapters Backend for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-chapters-backend
+name: 'WikiToLearn Chapters Backend'
+projectpath: playground/www/wikitolearn-chapters-backend
+repoactive: true
+repopath: wikitolearn/wikitolearn-chapters-backend

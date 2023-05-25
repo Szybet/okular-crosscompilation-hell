@@ -1,0 +1,11 @@
+bugzilla:
+  __do_not_use-legacy-product: kpackage
+  product: frameworks-kpackage
+description: This framework lets applications to manage user installable packages
+  of non-binary assets
+hasrepo: true
+identifier: kpackage
+name: Package framework
+projectpath: frameworks/kpackage
+repoactive: true
+repopath: frameworks/kpackage

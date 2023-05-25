@@ -1,0 +1,9 @@
+description: A friendly onboarding wizard for Plasma
+hasrepo: true
+identifier: plasma-welcome
+name: Welcome Center
+projectpath: kde/workspace/plasma-welcome
+repoactive: true
+repopath: plasma/plasma-welcome
+bugzilla:
+    product: Welcome Center

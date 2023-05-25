@@ -1,0 +1,43 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/ktextwidgets
+-- 
+
+Installing in /mnt/HDD/Project/Public/okulartry/okular-things. Run /home/szybet/kdesrc/build/frameworks/ktextwidgets/prefix.sh to set the environment for KTextWidgets.
+CMake Warning at /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5/Qt5Config.cmake:39 (message):
+  Failed to find Qt5 component "TextToSpeech" config file at
+  "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5TextToSpeech/Qt5TextToSpeechConfig.cmake"
+Call Stack (most recent call first):
+  CMakeLists.txt:41 (find_package)
+
+
+-- Qt5TextToSpeech not found, speech feature will be disabled
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 5.106.0), Extra CMake Modules., <https://commits.kde.org/extra-cmake-modules>
+ * Qt5Gui (required version >= 5.15.2)
+ * Qt5
+ * Qt5Widgets (required version >= 5.15.2)
+ * KF5Completion (required version >= 5.106.0)
+ * Qt5Core (required version >= 5.15.2)
+ * KF5Config (required version >= 5.106.0)
+ * KF5ConfigWidgets (required version >= 5.106.0)
+ * Gettext
+ * KF5I18n (required version >= 5.106.0)
+ * KF5WidgetsAddons (required version >= 5.106.0)
+ * KF5Sonnet (required version >= 5.106.0)
+
+-- The following features have been disabled:
+
+ * QCH, API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)
+ * DESIGNERPLUGIN, Build plugin for Qt Designer
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/frameworks/ktextwidgets
+[ 13%] Automatic MOC for target KF5TextWidgets
+[ 13%] Generating mo...
+[ 20%] Generating ts...
+[ 20%] Built target tsfiles-4ec42fc8356ea28b76f6febeac3e38fb
+[ 20%] Built target KF5TextWidgets_autogen
+[ 20%] Built target pofiles-4ec42fc8356ea28b76f6febeac3e38fb
+[100%] Built target KF5TextWidgets

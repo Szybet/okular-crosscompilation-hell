@@ -1,0 +1,7 @@
+description: AppMenu runner that allows to quickly find any action exported in AppMenu
+hasrepo: true
+identifier: appmenu-runner
+name: AppMenu runner
+projectpath: unmaintained/appmenu-runner
+repoactive: false
+repopath: unmaintained/appmenu-runner

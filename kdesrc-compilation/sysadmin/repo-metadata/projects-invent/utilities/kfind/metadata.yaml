@@ -1,0 +1,9 @@
+bugzilla:
+  product: kfind
+description: File search utility by KDE
+hasrepo: true
+identifier: kfind
+name: KFind
+projectpath: kde/applications/kfind
+repoactive: true
+repopath: utilities/kfind

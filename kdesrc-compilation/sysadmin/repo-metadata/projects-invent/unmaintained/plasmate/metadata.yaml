@@ -1,0 +1,7 @@
+description: Plasma Applet Development Environment
+hasrepo: true
+identifier: plasmate
+name: Plasmate
+projectpath: playground/sdk/plasmate
+repoactive: false
+repopath: unmaintained/plasmate

@@ -1,0 +1,7 @@
+description: Templated convergent controls and multi-platform utilities for Maui applications
+hasrepo: true
+identifier: mauikit
+name: MauiKit
+projectpath: playground/libs/mauikit
+repoactive: true
+repopath: maui/mauikit

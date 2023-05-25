@@ -1,0 +1,7 @@
+description: Shared Services for WikiToLearn
+hasrepo: true
+identifier: wikitolearn-shared-services
+name: 'WikiToLearn Shared Services'
+projectpath: playground/www/wikitolearn-shared-services
+repoactive: true
+repopath: wikitolearn/wikitolearn-shared-services

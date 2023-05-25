@@ -1,0 +1,7 @@
+description: D-Bus library and tools
+hasrepo: true
+identifier: dferry
+name: Dferry
+projectpath: playground/sdk/dferry
+repoactive: true
+repopath: sdk/dferry

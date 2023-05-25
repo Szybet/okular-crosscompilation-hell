@@ -1,0 +1,7 @@
+description: KDE Connect connection manager for Telepathy.
+hasrepo: true
+identifier: telepathy-kdeconnect
+name: Telepathy KDE Connect connection manager
+projectpath: unmaintained/telepathy-kdeconnect
+repoactive: false
+repopath: unmaintained/telepathy-kdeconnect

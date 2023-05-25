@@ -1,0 +1,7 @@
+description: Launcher for Content Snap for Qt5 and KF5
+hasrepo: true
+identifier: snap-kf5-launcher
+name: Snap KF5 Launcher
+projectpath: playground/packaging/snap-kf5-launcher
+repoactive: true
+repopath: packaging/snap-kf5-launcher

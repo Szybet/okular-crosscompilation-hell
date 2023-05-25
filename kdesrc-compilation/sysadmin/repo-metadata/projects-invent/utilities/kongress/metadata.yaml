@@ -1,0 +1,7 @@
+description: Companion application for conferences
+hasrepo: true
+identifier: kongress
+name: Kongress
+projectpath: extragear/utils/kongress
+repoactive: true
+repopath: utilities/kongress

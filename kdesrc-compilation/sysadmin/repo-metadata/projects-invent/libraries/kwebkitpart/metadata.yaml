@@ -1,0 +1,7 @@
+description: WebKit browser component available as KPart
+hasrepo: true
+identifier: kwebkitpart
+name: KWebKitPart
+projectpath: extragear/base/kwebkitpart
+repoactive: true
+repopath: libraries/kwebkitpart

@@ -1,0 +1,7 @@
+description: Historical copy of the libraries module of KDE 2, adapted to compile on modern systems (circa. 2018)
+hasrepo: true
+identifier: kde2-kdelibs
+name: 'Historical - KDE 2 - KDELibs'
+projectpath: historical/kde2-kdelibs
+repoactive: true
+repopath: historical/kde2-kdelibs

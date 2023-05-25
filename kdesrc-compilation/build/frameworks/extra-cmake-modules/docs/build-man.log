@@ -1,0 +1,12 @@
+Running Sphinx v7.0.1
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [man]: all manpages
+updating environment: 0 added, 0 changed, 0 removed
+reading sources... 
+looking for now-outdated files... none found
+writing... ecm-developer.7 { } ecm-find-modules.7 { find-module/Find7z find-module/FindCanberra find-module/FindEGL find-module/FindGLIB2 find-module/FindGperf find-module/FindGradle find-module/FindIcoTool find-module/FindInotify find-module/FindIsoCodes find-module/FindKF5 find-module/FindLibExiv2 find-module/FindLibGit2 find-module/FindLibMount find-module/FindLibcap find-module/FindOpenEXR find-module/FindPhoneNumber find-module/FindPoppler find-module/FindPulseAudio find-module/FindQtWaylandScanner find-module/FindSasl2 find-module/FindSeccomp find-module/FindSharedMimeInfo find-module/FindTaglib find-module/FindUDev find-module/FindWayland find-module/FindWaylandProtocols find-module/FindWaylandScanner find-module/FindX11_XCB find-module/FindXCB find-module/Findepoxy find-module/Findgzip } ecm-kde-modules.7 { kde-module/KDECMakeSettings kde-module/KDEClangFormat kde-module/KDECompilerSettings kde-module/KDEFrameworkCompilerSettings kde-module/KDEGitCommitHooks kde-module/KDEInstallDirs kde-module/KDEInstallDirs5 kde-module/KDEInstallDirs6 kde-module/KDEMetaInfoPlatformCheck kde-module/KDEPackageAppTemplates } ecm-modules.7 { module/CheckAtomic module/ECMAddAppIcon module/ECMAddQch module/ECMAddQtDesignerPlugin module/ECMAddTests module/ECMCheckOutboundLicense module/ECMConfiguredInstall module/ECMCoverageOption module/ECMCreateQmFromPoFiles module/ECMDeprecationSettings module/ECMEnableSanitizers module/ECMFindModuleHelpers module/ECMFindQmlModule module/ECMGenerateDBusServiceFile module/ECMGenerateExportHeader module/ECMGenerateHeaders module/ECMGeneratePkgConfigFile module/ECMGeneratePriFile module/ECMGenerateQmlTypes module/ECMInstallIcons module/ECMMarkAsTest module/ECMMarkNonGuiExecutable module/ECMOptionalAddSubdirectory module/ECMPackageConfigHelpers module/ECMPoQmTools module/ECMQmlModule module/ECMQtDeclareLoggingCategory module/ECMQueryQt module/ECMSetupQtPluginMacroNames module/ECMSetupVersion module/ECMSourceVersionControl module/ECMUninstallTarget module/ECMUseFindModules module/ECMWinResolveSymlinks module/QtVersionOption } ecm-toolchains.7 { toolchain/Android } ecm.7 { } done
+build succeeded.
+
+The manual pages are in man.

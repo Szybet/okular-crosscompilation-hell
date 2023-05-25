@@ -1,0 +1,10 @@
+bugzilla:
+  __do_not_use-legacy-product: kio
+  product: frameworks-kio
+description: KIO
+hasrepo: true
+identifier: kio
+name: KIO
+projectpath: frameworks/kio
+repoactive: true
+repopath: frameworks/kio

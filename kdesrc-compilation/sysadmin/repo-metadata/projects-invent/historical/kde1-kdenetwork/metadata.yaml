@@ -1,0 +1,7 @@
+description: Historical copy of the network applications module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdenetwork
+name: 'Historical - KDE 1 - KDENetwork'
+projectpath: historical/kde1-kdenetwork
+repoactive: true
+repopath: historical/kde1-kdenetwork

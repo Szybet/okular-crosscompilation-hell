@@ -1,0 +1,7 @@
+description: Contains all tooling necessary to run our Gitlab CI jobs for all platforms.
+hasrepo: true
+identifier: sysadmin-ci-utilities
+name: CI Utilities
+projectpath: sysadmin/ci-utilities
+repoactive: false
+repopath: sysadmin/ci-utilities

@@ -1,0 +1,10 @@
+bugzilla:
+  product: frameworks-kwayland
+description: KWayland provides a Qt-style Client and Server library wrapper for the
+  Wayland libraries.
+hasrepo: true
+identifier: kwayland
+name: KWayland
+projectpath: frameworks/kwayland
+repoactive: true
+repopath: frameworks/kwayland

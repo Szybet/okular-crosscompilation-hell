@@ -1,0 +1,7 @@
+description: MauiKit Image Tools Components
+hasrepo: true
+identifier: mauikit-imagetools
+name: MauiKitImageTools
+projectpath: playground/libs/mauikit-imagetools
+repoactive: true
+repopath: maui/mauikit-imagetools

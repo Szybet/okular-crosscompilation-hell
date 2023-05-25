@@ -1,0 +1,7 @@
+description: Scripts and setting files useful during development of KDE software
+hasrepo: true
+identifier: kde-dev-scripts
+name: KDE Development Scripts
+projectpath: kde/kdesdk/kde-dev-scripts
+repoactive: true
+repopath: sdk/kde-dev-scripts

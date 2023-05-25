@@ -1,0 +1,7 @@
+description: "Macports Tree for KDE Software"
+hasrepo: true
+identifier: macports-kde
+name: MacPorts Testing Repository for KDE Software
+projectpath: playground/sdk/macports-kde
+repoactive: false
+repopath: unmaintained/macports-kde

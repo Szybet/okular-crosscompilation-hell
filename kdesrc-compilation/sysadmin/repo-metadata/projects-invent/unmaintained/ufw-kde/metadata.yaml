@@ -1,0 +1,7 @@
+description: GUI Interface for Uncomplicated Firewall (UFW).
+hasrepo: true
+identifier: ufw-kde
+name: UFW-KDE
+projectpath: playground/sysadmin/ufw-kde
+repoactive: false
+repopath: unmaintained/ufw-kde

@@ -1,0 +1,7 @@
+description: Gitlab CI templates for use with Micro Services
+hasrepo: true
+identifier: sysadmin-ci-service-templates
+name: CI Templates Go and Ruby Micro Services 
+projectpath: sysadmin/ci-service-templates
+repoactive: false
+repopath: sysadmin/ci-service-templates

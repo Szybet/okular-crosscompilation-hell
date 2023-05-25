@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kactivities-stats
+description: A library for accessing the usage data collected by the activities system.
+hasrepo: true
+identifier: kactivities-stats
+name: Activities Statistics Library
+projectpath: frameworks/kactivities-stats
+repoactive: true
+repopath: frameworks/kactivities-stats

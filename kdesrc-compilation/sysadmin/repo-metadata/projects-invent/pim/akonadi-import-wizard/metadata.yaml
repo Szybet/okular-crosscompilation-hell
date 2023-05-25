@@ -1,0 +1,7 @@
+description: Assistant to import external PIM data into Akonadi for use in KDE PIM apps
+hasrepo: true
+identifier: akonadi-import-wizard
+name: Akonadi Data Import Wizard
+projectpath: kde/pim/akonadi-import-wizard
+repoactive: true
+repopath: pim/akonadi-import-wizard

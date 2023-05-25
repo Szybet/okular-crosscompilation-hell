@@ -1,0 +1,7 @@
+description: Go language support for KDevelop
+hasrepo: true
+identifier: kdev-go
+name: KDevelop Go Plugin
+projectpath: unmaintained/kdev-go
+repoactive: false
+repopath: unmaintained/kdev-go

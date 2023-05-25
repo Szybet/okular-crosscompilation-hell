@@ -1,0 +1,7 @@
+description: The embeddable expression engine fork for Krita
+hasrepo: true
+identifier: kseexpr
+name: SeExpr for Krita
+projectpath: kdereview/kseexpr
+repoactive: true
+repopath: graphics/kseexpr

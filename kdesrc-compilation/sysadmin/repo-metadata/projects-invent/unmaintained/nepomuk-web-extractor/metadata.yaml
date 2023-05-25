@@ -1,0 +1,9 @@
+description: 'Extract information for Nepomuk resources from various locations.
+
+  More information is available in following wiki pages: [[https://techbase.kde.org/Projects/Nepomuk/WebExtractor]]'
+hasrepo: true
+identifier: nepomuk-web-extractor
+name: Nepomuk Web Extractor
+projectpath: unmaintained/nepomuk-web-extractor
+repoactive: false
+repopath: unmaintained/nepomuk-web-extractor

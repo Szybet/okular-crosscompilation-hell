@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kdelibs4support
+description: KDE 4 Support
+hasrepo: true
+identifier: kdelibs4support
+name: KDE4 Support
+projectpath: frameworks/kdelibs4support
+repoactive: true
+repopath: frameworks/kdelibs4support

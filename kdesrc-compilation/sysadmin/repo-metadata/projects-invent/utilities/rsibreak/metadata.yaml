@@ -1,0 +1,7 @@
+description: Helps prevent Repetitive Strain Injury by reminding you to take a break
+hasrepo: true
+identifier: rsibreak
+name: RSIBreak
+projectpath: extragear/utils/rsibreak
+repoactive: true
+repopath: utilities/rsibreak

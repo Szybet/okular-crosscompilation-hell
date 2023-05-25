@@ -1,0 +1,9 @@
+bugzilla:
+  product: umbrello
+description: GUI for diagramming Unified Modelling Language (UML)
+hasrepo: true
+identifier: umbrello
+name: Umbrello
+projectpath: kde/kdesdk/umbrello
+repoactive: true
+repopath: sdk/umbrello

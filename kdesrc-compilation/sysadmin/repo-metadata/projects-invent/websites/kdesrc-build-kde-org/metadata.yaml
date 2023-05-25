@@ -1,0 +1,7 @@
+description: Website for kdesrc-build — kdesrc-build.kde.org
+hasrepo: true
+identifier: websites-kdesrc-build-kde-org
+name: kdesrc-build Website
+projectpath: websites/kdesrc-build-kde-org
+repoactive: false
+repopath: websites/kdesrc-build-kde-org

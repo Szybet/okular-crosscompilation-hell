@@ -1,0 +1,10 @@
+bugzilla:
+  product: telepathy
+  component: accounts-kcm
+description: KCM for configuring Telepathy Instant Messaging Accounts
+hasrepo: true
+identifier: ktp-accounts-kcm
+name: Telepathy Accounts KCM
+projectpath: kde/kdenetwork/ktp-accounts-kcm
+repoactive: true
+repopath: network/ktp-accounts-kcm

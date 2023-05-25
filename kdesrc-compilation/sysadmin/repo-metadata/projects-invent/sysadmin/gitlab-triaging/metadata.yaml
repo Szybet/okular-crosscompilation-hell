@@ -1,0 +1,7 @@
+description: Service to automatically triage Merge Requests, Tasks and other items on KDE Invent (Gitlab)
+hasrepo: true
+identifier: sysadmin-gitlab-triaging
+name: Gitlab Triaging
+projectpath: sysadmin/gitlab-triaging
+repoactive: true
+repopath: sysadmin/gitlab-triaging

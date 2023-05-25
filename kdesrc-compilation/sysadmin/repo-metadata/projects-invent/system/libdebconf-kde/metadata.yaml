@@ -1,0 +1,7 @@
+description: A library that talks debconf protocol used to present questions
+hasrepo: true
+identifier: libdebconf-kde
+name: libdebconf-kde
+projectpath: extragear/sysadmin/libdebconf-kde
+repoactive: true
+repopath: system/libdebconf-kde

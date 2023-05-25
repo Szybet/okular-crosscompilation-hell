@@ -1,0 +1,7 @@
+description: Powerful libraries (KChart, KGantt) for creating business diagrams
+hasrepo: true
+identifier: kdiagram
+name: KDiagram
+projectpath: extragear/graphics/kdiagram
+repoactive: true
+repopath: graphics/kdiagram

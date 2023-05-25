@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kguiaddons
+description: KGuiAddons
+hasrepo: true
+identifier: kguiaddons
+name: KGuiAddons
+projectpath: frameworks/kguiaddons
+repoactive: true
+repopath: frameworks/kguiaddons

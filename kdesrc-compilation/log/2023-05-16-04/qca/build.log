@@ -1,0 +1,46 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kdesupport/qca
+CMake Deprecation Warning at CMakeLists.txt:19 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Building Qt 5 version
+-- Installed package is NOT relocatable
+-- Checking for certstore..
+-- Found system certstore
+-- certstore path: /etc/ssl/certs/ca-certificates.crt
+
+Plugins:
+  qca-botan off
+  qca-cyrus-sasl off
+  qca-gcrypt off
+  qca-gnupg off
+  qca-logger off
+  qca-nss off
+  qca-ossl off
+  qca-pkcs11 off
+  qca-softstore off
+
+QCA prefix is /mnt/HDD/Project/Public/okulartry/okular-things
+Plugins will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/lib/qca-qt5
+Binary will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/bin
+Library will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/lib
+Public headers will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5
+Private headers will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5
+Feature file will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/features
+Documentation will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/share/doc/qca-qt5/html
+Man page will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/share/man
+Pkg-config file will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/szybet/kdesrc/build/kdesupport/qca
+[  2%] Automatic MOC for target qca-qt5
+[  2%] Built target qca-qt5_autogen
+[100%] Built target qca-qt5

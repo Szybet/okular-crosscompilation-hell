@@ -1,0 +1,7 @@
+description: Expose Sink contacts to KPeople
+hasrepo: true
+identifier: kpeoplesink
+name: KPeople Sink Backend
+projectpath: playground/pim/kpeoplesink
+repoactive: true
+repopath: pim/kpeoplesink

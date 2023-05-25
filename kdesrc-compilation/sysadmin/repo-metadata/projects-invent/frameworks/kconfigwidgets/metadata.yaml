@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kconfigwidgets
+description: Widgets for KConfig
+hasrepo: true
+identifier: kconfigwidgets
+name: KConfigWidgets
+projectpath: frameworks/kconfigwidgets
+repoactive: true
+repopath: frameworks/kconfigwidgets

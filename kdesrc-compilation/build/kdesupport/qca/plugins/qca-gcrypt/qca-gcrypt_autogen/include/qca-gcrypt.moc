@@ -1,0 +1,538 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qca-gcrypt.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qca-gcrypt.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_gcryptQCAPlugin__gcryHashContext_t {
+    QByteArrayData data[1];
+    char stringdata0[33];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gcryptQCAPlugin__gcryHashContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gcryptQCAPlugin__gcryHashContext_t qt_meta_stringdata_gcryptQCAPlugin__gcryHashContext = {
+    {
+QT_MOC_LITERAL(0, 0, 32) // "gcryptQCAPlugin::gcryHashContext"
+
+    },
+    "gcryptQCAPlugin::gcryHashContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gcryptQCAPlugin__gcryHashContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gcryptQCAPlugin::gcryHashContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject gcryptQCAPlugin::gcryHashContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<QCA::HashContext::staticMetaObject>(),
+    qt_meta_stringdata_gcryptQCAPlugin__gcryHashContext.data,
+    qt_meta_data_gcryptQCAPlugin__gcryHashContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gcryptQCAPlugin::gcryHashContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gcryptQCAPlugin::gcryHashContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gcryptQCAPlugin__gcryHashContext.stringdata0))
+        return static_cast<void*>(this);
+    return QCA::HashContext::qt_metacast(_clname);
+}
+
+int gcryptQCAPlugin::gcryHashContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QCA::HashContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gcryptQCAPlugin__gcryHMACContext_t {
+    QByteArrayData data[1];
+    char stringdata0[33];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gcryptQCAPlugin__gcryHMACContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gcryptQCAPlugin__gcryHMACContext_t qt_meta_stringdata_gcryptQCAPlugin__gcryHMACContext = {
+    {
+QT_MOC_LITERAL(0, 0, 32) // "gcryptQCAPlugin::gcryHMACContext"
+
+    },
+    "gcryptQCAPlugin::gcryHMACContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gcryptQCAPlugin__gcryHMACContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gcryptQCAPlugin::gcryHMACContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject gcryptQCAPlugin::gcryHMACContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<QCA::MACContext::staticMetaObject>(),
+    qt_meta_stringdata_gcryptQCAPlugin__gcryHMACContext.data,
+    qt_meta_data_gcryptQCAPlugin__gcryHMACContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gcryptQCAPlugin::gcryHMACContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gcryptQCAPlugin::gcryHMACContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gcryptQCAPlugin__gcryHMACContext.stringdata0))
+        return static_cast<void*>(this);
+    return QCA::MACContext::qt_metacast(_clname);
+}
+
+int gcryptQCAPlugin::gcryHMACContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QCA::MACContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gcryptQCAPlugin__gcryCipherContext_t {
+    QByteArrayData data[1];
+    char stringdata0[35];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gcryptQCAPlugin__gcryCipherContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gcryptQCAPlugin__gcryCipherContext_t qt_meta_stringdata_gcryptQCAPlugin__gcryCipherContext = {
+    {
+QT_MOC_LITERAL(0, 0, 34) // "gcryptQCAPlugin::gcryCipherCo..."
+
+    },
+    "gcryptQCAPlugin::gcryCipherContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gcryptQCAPlugin__gcryCipherContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gcryptQCAPlugin::gcryCipherContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject gcryptQCAPlugin::gcryCipherContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<QCA::CipherContext::staticMetaObject>(),
+    qt_meta_stringdata_gcryptQCAPlugin__gcryCipherContext.data,
+    qt_meta_data_gcryptQCAPlugin__gcryCipherContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gcryptQCAPlugin::gcryCipherContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gcryptQCAPlugin::gcryCipherContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gcryptQCAPlugin__gcryCipherContext.stringdata0))
+        return static_cast<void*>(this);
+    return QCA::CipherContext::qt_metacast(_clname);
+}
+
+int gcryptQCAPlugin::gcryCipherContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QCA::CipherContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gcryptQCAPlugin__pbkdf1Context_t {
+    QByteArrayData data[1];
+    char stringdata0[31];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gcryptQCAPlugin__pbkdf1Context_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gcryptQCAPlugin__pbkdf1Context_t qt_meta_stringdata_gcryptQCAPlugin__pbkdf1Context = {
+    {
+QT_MOC_LITERAL(0, 0, 30) // "gcryptQCAPlugin::pbkdf1Context"
+
+    },
+    "gcryptQCAPlugin::pbkdf1Context"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gcryptQCAPlugin__pbkdf1Context[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gcryptQCAPlugin::pbkdf1Context::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject gcryptQCAPlugin::pbkdf1Context::staticMetaObject = { {
+    QMetaObject::SuperData::link<QCA::KDFContext::staticMetaObject>(),
+    qt_meta_stringdata_gcryptQCAPlugin__pbkdf1Context.data,
+    qt_meta_data_gcryptQCAPlugin__pbkdf1Context,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gcryptQCAPlugin::pbkdf1Context::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gcryptQCAPlugin::pbkdf1Context::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gcryptQCAPlugin__pbkdf1Context.stringdata0))
+        return static_cast<void*>(this);
+    return QCA::KDFContext::qt_metacast(_clname);
+}
+
+int gcryptQCAPlugin::pbkdf1Context::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QCA::KDFContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gcryptQCAPlugin__pbkdf2Context_t {
+    QByteArrayData data[1];
+    char stringdata0[31];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gcryptQCAPlugin__pbkdf2Context_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gcryptQCAPlugin__pbkdf2Context_t qt_meta_stringdata_gcryptQCAPlugin__pbkdf2Context = {
+    {
+QT_MOC_LITERAL(0, 0, 30) // "gcryptQCAPlugin::pbkdf2Context"
+
+    },
+    "gcryptQCAPlugin::pbkdf2Context"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gcryptQCAPlugin__pbkdf2Context[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gcryptQCAPlugin::pbkdf2Context::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject gcryptQCAPlugin::pbkdf2Context::staticMetaObject = { {
+    QMetaObject::SuperData::link<QCA::KDFContext::staticMetaObject>(),
+    qt_meta_stringdata_gcryptQCAPlugin__pbkdf2Context.data,
+    qt_meta_data_gcryptQCAPlugin__pbkdf2Context,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gcryptQCAPlugin::pbkdf2Context::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gcryptQCAPlugin::pbkdf2Context::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gcryptQCAPlugin__pbkdf2Context.stringdata0))
+        return static_cast<void*>(this);
+    return QCA::KDFContext::qt_metacast(_clname);
+}
+
+int gcryptQCAPlugin::pbkdf2Context::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QCA::KDFContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gcryptQCAPlugin__hkdfContext_t {
+    QByteArrayData data[1];
+    char stringdata0[29];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gcryptQCAPlugin__hkdfContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gcryptQCAPlugin__hkdfContext_t qt_meta_stringdata_gcryptQCAPlugin__hkdfContext = {
+    {
+QT_MOC_LITERAL(0, 0, 28) // "gcryptQCAPlugin::hkdfContext"
+
+    },
+    "gcryptQCAPlugin::hkdfContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gcryptQCAPlugin__hkdfContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gcryptQCAPlugin::hkdfContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject gcryptQCAPlugin::hkdfContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<QCA::HKDFContext::staticMetaObject>(),
+    qt_meta_stringdata_gcryptQCAPlugin__hkdfContext.data,
+    qt_meta_data_gcryptQCAPlugin__hkdfContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gcryptQCAPlugin::hkdfContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gcryptQCAPlugin::hkdfContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gcryptQCAPlugin__hkdfContext.stringdata0))
+        return static_cast<void*>(this);
+    return QCA::HKDFContext::qt_metacast(_clname);
+}
+
+int gcryptQCAPlugin::hkdfContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QCA::HKDFContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gcryptPlugin_t {
+    QByteArrayData data[1];
+    char stringdata0[13];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gcryptPlugin_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gcryptPlugin_t qt_meta_stringdata_gcryptPlugin = {
+    {
+QT_MOC_LITERAL(0, 0, 12) // "gcryptPlugin"
+
+    },
+    "gcryptPlugin"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gcryptPlugin[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gcryptPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject gcryptPlugin::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_gcryptPlugin.data,
+    qt_meta_data_gcryptPlugin,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gcryptPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gcryptPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gcryptPlugin.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "QCAPlugin"))
+        return static_cast< QCAPlugin*>(this);
+    if (!strcmp(_clname, "com.affinix.qca.Plugin/1.0"))
+        return static_cast< QCAPlugin*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int gcryptPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+QT_PLUGIN_METADATA_SECTION
+static constexpr unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x1a,  'c',  'o',  'm',  '.',  'a', 
+    'f',  'f',  'i',  'n',  'i',  'x',  '.',  'q', 
+    'c',  'a',  '.',  'P',  'l',  'u',  'g',  'i', 
+    'n',  '/',  '1',  '.',  '0', 
+    // "className"
+    0x03,  0x6c,  'g',  'c',  'r',  'y',  'p',  't', 
+    'P',  'l',  'u',  'g',  'i',  'n', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(gcryptPlugin, gcryptPlugin)
+
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

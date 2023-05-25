@@ -1,0 +1,7 @@
+description: Simple drawing programs using Kirigami for the UI and Rust for the rendering.
+hasrepo: true
+identifier: pikasso
+name: Pikasso
+projectpath: playground/graphics/pikasso
+repoactive: true
+repopath: graphics/pikasso

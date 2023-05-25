@@ -1,0 +1,10 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/kde/kdegraphics/kdegraphics-mobipocket
+[ 16%] Automatic MOC for target qmobipocket
+[ 16%] Built target qmobipocket_autogen
+[ 33%] Building CXX object lib/CMakeFiles/qmobipocket.dir/decompressor.cpp.o
+[ 50%] Building CXX object lib/CMakeFiles/qmobipocket.dir/mobipocket.cpp.o
+[ 66%] Building CXX object lib/CMakeFiles/qmobipocket.dir/qfilestream.cpp.o
+[ 83%] Building CXX object lib/CMakeFiles/qmobipocket.dir/qmobipocket_autogen/mocs_compilation.cpp.o
+[100%] Linking CXX shared library ../bin/libqmobipocket.so
+[100%] Built target qmobipocket

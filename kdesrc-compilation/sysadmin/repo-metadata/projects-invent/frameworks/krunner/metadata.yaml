@@ -1,0 +1,10 @@
+bugzilla:
+  __do_not_use-legacy-product: krunner
+  product: frameworks-krunner
+description: Framework for providing different actions given a string query.
+hasrepo: true
+identifier: krunner
+name: KRunner
+projectpath: frameworks/krunner
+repoactive: true
+repopath: frameworks/krunner

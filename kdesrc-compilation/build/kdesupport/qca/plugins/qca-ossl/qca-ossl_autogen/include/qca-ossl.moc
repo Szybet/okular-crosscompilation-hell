@@ -1,0 +1,2133 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qca-ossl.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qca-ossl.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_opensslQCAPlugin__opensslHashContext_t {
+    QByteArrayData data[1];
+    char stringdata0[37];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslHashContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslHashContext_t qt_meta_stringdata_opensslQCAPlugin__opensslHashContext = {
+    {
+QT_MOC_LITERAL(0, 0, 36) // "opensslQCAPlugin::opensslHash..."
+
+    },
+    "opensslQCAPlugin::opensslHashContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslHashContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslHashContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslHashContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<HashContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslHashContext.data,
+    qt_meta_data_opensslQCAPlugin__opensslHashContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslHashContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslHashContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslHashContext.stringdata0))
+        return static_cast<void*>(this);
+    return HashContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslHashContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = HashContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf1Context_t {
+    QByteArrayData data[1];
+    char stringdata0[39];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf1Context_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf1Context_t qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf1Context = {
+    {
+QT_MOC_LITERAL(0, 0, 38) // "opensslQCAPlugin::opensslPbkd..."
+
+    },
+    "opensslQCAPlugin::opensslPbkdf1Context"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslPbkdf1Context[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslPbkdf1Context::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslPbkdf1Context::staticMetaObject = { {
+    QMetaObject::SuperData::link<KDFContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf1Context.data,
+    qt_meta_data_opensslQCAPlugin__opensslPbkdf1Context,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslPbkdf1Context::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslPbkdf1Context::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf1Context.stringdata0))
+        return static_cast<void*>(this);
+    return KDFContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslPbkdf1Context::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KDFContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf2Context_t {
+    QByteArrayData data[1];
+    char stringdata0[39];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf2Context_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf2Context_t qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf2Context = {
+    {
+QT_MOC_LITERAL(0, 0, 38) // "opensslQCAPlugin::opensslPbkd..."
+
+    },
+    "opensslQCAPlugin::opensslPbkdf2Context"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslPbkdf2Context[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslPbkdf2Context::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslPbkdf2Context::staticMetaObject = { {
+    QMetaObject::SuperData::link<KDFContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf2Context.data,
+    qt_meta_data_opensslQCAPlugin__opensslPbkdf2Context,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslPbkdf2Context::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslPbkdf2Context::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslPbkdf2Context.stringdata0))
+        return static_cast<void*>(this);
+    return KDFContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslPbkdf2Context::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KDFContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__opensslHkdfContext_t {
+    QByteArrayData data[1];
+    char stringdata0[37];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslHkdfContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslHkdfContext_t qt_meta_stringdata_opensslQCAPlugin__opensslHkdfContext = {
+    {
+QT_MOC_LITERAL(0, 0, 36) // "opensslQCAPlugin::opensslHkdf..."
+
+    },
+    "opensslQCAPlugin::opensslHkdfContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslHkdfContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslHkdfContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslHkdfContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<HKDFContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslHkdfContext.data,
+    qt_meta_data_opensslQCAPlugin__opensslHkdfContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslHkdfContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslHkdfContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslHkdfContext.stringdata0))
+        return static_cast<void*>(this);
+    return HKDFContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslHkdfContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = HKDFContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__opensslHMACContext_t {
+    QByteArrayData data[1];
+    char stringdata0[37];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslHMACContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslHMACContext_t qt_meta_stringdata_opensslQCAPlugin__opensslHMACContext = {
+    {
+QT_MOC_LITERAL(0, 0, 36) // "opensslQCAPlugin::opensslHMAC..."
+
+    },
+    "opensslQCAPlugin::opensslHMACContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslHMACContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslHMACContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslHMACContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<MACContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslHMACContext.data,
+    qt_meta_data_opensslQCAPlugin__opensslHMACContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslHMACContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslHMACContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslHMACContext.stringdata0))
+        return static_cast<void*>(this);
+    return MACContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslHMACContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = MACContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__DLGroupMaker_t {
+    QByteArrayData data[1];
+    char stringdata0[31];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__DLGroupMaker_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__DLGroupMaker_t qt_meta_stringdata_opensslQCAPlugin__DLGroupMaker = {
+    {
+QT_MOC_LITERAL(0, 0, 30) // "opensslQCAPlugin::DLGroupMaker"
+
+    },
+    "opensslQCAPlugin::DLGroupMaker"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__DLGroupMaker[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::DLGroupMaker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::DLGroupMaker::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__DLGroupMaker.data,
+    qt_meta_data_opensslQCAPlugin__DLGroupMaker,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::DLGroupMaker::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::DLGroupMaker::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__DLGroupMaker.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::DLGroupMaker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyDLGroup_t {
+    QByteArrayData data[3];
+    char stringdata0[41];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyDLGroup_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyDLGroup_t qt_meta_stringdata_opensslQCAPlugin__MyDLGroup = {
+    {
+QT_MOC_LITERAL(0, 0, 27), // "opensslQCAPlugin::MyDLGroup"
+QT_MOC_LITERAL(1, 28, 11), // "gm_finished"
+QT_MOC_LITERAL(2, 40, 0) // ""
+
+    },
+    "opensslQCAPlugin::MyDLGroup\0gm_finished\0"
+    ""
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyDLGroup[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyDLGroup::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<MyDLGroup *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->gm_finished(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyDLGroup::staticMetaObject = { {
+    QMetaObject::SuperData::link<DLGroupContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyDLGroup.data,
+    qt_meta_data_opensslQCAPlugin__MyDLGroup,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyDLGroup::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyDLGroup::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyDLGroup.stringdata0))
+        return static_cast<void*>(this);
+    return DLGroupContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyDLGroup::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = DLGroupContext::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__RSAKeyMaker_t {
+    QByteArrayData data[1];
+    char stringdata0[30];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__RSAKeyMaker_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__RSAKeyMaker_t qt_meta_stringdata_opensslQCAPlugin__RSAKeyMaker = {
+    {
+QT_MOC_LITERAL(0, 0, 29) // "opensslQCAPlugin::RSAKeyMaker"
+
+    },
+    "opensslQCAPlugin::RSAKeyMaker"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__RSAKeyMaker[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::RSAKeyMaker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::RSAKeyMaker::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__RSAKeyMaker.data,
+    qt_meta_data_opensslQCAPlugin__RSAKeyMaker,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::RSAKeyMaker::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::RSAKeyMaker::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__RSAKeyMaker.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::RSAKeyMaker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__RSAKey_t {
+    QByteArrayData data[3];
+    char stringdata0[38];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__RSAKey_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__RSAKey_t qt_meta_stringdata_opensslQCAPlugin__RSAKey = {
+    {
+QT_MOC_LITERAL(0, 0, 24), // "opensslQCAPlugin::RSAKey"
+QT_MOC_LITERAL(1, 25, 11), // "km_finished"
+QT_MOC_LITERAL(2, 37, 0) // ""
+
+    },
+    "opensslQCAPlugin::RSAKey\0km_finished\0"
+    ""
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__RSAKey[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void opensslQCAPlugin::RSAKey::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<RSAKey *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->km_finished(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::RSAKey::staticMetaObject = { {
+    QMetaObject::SuperData::link<RSAContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__RSAKey.data,
+    qt_meta_data_opensslQCAPlugin__RSAKey,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::RSAKey::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::RSAKey::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__RSAKey.stringdata0))
+        return static_cast<void*>(this);
+    return RSAContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::RSAKey::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = RSAContext::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__DSAKeyMaker_t {
+    QByteArrayData data[1];
+    char stringdata0[30];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__DSAKeyMaker_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__DSAKeyMaker_t qt_meta_stringdata_opensslQCAPlugin__DSAKeyMaker = {
+    {
+QT_MOC_LITERAL(0, 0, 29) // "opensslQCAPlugin::DSAKeyMaker"
+
+    },
+    "opensslQCAPlugin::DSAKeyMaker"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__DSAKeyMaker[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::DSAKeyMaker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::DSAKeyMaker::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__DSAKeyMaker.data,
+    qt_meta_data_opensslQCAPlugin__DSAKeyMaker,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::DSAKeyMaker::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::DSAKeyMaker::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__DSAKeyMaker.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::DSAKeyMaker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__DSAKey_t {
+    QByteArrayData data[3];
+    char stringdata0[38];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__DSAKey_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__DSAKey_t qt_meta_stringdata_opensslQCAPlugin__DSAKey = {
+    {
+QT_MOC_LITERAL(0, 0, 24), // "opensslQCAPlugin::DSAKey"
+QT_MOC_LITERAL(1, 25, 11), // "km_finished"
+QT_MOC_LITERAL(2, 37, 0) // ""
+
+    },
+    "opensslQCAPlugin::DSAKey\0km_finished\0"
+    ""
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__DSAKey[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void opensslQCAPlugin::DSAKey::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<DSAKey *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->km_finished(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::DSAKey::staticMetaObject = { {
+    QMetaObject::SuperData::link<DSAContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__DSAKey.data,
+    qt_meta_data_opensslQCAPlugin__DSAKey,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::DSAKey::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::DSAKey::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__DSAKey.stringdata0))
+        return static_cast<void*>(this);
+    return DSAContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::DSAKey::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = DSAContext::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__DHKeyMaker_t {
+    QByteArrayData data[1];
+    char stringdata0[29];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__DHKeyMaker_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__DHKeyMaker_t qt_meta_stringdata_opensslQCAPlugin__DHKeyMaker = {
+    {
+QT_MOC_LITERAL(0, 0, 28) // "opensslQCAPlugin::DHKeyMaker"
+
+    },
+    "opensslQCAPlugin::DHKeyMaker"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__DHKeyMaker[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::DHKeyMaker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::DHKeyMaker::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__DHKeyMaker.data,
+    qt_meta_data_opensslQCAPlugin__DHKeyMaker,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::DHKeyMaker::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::DHKeyMaker::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__DHKeyMaker.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::DHKeyMaker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__DHKey_t {
+    QByteArrayData data[3];
+    char stringdata0[37];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__DHKey_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__DHKey_t qt_meta_stringdata_opensslQCAPlugin__DHKey = {
+    {
+QT_MOC_LITERAL(0, 0, 23), // "opensslQCAPlugin::DHKey"
+QT_MOC_LITERAL(1, 24, 11), // "km_finished"
+QT_MOC_LITERAL(2, 36, 0) // ""
+
+    },
+    "opensslQCAPlugin::DHKey\0km_finished\0"
+    ""
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__DHKey[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void opensslQCAPlugin::DHKey::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<DHKey *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->km_finished(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::DHKey::staticMetaObject = { {
+    QMetaObject::SuperData::link<DHContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__DHKey.data,
+    qt_meta_data_opensslQCAPlugin__DHKey,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::DHKey::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::DHKey::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__DHKey.stringdata0))
+        return static_cast<void*>(this);
+    return DHContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::DHKey::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = DHContext::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyPKeyContext_t {
+    QByteArrayData data[1];
+    char stringdata0[32];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyPKeyContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyPKeyContext_t qt_meta_stringdata_opensslQCAPlugin__MyPKeyContext = {
+    {
+QT_MOC_LITERAL(0, 0, 31) // "opensslQCAPlugin::MyPKeyContext"
+
+    },
+    "opensslQCAPlugin::MyPKeyContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyPKeyContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyPKeyContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyPKeyContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<PKeyContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyPKeyContext.data,
+    qt_meta_data_opensslQCAPlugin__MyPKeyContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyPKeyContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyPKeyContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyPKeyContext.stringdata0))
+        return static_cast<void*>(this);
+    return PKeyContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyPKeyContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = PKeyContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyCertContext_t {
+    QByteArrayData data[1];
+    char stringdata0[32];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyCertContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyCertContext_t qt_meta_stringdata_opensslQCAPlugin__MyCertContext = {
+    {
+QT_MOC_LITERAL(0, 0, 31) // "opensslQCAPlugin::MyCertContext"
+
+    },
+    "opensslQCAPlugin::MyCertContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyCertContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyCertContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyCertContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<CertContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyCertContext.data,
+    qt_meta_data_opensslQCAPlugin__MyCertContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyCertContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyCertContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyCertContext.stringdata0))
+        return static_cast<void*>(this);
+    return CertContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyCertContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = CertContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyCAContext_t {
+    QByteArrayData data[1];
+    char stringdata0[30];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyCAContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyCAContext_t qt_meta_stringdata_opensslQCAPlugin__MyCAContext = {
+    {
+QT_MOC_LITERAL(0, 0, 29) // "opensslQCAPlugin::MyCAContext"
+
+    },
+    "opensslQCAPlugin::MyCAContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyCAContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyCAContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyCAContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<CAContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyCAContext.data,
+    qt_meta_data_opensslQCAPlugin__MyCAContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyCAContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyCAContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyCAContext.stringdata0))
+        return static_cast<void*>(this);
+    return CAContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyCAContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = CAContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyCSRContext_t {
+    QByteArrayData data[1];
+    char stringdata0[31];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyCSRContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyCSRContext_t qt_meta_stringdata_opensslQCAPlugin__MyCSRContext = {
+    {
+QT_MOC_LITERAL(0, 0, 30) // "opensslQCAPlugin::MyCSRContext"
+
+    },
+    "opensslQCAPlugin::MyCSRContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyCSRContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyCSRContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyCSRContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<CSRContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyCSRContext.data,
+    qt_meta_data_opensslQCAPlugin__MyCSRContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyCSRContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyCSRContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyCSRContext.stringdata0))
+        return static_cast<void*>(this);
+    return CSRContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyCSRContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = CSRContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyCRLContext_t {
+    QByteArrayData data[1];
+    char stringdata0[31];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyCRLContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyCRLContext_t qt_meta_stringdata_opensslQCAPlugin__MyCRLContext = {
+    {
+QT_MOC_LITERAL(0, 0, 30) // "opensslQCAPlugin::MyCRLContext"
+
+    },
+    "opensslQCAPlugin::MyCRLContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyCRLContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyCRLContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyCRLContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<CRLContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyCRLContext.data,
+    qt_meta_data_opensslQCAPlugin__MyCRLContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyCRLContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyCRLContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyCRLContext.stringdata0))
+        return static_cast<void*>(this);
+    return CRLContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyCRLContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = CRLContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyCertCollectionContext_t {
+    QByteArrayData data[1];
+    char stringdata0[42];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyCertCollectionContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyCertCollectionContext_t qt_meta_stringdata_opensslQCAPlugin__MyCertCollectionContext = {
+    {
+QT_MOC_LITERAL(0, 0, 41) // "opensslQCAPlugin::MyCertColle..."
+
+    },
+    "opensslQCAPlugin::MyCertCollectionContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyCertCollectionContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyCertCollectionContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyCertCollectionContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<CertCollectionContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyCertCollectionContext.data,
+    qt_meta_data_opensslQCAPlugin__MyCertCollectionContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyCertCollectionContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyCertCollectionContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyCertCollectionContext.stringdata0))
+        return static_cast<void*>(this);
+    return CertCollectionContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyCertCollectionContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = CertCollectionContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyPKCS12Context_t {
+    QByteArrayData data[1];
+    char stringdata0[34];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyPKCS12Context_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyPKCS12Context_t qt_meta_stringdata_opensslQCAPlugin__MyPKCS12Context = {
+    {
+QT_MOC_LITERAL(0, 0, 33) // "opensslQCAPlugin::MyPKCS12Con..."
+
+    },
+    "opensslQCAPlugin::MyPKCS12Context"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyPKCS12Context[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyPKCS12Context::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyPKCS12Context::staticMetaObject = { {
+    QMetaObject::SuperData::link<PKCS12Context::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyPKCS12Context.data,
+    qt_meta_data_opensslQCAPlugin__MyPKCS12Context,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyPKCS12Context::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyPKCS12Context::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyPKCS12Context.stringdata0))
+        return static_cast<void*>(this);
+    return PKCS12Context::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyPKCS12Context::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = PKCS12Context::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyTLSContext_t {
+    QByteArrayData data[1];
+    char stringdata0[31];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyTLSContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyTLSContext_t qt_meta_stringdata_opensslQCAPlugin__MyTLSContext = {
+    {
+QT_MOC_LITERAL(0, 0, 30) // "opensslQCAPlugin::MyTLSContext"
+
+    },
+    "opensslQCAPlugin::MyTLSContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyTLSContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyTLSContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyTLSContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<TLSContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyTLSContext.data,
+    qt_meta_data_opensslQCAPlugin__MyTLSContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyTLSContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyTLSContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyTLSContext.stringdata0))
+        return static_cast<void*>(this);
+    return TLSContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyTLSContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = TLSContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__CMSContext_t {
+    QByteArrayData data[1];
+    char stringdata0[29];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__CMSContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__CMSContext_t qt_meta_stringdata_opensslQCAPlugin__CMSContext = {
+    {
+QT_MOC_LITERAL(0, 0, 28) // "opensslQCAPlugin::CMSContext"
+
+    },
+    "opensslQCAPlugin::CMSContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__CMSContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::CMSContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::CMSContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<SMSContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__CMSContext.data,
+    qt_meta_data_opensslQCAPlugin__CMSContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::CMSContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::CMSContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__CMSContext.stringdata0))
+        return static_cast<void*>(this);
+    return SMSContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::CMSContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = SMSContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyMessageContextThread_t {
+    QByteArrayData data[1];
+    char stringdata0[41];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyMessageContextThread_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyMessageContextThread_t qt_meta_stringdata_opensslQCAPlugin__MyMessageContextThread = {
+    {
+QT_MOC_LITERAL(0, 0, 40) // "opensslQCAPlugin::MyMessageCo..."
+
+    },
+    "opensslQCAPlugin::MyMessageContextThread"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyMessageContextThread[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyMessageContextThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyMessageContextThread::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyMessageContextThread.data,
+    qt_meta_data_opensslQCAPlugin__MyMessageContextThread,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyMessageContextThread::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyMessageContextThread::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyMessageContextThread.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyMessageContextThread::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__MyMessageContext_t {
+    QByteArrayData data[3];
+    char stringdata0[52];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__MyMessageContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__MyMessageContext_t qt_meta_stringdata_opensslQCAPlugin__MyMessageContext = {
+    {
+QT_MOC_LITERAL(0, 0, 34), // "opensslQCAPlugin::MyMessageCo..."
+QT_MOC_LITERAL(1, 35, 15), // "thread_finished"
+QT_MOC_LITERAL(2, 51, 0) // ""
+
+    },
+    "opensslQCAPlugin::MyMessageContext\0"
+    "thread_finished\0"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__MyMessageContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void opensslQCAPlugin::MyMessageContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<MyMessageContext *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->thread_finished(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::MyMessageContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<MessageContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__MyMessageContext.data,
+    qt_meta_data_opensslQCAPlugin__MyMessageContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::MyMessageContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::MyMessageContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__MyMessageContext.stringdata0))
+        return static_cast<void*>(this);
+    return MessageContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::MyMessageContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = MessageContext::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__opensslCipherContext_t {
+    QByteArrayData data[1];
+    char stringdata0[39];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslCipherContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslCipherContext_t qt_meta_stringdata_opensslQCAPlugin__opensslCipherContext = {
+    {
+QT_MOC_LITERAL(0, 0, 38) // "opensslQCAPlugin::opensslCiph..."
+
+    },
+    "opensslQCAPlugin::opensslCipherContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslCipherContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslCipherContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslCipherContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<CipherContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslCipherContext.data,
+    qt_meta_data_opensslQCAPlugin__opensslCipherContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslCipherContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslCipherContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslCipherContext.stringdata0))
+        return static_cast<void*>(this);
+    return CipherContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslCipherContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = CipherContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__opensslInfoContext_t {
+    QByteArrayData data[1];
+    char stringdata0[37];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslInfoContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslInfoContext_t qt_meta_stringdata_opensslQCAPlugin__opensslInfoContext = {
+    {
+QT_MOC_LITERAL(0, 0, 36) // "opensslQCAPlugin::opensslInfo..."
+
+    },
+    "opensslQCAPlugin::opensslInfoContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslInfoContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslInfoContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslInfoContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<InfoContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslInfoContext.data,
+    qt_meta_data_opensslQCAPlugin__opensslInfoContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslInfoContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslInfoContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslInfoContext.stringdata0))
+        return static_cast<void*>(this);
+    return InfoContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslInfoContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = InfoContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslQCAPlugin__opensslRandomContext_t {
+    QByteArrayData data[1];
+    char stringdata0[39];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslQCAPlugin__opensslRandomContext_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslQCAPlugin__opensslRandomContext_t qt_meta_stringdata_opensslQCAPlugin__opensslRandomContext = {
+    {
+QT_MOC_LITERAL(0, 0, 38) // "opensslQCAPlugin::opensslRand..."
+
+    },
+    "opensslQCAPlugin::opensslRandomContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslQCAPlugin__opensslRandomContext[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslQCAPlugin::opensslRandomContext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslQCAPlugin::opensslRandomContext::staticMetaObject = { {
+    QMetaObject::SuperData::link<RandomContext::staticMetaObject>(),
+    qt_meta_stringdata_opensslQCAPlugin__opensslRandomContext.data,
+    qt_meta_data_opensslQCAPlugin__opensslRandomContext,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslQCAPlugin::opensslRandomContext::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslQCAPlugin::opensslRandomContext::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslQCAPlugin__opensslRandomContext.stringdata0))
+        return static_cast<void*>(this);
+    return RandomContext::qt_metacast(_clname);
+}
+
+int opensslQCAPlugin::opensslRandomContext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = RandomContext::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_opensslPlugin_t {
+    QByteArrayData data[1];
+    char stringdata0[14];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_opensslPlugin_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_opensslPlugin_t qt_meta_stringdata_opensslPlugin = {
+    {
+QT_MOC_LITERAL(0, 0, 13) // "opensslPlugin"
+
+    },
+    "opensslPlugin"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_opensslPlugin[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void opensslPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject opensslPlugin::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_opensslPlugin.data,
+    qt_meta_data_opensslPlugin,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *opensslPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *opensslPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_opensslPlugin.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "QCAPlugin"))
+        return static_cast< QCAPlugin*>(this);
+    if (!strcmp(_clname, "com.affinix.qca.Plugin/1.0"))
+        return static_cast< QCAPlugin*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int opensslPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+QT_PLUGIN_METADATA_SECTION
+static constexpr unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x1a,  'c',  'o',  'm',  '.',  'a', 
+    'f',  'f',  'i',  'n',  'i',  'x',  '.',  'q', 
+    'c',  'a',  '.',  'P',  'l',  'u',  'g',  'i', 
+    'n',  '/',  '1',  '.',  '0', 
+    // "className"
+    0x03,  0x6d,  'o',  'p',  'e',  'n',  's',  's', 
+    'l',  'P',  'l',  'u',  'g',  'i',  'n', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(opensslPlugin, opensslPlugin)
+
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

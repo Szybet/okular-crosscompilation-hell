@@ -1,0 +1,10 @@
+description: Artwork, styles and assets for the Breeze visual style for the Plasma
+  Desktop
+hasrepo: true
+identifier: breeze
+name: Plasma Breeze visual style
+projectpath: kde/workspace/breeze
+repoactive: true
+repopath: plasma/breeze
+bugzilla:
+    product: Breeze

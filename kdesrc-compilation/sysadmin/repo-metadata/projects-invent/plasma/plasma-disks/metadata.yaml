@@ -1,0 +1,9 @@
+description: Monitors S.M.A.R.T. capable devices for imminent failure.
+hasrepo: true
+identifier: plasma-disks
+name: Plasma Disks
+projectpath: kde/workspace/plasma-disks
+repoactive: true
+repopath: plasma/plasma-disks
+bugzilla:
+    product: plasma-disks

@@ -1,0 +1,7 @@
+description: KDE bluetooth framework libraries.
+hasrepo: true
+identifier: libbluedevil
+name: libbluedevil
+projectpath: unmaintained/libbluedevil
+repoactive: false
+repopath: unmaintained/libbluedevil

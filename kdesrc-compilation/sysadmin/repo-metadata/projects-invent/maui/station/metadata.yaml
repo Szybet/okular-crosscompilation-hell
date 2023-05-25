@@ -1,0 +1,7 @@
+description: Convergent terminal emulator
+hasrepo: true
+identifier: maui-station
+name: Station
+projectpath: playground/base/maui-station
+repoactive: true
+repopath: maui/station

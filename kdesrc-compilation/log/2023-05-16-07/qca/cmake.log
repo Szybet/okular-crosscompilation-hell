@@ -1,0 +1,97 @@
+# kdesrc-build running: 'cmake' '-B' '.' '-S' '/home/szybet/kdesrc/kdesupport/qca' '-G' 'Unix Makefiles' '-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON' '-DCMAKE_TOOLCHAIN_FILE=/mnt/HDD/Project/Public/okulartry/kobo.cmake' '-DCMAKE_CXX_FLAGS:STRING=-pipe' '-DCMAKE_INSTALL_PREFIX=/mnt/HDD/Project/Public/okulartry/okular-things' '-DCMAKE_PREFIX_PATH=/home/build/inkbox/compiled-binaries/qt-bin/'
+# from directory: /home/szybet/kdesrc/build/kdesupport/qca
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:19 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Found Doxygen: /sbin/doxygen (found version "1.9.6") found components: doxygen dot 
+-- Building Qt 5 version
+-- Installed package is NOT relocatable
+-- Checking for certstore..
+-- Found system certstore
+-- certstore path: /etc/ssl/certs/ca-certificates.crt
+-- Looking for include file sys/filio.h
+-- Looking for include file sys/filio.h - not found
+-- Performing Test MLOCK_TAKES_VOID
+-- Performing Test MLOCK_TAKES_VOID - Success
+-- Found PkgConfig: /sbin/pkg-config (found version "1.8.1") 
+-- Checking for module 'botan-2'
+--   Found botan-2, version 2.19.3
+fgrep: warning: fgrep is obsolescent; using grep -F
+fgrep: warning: fgrep is obsolescent; using grep -F
+-- Found libgcrypt: -lgcrypt -lgpg-error
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of gcry_error_t
+-- Check size of gcry_error_t - done
+-- Checking for module 'nss'
+--   Found nss, version 3.89.1
+-- Found OpenSSL: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/libcrypto.so (found suitable version "1.1.1n", minimum required is "1.1.1")  
+-- Looking for EVP_md2
+-- Looking for EVP_md2 - found
+-- Looking for EVP_aes_128_ctr
+-- Looking for EVP_aes_128_ctr - found
+-- Looking for EVP_aes_128_gcm
+-- Looking for EVP_aes_128_gcm - found
+-- Looking for EVP_aes_128_ccm
+-- Looking for EVP_aes_128_ccm - found
+-- Looking for EVP_sha
+-- Looking for EVP_sha - found
+-- Found OpenSSL: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/libcrypto.so (found version "1.1.1n")  
+-- Checking for one of the modules 'libpkcs11-helper-1'
+-- Found pkcs11-helper: -lpthread;-ldl;-lcrypto;-lgnutls;-lssl3;-lsmime3;-lnss3;-lnssutil3;-lplds4;-lplc4;-lnspr4;-L/usr/lib;-lpkcs11-helper
+
+Plugins:
+  qca-botan on
+  qca-cyrus-sasl off
+  qca-gcrypt on
+  qca-gnupg on
+  qca-logger on
+  qca-nss on
+  qca-ossl on
+  qca-pkcs11 on
+  qca-softstore on
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Found OpenSSL: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/libcrypto.so (found suitable version "1.1.1n", minimum required is "1.1.1")  
+
+QCA prefix is /mnt/HDD/Project/Public/okulartry/okular-things
+Plugins will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/lib/qca-qt5
+Binary will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/bin
+Library will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/lib
+Public headers will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5
+Private headers will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5
+Feature file will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/mkspecs/features
+Documentation will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/share/doc/qca-qt5/html
+Man page will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/share/man
+Pkg-config file will be installed to /mnt/HDD/Project/Public/okulartry/okular-things/lib/pkgconfig
+
+-- Configuring done (2.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/szybet/kdesrc/build/kdesupport/qca

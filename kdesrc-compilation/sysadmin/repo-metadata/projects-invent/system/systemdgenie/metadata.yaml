@@ -1,0 +1,7 @@
+description: Systemd managment utility
+hasrepo: true
+identifier: systemdgenie
+name: SystemdGenie
+projectpath: playground/sysadmin/systemdgenie
+repoactive: true
+repopath: system/systemdgenie

@@ -1,0 +1,7 @@
+description: Historical copy of the toys module of KDE 1, adapted to compile on modern systems (circa. 2016)
+hasrepo: true
+identifier: kde1-kdetoys
+name: 'Historical - KDE 1 - KDEToys'
+projectpath: historical/kde1-kdetoys
+repoactive: true
+repopath: historical/kde1-kdetoys

@@ -1,0 +1,7 @@
+description: Generic as well as device-specific configuration for Plasma Active installations.
+hasrepo: true
+identifier: plasma-mobile-config
+name: Configuration data for Plasma Active
+projectpath: unmaintained/plasma-mobile-config
+repoactive: false
+repopath: unmaintained/plasma-mobile-config

@@ -1,0 +1,27 @@
+# kdesrc-build running: 'make' '-j' '8'
+# from directory: /home/szybet/kdesrc/build/frameworks/kcrash
+[ 16%] Automatic MOC for target KF5Crash
+[ 16%] Built target KF5Crash_autogen
+[ 33%] Building CXX object src/CMakeFiles/KF5Crash.dir/KF5Crash_autogen/mocs_compilation.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/KF5Crash.dir/coreconfig.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/KF5Crash.dir/kcrash.cpp.o
+[ 83%] Building CXX object src/CMakeFiles/KF5Crash.dir/metadata.cpp.o
+[01m[K/home/szybet/kdesrc/frameworks/kcrash/src/kcrash.cpp:[m[K In function '[01m[Kpid_t startDirectly(const char**)[m[K':
+[01m[K/home/szybet/kdesrc/frameworks/kcrash/src/kcrash.cpp:743:67:[m[K [01;35m[Kwarning: [m[K'[01m[Kenviron_data[m[K' may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  743 |     if ((unsigned)(environ_end - environ) + 2 >= [01;35m[Kenviron_data.size()[m[K) {
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/tuple:39[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/functional:54[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/algorithm:74[m[K,
+                 from [01m[K/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kcrash/src/kcrash.h:14[m[K,
+                 from [01m[K/home/szybet/kdesrc/frameworks/kcrash/src/kcrash.cpp:13[m[K:
+[01m[K/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/array:176:7:[m[K [01;36m[Knote: [m[Kby argument 1 of type '[01m[Kconst std::array<const char*, 1024>*[m[K' to '[01m[Kconstexpr std::array<_Tp, _Nm>::size_type std::array<_Tp, _Nm>::size() const [with _Tp = const char*; unsigned int _Nm = 1024][m[K' declared here
+  176 |       [01;36m[Ksize[m[K() const noexcept { return _Nm; }
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/szybet/kdesrc/frameworks/kcrash/src/kcrash.cpp:742:36:[m[K [01;36m[Knote: [m[K'[01m[Kenviron_data[m[K' declared here
+  742 |     std::array<const char *, 1024> [01;36m[Kenviron_data[m[K; // hope it's big enough
+      |                                    [01;36m[K^~~~~~~~~~~~[m[K
+[100%] Linking CXX shared library ../bin/libKF5Crash.so
+[100%] Built target KF5Crash

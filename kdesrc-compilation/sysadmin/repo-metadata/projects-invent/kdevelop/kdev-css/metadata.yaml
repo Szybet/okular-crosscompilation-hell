@@ -1,0 +1,7 @@
+description: KDevelop plugin for CSS language support
+hasrepo: true
+identifier: kdev-css
+name: KDevelop CSS Support
+projectpath: playground/devtools/plugins/kdev-css
+repoactive: true
+repopath: kdevelop/kdev-css

@@ -1,0 +1,7 @@
+description: Application that allows to preview a KDecoration plugin
+hasrepo: true
+identifier: kdecoration-viewer
+name: KDecoration Viewer
+projectpath: playground/base/kdecoration-viewer
+repoactive: false
+repopath: sdk/kdecoration-viewer

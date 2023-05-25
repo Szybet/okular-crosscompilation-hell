@@ -1,0 +1,9 @@
+bugzilla:
+  product: blinken
+description: Memory Enhancement Game
+hasrepo: true
+identifier: blinken
+name: Blinken
+projectpath: kde/kdeedu/blinken
+repoactive: true
+repopath: education/blinken

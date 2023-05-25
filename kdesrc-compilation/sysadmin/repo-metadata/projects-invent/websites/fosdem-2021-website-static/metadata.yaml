@@ -1,0 +1,7 @@
+description: Static content for the KDE booth at FOSDEM 2021 (Online Conference)
+hasrepo: true
+identifier: websites-fosdem-2021-website-static
+name: FOSDEM 2021 Static Website Data
+projectpath: websites/fosdem-2021-website-static
+repoactive: true
+repopath: websites/fosdem-2021-website-static

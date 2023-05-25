@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kauth
+description: KAuth
+hasrepo: true
+identifier: kauth
+name: KAuth
+projectpath: frameworks/kauth
+repoactive: true
+repopath: frameworks/kauth

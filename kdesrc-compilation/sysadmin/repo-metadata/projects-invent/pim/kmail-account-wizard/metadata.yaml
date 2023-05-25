@@ -1,0 +1,10 @@
+bugzilla:
+  product: kdepim
+  component: wizards
+description: Application which assists you with the configuration of accounts in KMail
+hasrepo: true
+identifier: kmail-account-wizard
+name: KMail Account Wizard
+projectpath: kde/pim/kmail-account-wizard
+repoactive: true
+repopath: pim/kmail-account-wizard

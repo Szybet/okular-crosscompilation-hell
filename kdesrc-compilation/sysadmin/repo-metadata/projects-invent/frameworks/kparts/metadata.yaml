@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kparts
+description: KParts
+hasrepo: true
+identifier: kparts
+name: KParts
+projectpath: frameworks/kparts
+repoactive: true
+repopath: frameworks/kparts

@@ -1,0 +1,9 @@
+bugzilla:
+  product: frameworks-kcontacts
+description: KContacts - Library for working with contact information
+hasrepo: true
+identifier: kcontacts
+name: KContacts
+projectpath: frameworks/kcontacts
+repoactive: true
+repopath: frameworks/kcontacts

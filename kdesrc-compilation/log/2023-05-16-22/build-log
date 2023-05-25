@@ -1,0 +1,22 @@
+Holding performance profile
+Building libkexiv2 from _cmdline (1/4)
+	Fetching remote changes to libkexiv2
+	Merging libkexiv2 changes from branch master
+	Source update complete for libkexiv2: no files affected
+	  Rebuilding because the last configure failed
+	Preparing build system for libkexiv2.
+	Removing files in build directory for libkexiv2
+	Old build system cleaned, starting new build system.
+	Running cmake targeting Unix Makefiles...
+	Note: -- 7 -- compile warnings
+
+libkexiv2 didn't build, stopping here.
+
+<<<  PACKAGES FAILED TO BUILD  >>>
+libkexiv2 - file:///home/szybet/kdesrc/log/2023-05-16-22/libkexiv2/build.log
+
+Important notification for okular:
+    okular has failed to build 5 times.
+
+:-(
+Your logs are saved in file:///home/szybet/kdesrc/log/2023-05-16-22

@@ -1,0 +1,7 @@
+description: Wikidata information voice application and mycroft skill for Plasma Bigscreen
+hasrepo: true
+identifier: wikidata-voice-application
+name: WikiData Support for Plasma Bigscreen
+projectpath: playground/utils/wikidata-voice-application
+repoactive: true
+repopath: plasma-bigscreen/wikidata-voice-application

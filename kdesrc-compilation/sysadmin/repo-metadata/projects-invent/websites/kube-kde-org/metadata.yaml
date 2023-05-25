@@ -1,0 +1,7 @@
+description: Website for Kube — kube-project.com
+hasrepo: true
+identifier: websites-kube-kde-org
+name: Kube Website
+projectpath: websites/kube-kde-org
+repoactive: true
+repopath: websites/kube-kde-org

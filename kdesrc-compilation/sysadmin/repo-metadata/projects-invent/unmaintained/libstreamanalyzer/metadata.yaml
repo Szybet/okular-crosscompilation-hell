@@ -1,0 +1,7 @@
+description: Strigi libstreamanalyzer
+hasrepo: true
+identifier: libstreamanalyzer
+name: Libstreamanalyzer
+projectpath: kdesupport/strigi/libstreamanalyzer
+repoactive: false
+repopath: unmaintained/libstreamanalyzer

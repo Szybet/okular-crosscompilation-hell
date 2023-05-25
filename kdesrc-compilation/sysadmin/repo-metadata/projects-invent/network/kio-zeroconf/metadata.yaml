@@ -1,0 +1,7 @@
+description: KIO worker to discover file systems by DNS-SD (zeroconf)
+hasrepo: true
+identifier: kio-zeroconf
+name: KIO Zeroconf
+projectpath: kde/kdenetwork/kio-zeroconf
+repoactive: true
+repopath: network/kio-zeroconf

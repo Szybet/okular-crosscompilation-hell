@@ -1,0 +1,7 @@
+description: "A general purpose C++ parser with a plugin infrastructure enabling ''generators'' to be written, which can do various things with the C++ AST. It is currently used for generating the various SMOKE libraries."
+hasrepo: true
+identifier: smokegen
+name: smokegen
+projectpath: kde/kdebindings/smoke/smokegen
+repoactive: false
+repopath: unmaintained/smokegen

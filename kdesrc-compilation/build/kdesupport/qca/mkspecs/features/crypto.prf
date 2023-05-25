@@ -1,0 +1,26 @@
+QCA_INCDIR = /mnt/HDD/Project/Public/okulartry/okular-things/include/Qca-qt5
+QCA_LIBDIR = /mnt/HDD/Project/Public/okulartry/okular-things/lib
+
+CONFIG *= qt
+
+LINKAGE =
+
+exists($$QCA_LIBDIR/qca-qt5.framework) {
+	QMAKE_CXXFLAGS += -F$$QCA_LIBDIR
+	LIBS *= -F$$QCA_LIBDIR
+	INCLUDEPATH += $$QCA_LIBDIR/qca-qt5.framework/Headers
+	LINKAGE = -framework qca-qt5
+}
+
+# else, link normally
+isEmpty(LINKAGE) {
+	INCLUDEPATH += $$QCA_INCDIR/QtCrypto
+	LIBS += -L$$QCA_LIBDIR
+	LINKAGE = -lqca-qt5
+	CONFIG(debug, debug|release) {
+		windows:LINKAGE = -lqca-qt5d
+		mac:LINKAGE = -lqca-qt5_debug
+	}
+}
+
+LIBS += $$LINKAGE

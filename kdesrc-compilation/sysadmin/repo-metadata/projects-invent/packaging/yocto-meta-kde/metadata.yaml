@@ -1,0 +1,7 @@
+description: Yocto packaging metadata for KDE projects
+hasrepo: true
+identifier: yocto-meta-kde
+name: Yocto KDE Packaging
+projectpath: playground/packaging/yocto-meta-kde
+repoactive: true
+repopath: packaging/yocto-meta-kde

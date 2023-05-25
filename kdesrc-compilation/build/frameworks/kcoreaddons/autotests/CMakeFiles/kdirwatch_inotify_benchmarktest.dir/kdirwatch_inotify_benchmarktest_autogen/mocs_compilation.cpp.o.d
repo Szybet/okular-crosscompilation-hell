@@ -1,0 +1,2 @@
+autotests/CMakeFiles/kdirwatch_inotify_benchmarktest.dir/kdirwatch_inotify_benchmarktest_autogen/mocs_compilation.cpp.o: \
+ /home/szybet/kdesrc/build/frameworks/kcoreaddons/autotests/kdirwatch_inotify_benchmarktest_autogen/mocs_compilation.cpp

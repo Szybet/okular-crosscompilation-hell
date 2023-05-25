@@ -1,0 +1,9 @@
+bugzilla:
+  product: kqtquickcharts
+description: QtQuick plugin to render beautiful and interactive charts
+hasrepo: true
+identifier: kqtquickcharts
+name: kqtquickcharts
+projectpath: kde/kdeedu/kqtquickcharts
+repoactive: true
+repopath: libraries/kqtquickcharts

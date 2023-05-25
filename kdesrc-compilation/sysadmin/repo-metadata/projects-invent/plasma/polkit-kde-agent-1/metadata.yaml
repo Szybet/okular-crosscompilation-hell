@@ -1,0 +1,9 @@
+description: Daemon providing a Polkit authentication UI for Plasma
+hasrepo: true
+identifier: polkit-kde-agent-1
+name: Polkit KDE Agent
+projectpath: kde/workspace/polkit-kde-agent-1
+repoactive: true
+repopath: plasma/polkit-kde-agent-1
+bugzilla:
+    product: policykit-kde-agent-1
