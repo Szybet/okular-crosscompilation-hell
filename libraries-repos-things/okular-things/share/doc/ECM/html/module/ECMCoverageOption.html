@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ECMCoverageOption &#8212; Extra CMake Modules 5.107.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ECMCreateQmFromPoFiles" href="ECMCreateQmFromPoFiles.html" />
+    <link rel="prev" title="ECMConfiguredInstall" href="ECMConfiguredInstall.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ECMCreateQmFromPoFiles.html" title="ECMCreateQmFromPoFiles"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ECMConfiguredInstall.html" title="ECMConfiguredInstall"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.107 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" accesskey="U">ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMCoverageOption</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="ecmcoverageoption">
+<span id="module:ECMCoverageOption"></span><h1>ECMCoverageOption<a class="headerlink" href="#ecmcoverageoption" title="Permalink to this heading">¶</a></h1>
+<p>Allow users to easily enable GCov code coverage support.</p>
+<p>Code coverage allows you to check how much of your codebase is covered by
+your tests. This module makes it easy to build with support for
+<a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Gcov.html">GCov</a>.</p>
+<p>When this module is included, a <code class="docutils literal notranslate"><span class="pre">BUILD_COVERAGE</span></code> option is added (default
+<code class="docutils literal notranslate"><span class="pre">OFF</span></code>). Turning this option on enables GCC’s coverage instrumentation, and
+links against <code class="docutils literal notranslate"><span class="pre">libgcov</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This will probably break the build if you are not using GCC.</p>
+</div>
+<p>Since 1.3.0.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ECMConfiguredInstall.html"
+                          title="previous chapter">ECMConfiguredInstall</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="ECMCreateQmFromPoFiles.html"
+                          title="next chapter">ECMCreateQmFromPoFiles</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/module/ECMCoverageOption.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ECMCreateQmFromPoFiles.html" title="ECMCreateQmFromPoFiles"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ECMConfiguredInstall.html" title="ECMConfiguredInstall"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.107 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" >ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMCoverageOption</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+  </body>
+</html>

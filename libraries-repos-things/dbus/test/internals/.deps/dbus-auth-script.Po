@@ -1,0 +1,2 @@
+internals/dbus-auth-script.o: internals/dbus-auth-script.c ../config.h
+../config.h:

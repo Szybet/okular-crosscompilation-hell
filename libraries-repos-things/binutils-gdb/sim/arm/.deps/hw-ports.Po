@@ -1,0 +1,62 @@
+hw-ports.o: \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-ports.c \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h \
+ ../../gnulib/config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/ctype.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdlib.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/string.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-main.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-basics.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/sim/sim.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-inline.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-types.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-bits.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-endian.h \
+ ../../bfd/bfd.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/symcat.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/diagnostics.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/sys/stat.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-utils.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-device.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-properties.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-events.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-alloc.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-instances.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-handles.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-ports.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-base.h
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h:
+../../gnulib/config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/ctype.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdlib.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/string.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-main.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-basics.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/sim/sim.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-inline.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-types.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-bits.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-endian.h:
+../../bfd/bfd.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/symcat.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/diagnostics.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/sys/stat.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-utils.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-device.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-properties.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-events.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-alloc.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-instances.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-handles.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-ports.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/hw-base.h:

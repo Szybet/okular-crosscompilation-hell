@@ -1,0 +1,8 @@
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/mktags.dir
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/libmarkdown.dir
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/common.dir
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/markdown.dir
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/mkd2html.dir
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/makepage.dir
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/build/CMakeFiles/rebuild_cache.dir

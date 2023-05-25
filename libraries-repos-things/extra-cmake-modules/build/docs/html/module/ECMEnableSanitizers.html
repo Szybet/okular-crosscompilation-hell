@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ECMEnableSanitizers &#8212; Extra CMake Modules 5.240.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ECMFindModuleHelpers" href="ECMFindModuleHelpers.html" />
+    <link rel="prev" title="ECMDeprecationSettings" href="ECMDeprecationSettings.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ECMFindModuleHelpers.html" title="ECMFindModuleHelpers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ECMDeprecationSettings.html" title="ECMDeprecationSettings"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" accesskey="U">ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMEnableSanitizers</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="ecmenablesanitizers">
+<span id="module:ECMEnableSanitizers"></span><h1>ECMEnableSanitizers<a class="headerlink" href="#ecmenablesanitizers" title="Permalink to this heading">¶</a></h1>
+<p>Enable compiler sanitizer flags.</p>
+<p>The following sanitizers are supported:</p>
+<ul class="simple">
+<li><p>Address Sanitizer</p></li>
+<li><p>Memory Sanitizer</p></li>
+<li><p>Thread Sanitizer</p></li>
+<li><p>Leak Sanitizer</p></li>
+<li><p>Undefined Behaviour Sanitizer</p></li>
+</ul>
+<p>All of them are implemented in Clang, depending on your version, and
+there is an work in progress in GCC, where some of them are currently
+implemented.</p>
+<p>This module will check your current compiler version to see if it
+supports the sanitizers that you want to enable</p>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this heading">¶</a></h2>
+<p>Simply add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">include</span><span class="p">(</span><span class="n">ECMEnableSanitizers</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>to your <code class="docutils literal notranslate"><span class="pre">CMakeLists.txt</span></code>. Note that this module is included in
+<a class="reference internal" href="../kde-module/KDECompilerSettings.html#kde-module:KDECompilerSettings" title="KDECompilerSettings"><code class="xref ecm ecm-kde-module docutils literal notranslate"><span class="pre">KDECompilerSettings</span></code></a>, so projects using that module do not need to also
+include this one.</p>
+<p>The sanitizers are not enabled by default. Instead, you must set
+<code class="docutils literal notranslate"><span class="pre">ECM_ENABLE_SANITIZERS</span></code> (either in your <code class="docutils literal notranslate"><span class="pre">CMakeLists.txt</span></code> or on the
+command line) to a semicolon-separated list of sanitizers you wish to enable.
+The options are:</p>
+<ul class="simple">
+<li><p>address</p></li>
+<li><p>memory</p></li>
+<li><p>thread</p></li>
+<li><p>leak</p></li>
+<li><p>undefined</p></li>
+<li><p>fuzzer</p></li>
+</ul>
+<p>The sanitizers “address”, “memory” and “thread” are mutually exclusive.  You
+cannot enable two of them in the same build.</p>
+<p>“leak” requires the  “address” sanitizer.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To reduce the overhead induced by the instrumentation of the sanitizers, it
+is advised to enable compiler optimizations (<code class="docutils literal notranslate"><span class="pre">-O1</span></code> or higher).</p>
+</div>
+</section>
+<section id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this heading">¶</a></h2>
+<p>This is an example of usage:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="n">build</span>
+<span class="n">cd</span> <span class="n">build</span>
+<span class="n">cmake</span> <span class="o">-</span><span class="n">DECM_ENABLE_SANITIZERS</span><span class="o">=</span><span class="s1">&#39;address;leak;undefined&#39;</span> <span class="o">..</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Most of the sanitizers will require Clang. To enable it, use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span><span class="n">DCMAKE_CXX_COMPILER</span><span class="o">=</span><span class="n">clang</span><span class="o">++</span>
+</pre></div>
+</div>
+</div>
+<p>Since 1.3.0.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">ECMEnableSanitizers</a><ul>
+<li><a class="reference internal" href="#usage">Usage</a></li>
+<li><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ECMDeprecationSettings.html"
+                          title="previous chapter">ECMDeprecationSettings</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="ECMFindModuleHelpers.html"
+                          title="next chapter">ECMFindModuleHelpers</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/module/ECMEnableSanitizers.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ECMFindModuleHelpers.html" title="ECMFindModuleHelpers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ECMDeprecationSettings.html" title="ECMDeprecationSettings"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" >ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMEnableSanitizers</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+{
+	"BUILD_DIR" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos/poppler_qt5viewer_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/abstractinfodock.h",
+			"Mu",
+			"EWIEGA46WW/moc_abstractinfodock.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/documentobserver.h",
+			"Mu",
+			"EWIEGA46WW/moc_documentobserver.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/embeddedfiles.h",
+			"Mu",
+			"EWIEGA46WW/moc_embeddedfiles.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/fonts.h",
+			"Mu",
+			"EWIEGA46WW/moc_fonts.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/info.h",
+			"Mu",
+			"EWIEGA46WW/moc_info.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/metadata.h",
+			"Mu",
+			"EWIEGA46WW/moc_metadata.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/navigationtoolbar.h",
+			"Mu",
+			"EWIEGA46WW/moc_navigationtoolbar.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/optcontent.h",
+			"Mu",
+			"EWIEGA46WW/moc_optcontent.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/pageview.h",
+			"Mu",
+			"EWIEGA46WW/moc_pageview.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/permissions.h",
+			"Mu",
+			"EWIEGA46WW/moc_permissions.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/thumbnails.h",
+			"Mu",
+			"EWIEGA46WW/moc_thumbnails.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/toc.h",
+			"Mu",
+			"EWIEGA46WW/moc_toc.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/viewer.h",
+			"Mu",
+			"EWIEGA46WW/moc_viewer.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos/poppler_qt5viewer_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos/poppler_qt5viewer_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x050C00",
+		"QT_GUI_LIB",
+		"QT_NO_DEPRECATED_WARNINGS",
+		"QT_STRICT_ITERATORS",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/fofi",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/goo",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/poppler",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/poppler",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/src",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos",
+		"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtXml",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/freetype2",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos/poppler_qt5viewer_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos/CMakeFiles/poppler_qt5viewer_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/build/qt5/demos/CMakeFiles/poppler_qt5viewer_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/abstractinfodock.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/documentobserver.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/embeddedfiles.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/fonts.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/info.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/main_viewer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/metadata.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/navigationtoolbar.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/optcontent.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/pageview.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/permissions.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/thumbnails.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/toc.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/pdf/poppler-23.05.0/qt5/demos/viewer.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

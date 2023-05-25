@@ -1,0 +1,10 @@
+#define HAVE_GETMNTINFO 0
+#define GETMNTINFO_USES_STATVFS 0
+
+#define HAVE_LIB_MOUNT 1
+
+#define HAVE_SYS_MOUNT_H 1
+#define HAVE_FSTAB_H 1
+#define HAVE_SYS_PARAM_H 1
+
+#define HAVE_VOLMGT 0

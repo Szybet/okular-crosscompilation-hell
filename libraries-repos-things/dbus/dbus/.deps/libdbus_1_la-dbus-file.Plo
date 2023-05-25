@@ -1,0 +1,17 @@
+libdbus_1_la-dbus-file.lo: dbus-file.c ../config.h dbus-file.h \
+ ../dbus/dbus-string.h ../dbus/dbus-macros.h ../dbus/dbus-types.h \
+ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include/stddef.h \
+ ../dbus/dbus-arch-deps.h ../dbus/dbus-memory.h \
+ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include/stdarg.h \
+ ../dbus/dbus-errors.h ../dbus/dbus-protocol.h
+../config.h:
+dbus-file.h:
+../dbus/dbus-string.h:
+../dbus/dbus-macros.h:
+../dbus/dbus-types.h:
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include/stddef.h:
+../dbus/dbus-arch-deps.h:
+../dbus/dbus-memory.h:
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include/stdarg.h:
+../dbus/dbus-errors.h:
+../dbus/dbus-protocol.h:

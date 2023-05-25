@@ -1,0 +1,11 @@
+prefix=/mnt/HDD/Project/Public/okulartry/polkit/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/mnt/HDD/Project/Public/okulartry/polkit
+
+Name: polkit-gobject-1
+Description: PolicyKit Authorization API
+Version: 123
+Requires: gio-2.0 >=  2.30.0, glib-2.0 >=  2.30.0
+Libs: -L${prefix}/src/polkit -lpolkit-gobject-1
+Cflags: -I${prefix}/src/polkit -I${srcdir}/src/polkit -I${prefix} -I${srcdir} -I${prefix}/src -I${srcdir}/src

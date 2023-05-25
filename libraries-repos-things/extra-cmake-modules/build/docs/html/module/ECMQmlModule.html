@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ECMQmlModule &#8212; Extra CMake Modules 5.240.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ECMQtDeclareLoggingCategory" href="ECMQtDeclareLoggingCategory.html" />
+    <link rel="prev" title="ECMPoQmTools" href="ECMPoQmTools.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ECMQtDeclareLoggingCategory.html" title="ECMQtDeclareLoggingCategory"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ECMPoQmTools.html" title="ECMPoQmTools"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" accesskey="U">ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMQmlModule</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="ecmqmlmodule">
+<span id="module:ECMQmlModule"></span><h1>ECMQmlModule<a class="headerlink" href="#ecmqmlmodule" title="Permalink to this heading">¶</a></h1>
+<p>This file contains helper functions to make it easier to create QML modules. It
+takes care of a number of things that often need to be repeated. It also takes
+care of special handling of QML modules between shared and static builds. When
+building a static version of a QML module, the relevant QML source files are
+bundled into the static library. When using a shared build, the QML plugin and
+relevant QML files are copied to the target’s <code class="docutils literal notranslate"><span class="pre">RUNTIME_OUTPUT_DIRECTORY</span></code> to make
+it easier to run things directly from the build directory.</p>
+<p>Example usage:</p>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nb">ecm_add_qml_module</span><span class="p">(</span><span class="s">ExampleModule</span><span class="w"> </span><span class="s">URI</span><span class="w"> </span><span class="s2">&quot;org.example.Example&quot;</span><span class="p">)</span>
+
+<span class="nb">target_sources</span><span class="p">(</span><span class="s">ExampleModule</span><span class="w"> </span><span class="s">PRIVATE</span><span class="w"> </span><span class="s">ExamplePlugin.cpp</span><span class="p">)</span>
+<span class="nb">target_link_libraries</span><span class="p">(</span><span class="s">ExampleModule</span><span class="w"> </span><span class="s">PRIVATE</span><span class="w"> </span><span class="s">Qt::Quick</span><span class="p">)</span>
+
+<span class="nb">ecm_target_qml_sources</span><span class="p">(</span><span class="s">ExampleModule</span><span class="w"> </span><span class="s">SOURCES</span><span class="w"> </span><span class="s">ExampleItem.qml</span><span class="p">)</span><span class="w"> </span><span class="c"># This will have 1.0 as the default version</span>
+<span class="nb">ecm_target_qml_sources</span><span class="p">(</span><span class="s">ExampleModule</span><span class="w"> </span><span class="s">SOURCES</span><span class="w"> </span><span class="s">AnotherExampleItem.qml</span><span class="w"> </span><span class="s">VERSION</span><span class="w"> </span><span class="s">1.5</span><span class="p">)</span>
+
+<span class="nb">ecm_finalize_qml_module</span><span class="p">(</span><span class="s">ExampleModule</span><span class="w"> </span><span class="s">DESTINATION</span><span class="w"> </span><span class="o">${</span><span class="nv">KDE_INSTALL_QMLDIR</span><span class="o">}</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ecm_add_qml_module</span><span class="p">(</span><span class="o">&lt;</span><span class="n">target</span> <span class="n">name</span><span class="o">&gt;</span> <span class="n">URI</span> <span class="o">&lt;</span><span class="n">module</span> <span class="n">uri</span><span class="o">&gt;</span> <span class="p">[</span><span class="n">VERSION</span> <span class="o">&lt;</span><span class="n">module</span> <span class="n">version</span><span class="o">&gt;</span><span class="p">]</span> <span class="p">[</span><span class="n">NO_PLUGIN</span><span class="p">]</span> <span class="p">[</span><span class="n">CLASSNAME</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">name</span><span class="o">&gt;</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>This will declare a new CMake target called <code class="docutils literal notranslate"><span class="pre">&lt;target</span> <span class="pre">name&gt;</span></code>. The <code class="docutils literal notranslate"><span class="pre">URI</span></code>
+argument is required and should be a proper QML module URI. The <code class="docutils literal notranslate"><span class="pre">URI</span></code> is used,
+among others, to generate a subdirectory where the module will be installed to.</p>
+<p>If the <code class="docutils literal notranslate"><span class="pre">VERSION</span></code> argument is specified, it is used to initialize the default
+version that is used by  <code class="docutils literal notranslate"><span class="pre">ecm_target_qml_sources</span></code> when adding QML files. If it
+is not specified, a  default of 1.0 is used. Additionally, if a version greater
+than or equal to 2.0 is specified, the major version is appended to the
+Qt5 installation path of the module.
+In case you don’t specify and version, but specify a version for the individual sources, the latest
+will be set as the resulting version for this plugin. This will be used in the ECMFindQmlModule module.</p>
+<p>If the option <code class="docutils literal notranslate"><span class="pre">NO_PLUGIN</span></code> is set, a target is declared that is not expected to
+contain any C++ QML plugin.</p>
+<p>If the optional <code class="docutils literal notranslate"><span class="pre">CLASSNAME</span></code> argument is supplied, it will be used as class
+name in the generated QMLDIR file. If it is not specified, the target name will
+be used instead.</p>
+<p>You can add C++ and QML source files to the target using <code class="docutils literal notranslate"><span class="pre">target_sources</span></code> and
+<code class="docutils literal notranslate"><span class="pre">ecm_target_qml_sources</span></code>, respectively.</p>
+<p>Since 5.91.0</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ecm_add_qml_module_dependencies</span><span class="p">(</span><span class="o">&lt;</span><span class="n">target</span><span class="o">&gt;</span> <span class="n">DEPENDS</span> <span class="o">&lt;</span><span class="n">module</span> <span class="n">string</span><span class="o">&gt;</span> <span class="p">[</span><span class="o">&lt;</span><span class="n">module</span> <span class="n">string</span><span class="o">&gt;</span> <span class="o">...</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>Add the list of dependencies specified by the <code class="docutils literal notranslate"><span class="pre">DEPENDS</span></code> argument to be listed
+as dependencies in the generated QMLDIR file of <code class="docutils literal notranslate"><span class="pre">&lt;target&gt;</span></code>.</p>
+<p>Since 5.91.0</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ecm_target_qml_sources</span><span class="p">(</span><span class="o">&lt;</span><span class="n">target</span><span class="o">&gt;</span> <span class="n">SOURCES</span> <span class="o">&lt;</span><span class="n">source</span><span class="o">.</span><span class="n">qml</span><span class="o">&gt;</span> <span class="p">[</span><span class="o">&lt;</span><span class="n">source</span><span class="o">.</span><span class="n">qml</span><span class="o">&gt;</span> <span class="o">...</span><span class="p">]</span> <span class="p">[</span><span class="n">VERSION</span> <span class="o">&lt;</span><span class="n">version</span><span class="o">&gt;</span><span class="p">]</span> <span class="p">[</span><span class="n">PATH</span> <span class="o">&lt;</span><span class="n">path</span><span class="o">&gt;</span><span class="p">]</span> <span class="p">[</span><span class="n">PRIVATE</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>Add the list of QML files specified by the <code class="docutils literal notranslate"><span class="pre">SOURCES</span></code> argument as source files
+to the QML module target <code class="docutils literal notranslate"><span class="pre">&lt;target&gt;</span></code>.</p>
+<p>If the optional <code class="docutils literal notranslate"><span class="pre">VERSION</span></code> argument is specified, all QML files will be added
+with the specified version. If it is not specified, they will use the version of
+the QML module target.</p>
+<p>If the optional <code class="docutils literal notranslate"><span class="pre">PRIVATE</span></code> argument is specified, the QML files will be
+included in the target but not in the generated qmldir file. Any version
+argument will be ignored.</p>
+<p>The optional <code class="docutils literal notranslate"><span class="pre">PATH</span></code> argument declares a subdirectory of the module where the
+files should be copied to. By default, files will be copied to the module root.</p>
+<p>This function will fail if <code class="docutils literal notranslate"><span class="pre">&lt;target&gt;</span></code> is not a QML module target or any of the
+specified files do not exist.</p>
+<p>Since 5.91.0</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ecm_finalize_qml_module</span><span class="p">(</span><span class="o">&lt;</span><span class="n">target</span><span class="o">&gt;</span>
+    <span class="p">[</span><span class="n">DESTINATION</span> <span class="o">&lt;</span><span class="n">QML</span> <span class="n">install</span> <span class="n">destination</span><span class="o">&gt;</span><span class="p">]</span> <span class="c1"># Optional since 6.0</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Finalize the specified QML module target. This must be called after all other
+setup (like adding sources) on the target has been done. It will perform a
+number of tasks:</p>
+<ul class="simple">
+<li><p>It will generate a qmldir file from the QML files added to the target. If the
+module has a C++ plugin, this will also be included in the qmldir file.</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">BUILD_SHARED_LIBS</span></code> is off, a QRC file is generated from the QML files
+added to the target. This QRC file will be included when compiling the C++ QML
+module. The built static library will be installed in a subdirection of
+<code class="docutils literal notranslate"><span class="pre">DESTINATION</span></code> based on the QML module’s uri. If this value is not set, KDE_INSTALL_QMLDIR will be used.
+Note that if <code class="docutils literal notranslate"><span class="pre">NO_PLUGIN</span></code> is set, a C++ QML plugin will be generated to include the QRC files.</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">BUILD_SHARED_LIBS</span></code> in on, all generated files, QML sources and the C++
+plugin will be installed in a subdirectory of <code class="docutils literal notranslate"><span class="pre">DESTINATION</span></code> based upon the
+QML module’s uri. In addition, these files will also be copied to the target’s
+<code class="docutils literal notranslate"><span class="pre">RUNTIME_OUTPUT_DIRECTORY</span></code> in a similar subdirectory.</p></li>
+</ul>
+<p>This function will fail if <code class="docutils literal notranslate"><span class="pre">&lt;target&gt;</span></code> is not a QML module target.</p>
+<p>Since 5.91.0</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ECMPoQmTools.html"
+                          title="previous chapter">ECMPoQmTools</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="ECMQtDeclareLoggingCategory.html"
+                          title="next chapter">ECMQtDeclareLoggingCategory</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/module/ECMQmlModule.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ECMQtDeclareLoggingCategory.html" title="ECMQtDeclareLoggingCategory"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ECMPoQmTools.html" title="ECMPoQmTools"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" >ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMQmlModule</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.0.
+    </div>
+  </body>
+</html>

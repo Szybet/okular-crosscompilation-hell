@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>KDECompilerSettings &#8212; Extra CMake Modules 5.240.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="KDEFrameworkCompilerSettings" href="KDEFrameworkCompilerSettings.html" />
+    <link rel="prev" title="KDEClangFormat" href="KDEClangFormat.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="KDEFrameworkCompilerSettings.html" title="KDEFrameworkCompilerSettings"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="KDEClangFormat.html" title="KDEClangFormat"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-kde-modules.7.html" accesskey="U">ecm-kde-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">KDECompilerSettings</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="kdecompilersettings">
+<span id="kde-module:KDECompilerSettings"></span><h1>KDECompilerSettings<a class="headerlink" href="#kdecompilersettings" title="Permalink to this heading">¶</a></h1>
+<p>Set useful compile and link flags for C++ (and C) code.</p>
+<p>Enables many more warnings than the default, and sets stricter modes
+for some compiler features.  By default, exceptions are disabled;
+<code class="docutils literal notranslate"><span class="pre">kde_target_enable_exceptions()</span></code> can be used to re-enable them for a
+specific target.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is recommended to include this module with the <code class="docutils literal notranslate"><span class="pre">NO_POLICY_SCOPE</span></code>
+flag, otherwise you may get spurious warnings with some versions of CMake.</p>
+</div>
+<p>Since 5.85 newer settings are controlled by a variable
+<code class="docutils literal notranslate"><span class="pre">KDE_COMPILERSETTINGS_LEVEL</span></code>, taking an ECM version as value. That
+version can not be greater than the minimum required ECM version.
+The settings which are default at that version will then be used,
+but can be overridden by more fine-grained controls (see respective settings).
+This variable needs to be set before including this module, otherwise
+defaults to the minimum required ECM version.</p>
+<section id="modern-code">
+<h2>Modern code<a class="headerlink" href="#modern-code" title="Permalink to this heading">¶</a></h2>
+<p>The following CMake C standard default variables are set:</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">KDE_COMPILERSETTINGS_LEVEL</span></code> &gt;= 5.85:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_C_STANDARD</span></code>: <code class="docutils literal notranslate"><span class="pre">99</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_C_STANDARD_REQUIRED</span></code>: <code class="docutils literal notranslate"><span class="pre">TRUE</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_C_EXTENSIONS</span></code>: <code class="docutils literal notranslate"><span class="pre">OFF</span></code></p></li>
+</ul>
+<p>Otherwise:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_C_STANDARD</span></code>: <code class="docutils literal notranslate"><span class="pre">90</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_C_STANDARD_REQUIRED</span></code>: not modified</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_C_EXTENSIONS</span></code>: not modified</p></li>
+</ul>
+<p>If the variable <code class="docutils literal notranslate"><span class="pre">CMAKE_C_STANDARD</span></code> is already set when including this module,
+none of the above variables will be modified.</p>
+<p>The following CMake C++ standard default variables are set:</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">KDE_COMPILERSETTINGS_LEVEL</span></code> &gt;= 5.85:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_CXX_STANDARD</span></code>: <code class="docutils literal notranslate"><span class="pre">17</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_CXX_STANDARD_REQUIRED</span></code>: <code class="docutils literal notranslate"><span class="pre">TRUE</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_CXX_EXTENSIONS</span></code>: <code class="docutils literal notranslate"><span class="pre">OFF</span></code></p></li>
+</ul>
+<p>Otherwise:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_CXX_STANDARD</span></code>: <code class="docutils literal notranslate"><span class="pre">11</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_CXX_STANDARD_REQUIRED</span></code>: <code class="docutils literal notranslate"><span class="pre">TRUE</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMAKE_CXX_EXTENSIONS</span></code>: not modified.</p></li>
+</ul>
+<p>If the variable <code class="docutils literal notranslate"><span class="pre">CMAKE_CXX_STANDARD</span></code> is already set when including this module,
+none of the above variables will be modified.</p>
+<p>The following C++ compiler flags are set:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">-pedantic</span></code> (GNU and Clang compilers, since 5.85)</p>
+<p>Can be disabled by setting <code class="docutils literal notranslate"><span class="pre">KDE_SKIP_PEDANTIC_WARNINGS_SETTINGS</span></code> to <code class="docutils literal notranslate"><span class="pre">TRUE</span></code>
+before including this module (default is <code class="docutils literal notranslate"><span class="pre">FALSE</span></code> for
+<code class="docutils literal notranslate"><span class="pre">KDE_COMPILERSETTINGS_LEVEL</span></code> &gt;= 5.85, <code class="docutils literal notranslate"><span class="pre">TRUE</span></code> otherwise).</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-Wmissing-include-dirs</span></code> (GNU compilers, since 5.85)</p>
+<p>Can be disabled by setting <code class="docutils literal notranslate"><span class="pre">KDE_SKIP_MISSING_INCLUDE_DIRS_WARNINGS_SETTINGS</span></code> to <code class="docutils literal notranslate"><span class="pre">TRUE</span></code>
+before including this module (default is <code class="docutils literal notranslate"><span class="pre">FALSE</span></code> for
+<code class="docutils literal notranslate"><span class="pre">KDE_COMPILERSETTINGS_LEVEL</span></code> &gt;= 5.85, <code class="docutils literal notranslate"><span class="pre">TRUE</span></code> otherwise).</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-Wzero-as-null-pointer-constant</span></code> (GNU and Clang compilers, since 5.85)</p>
+<p>Can be disabled by setting <code class="docutils literal notranslate"><span class="pre">KDE_SKIP_NULLPTR_WARNINGS_SETTINGS</span></code> to <code class="docutils literal notranslate"><span class="pre">TRUE</span></code>
+before including this module (default is <code class="docutils literal notranslate"><span class="pre">FALSE</span></code> for
+<code class="docutils literal notranslate"><span class="pre">KDE_COMPILERSETTINGS_LEVEL</span></code> &gt;= 5.85, <code class="docutils literal notranslate"><span class="pre">TRUE</span></code> otherwise).</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-Werror=undef</span></code> (GNU and Clang compilers, since 5.96.0)</p></li>
+<li><p>Qt related preprocessor definitions (since 5.85.0):</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_NO_CAST_TO_ASCII</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_NO_CAST_FROM_ASCII</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_NO_URL_CAST_FROM_STRING</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_NO_CAST_FROM_BYTEARRAY</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_USE_QSTRINGBUILDER</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_NO_KEYWORDS</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_NO_FOREACH</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-DQT_STRICT_ITERATORS</span></code></p>
+<p>Strict iterators are not enabled on Windows, because they lead
+to a link error when application code iterates over a QVector&lt;QPoint&gt; for
+instance, unless Qt itself was also built with strict iterators.
+See example at <a class="reference external" href="https://bugreports.qt.io/browse/AUTOSUITE-946">https://bugreports.qt.io/browse/AUTOSUITE-946</a></p>
+</li>
+</ul>
+<p>Can be controlled by setting <code class="docutils literal notranslate"><span class="pre">KDE_QT_MODERNCODE_DEFINITIONS_LEVEL</span></code> to the
+version of ECM where the wanted set of definitions has been added
+before including this module (default is <code class="docutils literal notranslate"><span class="pre">KDE_COMPILERSETTINGS_LEVEL</span></code>).
+To disable individual definitions instead use <code class="docutils literal notranslate"><span class="pre">remove_definitions()</span></code> directly
+after including this module.</p>
+</li>
+</ul>
+</section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this heading">¶</a></h2>
+<p>This module provides the following functions:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kde_source_files_enable_exceptions</span><span class="p">([</span><span class="n">file1</span> <span class="p">[</span><span class="n">file2</span> <span class="p">[</span><span class="o">...</span><span class="p">]]])</span>
+</pre></div>
+</div>
+<p>Enables exceptions for specific source files.  This should not be
+used on source files in a language other than C++.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kde_target_enable_exceptions</span><span class="p">(</span><span class="n">target</span> <span class="o">&lt;</span><span class="n">INTERFACE</span><span class="o">|</span><span class="n">PUBLIC</span><span class="o">|</span><span class="n">PRIVATE</span><span class="o">&gt;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Enables exceptions for a specific target.  This should not be used
+on a target that has source files in a language other than C++.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kde_enable_exceptions</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Enables exceptions for C++ source files compiled for the
+CMakeLists.txt file in the current directory and all subdirectories.</p>
+</section>
+<section id="variables">
+<h2>Variables<a class="headerlink" href="#variables" title="Permalink to this heading">¶</a></h2>
+<p>Inclusion of this module defines the following variables:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">ENABLE_BSYMBOLICFUNCTIONS</span></code></dt><dd><p>indicates whether we make use of <code class="docutils literal notranslate"><span class="pre">-Bsymbolic-functions</span></code> for linking.
+It ensures libraries bind global function references locally rather than
+at runtime.
+This option only has an effect on ELF-based systems.</p>
+<p>The option is disabled by default except when using
+<a class="reference internal" href="KDEFrameworkCompilerSettings.html#kde-module:KDEFrameworkCompilerSettings" title="KDEFrameworkCompilerSettings"><code class="xref ecm ecm-kde-module docutils literal notranslate"><span class="pre">KDEFrameworkCompilerSettings</span></code></a> where it’s enabled. Projects can enable
+it by calling <code class="docutils literal notranslate"><span class="pre">set(ENABLE_BSYMBOLICFUNCTIONS</span> <span class="pre">ON)</span></code> or passing
+<code class="docutils literal notranslate"><span class="pre">-DENABLE</span> <span class="pre">BSYMBOLICFUNCTIONS=ON</span></code> when configuring the build directory.</p>
+<p>Since 5.85</p>
+</dd>
+</dl>
+<p>Example usages:</p>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="c"># needing some macro/feature only available with ECM 5.80.0</span>
+<span class="nb">find_package</span><span class="p">(</span><span class="s">ECM</span><span class="w"> </span><span class="s">5.80.0</span><span class="w"> </span><span class="s">NO_MODULE</span><span class="p">)</span>
+
+<span class="c"># requiring ECM 5.80.0 above will default KDE_COMPILERSETTINGS_LEVEL also to 5.80.0,</span>
+<span class="c"># thus not activate any newer settings</span>
+<span class="nb">include</span><span class="p">(</span><span class="s">KDECompilerSettings</span><span class="w"> </span><span class="s">NO_POLICY_SCOPE</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="c"># needing some macro/feature only available with ECM 5.87.0</span>
+<span class="nb">find_package</span><span class="p">(</span><span class="s">ECM</span><span class="w"> </span><span class="s">5.87.0</span><span class="w"> </span><span class="s">NO_MODULE</span><span class="p">)</span>
+
+<span class="c"># project uses settings default as of KDECompilerSettings in ECM 5.85.0</span>
+<span class="nb">set</span><span class="p">(</span><span class="s">KDE_COMPILERSETTINGS_LEVEL</span><span class="w"> </span><span class="s">5.85.0</span><span class="p">)</span>
+<span class="nb">include</span><span class="p">(</span><span class="s">KDECompilerSettings</span><span class="w"> </span><span class="s">NO_POLICY_SCOPE</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="c"># needing some macro/feature only available with ECM 5.87.0</span>
+<span class="nb">find_package</span><span class="p">(</span><span class="s">ECM</span><span class="w"> </span><span class="s">5.87.0</span><span class="w"> </span><span class="s">NO_MODULE</span><span class="p">)</span>
+
+<span class="c"># project mainly uses settings default as of KDECompilerSettings in ECM 5.85.0</span>
+<span class="c"># with some small twisting</span>
+<span class="nb">set</span><span class="p">(</span><span class="s">KDE_COMPILERSETTINGS_LEVEL</span><span class="w"> </span><span class="s">5.85.0</span><span class="p">)</span>
+<span class="c"># not ready yet for pedantic compilers</span>
+<span class="nb">set</span><span class="p">(</span><span class="s">KDE_SKIP_PEDANTIC_WARNINGS_SETTINGS</span><span class="w"> </span><span class="s">TRUE</span><span class="p">)</span>
+<span class="c"># avoid any Qt definitions</span>
+<span class="nb">set</span><span class="p">(</span><span class="s">KDE_QT_MODERNCODE_DEFINITIONS_LEVEL</span><span class="w"> </span><span class="s">5.84.0</span><span class="p">)</span>
+<span class="nb">include</span><span class="p">(</span><span class="s">KDECompilerSettings</span><span class="w"> </span><span class="s">NO_POLICY_SCOPE</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="c"># needing some macro/feature only available with ECM 5.85.0</span>
+<span class="nb">find_package</span><span class="p">(</span><span class="s">ECM</span><span class="w"> </span><span class="s">5.85.0</span><span class="w"> </span><span class="s">NO_MODULE</span><span class="p">)</span>
+
+<span class="c"># requiring ECM 5.85.0 above will default KDE_COMPILERSETTINGS_LEVEL also to 5.85.0,</span>
+<span class="c"># which again defaults KDE_QT_MODERNCODE_DEFINITIONS_LEVEL also to 5.85.0</span>
+<span class="nb">include</span><span class="p">(</span><span class="s">KDECompilerSettings</span><span class="w"> </span><span class="s">NO_POLICY_SCOPE</span><span class="p">)</span>
+<span class="c"># project is fine with almost all added Qt definitions as of 5.85.0, but not these ones:</span>
+<span class="nb">remove_definitions</span><span class="p">(</span>
+<span class="w">    </span><span class="s">-DQT_NO_KEYWORDS</span>
+<span class="w">    </span><span class="s">-DQT_NO_FOREACH</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Since pre-1.0.0.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">KDECompilerSettings</a><ul>
+<li><a class="reference internal" href="#modern-code">Modern code</a></li>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+<li><a class="reference internal" href="#variables">Variables</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="KDEClangFormat.html"
+                          title="previous chapter">KDEClangFormat</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="KDEFrameworkCompilerSettings.html"
+                          title="next chapter">KDEFrameworkCompilerSettings</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/kde-module/KDECompilerSettings.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="KDEFrameworkCompilerSettings.html" title="KDEFrameworkCompilerSettings"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="KDEClangFormat.html" title="KDEClangFormat"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-kde-modules.7.html" >ecm-kde-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">KDECompilerSettings</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libsocket_int.a CMakeFiles/socket_o.dir/inet/libinetsocket.c.o CMakeFiles/socket_o.dir/unix/libunixsocket.c.o
+/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libsocket_int.a

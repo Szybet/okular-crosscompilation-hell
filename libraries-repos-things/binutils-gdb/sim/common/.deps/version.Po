@@ -1,0 +1,2 @@
+common/version.o: common/version.c common/version.h
+common/version.h:

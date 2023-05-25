@@ -1,0 +1,2 @@
+sha1-armv8-aarch32-ce.lo: sha1-armv8-aarch32-ce.S ../config.h
+../config.h:

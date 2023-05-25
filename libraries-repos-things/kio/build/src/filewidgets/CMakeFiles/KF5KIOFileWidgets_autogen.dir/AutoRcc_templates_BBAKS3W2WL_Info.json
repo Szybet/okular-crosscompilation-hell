@@ -1,0 +1,33 @@
+{
+	"BUILD_DIR" : "/mnt/HDD/Project/Public/okulartry/kio/build/src/filewidgets/KF5KIOFileWidgets_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kio/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kio/build/src/filewidgets",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kio/src/filewidgets",
+	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kio",
+	"INCLUDE_DIR" : "/mnt/HDD/Project/Public/okulartry/kio/build/src/filewidgets/KF5KIOFileWidgets_autogen/include",
+	"INPUTS" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/linkPath.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/TextFile.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/HTMLFile.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/linkURL.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/EmptyFile.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/linkProgram.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/Directory.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/TextFile.txt",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/HTMLFile.html",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/Program.desktop",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/EmptyFile",
+		"/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/URL.desktop"
+	],
+	"LOCK_FILE" : "/mnt/HDD/Project/Public/okulartry/kio/build/src/filewidgets/CMakeFiles/KF5KIOFileWidgets_autogen.dir/AutoRcc_templates_BBAKS3W2WL_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "templates" ],
+	"OUTPUT_CHECKSUM" : "BBAKS3W2WL",
+	"OUTPUT_NAME" : "qrc_templates.cpp",
+	"RCC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/mnt/HDD/Project/Public/okulartry/kio/build/src/filewidgets/CMakeFiles/KF5KIOFileWidgets_autogen.dir/AutoRcc_templates_BBAKS3W2WL_Used.txt",
+	"SOURCE" : "/mnt/HDD/Project/Public/okulartry/kio/src/new_file_templates/templates.qrc",
+	"VERBOSITY" : 0
+}

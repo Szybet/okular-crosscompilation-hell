@@ -1,0 +1,100 @@
+# Module definitions for building KDE Applications 5
+
+# Usage: Write your own kdesrc-buildrc with only a "global" section
+# (including "branch-group kf5-qt5")
+# then include this file, like this:
+#
+# include extragear/utils/kdesrc-build/kf6-frameworks-build-include
+# include extragear/utils/kdesrc-build/kf6-applications-build-include
+# (or using full paths)
+#
+# You can then add additional modules if desired.
+#
+# This file uses "branch groups" to decide which git branch to use. If you
+# want to add your application here please be sure to update
+# kde-build-metadata repo's "logical-module-structure". It includes a simple
+# tool you can use to validate your change works (or just "kdesrc-build -p
+# your-module" and look for the right branch).
+module-set kdeutils
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kdeutils/*
+    # modules not yet KF6-ready
+    ignore-modules kgpg kteatime 
+end module-set
+
+module-set kdegraphics
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kdegraphics/*
+    # modules not yet KF6-ready
+    ignore-modules kipi-plugins okular
+end module-set
+
+module-set kdegames
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kde/kdegames
+    # modules not yet KF6-ready
+    ignore-modules kajongg ksirk ktuberling 
+end module-set
+
+module-set kdeadmin
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kdeadmin/*
+end module-set
+
+module-set kf5-base-applications
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules keditbookmarks kate kdialog dolphin kfind konsole kio-extras
+    ignore-modules konqueror
+end module-set
+
+module-set kdeedu
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kdeedu/*
+    # modules not yet KF6-ready
+    ignore-modules artikulate cantor kig kiten kmplot kstars kqtquickcharts ktouch labplot marble minuet parley rocs  step
+end module-set
+
+module-set kf5-scanner
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules libksane skanlite
+end module-set
+
+module-set kdemultimedia
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kdemultimedia/*
+    # modules not yet KF6-ready
+    ignore-modules juk k3b kamoso kdenlive kmix kwave
+end module-set
+
+module-set kdeaccessibility
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kmag kmouth kmousetool
+end module-set
+
+module-set kdenetwork
+    repository kde-projects
+    use-modules krfb krdc kget
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+end module-set
+
+module-set kdsoap-ws-discovery-client
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.99.0
+    use-modules kdsoap-ws-discovery-client
+end module-set
+
+module-set kaccounts
+    repository kde-projects
+    cmake-options -DBUILD_WITH_QT6=ON -DEXCLUDE_DEPRECATED_BEFORE_AND_AT=5.105.0
+    use-modules kaccounts-integration
+    branch master
+end module-set

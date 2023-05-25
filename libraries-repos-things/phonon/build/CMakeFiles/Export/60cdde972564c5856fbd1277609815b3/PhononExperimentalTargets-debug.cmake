@@ -1,0 +1,19 @@
+#----------------------------------------------------------------
+# Generated CMake target import file for configuration "Debug".
+#----------------------------------------------------------------
+
+# Commands may need to know the format version.
+set(CMAKE_IMPORT_FILE_VERSION 1)
+
+# Import target "Phonon::phonon4qt5experimental" for configuration "Debug"
+set_property(TARGET Phonon::phonon4qt5experimental APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(Phonon::phonon4qt5experimental PROPERTIES
+  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/lib/libphonon4qt5experimental.so.4.11.1"
+  IMPORTED_SONAME_DEBUG "libphonon4qt5experimental.so.4"
+  )
+
+list(APPEND _cmake_import_check_targets Phonon::phonon4qt5experimental )
+list(APPEND _cmake_import_check_files_for_Phonon::phonon4qt5experimental "${_IMPORT_PREFIX}/lib/libphonon4qt5experimental.so.4.11.1" )
+
+# Commands beyond this point should not need to know the version.
+set(CMAKE_IMPORT_FILE_VERSION)

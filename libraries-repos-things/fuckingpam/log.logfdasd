@@ -1,0 +1,175 @@
+make  all-recursive
+make[1]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam'
+Making all in libpam
+make[2]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpam'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpam'
+Making all in tests
+make[2]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/tests'
+Making all in libpamc
+make[2]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpamc'
+Making all in test
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpamc/test'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpamc/test'
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpamc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpamc'
+make[2]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpamc'
+Making all in libpam_misc
+make[2]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpam_misc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/libpam_misc'
+Making all in modules
+make[2]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules'
+Making all in pam_access
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_access'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_access'
+Making all in pam_debug
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_debug'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_debug'
+Making all in pam_deny
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_deny'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_deny'
+Making all in pam_echo
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_echo'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_echo'
+Making all in pam_env
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_env'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_env'
+Making all in pam_exec
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_exec'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_exec'
+Making all in pam_faildelay
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_faildelay'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_faildelay'
+Making all in pam_faillock
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_faillock'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_faillock'
+Making all in pam_filter
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_filter'
+Making all in upperLOWER
+make[4]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_filter/upperLOWER'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_filter/upperLOWER'
+make[4]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_filter'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_filter'
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_filter'
+Making all in pam_ftp
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_ftp'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_ftp'
+Making all in pam_group
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_group'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_group'
+Making all in pam_issue
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_issue'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_issue'
+Making all in pam_keyinit
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_keyinit'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_keyinit'
+Making all in pam_limits
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_limits'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_limits'
+Making all in pam_listfile
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_listfile'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_listfile'
+Making all in pam_localuser
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_localuser'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_localuser'
+Making all in pam_loginuid
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_loginuid'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_loginuid'
+Making all in pam_mail
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_mail'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_mail'
+Making all in pam_mkhomedir
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_mkhomedir'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_mkhomedir'
+Making all in pam_motd
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_motd'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_motd'
+Making all in pam_namespace
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_namespace'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_namespace'
+Making all in pam_nologin
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_nologin'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_nologin'
+Making all in pam_permit
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_permit'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_permit'
+Making all in pam_pwhistory
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_pwhistory'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_pwhistory'
+Making all in pam_rhosts
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_rhosts'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_rhosts'
+Making all in pam_rootok
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_rootok'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_rootok'
+Making all in pam_securetty
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_securetty'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_securetty'
+Making all in pam_setquota
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_setquota'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_setquota'
+Making all in pam_shells
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_shells'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_shells'
+Making all in pam_stress
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_stress'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_stress'
+Making all in pam_succeed_if
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_succeed_if'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_succeed_if'
+Making all in pam_time
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_time'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_time'
+Making all in pam_timestamp
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_timestamp'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_timestamp'
+Making all in pam_umask
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_umask'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_umask'
+Making all in pam_unix
+make[3]: Entering directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_unix'
+/bin/sh ../../libtool  --tag=CC   --mode=link arm-kobo-linux-gnueabihf-gcc -I../../libpam/include -I../../libpamc/include -DCHKPWD_HELPER=\"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/sbin/unix_chkpwd\" -DUPDATE_HELPER=\"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/sbin/unix_update\" -I/usr/include/tirpc  -I/usr/include/tirpc  -W -Wall -Wbad-function-cast -Wcast-align -Wcast-align=strict -Wcast-qual -Wdeprecated -Wformat=2 -Winit-self -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wnull-dereference -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wundef -Wuninitialized -Wunused -Wwrite-strings -g -O2  -no-undefined -avoid-version -module -Wl,--version-script=./../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o pam_unix.la -rpath /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/security bigcrypt.lo pam_unix_acct.lo pam_unix_auth.lo pam_unix_passwd.lo pam_unix_sess.lo support.lo passverify.lo md5_good.lo md5_broken.lo yppasswd_xdr.lo ../../libpam/libpam.la -lcrypt   -ltirpc  -lnsl -ltirpc  
+libtool: link: arm-kobo-linux-gnueabihf-gcc -shared  -fPIC -DPIC  .libs/bigcrypt.o .libs/pam_unix_acct.o .libs/pam_unix_auth.o .libs/pam_unix_passwd.o .libs/pam_unix_sess.o .libs/support.o .libs/passverify.o .libs/md5_good.o .libs/md5_broken.o .libs/yppasswd_xdr.o   -Wl,-rpath -Wl,/mnt/HDD/Project/Public/okulartry/fuckingpam/libpam/.libs -Wl,-rpath -Wl,/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib ../../libpam/.libs/libpam.so -ldl -lcrypt -lnsl -ltirpc  -g -O2 -Wl,--version-script=./../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1   -Wl,-soname -Wl,pam_unix.so -o .libs/pam_unix.so
+make[3]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules/pam_unix'
+make[2]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam/modules'
+make[1]: Leaving directory '/mnt/HDD/Project/Public/okulartry/fuckingpam'

@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.kde.kglobalaccel
+Exec=/mnt/HDD/Project/Public/okulartry/okular-things/bin/kglobalaccel5
+SystemdService=plasma-kglobalaccel.service

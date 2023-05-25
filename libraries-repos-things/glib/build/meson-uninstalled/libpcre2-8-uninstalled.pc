@@ -1,0 +1,10 @@
+prefix=/mnt/HDD/Project/Public/okulartry/glib/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/mnt/HDD/Project/Public/okulartry/glib
+
+Name: libpcre2-8
+Description: PCRE2 - Perl compatible regular expressions C library (2nd API) with 8 bit character support
+Version: 10.42
+Libs: -L${prefix}/subprojects/pcre2-10.42 -lpcre2-8
+Cflags: -I${prefix}/subprojects/pcre2-10.42 -I${srcdir}/subprojects/pcre2-10.42 -I${prefix}/subprojects/pcre2-10.42 -I${srcdir}/subprojects/pcre2-10.42 -I${prefix}/subprojects/pcre2-10.42/src -I${srcdir}/subprojects/pcre2-10.42/src

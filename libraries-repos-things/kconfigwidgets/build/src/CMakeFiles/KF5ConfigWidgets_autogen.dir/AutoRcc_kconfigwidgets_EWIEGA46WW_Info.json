@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/build/src/KF5ConfigWidgets_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/src",
+	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets",
+	"INCLUDE_DIR" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/build/src/KF5ConfigWidgets_autogen/include",
+	"INPUTS" : [ "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/src/ktip-bulb.png" ],
+	"LOCK_FILE" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/build/src/CMakeFiles/KF5ConfigWidgets_autogen.dir/AutoRcc_kconfigwidgets_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "kconfigwidgets" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_kconfigwidgets.cpp",
+	"RCC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/build/src/CMakeFiles/KF5ConfigWidgets_autogen.dir/AutoRcc_kconfigwidgets_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/mnt/HDD/Project/Public/okulartry/kconfigwidgets/src/kconfigwidgets.qrc",
+	"VERBOSITY" : 0
+}

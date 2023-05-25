@@ -1,0 +1,40 @@
+armos.o: armos.c \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h \
+ ../../gnulib/config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/libiberty.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/limits.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/string.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/unistd.h \
+ armdefs.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h \
+ armos.h armemu.h armfpe.h dbg_rdi.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/sim/callback.h \
+ ../../bfd/bfd.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/symcat.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/diagnostics.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/sys/stat.h
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h:
+../../gnulib/config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/libiberty.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/limits.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/string.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/unistd.h:
+armdefs.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h:
+armos.h:
+armemu.h:
+armfpe.h:
+dbg_rdi.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/sim/callback.h:
+../../bfd/bfd.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/symcat.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/diagnostics.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/sys/stat.h:

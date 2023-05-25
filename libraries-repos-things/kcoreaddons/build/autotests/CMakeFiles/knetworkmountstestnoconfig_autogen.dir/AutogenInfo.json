@@ -1,0 +1,179 @@
+{
+	"BUILD_DIR" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/knetworkmountstestnoconfig_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests/CMakeLists.txt",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMAddTests.cmake",
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMMarkAsTest.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMMarkNonGuiExecutable.cmake",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests/ConfigureChecks.cmake",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/KF5CoreAddonsMacros.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5Test/Qt5TestConfig.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests/config-tests.h.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests/knetworkmountstestnoconfig.h",
+			"Mu",
+			"EWIEGA46WW/moc_knetworkmountstestnoconfig.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/knetworkmountstestnoconfig_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/knetworkmountstestnoconfig_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCOREADDONS_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KCOREADDONS_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"KDELIBS4CONFIGMIGRATOR_DATA_DIR=\"/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests/data\"",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x60000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x50e00",
+		"QT_FORCE_ASSERTS",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_TESTCASE_BUILDDIR=\"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build\"",
+		"QT_TESTLIB_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib/caching",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/src/lib/io",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib/io",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib/jobs",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib/plugin",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib/randomness",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib/text",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib/util",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/src/lib",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/src/lib",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtTest",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/knetworkmountstestnoconfig_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/alwaysunloadplugin_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/autotests_static_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/jsonplugin2_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/jsonplugin_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/jsonplugin_cmake_macro_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kaboutdataapplicationdatatest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kaboutdatatest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kautosavefiletest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kcompositejobtest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kfileutilstest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kformattest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kfuzzymatchertest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kjobtest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kmacroexpandertest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/knetworkmountstestcanonical_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kosreleasetest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kpluginfactorytest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kpluginloadertest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kpluginmetadatatest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kprocesslisttest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kprocesstest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/krandomtest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kshareddatacachetest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kshelltest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kstringhandlertest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kurlmimedatatest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/kusertest_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/multiplugin_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/org.kde.test_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/pluginwithoutmetadata_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/qtplugin_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/unversionedplugin_autogen/mocs_compilation.cpp",
+		"/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/versionedplugin_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/CMakeFiles/knetworkmountstestnoconfig_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/CMakeFiles/knetworkmountstestnoconfig_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/kcoreaddons/autotests/knetworkmountstestnoconfig.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

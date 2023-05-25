@@ -1,0 +1,18 @@
+armvirt.o: armvirt.c \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h \
+ ../../gnulib/config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h \
+ armos.h armdefs.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdlib.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h:
+../../gnulib/config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h:
+armos.h:
+armdefs.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdlib.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h:

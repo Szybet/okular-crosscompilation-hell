@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+e7f632c718e3cd79e16b89a3b3dcb039 CMakeFiles/pofiles-71f04e9726ce59f28eed6e34d9ef0dbc
+fff75d39fe74d430a58e9c547cf5c478 CMakeFiles/tsfiles-71f04e9726ce59f28eed6e34d9ef0dbc
+2bd52c645acc4fcc771d3cc60ade8005 CMakeFiles/uninstall
+c006f9d550a3ea736301dbabf00d3fcd src/CMakeFiles/KF5Pty_autogen

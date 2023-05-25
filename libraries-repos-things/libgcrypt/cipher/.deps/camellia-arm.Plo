@@ -1,0 +1,2 @@
+camellia-arm.lo: camellia-arm.S ../config.h
+../config.h:

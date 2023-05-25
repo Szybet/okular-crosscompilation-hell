@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.kde.kcookiejar5
+Exec=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/kded5

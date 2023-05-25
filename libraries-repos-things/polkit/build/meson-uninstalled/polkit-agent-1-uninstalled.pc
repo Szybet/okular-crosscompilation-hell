@@ -1,0 +1,11 @@
+prefix=/mnt/HDD/Project/Public/okulartry/polkit/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/mnt/HDD/Project/Public/okulartry/polkit
+
+Name: polkit-agent-1
+Description: PolicyKit Authentication Agent API
+Version: 123
+Requires: polkit-gobject-1
+Libs: -L${prefix}/src/polkitagent -lpolkit-agent-1
+Cflags: -I${prefix}/src/polkitagent -I${srcdir}/src/polkitagent -I${prefix} -I${srcdir} -I${prefix}/src -I${srcdir}/src

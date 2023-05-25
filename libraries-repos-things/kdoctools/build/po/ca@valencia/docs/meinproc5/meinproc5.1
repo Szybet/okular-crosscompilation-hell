@@ -1,0 +1,240 @@
+'\" t
+.\"     Title: \fBmeinproc5\fR
+.\"    Author: [FIXME: author] [see http://www.docbook.org/tdg5/en/html/author]
+.\" Generator: DocBook XSL Stylesheets v1.79.2 <http://docbook.sf.net/>
+.\"      Date: 8 de maig de 2014
+.\"    Manual: Manual d'usuari de meinproc5
+.\"    Source: Frameworks de KDE Frameworks 5.0
+.\"  Language: Catalan
+.\"
+.TH "\FBMEINPROC5\FR" "1" "8 de maig de 2014" "Frameworks de KDE Frameworks 5" "Manual d'usuari de meinproc5"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+
+
+
+
+
+.SH "NOM"
+meinproc5 \- Traductor KDE per a XML
+
+.SH "SINOPSI"
+
+
+.HP \w'\fBmeinproc5\fR\ 'u
+\fBmeinproc5\fR  [\-h,\ \-\-help]  [\-v,\ \-\-version]  [\-\-cache\fI\ fitxer\fR]  [\-\-check]  [\-\-srcdir\fI\ dir\fR]  [\-\-param\fI\ clau\fR=\fIvalor\fR]  [  [  | [\-o]  | [\-\-output] ] \fI fitxer\fR ]  [\-\-stdout]  [\-\-stylesheet\fI\ xsl\fR]  fitxer_docbook 
+
+
+.SH "DESCRIPCIÓ"
+
+
+.PP
+\fBmeinproc5\fR
+convertix fitxers DocBook a
+HTML\&.
+
+
+.SH "OPCIONS GENÈRIQUES"
+
+.PP
+
+
+.PP
+\fB\-h\fR\fB\-\-help\fR
+.RS 4
+
+  
+
+Mostra ajuda quant a les opcions\&.
+
+.RE
+.PP
+\fB\-v\fR\fB\-\-version\fR
+.RS 4
+
+
+
+Mostra la informació sobre la versió\&.
+
+.RE
+
+
+
+
+.SH "OPCIONS DE L\*(AQAPLICACIÓ"
+
+
+
+
+.PP
+\fB\-\-cache\fR \fIfitxer\fR
+.RS 4
+
+
+
+Crea un fitxer de cau per al document\&.
+
+.RE
+.PP
+\fB\-\-check\fR
+.RS 4
+
+
+
+Comprova la validesa del document\&.
+
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+L\*(Aqeixida pot ser una mica intimidatòria, ja que una xicoteta equivocació pot causar una cascada d\*(Aqerrors\&. 
+El truc és mirar en el primer error, corregir\-lo, guardeu el fitxer, i executeu \fBmeinproc5\fR de nou\&.
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+
+.RE
+.PP
+\fB\-o\fR, \fB\-\-output\fR\fI fitxer\fR
+.RS 4
+
+
+
+Envia tot el document cap a un
+\fIfitxer\fR\&.
+
+.RE
+.PP
+\fB\-\-stdout\fR
+.RS 4
+
+
+
+Envia tot el document cap a stdout\&.
+
+.RE
+.PP
+\fB\-\-stylesheet\fR \fIxsl\fR
+.RS 4
+
+
+
+Full d\*(Aqestil que s\*(Aqutilitzarà\&.
+
+.RE
+.PP
+\fB\-\-srcdir\fR \fIdir\fR
+.RS 4
+
+
+
+Establix el directori arrel per a la busca de les kdoctools\&.
+
+.RE
+.PP
+\fB\-\-param\fR clau=valor
+.RS 4
+
+
+
+Establix els paràmetres que es passaran al full d\*(Aqestil\&.
+
+.RE
+
+
+
+
+.SH "ÚS"
+
+.PP
+La manera més habitual d\*(Aqexecutar
+\fBmeinproc5\fR
+és senzillament com
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fB\fBmeinproc5\fR\fR\fB \fR\fB\fIfitxer\-docbook\fR\fR\fB
+\fR
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+a on
+\fIfitxer\-docbook\fR
+generalment serà index\&.docbook\&. Esta ordre crea pàgines
+HTML
+del fitxer DocBook\&. Cal tindre en compte que estes pàgines només són visibles en els navegadors basats en
+KDE
+(com
+Konqueror)\&.
+.PP
+Si necessiteu veure l\*(Aqeixida
+HTML
+en un altre navegador (per exemple, si el feu disponible en línia), utilitzeu
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fB\fBmeinproc5\fR\fR\fB \-\-stylesheet \fR\fB\fInom\-full\-estil\fR\fR\fB \fR\fB\fIfitxer\-docbook\fR\fR\fB
+\fR
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+a on
+\fInom\-full\-estil\fR
+serà el camí complet cap a un dels fulls d\*(Aqestil XSL en <prefix_instal\(mdlació_kdoctools>/share/kf5/kdoctools/customization/\&. Per a generar una eixida adequada per a la web, podeu utilitzar
+\fBkde\-web\&.xsl\fR
+o
+\fBkde\-chunk\-online\&.xsl\fR\&. Per a més detalls, vegeu el fitxer
+README
+en esta carpeta\&.
+
+
+
+.SH "VEGEU TAMBÉ"
+
+.PP
+\fIkf5options\fR(7),
+\fIqt5options\fR(7)
+
+
+.SH "ERRORS"
+
+.PP
+Utilitzeu el
+\m[blue]\fBSeguidor d\*(Aqerrors de KDE\fR\m[]\&\s-2\u[1]\d\s+2
+(escriviu\-hi en anglés) per a informar dels errors\&.
+
+
+.SH "NOTES"
+.IP " 1." 4
+Seguidor d'errors de KDE
+.RS 4
+\%https://bugs.kde.org
+.RE

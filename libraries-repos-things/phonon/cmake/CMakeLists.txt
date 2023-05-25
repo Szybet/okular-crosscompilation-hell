@@ -1,0 +1,1 @@
+install(FILES FindPhononInternal.cmake DESTINATION ${BUILDSYSTEM_INSTALL_DIR})

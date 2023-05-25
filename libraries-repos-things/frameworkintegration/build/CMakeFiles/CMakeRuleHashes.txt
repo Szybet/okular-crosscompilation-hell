@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+4014eeb7bf0aeafacea2564b0286d8aa CMakeFiles/fetch-translations
+fdae103bcc03cd7d20b0f539dc388ce2 CMakeFiles/uninstall
+55a43d110899bbc7c57f13637be3b70d releaseme
+aa62154e0a6927c9911457403aade206 src/integrationplugin/CMakeFiles/FrameworkIntegrationPlugin_autogen
+ec792738d53423f837d2114254a49472 src/kstyle/CMakeFiles/KF5Style_autogen

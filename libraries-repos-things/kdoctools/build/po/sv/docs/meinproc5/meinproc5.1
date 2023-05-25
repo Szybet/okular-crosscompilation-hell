@@ -1,0 +1,238 @@
+'\" t
+.\"     Title: \fBmeinproc5\fR
+.\"    Author: [FIXME: author] [see http://www.docbook.org/tdg5/en/html/author]
+.\" Generator: DocBook XSL Stylesheets v1.79.2 <http://docbook.sf.net/>
+.\"      Date: 2014-05-08
+.\"    Manual: meinproc5 användarhandbok
+.\"    Source: KDE Ramverk Ramverk 5.0
+.\"  Language: Swedish
+.\"
+.TH "\FBMEINPROC5\FR" "1" "2014\-05\-08" "KDE Ramverk Ramverk 5.0" "meinproc5 användarhandbok"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+
+
+
+
+
+.SH "NAMN"
+meinproc5 \- KDE:s översättare av XML
+
+.SH "ÖVERSIKT"
+
+
+.HP \w'\fBmeinproc5\fR\ 'u
+\fBmeinproc5\fR  [\-h,\ \-\-help]  [\-v,\ \-\-version]  [\-\-cache\fI\ fil\fR]  [\-\-check]  [\-\-srcdir\fI\ katalog\fR]  [\-\-param\ \fInyckel\fR=\fIvärde\fR]  [  [  | [\-o]  | [\-\-output] ] \fI fil\fR ]  [\-\-stdout]  [\-\-stylesheet\fI\ xsl\fR]  docbook\-fil 
+
+
+.SH "BESKRIVNING"
+
+
+.PP
+\fBmeinproc5\fR
+konverterar DocBook\-filer till
+HTML\&.
+
+
+.SH "ALLMÄNNA VÄLJARE"
+
+.PP
+
+
+.PP
+\fB\-h\fR\fB\-\-help\fR
+.RS 4
+
+  
+
+Visa hjälp om väljare\&.
+
+.RE
+.PP
+\fB\-v\fR\fB\-\-version\fR
+.RS 4
+
+
+
+Visa versionsinformation\&.
+
+.RE
+
+
+
+
+.SH "PROGRAMVÄLJARE"
+
+
+
+
+.PP
+\fB\-\-cache\fR \fIfil\fR
+.RS 4
+
+
+
+Skapa en cachefil för dokumentet\&.
+
+.RE
+.PP
+\fB\-\-check\fR
+.RS 4
+
+
+
+Kontrollera att dokumentet är giltigt\&.
+
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+Utmatningen kan vara något skrämmande, eftersom ett litet misstag kan orsaka en kaskad av fel\&.
+Knepet är att titta på det första felet, rätta det, spara filen och köra \fBmeinproc5\fR igen\&.
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+
+.RE
+.PP
+\fB\-o\fR, \fB\-\-output\fR\fI fil\fR
+.RS 4
+
+
+
+Skriv ut hela dokumentet i
+\fIfil\fR\&.
+
+.RE
+.PP
+\fB\-\-stdout\fR
+.RS 4
+
+
+
+Skriv ut hela dokumentet på standardutmatningen\&.
+
+.RE
+.PP
+\fB\-\-stylesheet\fR \fIxsl\fR
+.RS 4
+
+
+
+Stilmall att använda\&.
+
+.RE
+.PP
+\fB\-\-srcdir\fR \fIkat\fR
+.RS 4
+
+
+
+Ställ in rotkatalogen för att leta efter kdoctools\&.
+
+.RE
+.PP
+\fB\-\-param\fR nyckel=värde
+.RS 4
+
+
+
+Ställ in parametrar att skicka till stilmallen\&.
+
+.RE
+
+
+
+
+.SH "ANVÄNDNING"
+
+.PP
+Det vanligaste sättet att köra
+\fBmeinproc5\fR
+är helt enkelt som
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fB\fBmeinproc5\fR\fR\fB \fR\fB\fIdocbook\-fil\fR\fR\fB
+\fR
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+där
+\fIdocbook\-fil\fR
+oftast är index\&.docbook\&. Kommandot skapar
+HTML\-sidor från DocBook\-filen\&. Observera att sidorna bara går att titta på i
+KDE\-baserade webbläsare (som
+Konqueror)\&.
+.PP
+Om du behöver visa
+HTML\-utmatningen i en annan webbläsare (om du till exempel gör den direkt tillgänglig på nätet), använd
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fB\fBmeinproc5\fR\fR\fB \-\-stylesheet \fR\fB\fIstilmallsnamn\fR\fR\fB \fR\fB\fIdocbook\-fil\fR\fR\fB
+\fR
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+där
+\fIstilmallsnamn\fR
+är den fullständiga sökvägen till en av
+XSL\-stilmallarna i <kdoctools_installation_prefix>/share/kf5/kdoctools/customization/\&. För att skapa utmatning lämplig för webben, kan du använda
+\fBkde\-web\&.xsl\fR
+eller
+\fBkde\-chunk\-online\&.xsl\fR\&. Se filen
+README
+i den katalogen för mer detaljerad information\&.
+
+
+
+.SH "SE OCKSÅ"
+
+.PP
+\fIkf5options\fR(7),
+\fIqt5options\fR(7)
+
+
+.SH "FEL"
+
+.PP
+Använd
+\m[blue]\fBKDE:s felspårningssystem\fR\m[]\&\s-2\u[1]\d\s+2
+för att rapportera fel\&.
+
+
+.SH "NOTER"
+.IP " 1." 4
+KDE:s felspårningssystem
+.RS 4
+\%https://bugs.kde.org
+.RE

@@ -1,0 +1,981 @@
+Build started at 2023-05-17T13:33:08.018158
+Main binary: /usr/bin/python
+Build Options: --cross-file=../meson-kobo.txt
+Python system: Linux
+The Meson build system
+Version: 1.1.0
+Source dir: /mnt/HDD/Project/Public/okulartry/bzip2
+Build dir: /mnt/HDD/Project/Public/okulartry/bzip2/build
+Build type: cross build
+Project name: bzip2
+Project version: 1.1.0
+-----
+Detecting compiler via: arm-kobo-linux-gnueabihf-gcc --version
+compiler returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '--version']>
+compiler stdout:
+arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: arm-kobo-linux-gnueabihf-gcc -E -dM -
+-----
+Detecting linker via: arm-kobo-linux-gnueabihf-gcc -Wl,--version -lrt
+linker returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '-Wl,--version'...>
+linker stdout:
+GNU ld (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+Copyright (C) 2021 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 11.2.0
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld -plugin /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxuZKe3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib --version -lrt -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+Sanity testing C compiler: arm-kobo-linux-gnueabihf-gcc
+Is cross compiler: True.
+Sanity check compiler command line: arm-kobo-linux-gnueabihf-gcc sanitycheckc.c -o sanitycheckc_cross.exe -lrt -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: arm-kobo-linux-gnueabihf-gcc (gcc 11.2.0 "arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0")
+C linker for the host machine: arm-kobo-linux-gnueabihf-gcc ld.bfd 1.24.0.519
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (GCC) 13.1.1 20230429
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils) 2.40.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 13.1.1 20230429
+/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN3Ga5f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o
+
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 13.1.1 "cc (GCC) 13.1.1 20230429")
+C linker for the build machine: cc ld.bfd 2.40.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: arm
+Host machine cpu: arm
+Target machine cpu family: arm
+Target machine cpu: arm
+Configuring bz_version.h using configuration
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpp51daca1
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpp51daca1/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpp51daca1/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wall 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wall: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp30jl1ol0
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp30jl1ol0/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp30jl1ol0/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wextra 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wextra: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpv3ey22jw
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpv3ey22jw/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpv3ey22jw/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp606_nl2y
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp606_nl2y/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp606_nl2y/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp7vz3sl6e
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp7vz3sl6e/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp7vz3sl6e/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpc5e6hdv7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpc5e6hdv7/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpc5e6hdv7/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmps9nvnn46
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmps9nvnn46/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmps9nvnn46/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpimkvdsac
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpimkvdsac/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpimkvdsac/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Kcc1:[m[K [01;35m[Kwarning: [m[K'[01m[K-Wformat-security[m[K' ignored without '[01m[K-Wformat[m[K' [[01;35m[K-Wformat-security[m[K]
+
+Compiler for C supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp8hy91v_6
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp8hy91v_6/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp8hy91v_6/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpftykadp8
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpftykadp8/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpftykadp8/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpcolw5q1t
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpcolw5q1t/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpcolw5q1t/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Winline 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winline: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpu4pu3_oo
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpu4pu3_oo/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpu4pu3_oo/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp4mcj8qdh
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp4mcj8qdh/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp4mcj8qdh/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wfloat-equal 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wfloat-equal: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpqz2ehef8
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpqz2ehef8/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpqz2ehef8/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp31rfiq8o
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp31rfiq8o/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp31rfiq8o/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wendif-labels: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpxiuyyz11
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpxiuyyz11/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpxiuyyz11/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wempty-body 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wempty-body: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpdf2v4uj2
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpdf2v4uj2/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpdf2v4uj2/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-align: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpozinwj79
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpozinwj79/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpozinwj79/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wclobbered 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wclobbered: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpziadrq2p
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpziadrq2p/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpziadrq2p/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wvla 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wvla: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp68_r33o4
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp68_r33o4/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp68_r33o4/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wpragmas 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpragmas: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpu_6q2n9t
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpu_6q2n9t/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpu_6q2n9t/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wunreachable-code 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunreachable-code: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpl8mc1zzk
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpl8mc1zzk/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpl8mc1zzk/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Waddress 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Waddress: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmph4v73z4g
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmph4v73z4g/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmph4v73z4g/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wattributes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wattributes: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp4wc6178n
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp4wc6178n/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp4wc6178n/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wdiv-by-zero 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdiv-by-zero: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp9em9qfwv
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp9em9qfwv/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp9em9qfwv/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wshorten-64-to-32 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Karm-kobo-linux-gnueabihf-gcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wshorten-64-to-32[m[K'
+
+Compiler for C supports arguments -Wshorten-64-to-32: NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpevwiseix
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpevwiseix/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpevwiseix/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wconversion 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wconversion: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpjodiek8i
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpjodiek8i/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpjodiek8i/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wextended-offsetof 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Karm-kobo-linux-gnueabihf-gcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wextended-offsetof[m[K'
+
+Compiler for C supports arguments -Wextended-offsetof: NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpwfpnnezz
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpwfpnnezz/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpwfpnnezz/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wformat-nonliteral 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Kcc1:[m[K [01;35m[Kwarning: [m[K'[01m[K-Wformat-nonliteral[m[K' ignored without '[01m[K-Wformat[m[K' [[01;35m[K-Wformat-nonliteral[m[K]
+
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpo7ckfuz3
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpo7ckfuz3/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpo7ckfuz3/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wlanguage-extension-token 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Karm-kobo-linux-gnueabihf-gcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wlanguage-extension-token[m[K'
+
+Compiler for C supports arguments -Wlanguage-extension-token: NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpaodbrlc2
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpaodbrlc2/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpaodbrlc2/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-field-initializers 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-field-initializers: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp5sxcy2gn
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp5sxcy2gn/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp5sxcy2gn/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-noreturn 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp3_46vip7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp3_46vip7/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp3_46vip7/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-variable-declarations 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Karm-kobo-linux-gnueabihf-gcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wmissing-variable-declarations[m[K'; did you mean '[01m[K-Wmissing-declarations[m[K'?
+
+Compiler for C supports arguments -Wmissing-variable-declarations: NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpav13ffam
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpav13ffam/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpav13ffam/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wsign-conversion 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-conversion: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpmx2luvy1
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpmx2luvy1/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpmx2luvy1/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wunreachable-code-break 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Karm-kobo-linux-gnueabihf-gcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wunreachable-code-break[m[K'; did you mean '[01m[K-Wunreachable-code[m[K'?
+
+Compiler for C supports arguments -Wunreachable-code-break: NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpbq29radu
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpbq29radu/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpbq29radu/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wunused-macros 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-macros: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpy3rsl3tf
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpy3rsl3tf/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpy3rsl3tf/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-parameter: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp8e6cr6jv
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp8e6cr6jv/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp8e6cr6jv/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp9sqx98pr
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp9sqx98pr/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp9sqx98pr/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wheader-guard 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Karm-kobo-linux-gnueabihf-gcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wheader-guard[m[K'
+
+Compiler for C supports arguments -Wheader-guard: NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpc9mfulek
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpc9mfulek/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpc9mfulek/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wformat-nonliteral -Wno-format-nonliteral 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-format-nonliteral: YES 
+meson.build:18: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+meson.build:18: WARNING: Consider using the built-in warning_level option instead of using "-Wextra".
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp6jjrraoo
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp6jjrraoo/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmp6jjrraoo/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Werror=attributes 
+
+Code:
+ 
+        int foo_def(void) __attribute__((visibility("default")));
+        int foo_hid(void) __attribute__((visibility("hidden")));
+        int foo_int(void) __attribute__((visibility("internal")));
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports function attribute visibility: YES 
+Program xsltproc found: YES (/sbin/xsltproc)
+Program perl found: YES (/sbin/perl)
+Program xmllint found: YES (/sbin/xmllint)
+Program grep found: YES (/sbin/grep)
+Program pdfxmltex found: YES (/sbin/pdfxmltex)
+Program pdftops found: YES (/sbin/pdftops)
+Program sh found: YES (/sbin/sh)
+Program python3 found: YES (/sbin/python3)
+Running command: /sbin/python3 -m pytest --help
+--- stdout ---
+usage: __main__.py [options] [file_or_dir] [file_or_dir] [...]
+
+positional arguments:
+  file_or_dir
+
+general:
+  -k EXPRESSION         Only run tests which match the given substring
+                        expression. An expression is a Python evaluatable
+                        expression where all names are substring-matched against
+                        test names and their parent classes. Example: -k
+                        'test_method or test_other' matches all test functions
+                        and classes whose name contains 'test_method' or
+                        'test_other', while -k 'not test_method' matches those
+                        that don't contain 'test_method' in their names. -k 'not
+                        test_method and not test_other' will eliminate the
+                        matches. Additionally keywords are matched to classes
+                        and functions containing extra names in their
+                        'extra_keyword_matches' set, as well as functions which
+                        have names assigned directly to them. The matching is
+                        case-insensitive.
+  -m MARKEXPR           Only run tests matching given mark expression. For
+                        example: -m 'mark1 and not mark2'.
+  --markers             show markers (builtin, plugin and per-project ones).
+  -x, --exitfirst       Exit instantly on first error or failed test
+  --fixtures, --funcargs
+                        Show available fixtures, sorted by plugin appearance
+                        (fixtures with leading '_' are only shown with '-v')
+  --fixtures-per-test   Show fixtures per test
+  --pdb                 Start the interactive Python debugger on errors or
+                        KeyboardInterrupt
+  --pdbcls=modulename:classname
+                        Specify a custom interactive Python debugger for use
+                        with --pdb.For example:
+                        --pdbcls=IPython.terminal.debugger:TerminalPdb
+  --trace               Immediately break when running each test
+  --capture=method      Per-test capturing method: one of fd|sys|no|tee-sys
+  -s                    Shortcut for --capture=no
+  --runxfail            Report the results of xfail tests as if they were not
+                        marked
+  --lf, --last-failed   Rerun only the tests that failed at the last run (or all
+                        if none failed)
+  --ff, --failed-first  Run all tests, but run the last failures first. This may
+                        re-order tests and thus lead to repeated fixture
+                        setup/teardown.
+  --nf, --new-first     Run tests from new files first, then the rest of the
+                        tests sorted by file mtime
+  --cache-show=[CACHESHOW]
+                        Show cache contents, don't perform collection or tests.
+                        Optional argument: glob (default: '*').
+  --cache-clear         Remove all cache contents at start of test run
+  --lfnf={all,none}, --last-failed-no-failures={all,none}
+                        Which tests to run with no previously (known) failures
+  --sw, --stepwise      Exit on test failure and continue from last failing test
+                        next time
+  --sw-skip, --stepwise-skip
+                        Ignore the first failing test but stop on the next
+                        failing test. Implicitly enables --stepwise.
+  --flake8              perform some flake8 sanity checks on .py files
+
+Reporting:
+  --durations=N         Show N slowest setup/test durations (N=0 for all)
+  --durations-min=N     Minimal duration in seconds for inclusion in slowest
+                        list. Default: 0.005.
+  -v, --verbose         Increase verbosity
+  --no-header           Disable header
+  --no-summary          Disable summary
+  -q, --quiet           Decrease verbosity
+  --verbosity=VERBOSE   Set verbosity. Default: 0.
+  -r chars              Show extra test summary info as specified by chars:
+                        (f)ailed, (E)rror, (s)kipped, (x)failed, (X)passed,
+                        (p)assed, (P)assed with output, (a)ll except passed
+                        (p/P), or (A)ll. (w)arnings are enabled by default (see
+                        --disable-warnings), 'N' can be used to reset the list.
+                        (default: 'fE').
+  --disable-warnings, --disable-pytest-warnings
+                        Disable warnings summary
+  -l, --showlocals      Show locals in tracebacks (disabled by default)
+  --no-showlocals       Hide locals in tracebacks (negate --showlocals passed
+                        through addopts)
+  --tb=style            Traceback print mode (auto/long/short/line/native/no)
+  --show-capture={no,stdout,stderr,log,all}
+                        Controls how captured stdout/stderr/log is shown on
+                        failed tests. Default: all.
+  --full-trace          Don't cut any tracebacks (default is to cut)
+  --color=color         Color terminal output (yes/no/auto)
+  --code-highlight={yes,no}
+                        Whether code should be highlighted (only if --color is
+                        also enabled). Default: yes.
+  --pastebin=mode       Send failed|all info to bpaste.net pastebin service
+  --junit-xml=path      Create junit-xml style report file at given path
+  --junit-prefix=str    Prepend prefix to classnames in junit-xml output
+
+pytest-warnings:
+  -W PYTHONWARNINGS, --pythonwarnings=PYTHONWARNINGS
+                        Set which warnings to report, see -W option of Python
+                        itself
+  --maxfail=num         Exit after first num failures or errors
+  --strict-config       Any warnings encountered while parsing the `pytest`
+                        section of the configuration file raise errors
+  --strict-markers      Markers not registered in the `markers` section of the
+                        configuration file raise errors
+  --strict              (Deprecated) alias to --strict-markers
+  -c file               Load configuration from `file` instead of trying to
+                        locate one of the implicit configuration files
+  --continue-on-collection-errors
+                        Force test execution even if collection errors occur
+  --rootdir=ROOTDIR     Define root directory for tests. Can be relative path:
+                        'root_dir', './root_dir', 'root_dir/another_dir/';
+                        absolute path: '/home/user/root_dir'; path with
+                        variables: '$HOME/root_dir'.
+
+collection:
+  --collect-only, --co  Only collect tests, don't execute them
+  --pyargs              Try to interpret all arguments as Python packages
+  --ignore=path         Ignore path during collection (multi-allowed)
+  --ignore-glob=path    Ignore path pattern during collection (multi-allowed)
+  --deselect=nodeid_prefix
+                        Deselect item (via node id prefix) during collection
+                        (multi-allowed)
+  --confcutdir=dir      Only load conftest.py's relative to specified dir
+  --noconftest          Don't load any conftest.py files
+  --keep-duplicates     Keep duplicate tests
+  --collect-in-virtualenv
+                        Don't ignore tests in a local virtualenv directory
+  --import-mode={prepend,append,importlib}
+                        Prepend/append to sys.path when importing test modules
+                        and conftest files. Default: prepend.
+  --doctest-modules     Run doctests in all .py modules
+  --doctest-report={none,cdiff,ndiff,udiff,only_first_failure}
+                        Choose another output format for diffs on doctest
+                        failure
+  --doctest-glob=pat    Doctests file matching pattern, default: test*.txt
+  --doctest-ignore-import-errors
+                        Ignore doctest ImportErrors
+  --doctest-continue-on-failure
+                        For a given doctest, continue to run after the first
+                        failure
+
+test session debugging and configuration:
+  --basetemp=dir        Base temporary directory for this test run. (Warning:
+                        this directory is removed if it exists.)
+  -V, --version         Display pytest version and information about plugins.
+                        When given twice, also display information about
+                        plugins.
+  -h, --help            Show help message and configuration info
+  -p name               Early-load given plugin module name or entry point
+                        (multi-allowed). To avoid loading of plugins, use the
+                        `no:` prefix, e.g. `no:doctest`.
+  --trace-config        Trace considerations of conftest.py files
+  --debug=[DEBUG_FILE_NAME]
+                        Store internal tracing debug information in this log
+                        file. This file is opened with 'w' and truncated as a
+                        result, care advised. Default: pytestdebug.log.
+  -o OVERRIDE_INI, --override-ini=OVERRIDE_INI
+                        Override ini option with "option=value" style, e.g. `-o
+                        xfail_strict=True -o cache_dir=cache`.
+  --assert=MODE         Control assertion debugging tools.
+                        'plain' performs no assertion debugging.
+                        'rewrite' (the default) rewrites assert statements in
+                        test modules on import to provide assert expression
+                        information.
+  --setup-only          Only setup fixtures, do not execute tests
+  --setup-show          Show setup of fixtures while executing tests
+  --setup-plan          Show what fixtures and tests would be executed but don't
+                        execute anything
+
+logging:
+  --log-level=LEVEL     Level of messages to catch/display. Not set by default,
+                        so it depends on the root/parent log handler's effective
+                        level, where it is "WARNING" by default.
+  --log-format=LOG_FORMAT
+                        Log format used by the logging module
+  --log-date-format=LOG_DATE_FORMAT
+                        Log date format used by the logging module
+  --log-cli-level=LOG_CLI_LEVEL
+                        CLI logging level
+  --log-cli-format=LOG_CLI_FORMAT
+                        Log format used by the logging module
+  --log-cli-date-format=LOG_CLI_DATE_FORMAT
+                        Log date format used by the logging module
+  --log-file=LOG_FILE   Path to a file when logging will be written to
+  --log-file-level=LOG_FILE_LEVEL
+                        Log file logging level
+  --log-file-format=LOG_FILE_FORMAT
+                        Log format used by the logging module
+  --log-file-date-format=LOG_FILE_DATE_FORMAT
+                        Log date format used by the logging module
+  --log-auto-indent=LOG_AUTO_INDENT
+                        Auto-indent multiline messages passed to the logging
+                        module. Accepts true|on, false|off or an integer.
+  --log-disable=LOGGER_DISABLE
+                        Disable a logger by name. Can be passed multipe times.
+
+[pytest] ini-options in the first pytest.ini|tox.ini|setup.cfg|pyproject.toml file found:
+
+  markers (linelist):   Markers for test functions
+  empty_parameter_set_mark (string):
+                        Default marker for empty parametersets
+  norecursedirs (args): Directory patterns to avoid for recursion
+  testpaths (args):     Directories to search for tests when no files or
+                        directories are given on the command line
+  filterwarnings (linelist):
+                        Each line specifies a pattern for
+                        warnings.filterwarnings. Processed after
+                        -W/--pythonwarnings.
+  usefixtures (args):   List of default fixtures to be used with this project
+  python_files (args):  Glob-style file patterns for Python test module
+                        discovery
+  python_classes (args):
+                        Prefixes or glob names for Python test class discovery
+  python_functions (args):
+                        Prefixes or glob names for Python test function and
+                        method discovery
+  disable_test_id_escaping_and_forfeit_all_rights_to_community_support (bool):
+                        Disable string escape non-ASCII characters, might cause
+                        unwanted side effects(use at your own risk)
+  console_output_style (string):
+                        Console output: "classic", or with additional progress
+                        information ("progress" (percentage) | "count" |
+                        "progress-even-when-capture-no" (forces progress even
+                        when capture=no)
+  xfail_strict (bool):  Default for the strict parameter of xfail markers when
+                        not given explicitly (default: False)
+  tmp_path_retention_count (string):
+                        How many sessions should we keep the `tmp_path`
+                        directories, according to `tmp_path_retention_policy`.
+  tmp_path_retention_policy (string):
+                        Controls which directories created by the `tmp_path`
+                        fixture are kept around, based on test outcome.
+                        (all/failed/none)
+  enable_assertion_pass_hook (bool):
+                        Enables the pytest_assertion_pass hook. Make sure to
+                        delete any previously generated pyc cache files.
+  junit_suite_name (string):
+                        Test suite name for JUnit report
+  junit_logging (string):
+                        Write captured log messages to JUnit report: one of
+                        no|log|system-out|system-err|out-err|all
+  junit_log_passing_tests (bool):
+                        Capture log information for passing tests to JUnit
+                        report:
+  junit_duration_report (string):
+                        Duration time to report: one of total|call
+  junit_family (string):
+                        Emit XML for schema: one of legacy|xunit1|xunit2
+  doctest_optionflags (args):
+                        Option flags for doctests
+  doctest_encoding (string):
+                        Encoding used for doctest files
+  cache_dir (string):   Cache directory path
+  log_level (string):   Default value for --log-level
+  log_format (string):  Default value for --log-format
+  log_date_format (string):
+                        Default value for --log-date-format
+  log_cli (bool):       Enable log display during test run (also known as "live
+                        logging")
+  log_cli_level (string):
+                        Default value for --log-cli-level
+  log_cli_format (string):
+                        Default value for --log-cli-format
+  log_cli_date_format (string):
+                        Default value for --log-cli-date-format
+  log_file (string):    Default value for --log-file
+  log_file_level (string):
+                        Default value for --log-file-level
+  log_file_format (string):
+                        Default value for --log-file-format
+  log_file_date_format (string):
+                        Default value for --log-file-date-format
+  log_auto_indent (string):
+                        Default value for --log-auto-indent
+  pythonpath (paths):   Add paths to sys.path
+  faulthandler_timeout (string):
+                        Dump the traceback of all threads if a test takes more
+                        than TIMEOUT seconds to finish
+  addopts (args):       Extra command line options
+  minversion (string):  Minimally required pytest version
+  required_plugins (args):
+                        Plugins that must be present for pytest to run
+  flake8-ignore (linelist):
+                        each line specifies a glob pattern and whitespace
+                        separated FLAKE8 errors or warnings which will be
+                        ignored, example: *.py W293
+  flake8-max-line-length (string):
+                        maximum line length
+  flake8-max-doc-length (string):
+                        maximum doc line length
+  flake8-max-complexity (string):
+                        McCabe complexity threshold
+  flake8-show-source (bool):
+                        show the source generate each error or warning
+  flake8-statistics (bool):
+                        count errors and warnings
+  flake8-extensions (args):
+                        a list of file extensions, for example: .py .pyx
+
+Environment variables:
+  PYTEST_ADDOPTS           Extra command line options
+  PYTEST_PLUGINS           Comma-separated plugins to load during startup
+  PYTEST_DISABLE_PLUGIN_AUTOLOAD Set to disable plugin auto-loading
+  PYTEST_DEBUG             Set to enable debug tracing of pytest's internals
+
+
+to see available markers type: pytest --markers
+to see available fixtures type: pytest --fixtures
+(shown according to specified file_or_dir or current dir if not specified; fixtures with leading '_' are only shown with the '-v' option
+
+--- stderr ---
+
+
+Program valgrind found: NO
+Adding test "quick_test.py"
+Build targets in project: 6
+NOTICE: Future-deprecated features used:
+ * 0.64.0: {'copy arg in configure_file'}
+
+bzip2 1.1.0
+
+  User defined options
+    Cross files: ../meson-kobo.txt
+
+Found ninja-1.11.1 at /sbin/ninja
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpyl9sh11r
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpyl9sh11r/testfile.c -o /mnt/HDD/Project/Public/okulartry/bzip2/build/meson-private/tmpyl9sh11r/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/
+programs: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+libraries: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+
+Compiler stderr:
+ 
+Failed to guess install tag for /usr/local/share/man/man1/bunzip2.1
+Failed to guess install tag for /usr/local/share/man/man1/bzcat
+Failed to guess install tag for /usr/local/share/man/man1/bzegrep.1
+Failed to guess install tag for /usr/local/share/man/man1/bzfgrep.1
+Failed to guess install tag for /usr/local/share/man/man1/bzless.1
+Failed to guess install tag for /usr/local/share/man/man1/bzcmp.1
+Failed to guess install tag for install script: /mnt/HDD/Project/Public/okulartry/bzip2/install_links.py bin bzmore bzless --use-links
+Failed to guess install tag for install script: /mnt/HDD/Project/Public/okulartry/bzip2/install_links.py bin bzdiff bzcmp --use-links
+Failed to guess install tag for install script: /mnt/HDD/Project/Public/okulartry/bzip2/install_links.py bin bzgrep bzegrep bzfgrep --use-links
+Failed to guess install tag for install script: /mnt/HDD/Project/Public/okulartry/bzip2/install_links.py bin bzip2 bunzip2 bzcat --use-links

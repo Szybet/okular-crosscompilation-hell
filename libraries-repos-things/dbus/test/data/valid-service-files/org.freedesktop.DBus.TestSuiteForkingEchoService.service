@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteForkingEchoService
+Exec=/mnt/HDD/Project/Public/okulartry/dbus/test/test-service org.freedesktop.DBus.TestSuiteForkingEchoService fork

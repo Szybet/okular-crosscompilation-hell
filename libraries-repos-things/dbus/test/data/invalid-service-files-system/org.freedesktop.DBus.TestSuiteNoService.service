@@ -1,0 +1,4 @@
+[D-BUS Service]
+Exec=/mnt/HDD/Project/Public/okulartry/dbus/test/test-service
+User=anyrandomuser
+

@@ -1,0 +1,3288 @@
+.\" Man page generated from reStructuredText.
+.
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.TH "ECM-MODULES" "7" "May 15, 2023" "5.240" "Extra CMake Modules"
+.SH NAME
+ecm-modules \- ECM Modules Reference
+.SH INTRODUCTION
+.sp
+Extra CMake Modules (ECM) provides various modules that provide useful functions
+for CMake scripts. ECM actually provides three types of modules that can be
+used from CMake scripts: those that extend the functionality of the
+\fBfind_package\fP command are documented in \fI\%ecm\-find\-modules(7)\fP; those
+that provide standard settings for software produced by the KDE community are
+documented in \fI\%ecm\-kde\-modules(7)\fP\&.  The rest provide macros and
+functions for general use by CMake scripts and are documented here.
+.sp
+To use these modules, you need to tell CMake to find the ECM package, and
+then add either \fB${ECM_MODULE_PATH}\fP or \fB${ECM_MODULE_DIR}\fP to the
+\fBCMAKE_MODULE_PATH\fP variable:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+find_package(ECM REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_DIR})
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Using \fB${ECM_MODULE_PATH}\fP will also make the find modules and KDE modules
+available.
+.sp
+Note that there are also toolchain modules, documented in
+\fI\%ecm\-toolchains(7)\fP, but these are used by users building the software
+rather than developers writing CMake scripts.
+.SH ALL MODULES
+.SS CheckAtomic
+.sp
+Check if the compiler supports std:atomic out of the box or if libatomic is
+needed for atomic support. If it is needed libatomicis added to
+\fBCMAKE_REQUIRED_LIBRARIES\fP\&. So after running CheckAtomic you can use
+std:atomic.
+.sp
+Since 5.75.0.
+.SS ECMAddAppIcon
+.sp
+Add icons to executable files and packages.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_app_icon(<sources_var_name(|target (since 5.83))>
+                 ICONS <icon> [<icon> [...]]
+                 [SIDEBAR_ICONS <icon> [<icon> [...]] # Since 5.49
+                 [OUTFILE_BASENAME <name>]) # Since 5.49
+                 )
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The given icons, whose names must match the pattern:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+<size>\-<other_text>.png
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+will be added as platform\-specific application icons
+to the variable named \fB<sources_var_name>\fP or, if the first argument
+is a target (since 5.83), to the \fBSOURCES\fP property of \fB<target>\fP\&.
+Any target must be created with add_executable() and not be an alias.
+.sp
+Other icon files are ignored but on Mac SVG files can be supported and
+it is thus possible to mix those with png files in a single macro call.
+.sp
+The platforms currently supported are Windows and Mac OS X, on all others
+the call has no effect and is ignored.
+.sp
+\fB<size>\fP is a numeric pixel size (typically 16, 32, 48, 64, 128 or 256).
+\fB<other_text>\fP can be any other text. See the platform notes below for any
+recommendations about icon sizes.
+.sp
+\fBSIDEBAR_ICONS\fP can be used to add Mac OS X sidebar
+icons to the generated iconset. They are used when a folder monitored by the
+application is dragged into Finder’s sidebar. Since 5.49.
+.sp
+\fBOUTFILE_BASENAME\fP will be used as the basename for the icon file. If
+you specify it, the icon file will be called \fB<OUTFILE_BASENAME>.icns\fP on Mac OS X
+and \fB<OUTFILE_BASENAME>.ico\fP on Windows. If you don’t specify it, it defaults
+to \fB<sources_var_name>.<ext>\fP\&. Since 5.49.
+.INDENT 0.0
+.TP
+.B Windows notes
+.INDENT 7.0
+.IP \(bu 2
+Icons are compiled into the executable using a resource file.
+.IP \(bu 2
+Icons may not show up in Windows Explorer if the executable
+target does not have the \fBWIN32_EXECUTABLE\fP property set.
+.IP \(bu 2
+Icotool (see \fI\%FindIcoTool\fP) is required.
+.IP \(bu 2
+Supported sizes: 16, 24, 32, 48, 64, 128, 256, 512 and 1024.
+.UNINDENT
+.TP
+.B Mac OS X notes
+.INDENT 7.0
+.IP \(bu 2
+The executable target must have the \fBMACOSX_BUNDLE\fP property set.
+.IP \(bu 2
+Icons are added to the bundle.
+.IP \(bu 2
+If the ksvg2icns tool from KIconThemes is available, .svg and .svgz
+files are accepted; the first that is converted successfully to .icns
+will provide the application icon. SVG files are ignored otherwise.
+.IP \(bu 2
+The tool iconutil (provided by Apple) is required for bitmap icons.
+.IP \(bu 2
+Supported sizes: 16, 32, 64, 128, 256 (and 512, 1024 after OS X 10.9).
+.IP \(bu 2
+At least a 128x128px (or an SVG) icon is required.
+.IP \(bu 2
+Larger sizes are automatically used to substitute for smaller sizes on
+“Retina” (high\-resolution) displays. For example, a 32px icon, if
+provided, will be used as a 32px icon on standard\-resolution displays,
+and as a 16px\-equivalent icon (with an “@2x” tag) on high\-resolution
+displays. That is why you should provide 64px and 1024px icons although
+they are not supported anymore directly. Instead they will be used as
+\fI\%32px@2x\fP and \fI\%512px@2x\fP\&. If an SVG icon is provided, ksvg2icns will be
+used internally to automatically generate all appropriate sizes,
+including the high\-resolution ones.
+.IP \(bu 2
+This function sets the \fBMACOSX_BUNDLE_ICON_FILE\fP variable to the name
+of the generated icns file, so that it will be used as the
+\fBMACOSX_BUNDLE_ICON_FILE\fP target property when you call
+\fBadd_executable\fP\&.
+.IP \(bu 2
+Sidebar icons should typically provided in 16, 32, 64, 128 and 256px.
+.UNINDENT
+.UNINDENT
+.sp
+Since 1.7.0.
+.SS ECMAddQch
+.sp
+This module provides the \fBecm_add_qch\fP function for generating API
+documentation files in the QCH format, and the \fBecm_install_qch_export\fP
+function for generating and installing exported CMake targets for such
+generated QCH files to enable builds of other software with generation of
+QCH files to create links into the given QCH files.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qch(<target_name>
+    NAME <name>
+    VERSION <version>
+    QCH_INSTALL_DESTINATION <qchfile_install_path>
+    TAGFILE_INSTALL_DESTINATION <tagsfile_install_path>
+    [COMPONENT <component>]
+    [BASE_NAME <basename>]
+    [SOURCE_DIRS <dir> [<dir2> [...]]]
+    [SOURCES <file> [<file2> [...]]]
+    |MD_MAINPAGE <md_file>]
+    [INCLUDE_DIRS <incdir> [<incdir2> [...]]]
+    [IMAGE_DIRS <idir> [<idir2> [...]]]
+    [EXAMPLE_DIRS <edir> [<edir2> [...]]]
+    [ORG_DOMAIN <domain>]
+    [NAMESPACE <namespace>]
+    [LINK_QCHS <qch> [<qch2> [...]]]
+    [PREDEFINED_MACROS <macro[=content]> [<macro2[=content]> [...]]]
+    [BLANK_MACROS <macro> [<macro2> [...]]]
+    [CONFIG_TEMPLATE <configtemplate_file>]
+    [VERBOSE]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This macro adds a target called <target_name> for the creation of an API
+documentation manual in the QCH format from the given sources.
+It currently uses doxygen, future versions might optionally also allow other
+tools.
+Next to the QCH file the target will generate a corresponding doxygen tag
+file, which enables creating links from other documentation into the
+generated QCH file.
+.sp
+It is recommended to make the use of this macro optional, by depending
+the call to \fBecm_add_qch\fP on a CMake option being set, with a name like
+\fBBUILD_QCH\fP and being \fBTRUE\fP by default. This will allow the developers to
+saves resources on normal source development build cycles by setting this
+option to FALSE.
+.sp
+The macro will set the target properties \fBDOXYGEN_TAGFILE\fP, \fBQHP_NAMESPACE\fP,
+\fBQHP_NAMESPACE_VERSIONED\fP, \fBQHP_VIRTUALFOLDER\fP and \fBLINK_QCHS\fP to the respective
+values, to allow other code access to them, e.g. the macro
+\fBecm_install_qch_export\fP\&.
+To enable the use of the target <target_name> as item for \fBLINK_QCHS\fP
+in further \fBecm_add_qch\fP calls in the current build,
+additionally a target property \fBDOXYGEN_TAGFILE_BUILD\fP is set, with the path
+of the created doxygen tag file in the build dir.
+If existing, \fBecm_add_qch\fP will use this property instead of
+\fBDOXYGEN_TAGFILE\fP for access to the tags file.
+.sp
+\fBNAME\fP specifies the name for the generated documentation.
+.sp
+\fBVERSION\fP specifies the version of the library for which the documentation is
+created.
+.sp
+\fBBASE_NAME\fP specifies the base name for the generated files.
+The default basename is \fB<name>\fP\&.
+.sp
+\fBSOURCE_DIRS\fP specifies the dirs (incl. subdirs) with the source files for
+which the API documentation should be generated.  Dirs can be relative to
+the current source dir. Dependencies to the files in the dirs are not
+tracked currently, other than with the \fBSOURCES\fP argument. So do not use for
+sources generated during the build.
+Needs to be used when \fBSOURCES\fP or \fBCONFIG_TEMPLATE\fP are not used.
+.sp
+\fBSOURCES\fP specifies the source files for which the API documentation should be
+generated.
+Needs to be used when \fBSOURCE_DIRS\fP or \fBCONFIG_TEMPLATE\fP are not used.
+.sp
+\fBMD_MAINPAGE\fP specifies a file in Markdown format that should be used as main
+page. This page will overrule any \fB\emainpage\fP command in the included
+sources.
+.sp
+\fBINCLUDE_DIRS\fP specifies the dirs which should be searched for included
+headers. Dirs can be relative to the current source dir. Since 5.63.
+.sp
+\fBIMAGE_DIRS\fP specifies the dirs which contain images that are included in the
+documentation. Dirs can be relative to the current source dir.
+.sp
+\fBEXAMPLE_DIRS\fP specifies the dirs which contain examples that are included in
+the documentation. Dirs can be relative to the current source dir.
+.sp
+\fBQCH_INSTALL_DESTINATION\fP specifies where the generated QCH file will be
+installed.
+.sp
+\fBTAGFILE_INSTALL_DESTINATION\fP specifies where the generated tag file will be
+installed.
+.sp
+\fBCOMPONENT\fP specifies the installation component name with which the install
+rules for the generated QCH file and tag file are associated.
+.sp
+\fBNAMESPACE\fP can be used to set a custom namespace <namespace> of the generated
+QCH file. The namepspace is used as the unique id by QHelpEngine (cmp.
+\fI\%https://doc.qt.io/qt\-5/qthelpproject.html#namespace\fP).
+The default namespace is \fB<domain>.<name>\fP\&.
+Needs to be used when \fBORG_DOMAIN\fP is not used.
+.sp
+\fBORG_DOMAIN\fP can be used to define the organization domain prefix for the
+default namespace of the generated QCH file.
+Needs to be used when \fBNAMESPACE\fP is not used.
+.sp
+\fBLINK_QCHS\fP specifies a list of other QCH targets which should be used for
+creating references to API documentation of code in external libraries.
+For each target <qch> in the list these target properties are expected to be
+defined: \fBDOXYGEN_TAGFILE\fP, \fBQHP_NAMESPACE\fP and \fBQHP_VIRTUALFOLDER\fP\&.
+If any of these is not existing, <qch> will be ignored.
+Use the macro \fBecm_install_qch_export\fP for exporting a target with these
+properties with the CMake config of a library.
+Any target <qch> can also be one created before in the same buildsystem by
+another call of \fBecm_add_qch\fP\&.
+.sp
+\fBPREDEFINED_MACROS\fP specifies a list of C/C++ macros which should be handled as
+given by the API dox generation tool.
+Examples are macros only defined in generated files, so whose
+definition might be not available to the tool.
+.sp
+\fBBLANK_MACROS\fP specifies a list of C/C++ macro names which should be ignored by
+the API dox generation tool and handled as if they resolve to empty strings.
+Examples are export macros only defined in generated files, so whose
+definition might be not available to the tool.
+.sp
+\fBCONFIG_TEMPLATE\fP specifies a custom cmake template file for the config file
+that is created to control the execution of the API dox generation tool.
+The following CMake variables need to be used:
+\- \fBECM_QCH_DOXYGEN_QHELPGENERATOR_EXECUTABLE\fP
+\- \fBECM_QCH_DOXYGEN_FILEPATH, ECM_QCH_DOXYGEN_TAGFILE\fP
+The following CMake variables can be used:
+\- \fBECM_QCH_DOXYGEN_PROJECTNAME\fP
+\- \fBECM_QCH_DOXYGEN_PROJECTVERSION\fP
+\- \fBECM_QCH_DOXYGEN_VIRTUALFOLDER\fP
+\- \fBECM_QCH_DOXYGEN_FULLNAMESPACE\fP
+\- \fBECM_QCH_DOXYGEN_TAGFILES\fP
+\- \fBECM_QCH_DOXYGEN_WARN_LOGFILE\fP
+\- \fBECM_QCH_DOXYGEN_QUIET\fP
+There is no guarantue that the other CMake variables currently used in the
+default config file template will also be present with the same semantics
+in future versions of this macro.
+.sp
+\fBVERBOSE\fP tells the API dox generation tool to be more verbose about its
+activity.
+.sp
+The default config file for the API dox generation tool, so the one when not
+using \fBCONFIG_TEMPLATE\fP, allows code to handle the case of being processed by
+the tool by defining the C/C++ preprocessor macro \fBK_DOXYGEN\fP when run
+(since v5.67.0). For backward\-compatibility also the definition
+\fBDOXYGEN_SHOULD_SKIP_THIS\fP is set, but its usage is deprecated.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qch(
+    MyLib_QCH
+    NAME MyLib
+    VERSION \(dq0.42.0\(dq
+    ORG_DOMAIN org.myorg
+    SOURCE_DIRS
+        src
+    LINK_QCHS
+        Qt5Core_QCH
+        Qt5Xml_QCH
+        Qt5Gui_QCH
+        Qt5Widgets_QCH
+    BLANK_MACROS
+        MyLib_EXPORT
+        MyLib_DEPRECATED
+    TAGFILE_INSTALL_DESTINATION ${CMAKE_INSTALL_PREFIX}/share/docs/tags
+    QCH_INSTALL_DESTINATION ${CMAKE_INSTALL_PREFIX}/share/docs/qch
+    COMPONENT Devel
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Example usage (with two QCH files, second linking first):
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qch(
+    MyLib_QCH
+    NAME MyLib
+    VERSION ${MyLib_VERSION}
+    ORG_DOMAIN org.myorg
+    SOURCES ${MyLib_PUBLIC_HEADERS}
+    MD_MAINPAGE src/mylib/README.md
+    LINK_QCHS Qt5Core_QCH
+    TAGFILE_INSTALL_DESTINATION ${CMAKE_INSTALL_PREFIX}/share/docs/tags
+    QCH_INSTALL_DESTINATION ${CMAKE_INSTALL_PREFIX}/share/docs/qch
+    COMPONENT Devel
+)
+ecm_add_qch(
+    MyOtherLib_QCH
+    NAME MyOtherLib
+    VERSION ${MyOtherLib_VERSION}
+    ORG_DOMAIN org.myorg
+    SOURCES ${MyOtherLib_PUBLIC_HEADERS}
+    MD_MAINPAGE src/myotherlib/README.md
+    LINK_QCHS Qt5Core_QCH MyLib_QCH
+    TAGFILE_INSTALL_DESTINATION ${CMAKE_INSTALL_PREFIX}/share/docs/tags
+    QCH_INSTALL_DESTINATION ${CMAKE_INSTALL_PREFIX}/share/docs/qch
+    COMPONENT Devel
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_qch_export(
+    TARGETS [<name> [<name2> [...]]]
+    FILE <file>
+    DESTINATION <dest>
+    [COMPONENT <component>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This macro creates and installs a CMake file <file> which exports the given
+QCH targets <name> etc., so they can be picked up by CMake\-based builds of
+other software that also generate QCH files (using \fBecm_add_qch\fP) and
+which should include links to the QCH files created by the given targets.
+The installed CMake file <file> is expected to be included by the CMake
+config file created for the software the related QCH files are documenting.
+.sp
+\fBTARGETS\fP specifies the QCH targets which should be exported. If a target does
+not exist or does not have all needed properties, a warning will be
+generated and the target skipped.
+This behaviour might change in future versions to result in a fail instead.
+.sp
+\fBFILE\fP specifies the name of the created CMake file, typically with a .cmake
+extension.
+.sp
+\fBDESTINATION\fP specifies the directory on disk to which the file will be
+installed. It usually is the same as the one where the CMake config files
+for this software are installed.
+.sp
+\fBCOMPONENT\fP specifies the installation component name with which the
+install rule is associated.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_qch_export(
+    TARGETS MyLib_QCH
+    FILE MyLibQCHTargets.cmake
+    DESTINATION \(dq${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLib\(dq
+    COMPONENT Devel
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.36.0.
+.SS ECMAddQtDesignerPlugin
+.sp
+This module provides the \fBecm_add_qtdesignerplugin\fP function for generating
+Qt Designer plugins for custom widgets. Each of those widgets is described
+using a second function \fBecm_qtdesignerplugin_widget\fP\&.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qtdesignerplugin(<target_name>
+    NAME <name>
+    WIDGETS <widgetid> [<widgetid2> [...]]
+    LINK_LIBRARIES <lib> [<lib2> [...]]
+    INSTALL_DESTINATION <install_path>
+    [OUTPUT_NAME <output_name>]
+    [DEFAULT_GROUP <group>]
+    [DEFAULT_HEADER_CASE <SAME_CASE|LOWER_CASE|UPPER_CASE>]
+    [DEFAULT_HEADER_EXTENSION <header_extension>]
+    [DEFAULT_ICON_DIR <icon_dir>]
+    [INCLUDE_FILES <include_file> [<include_file2> [...]]]
+    [SOURCES <src> [<src2> [...]]]
+    [COMPONENT <component>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBNAME\fP specifies the base name to use in the generated sources.
+The default is <target_name>.
+.sp
+\fBWIDGETS\fP specifies the widgets the plugin should support. Each widget has
+to be defined before by a call of \fBecm_qtdesignerplugin_widget\fP with the
+respective <widgetid>, in a scope including the current call.
+.sp
+\fBLINK_LIBRARIES\fP specifies the libraries to link against. This will be at
+least the library providing the widget class(es).
+.sp
+\fBINSTALL_DESTINATION\fP specifies where the generated plugin binary will be
+installed.
+.sp
+\fBOUTPUT_NAME\fP specifies the name of the plugin binary. The default is
+“<target_name>”.
+.sp
+\fBDEFAULT_GROUP\fP specifies the default group in Qt Designer where the
+widgets will be placed. The default is “Custom”.
+.sp
+\fBDEFAULT_HEADER_CASE\fP specifies how the name of the header is derived from
+the widget class name.  The default is “LOWER_CASE”.
+.sp
+\fBDEFAULT_HEADER_EXTENSION\fP specifies what file name extension is used for
+the header file derived from the class name.  The default is “h”.
+.sp
+\fBDEFAULT_ICON_DIR\fP specifies what file name extension is used for
+the header file derived from the class name.  The default is “pics”.
+.sp
+\fBINCLUDE_FILES\fP specifies additional include files to include with the
+generated source file. This can be needed for custom code used in
+initializing or creating widgets.
+.sp
+\fBSOURCES\fP specifies additional source files to build the plugin from.
+This can be needed to support custom code used in initializing or
+creating widgets.
+.sp
+\fBCOMPONENT\fP specifies the installation component name with which the install
+rules for the generated plugin are associated.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_qtdesignerplugin_widget(<widgetid>
+    [CLASS_NAME <class_name>]
+    [INCLUDE_FILE <include_file>]
+    [CONTAINER]
+    [ICON <iconfile>]
+    [TOOLTIP <tooltip>]
+    [WHATSTHIS <whatsthis>]
+    [GROUP <group>]
+    [CREATE_WIDGET_CODE_FROM_VARIABLE <create_widget_code_variable>]
+    [INITIALIZE_CODE_FROM_VARIABLE <initialize_code_variable]
+    [DOM_XML_FROM_VARIABLE <dom_xml_variable>]
+    [IMPL_CLASS_NAME <impl_class_name>]
+    [CONSTRUCTOR_ARGS_CODE <constructor_args_code>]
+    [CONSTRUCTOR_ARGS_CODE_FROM_VARIABLE <constructor_args_code_variable>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBCLASS_NAME\fP specifies the name of the widget class, including namespaces.
+The default is “<widgetid>”.
+.sp
+\fBINCLUDE_FILE\fP specifies the include file to use for the class of this
+widget. The default is derived from <class_name> as configured by the
+\fBDEFAULT_HEADER_*\fP options of \fBecm_add_qtdesignerplugin\fP, also replacing
+any namespace separators with “/”.
+.sp
+\fBCONTAINER\fP specifies, if set, that this widget is a container
+for other widgets.
+.sp
+\fBICON\fP specifies the icon file to use as symbol for this widget.
+The default is “{lowercased <class_name>}.png” in the default icons dir as
+configured by the \fBDEFAULT_ICON_DIR\fP option of
+\fBecm_add_qtdesignerplugin\fP, if such a file exists.
+.sp
+\fBTOOLTIP\fP specifies the tooltip text to use for this widget. Default is
+“<class_name> Widget”.
+.sp
+\fBWHATSTHIS\fP specifies the What’s\-This text to use for this widget.
+Defaults to the tooltip.
+.sp
+\fBGROUP\fP specifies the group in Qt Designer where the widget will be placed.
+The default is set as configured by the \fBDEFAULT_GROUP\fP option of
+\fBecm_add_qtdesignerplugin\fP\&.
+.sp
+\fBCREATE_WIDGET_CODE_FROM_VARIABLE\fP specifies the variable to get from the
+C++ code to use as factory code to create an instance of the widget,
+for the override of
+\fBQDesignerCustomWidgetInterface::createWidget(QWidget* parent)\fP\&.
+The default is “return new <impl_class_name><constructor_args_code>;”.
+.sp
+\fBINITIALIZE_CODE_FROM_VARIABLE\fP specifies the variable to get from the C++
+code to use with the override of
+\fBQDesignerCustomWidgetInterface::initialize(QDesignerFormEditorInterface* core)\fP\&.
+The code has to use the present class member \fBm_initialized\fP to track and
+update the state. The default code simply sets \fBm_initialized\fP to
+\fBtrue\fP, if it was not before.
+.sp
+\fBDOM_XML_FROM_VARIABLE\fP specifies the variable to get from the string to
+use with the optional override of
+\fBQDesignerCustomWidgetInterface::domXml()\fP\&.
+Default does not override.
+.sp
+\fBIMPL_CLASS_NAME\fP specifies the name of the widget class to use for the
+widget instance with Qt Designer. The default is “<class_name>”.
+.sp
+\fBCONSTRUCTOR_ARGS_CODE\fP specifies the C++ code to use for the constructor
+arguments with the default of \fBCREATE_WIDGET_CODE_FROM_VARIABLE\fP\&. Note
+that the parentheses are required. The default is “(parent)”.
+.sp
+\fBCONSTRUCTOR_ARGS_CODE_FROM_VARIABLE\fP specifies the variable to get from
+the C++ code instead of passing it directly via \fBCONSTRUCTOR_ARGS_CODE\fP\&.
+This can be needed if the code is more complex and e.g. includes “;” chars.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_qtdesignerplugin_widget(FooWidget
+    TOOLTIP \(dqEnables to browse foo.\(dq
+    GROUP \(dqViews (Foo)\(dq
+)
+
+set(BarWidget_CREATE_WIDGET_CODE
+\(dq
+    auto* widget = new BarWidget(parent);
+    widget\->setBar(\(dqExample bar\(dq);
+    return widget;
+\(dq)
+
+ecm_qtdesignerplugin_widget(BarWidget
+    TOOLTIP \(dqDisplays bars.\(dq
+    GROUP \(dqDisplay (Foo)\(dq
+    CREATE_WIDGET_CODE_FROM_VARIABLE BarWidget_CREATE_WIDGET_CODE
+)
+
+ecm_add_qtdesignerplugin(foowidgets
+    NAME FooWidgets
+    OUTPUT_NAME foo2widgets
+    WIDGETS
+        FooWidget
+        BarWidget
+    LINK_LIBRARIES
+        Foo::Widgets
+    INSTALL_DESTINATION \(dq${KDE_INSTALL_QTPLUGINDIR}/designer\(dq
+    COMPONENT Devel
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.62.0.
+.SS ECMAddTests
+.sp
+Convenience functions for adding tests.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_tests(<sources> LINK_LIBRARIES <library> [<library> [...]]
+                        [NAME_PREFIX <prefix>]
+                        [GUI]
+                        [TARGET_NAMES_VAR <target_names_var>]
+                        [TEST_NAMES_VAR <test_names_var>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+A convenience function for adding multiple tests, each consisting of a
+single source file. For each file in <sources>, an executable target will be
+created (the name of which will be the basename of the source file). This
+will be linked against the libraries given with \fBLINK_LIBRARIES\fP\&. Each
+executable will be added as a test with the same name.
+.sp
+If \fBNAME_PREFIX\fP is given, this prefix will be prepended to the test names, but
+not the target names. As a result, it will not prevent clashes between tests
+with the same name in different parts of the project, but it can be used to
+give an indication of where to look for a failing test.
+.sp
+If the flag \fBGUI\fP is passed the test binaries will be GUI executables, otherwise
+the resulting binaries will be console applications (regardless of the value
+of \fBCMAKE_WIN32_EXECUTABLE\fP or \fBCMAKE_MACOSX_BUNDLE\fP). Be aware that this changes
+the executable entry point on Windows (although some frameworks, such as Qt,
+abstract this difference away).
+.sp
+The tests will be build with \fB\-DQT_FORCE_ASSERTS\fP to enable assertions in the
+test executable even for release builds.
+.sp
+The \fBTARGET_NAMES_VAR\fP and \fBTEST_NAMES_VAR\fP arguments, if given, should specify a
+variable name to receive the list of generated target and test names,
+respectively. This makes it convenient to apply properties to them as a
+whole, for example, using \fBset_target_properties()\fP or  \fBset_tests_properties()\fP\&.
+.sp
+The generated target executables will have the effects of \fBecm_mark_as_test()\fP
+(from the \fI\%ECMMarkAsTest\fP module) applied to it.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_test(<sources> LINK_LIBRARIES <library> [<library> [...]]
+                       [TEST_NAME <name>]
+                       [NAME_PREFIX <prefix>]
+                       [GUI])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This is a single\-test form of \fBecm_add_tests\fP that allows multiple source files
+to be used for a single test. If using multiple source files, \fBTEST_NAME\fP must
+be given; this will be used for both the target and test names (and, as with
+\fBecm_add_tests()\fP, the \fBNAME_PREFIX\fP argument will be prepended to the test name).
+.sp
+Since pre\-1.0.0.
+.SS ECMCheckOutboundLicense
+.sp
+Assert that source file licenses are compatible with a desired outbound license
+of a compiled binary artifact (e.g., library, plugin or application).
+.sp
+This module provides the \fBecm_check_outbound_license\fP function that
+generates unit tests for checking the compatibility of license statements.
+The license statements in all tested files are required to be added by using
+the SPDX marker \fBSPDX\-License\-Identifier\fP\&.
+.sp
+During the CMake configuration of the project, a temporary license bill of
+materials (BOM) in SPDX format is generated by calling the REUSE tool
+(see <\fI\%https://reuse.software\fP>). That BOM is parsed and license computations
+based on an internal compatibility matrix are performed.
+.INDENT 0.0
+.TP
+.B Preconditions for using this module:
+.INDENT 7.0
+.IP \(bu 2
+All tested input source files must contain the SPDX\-License\-Identifier tag.
+.IP \(bu 2
+Python3 must be available.
+.IP \(bu 2
+The REUSE tool must be available, which generates the bill\-of\-materials
+by running \fBreuse spdx\fP on the tested directory.
+.UNINDENT
+.UNINDENT
+.sp
+When this module is included, a \fBSKIP_LICENSE_TESTS\fP option is added (default
+\fBOFF\fP). Turning this option on skips the generation of license tests, which might
+be convenient if licenses shall not be tested in all build configurations.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_check_outbound_license(LICENSES <outbound\-licenses>
+                           FILES <source\-files>
+                           [TEST_NAME <name>]
+                           [WILL_FAIL])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This method adds a custom unit test to ensure the specified outbound license to be
+compatible with the specified license headers. Note that a convenient way is to use
+the CMake \fBGLOB\fP argument of the \fBFILE\fP function.
+.INDENT 0.0
+.TP
+.B \fBLICENSES\fP
+List of one or multiple outbound license regarding which the compatibility of the source code files shall be tested..INDENT 7.0
+.TP
+.B Currently, the following values are supported (values are SPDX registry identifiers):
+.INDENT 7.0
+.IP \(bu 2
+MIT
+.IP \(bu 2
+BSD\-2\-Clause
+.IP \(bu 2
+BSD\-3\-Clause
+.IP \(bu 2
+LGPL\-2.0\-only
+.IP \(bu 2
+LGPL\-2.1\-only
+.IP \(bu 2
+LGPL\-3.0\-only
+.IP \(bu 2
+GPL\-2.0\-only
+.IP \(bu 2
+GPL\-3.0\-only
+.UNINDENT
+.UNINDENT
+.TP
+.B \fBFILES:\fP
+List of source files that contain valid SPDX\-License\-Identifier markers.
+The paths can be relative to the CMake file that generates the test case
+or be absolute paths.
+.TP
+.B \fBTEST_NAME\fP
+Optional parameter that defines the name of the generated test case.
+If no name is defined, the relative path to the test directory with appended
+license name is used. Every test has \fBlicensecheck_\fP as prefix.
+.TP
+.B \fBWILL_FAIL\fP
+Optional parameter that inverts the test result. This parameter is usually only
+used for tests of the module.
+.UNINDENT
+.sp
+Since 5.75.0
+.SS ECMConfiguredInstall
+.sp
+Takes a list of files, runs \fBconfigure_file\fP on each and installs the resultant configured files in the given location.
+.sp
+Any suffix of “.in” in the passed file names will be stripped from the file name at the installed location.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_configured_files(
+    INPUT <file> [<file2> [...]]
+    DESTINATION <INSTALL_DIRECTORY>
+    [COPYONLY]
+    [ESCAPE_QUOTES]
+    [@ONLY]
+    [COMPONENT <component>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_configured_files(INPUT foo.txt.in DESTINATION ${KDE_INSTALL_DATADIR} @ONLY)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This will install the file as foo.txt with any cmake variable replacements made into the data directory.
+.sp
+Since 5.73.0.
+.SS ECMCoverageOption
+.sp
+Allow users to easily enable GCov code coverage support.
+.sp
+Code coverage allows you to check how much of your codebase is covered by
+your tests. This module makes it easy to build with support for
+\fI\%GCov\fP\&.
+.sp
+When this module is included, a \fBBUILD_COVERAGE\fP option is added (default
+\fBOFF\fP). Turning this option on enables GCC’s coverage instrumentation, and
+links against \fBlibgcov\fP\&.
+.sp
+\fBNOTE:\fP
+.INDENT 0.0
+.INDENT 3.5
+This will probably break the build if you are not using GCC.
+.UNINDENT
+.UNINDENT
+.sp
+Since 1.3.0.
+.SS ECMCreateQmFromPoFiles
+.sp
+\fBWARNING:\fP
+.INDENT 0.0
+.INDENT 3.5
+This module is deprecated and will be removed by ECM 1.0. Use
+\fI\%ECMPoQmTools\fP instead.
+.UNINDENT
+.UNINDENT
+.sp
+Generate QTranslator (.qm) catalogs from Gettext (.po) catalogs.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_create_qm_from_po_files(PO_FILES <file1>... <fileN>
+                            [CATALOG_NAME <catalog_name>]
+                            [INSTALL_DESTINATION <install_destination>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Creates the necessary rules to compile .po files into .qm files, and install
+them.
+.sp
+The .qm files are installed in \fB<install_destination>/<lang>/LC_MESSAGES\fP,
+where <install_destination> is the INSTALL_DESTINATION argument and <lang> is
+extracted from the “Language” field inside the .po file.
+.sp
+INSTALL_DESTINATION defaults to \fB${LOCALE_INSTALL_DIR}\fP if defined,
+otherwise it uses \fB${CMAKE_INSTALL_LOCALEDIR}\fP if that is defined, otherwise
+it uses \fBshare/locale\fP\&.
+.sp
+CATALOG_NAME defines the name of the installed .qm files. If set, .qm files
+will be installed as \fB<catalog_name>.qm\fP\&. If not set .qm files will be named
+after the name of their source .po file.
+.sp
+Setting the catalog name is useful when all .po files for a target are kept
+in a single source directory. For example, the “mylib” probject might keep all
+its translations in a “po” directory, like this:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+po/
+    es.po
+    fr.po
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Without setting CATALOG_NAME, those .po will be turned into .qm and installed
+as:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+share/locale/fr/LC_MESSAGES/fr.qm
+share/locale/es/LC_MESSAGES/es.qm
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If CATALOG_NAME is set to “mylib”, they will be installed as:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+share/locale/fr/LC_MESSAGES/mylib.qm
+share/locale/es/LC_MESSAGES/mylib.qm
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Which is what the loader created by ecm_create_qm_loader() expects.
+.sp
+ecm_create_qm_from_po_files() creates a “translation” target. This target
+builds all .po files into .qm files.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_create_qm_loader(<source_files_var> <catalog_name>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+ecm_create_qm_loader() generates a C++ file which ensures translations are
+automatically loaded at startup. The path of the .cpp file is appended to
+<source_files_var>.  Typical usage is like:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+set(mylib_SRCS foo.cpp bar.cpp)
+ecm_create_qm_loader(mylib_SRCS mylib)
+add_library(mylib ${mylib_SRCS})
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This generates a C++ file which loads “mylib.qm” at startup, assuming it has
+been installed by ecm_create_qm_from_po_files(), and compiles it into \fBmylib\fP\&.
+.sp
+Since pre\-1.0.0.
+.SS ECMDeprecationSettings
+.sp
+This module provides the \fBecm_set_disabled_deprecation_versions\fP function setting the excluding
+deprecated API for Qt and KF projects.
+.sp
+This method expects pairs of the identifier and deprecation version.
+For the identifier \fBQT\fP this functions adds the definition \fBQT_DISABLE_DEPRECATED_BEFORE\fP with the given version in a hexadecimal format.
+Otherwise the name for the definition is generated using \fB${IDENTIFIER}_DISABLE_DEPRECATED_BEFORE_AND_AT\fP,
+following the naming of the generated code in \fI\%ECMGenerateExportHeader\fP\&.
+The version for the definition can be overwritten, by passing definition name and the deprecation version
+as a CMake definition. This allows one to exclude deprecations without having to edit the CMakeLists.txt file.
+.sp
+This module provides the following function:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_set_disabled_deprecation_versions(
+    [DISABLE_NEWER_WARNINGS] # since 5.96
+    [<identifier> <deprecation_version>]
+    [<identifier2> <deprecation_version2>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBDISABLE_NEWER_WARNINGS\fP disables additionally the compiler warnings for API deprecated in newer versions
+of the same major version.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+set(QT_MIN_VERSION \(dq5.15.2\(dq)
+set(KF5_MIN_VERSION \(dq5.90\(dq)
+
+ecm_set_disabled_deprecation_versions(
+  QT ${QT_MIN_VERSION}
+  KF ${KF5_MIN_VERSION}
+  KCOREADDONS 5.89.0 # In case we depend on deprecated KCoreAddons API
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.91
+.SS ECMEnableSanitizers
+.sp
+Enable compiler sanitizer flags.
+.sp
+The following sanitizers are supported:
+.INDENT 0.0
+.IP \(bu 2
+Address Sanitizer
+.IP \(bu 2
+Memory Sanitizer
+.IP \(bu 2
+Thread Sanitizer
+.IP \(bu 2
+Leak Sanitizer
+.IP \(bu 2
+Undefined Behaviour Sanitizer
+.UNINDENT
+.sp
+All of them are implemented in Clang, depending on your version, and
+there is an work in progress in GCC, where some of them are currently
+implemented.
+.sp
+This module will check your current compiler version to see if it
+supports the sanitizers that you want to enable
+.SS Usage
+.sp
+Simply add:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+include(ECMEnableSanitizers)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+to your \fBCMakeLists.txt\fP\&. Note that this module is included in
+\fI\%KDECompilerSettings\fP, so projects using that module do not need to also
+include this one.
+.sp
+The sanitizers are not enabled by default. Instead, you must set
+\fBECM_ENABLE_SANITIZERS\fP (either in your \fBCMakeLists.txt\fP or on the
+command line) to a semicolon\-separated list of sanitizers you wish to enable.
+The options are:
+.INDENT 0.0
+.IP \(bu 2
+address
+.IP \(bu 2
+memory
+.IP \(bu 2
+thread
+.IP \(bu 2
+leak
+.IP \(bu 2
+undefined
+.IP \(bu 2
+fuzzer
+.UNINDENT
+.sp
+The sanitizers “address”, “memory” and “thread” are mutually exclusive.  You
+cannot enable two of them in the same build.
+.sp
+“leak” requires the  “address” sanitizer.
+.sp
+\fBNOTE:\fP
+.INDENT 0.0
+.INDENT 3.5
+To reduce the overhead induced by the instrumentation of the sanitizers, it
+is advised to enable compiler optimizations (\fB\-O1\fP or higher).
+.UNINDENT
+.UNINDENT
+.SS Example
+.sp
+This is an example of usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+mkdir build
+cd build
+cmake \-DECM_ENABLE_SANITIZERS=\(aqaddress;leak;undefined\(aq ..
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBNOTE:\fP
+.INDENT 0.0
+.INDENT 3.5
+Most of the sanitizers will require Clang. To enable it, use:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+\-DCMAKE_CXX_COMPILER=clang++
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.UNINDENT
+.UNINDENT
+.sp
+Since 1.3.0.
+.SS ECMFindModuleHelpers
+.sp
+Helper macros for find modules: \fBecm_find_package_version_check()\fP,
+\fBecm_find_package_parse_components()\fP and
+\fBecm_find_package_handle_library_components()\fP\&.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_find_package_version_check(<name>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Prints warnings if the CMake version or the project’s required CMake version
+is older than that required by extra\-cmake\-modules.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_find_package_parse_components(<name>
+    RESULT_VAR <variable>
+    KNOWN_COMPONENTS <component1> [<component2> [...]]
+    [SKIP_DEPENDENCY_HANDLING])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This macro will populate <variable> with a list of components found in
+<name>_FIND_COMPONENTS, after checking that all those components are in the
+list of \fBKNOWN_COMPONENTS\fP; if there are any unknown components, it will print
+an error or warning (depending on the value of <name>_FIND_REQUIRED) and call
+\fBreturn()\fP\&.
+.sp
+The order of components in <variable> is guaranteed to match the order they
+are listed in the \fBKNOWN_COMPONENTS\fP argument.
+.sp
+If \fBSKIP_DEPENDENCY_HANDLING\fP is not set, for each component the variable
+<name>_<component>_component_deps will be checked for dependent components.
+If <component> is listed in <name>_FIND_COMPONENTS, then all its (transitive)
+dependencies will also be added to <variable>.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_find_package_handle_library_components(<name>
+    COMPONENTS <component> [<component> [...]]
+    [SKIP_DEPENDENCY_HANDLING])
+    [SKIP_PKG_CONFIG])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Creates an imported library target for each component.  The operation of this
+macro depends on the presence of a number of CMake variables.
+.sp
+The <name>_<component>_lib variable should contain the name of this library,
+and <name>_<component>_header variable should contain the name of a header
+file associated with it (whatever relative path is normally passed to
+‘#include’). <name>_<component>_header_subdir variable can be used to specify
+which subdirectory of the include path the headers will be found in.
+\fBecm_find_package_components()\fP will then search for the library
+and include directory (creating appropriate cache variables) and create an
+imported library target named <name>::<component>.
+.sp
+Additional variables can be used to provide additional information:
+.sp
+If \fBSKIP_PKG_CONFIG\fP, the <name>_<component>_pkg_config variable is set, and
+pkg\-config is found, the pkg\-config module given by
+<name>_<component>_pkg_config will be searched for and used to help locate the
+library and header file.  It will also be used to set
+<name>_<component>_VERSION.
+.sp
+Note that if version information is found via pkg\-config,
+<name>_<component>_FIND_VERSION can be set to require a particular version
+for each component.
+.sp
+If \fBSKIP_DEPENDENCY_HANDLING\fP is not set, the \fBINTERFACE_LINK_LIBRARIES\fP property
+of the imported target for <component> will be set to contain the imported
+targets for the components listed in <name>_<component>_component_deps.
+<component>_FOUND will also be set to \fBFALSE\fP if any of the components in
+<name>_<component>_component_deps are not found.  This requires the components
+in <name>_<component>_component_deps to be listed before <component> in the
+\fBCOMPONENTS\fP argument.
+.sp
+The following variables will be set:
+.INDENT 0.0
+.TP
+.B \fB<name>_TARGETS\fP
+the imported targets
+.TP
+.B \fB<name>_LIBRARIES\fP
+the found libraries
+.TP
+.B \fB<name>_INCLUDE_DIRS\fP
+the combined required include directories for the components
+.TP
+.B \fB<name>_DEFINITIONS\fP
+the “other” CFLAGS provided by pkg\-config, if any
+.TP
+.B \fB<name>_VERSION\fP
+the value of \fB<name>_<component>_VERSION\fP for the first component that
+has this variable set (note that components are searched for in the order
+they are passed to the macro), although if it is already set, it will not
+be altered
+.UNINDENT
+.sp
+\fBNOTE:\fP
+.INDENT 0.0
+.INDENT 3.5
+These variables are never cleared, so if
+\fBecm_find_package_handle_library_components()\fP is called multiple times with
+different components (typically because of multiple \fBfind_package()\fP calls) then
+\fB<name>_TARGETS\fP, for example, will contain all the targets found in any
+call (although no duplicates).
+.UNINDENT
+.UNINDENT
+.sp
+Since pre\-1.0.0.
+.SS ECMFindQmlModule
+.sp
+Find QML import modules through a \fBfind_qmlmodule()\fP call.
+It looks for the qmldir and uses the qmlplugindump if needed application to find the plugins and sets them up as
+runtime dependencies.
+This is useful so that when we configure a project we are notified when some
+QML imports are not present in the system.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_find_qmlmodule(<module_name>
+  <version> # Optional for Qt6 builds
+  [REQUIRED] # Since 6.0
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Usage example:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_find_qmlmodule(org.kde.kirigami 2.1)
+ecm_find_qmlmodule(org.kde.kirigami 2.1 REQUIRED) # CMake will fail if the required version is not found
+ecm_find_qmlmodule(org.kde.kirigami) # Find it without a given version
+ecm_find_qmlmodule(org.kde.kirigami REQUIRED) # CMake will fail if it is not found
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.38.0.
+.SS ECMGenerateDBusServiceFile
+.sp
+This module provides the \fBecm_generate_dbus_service_file\fP function for
+generating and installing a D\-Bus service file.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_dbus_service_file(
+    NAME <service name>
+    EXECUTABLE <executable>
+    [SYSTEMD_SERVICE <systemd service>]
+    DESTINATION <install_path>
+    [RENAME <dbus service filename>] # Since 5.75
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+A D\-Bus service file \fB<service name>.service\fP will be generated and installed
+in the relevant D\-Bus config location. This filename can be customized with RENAME.
+.sp
+\fB<executable>\fP must be an absolute path to the installed service executable. When using it with
+\fI\%KDEInstallDirs\fP it needs to be the \fB_FULL_\fP variant of the path variable.
+.sp
+\fBNOTE:\fP
+.INDENT 0.0
+.INDENT 3.5
+On Windows, the macro will only use the file name part of \fB<executable>\fP since D\-Bus
+service executables are to be installed in the same directory as the D\-Bus daemon.
+.UNINDENT
+.UNINDENT
+.sp
+Optionally, a \fB<systemd service>\fP can be specified to launch the corresponding
+systemd service instead of the \fB<executable>\fP if the D\-Bus daemon is started by systemd.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_dbus_service_file(
+    NAME org.kde.kded5
+    EXECUTABLE ${KDE_INSTALL_FULL_BINDIR}/kded5
+    DESTINATION ${KDE_INSTALL_DBUSSERVICEDIR}
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_dbus_service_file(
+    NAME org.kde.kded5
+    EXECUTABLE ${KDE_INSTALL_FULL_BINDIR}/kded5
+    SYSTEMD_SERVICE plasma\-kded.service
+    DESTINATION ${KDE_INSTALL_DBUSSERVICEDIR}
+    RENAME org.kde.daemon.service
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.73.0.
+.SS ECMGenerateExportHeader
+.sp
+This module provides the \fBecm_generate_export_header\fP function for
+generating export macros for libraries with version\-based control over
+visibility of and compiler warnings for deprecated API for the library user,
+as well as over excluding deprecated API and their implementation when
+building the library itself.
+.sp
+For preparing some values useful in the context it also provides a function
+\fBecm_export_header_format_version\fP\&.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_export_header(<library_target_name>
+    VERSION <version>
+    [BASE_NAME <base_name>]
+    [GROUP_BASE_NAME <group_base_name>]
+    [EXPORT_MACRO_NAME <export_macro_name>]
+    [EXPORT_FILE_NAME <export_file_name>]
+    [DEPRECATED_MACRO_NAME <deprecated_macro_name>]
+    [NO_EXPORT_MACRO_NAME <no_export_macro_name>]
+    [INCLUDE_GUARD_NAME <include_guard_name>]
+    [STATIC_DEFINE <static_define>]
+    [PREFIX_NAME <prefix_name>]
+    [DEPRECATED_BASE_VERSION <deprecated_base_version>]
+    [DEPRECATION_VERSIONS <deprecation_version> [<deprecation_version2> [...]]]
+    [EXCLUDE_DEPRECATED_BEFORE_AND_AT <exclude_deprecated_before_and_at_version>]
+    [NO_BUILD_SET_DEPRECATED_WARNINGS_SINCE]
+    [NO_DEFINITION_EXPORT_TO_BUILD_INTERFACE]
+    [USE_VERSION_HEADER [<version_file_name>]] #  Since 5.106
+    [VERSION_BASE_NAME <version_base_name>] #  Since 5.106
+    [VERSION_MACRO_NAME <version_macro_name>] #  Since 5.106
+    [CUSTOM_CONTENT_FROM_VARIABLE <variable>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBVERSION\fP specifies the version of the library, given in the format
+“<major>.<minor>.<patchlevel>”.
+.sp
+\fBGROUP_BASE_NAME\fP specifies the name to use for the macros defining
+library group default values. If set, this will generate code supporting
+\fB<group_base_name>_NO_DEPRECATED_WARNINGS\fP,
+\fB<group_base_name>_DISABLE_DEPRECATED_BEFORE_AND_AT\fP,
+\fB<group_base_name>_DEPRECATED_WARNINGS_SINCE\fP  and
+\fB<group_base_name>_NO_DEPRECATED\fP (see below).
+If not set, the generated code will ignore any such macros.
+.sp
+\fBDEPRECATED_BASE_VERSION\fP specifies the default version before and at which
+deprecated API is disabled. Possible values are “0”, “CURRENT” (which
+resolves to <version>) and a version string in the format
+“<major>.<minor>.<patchlevel>”. The default is the value of
+“<exclude_deprecated_before_and_at_version>” if set, or “<major>.0.0”, with
+<major> taken from <version>.
+.sp
+\fBDEPRECATION_VERSIONS\fP specifies versions in “<major>.<minor>” format in
+which API was declared deprecated. Any version used with the generated
+macro \fB<prefix_name><base_name>_DEPRECATED_VERSION(major, minor, text)\fP
+or \fB<prefix_name><base_name>_DEPRECATED_VERSION_BELATED(major, minor, textmajor, textminor, text)\fP
+needs to be listed here, otherwise the macro will fail to work.
+.sp
+\fBEXCLUDE_DEPRECATED_BEFORE_AND_AT\fP specifies the version for which all API
+deprecated before and at should be excluded from the build completely.
+Possible values are “0” (default), “CURRENT” (which resolves to <version>)
+and a version string in the format “<major>.<minor>.<patchlevel>”.
+.sp
+\fBNO_BUILD_SET_DEPRECATED_WARNINGS_SINCE\fP specifies that the definition
+\fB<prefix_name><uppercase_base_name>_DEPRECATED_WARNINGS_SINCE\fP will
+not be set for the library inside its own build, and thus will be defined
+by either explicit definition in the build system configuration or by the
+default value mechanism (see below).
+The default is that it is set for the build, to the version specified by
+\fBEXCLUDE_DEPRECATED_BEFORE_AND_AT\fP, so no deprecation warnings are
+done for any own deprecated API used in the library implementation itself.
+.sp
+\fBNO_DEFINITION_EXPORT_TO_BUILD_INTERFACE\fP specifies that the definition
+\fB<prefix_name><uppercase_base_name>_DISABLE_DEPRECATED_BEFORE_AND_AT\fP will
+not be set in the public interface of the library inside its own build, and
+the same for the definition
+\fB<prefix_name><uppercase_base_name>_DEPRECATED_WARNINGS_SINCE\fP (if not
+disabled by \fBNO_BUILD_SET_DEPRECATED_WARNINGS_SINCE\fP already).
+The default is that they are set, to the version specified by
+\fBEXCLUDE_DEPRECATED_BEFORE_AND_AT\fP, so e.g. test and examples part of the
+project automatically build against the full API included in the build and
+without any deprecation warnings for it.
+.sp
+\fBUSE_VERSION_HEADER\fP defines whether a given header file
+\fB<version_file_name>\fP providing macros specifying the library version should
+be included in the generated header file. By default angle\-brackets are used
+for the include statement. To generate includes with double quotes, add
+double quotes to the argument string (needs escaping), e.g. \fB\e\(dqversion.h\e\(dq\fP\&.
+The macro from the included version header holding the library version is
+given as \fB<version_macro_name>\fP by the argument \fBVERSION_MACRO_NAME\fP and
+used in the generated code for calculating defaults. If not specified, the
+defaults for the version file name and the version macro are derived from
+\fB<version_base_name>\fP as passed with \fBVERSION_BASE_NAME\fP, which again
+defaults to \fB<base_name>\fP or otherwise \fB<library_target_name>\fP\&.
+The macro name defaults to \fB<uppercase_version_base_name>_VERSION\fP,
+the version file name to \fB<lowercase_version_base_name>_version.h\fP\&.
+Since 5.106.
+.sp
+\fBCUSTOM_CONTENT_FROM_VARIABLE\fP specifies the name of a variable whose
+content will be appended at the end of the generated file, before any
+final inclusion guard closing. Note that before 5.98 this was broken and
+would only append the string passed as argument value.
+.sp
+The function \fBecm_generate_export_header\fP defines C++ preprocessor macros
+in the generated export header, some for use in the sources of the library
+the header is generated for, other for use by projects linking agsinst the
+library.
+.sp
+The macros for use in the library C++ sources are these, next to those also
+defined by \fI\%GenerateExportHeader\fP:
+.INDENT 0.0
+.TP
+.B \fB<prefix_name><uppercase_base_name>_DEPRECATED_VERSION(major, minor, text)\fP
+to use to conditionally set a
+\fB<prefix_name><uppercase_base_name>_DEPRECATED\fP macro for a class, struct
+or function (other elements to be supported in future versions), depending
+on the visibility macro flags set (see below)
+.TP
+.B \fB<prefix_name><uppercase_base_name>_DEPRECATED_VERSION_BELATED(major, minor, textmajor, textminor, text)\fP
+to use to conditionally set a
+\fB<prefix_name><uppercase_base_name>_DEPRECATED\fP macro for a class, struct
+or function (other elements to be supported in future versions), depending
+on the visibility macro flags set (see below), with \fBmajor\fP & \fBminor\fP
+applied for the logic and \fBtextmajor\fP & \fBtextminor\fP for the warnings message.
+Useful for retroactive tagging of API for the compiler without injecting the
+API into the compiler warning conditions of already released versions.
+Since 5.71.
+.TP
+.B \fB<prefix_name><uppercase_base_name>_ENUMERATOR_DEPRECATED_VERSION(major, minor, text)\fP
+to use to conditionally set a
+\fB<prefix_name><uppercase_base_name>_DEPRECATED\fP macro for an enumerator, depending
+on the warnings macro flags set (see below). In builds using C++14 standard or earlier,
+where enumerator attributes are not yet supported, the macro will always yield an empty string.
+With MSVC it is also always an empty string for now.
+Since 5.82.
+.TP
+.B \fB<prefix_name><uppercase_base_name>_ENUMERATOR_DEPRECATED_VERSION_BELATED(major, minor, textmajor, textminor, text)\fP
+to use to conditionally set a
+\fB<prefix_name><uppercase_base_name>_DEPRECATED\fP macro for an enumerator, depending
+on the warnings macro flags set (see below), with \fBmajor\fP & \fBminor\fP
+applied for the logic and \fBtextmajor\fP & \fBtextminor\fP for the warnings message.
+In builds using C++14 standard or earlier, where enumerator attributes are not yet supported,
+the macro will always yield an empty string.
+Useful for retroactive tagging of API for the compiler without injecting the
+API into the compiler warning conditions of already released versions.
+With MSVC it is also always an empty string for now.
+Since 5.82.
+.TP
+.B \fB<prefix_name><uppercase_base_name>_ENABLE_DEPRECATED_SINCE(major, minor)\fP
+evaluates to \fBTRUE\fP or \fBFALSE\fP depending on the visibility macro flags
+set (see below). To be used mainly with \fB#if\fP/\fB#endif\fP to mark sections
+of code which should be included depending on the visibility requested.
+.TP
+.B \fB<prefix_name><uppercase_base_name>_BUILD_DEPRECATED_SINCE(major, minor)\fP
+evaluates to \fBTRUE\fP or \fBFALSE\fP depending on the value of
+\fBEXCLUDE_DEPRECATED_BEFORE_AND_AT\fP\&. To be used mainly with
+\fB#if\fP/\fB#endif\fP to mark sections of two types of code: implementation
+code for deprecated API and declaration code of deprecated API which only
+may be disabled at build time of the library for BC reasons (e.g. virtual
+methods, see notes below).
+.TP
+.B \fB<prefix_name><uppercase_base_name>_EXCLUDE_DEPRECATED_BEFORE_AND_AT\fP
+holds the version used to exclude deprecated API at build time of the
+library.
+.UNINDENT
+.sp
+The macros used to control visibility when building against the library are:
+.INDENT 0.0
+.TP
+.B \fB<prefix_name><uppercase_base_name>_DISABLE_DEPRECATED_BEFORE_AND_AT\fP
+definition to set to a value in single hex number version notation
+(\fB0x<major><minor><patchlevel>\fP).
+.TP
+.B \fB<prefix_name><uppercase_base_name>_NO_DEPRECATED\fP
+flag to define to disable all deprecated API, being a shortcut for
+settings \fB<prefix_name><uppercase_base_name>_DISABLE_DEPRECATED_BEFORE_AND_AT\fP
+to the current version. If both are set, this flag overrules.
+.TP
+.B \fB<prefix_name><uppercase_base_name>_DEPRECATED_WARNINGS_SINCE\fP
+definition to set to a value in single hex number version notation
+(\fB0x<major><minor><patchlevel>\fP). Warnings will be only activated for
+API deprecated up to and including the version. If
+\fB<prefix_name><uppercase_base_name>_DISABLE_DEPRECATED_BEFORE_AND_AT\fP
+is set (directly or via the group default), it will default to that
+version, resulting in no warnings. Otherwise the default is the current
+version, resulting in warnings for all deprecated API.
+.TP
+.B \fB<prefix_name><uppercase_base_name>_NO_DEPRECATED_WARNINGS\fP
+flag to define to disable all deprecation warnings, being a shortcut for
+setting \fB<prefix_name><uppercase_base_name>_DEPRECATED_WARNINGS_SINCE\fP
+to “0”. If both are set, this flag overrules.
+.UNINDENT
+.sp
+When the \fBGROUP_BASE_NAME\fP has been used, the same macros but with the
+given \fB<group_base_name>\fP prefix are available to define the defaults of
+these macros, if not explicitly set.
+.sp
+\fBWARNING:\fP
+.INDENT 0.0
+.INDENT 3.5
+The tricks applied here for hiding deprecated API to the compiler
+when building against a library do not work for all deprecated API:
+.INDENT 0.0
+.IP \(bu 2
+virtual methods need to stay visible to the compiler to build proper
+virtual method tables for subclasses
+.IP \(bu 2
+enumerators from enums cannot be simply removed, as this changes
+auto values of following enumerators, also can poke holes in enumerator
+series used as index into tables
+.UNINDENT
+.sp
+In such cases the API can be only “hidden” at build time of the library,
+itself, by generated hard coded macro settings, using
+\fB<prefix_name><uppercase_base_name>_BUILD_DEPRECATED_SINCE(major, minor)\fP\&.
+.UNINDENT
+.UNINDENT
+.sp
+Examples:
+.sp
+Preparing a library “Foo” created by target “foo”, which is part of a group
+of libraries “Bar”, where some API of “Foo” got deprecated at versions
+5.0 & 5.12:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_export_header(foo
+    GROUP_BASE_NAME BAR
+    VERSION ${FOO_VERSION}
+    DEPRECATION_VERSIONS 5.0 5.12
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+In the library “Foo” sources in the headers the API would be prepared like
+this, using the generated macros \fBFOO_ENABLE_DEPRECATED_SINCE\fP and
+\fBFOO_DEPRECATED_VERSION\fP:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+#include <foo_export.h>
+
+#if FOO_ENABLE_DEPRECATED_SINCE(5, 0)
+/**
+  * @deprecated Since 5.0
+  */
+FOO_EXPORT
+FOO_DEPRECATED_VERSION(5, 0, \(dqUse doFoo2()\(dq)
+void doFoo();
+#endif
+
+#if FOO_ENABLE_DEPRECATED_SINCE(5, 12)
+/**
+  * @deprecated Since 5.12
+  */
+FOO_EXPORT
+FOO_DEPRECATED_VERSION(5, 12, \(dqUse doBar2()\(dq)
+void doBar();
+#endif
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Projects linking against the “Foo” library can control which part of its
+deprecated API should be hidden to the compiler by adding a definition
+using the \fBFOO_DISABLE_DEPRECATED_BEFORE_AND_AT\fP macro variable set to the
+desired value (in version hex number notation):
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+add_definitions(\-DFOO_DISABLE_DEPRECATED_BEFORE_AND_AT=0x050000)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Or using the macro variable of the group:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+add_definitions(\-DBAR_DISABLE_DEPRECATED_BEFORE_AND_AT=0x050000)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If both are specified, \fBFOO_DISABLE_DEPRECATED_BEFORE_AND_AT\fP will take
+precedence.
+.sp
+To build a variant of a library with some deprecated API completely left
+out from the build, not only optionally invisible to consumers, one uses the
+\fBEXCLUDE_DEPRECATED_BEFORE_AND_AT\fP parameter. This is best combined with a
+cached CMake variable.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+set(EXCLUDE_DEPRECATED_BEFORE_AND_AT 0 CACHE STRING \(dqControl the range of deprecated API excluded from the build [default=0].\(dq)
+
+ecm_generate_export_header(foo
+    VERSION ${FOO_VERSION}
+    EXCLUDE_DEPRECATED_BEFORE_AND_AT ${EXCLUDE_DEPRECATED_BEFORE_AND_AT}
+    DEPRECATION_VERSIONS 5.0 5.12
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The macros used in the headers for library consumers are reused for
+disabling the API excluded in the build of the library. For disabling the
+implementation of that API as well as for disabling deprecated API which
+only can be disabled at build time of the library for BC reasons, one
+uses the generated macro \fBFOO_BUILD_DEPRECATED_SINCE\fP, like this:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+#include <foo_export.h>
+
+enum Bars {
+    One,
+#if FOO_BUILD_DEPRECATED_SINCE(5, 0)
+    Two FOO_ENUMERATOR_DEPRECATED_VERSION(5, 0, \(dqUse Three\(dq), // macro available since 5.82
+#endif
+    Three,
+};
+
+#if FOO_ENABLE_DEPRECATED_SINCE(5, 0)
+/**
+  * @deprecated Since 5.0
+  */
+FOO_EXPORT
+FOO_DEPRECATED_VERSION(5, 0, \(dqUse doFoo2()\(dq)
+void doFoo();
+#endif
+
+#if FOO_ENABLE_DEPRECATED_SINCE(5, 12)
+/**
+  * @deprecated Since 5.12
+  */
+FOO_EXPORT
+FOO_DEPRECATED_VERSION(5, 12, \(dqUse doBar2()\(dq)
+void doBar();
+#endif
+
+class FOO_EXPORT Foo {
+public:
+#if FOO_BUILD_DEPRECATED_SINCE(5, 0)
+    /**
+      * @deprecated Since 5.0
+      */
+    FOO_DEPRECATED_VERSION(5, 0, \(dqFeature removed\(dq)
+    virtual void doWhat();
+#endif
+};
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+#if FOO_BUILD_DEPRECATED_SINCE(5, 0)
+void doFoo()
+{
+    // [...]
+}
+#endif
+
+#if FOO_BUILD_DEPRECATED_SINCE(5, 12)
+void doBar()
+{
+    // [...]
+}
+#endif
+
+#if FOO_BUILD_DEPRECATED_SINCE(5, 0)
+void Foo::doWhat()
+{
+    // [...]
+}
+#endif
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+So e.g. if \fBEXCLUDE_DEPRECATED_BEFORE_AND_AT\fP is set to “5.0.0”, the
+enumerator \fBTwo\fP as well as the methods \fB::doFoo()\fP and \fBFoo::doWhat()\fP
+will be not available to library consumers. The methods will not have been
+compiled into the library binary, and the declarations will be hidden to the
+compiler, \fBFOO_DISABLE_DEPRECATED_BEFORE_AND_AT\fP also cannot be used to
+reactivate them.
+.sp
+When using the \fBNO_DEFINITION_EXPORT_TO_BUILD_INTERFACE\fP and the project
+for the “Foo” library includes also tests and examples linking against the
+library and using deprecated API (like tests covering it), one better
+explicitly sets \fBFOO_DISABLE_DEPRECATED_BEFORE_AND_AT\fP for those targets
+to the version before and at which all deprecated API has been excluded from
+the build.
+Even more when building against other libraries from the same group “Bar” and
+disabling some deprecated API of those libraries using the group macro
+\fBBAR_DISABLE_DEPRECATED_BEFORE_AND_AT\fP, which also works as default for
+\fBFOO_DISABLE_DEPRECATED_BEFORE_AND_AT\fP\&.
+.sp
+To get the hex number style value the helper macro
+\fBecm_export_header_format_version()\fP will be used:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+set(EXCLUDE_DEPRECATED_BEFORE_AND_AT 0 CACHE STRING \(dqControl what part of deprecated API is excluded from build [default=0].\(dq)
+
+ecm_generate_export_header(foo
+    VERSION ${FOO_VERSION}
+    GROUP_BASE_NAME BAR
+    EXCLUDE_DEPRECATED_BEFORE_AND_AT ${EXCLUDE_DEPRECATED_BEFORE_AND_AT}
+    NO_DEFINITION_EXPORT_TO_BUILD_INTERFACE
+    DEPRECATION_VERSIONS 5.0 5.12
+)
+
+ecm_export_header_format_version(${EXCLUDE_DEPRECATED_BEFORE_AND_AT}
+    CURRENT_VERSION ${FOO_VERSION}
+    HEXNUMBER_VAR foo_no_deprecated_before_and_at
+)
+
+# disable all deprecated API up to 5.9.0 from all other libs of group \(dqBAR\(dq that we use ourselves
+add_definitions(\-DBAR_DISABLE_DEPRECATED_BEFORE_AND_AT=0x050900)
+
+add_executable(app app.cpp)
+target_link_libraries(app foo)
+target_compile_definitions(app
+     PRIVATE \(dqFOO_DISABLE_DEPRECATED_BEFORE_AND_AT=${foo_no_deprecated_before_and_at}\(dq)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.64.0.
+.SS ECMGenerateHeaders
+.sp
+Generate C/C++ CamelCase forwarding headers.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_headers(<camelcase_forwarding_headers_var>
+    HEADER_NAMES <CamelCaseName> [<CamelCaseName> [...]]
+    [ORIGINAL <CAMELCASE|LOWERCASE>]
+    [HEADER_EXTENSION <header_extension>]
+    [OUTPUT_DIR <output_dir>]
+    [PREFIX <prefix>]
+    [REQUIRED_HEADERS <variable>]
+    [COMMON_HEADER <HeaderName>]
+    [RELATIVE <relative_path>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+For each CamelCase header name passed to \fBHEADER_NAMES\fP, a file of that name
+will be generated that will include a version with \fB\&.h\fP or, if set,
+\fB\&.<header_extension>\fP appended.
+For example, the generated header \fBClassA\fP will include \fBclassa.h\fP (or
+\fBClassA.h\fP, see \fBORIGINAL\fP).
+If a CamelCaseName consists of multiple comma\-separated files, e.g.
+\fBClassA,ClassB,ClassC\fP, then multiple camelcase header files will be
+generated which are redirects to the first header file.
+The file locations of these generated headers will be stored in
+<camelcase_forwarding_headers_var>.
+.sp
+\fBORIGINAL\fP specifies how the name of the original header is written: lowercased
+or also camelcased.  The default is “LOWERCASE”. Since 1.8.0.
+.sp
+\fBHEADER_EXTENSION\fP specifies what file name extension is used for the header
+files.  The default is “h”. Since 5.48.0.
+.sp
+\fBPREFIX\fP places the generated headers in subdirectories.  This should be a
+CamelCase name like \fBKParts\fP, which will cause the CamelCase forwarding
+headers to be placed in the \fBKParts\fP directory (e.g. \fBKParts/Part\fP).  It
+will also, for the convenience of code in the source distribution, generate
+forwarding headers based on the original names (e.g. \fBkparts/part.h\fP).  This
+allows includes like \fB\(dq#include <kparts/part.h>\(dq\fP to be used before
+installation, as long as the include_directories are set appropriately.
+.sp
+\fBOUTPUT_DIR\fP specifies where the files will be generated; this should be within
+the build directory. By default, \fB${CMAKE_CURRENT_BINARY_DIR}\fP will be used.
+This option can be used to avoid file conflicts.
+.sp
+\fBREQUIRED_HEADERS\fP specifies an output variable name where all the required
+headers will be appended so that they can be installed together with the
+generated ones.  This is mostly intended as a convenience so that adding a new
+header to a project only requires specifying the CamelCase variant in the
+CMakeLists.txt file; the original variant will then be added to this
+variable.
+.sp
+\fBCOMMON_HEADER\fP generates an additional convenience header which includes all
+other header files.
+.sp
+The \fBRELATIVE\fP argument indicates where the original headers can be found
+relative to \fBCMAKE_CURRENT_SOURCE_DIR\fP\&.  It does not affect the generated
+CamelCase forwarding files, but \fBecm_generate_headers()\fP uses it when checking
+that the original header exists, and to generate originally named forwarding
+headers when \fBPREFIX\fP is set.
+.sp
+To allow other parts of the source distribution (eg: tests) to use the
+generated headers before installation, it may be desirable to set the
+\fBINCLUDE_DIRECTORIES\fP property for the library target to output_dir.  For
+example, if \fBOUTPUT_DIR\fP is \fBCMAKE_CURRENT_BINARY_DIR\fP (the default), you could do
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+target_include_directories(MyLib PUBLIC \(dq$<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}>\(dq)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Example usage (without \fBPREFIX\fP):
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_headers(
+    MyLib_FORWARDING_HEADERS
+    HEADERS
+        MLFoo
+        MLBar
+        # etc
+    REQUIRED_HEADERS MyLib_HEADERS
+    COMMON_HEADER MLGeneral
+)
+install(FILES ${MyLib_FORWARDING_HEADERS} ${MyLib_HEADERS}
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/include
+        COMPONENT Devel)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Example usage (with \fBPREFIX\fP):
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_headers(
+    MyLib_FORWARDING_HEADERS
+    HEADERS
+        Foo
+        # several classes are contained in bar.h, so generate
+        # additional files
+        Bar,BarList
+        # etc
+    PREFIX MyLib
+    REQUIRED_HEADERS MyLib_HEADERS
+)
+install(FILES ${MyLib_FORWARDING_HEADERS}
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/include/MyLib
+        COMPONENT Devel)
+install(FILES ${MyLib_HEADERS}
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/include/mylib
+        COMPONENT Devel)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since pre\-1.0.0.
+.SS ECMGeneratePkgConfigFile
+.sp
+Generate a \fI\%pkg\-config\fP
+file for the benefit of
+\fI\%autotools\fP\-based
+projects.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_pkgconfig_file(BASE_NAME <baseName>
+                      [LIB_NAME <libName>]
+                      [DEPS [PRIVATE|PUBLIC] <dep> [[PRIVATE|PUBLIC] <dep> [...]]]
+                      [FILENAME_VAR <filename_variable>]
+                      [INCLUDE_INSTALL_DIR <dir>]
+                      [LIB_INSTALL_DIR <dir>]
+                      [DEFINES \-D<variable=value>...]
+                      [DESCRIPTION <library description>] # since 5.41.0
+                      [URL <url>] # since 5.89.0
+                      [INSTALL])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBBASE_NAME\fP is the name of the module. It’s the name projects will use to
+find the module.
+.sp
+\fBLIB_NAME\fP is the name of the library that is being exported. If undefined,
+it will default to the \fBBASE_NAME\fP\&. That means the \fBLIB_NAME\fP will be set
+as the name field as well as the library to link to.
+.sp
+\fBDEPS\fP is the list of libraries required by this library. Libraries that are
+not exposed to applications should be marked with \fBPRIVATE\fP\&. The default
+is \fBPUBLIC\fP, but note that according to the
+\fI\%Guide to pkg\-config\fP
+marking dependencies as private is usually preferred. The \fBPUBLIC\fP and
+\fBPRIVATE\fP keywords are supported since 5.89.0.
+.sp
+\fBFILENAME_VAR\fP is specified with a variable name. This variable will
+receive the location of the generated file will be set, within the build
+directory. This way it can be used in case some processing is required. See
+also \fBINSTALL\fP\&.
+.sp
+\fBINCLUDE_INSTALL_DIR\fP specifies where the includes will be installed. If
+it’s not specified, it will default to \fBINSTALL_INCLUDEDIR\fP,
+\fBCMAKE_INSTALL_INCLUDEDIR\fP or just “include/” in case they are specified,
+with the \fBBASE_NAME\fP postfixed.
+.sp
+\fBLIB_INSTALL_DIR\fP specifies where the library is being installed. If it’s
+not specified, it will default to \fBLIB_INSTALL_DIR\fP,
+\fBCMAKE_INSTALL_LIBDIR\fP or just “lib/” in case they are specified.
+.sp
+\fBDEFINES\fP is a list of preprocessor defines that it is recommended users of
+the library pass to the compiler when using it.
+.sp
+\fBDESCRIPTION\fP describes what this library is. If it’s not specified, CMake
+will first try to get the description from the metainfo.yaml file or will
+create one based on \fBLIB_NAME\fP\&. Since 5.41.0.
+.sp
+\fBURL\fP An URL where people can get more information about and download the
+package. Defaults to “\fI\%https://www.kde.org/\fP”. Since 5.89.0.
+.sp
+\fBINSTALL\fP will cause the module to be installed to the \fBpkgconfig\fP
+subdirectory of \fBLIB_INSTALL_DIR\fP, unless the \fBECM_PKGCONFIG_INSTALL_DIR\fP
+cache variable is set to something different.
+.sp
+\fBNOTE:\fP
+.INDENT 0.0
+.INDENT 3.5
+The first call to \fBecm_generate_pkgconfig_file()\fP with the \fBINSTALL\fP
+argument will cause \fBECM_PKGCONFIG_INSTALL_DIR\fP to be set to the cache,
+and will be used in any subsequent calls.
+.UNINDENT
+.UNINDENT
+.sp
+To properly use this macro a version needs to be set. To retrieve it,
+\fBECM_PKGCONFIG_INSTALL_DIR\fP uses \fBPROJECT_VERSION\fP\&. To set it, use the
+\fBproject()\fP command or the \fBecm_setup_version()\fP macro
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_pkgconfig_file(
+    BASE_NAME KF5Archive
+    DEPS Qt5Core
+    FILENAME_VAR pkgconfig_filename
+    INSTALL
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 1.3.0.
+.SS ECMGeneratePriFile
+.sp
+Generate a \fB\&.pri\fP file for the benefit of qmake\-based projects.
+.sp
+As well as the function below, this module creates the cache variable
+\fBECM_MKSPECS_INSTALL_DIR\fP and sets the default value to \fBmkspecs/modules\fP\&.
+This assumes Qt and the current project are both installed to the same
+non\-system prefix.  Packagers who use \fB\-DCMAKE_INSTALL_PREFIX=/usr\fP will
+certainly want to set \fBECM_MKSPECS_INSTALL_DIR\fP to something like
+\fBshare/qt5/mkspecs/modules\fP\&.
+.sp
+The main thing is that this should be the \fBmodules\fP subdirectory of either
+the default qmake \fBmkspecs\fP directory or of a directory that will be in the
+\fB$QMAKEPATH\fP environment variable when qmake is run.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_pri_file(BASE_NAME <baseName>
+                      LIB_NAME <libName>
+                      [VERSION <version>] # since 5.83
+                      [DEPS \(dq<dep> [<dep> [...]]\(dq]
+                      [FILENAME_VAR <filename_variable>]
+                      [INCLUDE_INSTALL_DIRS <dir> [<dir> [...]]]  # since 5.92
+                      [INCLUDE_INSTALL_DIR <dir>] # deprecated since 5.92
+                      [LIB_INSTALL_DIR <dir>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If your CMake project produces a Qt\-based library, you may expect there to be
+applications that wish to use it that use a qmake\-based build system, rather
+than a CMake\-based one.  Creating a \fB\&.pri\fP file will make use of your
+library convenient for them, in much the same way that CMake config files make
+things convenient for CMake\-based applications. \fBecm_generate_pri_file()\fP
+generates just such a file.
+.sp
+\fBVERSION\fP specifies the version of the library the \fB\&.pri\fP file describes. If
+not set, the value is taken from the context variable \fBPROJECT_VERSION\fP\&.
+This variable is usually set by the \fBproject(... VERSION ...)\fP command or,
+if CMake policy CMP0048 is not \fBNEW\fP, by \fI\%ECMSetupVersion\fP\&.
+For backward\-compatibility with older ECM versions the
+\fBPROJECT_VERSION_STRING\fP variable as set by \fI\%ECMSetupVersion\fP
+will be preferred over \fBPROJECT_VERSION\fP if set, unless the minimum
+required version of ECM is 5.83 and newer. Since 5.83.
+.sp
+\fBBASE_NAME\fP specifies the name qmake project (.pro) files should use to refer to
+the library (eg: KArchive).  \fBLIB_NAME\fP is the name of the actual library to
+link to (ie: the first argument to add_library()).  \fBDEPS\fP is a space\-separated
+list of the base names of other libraries (for Qt libraries, use the same
+names you use with the \fBQT\fP variable in a qmake project file, such as “core”
+for QtCore).  \fBFILENAME_VAR\fP specifies the name of a variable to store the path
+to the generated file in.
+.sp
+\fBINCLUDE_INSTALL_DIRS\fP are the paths (relative to \fBCMAKE_INSTALL_PREFIX\fP) that
+include files will be installed to. It defaults to
+\fB${INCLUDE_INSTALL_DIR}/<baseName>\fP if the \fBINCLUDE_INSTALL_DIR\fP variable
+is set. If that variable is not set, the \fBCMAKE_INSTALL_INCLUDEDIR\fP variable
+is used instead, and if neither are set \fBinclude\fP is used.  \fBLIB_INSTALL_DIR\fP
+operates similarly for the installation location for libraries; it defaults to
+\fB${LIB_INSTALL_DIR}\fP, \fB${CMAKE_INSTALL_LIBDIR}\fP or \fBlib\fP, in that order.
+.sp
+\fBINCLUDE_INSTALL_DIR\fP is the old variant of \fBINCLUDE_INSTALL_DIRS\fP, taking only one
+directory.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_pri_file(
+    BASE_NAME KArchive
+    LIB_NAME KF5KArchive
+    DEPS \(dqcore\(dq
+    FILENAME_VAR pri_filename
+    VERSION 4.2.0
+)
+install(FILES ${pri_filename} DESTINATION ${ECM_MKSPECS_INSTALL_DIR})
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+A qmake\-based project that wished to use this would then do:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+QT += KArchive
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+in their \fB\&.pro\fP file.
+.sp
+Since pre\-1.0.0.
+.SS ECMGenerateQmlTypes
+.sp
+Generates plugins.qmltypes files for QML plugins.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_generate_qmltypes(<org.kde.pluginname> 1.3
+                      DESTINATION <${KDE_INSTALL_QMLDIR}/org/kde/pluginname>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Makes it possible to generate plugins.qmltypes files for the QML plugins that
+our project offers. These files offer introspection upon our plugin and are
+useful for integrating with IDE language support of our plugin. It offers
+information about the objects its methods and their argument types.
+.sp
+The developer will be in charge of making sure that these files are up to date.
+The plugin.qmltypes file will sit in the source directory. This function will
+include the code that installs the file in the right place and a small unit
+test named qmltypes\-pluginname\-version that makes sure that it doesn’t need updating.
+.sp
+Since 5.33.0
+.SS ECMInstallIcons
+.sp
+Installs icons, sorting them into the correct directories according to the
+FreeDesktop.org icon naming specification.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_icons(ICONS <icon> [<icon> [...]]
+                  DESTINATION <icon_install_dir>
+                  [LANG <l10n_code>]
+                  [THEME <theme>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The given icons, whose names must match the pattern:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+<size>\-<group>\-<name>.<ext>
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+will be installed to the appropriate subdirectory of \fBDESTINATION\fP according to
+the FreeDesktop.org icon naming scheme. By default, they are installed to the
+“hicolor” theme, but this can be changed using the \fBTHEME\fP argument.  If the
+icons are localized, the LANG argument can be used to install them in a
+locale\-specific directory.
+.sp
+\fB<size>\fP is a numeric pixel size (typically 16, 22, 32, 48, 64, 128 or 256)
+or \fBsc\fP for scalable (SVG) files, \fB<group>\fP is one of the standard
+FreeDesktop.org icon groups (actions, animations, apps, categories, devices,
+emblems, emotes, intl, mimetypes, places, status) and \fB<ext>\fP is one of
+\fB\&.png\fP, \fB\&.mng\fP or \fB\&.svgz\fP\&.
+.sp
+The typical installation directory is \fBshare/icons\fP\&.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_icons(ICONS 22\-actions\-menu_new.png
+                  DESTINATION share/icons)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The above code will install the file \fB22\-actions\-menu_new.png\fP as
+\fB${CMAKE_INSTALL_PREFIX}/share/icons/<theme>/22x22/actions/menu_new.png\fP
+.sp
+Users of the \fI\%KDEInstallDirs\fP module would normally use
+\fB${KDE_INSTALL_ICONDIR}\fP as the DESTINATION, while users of the GNUInstallDirs
+module should use \fB${CMAKE_INSTALL_DATAROOTDIR}/icons\fP\&.
+.sp
+An old form of arguments will also be accepted:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_icons(<icon_install_dir> [<l10n_code>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This matches files named like:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+<theme><size>\-<group>\-<name>.<ext>
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+where \fB<theme>\fP is one of
+.INDENT 0.0
+.IP \(bu 2
+\fBhi\fP for hicolor
+.IP \(bu 2
+\fBlo\fP for locolor
+.IP \(bu 2
+\fBcr\fP for the Crystal icon theme
+.IP \(bu 2
+\fBox\fP for the Oxygen icon theme
+.IP \(bu 2
+\fBbr\fP for the Breeze icon theme
+.UNINDENT
+.sp
+With this syntax, the file \fBhi22\-actions\-menu_new.png\fP would be installed
+into \fB<icon_install_dir>/hicolor/22x22/actions/menu_new.png\fP
+.sp
+Since pre\-1.0.0.
+.SS ECMMarkAsTest
+.sp
+Marks a target as only being required for tests.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_mark_as_test(<target1> [<target2> [...]])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This will cause the specified targets to not be built unless either
+\fBBUILD_TESTING\fP is set to \fBON\fP or the user invokes the \fBbuildtests\fP target.
+.sp
+\fBBUILD_TESTING\fP is created as a cache variable by the CTest module and by the
+\fI\%KDECMakeSettings\fP module.
+.sp
+Since pre\-1.0.0.
+.SS ECMMarkNonGuiExecutable
+.sp
+Marks an executable target as not being a GUI application.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_mark_nongui_executable(<target1> [<target2> [...]])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This will indicate to CMake that the specified targets should not be included
+in a MACOSX_BUNDLE and should not be WIN32_EXECUTABLEs.  On platforms other
+than MacOS X or Windows, this will have no effect.
+.sp
+Since pre\-1.0.0.
+.SS ECMOptionalAddSubdirectory
+.sp
+Make subdirectories optional.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_optional_add_subdirectory(<dir>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This behaves like \fBadd_subdirectory()\fP, except that it does not complain if the
+directory does not exist.  Additionally, if the directory does exist, it
+creates an option to allow the user to skip it. The option will be named
+BUILD_<dir>.
+.sp
+This is useful for “meta\-projects” that combine several mostly\-independent
+sub\-projects.
+.sp
+If the CMake variable \fBDISABLE_ALL_OPTIONAL_SUBDIRECTORIES\fP is set to \fBTRUE\fP for
+the first CMake run on the project, all optional subdirectories will be
+disabled by default (but can of course be enabled via the respective options).
+For example, the following will disable all optional subdirectories except the
+one named “foo”:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+cmake \-DDISABLE_ALL_OPTIONAL_SUBDIRECTORIES=TRUE \-DBUILD_foo=TRUE myproject
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since pre\-1.0.0.
+.SS ECMPackageConfigHelpers
+.sp
+Helper macros for generating CMake package config files.
+.sp
+\fBwrite_basic_package_version_file()\fP is the same as the one provided by the
+\fI\%CMakePackageConfigHelpers\fP
+module in CMake; see that module’s documentation for
+more information.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_configure_package_config_file(<input> <output>
+    INSTALL_DESTINATION <path>
+    [PATH_VARS <var1> [<var2> [...]]
+    [NO_SET_AND_CHECK_MACRO]
+    [NO_CHECK_REQUIRED_COMPONENTS_MACRO])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This behaves in the same way as \fBconfigure_package_config_file()\fP from CMake
+2.8.12, except that it adds an extra helper macro: \fBfind_dependency()\fP\&. It is
+highly recommended that you read the \fI\%documentation for
+CMakePackageConfigHelpers\fP
+for more information, particularly with regard to the \fBPATH_VARS\fP argument.
+.sp
+Note that there is no argument that will disable the \fBfind_dependency()\fP macro;
+if you do not require this macro, you should use
+\fBconfigure_package_config_file\fP from the CMakePackageConfigHelpers module.
+.sp
+CMake 3.0 includes a CMakeFindDependencyMacro module that provides the
+\fBfind_dependency()\fP macro (which you can \fBinclude()\fP in your package config
+file), so this file is only useful for projects wishing to provide config
+files that will work with CMake 2.8.12.
+.SS Additional Config File Macros
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+find_dependency(<dep> [<version> [EXACT]])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBfind_dependency()\fP should be used instead of \fBfind_package()\fP to find package
+dependencies.  It forwards the correct parameters for \fBEXACT\fP, \fBQUIET\fP and
+\fBREQUIRED\fP which were passed to the original \fBfind_package()\fP call.  It also sets
+an informative diagnostic message if the dependency could not be found.
+.sp
+Since pre\-1.0.0.
+.SS ECMPoQmTools
+.sp
+This module provides the \fBecm_process_po_files_as_qm\fP and
+\fBecm_install_po_files_as_qm\fP functions for generating QTranslator (.qm)
+catalogs from Gettext (.po) catalogs, and the \fBecm_create_qm_loader\fP
+function for generating the necessary code to load them in a Qt application
+or library.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_process_po_files_as_qm(<lang> [ALL]
+                           [INSTALL_DESTINATION <install_destination>]
+                           PO_FILES <pofile> [<pofile> [...]])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Compile .po files into .qm files for the given language.
+.sp
+If \fBINSTALL_DESTINATION\fP is given, the .qm files are installed in
+\fB<install_destination>/<lang>/LC_MESSAGES\fP\&. Typically,
+\fB<install_destination>\fP is set to \fBshare/locale\fP\&.
+.sp
+\fBecm_process_po_files_as_qm\fP creates a “translations” target. This target
+builds all .po files into .qm files.  If \fBALL\fP is specified, these rules are
+added to the “all” target (and so the .qm files will be built by default).
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_create_qm_loader(<sources_var_name(|target (since 5.83))> <catalog_name>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Generates C++ code which ensures translations are automatically loaded at
+startup. The generated files are appended to the variable named
+\fB<sources_var_name>\fP or, if the first argument is a target (since 5.83), to
+the \fBSOURCES\fP property of \fB<target>\fP\&. Any target must be created with
+\fBadd_executable()\fP or \fBadd_library()\fP and not be an alias.
+.sp
+It assumes that the .qm file for the language code \fB<lang>\fP is installed as
+\fB<sharedir>/locale/<lang>/LC_MESSAGES/<catalog_name>.qm\fP, where
+\fB<sharedir>\fP is one of the directories given by the \fBGenericDataLocation\fP
+of \fBQStandardPaths\fP\&.
+.sp
+Typical usage is like:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+set(mylib_SRCS foo.cpp bar.cpp)
+ecm_create_qm_loader(mylib_SRCS mycatalog)
+add_library(mylib ${mylib_SRCS})
+
+# Or, since 5.83:
+add_library(mylib foo.cpp bar.cpp)
+ecm_create_qm_loader(mylib mycatalog)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_install_po_files_as_qm(<podir>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Searches for .po files and installs them to the standard location.
+.sp
+This is a convenience function which relies on all .po files being kept in
+\fB<podir>/<lang>/\fP, where \fB<lang>\fP is the language the .po files are
+written in.
+.sp
+For example, given the following directory structure:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+po/
+  fr/
+    mylib.po
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fBecm_install_po_files_as_qm(po)\fP compiles \fBmylib.po\fP into \fBmylib.qm\fP and
+installs it in \fB<install_destination>/fr/LC_MESSAGES\fP\&.
+\fB<install_destination>\fP defaults to \fB${LOCALE_INSTALL_DIR}\fP if defined,
+otherwise it uses \fB${CMAKE_INSTALL_LOCALEDIR}\fP if that is defined, otherwise
+it uses \fBshare/locale\fP\&.
+.sp
+Since pre\-1.0.0.
+.SS ECMQmlModule
+.sp
+This file contains helper functions to make it easier to create QML modules. It
+takes care of a number of things that often need to be repeated. It also takes
+care of special handling of QML modules between shared and static builds. When
+building a static version of a QML module, the relevant QML source files are
+bundled into the static library. When using a shared build, the QML plugin and
+relevant QML files are copied to the target’s \fBRUNTIME_OUTPUT_DIRECTORY\fP to make
+it easier to run things directly from the build directory.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qml_module(ExampleModule URI \(dqorg.example.Example\(dq)
+
+target_sources(ExampleModule PRIVATE ExamplePlugin.cpp)
+target_link_libraries(ExampleModule PRIVATE Qt::Quick)
+
+ecm_target_qml_sources(ExampleModule SOURCES ExampleItem.qml) # This will have 1.0 as the default version
+ecm_target_qml_sources(ExampleModule SOURCES AnotherExampleItem.qml VERSION 1.5)
+
+ecm_finalize_qml_module(ExampleModule DESTINATION ${KDE_INSTALL_QMLDIR})
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qml_module(<target name> URI <module uri> [VERSION <module version>] [NO_PLUGIN] [CLASSNAME <class name>])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This will declare a new CMake target called \fB<target name>\fP\&. The \fBURI\fP
+argument is required and should be a proper QML module URI. The \fBURI\fP is used,
+among others, to generate a subdirectory where the module will be installed to.
+.sp
+If the \fBVERSION\fP argument is specified, it is used to initialize the default
+version that is used by  \fBecm_target_qml_sources\fP when adding QML files. If it
+is not specified, a  default of 1.0 is used. Additionally, if a version greater
+than or equal to 2.0 is specified, the major version is appended to the
+Qt5 installation path of the module.
+In case you don’t specify and version, but specify a version for the individual sources, the latest
+will be set as the resulting version for this plugin. This will be used in the ECMFindQmlModule module.
+.sp
+If the option \fBNO_PLUGIN\fP is set, a target is declared that is not expected to
+contain any C++ QML plugin.
+.sp
+If the optional \fBCLASSNAME\fP argument is supplied, it will be used as class
+name in the generated QMLDIR file. If it is not specified, the target name will
+be used instead.
+.sp
+You can add C++ and QML source files to the target using \fBtarget_sources\fP and
+\fBecm_target_qml_sources\fP, respectively.
+.sp
+Since 5.91.0
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_add_qml_module_dependencies(<target> DEPENDS <module string> [<module string> ...])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Add the list of dependencies specified by the \fBDEPENDS\fP argument to be listed
+as dependencies in the generated QMLDIR file of \fB<target>\fP\&.
+.sp
+Since 5.91.0
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_target_qml_sources(<target> SOURCES <source.qml> [<source.qml> ...] [VERSION <version>] [PATH <path>] [PRIVATE])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Add the list of QML files specified by the \fBSOURCES\fP argument as source files
+to the QML module target \fB<target>\fP\&.
+.sp
+If the optional \fBVERSION\fP argument is specified, all QML files will be added
+with the specified version. If it is not specified, they will use the version of
+the QML module target.
+.sp
+If the optional \fBPRIVATE\fP argument is specified, the QML files will be
+included in the target but not in the generated qmldir file. Any version
+argument will be ignored.
+.sp
+The optional \fBPATH\fP argument declares a subdirectory of the module where the
+files should be copied to. By default, files will be copied to the module root.
+.sp
+This function will fail if \fB<target>\fP is not a QML module target or any of the
+specified files do not exist.
+.sp
+Since 5.91.0
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_finalize_qml_module(<target>
+    [DESTINATION <QML install destination>] # Optional since 6.0
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Finalize the specified QML module target. This must be called after all other
+setup (like adding sources) on the target has been done. It will perform a
+number of tasks:
+.INDENT 0.0
+.IP \(bu 2
+It will generate a qmldir file from the QML files added to the target. If the
+module has a C++ plugin, this will also be included in the qmldir file.
+.IP \(bu 2
+If \fBBUILD_SHARED_LIBS\fP is off, a QRC file is generated from the QML files
+added to the target. This QRC file will be included when compiling the C++ QML
+module. The built static library will be installed in a subdirection of
+\fBDESTINATION\fP based on the QML module’s uri. If this value is not set, KDE_INSTALL_QMLDIR will be used.
+Note that if \fBNO_PLUGIN\fP is set, a C++ QML plugin will be generated to include the QRC files.
+.IP \(bu 2
+If \fBBUILD_SHARED_LIBS\fP in on, all generated files, QML sources and the C++
+plugin will be installed in a subdirectory of \fBDESTINATION\fP based upon the
+QML module’s uri. In addition, these files will also be copied to the target’s
+\fBRUNTIME_OUTPUT_DIRECTORY\fP in a similar subdirectory.
+.UNINDENT
+.sp
+This function will fail if \fB<target>\fP is not a QML module target.
+.sp
+Since 5.91.0
+.SS ECMQtDeclareLoggingCategory
+.sp
+This module provides the \fBecm_qt_declare_logging_category\fP function for
+generating declarations for logging categories in Qt5, and the
+\fBecm_qt_install_logging_categories\fP function for generating and installing
+a file in KDebugSettings format with the info about all those categories,
+as well as a file with info about any renamed categories if defined.
+To include in that file any logging categories that are manually defined
+also a function \fBecm_qt_export_logging_category\fP is provided.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_qt_declare_logging_category(<sources_var_name(|target (since 5.80))>
+    HEADER <filename>
+    IDENTIFIER <identifier>
+    CATEGORY_NAME <category_name>
+    [OLD_CATEGORY_NAMES <oldest_cat_name> [<second_oldest_cat_name> [...]]]
+    [DEFAULT_SEVERITY <Debug|Info|Warning|Critical|Fatal>]
+    [EXPORT <exportid>]
+    [DESCRIPTION <description>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+A header file, \fB<filename>\fP, will be generated along with a corresponding
+source file. These will provide a QLoggingCategory category that can be referred
+to from C++ code using \fB<identifier>\fP, and from the logging configuration using
+\fB<category_name>\fP\&.
+.sp
+The generated source file will be added to the variable with the name
+\fB<sources_var_name>\fP\&. If the given argument is a target though, instead both the
+generated header file and the generated source file will be added to the target as
+private sources (since 5.80). The target must not be an alias.
+.sp
+If \fB<filename>\fP is not absolute, it will be taken relative to the current
+binary directory.
+.sp
+\fB<identifier>\fP may include namespaces (eg: \fBfoo::bar::IDENT\fP).
+.sp
+If \fBEXPORT\fP is passed, the category will be registered for the group id
+\fB<exportid>\fP\&. Info about the categories of that group can then be
+generated in a file and installed by that group id with the
+\fBecm_qt_install_logging_categories\fP function. In that case also \fBDESCRIPTION\fP
+will need to be passed, with \fB<description>\fP being a short single line text.
+And \fBOLD_CATEGORY_NAMES\fP can be used to inform about any renamings of the category,
+so user settings can be migrated. Since 5.68.0.
+.sp
+Since 5.14.0.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_qt_export_logging_category(
+    IDENTIFIER <identifier>
+    CATEGORY_NAME <category_name>
+    [OLD_CATEGORY_NAMES <oldest_category_name> [<second_oldest_category_name> [...]]]
+    EXPORT <exportid>
+    DESCRIPTION <description>
+    [DEFAULT_SEVERITY <Debug|Info|Warning|Critical|Fatal>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Registers a logging category for being included in the generated and
+installed KDebugSettings files. To be used for categories who are declared by
+manual code or other ways instead of code generated with
+\fBecm_qt_declare_logging_category\fP\&.
+.sp
+\fB<identifier>\fP may include namespaces (eg: \fBfoo::bar::IDENT\fP).
+.sp
+\fBEXPORT\fP specifies the group id with which the category will be registered.
+Info about the categories of that group can then be generated in a file and
+installed by that group id with the \fBecm_qt_install_logging_categories\fP function.
+.sp
+\fBDESCRIPTION\fP specifies a short single line text describing the category.
+.sp
+\fBOLD_CATEGORY_NAMES\fP can be used to inform about any renamings of the category,
+so user settings can be migrated.
+.sp
+Since 5.68.0.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_qt_install_logging_categories(
+    EXPORT <exportid>
+    [FILE <filename>]
+    DESTINATION <install_path>
+    [SORT]
+    [COMPONENT <component>]
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Generates and installs a file in KDebugSettings format with the info about all
+the categories registered for the group \fB<exportid>\fP, as well as a file with
+info about any renamed categories, if there are.
+.sp
+The method call needs to be after the last \fBecm_qt_declare_logging_category\fP
+call which uses the same \fB<exportid>\fP\&. This can be in the same directory, or
+any subdirectory or parent directory.
+.sp
+\fBEXPORT\fP specifies the group id of categories whose information should be
+stored in the file generated and installed.
+.sp
+\fBFILE\fP specifies the name of the file generated and installed. It will default
+to lower\-cased \fB<exportid>.categories\fP\&.
+.sp
+\fBDESTINATION\fP specifies where the generated file will be
+installed.
+.sp
+IF \fBSORT\fP is set, entries will be sorted by identifiers.
+.sp
+\fBCOMPONENT\fP specifies the installation component name with which the install
+rules for the generated file are associated.
+.sp
+Since 5.85.0 this is a no\-op when building for Android, as KDebugSettings is
+not available on that platform and the logging category files therefore just
+bloat the APK.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_qt_declare_logging_category(
+    MYPROJECT_SRCS
+    HEADER \(dqmyproject_debug.h\(dq
+    IDENTIFIER \(dqMYPROJECT_DEBUG\(dq
+    CATEGORY_NAME \(dqmyproject\(dq
+    OLD_CATEGORY_NAMES \(dqmyprojectlog\(dq
+    DESCRIPTION \(dqMy project\(dq
+    EXPORT MyProject
+)
+
+ecm_qt_export_logging_category(
+    IDENTIFIER \(dqMYPROJECT_SUBMODULE_DEBUG\(dq
+    CATEGORY_NAME \(dqmyproject.submodule\(dq
+    DESCRIPTION \(dqMy project \- submodule\(dq
+    EXPORT MyProject
+)
+
+ecm_qt_install_logging_categories(
+    EXPORT MyProject
+    FILE myproject.categories
+    DESTINATION \(dq${KDE_INSTALL_LOGGINGCATEGORIESDIR}\(dq
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.68.0.
+.SS ECMQueryQt
+.sp
+This module can be used to query the installation paths used by Qt.
+.sp
+For Qt5 this uses \fBqmake\fP, and for Qt6 this used \fBqtpaths\fP (the latter has built\-in
+support to query the paths of a target platform when cross\-compiling).
+.sp
+This module defines the following function:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_query_qt(<result_variable> <qt_variable> [TRY])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Passing \fBTRY\fP will result in the method not making the build fail if the executable
+used for querying has not been found, but instead simply print a warning message and
+return an empty string.
+.sp
+Example usage:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+include(ECMQueryQt)
+ecm_query_qt(bin_dir QT_INSTALL_BINS)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If the call succeeds \fB${bin_dir}\fP will be set to \fB<prefix>/path/to/bin/dir\fP (e.g.
+\fB/usr/lib64/qt/bin/\fP).
+.sp
+Since: 5.93
+.SS ECMSetupQtPluginMacroNames
+.sp
+Instruct CMake’s automoc about C++ preprocessor macros used to define Qt\-style plugins.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_setup_qtplugin_macro_names(
+    [JSON_NONE <macro_name> [<macro_name> [...]]]
+    [JSON_ARG1 <macro_name> [<macro_name> [...]]]
+    [JSON_ARG2 <macro_name> [<macro_name> [...]]]
+    [JSON_ARG3 <macro_name> [<macro_name> [...]]]
+    [CONFIG_CODE_VARIABLE <variable_name>] )
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+CMake’s automoc needs some support when parsing C++ source files to detect whether moc
+should be run on those files and if there are also dependencies on other files, like those
+with Qt plugin metadata in JSON format. Because automoc just greps overs the raw plain text
+of the sources without any C++ preprocessor\-like processing.
+CMake in newer versions provides the variables \fBCMAKE_AUTOMOC_DEPEND_FILTERS\fP (CMake >= 3.9.0)
+and \fBCMAKE_AUTOMOC_MACRO_NAMES\fP (CMake >= 3.10) to allow the developer to assist automoc.
+.sp
+This macro cares for the explicit setup needed for those variables for common cases of
+C++ preprocessor macros used for Qt\-style plugins.
+.sp
+\fBJSON_NONE\fP lists the names of C++ preprocessor macros for Qt\-style plugins which do not refer to
+external files with the plugin metadata.
+.sp
+\fBJSON_ARG1\fP lists the names of C++ preprocessor macros for Qt\-style plugins where the first argument
+to the macro is the name of the external file with the plugin metadata.
+.sp
+\fBJSON_ARG2\fP is the same as \fBJSON_ARG1\fP but with the file name being the second argument.
+.sp
+\fBJSON_ARG3\fP is the same as \fBJSON_ARG1\fP but with the file name being the third argument.
+.sp
+\fBCONFIG_CODE_VARIABLE\fP specifies the name of the variable which will get set as
+value some generated CMake code for instructing automoc for the given macro names,
+as useful in an installed CMake config file. The variable can then be used as usual in
+the template file for such a CMake config file, by \fB@<variable_name>@\fP\&.
+.sp
+Example usage:
+.sp
+Given some plugin\-oriented Qt\-based software which defines a custom C++ preprocessor
+macro \fBEXPORT_MYPLUGIN\fP for declaring the central plugin object:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+#define EXPORT_MYPLUGIN_WITH_JSON(classname, jsonFile) \e
+class classname : public QObject \e
+{ \e
+    Q_OBJECT \e
+    Q_PLUGIN_METADATA(IID \(dqmyplugin\(dq FILE jsonFile) \e
+    explicit classname() {} \e
+};
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+In the CMake buildsystem of the library one calls
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_setup_qtplugin_macro_names(
+    JSON_ARG2
+       EXPORT_MYPLUGIN_WITH_JSON
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+to instruct automoc about the usage of that macro in the sources of the
+library itself.
+.sp
+Given the software installs a library including the header with the macro
+definition and a CMake config file, so 3rd\-party can create additional
+plugins by linking against the library, one passes additionally the name of
+a variable which shall be set as value the CMake code needed to instruct
+automoc about the usage of that macro.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_setup_qtplugin_macro_names(
+    JSON_ARG2
+       EXPORT_MYPLUGIN_WITH_JSON
+    CONFIG_CODE_VARIABLE
+       PACKAGE_SETUP_AUTOMOC_VARIABLES
+)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This variable then is used in the template file (e.g.
+\fBMyProjectConfig.cmake.in\fP) for the libary’s installed CMake config file
+and that way will ensure that in the 3rd\-party plugin’s buildsystem
+automoc is instructed as well as needed:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+@PACKAGE_SETUP_AUTOMOC_VARIABLES@
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Since 5.45.0.
+.SS ECMSetupVersion
+.sp
+Handle library version information.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_setup_version(<version>
+                  VARIABLE_PREFIX <prefix>
+                  [SOVERSION <soversion>]
+                  [VERSION_HEADER <filename>]
+                  [PACKAGE_VERSION_FILE <filename> [COMPATIBILITY <compat>]] )
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This parses a version string and sets up a standard set of version variables.
+It can optionally also create a C version header file and a CMake package
+version file to install along with the library.
+.sp
+If the \fB<version>\fP argument is of the form \fB<major>.<minor>.<patch>\fP
+(or \fB<major>.<minor>.<patch>.<tweak>\fP), The following CMake variables are
+set:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+<prefix>_VERSION_MAJOR  \- <major>
+<prefix>_VERSION_MINOR  \- <minor>
+<prefix>_VERSION_PATCH  \- <patch>
+<prefix>_VERSION        \- <version>
+<prefix>_SOVERSION      \- <soversion>, or <major> if SOVERSION was not given
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+For backward\-compatibility also this variable is set (only if the minimum required
+version of ECM is < 5.83):
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+<prefix>_VERSION_STRING \- <version> (use <prefix>_VERSION instead)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If CMake policy CMP0048 is not \fBNEW\fP, the following CMake variables will also
+be set:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+PROJECT_VERSION_MAJOR   \- <major>
+PROJECT_VERSION_MINOR   \- <minor>
+PROJECT_VERSION_PATCH   \- <patch>
+PROJECT_VERSION         \- <version>
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+For backward\-compatibility, if CMake policy CMP0048 is not \fBNEW\fP, also this variable is set
+(only if the minimum required version of ECM is < 5.83):
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+PROJECT_VERSION_STRING  \- <version> (use PROJECT_VERSION instead)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+If the \fBVERSION_HEADER\fP option is used, a simple C header is generated with the
+given filename. If filename is a relative path, it is interpreted as relative
+to \fBCMAKE_CURRENT_BINARY_DIR\fP\&.  The generated header contains the following
+macros:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+<prefix>_VERSION_MAJOR  \- <major> as an integer
+<prefix>_VERSION_MINOR  \- <minor> as an integer
+<prefix>_VERSION_PATCH  \- <patch> as an integer
+<prefix>_VERSION_STRING \- <version> as a C string
+<prefix>_VERSION        \- the version as an integer
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+\fB<prefix>_VERSION\fP has \fB<patch>\fP in the bottom 8 bits, \fB<minor>\fP in the
+next 8 bits and \fB<major>\fP in the remaining bits.  Note that \fB<patch>\fP and
+\fB<minor>\fP must be less than 256.
+.sp
+If the \fBPACKAGE_VERSION_FILE\fP option is used, a simple CMake package version
+file is created using the \fBwrite_basic_package_version_file()\fP macro provided by
+CMake. It should be installed in the same location as the Config.cmake file of
+the library so that it can be found by \fBfind_package()\fP\&.  If the filename is a
+relative path, it is interpreted as relative to \fBCMAKE_CURRENT_BINARY_DIR\fP\&. The
+optional \fBCOMPATIBILITY\fP option is forwarded to
+\fBwrite_basic_package_version_file()\fP, and defaults to \fBAnyNewerVersion\fP\&.
+.sp
+If CMake policy CMP0048 is \fBNEW\fP, an alternative form of the command is
+available:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_setup_version(PROJECT
+                  [VARIABLE_PREFIX <prefix>]
+                  [SOVERSION <soversion>]
+                  [VERSION_HEADER <filename>]
+                  [PACKAGE_VERSION_FILE <filename>] )
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This will use the version information set by the \fBproject()\fP command.
+\fBVARIABLE_PREFIX\fP defaults to the project name.  Note that \fBPROJECT\fP must be the
+first argument.  In all other respects, it behaves like the other form of the
+command.
+.sp
+Since pre\-1.0.0.
+.sp
+\fBCOMPATIBILITY\fP option available since 1.6.0.
+.SS ECMSourceVersionControl
+.sp
+Tries to determine whether the source is under version control (git clone,
+svn checkout, etc).
+.sp
+\fBECM_SOURCE_UNDER_VERSION_CONTROL\fP is set when indication is found that
+\fBCMAKE_SOURCE_DIR\fP is under version control.
+.sp
+Since 5.63
+.SS ECMUninstallTarget
+.sp
+Add an \fBuninstall\fP target.
+.sp
+By including this module, an \fBuninstall\fP target will be added to your CMake
+project. This will remove all files installed (or updated) by a previous
+invocation of the \fBinstall\fP target. It will not remove files created or
+modified by an \fBinstall(SCRIPT)\fP or \fBinstall(CODE)\fP command; you should
+create a custom uninstallation target for these and use \fBadd_dependency\fP to
+make the \fBuninstall\fP target depend on it:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+include(ECMUninstallTarget)
+install(SCRIPT install\-foo.cmake)
+add_custom_target(uninstall_foo COMMAND ${CMAKE_COMMAND} \-P uninstall\-foo.cmake)
+add_dependency(uninstall uninstall_foo)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The target will fail if the \fBinstall\fP target has not yet been run (so it is
+not possible to run CMake on the project and then immediately run the
+\fBuninstall\fP target).
+.sp
+\fBWARNING:\fP
+.INDENT 0.0
+.INDENT 3.5
+CMake deliberately does not provide an \fBuninstall\fP target by default on
+the basis that such a target has the potential to remove important files
+from a user’s computer. Use with caution.
+.UNINDENT
+.UNINDENT
+.sp
+Since 1.7.0.
+.SS ECMUseFindModules
+.sp
+Selectively use some of the find modules provided by extra\-cmake\-modules.
+.sp
+This module is automatically available once extra\-cmake\-modules has been
+found, so it is not necessary to \fBinclude(ECMUseFindModules)\fP explicitly.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_use_find_modules(DIR <dir>
+                     MODULES module1.cmake [module2.cmake [...]]
+                     [NO_OVERRIDE])
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This allows selective use of the find modules provided by ECM, including
+deferring to CMake’s versions of those modules if it has them.  Rather than
+adding \fB${ECM_FIND_MODULE_DIR}\fP to \fBCMAKE_MODULE_PATH\fP, you use
+\fBecm_use_find_modules()\fP to copy the modules you want to a local (build)
+directory, and add that to \fBCMAKE_MODULE_PATH\fP\&.
+.sp
+The find modules given to \fBMODULES\fP will be copied to the directory given by \fBDIR\fP
+(which should be located in \fB${CMAKE_BINARY_DIR}\fP and added to
+\fBCMAKE_MODULE_PATH\fP).  If \fBNO_OVERRIDE\fP is given, only modules not also
+provided by CMake will be copied.
+.sp
+Example:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+find_package(ECM REQUIRED)
+ecm_use_find_modules(
+    DIR ${CMAKE_BINARY_DIR}/cmake
+    MODULES FindEGL.cmake
+    NO_OVERRIDE
+)
+set(CMAKE_MODULE_PATH ${CMAKE_BINARY_DIR}/cmake)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This example will make \fBFindEGL.cmake\fP available in your project, but only
+as long as it is not yet part of CMake. Calls to \fBfind_package(EGL)\fP will
+then make use of this copied module (or the CMake module if it exists).
+.sp
+Another possible use for this macro is to take copies of find modules that can
+be installed along with config files if they are required as a dependency (for
+example, if targets provided by the find module are in the link interface of a
+library).
+.sp
+Since pre\-1.0.0.
+.SS ECMWinResolveSymlinks
+.sp
+Resolve pseudo\-symlinks created by git when cloning on Windows.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+ecm_win_resolve_symlinks(<dir>)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+When git checks out a repository with UNIX symlinks on Windows machine,
+it creates a text file for each symlink, containing a relative path to the
+real file.
+This function would recursively walk over specified directory and replace
+pseudo\-symlinks with corresponding real file’s contents. It would then run
+\fBgit update\-index \-\-assume\-unchanged\fP on them to trick git.
+.sp
+This is useful for projects like “breeze\-icons” that contain many identical
+icons implemented as symlinks.
+.sp
+Since 5.28
+.SS QtVersionOption
+.sp
+Adds a build option to select the major Qt version if necessary,
+that is, if the major Qt version has not yet been determined otherwise
+(e.g. by a corresponding \fBfind_package()\fP call).
+This module is typically included by other modules requiring knowledge
+about the major Qt version.
+.sp
+If the ECM version passed to find_package was at least 5.240.0 Qt6 is picked by default.
+Otherwise Qt5 is picked.
+.sp
+\fBQT_MAJOR_VERSION\fP is defined to either be “5” or “6”.
+.sp
+Since 5.82.0.
+.SH SEE ALSO
+.sp
+\fI\%ecm(7)\fP, \fI\%ecm\-find\-modules(7)\fP, \fI\%ecm\-kde\-modules(7)\fP
+.SH COPYRIGHT
+KDE Developers
+.\" Generated by docutils manpage writer.
+.

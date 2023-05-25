@@ -1,0 +1,11 @@
+prefix=/mnt/HDD/Project/Public/okulartry/okular-things
+exec_prefix=/mnt/HDD/Project/Public/okulartry/okular-things
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/polkit-qt5-1
+
+Name: polkit-qt5-agent-1
+Description: Convenience library for using polkit Agent with a Qt-styled API
+Version: 0.114.0
+Requires: Qt5Core Qt5Gui
+Libs: -L${libdir} -lpolkit-qt5-agent-1
+Cflags: -I${includedir}

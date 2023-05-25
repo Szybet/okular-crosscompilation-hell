@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteSegfaultService
+Exec=/mnt/HDD/Project/Public/okulartry/dbus/test/test-segfault
+

@@ -1,0 +1,2 @@
+sha512-arm.lo: sha512-arm.S ../config.h
+../config.h:

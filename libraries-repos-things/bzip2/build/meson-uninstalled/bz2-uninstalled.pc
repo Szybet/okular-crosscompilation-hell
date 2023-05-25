@@ -1,0 +1,10 @@
+prefix=/mnt/HDD/Project/Public/okulartry/bzip2/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/mnt/HDD/Project/Public/okulartry/bzip2
+
+Name: bz2
+Description: Lossless, block-sorting data compression
+Version: 1.1.0
+Libs: -L${prefix} -lbz2
+Cflags: -I${prefix} -I${srcdir}

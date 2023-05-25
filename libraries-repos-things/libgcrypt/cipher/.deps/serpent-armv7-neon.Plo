@@ -1,0 +1,2 @@
+serpent-armv7-neon.lo: serpent-armv7-neon.S ../config.h
+../config.h:

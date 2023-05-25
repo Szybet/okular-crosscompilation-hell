@@ -1,0 +1,4 @@
+#include "gdbsupport/version.h"
+const char version[] = "13.1.90.20230518-git";
+const char host_name[] = "arm-none-linux-gnueabihf";
+const char target_name[] = "version-t.t";

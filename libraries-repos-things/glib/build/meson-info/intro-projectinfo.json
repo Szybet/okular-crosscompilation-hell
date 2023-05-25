@@ -1,0 +1,1 @@
+{"version": "2.77.0", "descriptive_name": "glib", "subproject_dir": "subprojects", "subprojects": [{"name": "pcre2", "version": "10.42", "descriptive_name": "pcre2"}, {"name": "gvdb", "version": "0.0", "descriptive_name": "gvdb"}]}

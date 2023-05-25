@@ -1,0 +1,2 @@
+cast5-arm.lo: cast5-arm.S ../config.h
+../config.h:

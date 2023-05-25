@@ -1,0 +1,16 @@
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/uninstall.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/fetch-translations.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/rebuild_cache.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/list_install_components.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/install.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/install/local.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/CMakeFiles/install/strip.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/KF5KExiv2.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/list_install_components.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/install.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/install/local.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/install/strip.dir
+/mnt/HDD/Project/Public/okulartry/libkexiv2/build/src/CMakeFiles/KF5KExiv2_autogen.dir

@@ -1,0 +1,8 @@
+prefix=/mnt/HDD/Project/Public/okulartry/glib/build
+includedir=${prefix}/include
+srcdir=/mnt/HDD/Project/Public/okulartry/glib
+
+Name: GIO unix specific APIs
+Description: unix specific headers for glib I/O library
+Version: 2.77.0
+Requires: gobject-2.0, gio-2.0

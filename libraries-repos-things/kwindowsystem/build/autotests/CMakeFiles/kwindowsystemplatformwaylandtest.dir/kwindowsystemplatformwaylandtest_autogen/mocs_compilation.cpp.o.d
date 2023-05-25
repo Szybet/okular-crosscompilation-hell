@@ -1,0 +1,2 @@
+autotests/CMakeFiles/kwindowsystemplatformwaylandtest.dir/kwindowsystemplatformwaylandtest_autogen/mocs_compilation.cpp.o: \
+ /mnt/HDD/Project/Public/okulartry/kwindowsystem/build/autotests/kwindowsystemplatformwaylandtest_autogen/mocs_compilation.cpp

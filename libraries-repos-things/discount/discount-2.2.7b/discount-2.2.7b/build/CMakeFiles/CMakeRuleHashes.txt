@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+3fc417e1314b8df653ecad6295351ade /mnt/HDD/Project/Public/okulartry/discount/discount-2.2.7b/discount-2.2.7b/blocktags

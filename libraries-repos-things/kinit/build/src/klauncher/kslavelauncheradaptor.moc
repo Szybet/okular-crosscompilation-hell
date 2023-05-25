@@ -1,0 +1,165 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kslavelauncheradaptor.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include "kslavelauncheradaptor.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kslavelauncheradaptor.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_KSlaveLauncherAdaptor_t {
+    QByteArrayData data[17];
+    char stringdata0[1060];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_KSlaveLauncherAdaptor_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_KSlaveLauncherAdaptor_t qt_meta_stringdata_KSlaveLauncherAdaptor = {
+    {
+QT_MOC_LITERAL(0, 0, 21), // "KSlaveLauncherAdaptor"
+QT_MOC_LITERAL(1, 22, 15), // "D-Bus Interface"
+QT_MOC_LITERAL(2, 38, 22), // "org.kde.KSlaveLauncher"
+QT_MOC_LITERAL(3, 61, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 81, 868), // "  <interface name=\"org.kde.K..."
+QT_MOC_LITERAL(5, 859, 17), // "checkForHeldSlave"
+QT_MOC_LITERAL(6, 877, 0), // ""
+QT_MOC_LITERAL(7, 878, 3), // "url"
+QT_MOC_LITERAL(8, 882, 16), // "requestHoldSlave"
+QT_MOC_LITERAL(9, 899, 10), // "app_socket"
+QT_MOC_LITERAL(10, 910, 12), // "requestSlave"
+QT_MOC_LITERAL(11, 923, 8), // "protocol"
+QT_MOC_LITERAL(12, 932, 4), // "host"
+QT_MOC_LITERAL(13, 937, 8), // "QString&"
+QT_MOC_LITERAL(14, 946, 5), // "error"
+QT_MOC_LITERAL(15, 952, 12), // "waitForSlave"
+QT_MOC_LITERAL(16, 965, 3) // "pid"
+
+    },
+    "KSlaveLauncherAdaptor\0D-Bus Interface\0"
+    "org.kde.KSlaveLauncher\0D-Bus Introspection\0"
+    "  <interface name=\"org.kde.KSlaveLauncher\">\n    <method name=\"requ"
+    "estHoldSlave\">\n      <arg direction=\"out\" type=\"i\"/>\n      <arg"
+    " direction=\"in\" type=\"s\" name=\"url\"/>\n      <arg direction=\"in"
+    "\" type=\"s\" name=\"app_socket\"/>\n    </method>\n    <method name=\""
+    "requestSlave\">\n      <arg direction=\"out\" type=\"i\"/>\n      <arg"
+    " direction=\"in\" type=\"s\" name=\"protocol\"/>\n      <arg direction"
+    "=\"in\" type=\"s\" name=\"host\"/>\n      <arg direction=\"in\" type=\""
+    "s\" name=\"app_socket\"/>\n      <arg direction=\"out\" type=\"s\" nam"
+    "e=\"error\"/>\n    </method>\n    <method name=\"checkForHeldSlave\">\n"
+    "      <arg direction=\"out\" type=\"b\"/>\n      <arg direction=\"in\""
+    " type=\"s\" name=\"url\"/>\n    </method>\n    <method name=\"waitForS"
+    "lave\">\n      <arg direction=\"in\" type=\"i\" name=\"pid\"/>\n    </"
+    "method>\n  </interface>\n\0"
+    "checkForHeldSlave\0\0url\0requestHoldSlave\0"
+    "app_socket\0requestSlave\0protocol\0host\0"
+    "QString&\0error\0waitForSlave\0pid"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_KSlaveLauncherAdaptor[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       2,   14, // classinfo
+       4,   18, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // classinfo: key, value
+       1,    2,
+       3,    4,
+
+ // slots: name, argc, parameters, tag, flags
+       5,    1,   38,    6, 0x0a /* Public */,
+       8,    2,   41,    6, 0x0a /* Public */,
+      10,    4,   46,    6, 0x0a /* Public */,
+      15,    1,   55,    6, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Bool, QMetaType::QString,    7,
+    QMetaType::Int, QMetaType::QString, QMetaType::QString,    7,    9,
+    QMetaType::Int, QMetaType::QString, QMetaType::QString, QMetaType::QString, 0x80000000 | 13,   11,   12,    9,   14,
+    QMetaType::Void, QMetaType::Int,   16,
+
+       0        // eod
+};
+
+void KSlaveLauncherAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<KSlaveLauncherAdaptor *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: { bool _r = _t->checkForHeldSlave((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 1: { int _r = _t->requestHoldSlave((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+        case 2: { int _r = _t->requestSlave((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+        case 3: _t->waitForSlave((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject KSlaveLauncherAdaptor::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDBusAbstractAdaptor::staticMetaObject>(),
+    qt_meta_stringdata_KSlaveLauncherAdaptor.data,
+    qt_meta_data_KSlaveLauncherAdaptor,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *KSlaveLauncherAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KSlaveLauncherAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_KSlaveLauncherAdaptor.stringdata0))
+        return static_cast<void*>(this);
+    return QDBusAbstractAdaptor::qt_metacast(_clname);
+}
+
+int KSlaveLauncherAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractAdaptor::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 4)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 4;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

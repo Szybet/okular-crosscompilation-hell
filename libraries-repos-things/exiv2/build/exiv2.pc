@@ -1,0 +1,11 @@
+prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: exiv2
+Description: Exif and IPTC metadata library and tools
+Version: 0.25
+URL: http://www.exiv2.org
+Libs: -L${libdir} -lexiv2 
+Cflags: -I${includedir}

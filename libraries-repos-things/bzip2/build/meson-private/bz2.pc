@@ -1,0 +1,9 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: bz2
+Description: Lossless, block-sorting data compression
+Version: 1.1.0
+Libs: -L${libdir} -lbz2
+Cflags: -I${includedir}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>KDEClangFormat &#8212; Extra CMake Modules 5.107.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="KDECompilerSettings" href="KDECompilerSettings.html" />
+    <link rel="prev" title="KDECMakeSettings" href="KDECMakeSettings.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="KDECompilerSettings.html" title="KDECompilerSettings"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="KDECMakeSettings.html" title="KDECMakeSettings"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.107 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-kde-modules.7.html" accesskey="U">ecm-kde-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">KDEClangFormat</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="kdeclangformat">
+<span id="kde-module:KDEClangFormat"></span><h1>KDEClangFormat<a class="headerlink" href="#kdeclangformat" title="Permalink to this heading">¶</a></h1>
+<p>This module provides a functionality to format the source
+code of your repository according to a predefined KDE
+clang-format file.</p>
+<p>This module provides the following function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kde_clang_format</span><span class="p">(</span><span class="o">&lt;</span><span class="n">files</span><span class="o">&gt;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Using this function will create a clang-format target that will format all
+<code class="docutils literal notranslate"><span class="pre">&lt;files&gt;</span></code> passed to the function with the predefined KDE clang-format style.
+To format the files you have to invoke the target with <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">clang-format</span></code> or <code class="docutils literal notranslate"><span class="pre">ninja</span> <span class="pre">clang-format</span></code>.
+Once the project is formatted it is recommended to enforce the formatting using a pre-commit hook,
+this can be done using <a class="reference internal" href="KDEGitCommitHooks.html#kde-module:KDEGitCommitHooks" title="KDEGitCommitHooks"><code class="xref ecm ecm-kde-module docutils literal notranslate"><span class="pre">KDEGitCommitHooks</span></code></a>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">.clang-format</span></code> file from ECM will be copied to the source directory. This file should not be
+added to version control. It is recommended to add it to the <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> file: <code class="docutils literal notranslate"><span class="pre">/.clang-format</span></code>.</p>
+<p>Since 5.79: If the source folder already contains a .clang-format file it is not overwritten.
+Since version 5.80 this function is called by default in <a class="reference internal" href="KDEFrameworkCompilerSettings.html#kde-module:KDEFrameworkCompilerSettings" title="KDEFrameworkCompilerSettings"><code class="xref ecm ecm-kde-module docutils literal notranslate"><span class="pre">KDEFrameworkCompilerSettings</span></code></a>. If directories should be excluded from
+the formatting a .clang-format file with <code class="docutils literal notranslate"><span class="pre">DisableFormat:</span> <span class="pre">true</span></code> and <code class="docutils literal notranslate"><span class="pre">SortIncludes:</span> <span class="pre">false</span></code> should be created.</p>
+<p>Example usage:</p>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nb">include</span><span class="p">(</span><span class="s">KDEClangFormat</span><span class="p">)</span>
+<span class="nb">file</span><span class="p">(</span><span class="s">GLOB_RECURSE</span><span class="w"> </span><span class="s">ALL_CLANG_FORMAT_SOURCE_FILES</span><span class="w"> </span><span class="s">*.cpp</span><span class="w"> </span><span class="s">*.h</span><span class="w"> </span><span class="s">*.hpp</span><span class="w"> </span><span class="s">*.c</span><span class="p">)</span>
+<span class="nb">kde_clang_format</span><span class="p">(</span><span class="o">${</span><span class="nv">ALL_CLANG_FORMAT_SOURCE_FILES</span><span class="o">}</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>To exclude directories from the formatting add a <code class="docutils literal notranslate"><span class="pre">.clang-format</span></code>
+file in the directory with the following contents:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">DisableFormat</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">SortIncludes</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+</pre></div>
+</div>
+<p>Since 5.64</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="KDECMakeSettings.html"
+                          title="previous chapter">KDECMakeSettings</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="KDECompilerSettings.html"
+                          title="next chapter">KDECompilerSettings</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/kde-module/KDEClangFormat.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="KDECompilerSettings.html" title="KDECompilerSettings"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="KDECMakeSettings.html" title="KDECMakeSettings"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.107 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-kde-modules.7.html" >ecm-kde-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">KDEClangFormat</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+  </body>
+</html>

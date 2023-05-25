@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ilibbz2.so.1.0.9.p -I. -I.. -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DBZ_EXTERN=__attribute__((__visibility__(\"default\")))' -MD -MQ libbz2.so.1.0.9.p/blocksort.c.o -MF libbz2.so.1.0.9.p/blocksort.c.o.d -o libbz2.so.1.0.9.p/blocksort.c.o -c ../blocksort.c",
+    "file": "../blocksort.c",
+    "output": "libbz2.so.1.0.9.p/blocksort.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ilibbz2.so.1.0.9.p -I. -I.. -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DBZ_EXTERN=__attribute__((__visibility__(\"default\")))' -MD -MQ libbz2.so.1.0.9.p/huffman.c.o -MF libbz2.so.1.0.9.p/huffman.c.o.d -o libbz2.so.1.0.9.p/huffman.c.o -c ../huffman.c",
+    "file": "../huffman.c",
+    "output": "libbz2.so.1.0.9.p/huffman.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ilibbz2.so.1.0.9.p -I. -I.. -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DBZ_EXTERN=__attribute__((__visibility__(\"default\")))' -MD -MQ libbz2.so.1.0.9.p/crctable.c.o -MF libbz2.so.1.0.9.p/crctable.c.o.d -o libbz2.so.1.0.9.p/crctable.c.o -c ../crctable.c",
+    "file": "../crctable.c",
+    "output": "libbz2.so.1.0.9.p/crctable.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ilibbz2.so.1.0.9.p -I. -I.. -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DBZ_EXTERN=__attribute__((__visibility__(\"default\")))' -MD -MQ libbz2.so.1.0.9.p/randtable.c.o -MF libbz2.so.1.0.9.p/randtable.c.o.d -o libbz2.so.1.0.9.p/randtable.c.o -c ../randtable.c",
+    "file": "../randtable.c",
+    "output": "libbz2.so.1.0.9.p/randtable.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ilibbz2.so.1.0.9.p -I. -I.. -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DBZ_EXTERN=__attribute__((__visibility__(\"default\")))' -MD -MQ libbz2.so.1.0.9.p/compress.c.o -MF libbz2.so.1.0.9.p/compress.c.o.d -o libbz2.so.1.0.9.p/compress.c.o -c ../compress.c",
+    "file": "../compress.c",
+    "output": "libbz2.so.1.0.9.p/compress.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ilibbz2.so.1.0.9.p -I. -I.. -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DBZ_EXTERN=__attribute__((__visibility__(\"default\")))' -MD -MQ libbz2.so.1.0.9.p/decompress.c.o -MF libbz2.so.1.0.9.p/decompress.c.o.d -o libbz2.so.1.0.9.p/decompress.c.o -c ../decompress.c",
+    "file": "../decompress.c",
+    "output": "libbz2.so.1.0.9.p/decompress.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ilibbz2.so.1.0.9.p -I. -I.. -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DBZ_EXTERN=__attribute__((__visibility__(\"default\")))' -MD -MQ libbz2.so.1.0.9.p/bzlib.c.o -MF libbz2.so.1.0.9.p/bzlib.c.o.d -o libbz2.so.1.0.9.p/bzlib.c.o -c ../bzlib.c",
+    "file": "../bzlib.c",
+    "output": "libbz2.so.1.0.9.p/bzlib.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ibzip2.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -DBZ_LCCWIN32=0 -DBZ_UNIX=1 -MD -MQ bzip2.p/bzip2.c.o -MF bzip2.p/bzip2.c.o.d -o bzip2.p/bzip2.c.o -c ../bzip2.c",
+    "file": "../bzip2.c",
+    "output": "bzip2.p/bzip2.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/bzip2/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ibzip2recover.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c89 -O0 -g -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral -D_GNU_SOURCE -Wl,--start-group -lrt -Wl,--end-group -DBZ_LCCWIN32=0 -DBZ_UNIX=1 -MD -MQ bzip2recover.p/bzip2recover.c.o -MF bzip2recover.p/bzip2recover.c.o.d -o bzip2recover.p/bzip2recover.c.o -c ../bzip2recover.c",
+    "file": "../bzip2recover.c",
+    "output": "bzip2recover.p/bzip2recover.c.o"
+  }
+]

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ECMGenerateDBusServiceFile &#8212; Extra CMake Modules 5.240.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ECMGenerateExportHeader" href="ECMGenerateExportHeader.html" />
+    <link rel="prev" title="ECMFindQmlModule" href="ECMFindQmlModule.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ECMGenerateExportHeader.html" title="ECMGenerateExportHeader"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ECMFindQmlModule.html" title="ECMFindQmlModule"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" accesskey="U">ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMGenerateDBusServiceFile</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="ecmgeneratedbusservicefile">
+<span id="module:ECMGenerateDBusServiceFile"></span><h1>ECMGenerateDBusServiceFile<a class="headerlink" href="#ecmgeneratedbusservicefile" title="Permalink to this heading">¶</a></h1>
+<p>This module provides the <code class="docutils literal notranslate"><span class="pre">ecm_generate_dbus_service_file</span></code> function for
+generating and installing a D-Bus service file.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ecm_generate_dbus_service_file</span><span class="p">(</span>
+    <span class="n">NAME</span> <span class="o">&lt;</span><span class="n">service</span> <span class="n">name</span><span class="o">&gt;</span>
+    <span class="n">EXECUTABLE</span> <span class="o">&lt;</span><span class="n">executable</span><span class="o">&gt;</span>
+    <span class="p">[</span><span class="n">SYSTEMD_SERVICE</span> <span class="o">&lt;</span><span class="n">systemd</span> <span class="n">service</span><span class="o">&gt;</span><span class="p">]</span>
+    <span class="n">DESTINATION</span> <span class="o">&lt;</span><span class="n">install_path</span><span class="o">&gt;</span>
+    <span class="p">[</span><span class="n">RENAME</span> <span class="o">&lt;</span><span class="n">dbus</span> <span class="n">service</span> <span class="n">filename</span><span class="o">&gt;</span><span class="p">]</span> <span class="c1"># Since 5.75</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>A D-Bus service file <code class="docutils literal notranslate"><span class="pre">&lt;service</span> <span class="pre">name&gt;.service</span></code> will be generated and installed
+in the relevant D-Bus config location. This filename can be customized with RENAME.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;executable&gt;</span></code> must be an absolute path to the installed service executable. When using it with
+<a class="reference internal" href="../kde-module/KDEInstallDirs.html#kde-module:KDEInstallDirs" title="KDEInstallDirs"><code class="xref ecm ecm-kde-module docutils literal notranslate"><span class="pre">KDEInstallDirs</span></code></a> it needs to be the <code class="docutils literal notranslate"><span class="pre">_FULL_</span></code> variant of the path variable.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On Windows, the macro will only use the file name part of <code class="docutils literal notranslate"><span class="pre">&lt;executable&gt;</span></code> since D-Bus
+service executables are to be installed in the same directory as the D-Bus daemon.</p>
+</div>
+<p>Optionally, a <code class="docutils literal notranslate"><span class="pre">&lt;systemd</span> <span class="pre">service&gt;</span></code> can be specified to launch the corresponding
+systemd service instead of the <code class="docutils literal notranslate"><span class="pre">&lt;executable&gt;</span></code> if the D-Bus daemon is started by systemd.</p>
+<p>Example usage:</p>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nb">ecm_generate_dbus_service_file</span><span class="p">(</span>
+<span class="w">    </span><span class="s">NAME</span><span class="w"> </span><span class="s">org.kde.kded5</span>
+<span class="w">    </span><span class="s">EXECUTABLE</span><span class="w"> </span><span class="o">${</span><span class="nv">KDE_INSTALL_FULL_BINDIR</span><span class="o">}</span><span class="s">/kded5</span>
+<span class="w">    </span><span class="s">DESTINATION</span><span class="w"> </span><span class="o">${</span><span class="nv">KDE_INSTALL_DBUSSERVICEDIR</span><span class="o">}</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nb">ecm_generate_dbus_service_file</span><span class="p">(</span>
+<span class="w">    </span><span class="s">NAME</span><span class="w"> </span><span class="s">org.kde.kded5</span>
+<span class="w">    </span><span class="s">EXECUTABLE</span><span class="w"> </span><span class="o">${</span><span class="nv">KDE_INSTALL_FULL_BINDIR</span><span class="o">}</span><span class="s">/kded5</span>
+<span class="w">    </span><span class="s">SYSTEMD_SERVICE</span><span class="w"> </span><span class="s">plasma-kded.service</span>
+<span class="w">    </span><span class="s">DESTINATION</span><span class="w"> </span><span class="o">${</span><span class="nv">KDE_INSTALL_DBUSSERVICEDIR</span><span class="o">}</span>
+<span class="w">    </span><span class="s">RENAME</span><span class="w"> </span><span class="s">org.kde.daemon.service</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Since 5.73.0.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ECMFindQmlModule.html"
+                          title="previous chapter">ECMFindQmlModule</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="ECMGenerateExportHeader.html"
+                          title="next chapter">ECMGenerateExportHeader</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/module/ECMGenerateDBusServiceFile.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ECMGenerateExportHeader.html" title="ECMGenerateExportHeader"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ECMFindQmlModule.html" title="ECMFindQmlModule"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" >ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMGenerateDBusServiceFile</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.0.
+    </div>
+  </body>
+</html>

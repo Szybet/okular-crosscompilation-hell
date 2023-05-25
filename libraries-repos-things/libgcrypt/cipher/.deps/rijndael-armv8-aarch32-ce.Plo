@@ -1,0 +1,2 @@
+rijndael-armv8-aarch32-ce.lo: rijndael-armv8-aarch32-ce.S ../config.h
+../config.h:

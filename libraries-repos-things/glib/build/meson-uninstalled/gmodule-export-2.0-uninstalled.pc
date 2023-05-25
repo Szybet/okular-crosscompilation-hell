@@ -1,0 +1,9 @@
+prefix=/mnt/HDD/Project/Public/okulartry/glib/build
+includedir=${prefix}/include
+srcdir=/mnt/HDD/Project/Public/okulartry/glib
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Version: 2.77.0
+Requires: gmodule-no-export-2.0, glib-2.0
+Cflags: -Wl,--export-dynamic

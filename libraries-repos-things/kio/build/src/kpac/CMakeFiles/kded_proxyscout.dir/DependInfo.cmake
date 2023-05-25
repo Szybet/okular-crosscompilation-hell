@@ -1,0 +1,24 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/HDD/Project/Public/okulartry/kio/src/kpac/discovery.cpp" "src/kpac/CMakeFiles/kded_proxyscout.dir/discovery.cpp.o" "gcc" "src/kpac/CMakeFiles/kded_proxyscout.dir/discovery.cpp.o.d"
+  "/mnt/HDD/Project/Public/okulartry/kio/src/kpac/downloader.cpp" "src/kpac/CMakeFiles/kded_proxyscout.dir/downloader.cpp.o" "gcc" "src/kpac/CMakeFiles/kded_proxyscout.dir/downloader.cpp.o.d"
+  "/mnt/HDD/Project/Public/okulartry/kio/build/src/kpac/kded_proxyscout_autogen/mocs_compilation.cpp" "src/kpac/CMakeFiles/kded_proxyscout.dir/kded_proxyscout_autogen/mocs_compilation.cpp.o" "gcc" "src/kpac/CMakeFiles/kded_proxyscout.dir/kded_proxyscout_autogen/mocs_compilation.cpp.o.d"
+  "/mnt/HDD/Project/Public/okulartry/kio/build/src/kpac/kio_kpac_debug.cpp" "src/kpac/CMakeFiles/kded_proxyscout.dir/kio_kpac_debug.cpp.o" "gcc" "src/kpac/CMakeFiles/kded_proxyscout.dir/kio_kpac_debug.cpp.o.d"
+  "/mnt/HDD/Project/Public/okulartry/kio/src/kpac/proxyscout.cpp" "src/kpac/CMakeFiles/kded_proxyscout.dir/proxyscout.cpp.o" "gcc" "src/kpac/CMakeFiles/kded_proxyscout.dir/proxyscout.cpp.o.d"
+  "/mnt/HDD/Project/Public/okulartry/kio/src/kpac/script.cpp" "src/kpac/CMakeFiles/kded_proxyscout.dir/script.cpp.o" "gcc" "src/kpac/CMakeFiles/kded_proxyscout.dir/script.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

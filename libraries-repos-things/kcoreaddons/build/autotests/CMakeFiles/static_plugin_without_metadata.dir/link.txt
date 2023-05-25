@@ -1,0 +1,2 @@
+/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc ../lib/libstatic_plugin_without_metadata.a CMakeFiles/static_plugin_without_metadata.dir/static_plugin_without_metadata_autogen/mocs_compilation.cpp.o CMakeFiles/static_plugin_without_metadata.dir/staticpluginwithoutmetadata.cpp.o
+/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib ../lib/libstatic_plugin_without_metadata.a

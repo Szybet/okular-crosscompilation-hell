@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuite.PrivServer
+Exec=/mnt/HDD/Project/Public/okulartry/dbus/test/test-privserver
+

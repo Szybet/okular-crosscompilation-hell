@@ -1,0 +1,356 @@
+{
+	"BUILD_DIR" : "/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental/phonon4qt5experimental_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/phonon/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/phonon",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/abstractaudiooutput_p.h",
+			"MU",
+			"V4LBFFTPJE/moc_abstractaudiooutput_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/abstractvideooutput_p.h",
+			"MU",
+			"V4LBFFTPJE/moc_abstractvideooutput_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/abstractaudiodataoutput.h",
+			"MU",
+			"EWIEGA46WW/moc_abstractaudiodataoutput.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/abstractaudiodataoutput_p.h",
+			"MU",
+			"EWIEGA46WW/moc_abstractaudiodataoutput_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/abstractvideodataoutput.h",
+			"MU",
+			"EWIEGA46WW/moc_abstractvideodataoutput.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/abstractvideodataoutput_p.h",
+			"MU",
+			"EWIEGA46WW/moc_abstractvideodataoutput_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/audiodataoutput.h",
+			"MU",
+			"EWIEGA46WW/moc_audiodataoutput.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/audiodataoutput_p.h",
+			"MU",
+			"EWIEGA46WW/moc_audiodataoutput_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/audioformat.h",
+			"MU",
+			"EWIEGA46WW/moc_audioformat.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/avcapture.h",
+			"MU",
+			"EWIEGA46WW/moc_avcapture.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/avcapture_p.h",
+			"MU",
+			"EWIEGA46WW/moc_avcapture_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/backendcapabilities.h",
+			"MU",
+			"EWIEGA46WW/moc_backendcapabilities.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/factory_p.h",
+			"MU",
+			"EWIEGA46WW/moc_factory_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/globalconfig.h",
+			"MU",
+			"EWIEGA46WW/moc_globalconfig.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/mediasource.h",
+			"MU",
+			"EWIEGA46WW/moc_mediasource.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/mediasource_p.h",
+			"MU",
+			"EWIEGA46WW/moc_mediasource_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/objectdescription.h",
+			"MU",
+			"EWIEGA46WW/moc_objectdescription.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/packet.h",
+			"MU",
+			"EWIEGA46WW/moc_packet.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/packet_p.h",
+			"MU",
+			"EWIEGA46WW/moc_packet_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/packetpool.h",
+			"MU",
+			"EWIEGA46WW/moc_packetpool.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/packetpool_p.h",
+			"MU",
+			"EWIEGA46WW/moc_packetpool_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videodataoutput.h",
+			"MU",
+			"EWIEGA46WW/moc_videodataoutput.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videodataoutput2.h",
+			"MU",
+			"EWIEGA46WW/moc_videodataoutput2.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videodataoutput2_p.h",
+			"MU",
+			"EWIEGA46WW/moc_videodataoutput2_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videodataoutput_p.h",
+			"MU",
+			"EWIEGA46WW/moc_videodataoutput_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videowidget.h",
+			"MU",
+			"EWIEGA46WW/moc_videowidget.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videowidget_p.h",
+			"MU",
+			"EWIEGA46WW/moc_videowidget_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/visualization.h",
+			"MU",
+			"EWIEGA46WW/moc_visualization.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/visualization_p.h",
+			"MU",
+			"EWIEGA46WW/moc_visualization_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental/phonon4qt5experimental_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental/phonon4qt5experimental_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"MAKE_PHONONEXPERIMENTAL_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x060000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x050F00",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental",
+		"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental",
+		"/mnt/HDD/Project/Public/okulartry/phonon",
+		"/mnt/HDD/Project/Public/okulartry/phonon/build",
+		"/mnt/HDD/Project/Public/okulartry/phonon/includes",
+		"/mnt/HDD/Project/Public/okulartry/phonon/build/includes",
+		"/mnt/HDD/Project/Public/okulartry/phonon/build/phonon",
+		"/mnt/HDD/Project/Public/okulartry/phonon/phonon",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental/phonon4qt5experimental_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental/CMakeFiles/phonon4qt5experimental_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/mnt/HDD/Project/Public/okulartry/phonon/build/phonon/experimental/CMakeFiles/phonon4qt5experimental_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/abstractaudiooutput_p.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/abstractvideooutput_p.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/abstractaudiodataoutput.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/abstractvideodataoutput.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/audiodataoutput.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/audioformat.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/avcapture.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/backendcapabilities.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/factory.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/globalconfig.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/mediasource.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/objectdescription.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/packet.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/packetpool.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videodataoutput.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videodataoutput2.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/videowidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/phonon/phonon/experimental/visualization.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

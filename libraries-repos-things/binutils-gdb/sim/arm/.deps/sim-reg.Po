@@ -1,0 +1,78 @@
+sim-reg.o: \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-reg.c \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h \
+ ../../gnulib/config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h \
+ sim-main.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-basics.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/sim/sim.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-config.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-inline.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-types.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-bits.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-endian.h \
+ ../../bfd/bfd.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/symcat.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/diagnostics.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/string.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/sys/stat.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-utils.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-base.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-module.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-arange.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-trace.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/dis-asm.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-core.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-events.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-profile.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-model.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-io.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-engine.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-watch.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-memopt.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-cpu.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-assert.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/libiberty.h \
+ /mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h \
+ armdefs.h
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/defs.h:
+../../gnulib/config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/../config.h:
+sim-main.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-basics.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdio.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/sim/sim.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-config.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-inline.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-types.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/stdint.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-bits.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-endian.h:
+../../bfd/bfd.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/symcat.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/diagnostics.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/string.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../gnulib/import/sys/stat.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-utils.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-base.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-module.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-arange.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-trace.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/dis-asm.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-core.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-events.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-profile.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-model.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-io.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-engine.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-watch.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-memopt.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-cpu.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../common/sim-assert.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/libiberty.h:
+/mnt/HDD/Project/Public/okulartry/binutils-gdb/sim/arm/../../include/ansidecl.h:
+armdefs.h:

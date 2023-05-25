@@ -1,0 +1,268 @@
+{
+	"BUILD_DIR" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/KF5WindowSystem_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/CMakeLists.txt",
+		"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/config-kwindowsystem.h.cmake",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQmLoader.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/share/ECM/modules/ECMGeneratePriFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/kwindowsystem_debug.h",
+			"Mu",
+			"EJRQKI7XPS/moc_kwindowsystem_debug.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/kwindowsystem_xcb_debug.h",
+			"Mu",
+			"EJRQKI7XPS/moc_kwindowsystem_xcb_debug.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kkeyserver.h",
+			"Mu",
+			"EWIEGA46WW/moc_kkeyserver.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kstartupinfo.h",
+			"Mu",
+			"EWIEGA46WW/moc_kstartupinfo.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kusertimestamp.h",
+			"Mu",
+			"EWIEGA46WW/moc_kusertimestamp.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindoweffects.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindoweffects.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindoweffects_dummy_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindoweffects_dummy_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindoweffects_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindoweffects_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowinfo.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindowinfo.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowinfo_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindowinfo_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowshadow.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindowshadow.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowshadow_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindowshadow_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowsystem.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindowsystem.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowsystem_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindowsystem_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowsystemplugininterface_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_kwindowsystemplugininterface_p.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/pluginwrapper_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_pluginwrapper_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/KF5WindowSystem_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/KF5WindowSystem_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KF5WindowSystem_EXPORTS",
+		"KF_DEPRECATED_WARNINGS_SINCE=0x060000",
+		"KWINDOWSYSTEM_DEPRECATED_WARNINGS_SINCE=0x0",
+		"KWINDOWSYSTEM_DISABLE_DEPRECATED_BEFORE_AND_AT=0x0",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x060000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x050d00",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_SIGNALS_SLOTS_KEYWORDS",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"_FILE_OFFSET_BITS=64",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src",
+		"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtGui",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtCore",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/mkspecs/linux-kobo-gnueabihf-g++",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/QtWidgets",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/KF5WindowSystem_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/CMakeFiles/KF5WindowSystem_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/CMakeFiles/KF5WindowSystem_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/ECMQmLoader-kwindowsystem5_qt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/kwindowsystem_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/build/src/kwindowsystem_xcb_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kkeyserver.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kstartupinfo.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kusertimestamp.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindoweffects.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindoweffects_dummy.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowinfo.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowshadow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowsystem.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/kwindowsystemplugininterface.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/platforms/wayland/kwindowsystem.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/mnt/HDD/Project/Public/okulartry/kwindowsystem/src/pluginwrapper.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

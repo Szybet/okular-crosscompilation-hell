@@ -1,0 +1,2 @@
+twofish-arm.lo: twofish-arm.S ../config.h
+../config.h:

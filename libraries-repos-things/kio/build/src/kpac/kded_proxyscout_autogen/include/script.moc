@@ -1,0 +1,284 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'script.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'script.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_ScriptHelper_t {
+    QByteArrayData data[43];
+    char stringdata0[412];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ScriptHelper_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ScriptHelper_t qt_meta_stringdata_ScriptHelper = {
+    {
+QT_MOC_LITERAL(0, 0, 12), // "ScriptHelper"
+QT_MOC_LITERAL(1, 13, 15), // "IsPlainHostName"
+QT_MOC_LITERAL(2, 29, 8), // "QJSValue"
+QT_MOC_LITERAL(3, 38, 0), // ""
+QT_MOC_LITERAL(4, 39, 6), // "string"
+QT_MOC_LITERAL(5, 46, 11), // "DNSDomainIs"
+QT_MOC_LITERAL(6, 58, 4), // "host"
+QT_MOC_LITERAL(7, 63, 6), // "domain"
+QT_MOC_LITERAL(8, 70, 19), // "LocalHostOrDomainIs"
+QT_MOC_LITERAL(9, 90, 4), // "fqdn"
+QT_MOC_LITERAL(10, 95, 12), // "IsResolvable"
+QT_MOC_LITERAL(11, 108, 7), // "IsInNet"
+QT_MOC_LITERAL(12, 116, 6), // "subnet"
+QT_MOC_LITERAL(13, 123, 4), // "mask"
+QT_MOC_LITERAL(14, 128, 10), // "DNSResolve"
+QT_MOC_LITERAL(15, 139, 11), // "MyIpAddress"
+QT_MOC_LITERAL(16, 151, 15), // "DNSDomainLevels"
+QT_MOC_LITERAL(17, 167, 10), // "ShExpMatch"
+QT_MOC_LITERAL(18, 178, 3), // "str"
+QT_MOC_LITERAL(19, 182, 10), // "patternStr"
+QT_MOC_LITERAL(20, 193, 12), // "WeekdayRange"
+QT_MOC_LITERAL(21, 206, 4), // "day1"
+QT_MOC_LITERAL(22, 211, 4), // "arg2"
+QT_MOC_LITERAL(23, 216, 2), // "tz"
+QT_MOC_LITERAL(24, 219, 17), // "DateRangeInternal"
+QT_MOC_LITERAL(25, 237, 4), // "args"
+QT_MOC_LITERAL(26, 242, 9), // "TimeRange"
+QT_MOC_LITERAL(27, 252, 4), // "hour"
+QT_MOC_LITERAL(28, 257, 5), // "hour1"
+QT_MOC_LITERAL(29, 263, 5), // "hour2"
+QT_MOC_LITERAL(30, 269, 4), // "min1"
+QT_MOC_LITERAL(31, 274, 4), // "min2"
+QT_MOC_LITERAL(32, 279, 4), // "sec1"
+QT_MOC_LITERAL(33, 284, 4), // "sec2"
+QT_MOC_LITERAL(34, 289, 14), // "IsResolvableEx"
+QT_MOC_LITERAL(35, 304, 9), // "IsInNetEx"
+QT_MOC_LITERAL(36, 314, 9), // "ipAddress"
+QT_MOC_LITERAL(37, 324, 8), // "ipPrefix"
+QT_MOC_LITERAL(38, 333, 12), // "DNSResolveEx"
+QT_MOC_LITERAL(39, 346, 13), // "MyIpAddressEx"
+QT_MOC_LITERAL(40, 360, 17), // "SortIpAddressList"
+QT_MOC_LITERAL(41, 378, 16), // "ipAddressListStr"
+QT_MOC_LITERAL(42, 395, 16) // "GetClientVersion"
+
+    },
+    "ScriptHelper\0IsPlainHostName\0QJSValue\0"
+    "\0string\0DNSDomainIs\0host\0domain\0"
+    "LocalHostOrDomainIs\0fqdn\0IsResolvable\0"
+    "IsInNet\0subnet\0mask\0DNSResolve\0"
+    "MyIpAddress\0DNSDomainLevels\0ShExpMatch\0"
+    "str\0patternStr\0WeekdayRange\0day1\0arg2\0"
+    "tz\0DateRangeInternal\0args\0TimeRange\0"
+    "hour\0hour1\0hour2\0min1\0min2\0sec1\0sec2\0"
+    "IsResolvableEx\0IsInNetEx\0ipAddress\0"
+    "ipPrefix\0DNSResolveEx\0MyIpAddressEx\0"
+    "SortIpAddressList\0ipAddressListStr\0"
+    "GetClientVersion"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ScriptHelper[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      27,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // methods: name, argc, parameters, tag, flags
+       1,    1,  149,    3, 0x02 /* Public */,
+       5,    2,  152,    3, 0x02 /* Public */,
+       8,    2,  157,    3, 0x02 /* Public */,
+      10,    1,  162,    3, 0x02 /* Public */,
+      11,    3,  165,    3, 0x02 /* Public */,
+      14,    1,  172,    3, 0x02 /* Public */,
+      15,    0,  175,    3, 0x02 /* Public */,
+      16,    1,  176,    3, 0x02 /* Public */,
+      17,    2,  179,    3, 0x02 /* Public */,
+      20,    3,  184,    3, 0x02 /* Public */,
+      20,    2,  191,    3, 0x22 /* Public | MethodCloned */,
+      20,    1,  196,    3, 0x22 /* Public | MethodCloned */,
+      24,    1,  199,    3, 0x02 /* Public */,
+      26,    2,  202,    3, 0x02 /* Public */,
+      26,    1,  207,    3, 0x22 /* Public | MethodCloned */,
+      26,    3,  210,    3, 0x02 /* Public */,
+      26,    2,  217,    3, 0x22 /* Public | MethodCloned */,
+      26,    5,  222,    3, 0x02 /* Public */,
+      26,    4,  233,    3, 0x22 /* Public | MethodCloned */,
+      26,    7,  242,    3, 0x02 /* Public */,
+      26,    6,  257,    3, 0x22 /* Public | MethodCloned */,
+      34,    1,  270,    3, 0x02 /* Public */,
+      35,    2,  273,    3, 0x02 /* Public */,
+      38,    1,  278,    3, 0x02 /* Public */,
+      39,    0,  281,    3, 0x02 /* Public */,
+      40,    1,  282,    3, 0x02 /* Public */,
+      42,    0,  285,    3, 0x02 /* Public */,
+
+ // methods: parameters
+    0x80000000 | 2, QMetaType::QString,    4,
+    0x80000000 | 2, QMetaType::QString, QMetaType::QString,    6,    7,
+    0x80000000 | 2, QMetaType::QString, QMetaType::QString,    6,    9,
+    0x80000000 | 2, QMetaType::QString,    6,
+    0x80000000 | 2, QMetaType::QString, QMetaType::QString, QMetaType::QString,    6,   12,   13,
+    0x80000000 | 2, QMetaType::QString,    6,
+    0x80000000 | 2,
+    0x80000000 | 2, QMetaType::QString,    6,
+    0x80000000 | 2, QMetaType::QString, QMetaType::QString,   18,   19,
+    0x80000000 | 2, QMetaType::QString, QMetaType::QString, QMetaType::QString,   21,   22,   23,
+    0x80000000 | 2, QMetaType::QString, QMetaType::QString,   21,   22,
+    0x80000000 | 2, QMetaType::QString,   21,
+    0x80000000 | 2, 0x80000000 | 2,   25,
+    0x80000000 | 2, QMetaType::Int, QMetaType::QString,   27,   23,
+    0x80000000 | 2, QMetaType::Int,   27,
+    0x80000000 | 2, QMetaType::Int, QMetaType::Int, QMetaType::QString,   28,   29,   23,
+    0x80000000 | 2, QMetaType::Int, QMetaType::Int,   28,   29,
+    0x80000000 | 2, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::QString,   28,   30,   29,   31,   23,
+    0x80000000 | 2, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int,   28,   30,   29,   31,
+    0x80000000 | 2, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::QString,   28,   30,   32,   29,   31,   33,   23,
+    0x80000000 | 2, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int,   28,   30,   32,   29,   31,   33,
+    0x80000000 | 2, QMetaType::QString,    6,
+    0x80000000 | 2, QMetaType::QString, QMetaType::QString,   36,   37,
+    0x80000000 | 2, QMetaType::QString,    6,
+    0x80000000 | 2,
+    0x80000000 | 2, QMetaType::QString,   41,
+    0x80000000 | 2,
+
+       0        // eod
+};
+
+void ScriptHelper::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<ScriptHelper *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: { QJSValue _r = _t->IsPlainHostName((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 1: { QJSValue _r = _t->DNSDomainIs((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 2: { QJSValue _r = _t->LocalHostOrDomainIs((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 3: { QJSValue _r = _t->IsResolvable((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 4: { QJSValue _r = _t->IsInNet((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 5: { QJSValue _r = _t->DNSResolve((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 6: { QJSValue _r = _t->MyIpAddress();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 7: { QJSValue _r = _t->DNSDomainLevels((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 8: { QJSValue _r = _t->ShExpMatch((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 9: { QJSValue _r = _t->WeekdayRange((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 10: { QJSValue _r = _t->WeekdayRange((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 11: { QJSValue _r = _t->WeekdayRange((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 12: { QJSValue _r = _t->DateRangeInternal((*reinterpret_cast< QJSValue(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 13: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 14: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 15: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 16: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 17: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 18: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 19: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 20: { QJSValue _r = _t->TimeRange((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 21: { QJSValue _r = _t->IsResolvableEx((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 22: { QJSValue _r = _t->IsInNetEx((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 23: { QJSValue _r = _t->DNSResolveEx((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 24: { QJSValue _r = _t->MyIpAddressEx();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 25: { QJSValue _r = _t->SortIpAddressList((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        case 26: { QJSValue _r = _t->GetClientVersion();
+            if (_a[0]) *reinterpret_cast< QJSValue*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 12:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QJSValue >(); break;
+            }
+            break;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject ScriptHelper::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_ScriptHelper.data,
+    qt_meta_data_ScriptHelper,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *ScriptHelper::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ScriptHelper::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ScriptHelper.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int ScriptHelper::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 27)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 27;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 27)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 27;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

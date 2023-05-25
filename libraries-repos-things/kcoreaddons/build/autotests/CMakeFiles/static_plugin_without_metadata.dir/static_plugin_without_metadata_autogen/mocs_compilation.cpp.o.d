@@ -1,0 +1,2 @@
+autotests/CMakeFiles/static_plugin_without_metadata.dir/static_plugin_without_metadata_autogen/mocs_compilation.cpp.o: \
+ /mnt/HDD/Project/Public/okulartry/kcoreaddons/build/autotests/static_plugin_without_metadata_autogen/mocs_compilation.cpp

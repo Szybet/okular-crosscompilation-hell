@@ -1,0 +1,1198 @@
+Build started at 2023-05-16T08:27:49.968230
+Main binary: /usr/bin/python
+Build Options: --cross-file=../meson-kobo.txt
+Python system: Linux
+The Meson build system
+Version: 1.1.0
+Source dir: /mnt/HDD/Project/Public/okulartry/gobject-introspection
+Build dir: /mnt/HDD/Project/Public/okulartry/gobject-introspection/build
+Build type: cross build
+Project name: gobject-introspection
+Project version: 1.76.2
+-----
+Detecting compiler via: arm-kobo-linux-gnueabihf-gcc --version
+compiler returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '--version']>
+compiler stdout:
+arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: arm-kobo-linux-gnueabihf-gcc -E -dM -
+-----
+Detecting linker via: arm-kobo-linux-gnueabihf-gcc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '-Wl,--version']>
+linker stdout:
+GNU ld (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+Copyright (C) 2021 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 11.2.0
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld -plugin /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqF8DQG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+Sanity testing C compiler: arm-kobo-linux-gnueabihf-gcc
+Is cross compiler: True.
+Sanity check compiler command line: arm-kobo-linux-gnueabihf-gcc sanitycheckc.c -o sanitycheckc_cross.exe -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: arm-kobo-linux-gnueabihf-gcc (gcc 11.2.0 "arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0")
+C linker for the host machine: arm-kobo-linux-gnueabihf-gcc ld.bfd 1.24.0.519
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (GCC) 13.1.1 20230429
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils) 2.40.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 13.1.1 20230429
+/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJuJHf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o
+
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 13.1.1 "cc (GCC) 13.1.1 20230429")
+C linker for the build machine: cc ld.bfd 2.40.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: arm
+Host machine cpu: arm
+Target machine cpu family: arm
+Target machine cpu: arm
+Program python3 found: YES (/sbin/python3)
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmplqlelab7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmplqlelab7/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmplqlelab7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Warray-bounds 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Warray-bounds: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpt0qqzq6u
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpt0qqzq6u/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpt0qqzq6u/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-align: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp3yt5rh5x
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp3yt5rh5x/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp3yt5rh5x/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wduplicated-branches: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7zf_kwb6
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7zf_kwb6/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7zf_kwb6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat=2 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat=2: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpa5vjb6z0
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpa5vjb6z0/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpa5vjb6z0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-nonliteral 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Kcc1:[m[K [01;35m[Kwarning: [m[K'[01m[K-Wformat-nonliteral[m[K' ignored without '[01m[K-Wformat[m[K' [[01;35m[K-Wformat-nonliteral[m[K]
+
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp9udli8h0
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp9udli8h0/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp9udli8h0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[Kcc1:[m[K [01;35m[Kwarning: [m[K'[01m[K-Wformat-security[m[K' ignored without '[01m[K-Wformat[m[K' [[01;35m[K-Wformat-security[m[K]
+
+Compiler for C supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpax7wg24j
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpax7wg24j/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpax7wg24j/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-function-declaration 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmplq1qkjzz
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmplq1qkjzz/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmplq1qkjzz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpdp5mlv31
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpdp5mlv31/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpdp5mlv31/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wjump-misses-init 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wjump-misses-init: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpmyemrop3
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpmyemrop3/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpmyemrop3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wlogical-op 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wlogical-op: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmproowcqyl
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmproowcqyl/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmproowcqyl/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpva9db7il
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpva9db7il/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpva9db7il/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-format-attribute 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpfeztvvw3
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpfeztvvw3/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpfeztvvw3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpphb74x6w
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpphb74x6w/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpphb74x6w/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-noreturn 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmppsx6mtai
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmppsx6mtai/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmppsx6mtai/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpb39okrz7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpb39okrz7/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpb39okrz7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu2yx751
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu2yx751/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu2yx751/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wnull-dereference 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnull-dereference: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp4_549pfi
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp4_549pfi/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp4_549pfi/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpzji82q__
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpzji82q__/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpzji82q__/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wpacked 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpacked: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp9pzu01_6
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp9pzu01_6/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp9pzu01_6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp15ws_o33
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp15ws_o33/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp15ws_o33/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wrestrict 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wrestrict: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp445tzosy
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp445tzosy/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp445tzosy/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wreturn-type 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wreturn-type: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpr37nlu3x
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpr37nlu3x/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpr37nlu3x/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpulcucu3q
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpulcucu3q/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpulcucu3q/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp2wxljb25
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp2wxljb25/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp2wxljb25/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpd26p9e70
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpd26p9e70/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpd26p9e70/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpmstuk6dr
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpmstuk6dr/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpmstuk6dr/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpltzfl3k0
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpltzfl3k0/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpltzfl3k0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-but-set-variable 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpgzek_b5z
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpgzek_b5z/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpgzek_b5z/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmprf8bwp96
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmprf8bwp96/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmprf8bwp96/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fno-strict-aliasing 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpuliqgs9h
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpuliqgs9h/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpuliqgs9h/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            char something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpu2btbjdq
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpu2btbjdq/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpu2btbjdq/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(char) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp1fe0efev
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp1fe0efev/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp1fe0efev/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(char) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu_i1iis
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu_i1iis/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu_i1iis/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(char) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu_i1iis/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpqu_i1iis/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(char) > 1)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Checking for size of "char" : 1 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8hjh5xi4
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8hjh5xi4/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8hjh5xi4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            short something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpxsbftyd9
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpxsbftyd9/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpxsbftyd9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(short) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpa6rgvbky
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpa6rgvbky/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpa6rgvbky/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(short) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp15przhs7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp15przhs7/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp15przhs7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(short) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8ps_q22z
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8ps_q22z/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8ps_q22z/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(short) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8ps_q22z/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp8ps_q22z/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(short) > 3)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpj5i4ngz0
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpj5i4ngz0/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpj5i4ngz0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(short) <= 2)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for size of "short" : 2 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp0suku000
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp0suku000/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp0suku000/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            int something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpax8ltdjy
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpax8ltdjy/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpax8ltdjy/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(int) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpu1q16l_a
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpu1q16l_a/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpu1q16l_a/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(int) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpuq8dk730
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpuq8dk730/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpuq8dk730/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(int) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmprsz7ti9e
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmprsz7ti9e/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmprsz7ti9e/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(int) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7lyjhcho
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7lyjhcho/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7lyjhcho/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(int) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7lyjhcho/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp7lyjhcho/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(int) > 7)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphrkhv4ry
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphrkhv4ry/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphrkhv4ry/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(int) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_ir5i_gm
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_ir5i_gm/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_ir5i_gm/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(int) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for size of "int" : 4 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpl18jv99o
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpl18jv99o/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpl18jv99o/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            long something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphmdsa4am
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphmdsa4am/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphmdsa4am/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(long) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphwfdw923
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphwfdw923/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmphwfdw923/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(long) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpajg1yih5
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpajg1yih5/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpajg1yih5/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(long) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_fk3jvzz
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_fk3jvzz/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_fk3jvzz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(long) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpbatjnbmq
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpbatjnbmq/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpbatjnbmq/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(long) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpbatjnbmq/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpbatjnbmq/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(long) > 7)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpzs2v4mbu
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpzs2v4mbu/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpzs2v4mbu/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(long) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpxxekzv_v
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpxxekzv_v/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpxxekzv_v/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(long) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for size of "long" : 4 
+Pkg-config binary for 1 is not cached.
+Pkg-config binary for 1 specified from cross file, native file, or env var as ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (1.8.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lglib-2.0
+-----------
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmph4wwq32s
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmph4wwq32s/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmph4wwq32s/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            void * something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpjqhm9f7i
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpjqhm9f7i/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpjqhm9f7i/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpw20ukxkn
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpw20ukxkn/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpw20ukxkn/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpdcn3fza_
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpdcn3fza_/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpdcn3fza_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpwyl7sj1a
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpwyl7sj1a/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpwyl7sj1a/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_x6lj7gc
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_x6lj7gc/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_x6lj7gc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_x6lj7gc/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_x6lj7gc/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpf2p7cf1v
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpf2p7cf1v/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpf2p7cf1v/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_f5zkrii
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_f5zkrii/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp_f5zkrii/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpq6zdi_3y
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpq6zdi_3y/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpq6zdi_3y/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/
+programs: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+libraries: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency glib-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'gobject-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion gobject-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags gobject-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gobject-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gio-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'gmodule-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion gmodule-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags gmodule-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include -Wl,--export-dynamic -pthread -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gmodule-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgmodule-2.0 -pthread -lglib-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gmodule-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgmodule-2.0 -pthread -lglib-2.0 -lglib-2.0
+-----------
+Run-time dependency gmodule-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'gio-unix-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion gio-unix-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags gio-unix-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/gio-unix-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gio-unix-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'libffi' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion libffi` -> 0
+stdout:
+3.4.3
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags libffi` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs libffi` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lffi
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs libffi` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lffi
+-----------
+Run-time dependency libffi found: YES 3.4.3
+Program pkg-config found: YES (/sbin/pkg-config)
+Configuring config.h using configuration
+Searching for 'python-3.11' via pkgconfig lookup in LIBPC
+Pkg-config binary for 1 is cached.
+Determining dependency 'python-3.11' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+Called `/usr/bin/pkg-config --modversion python-3.11` -> 1
+stderr:
+Package python-3.11 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `python-3.11.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'python-3.11', required by 'virtual:world', not found
+-----------
+"python-3.11" could not be found in LIBPC, this is likely due to a relocated python installation
+Searching for 'python-3.11' via fallback pkgconfig lookup in default paths
+Pkg-config binary for 1 is cached.
+Determining dependency 'python-3.11' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp5yfmszgp
+Command line:  arm-kobo-linux-gnueabihf-gcc -I/usr/include/python3.11 /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmp5yfmszgp/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("Python.h")
+          #error "Header 'Python.h' could not be found"
+         #endif
+        #else
+         #include <Python.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpg0ikm_u0
+Command line:  arm-kobo-linux-gnueabihf-gcc -I/usr/include/python3.11 /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpg0ikm_u0/testfile.c -o /mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpg0ikm_u0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ 
+        #include <Python.h>
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from [01m[K/usr/include/python3.11/Python.h:38[m[K,
+                 from [01m[K/mnt/HDD/Project/Public/okulartry/gobject-introspection/build/meson-private/tmpg0ikm_u0/testfile.c:2[m[K:
+[01m[K/usr/include/python3.11/pyport.h:601:2:[m[K [01;31m[Kerror: [m[K#error "LONG_BIT definition appears wrong for platform (bad gcc/glibc config?)."
+  601 | #[01;31m[Kerror[m[K "LONG_BIT definition appears wrong for platform (bad gcc/glibc config?)."
+      |  [01;31m[K^~~~~[m[K
+
+
+meson.build:171:3: ERROR: C header 'Python.h' not usable

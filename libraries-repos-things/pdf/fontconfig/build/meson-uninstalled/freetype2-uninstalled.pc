@@ -1,0 +1,13 @@
+prefix=/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/mnt/HDD/Project/Public/okulartry/pdf/fontconfig
+
+Name: FreeType 2
+Description: A free, high-quality, and portable font engine.
+URL: https://freetype.org
+Version: 25.0.19
+Requires.private: zlib, libpng, libbrotlidec
+Libs: -L${prefix}/subprojects/freetype2 -lfreetype
+Libs.private: -lbz2
+Cflags: -I${prefix}/subprojects/freetype2 -I${srcdir}/subprojects/freetype2 -I${prefix}/subprojects/freetype2/include -I${srcdir}/subprojects/freetype2/include

@@ -1,0 +1,1068 @@
+Build started at 2023-05-16T09:17:23.004325
+Main binary: /usr/bin/python
+Build Options: --cross-file=../meson-kobo.txt
+Python system: Linux
+The Meson build system
+Version: 1.1.0
+Source dir: /mnt/HDD/Project/Public/okulartry/polkit
+Build dir: /mnt/HDD/Project/Public/okulartry/polkit/build
+Build type: cross build
+Project name: polkit
+Project version: 123
+-----
+Detecting compiler via: arm-kobo-linux-gnueabihf-gcc --version
+compiler returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '--version']>
+compiler stdout:
+arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: arm-kobo-linux-gnueabihf-gcc -E -dM -
+-----
+Detecting linker via: arm-kobo-linux-gnueabihf-gcc -Wl,--version -lrt
+linker returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '-Wl,--version'...>
+linker stdout:
+GNU ld (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+Copyright (C) 2021 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 11.2.0
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld -plugin /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9rAYK3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib --version -lrt -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+Sanity testing C compiler: arm-kobo-linux-gnueabihf-gcc
+Is cross compiler: True.
+Sanity check compiler command line: arm-kobo-linux-gnueabihf-gcc sanitycheckc.c -o sanitycheckc_cross.exe -lrt -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: arm-kobo-linux-gnueabihf-gcc (gcc 11.2.0 "arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0")
+C linker for the host machine: arm-kobo-linux-gnueabihf-gcc ld.bfd 1.24.0.519
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (GCC) 13.1.1 20230429
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils) 2.40.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 13.1.1 20230429
+/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEErUSD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o
+
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 13.1.1 "cc (GCC) 13.1.1 20230429")
+C linker for the build machine: cc ld.bfd 2.40.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: arm
+Host machine cpu: arm
+Target machine cpu family: arm
+Target machine cpu: arm
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp3ymworuk
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp3ymworuk/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp3ymworuk/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define clearenv meson_disable_define_of_clearenv
+        
+        #include <limits.h>
+        #undef clearenv
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char clearenv (void);
+        
+        #if defined __stub_clearenv || defined __stub___clearenv
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return clearenv ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "clearenv" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpiaspv4fb
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpiaspv4fb/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpiaspv4fb/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define fdatasync meson_disable_define_of_fdatasync
+        
+        #include <limits.h>
+        #undef fdatasync
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char fdatasync (void);
+        
+        #if defined __stub_fdatasync || defined __stub___fdatasync
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return fdatasync ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fdatasync" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9jy78eay
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9jy78eay/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9jy78eay/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define setnetgrent meson_disable_define_of_setnetgrent
+        
+        #include <limits.h>
+        #undef setnetgrent
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char setnetgrent (void);
+        
+        #if defined __stub_setnetgrent || defined __stub___setnetgrent
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return setnetgrent ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "setnetgrent" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp091r0wc4
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp091r0wc4/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp091r0wc4/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Waggregate-return 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Waggregate-return: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpa_nuj_9u
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpa_nuj_9u/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpa_nuj_9u/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpm5qddbb2
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpm5qddbb2/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpm5qddbb2/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wformat=2 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat=2: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpw946bvl7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpw946bvl7/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpw946bvl7/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-function-declaration 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp7ub2pjcu
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp7ub2pjcu/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp7ub2pjcu/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Winit-self 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpksjtr3ft
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpksjtr3ft/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpksjtr3ft/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9j_6w100
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9j_6w100/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9j_6w100/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmppb03i0rx
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmppb03i0rx/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmppb03i0rx/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpg83_12ha
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpg83_12ha/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpg83_12ha/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+meson.build:124: WARNING: Consider using the built-in option for language standard version instead of using "-std=c99".
+Pkg-config binary for 1 is not cached.
+Pkg-config binary for 1 specified from cross file, native file, or env var as ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (1.8.1)
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp5g19sva6
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp5g19sva6/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp5g19sva6/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            void * something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmphmef79zi
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmphmef79zi/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmphmef79zi/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp_1mvfuri
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp_1mvfuri/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp_1mvfuri/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpony6c9ce
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpony6c9ce/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpony6c9ce/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpe7zdi1gg
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpe7zdi1gg/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpe7zdi1gg/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpmpbv5i8h
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpmpbv5i8h/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpmpbv5i8h/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpmpbv5i8h/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpmpbv5i8h/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmph1c_9977
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmph1c_9977/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmph1c_9977/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpavs1o_23
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpavs1o_23/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpavs1o_23/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpweq0mpg1
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpweq0mpg1/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpweq0mpg1/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/
+programs: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+libraries: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency gio-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'gio-unix-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion gio-unix-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags gio-unix-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/gio-unix-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gio-unix-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lglib-2.0
+-----------
+Run-time dependency glib-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'gobject-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion gobject-2.0` -> 0
+stdout:
+2.77.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags gobject-2.0` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include/glib-2.0 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib/glib-2.0/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gobject-2.0 found: YES 2.77.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'expat' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion expat` -> 0
+stdout:
+2.5.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags expat` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs expat` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lexpat
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs expat` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lexpat
+-----------
+Run-time dependency expat found: YES 2.5.0
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpr87e51xw
+Command line:  arm-kobo-linux-gnueabihf-gcc -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpr87e51xw/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("expat.h")
+          #error "Header 'expat.h' could not be found"
+         #endif
+        #else
+         #include <expat.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "expat.h" with dependency expat: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpeilarnre
+Command line:  arm-kobo-linux-gnueabihf-gcc -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpeilarnre/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpeilarnre/output.exe -Wl,--start-group -lrt -D_FILE_OFFSET_BITS=64 -O0 /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/libexpat.so -Wl,--end-group 
+
+Code:
+ 
+        #define XML_ParserCreate meson_disable_define_of_XML_ParserCreate
+        
+        #include <limits.h>
+        #undef XML_ParserCreate
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char XML_ParserCreate (void);
+        
+        #if defined __stub_XML_ParserCreate || defined __stub___XML_ParserCreate
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return XML_ParserCreate ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "XML_ParserCreate" with dependency expat: YES 
+Pkg-config binary for 1 is cached.
+Determining dependency 'duktape' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion duktape` -> 0
+stdout:
+2.7.99
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags duktape` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs duktape` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lduktape
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs duktape` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/local/lib -lduktape
+-----------
+Run-time dependency duktape found: YES 2.7.99
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpkjz2c7fg
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpkjz2c7fg/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpkjz2c7fg/output.exe -Wl,--start-group -lrt -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpvxtf6z0k
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpvxtf6z0k/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpvxtf6z0k/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <pthread.h>
+#include <limits.h>
+
+        #if defined __stub_pthread_condattr_setclock || defined __stub___pthread_condattr_setclock
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &pthread_condattr_setclock;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpvxtf6z0k/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpvxtf6z0k/testfile.c:10:27:[m[K [01;35m[Kwarning: [m[Kcast from pointer to integer of different size [[01;35m[K-Wpointer-to-int-cast[m[K]
+   10 |             long long b = [01;35m[K([m[Klong long) a;
+      |                           [01;35m[K^[m[K
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /tmp/ccApo3rw.o: undefined reference to symbol 'pthread_condattr_setclock@@GLIBC_2.4'
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/libpthread.so.0: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpguk5c_us
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpguk5c_us/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpguk5c_us/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <pthread.h>
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !0 && !defined(pthread_condattr_setclock) && !0
+            #error "No definition for __builtin_pthread_condattr_setclock found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_pthread_condattr_setclock)
+                #error "__builtin_pthread_condattr_setclock not found"
+            #endif
+        #elif ! defined(pthread_condattr_setclock)
+            __builtin_pthread_condattr_setclock;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpguk5c_us/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpguk5c_us/testfile.c:12:14:[m[K [01;31m[Kerror: [m[K#error "No definition for __builtin_pthread_condattr_setclock found in the prefix"
+   12 |             #[01;31m[Kerror[m[K "No definition for __builtin_pthread_condattr_setclock found in the prefix"
+      |              [01;31m[K^~~~~[m[K
+[01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpguk5c_us/testfile.c:17:18:[m[K [01;31m[Kerror: [m[K#error "__builtin_pthread_condattr_setclock not found"
+   17 |                 #[01;31m[Kerror[m[K "__builtin_pthread_condattr_setclock not found"
+      |                  [01;31m[K^~~~~[m[K
+
+Checking for function "pthread_condattr_setclock" : NO 
+Pkg-config binary for 1 is cached.
+Determining dependency 'dbus-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion dbus-1` -> 1
+stderr:
+Package dbus-1 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `dbus-1.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'dbus-1', required by 'virtual:world', not found
+-----------
+CMake binary for 1 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Default target is not allowed for cross use
+Found CMake: NO
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency dbus-1 found: NO (tried pkgconfig and cmake)
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpqsxvyd5v
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpqsxvyd5v/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netgroup.h")
+          #error "Header 'netgroup.h' could not be found"
+         #endif
+        #else
+         #include <netgroup.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpqsxvyd5v/testfile.c:4:12:[m[K [01;31m[Kerror: [m[K#error "Header 'netgroup.h' could not be found"
+    4 |           #[01;31m[Kerror[m[K "Header 'netgroup.h' could not be found"
+      |            [01;31m[K^~~~~[m[K
+
+Has header "netgroup.h" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpwlm1r3h6
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpwlm1r3h6/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpwlm1r3h6/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+  #include <stddef.h>
+  #ifdef HAVE_NETGROUP_H
+  #include <netgroup.h>
+  #else
+  #include <netdb.h>
+  #endif
+  int main() {
+      int r = setnetgrent (NULL);
+  };
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "setnetgrent return support" compiles: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpukw4cag5
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpukw4cag5/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpukw4cag5/output.exe -Wl,--start-group -lrt -D_FILE_OFFSET_BITS=64 -O0 -lpam -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library pam found: YES
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp5_w26xhn
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp5_w26xhn/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp5_w26xhn/output.exe -Wl,--start-group -lrt -D_FILE_OFFSET_BITS=64 -O0 -lpam -Wl,--end-group 
+
+Code:
+ 
+        #define pam_start meson_disable_define_of_pam_start
+        
+        #include <limits.h>
+        #undef pam_start
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char pam_start (void);
+        
+        #if defined __stub_pam_start || defined __stub___pam_start
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return pam_start ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "pam_start" with dependency -lpam: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9buveh8_
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9buveh8_/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9buveh8_/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <security/pam_appl.h>
+    #endif
+    int main() {
+      pam_handle_t *pamh = 0; char *s = pam_strerror(pamh, PAM_SUCCESS);
+    };
+  
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp9buveh8_/testfile.c:4:14:[m[K [01;31m[Kfatal error: [m[Ksecurity/pam_appl.h: No such file or directory
+    4 |     #include [01;31m[K<security/pam_appl.h>[m[K
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpdood7xkn
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpdood7xkn/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpdood7xkn/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <security/pam_appl.h>
+    #endif
+    int main() {
+      char *s = pam_strerror(PAM_SUCCESS);
+    };
+  
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpdood7xkn/testfile.c:4:14:[m[K [01;31m[Kfatal error: [m[Ksecurity/pam_appl.h: No such file or directory
+    4 |     #include [01;31m[K<security/pam_appl.h>[m[K
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+
+Message: how to call pam_strerror: unknown
+WARNING: You should add the boolean check kwarg to the run_command call.
+         It currently defaults to false,
+         but it will default to true in future releases of meson.
+         See also: https://github.com/mesonbuild/meson/issues/9300
+[Errno 21] Is a directory: '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Unusable script '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Running command: /sbin/test -e /etc/sysconfig/network-scripts
+--- stdout ---
+
+--- stderr ---
+
+
+[Errno 21] Is a directory: '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Unusable script '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Running command: /sbin/test -e /etc/SuSE-release
+--- stdout ---
+
+--- stderr ---
+
+
+[Errno 21] Is a directory: '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Unusable script '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Running command: /sbin/test -e /etc/debian_version
+--- stdout ---
+
+--- stderr ---
+
+
+[Errno 21] Is a directory: '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Unusable script '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Running command: /sbin/test -e /etc/gentoo-release
+--- stdout ---
+
+--- stderr ---
+
+
+[Errno 21] Is a directory: '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Unusable script '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Running command: /sbin/test -e /etc/pardus-release
+--- stdout ---
+
+--- stderr ---
+
+
+[Errno 21] Is a directory: '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Unusable script '/mnt/HDD/Project/Public/okulartry/polkit/test'
+Running command: /sbin/test -e /etc/lfs-release
+--- stdout ---
+
+--- stderr ---
+
+
+Message: Linux distribution autodetection failed, specify the distribution to target using -Dos_type=
+Program msgfmt found: YES (/sbin/msgfmt)
+Configuring org.freedesktop.PolicyKit1.service using configuration
+Configuring org.freedesktop.PolicyKit1.conf using configuration
+Configuring polkit-1 using configuration
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp66thfm3l
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp66thfm3l/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmp66thfm3l/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,--version-script,/mnt/HDD/Project/Public/okulartry/polkit/src/symbol.map 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports link arguments -Wl,--version-script,/mnt/HDD/Project/Public/okulartry/polkit/src/symbol.map: YES 
+Program glib-mkenums found: YES (/sbin/glib-mkenums)
+Program glib-mkenums found: YES (/sbin/glib-mkenums)
+Program perl found: YES (/sbin/perl)
+Program glib-mkenums found: YES (/sbin/glib-mkenums)
+Program glib-mkenums found: YES (/sbin/glib-mkenums)
+Pkg-config binary for 0 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /sbin/pkg-config (1.8.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/sbin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.76.2
+-----------
+env[PKG_CONFIG_PATH]: 
+Called `/sbin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-4 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/sbin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/usr/lib -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+Called `/sbin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-lglib-2.0
+-----------
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpbi_1wr6k
+Command line:  cc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpbi_1wr6k/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpbi_1wr6k/output.exe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpubycltjz
+Command line:  cc /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpubycltjz/testfile.c -o /mnt/HDD/Project/Public/okulartry/polkit/build/meson-private/tmpubycltjz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/x86_64-pc-linux-gnu/13.1.1/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Program glib-genmarshal found: YES (/sbin/glib-genmarshal)
+Program msginit found: YES (/sbin/msginit)
+Program msgmerge found: YES (/sbin/msgmerge)
+Program xgettext found: YES (/sbin/xgettext)
+Configuring config.h using configuration
+Message: 
+        polkit 123
+        ============
+
+        prefix:                   /usr
+        datadir:                  share
+
+        includedir:               include
+        libdir:                   lib
+        sysconfdir:               /etc
+        source code location:     /mnt/HDD/Project/Public/okulartry/polkit
+        compiler:                 gcc
+        c_flags:                  -Waggregate-return -Wdeclaration-after-statement -Wformat=2 -Wimplicit-function-declaration -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wmissing-prototypes -Wstrict-prototypes
+
+        introspection:            false
+        Distribution/OS:          
+        Authentication framework: pam
+        Session tracking:         ConsoleKit
+        polkitd user:             polkitd 
+        Javascript engine:        duktape
+        PAM support:              true
+
+        PAM file auth:            system-auth
+        PAM file acount:          system-auth
+        PAM file password:        system-auth
+        PAM file session:         system-auth
+
+        Building api docs:        false
+        Building man pages:       false
+        Building examples:        false
+        Building tests:           false
+Build targets in project: 41
+NOTICE: Future-deprecated features used:
+ * 0.62.0: {'pkgconfig.generate variable for builtin directories'}
+
+polkit 123
+
+  User defined options
+    Cross files: ../meson-kobo.txt
+
+Found ninja-1.11.1 at /sbin/ninja
+Failed to guess install tag for /usr/share/polkit-1/actions/org.freedesktop.policykit.policy
+Failed to guess install tag for /usr/share/gettext/its/polkit.its
+Failed to guess install tag for /usr/share/gettext/its/polkit.loc
+Failed to guess install tag for /usr/share/dbus-1/system-services/org.freedesktop.PolicyKit1.service
+Failed to guess install tag for /usr/share/dbus-1/system.d/org.freedesktop.PolicyKit1.conf
+Failed to guess install tag for /etc/pam.d/polkit-1
+Failed to guess install tag for /usr/share/polkit-1/policyconfig-1.dtd
+Failed to guess install tag for /usr/share/polkit-1/rules.d/50-default.rules
+Failed to guess install tag for install script: /usr/bin/python /mnt/HDD/Project/Public/okulartry/polkit/meson_post_install.py bin lib/polkit-1 /etc/polkit-1 polkitd

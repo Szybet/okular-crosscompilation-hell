@@ -1,0 +1,13 @@
+prefix=/mnt/HDD/Project/Public/okulartry/glib/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/mnt/HDD/Project/Public/okulartry/glib
+
+Name: GIO
+Description: glib I/O library
+Version: 2.77.0
+Requires: glib-2.0, gobject-2.0
+Requires.private: gmodule-no-export-2.0, zlib
+Libs: -L${prefix}/gio -lgio-2.0
+Libs.private: -ldl -lresolv
+Cflags: -I${prefix}/gio -I${srcdir}/gio -I${prefix} -I${srcdir} -I${prefix}/glib -I${srcdir}/glib -I${prefix}/gobject -I${srcdir}/gobject -I${prefix}/gmodule -I${srcdir}/gmodule -I${prefix}/subprojects/gvdb -I${srcdir}/subprojects/gvdb

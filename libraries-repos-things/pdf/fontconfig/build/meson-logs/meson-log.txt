@@ -1,0 +1,2542 @@
+Build started at 2023-05-21T17:03:08.673990
+Main binary: /usr/bin/python
+Build Options: --cross-file=../../meson-kobo.txt
+Python system: Linux
+The Meson build system
+Version: 1.1.0
+Source dir: /mnt/HDD/Project/Public/okulartry/pdf/fontconfig
+Build dir: /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build
+Build type: cross build
+Project name: fontconfig
+Project version: 2.14.2
+-----
+Detecting compiler via: arm-kobo-linux-gnueabihf-gcc --version
+compiler returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '--version']>
+compiler stdout:
+arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: arm-kobo-linux-gnueabihf-gcc -E -dM -
+-----
+Detecting linker via: arm-kobo-linux-gnueabihf-gcc -Wl,--version -lrt
+linker returned <Popen: returncode: 0 args: ['arm-kobo-linux-gnueabihf-gcc', '-Wl,--version'...>
+linker stdout:
+GNU ld (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+Copyright (C) 2021 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 11.2.0
+/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld -plugin /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4GrXV4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib --version -lrt -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+Sanity testing C compiler: arm-kobo-linux-gnueabihf-gcc
+Is cross compiler: True.
+Sanity check compiler command line: arm-kobo-linux-gnueabihf-gcc sanitycheckc.c -o sanitycheckc_cross.exe -lrt -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: arm-kobo-linux-gnueabihf-gcc (gcc 11.2.0 "arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0")
+C linker for the host machine: arm-kobo-linux-gnueabihf-gcc ld.bfd 1.24.0.519
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (GCC) 13.1.1 20230429
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils) 2.40.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 13.1.1 20230429
+/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYK4VTM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o
+
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 13.1.1 "cc (GCC) 13.1.1 20230429")
+C linker for the build machine: cc ld.bfd 2.40.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: arm
+Host machine cpu: arm
+Target machine cpu family: arm
+Target machine cpu: arm
+Pkg-config binary for 1 is not cached.
+Pkg-config binary for 1 specified from cross file, native file, or env var as ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (1.8.1)
+Determining dependency 'freetype2' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion freetype2` -> 0
+stdout:
+25.0.19
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags freetype2` -> 1
+stderr:
+Package bzip2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `bzip2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'bzip2', required by 'freetype2', not found
+Package 'harfbuzz', required by 'freetype2', not found
+-----------
+pkg-config error with 'freetype2': Could not generate cargs for freetype2:
+Package bzip2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `bzip2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'bzip2', required by 'freetype2', not found
+Package 'harfbuzz', required by 'freetype2', not found
+
+Run-time dependency freetype2 found: NO (tried pkgconfig)
+CMake binary for 1 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Default target is not allowed for cross use
+Found CMake: NO
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency freetype found: NO (tried cmake)
+Looking for a fallback subproject for the dependency freetype
+
+Executing subproject freetype2 
+
+Running command: /usr/bin/python /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/meson/extract_freetype_version.py include/freetype/freetype.h
+--- stdout ---
+2.13.0
+
+--- stderr ---
+
+
+Project name: freetype2
+Project version: 2.13.0
+C compiler for the host machine: arm-kobo-linux-gnueabihf-gcc (gcc 11.2.0 "arm-kobo-linux-gnueabihf-gcc (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 11.2.0")
+C linker for the host machine: arm-kobo-linux-gnueabihf-gcc ld.bfd 1.24.0.519
+C compiler for the build machine: ccache cc (gcc 13.1.1 "cc (GCC) 13.1.1 20230429")
+C linker for the build machine: cc ld.bfd 2.40.0
+Program python3 found: YES (/sbin/python3)
+Running command: /sbin/python3 /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/meson/extract_libtool_version.py --soversion /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/unix/configure.raw
+--- stdout ---
+6.19.0
+
+--- stderr ---
+
+
+Running command: /sbin/python3 /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/meson/extract_libtool_version.py /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/unix/configure.raw
+--- stdout ---
+25.0.19
+
+--- stderr ---
+
+
+Running command: /sbin/python3 /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/meson/parse_modules_cfg.py --format=main-modules /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/modules.cfg
+--- stdout ---
+truetype
+type1
+cff
+cid
+pfr
+type42
+winfonts
+pcf
+bdf
+sfnt
+autofit
+pshinter
+smooth
+raster
+svg
+sdf
+
+--- stderr ---
+
+
+Running command: /sbin/python3 /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/meson/parse_modules_cfg.py --format=aux-modules /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/modules.cfg
+--- stdout ---
+cache
+gzip
+lzw
+bzip2
+psaux
+psnames
+
+--- stderr ---
+
+
+Running command: /sbin/python3 /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/builds/meson/parse_modules_cfg.py --format=base-extensions-list /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/subprojects/freetype2/modules.cfg
+--- stdout ---
+ftbbox.c
+ftbdf.c
+ftbitmap.c
+ftcid.c
+ftfstype.c
+ftgasp.c
+ftglyph.c
+ftgxval.c
+ftmm.c
+ftotval.c
+ftpatent.c
+ftpfr.c
+ftstroke.c
+ftsynth.c
+fttype1.c
+ftwinfnt.c
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp43pnqoa6
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp43pnqoa6/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("unistd.h")
+          #error "Header 'unistd.h' could not be found"
+         #endif
+        #else
+         #include <unistd.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "unistd.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp8365qm9g
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp8365qm9g/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("fcntl.h")
+          #error "Header 'fcntl.h' could not be found"
+         #endif
+        #else
+         #include <fcntl.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "fcntl.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpj43b1741
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpj43b1741/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/mman.h")
+          #error "Header 'sys/mman.h' could not be found"
+         #endif
+        #else
+         #include <sys/mman.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/mman.h" : YES 
+Pkg-config binary for 1 is cached.
+Determining dependency 'zlib' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion zlib` -> 0
+stdout:
+1.2.12
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags zlib` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs zlib` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lz
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs zlib` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lz
+-----------
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpd3ch92f8
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpd3ch92f8/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpd3ch92f8/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            void * something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5u0eaurc
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5u0eaurc/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5u0eaurc/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp154_9vb7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp154_9vb7/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp154_9vb7/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgiyimord
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgiyimord/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgiyimord/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmph1iftypl
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmph1iftypl/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmph1iftypl/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpaupwoscx
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpaupwoscx/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpaupwoscx/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmewavzci
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmewavzci/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmewavzci/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp759p9339
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp759p9339/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp759p9339/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/
+programs: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+libraries: =/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency zlib found: YES 1.2.12
+Dependency zlib found: YES 1.2.12 (cached)
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpwpfju6h1
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpwpfju6h1/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpwpfju6h1/output.exe -Wl,--start-group -lrt -D_FILE_OFFSET_BITS=64 -O0 -lbz2 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library bz2 found: YES
+Pkg-config binary for 1 is cached.
+Determining dependency 'libpng' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion libpng` -> 0
+stdout:
+1.6.40.git
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags libpng` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs libpng` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lpng16
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs libpng` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lpng16
+-----------
+Run-time dependency libpng found: YES 1.6.40.git
+Pkg-config binary for 1 is cached.
+Determining dependency 'harfbuzz' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion harfbuzz` -> 1
+stderr:
+Package harfbuzz was not found in the pkg-config search path.
+Perhaps you should add the directory containing `harfbuzz.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'harfbuzz', required by 'virtual:world', not found
+-----------
+CMake binary for 1 is cached as not found
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency harfbuzz found: NO (tried pkgconfig and cmake)
+Pkg-config binary for 1 is cached.
+Determining dependency 'libbrotlidec' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion libbrotlidec` -> 0
+stdout:
+1.0.9
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags libbrotlidec` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs libbrotlidec` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lbrotlidec
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs libbrotlidec` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lbrotlidec
+-----------
+Run-time dependency libbrotlidec found: YES 1.0.9
+Build targets in project: 5
+Subproject freetype2 finished.
+
+Dependency freetype from subproject subprojects/freetype2 found: YES 25.0.19
+Pkg-config binary for 1 is cached.
+Determining dependency 'expat' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion expat` -> 0
+stdout:
+2.5.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags expat` -> 0
+stdout:
+-I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs expat` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lexpat
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_SYSROOT_DIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+env[PKG_CONFIG_LIBDIR]: /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib/pkgconfig
+Called `/usr/bin/pkg-config --libs expat` -> 0
+stdout:
+-L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib -lexpat
+-----------
+Run-time dependency expat found: YES 2.5.0
+Program python3 found: YES (/usr/bin/python)
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp2b64l4i7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp2b64l4i7/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("dirent.h")
+          #error "Header 'dirent.h' could not be found"
+         #endif
+        #else
+         #include <dirent.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "dirent.h" : YES 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp8365qm9g/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("fcntl.h")
+          #error "Header 'fcntl.h' could not be found"
+         #endif
+        #else
+         #include <fcntl.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "fcntl.h" : YES (cached)
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpde8m52xv
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpde8m52xv/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdlib.h")
+          #error "Header 'stdlib.h' could not be found"
+         #endif
+        #else
+         #include <stdlib.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdlib.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpt4ikyglb
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpt4ikyglb/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("string.h")
+          #error "Header 'string.h' could not be found"
+         #endif
+        #else
+         #include <string.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "string.h" : YES 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp43pnqoa6/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("unistd.h")
+          #error "Header 'unistd.h' could not be found"
+         #endif
+        #else
+         #include <unistd.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "unistd.h" : YES (cached)
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpizg34or1
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpizg34or1/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/statvfs.h")
+          #error "Header 'sys/statvfs.h' could not be found"
+         #endif
+        #else
+         #include <sys/statvfs.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/statvfs.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5lc8cf51
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5lc8cf51/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/vfs.h")
+          #error "Header 'sys/vfs.h' could not be found"
+         #endif
+        #else
+         #include <sys/vfs.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/vfs.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpzcwb9wit
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpzcwb9wit/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/statfs.h")
+          #error "Header 'sys/statfs.h' could not be found"
+         #endif
+        #else
+         #include <sys/statfs.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/statfs.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpfnswqgn_
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpfnswqgn_/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/param.h")
+          #error "Header 'sys/param.h' could not be found"
+         #endif
+        #else
+         #include <sys/param.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/param.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpu97z49o6
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpu97z49o6/testfile.c -E -P -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/mount.h")
+          #error "Header 'sys/mount.h' could not be found"
+         #endif
+        #else
+         #include <sys/mount.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/mount.h" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmphwnyf4w3
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmphwnyf4w3/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmphwnyf4w3/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define link meson_disable_define_of_link
+        
+        #include <limits.h>
+        #undef link
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char link (void);
+        
+        #if defined __stub_link || defined __stub___link
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return link ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "link" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmto0b3tk
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmto0b3tk/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmto0b3tk/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define mkstemp meson_disable_define_of_mkstemp
+        
+        #include <limits.h>
+        #undef mkstemp
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char mkstemp (void);
+        
+        #if defined __stub_mkstemp || defined __stub___mkstemp
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return mkstemp ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "mkstemp" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp4ee_6489
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp4ee_6489/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp4ee_6489/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define mkostemp meson_disable_define_of_mkostemp
+        
+        #include <limits.h>
+        #undef mkostemp
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char mkostemp (void);
+        
+        #if defined __stub_mkostemp || defined __stub___mkostemp
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return mkostemp ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "mkostemp" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc5tu6c7t
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc5tu6c7t/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc5tu6c7t/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define _mktemp_s meson_disable_define_of__mktemp_s
+        
+        #include <limits.h>
+        #undef _mktemp_s
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char _mktemp_s (void);
+        
+        #if defined __stub__mktemp_s || defined __stub____mktemp_s
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return _mktemp_s ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /tmp/ccxRu3Q6.o: in function `main':
+testfile.c:(.text+0x4): undefined reference to `_mktemp_s'
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmbrjb7o
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmbrjb7o/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmbrjb7o/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(_mktemp_s) && !0
+            #error "No definition for __builtin__mktemp_s found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin__mktemp_s)
+                #error "__builtin__mktemp_s not found"
+            #endif
+        #elif ! defined(_mktemp_s)
+            __builtin__mktemp_s;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmbrjb7o/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmbrjb7o/testfile.c:17:18:[m[K [01;31m[Kerror: [m[K#error "__builtin__mktemp_s not found"
+   17 |                 #[01;31m[Kerror[m[K "__builtin__mktemp_s not found"
+      |                  [01;31m[K^~~~~[m[K
+
+Checking for function "_mktemp_s" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpnwqt7o8f
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpnwqt7o8f/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpnwqt7o8f/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define mkdtemp meson_disable_define_of_mkdtemp
+        
+        #include <limits.h>
+        #undef mkdtemp
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char mkdtemp (void);
+        
+        #if defined __stub_mkdtemp || defined __stub___mkdtemp
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return mkdtemp ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "mkdtemp" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpkb29bdpp
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpkb29bdpp/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpkb29bdpp/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define getopt meson_disable_define_of_getopt
+        
+        #include <limits.h>
+        #undef getopt
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getopt (void);
+        
+        #if defined __stub_getopt || defined __stub___getopt
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getopt ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "getopt" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp8ef1brlc
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp8ef1brlc/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp8ef1brlc/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define getopt_long meson_disable_define_of_getopt_long
+        
+        #include <limits.h>
+        #undef getopt_long
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getopt_long (void);
+        
+        #if defined __stub_getopt_long || defined __stub___getopt_long
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getopt_long ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "getopt_long" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3d10932_
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3d10932_/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3d10932_/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define getprogname meson_disable_define_of_getprogname
+        
+        #include <limits.h>
+        #undef getprogname
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getprogname (void);
+        
+        #if defined __stub_getprogname || defined __stub___getprogname
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getprogname ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /tmp/cc2SbCbZ.o: in function `main':
+testfile.c:(.text+0x4): undefined reference to `getprogname'
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpcc3are5p
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpcc3are5p/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpcc3are5p/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(getprogname) && !0
+            #error "No definition for __builtin_getprogname found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_getprogname)
+                #error "__builtin_getprogname not found"
+            #endif
+        #elif ! defined(getprogname)
+            __builtin_getprogname;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpcc3are5p/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpcc3are5p/testfile.c:17:18:[m[K [01;31m[Kerror: [m[K#error "__builtin_getprogname not found"
+   17 |                 #[01;31m[Kerror[m[K "__builtin_getprogname not found"
+      |                  [01;31m[K^~~~~[m[K
+
+Checking for function "getprogname" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpq_bc0di1
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpq_bc0di1/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpq_bc0di1/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define getexecname meson_disable_define_of_getexecname
+        
+        #include <limits.h>
+        #undef getexecname
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getexecname (void);
+        
+        #if defined __stub_getexecname || defined __stub___getexecname
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getexecname ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /mnt/HDD/Project/inkbox-build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/ld.bfd: /tmp/ccmjStcl.o: in function `main':
+testfile.c:(.text+0x4): undefined reference to `getexecname'
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3oial16h
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3oial16h/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3oial16h/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(getexecname) && !0
+            #error "No definition for __builtin_getexecname found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_getexecname)
+                #error "__builtin_getexecname not found"
+            #endif
+        #elif ! defined(getexecname)
+            __builtin_getexecname;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3oial16h/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp3oial16h/testfile.c:17:18:[m[K [01;31m[Kerror: [m[K#error "__builtin_getexecname not found"
+   17 |                 #[01;31m[Kerror[m[K "__builtin_getexecname not found"
+      |                  [01;31m[K^~~~~[m[K
+
+Checking for function "getexecname" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp87krtywj
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp87krtywj/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp87krtywj/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define rand meson_disable_define_of_rand
+        
+        #include <limits.h>
+        #undef rand
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char rand (void);
+        
+        #if defined __stub_rand || defined __stub___rand
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return rand ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "rand" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpbqrp921a
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpbqrp921a/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpbqrp921a/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define random meson_disable_define_of_random
+        
+        #include <limits.h>
+        #undef random
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char random (void);
+        
+        #if defined __stub_random || defined __stub___random
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return random ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "random" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpx33mqjb5
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpx33mqjb5/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpx33mqjb5/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define lrand48 meson_disable_define_of_lrand48
+        
+        #include <limits.h>
+        #undef lrand48
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char lrand48 (void);
+        
+        #if defined __stub_lrand48 || defined __stub___lrand48
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return lrand48 ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "lrand48" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpu1vr6igw
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpu1vr6igw/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpu1vr6igw/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define random_r meson_disable_define_of_random_r
+        
+        #include <limits.h>
+        #undef random_r
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char random_r (void);
+        
+        #if defined __stub_random_r || defined __stub___random_r
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return random_r ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "random_r" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5nv_4hb4
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5nv_4hb4/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5nv_4hb4/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define rand_r meson_disable_define_of_rand_r
+        
+        #include <limits.h>
+        #undef rand_r
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char rand_r (void);
+        
+        #if defined __stub_rand_r || defined __stub___rand_r
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return rand_r ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "rand_r" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpx5h9czxp
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpx5h9czxp/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpx5h9czxp/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define readlink meson_disable_define_of_readlink
+        
+        #include <limits.h>
+        #undef readlink
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char readlink (void);
+        
+        #if defined __stub_readlink || defined __stub___readlink
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return readlink ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "readlink" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpyc5c8ptc
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpyc5c8ptc/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpyc5c8ptc/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define fstatvfs meson_disable_define_of_fstatvfs
+        
+        #include <limits.h>
+        #undef fstatvfs
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char fstatvfs (void);
+        
+        #if defined __stub_fstatvfs || defined __stub___fstatvfs
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return fstatvfs ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fstatvfs" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpwg5can88
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpwg5can88/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpwg5can88/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define fstatfs meson_disable_define_of_fstatfs
+        
+        #include <limits.h>
+        #undef fstatfs
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char fstatfs (void);
+        
+        #if defined __stub_fstatfs || defined __stub___fstatfs
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return fstatfs ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fstatfs" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp78fdj4us
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp78fdj4us/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp78fdj4us/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define lstat meson_disable_define_of_lstat
+        
+        #include <limits.h>
+        #undef lstat
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char lstat (void);
+        
+        #if defined __stub_lstat || defined __stub___lstat
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return lstat ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "lstat" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc_9ubr77
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc_9ubr77/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc_9ubr77/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define mmap meson_disable_define_of_mmap
+        
+        #include <limits.h>
+        #undef mmap
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char mmap (void);
+        
+        #if defined __stub_mmap || defined __stub___mmap
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return mmap ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "mmap" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9t12btu9
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9t12btu9/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9t12btu9/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #define vprintf meson_disable_define_of_vprintf
+        
+        #include <limits.h>
+        #undef vprintf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char vprintf (void);
+        
+        #if defined __stub_vprintf || defined __stub___vprintf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return vprintf ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9t12btu9/testfile.c:10:14:[m[K [01;35m[Kwarning: [m[Kconflicting types for built-in function '[01m[Kvprintf[m[K'; expected '[01m[Kint(const char *, __va_list)[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   10 |         char [01;35m[Kvprintf[m[K (void);
+      |              [01;35m[K^~~~~~~[m[K
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9t12btu9/testfile.c:5:1:[m[K [01;36m[Knote: [m[K'[01m[Kvprintf[m[K' is declared in header '[01m[K<stdio.h>[m[K'
+    4 |         #include <limits.h>
+  +++ |+[32m[K#include <stdio.h>[m[K
+    5 |         #undef vprintf
+
+Checking for function "vprintf" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpl440dtb4
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpl440dtb4/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpl440dtb4/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <fcntl.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef posix_fadvise
+                posix_fadvise;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header "fcntl.h" has symbol "posix_fadvise" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm4o32gh8
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm4o32gh8/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm4o32gh8/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <sys/statvfs.h>
+
+        void bar(void) {
+            struct statvfs foo;
+            foo.f_basetype;
+
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm4o32gh8/testfile.c:[m[K In function '[01m[Kbar[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm4o32gh8/testfile.c:5:16:[m[K [01;31m[Kerror: [m[K'[01m[Kstruct statvfs[m[K' has no member named '[01m[Kf_basetype[m[K'
+    5 |             foo[01;31m[K.[m[Kf_basetype;
+      |                [01;31m[K^[m[K
+
+Checking whether type "struct statvfs" has member "f_basetype" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp18yhrwqz
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp18yhrwqz/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp18yhrwqz/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <sys/statvfs.>
+
+        void bar(void) {
+            struct statvfs foo;
+            foo.f_fstypename;
+
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp18yhrwqz/testfile.c:1:10:[m[K [01;31m[Kfatal error: [m[Ksys/statvfs.: No such file or directory
+    1 | #include [01;31m[K<sys/statvfs.>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+
+Checking whether type "struct statvfs" has member "f_fstypename" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpza42_zwy
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpza42_zwy/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpza42_zwy/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        void bar(void) {
+            struct statfs foo;
+            foo.f_flags;
+
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpza42_zwy/testfile.c:[m[K In function '[01m[Kbar[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpza42_zwy/testfile.c:3:27:[m[K [01;31m[Kerror: [m[Kstorage size of '[01m[Kfoo[m[K' isn't known
+    3 |             struct statfs [01;31m[Kfoo[m[K;
+      |                           [01;31m[K^~~[m[K
+
+Checking whether type "struct statfs" has member "f_flags" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9zkgvwhu
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9zkgvwhu/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9zkgvwhu/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        void bar(void) {
+            struct statfs foo;
+            foo.f_fstypename;
+
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9zkgvwhu/testfile.c:[m[K In function '[01m[Kbar[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp9zkgvwhu/testfile.c:3:27:[m[K [01;31m[Kerror: [m[Kstorage size of '[01m[Kfoo[m[K' isn't known
+    3 |             struct statfs [01;31m[Kfoo[m[K;
+      |                           [01;31m[K^~~[m[K
+
+Checking whether type "struct statfs" has member "f_fstypename" : NO 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpntcnx_2h
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpntcnx_2h/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpntcnx_2h/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <sys/types.h>
+#include <dirent.h>
+
+        void bar(void) {
+            struct dirent foo;
+            foo.d_type;
+
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking whether type "struct dirent" has member "d_type" : YES 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpd3ch92f8/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpd3ch92f8/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            void * something;
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5u0eaurc/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5u0eaurc/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp154_9vb7/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp154_9vb7/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgiyimord/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgiyimord/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmph1iftypl/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmph1iftypl/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsld90aic/testfile.c:3:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    3 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpaupwoscx/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpaupwoscx/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmewavzci/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpmewavzci/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for size of "void *" : 4 
+Using cached compile:
+Cached command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpd3ch92f8/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpd3ch92f8/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            void * something;
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmb4wc3b
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmb4wc3b/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmppmb4wc3b/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void * target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmptphpodw7
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmptphpodw7/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmptphpodw7/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void * target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgl77xvvj
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgl77xvvj/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgl77xvvj/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void * target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpj4f26rxp
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpj4f26rxp/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpj4f26rxp/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void * target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpknzxa_p_
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpknzxa_p_/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpknzxa_p_/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void * target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpknzxa_p_/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpknzxa_p_/testfile.c:8:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    8 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(offsetof(struct tmp, target) > 7)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp_mtxuuod
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp_mtxuuod/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp_mtxuuod/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void * target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgcluu2ch
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgcluu2ch/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpgcluu2ch/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void * target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for alignment of "void *" : 4 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmptw7odh82
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmptw7odh82/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmptw7odh82/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stdio.h>
+        int main(void) {
+            double something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm9lsc8nu
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm9lsc8nu/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpm9lsc8nu/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsjd2fl7d
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsjd2fl7d/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsjd2fl7d/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpjmbe369h
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpjmbe369h/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpjmbe369h/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc9hrlnat
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc9hrlnat/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpc9hrlnat/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpigio94d4
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpigio94d4/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpigio94d4/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp38vr39ly
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp38vr39ly/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp38vr39ly/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) > 15)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp38vr39ly/testfile.c:[m[K In function '[01m[Kmain[m[K':
+[01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp38vr39ly/testfile.c:8:37:[m[K [01;31m[Kerror: [m[Ksize of array '[01m[Ka[m[K' is negative
+    8 |         int main(void) { static int [01;31m[Ka[m[K[1-2*!(offsetof(struct tmp, target) > 15)]; a[0]=0; return 0; }
+      |                                     [01;31m[K^[m[K
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpf_wo73zs
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpf_wo73zs/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpf_wo73zs/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) <= 11)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp75fximuj
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp75fximuj/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp75fximuj/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) <= 9)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpnga168wz
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpnga168wz/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpnga168wz/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            double target;
+        };
+        #include <stdio.h>
+        int main(void) { static int a[1-2*!(offsetof(struct tmp, target) <= 8)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for alignment of "double" : 8 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpa08i4opk
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/flexible-array-member-test.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpa08i4opk/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h>
+
+struct s { int n; double d[]; };
+
+int main(void)
+{
+  int m = getchar ();
+  struct s *p = malloc (offsetof (struct s, d)
+                        + m * sizeof (double));
+  p->d[0] = 0.0;
+  return p->d != (double *) NULL;
+}
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpaeimfymu
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/stdatomic-primitives-test.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpaeimfymu/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdatomic.h>
+
+void memory_barrier (void) { atomic_thread_fence (memory_order_acq_rel); }
+int atomic_add (atomic_int *i) { return atomic_fetch_add_explicit (i, 1, memory_order_relaxed); }
+int mutex_trylock (atomic_flag *m) { return atomic_flag_test_and_set_explicit (m, memory_order_acquire); }
+void mutex_unlock (atomic_flag *m) { atomic_flag_clear_explicit (m, memory_order_release); }
+
+int main(void) { return 0;}
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "stdatomic.h atomics" : links: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsw0atink
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/intel-atomic-primitives-test.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpsw0atink/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ void memory_barrier (void) { __sync_synchronize (); }
+int atomic_add (int *i) { return __sync_fetch_and_add (i, 1); }
+int mutex_trylock (int *m) { return __sync_lock_test_and_set (m, 1); }
+void mutex_unlock (int *m) { __sync_lock_release (m); }
+
+int main(void) { return 0;}
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "Intel atomics" : links: YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpokj2_g5b
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/solaris-atomic-operations.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpokj2_g5b/output.exe -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <atomic.h>
+/* This requires Solaris Studio 12.2 or newer: */
+#include <mbarrier.h>
+void memory_barrier (void) { __machine_rw_barrier (); }
+int atomic_add (volatile unsigned *i) { return atomic_add_int_nv (i, 1); }
+void *atomic_ptr_cmpxchg (volatile void **target, void *cmp, void *newval) { return atomic_cas_ptr (target, cmp, newval); }
+
+int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ [01m[K/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/solaris-atomic-operations.c:1:10:[m[K [01;31m[Kfatal error: [m[Katomic.h: No such file or directory
+    1 | #include [01;31m[K<atomic.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+
+Checking if "Solaris atomic ops" : links: NO 
+Run-time dependency threads found: YES
+Program gperf found: YES (/sbin/gperf)
+Running command: /sbin/gperf -L ANSI-C /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/gperf.txt
+--- stdout ---
+/* ANSI-C code produced by gperf version 3.1 */
+/* Command-line: /sbin/gperf -L ANSI-C /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/gperf.txt  */
+/* Computed positions: -k'' */
+
+
+#define TOTAL_KEYWORDS 1
+#define MIN_WORD_LENGTH 3
+#define MAX_WORD_LENGTH 3
+#define MIN_HASH_VALUE 0
+#define MAX_HASH_VALUE 0
+/* maximum key range = 1, duplicates = 0 */
+
+#ifdef __GNUC__
+__inline
+#else
+#ifdef __cplusplus
+inline
+#endif
+#endif
+/*ARGSUSED*/
+static unsigned int
+hash (register const char *str, register size_t len)
+{
+  return 0;
+}
+
+const char *
+in_word_set (register const char *str, register size_t len)
+{
+  static const char * wordlist[] =
+    {
+      "foo"
+    };
+
+  if (len <= MAX_WORD_LENGTH && len >= MIN_WORD_LENGTH)
+    {
+      register unsigned int key = hash (str, len);
+
+      if (key <= MAX_HASH_VALUE)
+        {
+          register const char *s = wordlist[key];
+
+          if (*str == *s && !strcmp (str + 1, s + 1))
+            return s;
+        }
+    }
+  return 0;
+}
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpckv3_71b
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpckv3_71b/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpckv3_71b/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+  #include <string.h>
+  const char * in_word_set(const char *, size_t);
+  /* ANSI-C code produced by gperf version 3.1 */
+/* Command-line: /sbin/gperf -L ANSI-C /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/meson-cc-tests/gperf.txt  */
+/* Computed positions: -k'' */
+
+
+#define TOTAL_KEYWORDS 1
+#define MIN_WORD_LENGTH 3
+#define MAX_WORD_LENGTH 3
+#define MIN_HASH_VALUE 0
+#define MAX_HASH_VALUE 0
+/* maximum key range = 1, duplicates = 0 */
+
+#ifdef __GNUC__
+__inline
+#else
+#ifdef __cplusplus
+inline
+#endif
+#endif
+/*ARGSUSED*/
+static unsigned int
+hash (register const char *str, register size_t len)
+{
+  return 0;
+}
+
+const char *
+in_word_set (register const char *str, register size_t len)
+{
+  static const char * wordlist[] =
+    {
+      "foo"
+    };
+
+  if (len <= MAX_WORD_LENGTH && len >= MIN_WORD_LENGTH)
+    {
+      register unsigned int key = hash (str, len);
+
+      if (key <= MAX_HASH_VALUE)
+        {
+          register const char *s = wordlist[key];
+
+          if (*str == *s && !strcmp (str + 1, s + 1))
+            return s;
+        }
+    }
+  return 0;
+}
+
+  
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Message: gperf len type is size_t
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp1id42gsd
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp1id42gsd/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp1id42gsd/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdint.h>
+        void bar(void) {
+            sizeof(uint64_t);
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for type "uint64_t" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpqbq81xjj
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpqbq81xjj/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpqbq81xjj/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdint.h>
+        void bar(void) {
+            sizeof(int32_t);
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for type "int32_t" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpr6arquad
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpr6arquad/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmpr6arquad/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdint.h>
+        void bar(void) {
+            sizeof(uintptr_t);
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for type "uintptr_t" : YES 
+Running compile:
+Working directory:  /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5yq59hrq
+Command line:  arm-kobo-linux-gnueabihf-gcc /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5yq59hrq/testfile.c -o /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build/meson-private/tmp5yq59hrq/output.obj -c -Wl,--start-group -lrt -Wl,--end-group -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdint.h>
+        void bar(void) {
+            sizeof(intptr_t);
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for type "intptr_t" : YES 
+Program fc-case.py found: YES (/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/fc-case/fc-case.py)
+Program fc-lang.py found: YES (/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/fc-lang/fc-lang.py)
+Dependency threads found: YES unknown (cached)
+Adding test "test_bz89617"
+Adding test "test_bz131804"
+Adding test "test_bz96676"
+Adding test "test_name_parse"
+Adding test "test_bz106618"
+Adding test "test_bz1744377"
+Adding test "test_issue180"
+Adding test "test_family_matching"
+Adding test "test_bz106632"
+Adding test "test_issue107"
+Adding test "test_crbug1004254"
+Program write-35-lang-normalize-conf.py found: YES (/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/conf.d/write-35-lang-normalize-conf.py)
+Configuring README using configuration
+Program xgettext found: YES (/sbin/xgettext)
+Program msgfmt found: YES (/sbin/msgfmt)
+Program msginit found: YES (/sbin/msginit)
+Program msgmerge found: YES (/sbin/msgmerge)
+Program xgettext found: YES (/sbin/xgettext)
+Program docbook2man found: NO
+Program docbook2txt found: NO
+Program docbook2pdf found: NO
+Program docbook2html found: NO
+Program run-quiet.py found: YES (/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/run-quiet.py)
+Program extract-man-list.py found: YES (/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/extract-man-list.py)
+Running command: /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/extract-man-list.py /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcatomic.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcblanks.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fccache.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fccharset.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcconfig.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcconstant.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcdircache.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcfile.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcfontset.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcformat.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcfreetype.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcinit.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fclangset.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcmatrix.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcobjectset.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcobjecttype.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcpattern.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcrange.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcstring.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcstrset.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcvalue.fncs /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/fcweight.fncs
+--- stdout ---
+FcAtomicCreate
+FcAtomicLock
+FcAtomicNewFile
+FcAtomicOrigFile
+FcAtomicReplaceOrig
+FcAtomicDeleteNew
+FcAtomicUnlock
+FcAtomicDestroy
+FcBlanksCreate
+FcBlanksDestroy
+FcBlanksAdd
+FcBlanksIsMember
+FcCacheDir
+FcCacheCopySet
+FcCacheSubdir
+FcCacheNumSubdir
+FcCacheNumFont
+FcDirCacheClean
+FcCacheCreateTagFile
+FcDirCacheCreateUUID
+FcDirCacheDeleteUUID
+FcCharSetCreate
+FcCharSetDestroy
+FcCharSetAddChar
+FcCharSetDelChar
+FcCharSetCopy
+FcCharSetEqual
+FcCharSetIntersect
+FcCharSetUnion
+FcCharSetSubtract
+FcCharSetMerge
+FcCharSetHasChar
+FcCharSetCount
+FcCharSetIntersectCount
+FcCharSetSubtractCount
+FcCharSetIsSubset
+FcCharSetFirstPage
+FcCharSetNextPage
+FcCharSetCoverage
+FcCharSetNew
+FcConfigCreate
+FcConfigReference
+FcConfigDestroy
+FcConfigSetCurrent
+FcConfigGetCurrent
+FcConfigUptoDate
+FcConfigHome
+FcConfigEnableHome
+FcConfigBuildFonts
+FcConfigGetConfigDirs
+FcConfigGetFontDirs
+FcConfigGetConfigFiles
+FcConfigGetCache
+FcConfigGetCacheDirs
+FcConfigGetFonts
+FcConfigGetBlanks
+FcConfigGetRescanInterval
+FcConfigSetRescanInterval
+FcConfigAppFontAddFile
+FcConfigAppFontAddDir
+FcConfigAppFontClear
+FcConfigSubstituteWithPat
+FcConfigSubstitute
+FcFontMatch
+FcFontSort
+FcFontRenderPrepare
+FcFontList
+FcConfigFilename
+FcConfigGetFilename
+FcConfigParseAndLoad
+FcConfigParseAndLoadFromMemory
+FcConfigGetSysRoot
+FcConfigSetSysRoot
+FcConfigFileInfoIterInit
+FcConfigFileInfoIterNext
+FcConfigFileInfoIterGet
+FcNameRegisterConstants
+FcNameUnregisterConstants
+FcNameGetConstant
+FcNameGetConstantFor
+FcNameConstant
+FcDirCacheUnlink
+FcDirCacheValid
+FcDirCacheLoad
+FcDirCacheRescan
+FcDirCacheRead
+FcDirCacheLoadFile
+FcDirCacheUnload
+FcFileScan
+FcFileIsDir
+FcDirScan
+FcDirSave
+FcFontSetCreate
+FcFontSetDestroy
+FcFontSetAdd
+FcFontSetList
+FcFontSetMatch
+FcFontSetPrint
+FcFontSetSort
+FcFontSetSortDestroy
+FcPatternFormat
+FcFreeTypeCharIndex
+FcFreeTypeCharSet
+FcFreeTypeCharSetAndSpacing
+FcFreeTypeQuery
+FcFreeTypeQueryAll
+FcFreeTypeQueryFace
+FcInitLoadConfig
+FcInitLoadConfigAndFonts
+FcInit
+FcFini
+FcGetVersion
+FcInitReinitialize
+FcInitBringUptoDate
+FcLangSetCreate
+FcLangSetDestroy
+FcLangSetCopy
+FcLangSetAdd
+FcLangSetDel
+FcLangSetUnion
+FcLangSetSubtract
+FcLangSetCompare
+FcLangSetContains
+FcLangSetEqual
+FcLangSetHash
+FcLangSetHasLang
+FcGetDefaultLangs
+FcLangSetGetLangs
+FcGetLangs
+FcLangNormalize
+FcLangGetCharSet
+FcMatrixInit
+FcMatrixCopy
+FcMatrixEqual
+FcMatrixMultiply
+FcMatrixRotate
+FcMatrixScale
+FcMatrixShear
+FcObjectSetCreate
+FcObjectSetAdd
+FcObjectSetDestroy
+FcObjectSetBuild
+FcNameRegisterObjectTypes
+FcNameUnregisterObjectTypes
+FcNameGetObjectType
+FcPatternCreate
+FcPatternDuplicate
+FcPatternReference
+FcPatternDestroy
+FcPatternObjectCount
+FcPatternEqual
+FcPatternEqualSubset
+FcPatternFilter
+FcPatternHash
+FcPatternAdd
+FcPatternAddWeak
+FcPatternAdd-Type
+FcPatternGetWithBinding
+FcPatternGet
+FcPatternGet-Type
+FcPatternBuild
+FcPatternDel
+FcPatternRemove
+FcPatternIterStart
+FcPatternIterNext
+FcPatternIterEqual
+FcPatternFindIter
+FcPatternIterIsValid
+FcPatternIterGetObject
+FcPatternIterValueCount
+FcPatternIterGetValue
+FcPatternPrint
+FcDefaultSubstitute
+FcNameParse
+FcNameUnparse
+FcRangeCopy
+FcRangeCreateDouble
+FcRangeCreateInteger
+FcRangeDestroy
+FcRangeGetDouble
+FcUtf8ToUcs4
+FcUcs4ToUtf8
+FcUtf8Len
+FcUtf16ToUcs4
+FcUtf16Len
+FcIsLower
+FcIsUpper
+FcToLower
+FcStrCopy
+FcStrDowncase
+FcStrCopyFilename
+FcStrCmp
+FcStrCmpIgnoreCase
+FcStrStr
+FcStrStrIgnoreCase
+FcStrPlus
+FcStrFree
+FcStrBuildFilename
+FcStrDirname
+FcStrBasename
+FcStrSetCreate
+FcStrSetMember
+FcStrSetEqual
+FcStrSetAdd
+FcStrSetAddFilename
+FcStrSetDel
+FcStrSetDestroy
+FcStrListCreate
+FcStrListFirst
+FcStrListNext
+FcStrListDone
+FcValueDestroy
+FcValueSave
+FcValuePrint
+FcValueEqual
+FcWeightFromOpenTypeDouble
+FcWeightToOpenTypeDouble
+FcWeightFromOpenType
+FcWeightToOpenType
+
+--- stderr ---
+
+
+Program edit-sgml.py found: YES (/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/doc/edit-sgml.py)
+Configuring version.sgml using configuration
+Configuring confdir.sgml using configuration
+Configuring config.h using configuration
+Configuring fonts.conf using configuration
+Build targets in project: 65
+NOTICE: Future-deprecated features used:
+ * 0.64.0: {'copy arg in configure_file'}
+
+freetype2 2.13.0
+
+  Operating System
+    OS      : linux
+
+  Used Libraries
+    Zlib    : system
+    Bzip2   : yes
+    Png     : yes
+    Harfbuzz: no
+    Brotli  : yes
+
+fontconfig 2.14.2
+
+  General
+    Documentation              : NO
+    NLS                        : YES
+    Tests                      : YES
+    Tools                      : YES
+
+  Defaults
+    Hinting                    : slight
+    Font directories           : /usr/share/fonts, /usr/local/share/fonts
+    Additional font directories:
+
+  Paths
+    Cache directory            : /var/local/cache/fontconfig
+    Template directory         : /usr/local/share/fontconfig/conf.avail
+    Base config directory      : /usr/local/etc/fonts
+    Config directory           : /usr/local/etc/fonts/conf.d
+    XML directory              : /usr/local/share/xml/fontconfig
+
+  Subprojects
+    freetype2                  : YES
+
+  User defined options
+    Cross files                : ../../meson-kobo.txt
+
+Found ninja-1.11.1 at /sbin/ninja
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/35-lang-normalize.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/05-reset-dirs-sample.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/09-autohint-if-no-hinting.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-autohint.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-hinting-full.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-hinting-medium.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-hinting-none.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-hinting-slight.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-no-antialias.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-sub-pixel-bgr.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-sub-pixel-none.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-sub-pixel-vrgb.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-unhinted.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/10-yes-antialias.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/11-lcdfilter-default.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/11-lcdfilter-legacy.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/11-lcdfilter-light.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/11-lcdfilter-none.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/20-unhint-small-vera.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/25-unhint-nonlatin.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/30-metric-aliases.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/40-nonlatin.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/45-generic.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/45-latin.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/48-spacing.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/49-sansserif.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/50-user.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/51-local.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/60-generic.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/60-latin.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/65-fonts-persian.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/65-khmer.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/65-nonlatin.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/69-unifont.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/70-no-bitmaps.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/70-yes-bitmaps.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/80-delicious.conf
+Failed to guess install tag for /usr/local/share/fontconfig/conf.avail/90-synthetic.conf
+Failed to guess install tag for /usr/local/etc/fonts/conf.d/README
+Failed to guess install tag for /usr/local/share/gettext/its/fontconfig.its
+Failed to guess install tag for /usr/local/share/gettext/its/fontconfig.loc
+Failed to guess install tag for /usr/local/etc/fonts/fonts.conf
+Failed to guess install tag for /usr/local/share/xml/fontconfig/fonts.dtd
+Failed to guess install tag for install script: /usr/bin/python /mnt/HDD/Project/Public/okulartry/pdf/fontconfig/conf.d/link_confs.py /usr/local/share/fontconfig/conf.avail /usr/local/etc/fonts/conf.d 10-hinting-slight.conf 10-scale-bitmap-fonts.conf 10-sub-pixel-none.conf 10-yes-antialias.conf 11-lcdfilter-default.conf 20-unhint-small-vera.conf 30-metric-aliases.conf 40-nonlatin.conf 45-generic.conf 45-latin.conf 48-spacing.conf 49-sansserif.conf 50-user.conf 51-local.conf 60-generic.conf 60-latin.conf 65-fonts-persian.conf 65-nonlatin.conf 69-unifont.conf 80-delicious.conf 90-synthetic.conf

@@ -1,0 +1,11 @@
+prefix=/mnt/HDD/Project/Public/okulartry/glib/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/mnt/HDD/Project/Public/okulartry/glib
+
+Name: GThread
+Description: Thread support for GLib
+Version: 2.77.0
+Requires: glib-2.0
+Libs: -L${prefix}/gthread -lgthread-2.0 -pthread
+Cflags: -I${prefix}/gthread -I${srcdir}/gthread -I${prefix} -I${srcdir} -I${prefix}/glib -I${srcdir}/glib -pthread

@@ -1,0 +1,1 @@
+{"version": "2.14.2", "descriptive_name": "fontconfig", "subproject_dir": "subprojects", "subprojects": [{"name": "freetype2", "version": "2.13.0", "descriptive_name": "freetype2"}]}

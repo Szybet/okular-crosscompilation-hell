@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ECMFindQmlModule &#8212; Extra CMake Modules 5.240.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ECMGenerateDBusServiceFile" href="ECMGenerateDBusServiceFile.html" />
+    <link rel="prev" title="ECMFindModuleHelpers" href="ECMFindModuleHelpers.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ECMGenerateDBusServiceFile.html" title="ECMGenerateDBusServiceFile"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ECMFindModuleHelpers.html" title="ECMFindModuleHelpers"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" accesskey="U">ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMFindQmlModule</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="ecmfindqmlmodule">
+<span id="module:ECMFindQmlModule"></span><h1>ECMFindQmlModule<a class="headerlink" href="#ecmfindqmlmodule" title="Permalink to this heading">¶</a></h1>
+<p>Find QML import modules through a <code class="docutils literal notranslate"><span class="pre">find_qmlmodule()</span></code> call.
+It looks for the qmldir and uses the qmlplugindump if needed application to find the plugins and sets them up as
+runtime dependencies.
+This is useful so that when we configure a project we are notified when some
+QML imports are not present in the system.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ecm_find_qmlmodule</span><span class="p">(</span><span class="o">&lt;</span><span class="n">module_name</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">version</span><span class="o">&gt;</span> <span class="c1"># Optional for Qt6 builds</span>
+  <span class="p">[</span><span class="n">REQUIRED</span><span class="p">]</span> <span class="c1"># Since 6.0</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Usage example:</p>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nb">ecm_find_qmlmodule</span><span class="p">(</span><span class="s">org.kde.kirigami</span><span class="w"> </span><span class="s">2.1</span><span class="p">)</span>
+<span class="nb">ecm_find_qmlmodule</span><span class="p">(</span><span class="s">org.kde.kirigami</span><span class="w"> </span><span class="s">2.1</span><span class="w"> </span><span class="s">REQUIRED</span><span class="p">)</span><span class="w"> </span><span class="c"># CMake will fail if the required version is not found</span>
+<span class="nb">ecm_find_qmlmodule</span><span class="p">(</span><span class="s">org.kde.kirigami</span><span class="p">)</span><span class="w"> </span><span class="c"># Find it without a given version</span>
+<span class="nb">ecm_find_qmlmodule</span><span class="p">(</span><span class="s">org.kde.kirigami</span><span class="w"> </span><span class="s">REQUIRED</span><span class="p">)</span><span class="w"> </span><span class="c"># CMake will fail if it is not found</span>
+</pre></div>
+</div>
+<p>Since 5.38.0.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ECMFindModuleHelpers.html"
+                          title="previous chapter">ECMFindModuleHelpers</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="ECMGenerateDBusServiceFile.html"
+                          title="next chapter">ECMGenerateDBusServiceFile</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/module/ECMFindQmlModule.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ECMGenerateDBusServiceFile.html" title="ECMGenerateDBusServiceFile"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ECMFindModuleHelpers.html" title="ECMFindModuleHelpers"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.240 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" >ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMFindQmlModule</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+global
+    include-dependencies true
+    branch-group kf5-qt5
+    cmake-toolchain /mnt/HDD/Project/Public/okulartry/kobo.cmake
+    
+    qtdir /home/build/inkbox/compiled-binaries/qt-bin/
+
+    kdedir /mnt/HDD/Project/Public/okulartry/okular-things
+
+    branch-group kf5-qt5
+
+    # These values should be set to the number of cores to use during build (if
+    # in doubt, run "nproc" to see how many cores you have)
+    num-cores 8
+
+    # This is the same as above but used for heavyweight modules like
+    # qtwebengine, though you can use it for modules yourself. A conservative
+    # thumbrule is one core for every 2 GiB of total memory.
+    num-cores-low-mem 2
+end global

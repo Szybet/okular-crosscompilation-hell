@@ -1,0 +1,542 @@
+[
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbase.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbase.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbase.c.o -c ../subprojects/freetype2/src/base/ftbase.c",
+    "file": "../subprojects/freetype2/src/base/ftbase.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbase.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftinit.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftinit.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftinit.c.o -c ../subprojects/freetype2/src/base/ftinit.c",
+    "file": "../subprojects/freetype2/src/base/ftinit.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftinit.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_truetype_truetype.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_truetype_truetype.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_truetype_truetype.c.o -c ../subprojects/freetype2/src/truetype/truetype.c",
+    "file": "../subprojects/freetype2/src/truetype/truetype.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_truetype_truetype.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_type1_type1.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_type1_type1.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_type1_type1.c.o -c ../subprojects/freetype2/src/type1/type1.c",
+    "file": "../subprojects/freetype2/src/type1/type1.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_type1_type1.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_cff_cff.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_cff_cff.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_cff_cff.c.o -c ../subprojects/freetype2/src/cff/cff.c",
+    "file": "../subprojects/freetype2/src/cff/cff.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_cff_cff.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_cid_type1cid.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_cid_type1cid.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_cid_type1cid.c.o -c ../subprojects/freetype2/src/cid/type1cid.c",
+    "file": "../subprojects/freetype2/src/cid/type1cid.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_cid_type1cid.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_pfr_pfr.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_pfr_pfr.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_pfr_pfr.c.o -c ../subprojects/freetype2/src/pfr/pfr.c",
+    "file": "../subprojects/freetype2/src/pfr/pfr.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_pfr_pfr.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_type42_type42.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_type42_type42.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_type42_type42.c.o -c ../subprojects/freetype2/src/type42/type42.c",
+    "file": "../subprojects/freetype2/src/type42/type42.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_type42_type42.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_winfonts_winfnt.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_winfonts_winfnt.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_winfonts_winfnt.c.o -c ../subprojects/freetype2/src/winfonts/winfnt.c",
+    "file": "../subprojects/freetype2/src/winfonts/winfnt.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_winfonts_winfnt.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_pcf_pcf.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_pcf_pcf.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_pcf_pcf.c.o -c ../subprojects/freetype2/src/pcf/pcf.c",
+    "file": "../subprojects/freetype2/src/pcf/pcf.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_pcf_pcf.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_bdf_bdf.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_bdf_bdf.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_bdf_bdf.c.o -c ../subprojects/freetype2/src/bdf/bdf.c",
+    "file": "../subprojects/freetype2/src/bdf/bdf.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_bdf_bdf.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_sfnt_sfnt.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_sfnt_sfnt.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_sfnt_sfnt.c.o -c ../subprojects/freetype2/src/sfnt/sfnt.c",
+    "file": "../subprojects/freetype2/src/sfnt/sfnt.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_sfnt_sfnt.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_autofit_autofit.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_autofit_autofit.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_autofit_autofit.c.o -c ../subprojects/freetype2/src/autofit/autofit.c",
+    "file": "../subprojects/freetype2/src/autofit/autofit.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_autofit_autofit.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_pshinter_pshinter.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_pshinter_pshinter.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_pshinter_pshinter.c.o -c ../subprojects/freetype2/src/pshinter/pshinter.c",
+    "file": "../subprojects/freetype2/src/pshinter/pshinter.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_pshinter_pshinter.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_smooth_smooth.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_smooth_smooth.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_smooth_smooth.c.o -c ../subprojects/freetype2/src/smooth/smooth.c",
+    "file": "../subprojects/freetype2/src/smooth/smooth.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_smooth_smooth.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_raster_raster.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_raster_raster.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_raster_raster.c.o -c ../subprojects/freetype2/src/raster/raster.c",
+    "file": "../subprojects/freetype2/src/raster/raster.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_raster_raster.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_svg_svg.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_svg_svg.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_svg_svg.c.o -c ../subprojects/freetype2/src/svg/svg.c",
+    "file": "../subprojects/freetype2/src/svg/svg.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_svg_svg.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_sdf_sdf.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_sdf_sdf.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_sdf_sdf.c.o -c ../subprojects/freetype2/src/sdf/sdf.c",
+    "file": "../subprojects/freetype2/src/sdf/sdf.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_sdf_sdf.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_cache_ftcache.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_cache_ftcache.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_cache_ftcache.c.o -c ../subprojects/freetype2/src/cache/ftcache.c",
+    "file": "../subprojects/freetype2/src/cache/ftcache.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_cache_ftcache.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_gzip_ftgzip.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_gzip_ftgzip.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_gzip_ftgzip.c.o -c ../subprojects/freetype2/src/gzip/ftgzip.c",
+    "file": "../subprojects/freetype2/src/gzip/ftgzip.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_gzip_ftgzip.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_lzw_ftlzw.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_lzw_ftlzw.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_lzw_ftlzw.c.o -c ../subprojects/freetype2/src/lzw/ftlzw.c",
+    "file": "../subprojects/freetype2/src/lzw/ftlzw.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_lzw_ftlzw.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_psaux_psaux.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_psaux_psaux.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_psaux_psaux.c.o -c ../subprojects/freetype2/src/psaux/psaux.c",
+    "file": "../subprojects/freetype2/src/psaux/psaux.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_psaux_psaux.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_psnames_psnames.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_psnames_psnames.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_psnames_psnames.c.o -c ../subprojects/freetype2/src/psnames/psnames.c",
+    "file": "../subprojects/freetype2/src/psnames/psnames.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_psnames_psnames.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbbox.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbbox.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbbox.c.o -c ../subprojects/freetype2/src/base/ftbbox.c",
+    "file": "../subprojects/freetype2/src/base/ftbbox.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbbox.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbdf.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbdf.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbdf.c.o -c ../subprojects/freetype2/src/base/ftbdf.c",
+    "file": "../subprojects/freetype2/src/base/ftbdf.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbdf.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbitmap.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbitmap.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbitmap.c.o -c ../subprojects/freetype2/src/base/ftbitmap.c",
+    "file": "../subprojects/freetype2/src/base/ftbitmap.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftbitmap.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftcid.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftcid.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftcid.c.o -c ../subprojects/freetype2/src/base/ftcid.c",
+    "file": "../subprojects/freetype2/src/base/ftcid.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftcid.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftfstype.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftfstype.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftfstype.c.o -c ../subprojects/freetype2/src/base/ftfstype.c",
+    "file": "../subprojects/freetype2/src/base/ftfstype.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftfstype.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgasp.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgasp.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgasp.c.o -c ../subprojects/freetype2/src/base/ftgasp.c",
+    "file": "../subprojects/freetype2/src/base/ftgasp.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgasp.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftglyph.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftglyph.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftglyph.c.o -c ../subprojects/freetype2/src/base/ftglyph.c",
+    "file": "../subprojects/freetype2/src/base/ftglyph.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftglyph.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgxval.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgxval.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgxval.c.o -c ../subprojects/freetype2/src/base/ftgxval.c",
+    "file": "../subprojects/freetype2/src/base/ftgxval.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftgxval.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftmm.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftmm.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftmm.c.o -c ../subprojects/freetype2/src/base/ftmm.c",
+    "file": "../subprojects/freetype2/src/base/ftmm.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftmm.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftotval.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftotval.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftotval.c.o -c ../subprojects/freetype2/src/base/ftotval.c",
+    "file": "../subprojects/freetype2/src/base/ftotval.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftotval.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpatent.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpatent.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpatent.c.o -c ../subprojects/freetype2/src/base/ftpatent.c",
+    "file": "../subprojects/freetype2/src/base/ftpatent.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpatent.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpfr.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpfr.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpfr.c.o -c ../subprojects/freetype2/src/base/ftpfr.c",
+    "file": "../subprojects/freetype2/src/base/ftpfr.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftpfr.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftstroke.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftstroke.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftstroke.c.o -c ../subprojects/freetype2/src/base/ftstroke.c",
+    "file": "../subprojects/freetype2/src/base/ftstroke.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftstroke.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftsynth.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftsynth.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftsynth.c.o -c ../subprojects/freetype2/src/base/ftsynth.c",
+    "file": "../subprojects/freetype2/src/base/ftsynth.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftsynth.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_fttype1.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_fttype1.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_fttype1.c.o -c ../subprojects/freetype2/src/base/fttype1.c",
+    "file": "../subprojects/freetype2/src/base/fttype1.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_fttype1.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftwinfnt.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftwinfnt.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftwinfnt.c.o -c ../subprojects/freetype2/src/base/ftwinfnt.c",
+    "file": "../subprojects/freetype2/src/base/ftwinfnt.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftwinfnt.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/builds_unix_ftsystem.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/builds_unix_ftsystem.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/builds_unix_ftsystem.c.o -c ../subprojects/freetype2/builds/unix/ftsystem.c",
+    "file": "../subprojects/freetype2/builds/unix/ftsystem.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/builds_unix_ftsystem.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftdebug.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftdebug.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftdebug.c.o -c ../subprojects/freetype2/src/base/ftdebug.c",
+    "file": "../subprojects/freetype2/src/base/ftdebug.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_base_ftdebug.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isubprojects/freetype2/libfreetype.so.6.19.0.p -Isubprojects/freetype2 -I../subprojects/freetype2 -I../subprojects/freetype2/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include/libpng16 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -Wl,--start-group -lrt -Wl,--end-group -fPIC '-DFT_CONFIG_MODULES_H=<ftmodule.h>' -DFT2_BUILD_LIBRARY=1 '-DFT_CONFIG_OPTIONS_H=<ftoption.h>' '-DFT_CONFIG_CONFIG_H=<ftconfig.h>' -MD -MQ subprojects/freetype2/libfreetype.so.6.19.0.p/src_bzip2_ftbzip2.c.o -MF subprojects/freetype2/libfreetype.so.6.19.0.p/src_bzip2_ftbzip2.c.o.d -o subprojects/freetype2/libfreetype.so.6.19.0.p/src_bzip2_ftbzip2.c.o -c ../subprojects/freetype2/src/bzip2/ftbzip2.c",
+    "file": "../subprojects/freetype2/src/bzip2/ftbzip2.c",
+    "output": "subprojects/freetype2/libfreetype.so.6.19.0.p/src_bzip2_ftbzip2.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcatomic.c.o -MF src/libfontconfig.so.1.13.0.p/fcatomic.c.o.d -o src/libfontconfig.so.1.13.0.p/fcatomic.c.o -c ../src/fcatomic.c",
+    "file": "../src/fcatomic.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcatomic.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fccache.c.o -MF src/libfontconfig.so.1.13.0.p/fccache.c.o.d -o src/libfontconfig.so.1.13.0.p/fccache.c.o -c ../src/fccache.c",
+    "file": "../src/fccache.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fccache.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fccfg.c.o -MF src/libfontconfig.so.1.13.0.p/fccfg.c.o.d -o src/libfontconfig.so.1.13.0.p/fccfg.c.o -c ../src/fccfg.c",
+    "file": "../src/fccfg.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fccfg.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fccharset.c.o -MF src/libfontconfig.so.1.13.0.p/fccharset.c.o.d -o src/libfontconfig.so.1.13.0.p/fccharset.c.o -c ../src/fccharset.c",
+    "file": "../src/fccharset.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fccharset.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fccompat.c.o -MF src/libfontconfig.so.1.13.0.p/fccompat.c.o.d -o src/libfontconfig.so.1.13.0.p/fccompat.c.o -c ../src/fccompat.c",
+    "file": "../src/fccompat.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fccompat.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcdbg.c.o -MF src/libfontconfig.so.1.13.0.p/fcdbg.c.o.d -o src/libfontconfig.so.1.13.0.p/fcdbg.c.o -c ../src/fcdbg.c",
+    "file": "../src/fcdbg.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcdbg.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcdefault.c.o -MF src/libfontconfig.so.1.13.0.p/fcdefault.c.o.d -o src/libfontconfig.so.1.13.0.p/fcdefault.c.o -c ../src/fcdefault.c",
+    "file": "../src/fcdefault.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcdefault.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcdir.c.o -MF src/libfontconfig.so.1.13.0.p/fcdir.c.o.d -o src/libfontconfig.so.1.13.0.p/fcdir.c.o -c ../src/fcdir.c",
+    "file": "../src/fcdir.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcdir.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcformat.c.o -MF src/libfontconfig.so.1.13.0.p/fcformat.c.o.d -o src/libfontconfig.so.1.13.0.p/fcformat.c.o -c ../src/fcformat.c",
+    "file": "../src/fcformat.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcformat.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcfreetype.c.o -MF src/libfontconfig.so.1.13.0.p/fcfreetype.c.o.d -o src/libfontconfig.so.1.13.0.p/fcfreetype.c.o -c ../src/fcfreetype.c",
+    "file": "../src/fcfreetype.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcfreetype.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcfs.c.o -MF src/libfontconfig.so.1.13.0.p/fcfs.c.o.d -o src/libfontconfig.so.1.13.0.p/fcfs.c.o -c ../src/fcfs.c",
+    "file": "../src/fcfs.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcfs.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcptrlist.c.o -MF src/libfontconfig.so.1.13.0.p/fcptrlist.c.o.d -o src/libfontconfig.so.1.13.0.p/fcptrlist.c.o -c ../src/fcptrlist.c",
+    "file": "../src/fcptrlist.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcptrlist.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fchash.c.o -MF src/libfontconfig.so.1.13.0.p/fchash.c.o.d -o src/libfontconfig.so.1.13.0.p/fchash.c.o -c ../src/fchash.c",
+    "file": "../src/fchash.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fchash.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcinit.c.o -MF src/libfontconfig.so.1.13.0.p/fcinit.c.o.d -o src/libfontconfig.so.1.13.0.p/fcinit.c.o -c ../src/fcinit.c",
+    "file": "../src/fcinit.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcinit.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fclang.c.o -MF src/libfontconfig.so.1.13.0.p/fclang.c.o.d -o src/libfontconfig.so.1.13.0.p/fclang.c.o -c ../src/fclang.c",
+    "file": "../src/fclang.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fclang.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fclist.c.o -MF src/libfontconfig.so.1.13.0.p/fclist.c.o.d -o src/libfontconfig.so.1.13.0.p/fclist.c.o -c ../src/fclist.c",
+    "file": "../src/fclist.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fclist.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcmatch.c.o -MF src/libfontconfig.so.1.13.0.p/fcmatch.c.o.d -o src/libfontconfig.so.1.13.0.p/fcmatch.c.o -c ../src/fcmatch.c",
+    "file": "../src/fcmatch.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcmatch.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcmatrix.c.o -MF src/libfontconfig.so.1.13.0.p/fcmatrix.c.o.d -o src/libfontconfig.so.1.13.0.p/fcmatrix.c.o -c ../src/fcmatrix.c",
+    "file": "../src/fcmatrix.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcmatrix.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcname.c.o -MF src/libfontconfig.so.1.13.0.p/fcname.c.o.d -o src/libfontconfig.so.1.13.0.p/fcname.c.o -c ../src/fcname.c",
+    "file": "../src/fcname.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcname.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcobjs.c.o -MF src/libfontconfig.so.1.13.0.p/fcobjs.c.o.d -o src/libfontconfig.so.1.13.0.p/fcobjs.c.o -c ../src/fcobjs.c",
+    "file": "../src/fcobjs.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcobjs.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcpat.c.o -MF src/libfontconfig.so.1.13.0.p/fcpat.c.o.d -o src/libfontconfig.so.1.13.0.p/fcpat.c.o -c ../src/fcpat.c",
+    "file": "../src/fcpat.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcpat.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcrange.c.o -MF src/libfontconfig.so.1.13.0.p/fcrange.c.o.d -o src/libfontconfig.so.1.13.0.p/fcrange.c.o -c ../src/fcrange.c",
+    "file": "../src/fcrange.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcrange.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcserialize.c.o -MF src/libfontconfig.so.1.13.0.p/fcserialize.c.o.d -o src/libfontconfig.so.1.13.0.p/fcserialize.c.o -c ../src/fcserialize.c",
+    "file": "../src/fcserialize.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcserialize.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcstat.c.o -MF src/libfontconfig.so.1.13.0.p/fcstat.c.o.d -o src/libfontconfig.so.1.13.0.p/fcstat.c.o -c ../src/fcstat.c",
+    "file": "../src/fcstat.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcstat.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcstr.c.o -MF src/libfontconfig.so.1.13.0.p/fcstr.c.o.d -o src/libfontconfig.so.1.13.0.p/fcstr.c.o -c ../src/fcstr.c",
+    "file": "../src/fcstr.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcstr.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcweight.c.o -MF src/libfontconfig.so.1.13.0.p/fcweight.c.o.d -o src/libfontconfig.so.1.13.0.p/fcweight.c.o -c ../src/fcweight.c",
+    "file": "../src/fcweight.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcweight.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/fcxml.c.o -MF src/libfontconfig.so.1.13.0.p/fcxml.c.o.d -o src/libfontconfig.so.1.13.0.p/fcxml.c.o -c ../src/fcxml.c",
+    "file": "../src/fcxml.c",
+    "output": "src/libfontconfig.so.1.13.0.p/fcxml.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Isrc/libfontconfig.so.1.13.0.p -Isrc -I../src -I. -I.. -I../subprojects/freetype2/include -Ifc-lang -Ifc-case -I/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -fPIC -pthread -MD -MQ src/libfontconfig.so.1.13.0.p/ftglue.c.o -MF src/libfontconfig.so.1.13.0.p/ftglue.c.o.d -o src/libfontconfig.so.1.13.0.p/ftglue.c.o -c ../src/ftglue.c",
+    "file": "../src/ftglue.c",
+    "output": "src/libfontconfig.so.1.13.0.p/ftglue.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-cache/fc-cache.p -Ifc-cache -I../fc-cache -I. -I.. -Isrc -I../src -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-cache/fc-cache.p/fc-cache.c.o -MF fc-cache/fc-cache.p/fc-cache.c.o.d -o fc-cache/fc-cache.p/fc-cache.c.o -c ../fc-cache/fc-cache.c",
+    "file": "../fc-cache/fc-cache.c",
+    "output": "fc-cache/fc-cache.p/fc-cache.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-cat/fc-cat.p -Ifc-cat -I../fc-cat -I. -I.. -Isrc -I../src -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-cat/fc-cat.p/fc-cat.c.o -MF fc-cat/fc-cat.p/fc-cat.c.o.d -o fc-cat/fc-cat.p/fc-cat.c.o -c ../fc-cat/fc-cat.c",
+    "file": "../fc-cat/fc-cat.c",
+    "output": "fc-cat/fc-cat.p/fc-cat.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-conflist/fc-conflist.p -Ifc-conflist -I../fc-conflist -I. -I.. -Isrc -I../src -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-conflist/fc-conflist.p/fc-conflist.c.o -MF fc-conflist/fc-conflist.p/fc-conflist.c.o.d -o fc-conflist/fc-conflist.p/fc-conflist.c.o -c ../fc-conflist/fc-conflist.c",
+    "file": "../fc-conflist/fc-conflist.c",
+    "output": "fc-conflist/fc-conflist.p/fc-conflist.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-list/fc-list.p -Ifc-list -I../fc-list -I. -I.. -Isrc -I../src -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-list/fc-list.p/fc-list.c.o -MF fc-list/fc-list.p/fc-list.c.o.d -o fc-list/fc-list.p/fc-list.c.o -c ../fc-list/fc-list.c",
+    "file": "../fc-list/fc-list.c",
+    "output": "fc-list/fc-list.p/fc-list.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-match/fc-match.p -Ifc-match -I../fc-match -I. -I.. -Isrc -I../src -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-match/fc-match.p/fc-match.c.o -MF fc-match/fc-match.p/fc-match.c.o.d -o fc-match/fc-match.p/fc-match.c.o -c ../fc-match/fc-match.c",
+    "file": "../fc-match/fc-match.c",
+    "output": "fc-match/fc-match.p/fc-match.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-pattern/fc-pattern.p -Ifc-pattern -I../fc-pattern -I. -I.. -Isrc -I../src -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-pattern/fc-pattern.p/fc-pattern.c.o -MF fc-pattern/fc-pattern.p/fc-pattern.c.o.d -o fc-pattern/fc-pattern.p/fc-pattern.c.o -c ../fc-pattern/fc-pattern.c",
+    "file": "../fc-pattern/fc-pattern.c",
+    "output": "fc-pattern/fc-pattern.p/fc-pattern.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-query/fc-query.p -Ifc-query -I../fc-query -I. -I.. -Isrc -I../src -I../subprojects/freetype2/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-query/fc-query.p/fc-query.c.o -MF fc-query/fc-query.p/fc-query.c.o.d -o fc-query/fc-query.p/fc-query.c.o -c ../fc-query/fc-query.c",
+    "file": "../fc-query/fc-query.c",
+    "output": "fc-query/fc-query.p/fc-query.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-scan/fc-scan.p -Ifc-scan -I../fc-scan -I. -I.. -Isrc -I../src -I../subprojects/freetype2/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-scan/fc-scan.p/fc-scan.c.o -MF fc-scan/fc-scan.p/fc-scan.c.o.d -o fc-scan/fc-scan.p/fc-scan.c.o -c ../fc-scan/fc-scan.c",
+    "file": "../fc-scan/fc-scan.c",
+    "output": "fc-scan/fc-scan.p/fc-scan.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Ifc-validate/fc-validate.p -Ifc-validate -I../fc-validate -I. -I.. -Isrc -I../src -I../subprojects/freetype2/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ fc-validate/fc-validate.p/fc-validate.c.o -MF fc-validate/fc-validate.p/fc-validate.c.o.d -o fc-validate/fc-validate.p/fc-validate.c.o -c ../fc-validate/fc-validate.c",
+    "file": "../fc-validate/fc-validate.c",
+    "output": "fc-validate/fc-validate.p/fc-validate.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_bz89617.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group '-DSRCDIR=\"/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/test\"' -MD -MQ test/test_bz89617.p/test-bz89617.c.o -MF test/test_bz89617.p/test-bz89617.c.o.d -o test/test_bz89617.p/test-bz89617.c.o -c ../test/test-bz89617.c",
+    "file": "../test/test-bz89617.c",
+    "output": "test/test_bz89617.p/test-bz89617.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_bz131804.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_bz131804.p/test-bz131804.c.o -MF test/test_bz131804.p/test-bz131804.c.o.d -o test/test_bz131804.p/test-bz131804.c.o -c ../test/test-bz131804.c",
+    "file": "../test/test-bz131804.c",
+    "output": "test/test_bz131804.p/test-bz131804.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_bz96676.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_bz96676.p/test-bz96676.c.o -MF test/test_bz96676.p/test-bz96676.c.o.d -o test/test_bz96676.p/test-bz96676.c.o -c ../test/test-bz96676.c",
+    "file": "../test/test-bz96676.c",
+    "output": "test/test_bz96676.p/test-bz96676.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_name_parse.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_name_parse.p/test-name-parse.c.o -MF test/test_name_parse.p/test-name-parse.c.o.d -o test/test_name_parse.p/test-name-parse.c.o -c ../test/test-name-parse.c",
+    "file": "../test/test-name-parse.c",
+    "output": "test/test_name_parse.p/test-name-parse.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_bz106618.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_bz106618.p/test-bz106618.c.o -MF test/test_bz106618.p/test-bz106618.c.o.d -o test/test_bz106618.p/test-bz106618.c.o -c ../test/test-bz106618.c",
+    "file": "../test/test-bz106618.c",
+    "output": "test/test_bz106618.p/test-bz106618.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_bz1744377.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_bz1744377.p/test-bz1744377.c.o -MF test/test_bz1744377.p/test-bz1744377.c.o.d -o test/test_bz1744377.p/test-bz1744377.c.o -c ../test/test-bz1744377.c",
+    "file": "../test/test-bz1744377.c",
+    "output": "test/test_bz1744377.p/test-bz1744377.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_issue180.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_issue180.p/test-issue180.c.o -MF test/test_issue180.p/test-issue180.c.o.d -o test/test_issue180.p/test-issue180.c.o -c ../test/test-issue180.c",
+    "file": "../test/test-issue180.c",
+    "output": "test/test_issue180.p/test-issue180.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_family_matching.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_family_matching.p/test-family-matching.c.o -MF test/test_family_matching.p/test-family-matching.c.o.d -o test/test_family_matching.p/test-family-matching.c.o -c ../test/test-family-matching.c",
+    "file": "../test/test-family-matching.c",
+    "output": "test/test_family_matching.p/test-family-matching.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_bz106632.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group '-DFONTFILE=\"/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/test/4x6.pcf\"' -MD -MQ test/test_bz106632.p/test-bz106632.c.o -MF test/test_bz106632.p/test-bz106632.c.o.d -o test/test_bz106632.p/test-bz106632.c.o -c ../test/test-bz106632.c",
+    "file": "../test/test-bz106632.c",
+    "output": "test/test_bz106632.p/test-bz106632.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_issue107.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -MD -MQ test/test_issue107.p/test-issue107.c.o -MF test/test_issue107.p/test-issue107.c.o.d -o test/test_issue107.p/test-issue107.c.o -c ../test/test-issue107.c",
+    "file": "../test/test-issue107.c",
+    "output": "test/test_issue107.p/test-issue107.c.o"
+  },
+  {
+    "directory": "/mnt/HDD/Project/Public/okulartry/pdf/fontconfig/build",
+    "command": "arm-kobo-linux-gnueabihf-gcc -Itest/test_crbug1004254.p -Itest -I../test -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -DHAVE_CONFIG_H -Wl,--start-group -lrt -Wl,--end-group -pthread -MD -MQ test/test_crbug1004254.p/test-crbug1004254.c.o -MF test/test_crbug1004254.p/test-crbug1004254.c.o.d -o test/test_crbug1004254.p/test-crbug1004254.c.o -c ../test/test-crbug1004254.c",
+    "file": "../test/test-crbug1004254.c",
+    "output": "test/test_crbug1004254.p/test-crbug1004254.c.o"
+  }
+]
