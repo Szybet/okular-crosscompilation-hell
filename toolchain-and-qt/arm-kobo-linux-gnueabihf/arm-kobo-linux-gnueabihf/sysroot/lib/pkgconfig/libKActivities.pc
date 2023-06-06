@@ -1,0 +1,13 @@
+
+prefix=/mnt/HDD/Project/Public/okulartry/okular-things
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/KF5/KActivities
+
+Name: KF5Activities
+Description: libKActivities is a C++ library for using KDE activities
+URL: https://www.kde.org/
+Version: 5.107.0
+Libs: -L${prefix}/lib -lKF5Activities
+Cflags: -I${prefix}/include/KF5/KActivities 
+Requires: Qt5Core

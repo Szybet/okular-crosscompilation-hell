@@ -1,0 +1,10 @@
+prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+libdir=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib
+includedir=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+
+Name: poppler
+Description: PDF rendering library
+Version: 23.05.0
+
+Libs: -L${libdir} -lpoppler
+Cflags: -I${includedir}/poppler

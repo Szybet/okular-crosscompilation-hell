@@ -1,0 +1,12 @@
+QT.KHtml.VERSION = 5.107.0
+QT.KHtml.MAJOR_VERSION = 5
+QT.KHtml.MINOR_VERSION = 107
+QT.KHtml.PATCH_VERSION = 0
+QT.KHtml.name = KF5KHtml
+QT.KHtml.module = KF5KHtml
+QT.KHtml.defines = 
+QT.KHtml.includes =  $$PWD/../../include/KF5/KHtml
+QT.KHtml.private_includes =
+QT.KHtml.libs = $$PWD/../../lib
+QT.KHtml.depends = gui KIOCore KJS KI18n KParts
+QT.KHtml.module_config = 

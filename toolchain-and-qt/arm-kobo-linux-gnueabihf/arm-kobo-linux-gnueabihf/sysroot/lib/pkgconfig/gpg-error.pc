@@ -1,0 +1,15 @@
+prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+host=arm-unknown-linux-gnueabihf
+mtcflags=
+mtlibs=-pthread
+
+Name: gpg-error
+Description: GPG Runtime
+Version: 1.47-unknown
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgpg-error
+Libs.private: 
+URL: https://www.gnupg.org/software/libgpg-error/index.html

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ECMDeprecationSettings &#8212; Extra CMake Modules 5.107.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/ecm.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    
+    <link rel="icon" href="../_static/kde-favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ECMEnableSanitizers" href="ECMEnableSanitizers.html" />
+    <link rel="prev" title="ECMCreateQmFromPoFiles" href="ECMCreateQmFromPoFiles.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ECMEnableSanitizers.html" title="ECMEnableSanitizers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ECMCreateQmFromPoFiles.html" title="ECMCreateQmFromPoFiles"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.107 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" accesskey="U">ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMDeprecationSettings</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="ecmdeprecationsettings">
+<span id="module:ECMDeprecationSettings"></span><h1>ECMDeprecationSettings<a class="headerlink" href="#ecmdeprecationsettings" title="Permalink to this heading">¶</a></h1>
+<p>This module provides the <code class="docutils literal notranslate"><span class="pre">ecm_set_disabled_deprecation_versions</span></code> function setting the excluding
+deprecated API for Qt and KF projects.</p>
+<p>This method expects pairs of the identifier and deprecation version.
+For the identifier <code class="docutils literal notranslate"><span class="pre">QT</span></code> this functions adds the definition <code class="docutils literal notranslate"><span class="pre">QT_DISABLE_DEPRECATED_BEFORE</span></code> with the given version in a hexadecimal format.
+Otherwise the name for the definition is generated using <code class="docutils literal notranslate"><span class="pre">${IDENTIFIER}_DISABLE_DEPRECATED_BEFORE_AND_AT</span></code>,
+following the naming of the generated code in <a class="reference internal" href="ECMGenerateExportHeader.html#module:ECMGenerateExportHeader" title="ECMGenerateExportHeader"><code class="xref ecm ecm-module docutils literal notranslate"><span class="pre">ECMGenerateExportHeader</span></code></a>.
+The version for the definition can be overwritten, by passing definition name and the deprecation version
+as a CMake definition. This allows one to exclude deprecations without having to edit the CMakeLists.txt file.</p>
+<p>This module provides the following function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ecm_set_disabled_deprecation_versions</span><span class="p">(</span>
+    <span class="p">[</span><span class="n">DISABLE_NEWER_WARNINGS</span><span class="p">]</span> <span class="c1"># since 5.96</span>
+    <span class="p">[</span><span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">deprecation_version</span><span class="o">&gt;</span><span class="p">]</span>
+    <span class="p">[</span><span class="o">&lt;</span><span class="n">identifier2</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">deprecation_version2</span><span class="o">&gt;</span><span class="p">]</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">DISABLE_NEWER_WARNINGS</span></code> disables additionally the compiler warnings for API deprecated in newer versions
+of the same major version.</p>
+<p>Example usage:</p>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nb">set</span><span class="p">(</span><span class="s">QT_MIN_VERSION</span><span class="w"> </span><span class="s2">&quot;5.15.2&quot;</span><span class="p">)</span>
+<span class="nb">set</span><span class="p">(</span><span class="s">KF5_MIN_VERSION</span><span class="w"> </span><span class="s2">&quot;5.90&quot;</span><span class="p">)</span>
+
+<span class="nb">ecm_set_disabled_deprecation_versions</span><span class="p">(</span>
+<span class="w">  </span><span class="s">QT</span><span class="w"> </span><span class="o">${</span><span class="nv">QT_MIN_VERSION</span><span class="o">}</span>
+<span class="w">  </span><span class="s">KF</span><span class="w"> </span><span class="o">${</span><span class="nv">KF5_MIN_VERSION</span><span class="o">}</span>
+<span class="w">  </span><span class="s">KCOREADDONS</span><span class="w"> </span><span class="s">5.89.0</span><span class="w"> </span><span class="c"># In case we depend on deprecated KCoreAddons API</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Since 5.91</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ECMCreateQmFromPoFiles.html"
+                          title="previous chapter">ECMCreateQmFromPoFiles</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="ECMEnableSanitizers.html"
+                          title="next chapter">ECMEnableSanitizers</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/module/ECMDeprecationSettings.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ECMEnableSanitizers.html" title="ECMEnableSanitizers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ECMCreateQmFromPoFiles.html" title="ECMCreateQmFromPoFiles"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ECM 5.107 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../manual/ecm-modules.7.html" >ecm-modules(7)</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ECMDeprecationSettings</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright KDE Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+  </body>
+</html>
